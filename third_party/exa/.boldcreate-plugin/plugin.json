@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "exa",
+  "displayName": "Exa",
+  "version": "0.7.1",
+  "description": "Search the web and fetch page content with Exa.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/exa-labs/exa-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "search",
+  "keywords": [
+    "exa",
+    "web",
+    "search",
+    "research",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/exa-labs/exa-mcp-server",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "exa",
+        "transport": "streamable-http",
+        "url": "https://mcp.exa.ai/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (exa-labs/exa-mcp-server at 93c0d5e)"
+  }
+}

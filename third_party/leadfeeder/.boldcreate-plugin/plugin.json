@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "leadfeeder",
+  "displayName": "Leadfeeder",
+  "version": "0.7.1",
+  "description": "Look up companies that visit your website with Leadfeeder.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/Leadfeeder/leadfeeder-mcp-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "sales",
+  "keywords": [
+    "leadfeeder",
+    "dealfront",
+    "leads",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/Leadfeeder/leadfeeder-mcp-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "leadfeeder",
+        "transport": "streamable-http",
+        "url": "https://mcp.leadfeeder.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (Leadfeeder/leadfeeder-mcp-plugin at cddf27f)"
+  }
+}

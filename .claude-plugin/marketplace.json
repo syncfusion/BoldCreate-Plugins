@@ -48,6 +48,11 @@
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
     },
     {
+      "name": "exa",
+      "source": "./third_party/exa",
+      "description": "Search the web and fetch page content with Exa."
+    },
+    {
       "name": "figma",
       "source": "./third_party/figma",
       "description": "Turn Figma frames into code and read design tokens, components, and variables."
@@ -203,6 +208,11 @@
       "description": "Search across Gmail, Drive, Calendar, and other Google Workspace content in one place."
     },
     {
+      "name": "govtribe",
+      "source": "./third_party/govtribe",
+      "description": "Search US government contract opportunities and awards in GovTribe."
+    },
+    {
       "name": "hunter",
       "source": "./third_party/hunter",
       "description": "Find and verify professional email addresses with Hunter."
@@ -216,6 +226,11 @@
       "name": "intercom",
       "source": "./third_party/intercom",
       "description": "Search Intercom conversations, contacts, and help center articles."
+    },
+    {
+      "name": "leadfeeder",
+      "source": "./third_party/leadfeeder",
+      "description": "Look up companies that visit your website with Leadfeeder."
     },
     {
       "name": "linear",

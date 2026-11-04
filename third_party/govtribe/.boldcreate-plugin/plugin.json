@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "govtribe",
+  "displayName": "GovTribe",
+  "version": "0.7.1",
+  "description": "Search US government contract opportunities and awards in GovTribe.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/GovTribe/claude-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "sales",
+  "keywords": [
+    "govtribe",
+    "government",
+    "contracts",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/GovTribe/claude-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "govtribe",
+        "transport": "streamable-http",
+        "url": "https://govtribe.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (GovTribe/claude-plugin at 41cb943)"
+  }
+}

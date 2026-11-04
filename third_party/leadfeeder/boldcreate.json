@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "A",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/Leadfeeder/leadfeeder-mcp-plugin",
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (Leadfeeder/leadfeeder-mcp-plugin at cddf27f)"
+  }
+}

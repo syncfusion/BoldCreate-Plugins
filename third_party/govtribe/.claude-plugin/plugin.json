@@ -1,0 +1,25 @@
+{
+  "name": "govtribe",
+  "displayName": "GovTribe",
+  "version": "0.7.1",
+  "description": "Search US government contract opportunities and awards in GovTribe.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/GovTribe/claude-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "govtribe",
+    "government",
+    "contracts",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "govtribe": {
+      "type": "http",
+      "url": "https://govtribe.com/mcp"
+    }
+  }
+}

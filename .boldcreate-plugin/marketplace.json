@@ -200,6 +200,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "exa",
+      "displayName": "Exa",
+      "version": "0.7.1",
+      "description": "Search the web and fetch page content with Exa.",
+      "source": "third_party/exa",
+      "logo": "third_party/exa/assets/logo.svg",
+      "category": "search",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "figma",
       "displayName": "Figma",
       "version": "0.7.0",
@@ -944,6 +968,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "govtribe",
+      "displayName": "GovTribe",
+      "version": "0.7.1",
+      "description": "Search US government contract opportunities and awards in GovTribe.",
+      "source": "third_party/govtribe",
+      "logo": "third_party/govtribe/assets/logo.svg",
+      "category": "sales",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "hunter",
       "displayName": "Hunter",
       "version": "0.7.1",
@@ -999,6 +1047,30 @@
       "source": "third_party/intercom",
       "logo": "third_party/intercom/assets/logo.svg",
       "category": "customer-support",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "leadfeeder",
+      "displayName": "Leadfeeder",
+      "version": "0.7.1",
+      "description": "Look up companies that visit your website with Leadfeeder.",
+      "source": "third_party/leadfeeder",
+      "logo": "third_party/leadfeeder/assets/logo.svg",
+      "category": "sales",
       "components": [
         "mcp"
       ],
