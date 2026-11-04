@@ -33,7 +33,7 @@
   "components": {
     "mcp": [],
     "skills": [
-      "syncfusion-blazor-3D-charts",
+      "syncfusion-blazor-3d-charts",
       "syncfusion-blazor-accordion",
       "syncfusion-blazor-accumulation-chart",
       "syncfusion-blazor-ai-assistview",
