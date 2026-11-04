@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "perplexity": {
+      "type": "http",
+      "url": "https://docs.perplexity.ai/mcp"
+    }
+  }
+}

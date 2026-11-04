@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "fireworks-ai",
+  "displayName": "Fireworks AI Docs",
+  "version": "0.1.0",
+  "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.fireworks.ai",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "documentation",
+  "keywords": [
+    "fireworks ai",
+    "inference",
+    "fine-tuning",
+    "llm",
+    "docs",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://docs.fireworks.ai",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "fireworks-ai",
+        "transport": "streamable-http",
+        "url": "https://docs.fireworks.ai/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "live initialize call"
+  }
+}

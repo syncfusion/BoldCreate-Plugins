@@ -38,6 +38,11 @@
       "description": "Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more."
     },
     {
+      "name": "cohere",
+      "source": "./third_party/cohere",
+      "description": "Search Cohere's official documentation for the Command and Embed models and the Cohere API."
+    },
+    {
       "name": "coingecko",
       "source": "./third_party/coingecko",
       "description": "Track cryptocurrency prices, markets, exchanges, and trending coins."
@@ -61,6 +66,11 @@
       "name": "figma",
       "source": "./third_party/figma",
       "description": "Turn Figma frames into code and read design tokens, components, and variables."
+    },
+    {
+      "name": "fireworks-ai",
+      "source": "./third_party/fireworks-ai",
+      "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models."
     },
     {
       "name": "gitea",
@@ -233,6 +243,16 @@
       "description": "Search, read, and update Notion pages and databases."
     },
     {
+      "name": "ollama",
+      "source": "./third_party/ollama",
+      "description": "Search Ollama's official documentation for running and serving local large language models."
+    },
+    {
+      "name": "perplexity",
+      "source": "./third_party/perplexity",
+      "description": "Search Perplexity's official Sonar and API documentation."
+    },
+    {
       "name": "posthog",
       "source": "./third_party/posthog",
       "description": "Query product analytics, manage feature flags, and investigate errors in PostHog."
@@ -341,6 +361,11 @@
       "name": "syncfusion-xamarin-to-maui",
       "source": "./syncfusion/migration-skills/xamarin-to-maui",
       "description": "Skills for moving Xamarin.Forms apps to .NET MAUI: project and framework changes, platform-specific code, renderers to handlers, and Syncfusion Xamarin controls to their .NET MAUI equivalents."
+    },
+    {
+      "name": "together-ai",
+      "source": "./third_party/together-ai",
+      "description": "Search Together AI's official documentation for models, inference, and fine-tuning."
     },
     {
       "name": "vercel",

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fireworks-ai": {
+      "type": "http",
+      "url": "https://docs.fireworks.ai/mcp"
+    }
+  }
+}
