@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "perplexity",
+  "displayName": "Perplexity Docs",
+  "version": "0.1.0",
+  "description": "Search Perplexity's official Sonar and API documentation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.perplexity.ai",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "documentation",
+  "keywords": [
+    "perplexity",
+    "sonar",
+    "ai",
+    "docs",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://docs.perplexity.ai",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "perplexity",
+        "transport": "streamable-http",
+        "url": "https://docs.perplexity.ai/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "live initialize call"
+  }
+}

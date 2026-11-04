@@ -153,6 +153,11 @@
       "source": "third_party/blackrock-advisor-center-plugin"
     },
     {
+      "name": "blockscout",
+      "description": "Query Ethereum and EVM blockchains: blocks, transactions, addresses, tokens, and smart contracts.",
+      "source": "third_party/blockscout"
+    },
+    {
       "name": "boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
       "source": "boldcreate-toolkit"
@@ -206,6 +211,21 @@
       "name": "cloudflare",
       "description": "Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server.",
       "source": "third_party/cloudflare"
+    },
+    {
+      "name": "cloudflare-docs",
+      "description": "Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more.",
+      "source": "third_party/cloudflare-docs"
+    },
+    {
+      "name": "cohere",
+      "description": "Search Cohere's official documentation for the Command and Embed models and the Cohere API.",
+      "source": "third_party/cohere"
+    },
+    {
+      "name": "coingecko",
+      "description": "Track cryptocurrency prices, markets, exchanges, and trending coins.",
+      "source": "third_party/coingecko"
     },
     {
       "name": "context7",
@@ -278,6 +298,11 @@
       "source": "third_party/exa"
     },
     {
+      "name": "excalidraw",
+      "description": "Create and edit hand-drawn style diagrams, wireframes, and sketches from text prompts.",
+      "source": "third_party/excalidraw"
+    },
+    {
       "name": "expo",
       "description": "Build, deploy, upgrade and debug Expo and React Native apps, including EAS.",
       "source": "third_party/expo"
@@ -301,6 +326,11 @@
       "name": "firecrawl",
       "description": "Search the web, read pages, and research documentation with Firecrawl.",
       "source": "third_party/firecrawl"
+    },
+    {
+      "name": "fireworks-ai",
+      "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models.",
+      "source": "third_party/fireworks-ai"
     },
     {
       "name": "gc-ai",
@@ -483,6 +513,11 @@
       "source": "third_party/honeycomb"
     },
     {
+      "name": "huggingface",
+      "description": "Search Hugging Face for models, datasets, and spaces.",
+      "source": "third_party/huggingface"
+    },
+    {
       "name": "hunter",
       "description": "Find and verify professional email addresses with Hunter.",
       "source": "third_party/hunter"
@@ -588,6 +623,11 @@
       "source": "third_party/notion"
     },
     {
+      "name": "ollama",
+      "description": "Search Ollama's official documentation for running and serving local large language models.",
+      "source": "third_party/ollama"
+    },
+    {
       "name": "outputai",
       "description": "Workflow development tools",
       "source": "third_party/outputai"
@@ -611,6 +651,11 @@
       "name": "pendo-orchestrate",
       "description": "Create, configure, and edit draft Orchestrate email journeys via Pendo MCP — multi-email journeys and conditional split flows.",
       "source": "third_party/pendo-orchestrate"
+    },
+    {
+      "name": "perplexity",
+      "description": "Search Perplexity's official Sonar and API documentation.",
+      "source": "third_party/perplexity"
     },
     {
       "name": "posthog",
@@ -841,6 +886,11 @@
       "name": "teamcity-cli",
       "description": "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI.",
       "source": "third_party/teamcity-cli"
+    },
+    {
+      "name": "together-ai",
+      "description": "Search Together AI's official documentation for models, inference, and fine-tuning.",
+      "source": "third_party/together-ai"
     },
     {
       "name": "togetherai-skills",

@@ -78,6 +78,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `azure-sql-developer` | [Azure SQL Developer](third_party/azure-sql-developer/) | Database | Agent skills for the Azure SQL Database container, the Azure SQL Database engine running locally. |
 | `bigquery-data-analytics` | [BigQuery Data Analytics](third_party/bigquery-data-analytics/) | Database | Connect, query, and generate data insights for BigQuery datasets and data. |
 | `blackrock-advisor-center-plugin` | [BlackRock Advisor Center](third_party/blackrock-advisor-center-plugin/) | Finance | BlackRock Advisor Center 360° skills for AC360 capability routing, guided benchmark selection, guided portfolio building, portfolio observations and opportunities, wealth projections, and portfolio |
+| `blockscout` | [Blockscout](third_party/blockscout/) | Blockchain | Query Ethereum and EVM blockchains: blocks, transactions, addresses, tokens, and smart contracts. |
 | `boltz` | [Boltz](third_party/boltz/) | Science | Predict structures, screen molecules and proteins, and design binders with Boltz. |
 | `box` | [Box](third_party/box/) | Storage | Skills and guardrails for Box Platform integrations: content workflows, shared links, CLI, SDK and MCP. |
 | `buildkite` | [Buildkite](third_party/buildkite/) | CI/CD | Work with Buildkite pipelines, builds, the CLI and the REST API, and migrate from other CI systems. |
@@ -88,6 +89,9 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `chronograph-lp` | [Chronograph LP](third_party/chronograph-lp/) | Finance | Portfolio monitoring and analytics for private capital LP teams. |
 | `ckeditor` | [CKEditor](third_party/ckeditor/) | Developer Tools | Install, configure, and integrate CKEditor 5 in JavaScript projects. |
 | `cloudflare` | [Cloudflare](third_party/cloudflare/) | Hosting | Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server. |
+| `cloudflare-docs` | [Cloudflare Docs](third_party/cloudflare-docs/) | Documentation | Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more. |
+| `cohere` | [Cohere Docs](third_party/cohere/) | Documentation | Search Cohere's official documentation for the Command and Embed models and the Cohere API. |
+| `coingecko` | [CoinGecko](third_party/coingecko/) | Finance | Track cryptocurrency prices, markets, exchanges, and trending coins. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `crowdsec` | [CrowdSec](third_party/crowdsec/) | Security | Install, configure, operate, and debug CrowdSec, and use the CrowdSec Console Service API. |
 | `crowdstrike-falcon-foundry` | [CrowdStrike Falcon Foundry](third_party/crowdstrike-falcon-foundry/) | Security | Build CrowdStrike Falcon Foundry applications: functions, workflows, UI extensions and collections. |
@@ -102,11 +106,13 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `duende-skills` | [Duende Skills](third_party/duende-skills/) | Security | Build secure identity solutions with Duende IdentityServer, BFF, OAuth 2.0 and OpenID Connect on ASP.NET Core. |
 | `dynatrace` | [Dynatrace](third_party/dynatrace/) | Observability | Connect Claude Code to your Dynatrace environment and investigate production issues, review deployments, and check for vulnerabilities using real data pulled directly into your session: root cause |
 | `exa` | [Exa](third_party/exa/) | Search | Search the web and fetch page content with Exa. |
+| `excalidraw` | [Excalidraw](third_party/excalidraw/) | Design | Create and edit hand-drawn style diagrams, wireframes, and sketches from text prompts. |
 | `expo` | [Expo](third_party/expo/) | Mobile | Build, deploy, upgrade and debug Expo and React Native apps, including EAS. |
 | `fastly-agent-toolkit` | [Fastly Agent Toolkit](third_party/fastly-agent-toolkit/) | Cloud | Work with the Fastly CLI, Compute, Fiddle, NGWAF, VCL tooling and reference architectures. |
 | `fiftyone` | [FiftyOne](third_party/fiftyone/) | AI | Build high-quality datasets and computer vision models. |
 | `figma` | [Figma](third_party/figma/) | Design | Turn Figma frames into code and read design tokens, components, and variables. |
 | `firecrawl` | [Firecrawl](third_party/firecrawl/) | Search | Search the web, read pages, and research documentation with Firecrawl. |
+| `fireworks-ai` | [Fireworks AI Docs](third_party/fireworks-ai/) | Documentation | Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models. |
 | `gc-ai` | [GC AI](third_party/gc-ai/) | Legal | Use a GC AI legal knowledge base: upload documents, run review playbooks and ask grounded questions. |
 | `gitea` | [Gitea](third_party/gitea/) | Source Control | Work with Gitea repositories, issues, pull requests, and releases through your own gitea-mcp server. |
 | `github` | [GitHub](third_party/github/) | Source Control | Manage repos, issues, pull requests, and Actions. |
@@ -143,6 +149,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `grafana-mcp` | [Grafana](third_party/grafana-mcp/) | Observability | MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management. |
 | `growthbook` | [GrowthBook](third_party/growthbook/) | Analytics | Manage GrowthBook feature flags, experiments, and product analytics. |
 | `honeycomb` | [Honeycomb](third_party/honeycomb/) | Observability | Skills, agents, and workflows for Honeycomb observability — query patterns, production investigations, SLOs, OpenTelemetry instrumentation, and Beeline migration. |
+| `huggingface` | [Hugging Face](third_party/huggingface/) | AI | Search Hugging Face for models, datasets, and spaces. |
 | `hunter` | [Hunter](third_party/hunter/) | Productivity | Find and verify professional email addresses with Hunter. |
 | `idmp-plugin` | [TDengine IDMP](third_party/idmp-plugin/) | Database | TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows. |
 | `incident-io` | [incident.io](third_party/incident-io/) | Observability | Look up and manage incidents in incident.io. |
@@ -164,11 +171,13 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `netlify-skills` | [Netlify](third_party/netlify-skills/) | Hosting | Netlify platform skills for Claude Code |
 | `noibu` | [Noibu](third_party/noibu/) | Observability | Work with Noibu error and performance data for e-commerce sites. |
 | `notion` | [Notion](third_party/notion/) | Documentation | Search, read, and update Notion pages and databases. |
+| `ollama` | [Ollama Docs](third_party/ollama/) | Documentation | Search Ollama's official documentation for running and serving local large language models. |
 | `outputai` | [Output.ai](third_party/outputai/) | Developer Tools | Workflow development tools |
 | `pagerduty` | [PagerDuty](third_party/pagerduty/) | Observability | Browse PagerDuty services, incidents, and change events. |
 | `pendo-analytics` | [Pendo Analytics](third_party/pendo-analytics/) | Analytics | Bring Pendo analytics into Claude Code with skills for app health, account health, feature adoption, session replays, feedback analysis, and data-informed planning |
 | `pendo-guides` | [Pendo Guides](third_party/pendo-guides/) | Analytics | Create production-ready Pendo in-app guides (walkthroughs, announcements, alerts, polls, promotions) as HTML/CSS/JS from a short intake conversation |
 | `pendo-orchestrate` | [Pendo Orchestrate](third_party/pendo-orchestrate/) | Analytics | Create, configure, and edit draft Orchestrate email journeys via Pendo MCP — multi-email journeys and conditional split flows. |
+| `perplexity` | [Perplexity Docs](third_party/perplexity/) | Documentation | Search Perplexity's official Sonar and API documentation. |
 | `posthog` | [PostHog](third_party/posthog/) | Analytics | Query product analytics, manage feature flags, and investigate errors in PostHog. |
 | `postman` | [Postman](third_party/postman/) | Developer Tools | Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman |
 | `preset-cli-skills` | [Preset CLI](third_party/preset-cli-skills/) | Analytics | Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`). |
@@ -197,6 +206,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `synthflow` | [Synthflow](third_party/synthflow/) | AI | Connects Claude Code to the Synthflow AI voice-agent platform through its hosted MCP server, with skills for reviewing calls and auditing agent prompts, plus a docs-search connector. |
 | `tavily` | [Tavily](third_party/tavily/) | Search | Search the web and extract page content with Tavily. |
 | `teamcity-cli` | [TeamCity CLI](third_party/teamcity-cli/) | CI/CD | Agent skill for interacting with TeamCity CI/CD using the teamcity CLI. |
+| `together-ai` | [Together AI Docs](third_party/together-ai/) | Documentation | Search Together AI's official documentation for models, inference, and fine-tuning. |
 | `togetherai-skills` | [Together AI Skills](third_party/togetherai-skills/) | AI | Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters. |
 | `ui-theme-designer` | [SAP UI Theme Designer](third_party/ui-theme-designer/) | Design | Plugin for coding agents working with UI theme designer. |
 | `ui5-modernization` | [UI5 Modernization](third_party/ui5-modernization/) | Developer Tools | Complete UI5 modernization toolkit with workflow and specialized fix patterns for modernizing SAPUI5/OpenUI5 applications |
