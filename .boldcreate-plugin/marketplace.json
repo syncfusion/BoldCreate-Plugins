@@ -1516,26 +1516,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "nimble",
-      "displayName": "Nimble",
-      "version": "1.7.0",
-      "description": "Search the live web, extract page content and run research workflows with Nimble.",
-      "source": "third_party/nimble",
-      "logo": "third_party/nimble/assets/logo.png",
-      "category": "search",
-      "components": [
-        "skills",
-        "agents"
-      ],
-      "transports": [],
-      "auth": [],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1
-      },
-      "supportedByGateway": false
-    },
-    {
       "name": "notion",
       "displayName": "Notion",
       "version": "0.7.0",

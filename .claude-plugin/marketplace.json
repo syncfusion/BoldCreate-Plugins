@@ -338,11 +338,6 @@
       "description": "Manage Neon serverless Postgres projects, branches, queries, and migrations."
     },
     {
-      "name": "nimble",
-      "source": "./third_party/nimble",
-      "description": "Search the live web, extract page content and run research workflows with Nimble."
-    },
-    {
       "name": "notion",
       "source": "./third_party/notion",
       "description": "Search, read, and update Notion pages and databases."

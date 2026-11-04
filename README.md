@@ -135,7 +135,6 @@ Skills copied from a vendor's own repository at a pinned commit. The vendor's fi
 | `langfuse` | [Langfuse](third_party/langfuse/) | 2 | [langfuse/skills](https://github.com/langfuse/skills) |
 | `logfire` | [Pydantic Logfire](third_party/logfire/) | 6 | [pydantic/skills](https://github.com/pydantic/skills) |
 | `mapbox` | [Mapbox](third_party/mapbox/) | 20 | [mapbox/mapbox-agent-skills](https://github.com/mapbox/mapbox-agent-skills) |
-| `nimble` | [Nimble](third_party/nimble/) | 15 | [Nimbleway/agent-skills](https://github.com/Nimbleway/agent-skills) |
 | `resend` | [Resend](third_party/resend/) | 5 | [resend/resend-skills](https://github.com/resend/resend-skills) |
 | `sanity` | [Sanity](third_party/sanity/) | 8 | [sanity-io/agent-toolkit](https://github.com/sanity-io/agent-toolkit) |
 | `superdesign` | [Superdesign](third_party/superdesign/) | 1 | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) |

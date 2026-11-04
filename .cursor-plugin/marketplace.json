@@ -338,11 +338,6 @@
       "source": "third_party/neon"
     },
     {
-      "name": "nimble",
-      "description": "Search the live web, extract page content and run research workflows with Nimble.",
-      "source": "third_party/nimble"
-    },
-    {
       "name": "notion",
       "description": "Search, read, and update Notion pages and databases.",
       "source": "third_party/notion"
