@@ -12,7 +12,7 @@ import { execFileSync } from "child_process";
 import { resolve, dirname, join } from "path";
 import { tmpdir } from "os";
 import { fileURLToPath } from "url";
-import { slimCopy } from "./slim-copy.mjs";
+import { slimCopy, copyFilter, findLfsPointers } from "./slim-copy.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -56,8 +56,13 @@ for (const name of names) {
     mkdirSync(dest, { recursive: true });
     // --full copies everything. The default copies only what the import step uses (see slim-copy.mjs).
     let skipped = [];
-    if (full) cpSync(from, dest, { recursive: true, filter: (p) => !p.split(/[\\/]/).includes(".git") });
+    if (full) cpSync(from, dest, { recursive: true, filter: copyFilter });
     else ({ skipped } = slimCopy(from, dest));
+    const pointers = findLfsPointers(dest);
+    if (pointers.length) {
+      rmSync(dest, { recursive: true, force: true });
+      throw new Error(`${pointers.length} files are Git LFS pointers, not real content (for example ${pointers[0]}). git-lfs could not download them; check "git lfs version" and the vendor's LFS quota`);
+    }
     // A plugin in a subfolder often relies on the repository-root LICENSE.
     if (sub && !existsSync(join(dest, "LICENSE")) && existsSync(join(repo, "LICENSE"))) cpSync(join(repo, "LICENSE"), join(dest, "LICENSE"));
     writeFileSync(join(dest, ".upstream-commit"), `repository: ${s.url}\npath: ${sub || "."}\ncommit: ${s.sha}\n${skipped.length ? `not copied: ${skipped.join(" ")}\n` : ""}`);
