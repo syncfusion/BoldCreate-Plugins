@@ -1,0 +1,24 @@
+{
+  "name": "wispr-flow",
+  "displayName": "Wispr Flow",
+  "version": "0.7.1",
+  "description": "Your meetings, notes, and tasks from Wispr Flow — now native context for Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://wisprflow.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "wispr-flow",
+    "communication",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "wispr-flow": {
+      "type": "http",
+      "url": "https://api.wisprflow.ai/connect/mcp"
+    }
+  }
+}

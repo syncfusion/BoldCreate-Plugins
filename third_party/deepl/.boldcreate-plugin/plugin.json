@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "deepl",
+  "displayName": "DeepL",
+  "version": "0.7.1",
+  "description": "Translate text and documents across 100+ languages, with your preferred styles applied.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://deepl.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "communication",
+  "keywords": [
+    "deepl",
+    "communication",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://deepl.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "deepl",
+        "transport": "streamable-http",
+        "url": "https://mcp.deepl.com/v1/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

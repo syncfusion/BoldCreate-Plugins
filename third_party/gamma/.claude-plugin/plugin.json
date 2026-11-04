@@ -1,0 +1,24 @@
+{
+  "name": "gamma",
+  "displayName": "Gamma",
+  "version": "0.7.1",
+  "description": "Create presentations, docs, socials, and sites with AI.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.gamma.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "gamma",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "gamma": {
+      "type": "http",
+      "url": "https://mcp.gamma.app/mcp"
+    }
+  }
+}

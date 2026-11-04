@@ -1,0 +1,28 @@
+{
+  "name": "inductive-bio",
+  "displayName": "Inductive Bio",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "State-of-the-art ADMET prediction models for drug discovery.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://inductive.bio/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "inductive-bio",
+    "science",
+    "mcp"
+  ],
+  "category": "science",
+  "tags": [
+    "science",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

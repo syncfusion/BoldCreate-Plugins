@@ -1,0 +1,24 @@
+{
+  "name": "legal-data-hunter",
+  "displayName": "Legal Data Hunter",
+  "version": "0.7.1",
+  "description": "Search 23M+ legal docs in 160+ jurisdictions.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://legaldatahunter.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "legal-data-hunter",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "legal-data-hunter": {
+      "type": "http",
+      "url": "https://legaldatahunter.com/mcp"
+    }
+  }
+}

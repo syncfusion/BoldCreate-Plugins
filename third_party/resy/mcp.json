@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "resy": {
+      "type": "http",
+      "url": "https://apigw.americanexpress.com/dining/v1/mcp"
+    }
+  }
+}

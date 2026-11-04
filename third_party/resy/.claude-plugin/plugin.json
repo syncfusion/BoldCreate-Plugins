@@ -1,0 +1,24 @@
+{
+  "name": "resy",
+  "displayName": "Resy",
+  "version": "0.7.1",
+  "description": "Find and book restaurants instantly.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://resy.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "resy",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "resy": {
+      "type": "http",
+      "url": "https://apigw.americanexpress.com/dining/v1/mcp"
+    }
+  }
+}

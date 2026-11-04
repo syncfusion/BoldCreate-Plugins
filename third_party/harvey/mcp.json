@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "harvey": {
+      "type": "http",
+      "url": "https://api.harvey.ai/hosted_mcp/mcp"
+    }
+  }
+}

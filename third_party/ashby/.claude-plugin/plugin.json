@@ -1,0 +1,24 @@
+{
+  "name": "ashby",
+  "displayName": "Ashby",
+  "version": "0.7.1",
+  "description": "Search, analyze, and act on your recruiting data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.ashbyhq.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ashby",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "ashby": {
+      "type": "http",
+      "url": "https://mcp.ashbyhq.com/mcp/v1"
+    }
+  }
+}

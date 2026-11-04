@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "linkedin-hiring-pro": {
+      "type": "http",
+      "url": "https://mcp.linkedin.com/mcp-hiring-pro"
+    }
+  }
+}

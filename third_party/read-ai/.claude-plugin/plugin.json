@@ -1,0 +1,24 @@
+{
+  "name": "read-ai",
+  "displayName": "Read AI",
+  "version": "0.7.1",
+  "description": "Bring your meetings into Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://read.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "read-ai",
+    "communication",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "read-ai": {
+      "type": "http",
+      "url": "https://api.read.ai/mcp"
+    }
+  }
+}

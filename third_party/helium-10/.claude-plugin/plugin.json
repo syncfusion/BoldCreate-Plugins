@@ -1,0 +1,24 @@
+{
+  "name": "helium-10",
+  "displayName": "Helium 10",
+  "version": "0.7.1",
+  "description": "Access your Helium 10 data directly in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.helium10.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "helium-10",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "helium-10": {
+      "type": "http",
+      "url": "https://mcp.helium10.com/mcp"
+    }
+  }
+}

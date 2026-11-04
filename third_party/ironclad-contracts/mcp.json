@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ironclad-contracts": {
+      "type": "http",
+      "url": "https://mcp.na1.ironcladapp.com/mcp"
+    }
+  }
+}

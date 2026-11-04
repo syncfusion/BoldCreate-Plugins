@@ -1,0 +1,24 @@
+{
+  "name": "mercury",
+  "displayName": "Mercury",
+  "version": "0.7.1",
+  "description": "Understand your finances, organize/categorize transactions, and set up payments and transfers for approval in Mercury.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mercury.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mercury",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mercury": {
+      "type": "http",
+      "url": "https://mcp.mercury.com/mcp"
+    }
+  }
+}

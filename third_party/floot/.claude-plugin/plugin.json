@@ -1,0 +1,24 @@
+{
+  "name": "floot",
+  "displayName": "Floot",
+  "version": "0.7.1",
+  "description": "Build and host websites and mobile apps using your own Claude subscription.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://floot.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "floot",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "floot": {
+      "type": "http",
+      "url": "https://mcp.floot.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "cocounsel-legal",
+  "displayName": "CoCounsel Legal",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Thomson Reuters CoCounsel Legal, in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.thomsonreuters.com/en",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "cocounsel-legal",
+    "legal",
+    "mcp"
+  ],
+  "category": "legal",
+  "tags": [
+    "legal",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

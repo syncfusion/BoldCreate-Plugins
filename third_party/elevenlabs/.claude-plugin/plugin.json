@@ -1,0 +1,24 @@
+{
+  "name": "elevenlabs",
+  "displayName": "ElevenLabs",
+  "version": "0.7.1",
+  "description": "Manage your ElevenAgents voice agents in your chat.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://elevenlabs.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "elevenlabs",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "elevenlabs": {
+      "type": "http",
+      "url": "https://api.elevenlabs.io/v1/mcp-claude-marketplace"
+    }
+  }
+}

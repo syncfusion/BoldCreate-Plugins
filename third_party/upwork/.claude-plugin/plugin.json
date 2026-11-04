@@ -1,0 +1,24 @@
+{
+  "name": "upwork",
+  "displayName": "Upwork",
+  "version": "0.7.1",
+  "description": "Hire talent or find work.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://upwork.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "upwork",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "upwork": {
+      "type": "http",
+      "url": "https://mcp.upwork.com/mcp"
+    }
+  }
+}

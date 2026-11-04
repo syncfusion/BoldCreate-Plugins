@@ -1,0 +1,24 @@
+{
+  "name": "seismic",
+  "displayName": "Seismic",
+  "version": "0.7.1",
+  "description": "Connect Claude to Seismic MCP for generative search.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.seismic.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "seismic",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "seismic": {
+      "type": "http",
+      "url": "https://mcp.seismic.com/claude"
+    }
+  }
+}

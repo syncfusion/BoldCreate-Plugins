@@ -1,0 +1,24 @@
+{
+  "name": "omni-analytics",
+  "displayName": "Omni Analytics",
+  "version": "0.7.1",
+  "description": "Query your data using natural language through Omni's semantic model.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.omni.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "omni-analytics",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "omni-analytics": {
+      "type": "http",
+      "url": "https://callbacks.omniapp.co/callback/mcp"
+    }
+  }
+}

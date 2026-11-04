@@ -1,0 +1,28 @@
+{
+  "name": "webflow",
+  "displayName": "Webflow",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Design pages, manage CMS content, add motion, analyze traffic, and launch the whole site, all from a prompt and all inside the permissions your workspace already has.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.webflow.com/data/docs/ai-tools",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "webflow",
+    "cms",
+    "mcp"
+  ],
+  "category": "cms",
+  "tags": [
+    "cms",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

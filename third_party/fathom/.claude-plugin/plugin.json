@@ -1,0 +1,24 @@
+{
+  "name": "fathom",
+  "displayName": "Fathom – Your Meeting Intelligence Layer",
+  "version": "0.7.1",
+  "description": "Your meeting notes, transcripts, and context – now part of every Claude conversation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://fathom.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fathom",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "fathom": {
+      "type": "http",
+      "url": "https://api.fathom.ai/mcp"
+    }
+  }
+}

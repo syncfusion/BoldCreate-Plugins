@@ -1,0 +1,24 @@
+{
+  "name": "motion",
+  "displayName": "Motion Creative Analytics",
+  "version": "0.7.1",
+  "description": "Analyze your Meta ad creative & competitor ad libraries.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://motionapp.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "motion",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "motion": {
+      "type": "http",
+      "url": "https://projects.motionapp.com/mcp"
+    }
+  }
+}

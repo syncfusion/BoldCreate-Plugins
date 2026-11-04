@@ -1,0 +1,24 @@
+{
+  "name": "aws-mcp",
+  "displayName": "AWS MCP",
+  "version": "0.7.1",
+  "description": "Give agents secure access to AWS via MCP.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "aws-mcp",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "aws-mcp": {
+      "type": "http",
+      "url": "https://aws-mcp.us-east-1.api.aws/mcp"
+    }
+  }
+}

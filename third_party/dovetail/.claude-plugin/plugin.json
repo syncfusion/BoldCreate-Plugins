@@ -1,0 +1,24 @@
+{
+  "name": "dovetail",
+  "displayName": "Dovetail",
+  "version": "0.7.1",
+  "description": "Turn scattered feedback into decisions grounded in customer evidence.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://dovetail.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "dovetail",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "dovetail": {
+      "type": "http",
+      "url": "https://dovetail.com/api/mcp"
+    }
+  }
+}

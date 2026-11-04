@@ -1,0 +1,24 @@
+{
+  "name": "pandadoc",
+  "displayName": "PandaDoc",
+  "version": "0.7.1",
+  "description": "Create, send, sign and track documents.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.pandadoc.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "pandadoc",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "pandadoc": {
+      "type": "http",
+      "url": "https://mcp.pandadoc.com/v1/mcp"
+    }
+  }
+}

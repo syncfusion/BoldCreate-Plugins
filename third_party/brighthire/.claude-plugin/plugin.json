@@ -1,0 +1,24 @@
+{
+  "name": "brighthire",
+  "displayName": "BrightHire",
+  "version": "0.7.1",
+  "description": "Search, summarize and analyze hiring data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://brighthire.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "brighthire",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "brighthire": {
+      "type": "http",
+      "url": "https://app.brighthire.ai/mcp/v1"
+    }
+  }
+}

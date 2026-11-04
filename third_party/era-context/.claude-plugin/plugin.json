@@ -1,0 +1,24 @@
+{
+  "name": "era-context",
+  "displayName": "Era Context",
+  "version": "0.7.1",
+  "description": "Manage your personal finances using Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://era.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "era-context",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "era-context": {
+      "type": "http",
+      "url": "https://context.era.app/"
+    }
+  }
+}

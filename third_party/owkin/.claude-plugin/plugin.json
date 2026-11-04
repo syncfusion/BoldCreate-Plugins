@@ -1,0 +1,24 @@
+{
+  "name": "owkin",
+  "displayName": "Owkin",
+  "version": "0.7.1",
+  "description": "Interact with AI agents built for biology.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.owkin.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "owkin",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "owkin": {
+      "type": "http",
+      "url": "https://mcp.k.owkin.com/mcp"
+    }
+  }
+}

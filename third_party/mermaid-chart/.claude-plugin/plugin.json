@@ -1,0 +1,24 @@
+{
+  "name": "mermaid-chart",
+  "displayName": "Mermaid Chart",
+  "version": "0.7.1",
+  "description": "Validates Mermaid syntax, renders diagrams as high-quality SVG, and displays them instantly in an interactive UI where users can preview, zoom, and iterate in real time.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.mermaidchart.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mermaid-chart",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mermaid-chart": {
+      "type": "http",
+      "url": "https://chatgpt.mermaid.ai/anthropic/mcp"
+    }
+  }
+}

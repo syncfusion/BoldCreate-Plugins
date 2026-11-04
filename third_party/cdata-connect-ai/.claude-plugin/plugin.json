@@ -1,0 +1,24 @@
+{
+  "name": "cdata-connect-ai",
+  "displayName": "CData Connect AI",
+  "version": "0.7.1",
+  "description": "Managed MCP platform for 350 sources.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.cdata.com/ai",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "cdata-connect-ai",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "cdata-connect-ai": {
+      "type": "http",
+      "url": "https://mcp.cloud.cdata.com/mcp"
+    }
+  }
+}

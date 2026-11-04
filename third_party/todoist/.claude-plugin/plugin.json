@@ -1,0 +1,24 @@
+{
+  "name": "todoist",
+  "displayName": "Todoist",
+  "version": "0.7.1",
+  "description": "Search, complete, and manage your tasks in Todoist.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://todoist.com/help/articles/use-todoist-with-ai-assistants",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "todoist",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "todoist": {
+      "type": "http",
+      "url": "https://ai.todoist.net/mcp"
+    }
+  }
+}

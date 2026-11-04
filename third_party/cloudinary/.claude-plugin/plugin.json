@@ -1,0 +1,24 @@
+{
+  "name": "cloudinary",
+  "displayName": "Cloudinary",
+  "version": "0.7.1",
+  "description": "Manage, transform and deliver your images & videos.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://cloudinary.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "cloudinary",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "cloudinary": {
+      "type": "http",
+      "url": "https://asset-management.mcp.cloudinary.com/sse"
+    }
+  }
+}

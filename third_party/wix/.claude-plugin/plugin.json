@@ -1,0 +1,24 @@
+{
+  "name": "wix",
+  "displayName": "Wix",
+  "version": "0.7.1",
+  "description": "Manage and build sites and apps on Wix.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "wix",
+    "cms",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "wix": {
+      "type": "http",
+      "url": "https://mcp.wix.com/mcp"
+    }
+  }
+}

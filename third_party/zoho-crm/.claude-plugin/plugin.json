@@ -1,0 +1,24 @@
+{
+  "name": "zoho-crm",
+  "displayName": "Zoho CRM",
+  "version": "0.7.1",
+  "description": "MCP Server for Zoho CRM Workflows.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.zoho.com/mcp/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zoho-crm",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "zoho-crm": {
+      "type": "http",
+      "url": "https://claude-zohocrm.zohomcp.com/mcp/message"
+    }
+  }
+}

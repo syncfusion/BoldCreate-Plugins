@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "twilio",
+  "displayName": "Twilio",
+  "version": "0.7.1",
+  "description": "Build powerful communications and customer engagement.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://twilio.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "communication",
+  "keywords": [
+    "twilio",
+    "communication",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://twilio.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "twilio",
+        "transport": "streamable-http",
+        "url": "https://mcp.twilio.com/docs",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP initialize and tools/list on 2026-11-04: HTTP 200 with a tool list, no sign-in asked; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

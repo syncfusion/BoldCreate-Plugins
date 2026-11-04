@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zoho-books": {
+      "type": "http",
+      "url": "https://claude-zohobooks.zohomcp.com/mcp/message"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "bird",
+  "displayName": "Bird",
+  "version": "0.7.1",
+  "description": "Send email, SMS, and WhatsApp, place calls, verify users, and run your agent's inbox.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.bird.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "bird",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "bird": {
+      "type": "http",
+      "url": "https://mcp.bird.com/"
+    }
+  }
+}

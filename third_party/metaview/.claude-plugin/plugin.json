@@ -1,0 +1,24 @@
+{
+  "name": "metaview",
+  "displayName": "Metaview",
+  "version": "0.7.1",
+  "description": "The AI platform for recruiting.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://metaview.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "metaview",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "metaview": {
+      "type": "http",
+      "url": "https://mcp.metaview.ai/mcp"
+    }
+  }
+}

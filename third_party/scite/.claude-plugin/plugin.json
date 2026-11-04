@@ -1,0 +1,24 @@
+{
+  "name": "scite",
+  "displayName": "Scite",
+  "version": "0.7.1",
+  "description": "Evidence-based answers grounded in research.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://scite.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "scite",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "scite": {
+      "type": "http",
+      "url": "https://api.scite.ai/mcp"
+    }
+  }
+}

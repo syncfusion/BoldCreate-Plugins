@@ -1,0 +1,24 @@
+{
+  "name": "bitly",
+  "displayName": "Bitly",
+  "version": "0.7.1",
+  "description": "Shorten links, generate QR Codes, and track performance.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://bitly.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "bitly",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "bitly": {
+      "type": "http",
+      "url": "https://api-ssl.bitly.com/v4/mcp"
+    }
+  }
+}

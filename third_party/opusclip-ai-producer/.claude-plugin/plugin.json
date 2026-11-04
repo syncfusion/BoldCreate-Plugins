@@ -1,0 +1,24 @@
+{
+  "name": "opusclip-ai-producer",
+  "displayName": "AI Producer by OpusClip",
+  "version": "0.7.1",
+  "description": "Edit videos with AI.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.opus.pro/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "opusclip-ai-producer",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "opusclip-ai-producer": {
+      "type": "http",
+      "url": "https://producer.opus.pro/api/mcp"
+    }
+  }
+}

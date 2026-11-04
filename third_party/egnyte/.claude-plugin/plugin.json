@@ -1,0 +1,24 @@
+{
+  "name": "egnyte",
+  "displayName": "Egnyte",
+  "version": "0.7.1",
+  "description": "Securely search and analyze your Egnyte content.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.egnyte.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "egnyte",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "egnyte": {
+      "type": "http",
+      "url": "https://mcp-server.egnyte.com/mcp"
+    }
+  }
+}

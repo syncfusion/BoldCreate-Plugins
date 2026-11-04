@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "elicit",
+  "displayName": "Elicit",
+  "version": "0.7.1",
+  "description": "Search and analyze scientific papers.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://elicit.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "science",
+  "keywords": [
+    "elicit",
+    "science",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://elicit.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "elicit",
+        "transport": "streamable-http",
+        "url": "https://elicit.com/api/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "sp-kfinance",
+  "displayName": "S&P - Deterministic Retrieval",
+  "version": "0.7.1",
+  "description": "Deterministic access to S&P Global data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.spglobal.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "sp-kfinance",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "sp-kfinance": {
+      "type": "http",
+      "url": "https://kfinance.kensho.com/integrations/mcp"
+    }
+  }
+}

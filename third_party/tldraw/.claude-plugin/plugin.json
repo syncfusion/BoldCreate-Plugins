@@ -1,0 +1,24 @@
+{
+  "name": "tldraw",
+  "displayName": "tldraw",
+  "version": "0.7.1",
+  "description": "Let Claude sketch, draw, and diagram with you.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.tldraw.dev/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "tldraw",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "tldraw": {
+      "type": "http",
+      "url": "https://tldraw-mcp-app.tldraw.workers.dev/mcp"
+    }
+  }
+}

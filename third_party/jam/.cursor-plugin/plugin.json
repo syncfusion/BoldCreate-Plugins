@@ -1,0 +1,28 @@
+{
+  "name": "jam",
+  "displayName": "Jam",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Record screen and collect automatic context for issues.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://jam.dev/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "jam",
+    "developer-tools",
+    "mcp"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

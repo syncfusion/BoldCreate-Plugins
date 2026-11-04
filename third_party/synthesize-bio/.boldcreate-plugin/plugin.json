@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "synthesize-bio",
+  "displayName": "Synthesize Bio",
+  "version": "0.7.1",
+  "description": "Generate gene expression from a virtual human.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.synthesize.bio/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "science",
+  "keywords": [
+    "synthesize-bio",
+    "science",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.synthesize.bio/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "synthesize-bio",
+        "transport": "streamable-http",
+        "url": "https://app.synthesize.bio/api/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

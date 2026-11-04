@@ -1,0 +1,24 @@
+{
+  "name": "pitchbook-premium",
+  "displayName": "PitchBook Premium",
+  "version": "0.7.1",
+  "description": "PitchBook data, embedded in the way you work.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.pitchbook.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "pitchbook-premium",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "pitchbook-premium": {
+      "type": "http",
+      "url": "https://premium.mcp.pitchbook.com/mcp"
+    }
+  }
+}

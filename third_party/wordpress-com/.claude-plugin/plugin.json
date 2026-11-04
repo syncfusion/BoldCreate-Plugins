@@ -1,0 +1,24 @@
+{
+  "name": "wordpress-com",
+  "displayName": "WordPress.com",
+  "version": "0.7.1",
+  "description": "Secure AI access to manage your WordPress.com sites.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://wordpress.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "wordpress-com",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "wordpress-com": {
+      "type": "http",
+      "url": "https://public-api.wordpress.com/wpcom/v2/mcp/v1"
+    }
+  }
+}

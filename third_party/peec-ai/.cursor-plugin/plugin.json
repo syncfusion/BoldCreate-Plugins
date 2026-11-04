@@ -1,0 +1,28 @@
+{
+  "name": "peec-ai",
+  "displayName": "Peec AI",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Analyze your brand's visibility across LLMs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://peec.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "peec-ai",
+    "analytics",
+    "mcp"
+  ],
+  "category": "analytics",
+  "tags": [
+    "analytics",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

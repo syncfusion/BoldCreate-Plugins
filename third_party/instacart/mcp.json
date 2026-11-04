@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "instacart": {
+      "type": "http",
+      "url": "https://fig-mcp.instacart.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "airtable",
+  "displayName": "Airtable",
+  "version": "0.7.1",
+  "description": "Bring your structured data to Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://support.airtable.com/docs/using-the-airtable-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "airtable",
+    "database",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "airtable": {
+      "type": "http",
+      "url": "https://mcp.airtable.com/mcp"
+    }
+  }
+}

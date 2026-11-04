@@ -1,0 +1,24 @@
+{
+  "name": "mobbin",
+  "displayName": "Mobbin",
+  "version": "0.7.1",
+  "description": "Find UI & UX design references.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mobbin.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mobbin",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mobbin": {
+      "type": "http",
+      "url": "https://api.mobbin.com/mcp"
+    }
+  }
+}

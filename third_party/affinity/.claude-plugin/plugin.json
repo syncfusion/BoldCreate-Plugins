@@ -1,0 +1,24 @@
+{
+  "name": "affinity",
+  "displayName": "Affinity",
+  "version": "0.7.1",
+  "description": "Search, update, and prep deals without switching tabs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.affinity.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "affinity",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "affinity": {
+      "type": "http",
+      "url": "https://mcp.affinity.co/mcp"
+    }
+  }
+}

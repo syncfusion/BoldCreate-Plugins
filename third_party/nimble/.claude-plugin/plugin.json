@@ -1,0 +1,24 @@
+{
+  "name": "nimble",
+  "displayName": "Nimble",
+  "version": "0.7.1",
+  "description": "Real-time web search & extraction for AI agents.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.nimbleway.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "nimble",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "nimble": {
+      "type": "http",
+      "url": "https://mcp.nimbleway.com/mcp"
+    }
+  }
+}

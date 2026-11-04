@@ -1,0 +1,24 @@
+{
+  "name": "adwhispr-ads",
+  "displayName": "AdWhispr Ads",
+  "version": "0.7.1",
+  "description": "Research any brand's live Facebook and TikTok ads, find your real competitors, and launch campaigns on Google, TikTok, and Meta from chat.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://adwhispr.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "adwhispr-ads",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "adwhispr-ads": {
+      "type": "http",
+      "url": "https://adwhispr.com/api/claude/mcp"
+    }
+  }
+}

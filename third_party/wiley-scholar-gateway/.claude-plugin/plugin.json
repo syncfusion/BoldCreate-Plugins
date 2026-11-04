@@ -1,0 +1,24 @@
+{
+  "name": "wiley-scholar-gateway",
+  "displayName": "Wiley Scholar Gateway",
+  "version": "0.7.1",
+  "description": "Enhance responses with scholarly research and citations.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.wiley.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "wiley-scholar-gateway",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "wiley-scholar-gateway": {
+      "type": "http",
+      "url": "https://connector.scholargateway.ai/v2/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "windsor-ai",
+  "displayName": "Windsor.ai",
+  "version": "0.7.1",
+  "description": "Connect Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads + 320 more.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://windsor.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "windsor-ai",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "windsor-ai": {
+      "type": "http",
+      "url": "https://mcp.windsor.ai/"
+    }
+  }
+}

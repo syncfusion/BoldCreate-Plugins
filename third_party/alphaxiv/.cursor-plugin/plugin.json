@@ -1,0 +1,28 @@
+{
+  "name": "alphaxiv",
+  "displayName": "alphaXiv",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Fast search and full-text access over arXiv pre-prints.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.alphaxiv.org/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "alphaxiv",
+    "analytics",
+    "mcp"
+  ],
+  "category": "analytics",
+  "tags": [
+    "analytics",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

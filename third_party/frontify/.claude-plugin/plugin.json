@@ -1,0 +1,24 @@
+{
+  "name": "frontify",
+  "displayName": "Frontify",
+  "version": "0.7.1",
+  "description": "Access your brand guidelines, assets and creative templates.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://frontify.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "frontify",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "frontify": {
+      "type": "http",
+      "url": "https://mcp.frontify-integrations.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "adisinsight",
+  "displayName": "AdisInsight",
+  "version": "0.7.1",
+  "description": "Pharmaceutical drug & clinical trial intelligence.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.springernature.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "adisinsight",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "adisinsight": {
+      "type": "http",
+      "url": "https://adisinsight-mcp.springer.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dovetail": {
+      "type": "http",
+      "url": "https://dovetail.com/api/mcp"
+    }
+  }
+}

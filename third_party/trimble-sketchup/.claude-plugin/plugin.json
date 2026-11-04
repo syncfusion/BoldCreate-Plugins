@@ -1,0 +1,24 @@
+{
+  "name": "trimble-sketchup",
+  "displayName": "Trimble SketchUp",
+  "version": "0.7.1",
+  "description": "Create and iterate 3D models for use in SketchUp.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://sketchup.trimble.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "trimble-sketchup",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "trimble-sketchup": {
+      "type": "http",
+      "url": "https://api.sketchup.com/mcp/v1/sketchup/mcp"
+    }
+  }
+}

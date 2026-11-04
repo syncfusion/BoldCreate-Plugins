@@ -1,0 +1,24 @@
+{
+  "name": "eden-by-basecamp-research",
+  "displayName": "EDEN by Basecamp Research",
+  "version": "0.7.1",
+  "description": "Design antibiotics and prioritise vaccine targets against drug-resistant pathogens using EDEN, Basecamp Research's biological foundation model.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://basecamp-research.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "eden-by-basecamp-research",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "eden-by-basecamp-research": {
+      "type": "http",
+      "url": "https://mcp-public.basecamp-research.com/mcp"
+    }
+  }
+}

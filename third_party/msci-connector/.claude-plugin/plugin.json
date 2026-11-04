@@ -1,0 +1,24 @@
+{
+  "name": "msci-connector",
+  "displayName": "MSCI Connector",
+  "version": "0.7.1",
+  "description": "Data you can build on.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://msci.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "msci-connector",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "msci-connector": {
+      "type": "http",
+      "url": "https://mcp.msci.com/mcp/v1.0/mcp"
+    }
+  }
+}

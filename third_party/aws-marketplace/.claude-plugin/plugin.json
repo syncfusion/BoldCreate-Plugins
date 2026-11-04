@@ -1,0 +1,24 @@
+{
+  "name": "aws-marketplace",
+  "displayName": "AWS Marketplace",
+  "version": "0.7.1",
+  "description": "Discover, evaluate, and buy solutions for the cloud.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://aws.amazon.com/marketplace",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "aws-marketplace",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "aws-marketplace": {
+      "type": "http",
+      "url": "https://marketplace-mcp.us-east-1.api.aws/mcp"
+    }
+  }
+}

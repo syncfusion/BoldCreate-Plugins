@@ -1,0 +1,24 @@
+{
+  "name": "playmcp",
+  "displayName": "PlayMCP",
+  "version": "0.7.1",
+  "description": "Connect and use PlayMCP servers in your toolbox.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.kakaocorp.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "playmcp",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "playmcp": {
+      "type": "http",
+      "url": "https://playmcp.kakao.com/mcp"
+    }
+  }
+}

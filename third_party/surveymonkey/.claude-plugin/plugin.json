@@ -1,0 +1,24 @@
+{
+  "name": "surveymonkey",
+  "displayName": "SurveyMonkey",
+  "version": "0.7.1",
+  "description": "Design surveys, collect responses, and analyze results.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.surveymonkey.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "surveymonkey",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "surveymonkey": {
+      "type": "http",
+      "url": "https://mcp.surveymonkey.com/mcp"
+    }
+  }
+}

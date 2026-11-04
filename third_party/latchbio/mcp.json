@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "latchbio": {
+      "type": "http",
+      "url": "https://mcp.latch.bio/mcp"
+    }
+  }
+}

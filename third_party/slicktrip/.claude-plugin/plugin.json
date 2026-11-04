@@ -1,0 +1,24 @@
+{
+  "name": "slicktrip",
+  "displayName": "SlickTrip",
+  "version": "0.7.1",
+  "description": "Search flights, hotels and seats, then get alerted the moment a price drops.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://slicktrip.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "slicktrip",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "slicktrip": {
+      "type": "http",
+      "url": "https://mcp.slicktrip.com/mcp"
+    }
+  }
+}

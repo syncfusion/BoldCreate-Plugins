@@ -1,0 +1,24 @@
+{
+  "name": "moda-slides-and-designs",
+  "displayName": "Moda - Slides and Designs",
+  "version": "0.7.1",
+  "description": "Fully editable PowerPoints, Meta ads, motion graphics & social.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://moda.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "moda-slides-and-designs",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "moda-slides-and-designs": {
+      "type": "http",
+      "url": "https://agents.moda.app/mcp"
+    }
+  }
+}

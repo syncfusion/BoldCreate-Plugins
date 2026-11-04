@@ -1,0 +1,24 @@
+{
+  "name": "wrike",
+  "displayName": "Wrike",
+  "version": "0.7.1",
+  "description": "Manage, update and move work forward from Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.wrike.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "wrike",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "wrike": {
+      "type": "http",
+      "url": "https://mcp.wrike.com/v2"
+    }
+  }
+}

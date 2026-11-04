@@ -1,0 +1,24 @@
+{
+  "name": "cortellis",
+  "displayName": "Cortellis Regulatory Intelligence",
+  "version": "0.7.1",
+  "description": "Trusted Regulatory Answers, by Clarivate Cortellis.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://clarivate.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "cortellis",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "cortellis": {
+      "type": "http",
+      "url": "https://api.clarivate.com/lifesciences/mcp-regulatory/mcp"
+    }
+  }
+}

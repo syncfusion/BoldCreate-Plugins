@@ -1,0 +1,24 @@
+{
+  "name": "asana",
+  "displayName": "Asana",
+  "version": "0.7.1",
+  "description": "Connect to Asana to coordinate tasks, projects, and goals.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.asana.com/docs/using-asanas-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "asana",
+    "project-management",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "asana": {
+      "type": "http",
+      "url": "https://mcp.asana.com/v2/mcp"
+    }
+  }
+}

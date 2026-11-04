@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "open-targets",
+  "displayName": "Open Targets",
+  "version": "0.7.1",
+  "description": "Drug target discovery and prioritisation platform.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.opentargets.org/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "science",
+  "keywords": [
+    "open-targets",
+    "science",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.opentargets.org/",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "open-targets",
+        "transport": "streamable-http",
+        "url": "https://mcp.platform.opentargets.org/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP initialize and tools/list on 2026-11-04: HTTP 200 with a tool list, no sign-in asked; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "godaddy",
+  "displayName": "GoDaddy",
+  "version": "0.7.1",
+  "description": "Search domains and check availability.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.godaddy.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "godaddy",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "godaddy": {
+      "type": "http",
+      "url": "https://api.godaddy.com/v1/domains/mcp"
+    }
+  }
+}

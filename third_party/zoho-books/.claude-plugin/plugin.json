@@ -1,0 +1,24 @@
+{
+  "name": "zoho-books",
+  "displayName": "Zoho Books",
+  "version": "0.7.1",
+  "description": "Zoho Books MCP for Smart Finance Ops.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.zoho.com/mcp/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zoho-books",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "zoho-books": {
+      "type": "http",
+      "url": "https://claude-zohobooks.zohomcp.com/mcp/message"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "brex",
+  "displayName": "Brex",
+  "version": "0.7.1",
+  "description": "Intelligent finance automation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://brex.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "brex",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "brex": {
+      "type": "http",
+      "url": "https://api.brex.com/mcp"
+    }
+  }
+}

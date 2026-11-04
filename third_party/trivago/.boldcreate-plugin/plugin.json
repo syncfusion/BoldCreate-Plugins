@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "trivago",
+  "displayName": "Trivago",
+  "version": "0.7.1",
+  "description": "Use trivago's powerful metasearch to find your ideal hotel and compare prices from multiple providers.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.trivago.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "travel",
+  "keywords": [
+    "trivago",
+    "travel",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.trivago.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "trivago",
+        "transport": "streamable-http",
+        "url": "https://mcp.trivago.com/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP initialize and tools/list on 2026-11-04: HTTP 200 with a tool list, no sign-in asked; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

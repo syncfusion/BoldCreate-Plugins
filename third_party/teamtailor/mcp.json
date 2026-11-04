@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "teamtailor": {
+      "type": "http",
+      "url": "https://mcp.teamtailor.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "consensus",
+  "displayName": "Consensus",
+  "version": "0.7.1",
+  "description": "Explore scientific research.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://consensus.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "consensus",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "consensus": {
+      "type": "http",
+      "url": "https://mcp.consensus.app/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "meltwater",
+  "displayName": "Meltwater",
+  "version": "0.7.1",
+  "description": "Search and analyze billions of news articles and social posts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.meltwater.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "meltwater",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "meltwater": {
+      "type": "http",
+      "url": "https://api.meltwater.com/v2/mcp"
+    }
+  }
+}
