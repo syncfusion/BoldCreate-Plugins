@@ -1040,6 +1040,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "pagerduty",
+      "displayName": "PagerDuty",
+      "version": "0.7.1",
+      "description": "Browse PagerDuty services, incidents, and change events.",
+      "source": "third_party/pagerduty",
+      "logo": "third_party/pagerduty/assets/logo.svg",
+      "category": "incident-management",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "header"
+      ],
+      "requiresSecrets": true,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "posthog",
       "displayName": "PostHog",
       "version": "0.7.1",
@@ -1500,6 +1524,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "tavily",
+      "displayName": "Tavily",
+      "version": "0.7.1",
+      "description": "Search the web and extract page content with Tavily.",
+      "source": "third_party/tavily",
+      "logo": "third_party/tavily/assets/logo.svg",
+      "category": "search",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "vanta",

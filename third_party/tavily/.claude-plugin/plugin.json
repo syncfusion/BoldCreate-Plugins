@@ -1,0 +1,26 @@
+{
+  "name": "tavily",
+  "displayName": "Tavily",
+  "version": "0.7.1",
+  "description": "Search the web and extract page content with Tavily.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/tavily-ai/skills",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "tavily",
+    "web",
+    "search",
+    "research",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "tavily": {
+      "type": "http",
+      "url": "https://mcp.tavily.com/mcp"
+    }
+  }
+}
