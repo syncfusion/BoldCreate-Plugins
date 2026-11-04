@@ -52,14 +52,3 @@ Status on this date: no upstream plugin has been imported. The sources are not r
 ## Not done
 
 Nothing in the completion criteria is met for any upstream plugin. Security review, rollback documentation and backward-compatibility checks apply per imported plugin and have not started.
-
-## Update: remote entries in the Claude Code marketplace
-
-`.claude-plugin/marketplace.json` now lists 252 upstream plugins as remote sources, each pinned to a commit SHA. The list lives in `claude-remote-plugins.json` and `scripts/build.mjs` merges it in.
-
-- Claude Code clones each source when a user installs it. This repository never reads the source, so the egress block in PM-001 does not apply.
-- The 53 upstream plugins that live inside `claude-plugins-official` are not included. They have no standalone source to pin.
-- 10 upstream names already exist in `third_party/` and keep the local version.
-- These entries are not reviewed. The Cursor and BoldCreate indexes do not list them, because they need a full manifest.
-- The pinned code runs on the user's machine and is not checked by this repository. Review each plugin before you list it in the BoldCreate marketplace.
-- Not run: `claude plugin validate --strict .`, which CI runs.
