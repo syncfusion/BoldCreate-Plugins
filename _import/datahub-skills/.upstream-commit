@@ -1,0 +1,4 @@
+repository: https://github.com/datahub-project/datahub-skills.git
+path: .
+commit: a27f8e7bb514591a3ccecd7598e4056989c0db9b
+not copied: .github/ standards/ tests/

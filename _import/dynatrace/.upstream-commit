@@ -1,0 +1,4 @@
+repository: https://github.com/Dynatrace/dynatrace-for-ai.git
+path: .
+commit: 4f9aa71f9802aa6db0a4069ae5619eb3392ff411
+not copied: .github/ prompts/ scripts/ tests/

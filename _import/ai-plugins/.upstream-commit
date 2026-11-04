@@ -1,0 +1,4 @@
+repository: https://github.com/endorlabs/ai-plugins.git
+path: .
+commit: 2de00883bd2be8b8578b46ab09baf2c8731376de
+not copied: .agents/ .github/ cursor-sdk/ docs/ plugins/ provenance/ runtime/ scripts/

@@ -1,0 +1,4 @@
+repository: https://github.com/cloudflare/skills.git
+path: .
+commit: b052c32bab7dd493513260228a36c88294f343f1
+not copied: .agents/ .codex-plugin/ .github/

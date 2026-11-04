@@ -1,0 +1,4 @@
+repository: https://github.com/cap-js/mcp-server.git
+path: .
+commit: 52ca3304342db99c27a3f2a0cd765af42980b955
+not copied: .github/ .hyperspace/ LICENSES/ lib/ scripts/ tests/

@@ -1,0 +1,4 @@
+repository: https://github.com/aws/agent-toolkit-for-aws.git
+path: plugins/aws-data-analytics
+commit: 0d6167ad2e6dfb858098c4162fe74d04c975532f
+not copied: .codex-plugin/

@@ -1,0 +1,4 @@
+repository: https://github.com/ChromeDevTools/chrome-devtools-mcp.git
+path: .
+commit: a878bcad39584337e055778353246820deafa7c0
+not copied: .gemini/ .github/ docs/ scripts/ src/ tests/ third_party/

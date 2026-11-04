@@ -1,0 +1,4 @@
+repository: https://github.com/AltimateAI/altimate-claude-plugin.git
+path: plugins/altimate-code
+commit: b7c8f68b3dfd303ab3ccf2f43934098811dfe2aa
+not copied: hooks-handlers/

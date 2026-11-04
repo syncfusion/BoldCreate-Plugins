@@ -1,0 +1,4 @@
+repository: https://github.com/explorium-ai/vibeprospecting-plugin.git
+path: .
+commit: ca43f6d92395462d8915dc31364bbce6a83e4006
+not copied: .agents/ .codex-plugin/ .github/ docs/ scripts/

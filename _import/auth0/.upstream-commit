@@ -1,0 +1,4 @@
+repository: https://github.com/auth0/agent-skills.git
+path: plugins/auth0
+commit: 7b3821d533430eef35fd7406a87b7b8d02302bdf
+not copied: .antigravity-plugin/ .codex-plugin/

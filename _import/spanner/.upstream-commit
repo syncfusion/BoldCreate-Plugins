@@ -1,0 +1,4 @@
+repository: https://github.com/gemini-cli-extensions/spanner.git
+path: .
+commit: d4db42a2708045d66e70f52610a6d27889e457bc
+not copied: .codex-plugin/ .github/

@@ -1,0 +1,4 @@
+repository: https://github.com/GoogleCloudPlatform/data-agent-kit-plugin.git
+path: .
+commit: 83c53b5f129cdeecabe149ff4ba82645d3e51745
+not copied: .agents/ .codex-plugin/ .github/ mcp/

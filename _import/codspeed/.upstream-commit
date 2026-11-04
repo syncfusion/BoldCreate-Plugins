@@ -1,0 +1,4 @@
+repository: https://github.com/CodSpeedHQ/codspeed.git
+path: .
+commit: 59cfc90540bb3717d8acf4ad03f7b5531c8e1a3d
+not copied: .config/ .github/ .vscode/ crates/ schemas/ scripts/ src/ testdata/ tests/

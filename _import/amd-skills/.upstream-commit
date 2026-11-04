@@ -1,0 +1,4 @@
+repository: https://github.com/amd/skills.git
+path: skills
+commit: 6916fb371d1cba40757b223cf16b4cd4912b202f
+not copied: hyperloom-workload-optimizer/ lemonade-router-builder/ local-ai-app-integration/ local-ai-use/ magpie-kernel-evaluator/ serving-llms-on-epyc/ serving-llms-on-instinct/ tracelens-analysis-orchestrator/

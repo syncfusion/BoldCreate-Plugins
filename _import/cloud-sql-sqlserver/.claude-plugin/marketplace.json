@@ -1,0 +1,16 @@
+{
+  "name": "cloud-sql-sqlserver-marketplace",
+  "owner": {
+    "name": "Google LLC",
+    "email": "data-cloud-ai-integrations@google.com"
+  },
+  "metadata": {
+    "description": "Connect to and interact with a Cloud SQL for SQL Server database."
+  },
+  "plugins": [
+    {
+      "name": "cloud-sql-sqlserver",
+      "source": "./"
+    }
+  ]
+}

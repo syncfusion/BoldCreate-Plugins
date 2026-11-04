@@ -1,0 +1,4 @@
+repository: https://github.com/canva-sdks/canva-skills.git
+path: plugins/canva
+commit: bfcbc681560f6031e9949ea52f81e20beb87e39e
+not copied: .codex-plugin/ .cursor/ inactive-skills/

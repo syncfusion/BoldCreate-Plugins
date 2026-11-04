@@ -1,0 +1,78 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cloud-sql-sqlserver",
+  "version": "0.2.0",
+  "description": "Connect to Cloud SQL for SQL Server",
+  "author": {
+    "name": "Google LLC",
+    "email": "data-cloud-ai-integrations@google.com"
+  },
+  "homepage": "https://cloud.google.com/sql/docs/sqlserver",
+  "repository": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver",
+  "license": "Apache-2.0",
+  "keywords": [
+    "cloud-sql",
+    "sql-server",
+    "database"
+  ],
+  "extensions": {
+    "com.google.cloud.data.agent-plugins": {
+      "config": [
+        {
+          "key": "CLOUD_SQL_MSSQL_PROJECT",
+          "title": "Project Name",
+          "description": "Name of the Google Cloud project"
+        },
+        {
+          "key": "CLOUD_SQL_MSSQL_REGION",
+          "title": "Region",
+          "description": "Region of the Cloud SQL instance"
+        },
+        {
+          "key": "CLOUD_SQL_MSSQL_INSTANCE",
+          "title": "Instance ID",
+          "description": "ID of the Cloud SQL instance"
+        },
+        {
+          "key": "CLOUD_SQL_MSSQL_DATABASE",
+          "title": "Database",
+          "description": "Name of the database"
+        },
+        {
+          "key": "CLOUD_SQL_MSSQL_USER",
+          "title": "User",
+          "description": "Username of the database user"
+        },
+        {
+          "key": "CLOUD_SQL_MSSQL_PASSWORD",
+          "title": "Password",
+          "description": "Password of the database user"
+        },
+        {
+          "key": "CLOUD_SQL_MSSQL_IP_TYPE",
+          "title": "Instance IP assignment",
+          "description": "(Optional) Type of the IP address: PUBLIC, PRIVATE, or PSC (Default: Public)"
+        }
+      ],
+      "gemini": {
+        "mcpServerName": "cloud-sql-mssql",
+        "contextFileName": "CLOUD-SQL-SQLSERVER.md"
+      },
+      "codex": {
+        "interface": {
+          "displayName": "Cloud SQL for SQL Server",
+          "shortDescription": "Interact with CloudSQL for SQL Server instances.",
+          "developerName": "Google LLC",
+          "category": "Database",
+          "capabilities": [
+            "Read",
+            "Write"
+          ],
+          "defaultPrompt": [
+            "You are a highly skilled database engineer and database administrator. Your purpose is to help the developer build and interact with databases and utilize data context throughout the entire software delivery cycle."
+          ]
+        }
+      }
+    }
+  }
+}

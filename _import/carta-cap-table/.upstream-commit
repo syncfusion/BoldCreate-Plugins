@@ -1,0 +1,4 @@
+repository: https://github.com/carta/plugins.git
+path: plugins/carta-cap-table
+commit: ea7fe1d4db0f0f273799ec4b40070c3c6b00fdcc
+not copied: lib/ references/ scripts/ vendor/

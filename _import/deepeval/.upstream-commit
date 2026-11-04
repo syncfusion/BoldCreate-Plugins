@@ -1,0 +1,4 @@
+repository: https://github.com/confident-ai/deepeval.git
+path: .
+commit: da9b2c969f8a15e8aa4ef67c372157ce060cd63e
+not copied: .github/ .scripts/ .vscode/ deepeval/ docs/ examples/ scripts/ sqlite/ tests/ typescript/ voice_simulations_ws/

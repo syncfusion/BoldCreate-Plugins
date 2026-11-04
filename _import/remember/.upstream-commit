@@ -1,0 +1,4 @@
+repository: https://github.com/Digital-Process-Tools/claude-remember.git
+path: .
+commit: ccd45061ee4b0dcf0a8245ca1d344ab61d4e110b
+not copied: .agents/ .claude/ .codex-plugin/ .gemini/ .github/ .oss/ changelog.d/ docs/ hooks.d/ pipeline/ prompts/ scripts/ tests/ trap.d/

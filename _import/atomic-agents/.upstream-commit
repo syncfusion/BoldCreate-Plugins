@@ -1,0 +1,3 @@
+repository: https://github.com/BrainBlend-AI/atomic-agents.git
+path: claude-plugin/atomic-agents
+commit: 33d2ec94f42d4a65393a336e35edf21ee5700303

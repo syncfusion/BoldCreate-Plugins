@@ -1,0 +1,83 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "alloydb",
+  "version": "0.2.0",
+  "description": "Create, connect, and interact with an AlloyDB for PostgreSQL database and data.",
+  "author": {
+    "name": "Google LLC",
+    "email": "data-cloud-ai-integrations@google.com"
+  },
+  "homepage": "https://cloud.google.com/alloydb",
+  "repository": "https://github.com/gemini-cli-extensions/alloydb",
+  "license": "Apache-2.0",
+  "keywords": [
+    "alloydb",
+    "postgresql",
+    "database"
+  ],
+  "extensions": {
+    "com.google.cloud.data.agent-plugins": {
+      "config": [
+        {
+          "key": "ALLOYDB_POSTGRES_PROJECT",
+          "title": "Project ID",
+          "description": "ID of the Google Cloud project"
+        },
+        {
+          "key": "ALLOYDB_POSTGRES_REGION",
+          "title": "Location",
+          "description": "Region of the AlloyDB cluster"
+        },
+        {
+          "key": "ALLOYDB_POSTGRES_CLUSTER",
+          "title": "Cluster ID",
+          "description": "ID of the AlloyDB cluster"
+        },
+        {
+          "key": "ALLOYDB_POSTGRES_INSTANCE",
+          "title": "Instance ID",
+          "description": "ID of the AlloyDB instance"
+        },
+        {
+          "key": "ALLOYDB_POSTGRES_DATABASE",
+          "title": "Database",
+          "description": "Name of the database"
+        },
+        {
+          "key": "ALLOYDB_POSTGRES_USER",
+          "title": "User",
+          "description": "(Optional) Username of the database user (Default: IAM user)"
+        },
+        {
+          "key": "ALLOYDB_POSTGRES_PASSWORD",
+          "title": "Password",
+          "description": "(Optional) Password of the database user (Default: IAM user)"
+        },
+        {
+          "key": "ALLOYDB_POSTGRES_IP_TYPE",
+          "title": "IP Type",
+          "description": "(Optional) Type of the IP address: PUBLIC, PRIVATE, or PSC (Default: Public)"
+        }
+      ],
+      "gemini": {
+        "mcpServerName": "alloydb-postgres",
+        "contextFileName": "ALLOYDB.md"
+      },
+      "codex": {
+        "interface": {
+          "displayName": "AlloyDB for PostgreSQL",
+          "shortDescription": "Interact with AlloyDB for PostgreSQL instances.",
+          "developerName": "Google LLC",
+          "category": "Database",
+          "capabilities": [
+            "Read",
+            "Write"
+          ],
+          "defaultPrompt": [
+            "You are a highly skilled database engineer and database administrator. Your purpose is to help the developer build and interact with databases and utilize data context throughout the entire software delivery cycle."
+          ]
+        }
+      }
+    }
+  }
+}

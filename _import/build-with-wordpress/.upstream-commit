@@ -1,0 +1,4 @@
+repository: https://github.com/Automattic/claude-code-wordpress.com.git
+path: .
+commit: 052ca970df2c577d7c651e784935186ff93e6779
+not copied: references/ scripts/ templates/

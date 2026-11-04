@@ -1,0 +1,4 @@
+repository: https://github.com/gemini-cli-extensions/firestore-native.git
+path: .
+commit: 6e6a841c2173b1fa1f95a9743f589bdbaa275caf
+not copied: .codex-plugin/ .github/

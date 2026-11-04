@@ -1,0 +1,3 @@
+repository: https://github.com/gitkraken/claude-plugin.git
+path: .
+commit: f7a53b2cd138c22eccb977b9d93494ea6d423d12

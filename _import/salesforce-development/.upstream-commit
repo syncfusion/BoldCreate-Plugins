@@ -1,0 +1,4 @@
+repository: https://github.com/forcedotcom/sf-skills.git
+path: plugins/builder/salesforce-development
+commit: d3088edf8776a3c23f55aadead587eb3903be2d3
+not copied: .codex-plugin/ bin/ catalog/ codex-commands/ docs/ scripts/ vendor/

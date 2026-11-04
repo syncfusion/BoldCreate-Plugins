@@ -1,0 +1,4 @@
+repository: https://github.com/datadog-labs/claude-code-plugin.git
+path: .
+commit: 195f570c002beab3d7bd342739034d0019aa4863
+not copied: .github/ viz/

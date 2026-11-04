@@ -1,0 +1,4 @@
+repository: https://github.com/aws/agent-toolkit-for-aws.git
+path: plugins/aws-core
+commit: 34b3eccfd8b619ea0cb4ba04a9be9dfefebd94e7
+not copied: .codex-plugin/ com.anthropic.claude-code/
