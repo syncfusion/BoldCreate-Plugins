@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "moda-slides-and-designs",
+  "displayName": "Moda - Slides and Designs",
+  "version": "0.7.1",
+  "description": "Fully editable PowerPoints, Meta ads, motion graphics & social.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://moda.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "design",
+  "keywords": [
+    "moda-slides-and-designs",
+    "design",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://moda.app/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "moda-slides-and-designs",
+        "transport": "streamable-http",
+        "url": "https://agents.moda.app/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

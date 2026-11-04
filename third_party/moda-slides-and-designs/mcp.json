@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "moda-slides-and-designs": {
+      "type": "http",
+      "url": "https://agents.moda.app/mcp"
+    }
+  }
+}

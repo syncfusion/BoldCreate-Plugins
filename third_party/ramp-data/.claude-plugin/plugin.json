@@ -1,0 +1,24 @@
+{
+  "name": "ramp-data",
+  "displayName": "Ramp Data",
+  "version": "0.7.1",
+  "description": "Search and analyze Ramp spend across 50,000+ businesses.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ramp.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ramp-data",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "ramp-data": {
+      "type": "http",
+      "url": "https://mcp.ramp.com/ramp-data/anthropic/mcp"
+    }
+  }
+}

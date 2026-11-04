@@ -1,0 +1,24 @@
+{
+  "name": "teamtailor",
+  "displayName": "Teamtailor",
+  "version": "0.7.1",
+  "description": "Chat with your recruitment data: jobs, candidates, pipelines, and todos from Teamtailor.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://teamtailor.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "teamtailor",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "teamtailor": {
+      "type": "http",
+      "url": "https://mcp.teamtailor.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "opusclip-ai-producer": {
+      "type": "http",
+      "url": "https://producer.opus.pro/api/mcp"
+    }
+  }
+}

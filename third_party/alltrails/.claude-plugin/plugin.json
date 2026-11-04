@@ -1,0 +1,24 @@
+{
+  "name": "alltrails",
+  "displayName": "AllTrails",
+  "version": "0.7.1",
+  "description": "Find your next hike.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.alltrails.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "alltrails",
+    "travel",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "alltrails": {
+      "type": "http",
+      "url": "https://www.alltrails.com/mcp"
+    }
+  }
+}

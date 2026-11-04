@@ -1,0 +1,24 @@
+{
+  "name": "workable",
+  "displayName": "Workable",
+  "version": "0.7.1",
+  "description": "Your AI assistant for Hiring and HR — inside Workable.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.workable.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "workable",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "workable": {
+      "type": "http",
+      "url": "https://mcp.workable.com/mcp"
+    }
+  }
+}

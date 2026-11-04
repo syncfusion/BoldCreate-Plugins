@@ -1,0 +1,24 @@
+{
+  "name": "parallel-search",
+  "displayName": "Parallel Search",
+  "version": "0.7.1",
+  "description": "Free token-efficient search using Parallel.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://parallel.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "parallel-search",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "parallel-search": {
+      "type": "http",
+      "url": "https://search.parallel.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "craft",
+  "displayName": "Craft",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Notes & second brain.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.craft.do/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "craft",
+    "productivity",
+    "mcp"
+  ],
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

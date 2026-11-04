@@ -1,0 +1,24 @@
+{
+  "name": "ifttt",
+  "displayName": "IFTTT",
+  "version": "0.7.1",
+  "description": "Connect, control, and automate 1,000+ apps with IFTTT.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ifttt.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ifttt",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "ifttt": {
+      "type": "http",
+      "url": "https://ifttt.com/mcp"
+    }
+  }
+}

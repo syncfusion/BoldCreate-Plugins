@@ -1,0 +1,24 @@
+{
+  "name": "crypto-com",
+  "displayName": "Crypto.com",
+  "version": "0.7.1",
+  "description": "Real time prices, orders, charts, and more for crypto.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://crypto.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "crypto-com",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "crypto-com": {
+      "type": "http",
+      "url": "https://mcp.crypto.com/market-data/mcp"
+    }
+  }
+}

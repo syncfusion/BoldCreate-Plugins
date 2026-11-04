@@ -1,0 +1,24 @@
+{
+  "name": "braze",
+  "displayName": "Braze",
+  "version": "0.7.1",
+  "description": "Braze Marketers can use this connector to answer questions, analyze trends, and provide insights.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://braze.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "braze",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "braze": {
+      "type": "http",
+      "url": "https://mcp.braze.com/mcp"
+    }
+  }
+}

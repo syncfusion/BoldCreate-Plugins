@@ -1,0 +1,28 @@
+{
+  "name": "cb-insights",
+  "displayName": "CB Insights",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Predictive intelligence on private companies.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.cbinsights.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "cb-insights",
+    "finance",
+    "mcp"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

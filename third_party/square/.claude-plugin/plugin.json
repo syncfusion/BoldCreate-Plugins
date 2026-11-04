@@ -1,0 +1,24 @@
+{
+  "name": "square",
+  "displayName": "Square",
+  "version": "0.7.1",
+  "description": "Search and manage transaction, merchant, and payment data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://squareup.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "square",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "square": {
+      "type": "http",
+      "url": "https://mcp.squareup.com/mcp"
+    }
+  }
+}

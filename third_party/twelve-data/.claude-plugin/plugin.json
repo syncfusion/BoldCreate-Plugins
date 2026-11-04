@@ -1,0 +1,24 @@
+{
+  "name": "twelve-data",
+  "displayName": "Twelve Data",
+  "version": "0.7.1",
+  "description": "Real-time prices, 100+ technical indicators, and fundamentals for stocks, forex, crypto, and ETFs — ask in plain English, no API knowledge needed.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://twelvedata.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "twelve-data",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "twelve-data": {
+      "type": "http",
+      "url": "https://mcp.twelvedata.com/mcp"
+    }
+  }
+}

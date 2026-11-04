@@ -1,0 +1,24 @@
+{
+  "name": "zoho-desk",
+  "displayName": "Zoho Desk",
+  "version": "0.7.1",
+  "description": "Zoho Desk MCP for Customer Support Automation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.zoho.com/mcp/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zoho-desk",
+    "communication",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "zoho-desk": {
+      "type": "http",
+      "url": "https://claude-zohodesk.zohomcp.com/mcp/message"
+    }
+  }
+}

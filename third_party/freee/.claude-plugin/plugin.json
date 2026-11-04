@@ -1,0 +1,24 @@
+{
+  "name": "freee",
+  "displayName": "freee",
+  "version": "0.7.1",
+  "description": "freeeの各種プロダクトへのデータ下書作成、自動登録、登録済みデータの分析 / Draft, register, and analyze data across freee products.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://corp.freee.co.jp/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "freee",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "freee": {
+      "type": "http",
+      "url": "https://mcp.freee.co.jp/mcp"
+    }
+  }
+}

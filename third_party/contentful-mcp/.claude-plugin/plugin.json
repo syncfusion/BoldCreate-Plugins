@@ -1,0 +1,24 @@
+{
+  "name": "contentful-mcp",
+  "displayName": "Contentful MCP",
+  "version": "0.7.1",
+  "description": "Manage your content from Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.contentful.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "contentful-mcp",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "contentful-mcp": {
+      "type": "http",
+      "url": "https://mcp.contentful.com/mcp"
+    }
+  }
+}

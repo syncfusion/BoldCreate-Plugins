@@ -1,0 +1,28 @@
+{
+  "name": "fellow-ai",
+  "displayName": "Fellow.ai",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Chat with your meetings to uncover actionable insights.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://fellow.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "fellow-ai",
+    "communication",
+    "mcp"
+  ],
+  "category": "communication",
+  "tags": [
+    "communication",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

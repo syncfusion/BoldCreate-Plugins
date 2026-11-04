@@ -1,0 +1,24 @@
+{
+  "name": "instacart",
+  "displayName": "Instacart",
+  "version": "0.7.1",
+  "description": "Groceries and more delivered as fast as 30 minutes.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.instacart.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "instacart",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "instacart": {
+      "type": "http",
+      "url": "https://fig-mcp.instacart.com/mcp"
+    }
+  }
+}

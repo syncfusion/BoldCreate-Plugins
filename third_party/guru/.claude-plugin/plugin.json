@@ -1,0 +1,24 @@
+{
+  "name": "guru",
+  "displayName": "Guru",
+  "version": "0.7.1",
+  "description": "Search and interact with your company knowledge.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.getguru.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "guru",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "guru": {
+      "type": "http",
+      "url": "https://mcp.api.getguru.com/mcp"
+    }
+  }
+}

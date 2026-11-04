@@ -1,0 +1,24 @@
+{
+  "name": "third-bridge",
+  "displayName": "Third Bridge",
+  "version": "0.7.1",
+  "description": "Expert-led enhanced insights.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.thirdbridge.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "third-bridge",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "third-bridge": {
+      "type": "http",
+      "url": "https://ai.thirdbridge.com/mcp/sse"
+    }
+  }
+}

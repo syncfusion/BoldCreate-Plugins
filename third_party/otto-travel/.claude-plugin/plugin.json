@@ -1,0 +1,24 @@
+{
+  "name": "otto-travel",
+  "displayName": "Otto Travel",
+  "version": "0.7.1",
+  "description": "Plan, book, and manage business travel.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.ottotheagent.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "otto-travel",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "otto-travel": {
+      "type": "http",
+      "url": "https://api.ottotheagent.com/mcp"
+    }
+  }
+}

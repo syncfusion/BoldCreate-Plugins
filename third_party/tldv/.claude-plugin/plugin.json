@@ -1,0 +1,24 @@
+{
+  "name": "tldv",
+  "displayName": "tl;dv - AI Note Taker & Meeting Recorder: Transcripts, Summaries & Meeting Minutes",
+  "version": "0.7.1",
+  "description": "Meeting transcripts, notes & action items in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://tldv.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "tldv",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "tldv": {
+      "type": "http",
+      "url": "https://mcp.tldv.io/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "quartr",
+  "displayName": "Quartr",
+  "version": "0.7.1",
+  "description": "Financial data and AI infrastructure for company research.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://quartr.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "quartr",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "quartr": {
+      "type": "http",
+      "url": "https://mcp.quartr.com/mcp"
+    }
+  }
+}

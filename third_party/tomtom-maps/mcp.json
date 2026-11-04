@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tomtom-maps": {
+      "type": "http",
+      "url": "https://mcp.tomtom.com/maps"
+    }
+  }
+}

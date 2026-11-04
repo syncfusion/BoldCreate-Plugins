@@ -1,0 +1,24 @@
+{
+  "name": "imanage-work",
+  "displayName": "iManage Work",
+  "version": "0.7.1",
+  "description": "Governed knowledge. AI ready.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://imanage.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "imanage-work",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "imanage-work": {
+      "type": "http",
+      "url": "https://cloudimanage.com/mcp/work"
+    }
+  }
+}

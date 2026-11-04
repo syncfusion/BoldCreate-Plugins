@@ -1,0 +1,24 @@
+{
+  "name": "autodesk-help",
+  "displayName": "Autodesk Product Help",
+  "version": "0.7.1",
+  "description": "Securely access Autodesk's help documentation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.autodesk.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "autodesk-help",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "autodesk-help": {
+      "type": "http",
+      "url": "https://developer.api.autodesk.com/knowledge/public/v1/mcp"
+    }
+  }
+}

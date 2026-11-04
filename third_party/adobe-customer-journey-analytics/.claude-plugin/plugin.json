@@ -1,0 +1,24 @@
+{
+  "name": "adobe-customer-journey-analytics",
+  "displayName": "Adobe Customer Journey Analytics",
+  "version": "0.7.1",
+  "description": "Run reports using your metrics, dimensions, and segments.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "adobe-customer-journey-analytics",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "adobe-customer-journey-analytics": {
+      "type": "http",
+      "url": "https://cja-mcp.adobe.io/mcp"
+    }
+  }
+}

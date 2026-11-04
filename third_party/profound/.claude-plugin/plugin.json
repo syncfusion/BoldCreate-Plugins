@@ -1,0 +1,24 @@
+{
+  "name": "profound",
+  "displayName": "Profound",
+  "version": "0.7.1",
+  "description": "Pull Profound Visibility, Citation, & AI Bot Visit Data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://tryprofound.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "profound",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "profound": {
+      "type": "http",
+      "url": "https://mcp.tryprofound.com/mcp"
+    }
+  }
+}

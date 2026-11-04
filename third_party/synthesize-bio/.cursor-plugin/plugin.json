@@ -1,0 +1,28 @@
+{
+  "name": "synthesize-bio",
+  "displayName": "Synthesize Bio",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Generate gene expression from a virtual human.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.synthesize.bio/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "synthesize-bio",
+    "science",
+    "mcp"
+  ],
+  "category": "science",
+  "tags": [
+    "science",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

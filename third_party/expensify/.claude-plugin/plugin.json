@@ -1,0 +1,24 @@
+{
+  "name": "expensify",
+  "displayName": "Expensify",
+  "version": "0.7.1",
+  "description": "Search and analyze your Expensify data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.expensify.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "expensify",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "expensify": {
+      "type": "http",
+      "url": "https://www.expensify.com/mcp/"
+    }
+  }
+}

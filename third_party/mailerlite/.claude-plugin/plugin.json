@@ -1,0 +1,24 @@
+{
+  "name": "mailerlite",
+  "displayName": "MailerLite",
+  "version": "0.7.1",
+  "description": "Turn Claude into your email marketing assistant.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.mailerlite.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mailerlite",
+    "communication",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "mailerlite": {
+      "type": "http",
+      "url": "https://mcp.mailerlite.com/mcp"
+    }
+  }
+}

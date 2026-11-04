@@ -1,0 +1,24 @@
+{
+  "name": "gusto",
+  "displayName": "Gusto",
+  "version": "0.7.1",
+  "description": "Query and analyze your Gusto data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://gusto.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "gusto",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "gusto": {
+      "type": "http",
+      "url": "https://mcp.api.gusto.com/anthropic"
+    }
+  }
+}
