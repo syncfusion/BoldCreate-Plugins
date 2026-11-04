@@ -1016,6 +1016,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "slack",
+      "displayName": "Slack",
+      "version": "0.7.1",
+      "description": "Search Slack messages, read channels and threads, and find context from your workspace.",
+      "source": "third_party/slack",
+      "logo": "third_party/slack/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "stripe",
       "displayName": "Stripe",
       "version": "0.7.1",

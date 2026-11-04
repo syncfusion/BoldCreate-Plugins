@@ -218,6 +218,11 @@
       "description": "Investigate Sentry errors, stack traces, and issues for a project."
     },
     {
+      "name": "slack",
+      "source": "./third_party/slack",
+      "description": "Search Slack messages, read channels and threads, and find context from your workspace."
+    },
+    {
       "name": "stripe",
       "source": "./third_party/stripe",
       "description": "Work with Stripe customers, payments, subscriptions, and search Stripe docs."

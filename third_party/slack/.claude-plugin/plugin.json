@@ -1,0 +1,25 @@
+{
+  "name": "slack",
+  "displayName": "Slack",
+  "version": "0.7.1",
+  "description": "Search Slack messages, read channels and threads, and find context from your workspace.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "slack",
+    "messaging",
+    "search",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp"
+    }
+  }
+}

@@ -218,6 +218,11 @@
       "source": "third_party/sentry"
     },
     {
+      "name": "slack",
+      "description": "Search Slack messages, read channels and threads, and find context from your workspace.",
+      "source": "third_party/slack"
+    },
+    {
       "name": "stripe",
       "description": "Work with Stripe customers, payments, subscriptions, and search Stripe docs.",
       "source": "third_party/stripe"
