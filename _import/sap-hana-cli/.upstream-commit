@@ -1,0 +1,4 @@
+repository: https://github.com/SAP-samples/hana-cli-claude-plugin.git
+path: .
+commit: abadd0aba32792b6378ed784e9f6d3e5b25dfc2a
+not copied: LICENSES/

@@ -1,0 +1,4 @@
+repository: https://github.com/langfuse/skills.git
+path: .
+commit: b86532b77f16f1e27c7cffa32bb632aa3cd9a352
+not copied: .codex-plugin/ .cursor/ .github/

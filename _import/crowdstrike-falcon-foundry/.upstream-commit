@@ -1,0 +1,4 @@
+repository: https://github.com/CrowdStrike/foundry-skills.git
+path: .
+commit: 61572f38592d47c747e2595182459781bf0bc679
+not copied: .agents/ .codex-plugin/ .github/ images/ scripts/ tests/ use-cases/

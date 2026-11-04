@@ -1,0 +1,4 @@
+repository: https://github.com/resend/resend-skills.git
+path: .
+commit: fd14937dba5a99de5dba902808f70fa575513cc5
+not copied: .github/ .grok-plugin/ skill-evals/

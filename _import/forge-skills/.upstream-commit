@@ -1,0 +1,4 @@
+repository: https://github.com/atlassian/forge-skills.git
+path: .
+commit: 4f04ae02879435f23808a4798da28f75d3ab74c3
+not copied: .agents/ .atlassian/ .codex-plugin/ .github/ .plugin/

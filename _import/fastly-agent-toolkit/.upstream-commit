@@ -1,0 +1,4 @@
+repository: https://github.com/fastly/fastly-agent-toolkit.git
+path: .
+commit: 6db70eaf54ba885d56091861224987d6cf06c429
+not copied: .github/ scripts/

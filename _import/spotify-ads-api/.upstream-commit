@@ -1,0 +1,4 @@
+repository: https://github.com/spotify/ads-claude-plugin.git
+path: .
+commit: 532b47af3d2eb10708b38733d07a5b1433c17e82
+not copied: .agents/ .codex-plugin/ .github/ scripts/ templates/ tests/

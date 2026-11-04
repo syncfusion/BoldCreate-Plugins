@@ -1,0 +1,4 @@
+repository: https://github.com/datarobot-oss/datarobot-agent-skills.git
+path: .
+commit: 53a4dacc6b55f4fe3ab4840829ebf2d1ea1477dc
+not copied: .codex-plugin/ .githooks/ .github/ .opencode-plugin/ .skills/ docs/ scripts/ tests/

@@ -1,0 +1,4 @@
+repository: https://github.com/langfuse/claude-observability-plugin.git
+path: .
+commit: b5211009698fdfe79c6bbe90d6901ad255ea65d3
+not copied: .github/ tests/

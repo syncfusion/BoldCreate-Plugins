@@ -1,0 +1,18 @@
+{
+    "name": "appwrite",
+    "version": "0.2.0",
+    "description": "Appwrite tools for Claude Code, including SDK skills, the hosted Appwrite MCP server, and deployment commands.",
+    "author": {
+        "name": "Appwrite",
+        "email": "team@appwrite.io"
+    },
+    "homepage": "https://appwrite.io/docs/tooling/ai/ai-dev-tools/claude-code",
+    "repository": "https://github.com/appwrite/claude-plugin",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "appwrite",
+        "claude-code",
+        "mcp",
+        "skills"
+    ]
+}

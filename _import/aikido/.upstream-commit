@@ -1,0 +1,3 @@
+repository: https://github.com/AikidoSec/aikido-claude-plugin.git
+path: .
+commit: 8fdc995a44102a30ad54164e0bdd249d158c725c

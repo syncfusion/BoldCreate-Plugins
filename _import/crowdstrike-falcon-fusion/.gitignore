@@ -1,0 +1,24 @@
+# Local action discovery cache (per-user, never shipped)
+.action_cache.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Credentials
+.env
+
+# IDE / local tools
+.idea/
+.playwright-mcp/
+
+# Coverage
+.coverage
+htmlcov/
+working/
+
+# OpenAI submission bundle built by ./release.sh --bundle
+crowdstrike-falcon-fusion-*.zip
+
+# Local Atlassian/Jira pull artifacts (never commit — may contain internal content)
+pages-jira/

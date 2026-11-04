@@ -1,0 +1,4 @@
+repository: https://github.com/superdesigndev/superdesign-skill.git
+path: .
+commit: f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b
+not copied: .claude/ .codex-plugin/ dsh/

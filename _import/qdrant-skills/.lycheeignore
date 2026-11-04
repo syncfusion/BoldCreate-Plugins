@@ -1,0 +1,15 @@
+https://docs.cursor.com/context/skills
+
+# skill-test/README.md placeholder URLs (illustrative, not real endpoints)
+https://skills.qdrant.tech/path/to/plugin.zip
+https://skills.qdrant.tech/\.\.\./SKILL.md
+
+# Intermittently fail with "Connection failed" in CI (~50% of runs),
+# likely the site's CDN rate-limiting/blocking GitHub Actions'
+# shared runner IPs
+https://qdrant.tech/
+https://qdrant.tech/documentation/
+
+# Returns 403 to non-browser/bot traffic (confirmed via lychee in CI), not an
+# actually-broken link
+https://platform.openai.com/

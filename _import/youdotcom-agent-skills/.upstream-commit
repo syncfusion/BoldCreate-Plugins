@@ -1,0 +1,4 @@
+repository: https://github.com/youdotcom-oss/agent-skills.git
+path: .
+commit: a692b6f34fac566c72bc7fcc6cafbd7c0f7889c1
+not copied: .agents/ .codex-plugin/ .github/ .grok-plugin/ .kimi-plugin/ .plugin/ evals/ packages/ scripts/ tests/

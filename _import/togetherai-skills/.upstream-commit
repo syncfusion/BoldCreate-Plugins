@@ -1,0 +1,4 @@
+repository: https://github.com/togethercomputer/skills.git
+path: .
+commit: 644d38225bbdef0318462fe222f6f9883c8addcd
+not copied: .github/ quality/ scripts/

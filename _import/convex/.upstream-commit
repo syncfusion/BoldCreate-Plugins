@@ -1,0 +1,4 @@
+repository: https://github.com/get-convex/convex-backend-skill.git
+path: .
+commit: 6ca54f6e2e7582812187b8a5a4783fb4dff52692
+not copied: .github/ monitors/

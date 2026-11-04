@@ -1,0 +1,3 @@
+repository: https://github.com/prisma/claude-plugin.git
+path: .
+commit: 82edd74d81892bcccf7294cbbf76752d76391da5

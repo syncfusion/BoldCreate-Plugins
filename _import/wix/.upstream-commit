@@ -1,0 +1,4 @@
+repository: https://github.com/wix/skills.git
+path: .
+commit: 8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f
+not copied: .claude/ .codex-plugin/ .github/ docs/ packages/ scripts/ wix-headless-replatform/ wix-replatform/ yaml/

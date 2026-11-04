@@ -1,0 +1,4 @@
+repository: https://github.com/cockroachdb/claude-plugin.git
+path: .
+commit: 6c96c6394a61f366e8ec1b7cec2281e97507cbff
+not copied: .github/ scripts/ submodules/

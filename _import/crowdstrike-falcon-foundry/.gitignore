@@ -1,0 +1,16 @@
+.DS_Store
+.idea/
+__pycache__/
+.playwright-mcp/
+.pytest_cache/
+.coverage
+.venv/
+
+# Browser verification drops screenshots wherever it is run from.
+# Repo images live in images/ and plugin interface icons in assets/; both stay tracked.
+*.png
+!images/*.png
+!assets/*.png
+
+# OpenAI submission bundle built by ./release.sh --bundle
+crowdstrike-falcon-foundry-*.zip

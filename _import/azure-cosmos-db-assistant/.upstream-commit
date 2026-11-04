@@ -1,0 +1,3 @@
+repository: https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin.git
+path: .
+commit: f1e0498579a9251e5f3179b92d25d6ce3409bae5

@@ -1,0 +1,4 @@
+repository: https://github.com/dash0hq/dash0-agent-plugin.git
+path: .
+commit: 72a84179e6c64871ad5b6fceb09e00f502de415a
+not copied: .agents/ .claude/ .codex-plugin/ .github/ claude/ cmd/ codex/ copilot/ cursor/ internal/ qa/ scripts/ test/

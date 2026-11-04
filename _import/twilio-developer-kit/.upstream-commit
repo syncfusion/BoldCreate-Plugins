@@ -1,0 +1,4 @@
+repository: https://github.com/twilio/ai.git
+path: .
+commit: 803790a281f0ef11d2928ffb41bc8422237fb434
+not copied: .codex-plugin/ mcp/
