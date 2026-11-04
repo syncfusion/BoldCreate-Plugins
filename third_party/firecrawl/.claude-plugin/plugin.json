@@ -1,0 +1,26 @@
+{
+  "name": "firecrawl",
+  "displayName": "Firecrawl",
+  "version": "0.7.1",
+  "description": "Search the web, read pages, and research documentation with Firecrawl.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/firecrawl/firecrawl-claude-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "firecrawl",
+    "web",
+    "search",
+    "scrape",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "firecrawl": {
+      "type": "http",
+      "url": "https://mcp.firecrawl.dev/v2/mcp-search"
+    }
+  }
+}

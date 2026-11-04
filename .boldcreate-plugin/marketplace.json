@@ -176,6 +176,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "firecrawl",
+      "displayName": "Firecrawl",
+      "version": "0.7.1",
+      "description": "Search the web, read pages, and research documentation with Firecrawl.",
+      "source": "third_party/firecrawl",
+      "logo": "third_party/firecrawl/assets/logo.svg",
+      "category": "search",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "gitea",
       "displayName": "Gitea",
       "version": "0.7.0",
@@ -1476,6 +1500,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "vanta",
+      "displayName": "Vanta",
+      "version": "0.7.1",
+      "description": "Review Vanta compliance tests, controls, vendors, and vulnerabilities.",
+      "source": "third_party/vanta",
+      "logo": "third_party/vanta/assets/logo.svg",
+      "category": "security",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "vercel",

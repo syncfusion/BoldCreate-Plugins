@@ -43,6 +43,11 @@
       "description": "Turn Figma frames into code and read design tokens, components, and variables."
     },
     {
+      "name": "firecrawl",
+      "source": "./third_party/firecrawl",
+      "description": "Search the web, read pages, and research documentation with Firecrawl."
+    },
+    {
       "name": "gitea",
       "source": "./third_party/gitea",
       "description": "Work with Gitea repositories, issues, pull requests, and releases through your own gitea-mcp server."
@@ -331,6 +336,11 @@
       "name": "syncfusion-xamarin-to-maui",
       "source": "./syncfusion/migration-skills/xamarin-to-maui",
       "description": "Skills for moving Xamarin.Forms apps to .NET MAUI: project and framework changes, platform-specific code, renderers to handlers, and Syncfusion Xamarin controls to their .NET MAUI equivalents."
+    },
+    {
+      "name": "vanta",
+      "source": "./third_party/vanta",
+      "description": "Review Vanta compliance tests, controls, vendors, and vulnerabilities."
     },
     {
       "name": "vercel",

@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "vanta",
+  "displayName": "Vanta",
+  "version": "0.7.1",
+  "description": "Review Vanta compliance tests, controls, vendors, and vulnerabilities.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/VantaInc/vanta-mcp-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "security",
+  "keywords": [
+    "vanta",
+    "compliance",
+    "security",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/VantaInc/vanta-mcp-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "vanta-us",
+        "transport": "streamable-http",
+        "url": "https://mcp.vanta.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      },
+      {
+        "name": "vanta-eu",
+        "transport": "streamable-http",
+        "url": "https://mcp.eu.vanta.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      },
+      {
+        "name": "vanta-aus",
+        "transport": "streamable-http",
+        "url": "https://mcp.aus.vanta.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (VantaInc/vanta-mcp-plugin)"
+  }
+}
