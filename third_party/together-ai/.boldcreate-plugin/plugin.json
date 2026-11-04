@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "together-ai",
+  "displayName": "Together AI Docs",
+  "version": "0.1.0",
+  "description": "Search Together AI's official documentation for models, inference, and fine-tuning.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.together.ai",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "documentation",
+  "keywords": [
+    "together ai",
+    "inference",
+    "fine-tuning",
+    "llm",
+    "docs",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://docs.together.ai",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "together-ai",
+        "transport": "streamable-http",
+        "url": "https://docs.together.ai/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "live initialize call"
+  }
+}

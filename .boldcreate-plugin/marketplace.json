@@ -152,6 +152,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "cohere",
+      "displayName": "Cohere Docs",
+      "version": "0.1.0",
+      "description": "Search Cohere's official documentation for the Command and Embed models and the Cohere API.",
+      "source": "third_party/cohere",
+      "logo": "third_party/cohere/assets/logo.svg",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "coingecko",
       "displayName": "CoinGecko",
       "version": "0.1.0",
@@ -268,6 +292,30 @@
       "rollout": {
         "phase": 1,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "fireworks-ai",
+      "displayName": "Fireworks AI Docs",
+      "version": "0.1.0",
+      "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models.",
+      "source": "third_party/fireworks-ai",
+      "logo": "third_party/fireworks-ai/assets/logo.svg",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     },
@@ -1088,6 +1136,54 @@
       "supportedByGateway": true
     },
     {
+      "name": "ollama",
+      "displayName": "Ollama Docs",
+      "version": "0.1.0",
+      "description": "Search Ollama's official documentation for running and serving local large language models.",
+      "source": "third_party/ollama",
+      "logo": "third_party/ollama/assets/logo.svg",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "perplexity",
+      "displayName": "Perplexity Docs",
+      "version": "0.1.0",
+      "description": "Search Perplexity's official Sonar and API documentation.",
+      "source": "third_party/perplexity",
+      "logo": "third_party/perplexity/assets/logo.svg",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "posthog",
       "displayName": "PostHog",
       "version": "0.7.1",
@@ -1524,6 +1620,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "together-ai",
+      "displayName": "Together AI Docs",
+      "version": "0.1.0",
+      "description": "Search Together AI's official documentation for models, inference, and fine-tuning.",
+      "source": "third_party/together-ai",
+      "logo": "third_party/together-ai/assets/logo.svg",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "vercel",

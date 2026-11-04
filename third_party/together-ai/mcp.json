@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "together-ai": {
+      "type": "http",
+      "url": "https://docs.together.ai/mcp"
+    }
+  }
+}
