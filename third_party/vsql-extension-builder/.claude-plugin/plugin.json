@@ -1,0 +1,18 @@
+{
+  "name": "vsql-extension-builder",
+  "displayName": "VillageSQL Extension Builder",
+  "version": "1.0.0",
+  "description": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server.",
+  "author": {
+    "name": "VillageSQL"
+  },
+  "homepage": "https://github.com/villagesql/villagesql-skills",
+  "repository": "https://github.com/villagesql/villagesql-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "vsql",
+    "database",
+    "skills"
+  ],
+  "icon": "./assets/logo.png"
+}

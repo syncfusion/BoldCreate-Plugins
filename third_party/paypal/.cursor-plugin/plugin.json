@@ -1,0 +1,24 @@
+{
+  "name": "paypal",
+  "displayName": "PayPal",
+  "version": "1.2.0",
+  "description": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server",
+  "author": {
+    "name": "PayPal"
+  },
+  "homepage": "https://github.com/paypal/AI-Toolkit",
+  "repository": "https://github.com/paypal/AI-Toolkit",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "paypal",
+    "payments",
+    "skills"
+  ],
+  "category": "payments",
+  "tags": [
+    "payments",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

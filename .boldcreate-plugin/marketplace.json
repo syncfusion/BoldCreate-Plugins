@@ -107,6 +107,25 @@
       "supportedByGateway": false
     },
     {
+      "name": "aiven",
+      "displayName": "Aiven",
+      "version": "1.0.6",
+      "description": "Easily deploy managed PostgreSQL (pg), Kafka, OpenSearch, Clickhouse and other databases, streaming and apps.",
+      "source": "third_party/aiven",
+      "logo": "third_party/aiven/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "alloydb-omni",
       "displayName": "AlloyDB Omni",
       "version": "0.2.2",
@@ -901,6 +920,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "confidence",
+      "displayName": "Spotify Confidence",
+      "version": "0.9.0",
+      "description": "Access Confidence feature flags, experiments, and migration tools directly from Claude Code.",
+      "source": "third_party/confidence",
+      "logo": "third_party/confidence/assets/logo.png",
+      "category": "analytics",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "context7",
       "displayName": "Context7",
       "version": "0.7.1",
@@ -1334,6 +1372,25 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "forge-skills",
+      "displayName": "Atlassian Forge Skills",
+      "version": "0.1.0",
+      "description": "Forge app builder skill bundle with Forge MCP configuration for Atlassian Forge workflows.",
+      "source": "third_party/forge-skills",
+      "logo": "third_party/forge-skills/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "gc-ai",
@@ -2133,6 +2190,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "greptile",
+      "displayName": "Greptile",
+      "version": "0.7.1",
+      "description": "Read and resolve Greptile pull request reviews and search your organization's coding patterns.",
+      "source": "third_party/greptile",
+      "logo": "third_party/greptile/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "growthbook",
       "displayName": "GrowthBook",
       "version": "2.0.0",
@@ -2517,6 +2598,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "modern-web-guidance",
+      "displayName": "Modern Web Guidance",
+      "version": "0.0.194",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "source": "third_party/modern-web-guidance",
+      "logo": "third_party/modern-web-guidance/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "monday",
       "displayName": "monday.com",
       "version": "0.7.1",
@@ -2714,6 +2814,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "paypal",
+      "displayName": "PayPal",
+      "version": "1.2.0",
+      "description": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server",
+      "source": "third_party/paypal",
+      "logo": "third_party/paypal/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "pendo-analytics",
       "displayName": "Pendo Analytics",
       "version": "1.4.0",
@@ -2795,6 +2914,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "planetscale",
+      "displayName": "PlanetScale",
+      "version": "0.7.1",
+      "description": "Inspect PlanetScale organizations, databases, branches, schema and Insights data.",
+      "source": "third_party/planetscale",
+      "logo": "third_party/planetscale/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "posthog",
       "displayName": "PostHog",
       "version": "0.7.1",
@@ -2864,6 +3007,25 @@
       "source": "third_party/pydantic-ai",
       "logo": "third_party/pydantic-ai/assets/logo.svg",
       "category": "ai",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "qdrant-skills",
+      "displayName": "Qdrant Skills",
+      "version": "1.0.0",
+      "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, edge, model migration, multitenancy, version upgrades, and SDK usage",
+      "source": "third_party/qdrant-skills",
+      "logo": "third_party/qdrant-skills/assets/logo.svg",
+      "category": "database",
       "components": [
         "skills"
       ],
@@ -2983,6 +3145,25 @@
       "source": "third_party/revenuecat",
       "logo": "third_party/revenuecat/assets/logo.svg",
       "category": "payments",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "rill",
+      "displayName": "Rill",
+      "version": "1.0.0",
+      "description": "Skills for developing and querying projects in the Rill business intelligence platform",
+      "source": "third_party/rill",
+      "logo": "third_party/rill/assets/logo.svg",
+      "category": "analytics",
       "components": [
         "skills"
       ],
@@ -3214,6 +3395,25 @@
       "supportedByGateway": false
     },
     {
+      "name": "streaming-skills-plugin",
+      "displayName": "Confluent Streaming Skills",
+      "version": "1.4.0",
+      "description": "Skills for streaming application developers, covering Kafka and Flink client libraries and Schema Registry",
+      "source": "third_party/streaming-skills-plugin",
+      "logo": "third_party/streaming-skills-plugin/assets/logo.svg",
+      "category": "data",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "stripe",
       "displayName": "Stripe",
       "version": "0.7.1",
@@ -3236,6 +3436,25 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "sumup",
+      "displayName": "SumUp",
+      "version": "1.0.0",
+      "description": "Skills for SumUp payment integrations across terminal and online checkout flows",
+      "source": "third_party/sumup",
+      "logo": "third_party/sumup/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "supabase",
@@ -3878,6 +4097,25 @@
       "source": "third_party/vibe-prospecting",
       "logo": "third_party/vibe-prospecting/assets/logo.png",
       "category": "sales",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "vsql-extension-builder",
+      "displayName": "VillageSQL Extension Builder",
+      "version": "1.0.0",
+      "description": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server.",
+      "source": "third_party/vsql-extension-builder",
+      "logo": "third_party/vsql-extension-builder/assets/logo.png",
+      "category": "database",
       "components": [
         "skills"
       ],

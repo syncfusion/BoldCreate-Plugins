@@ -1,0 +1,18 @@
+{
+  "name": "rill",
+  "displayName": "Rill",
+  "version": "1.0.0",
+  "description": "Skills for developing and querying projects in the Rill business intelligence platform",
+  "author": {
+    "name": "Rill Data"
+  },
+  "homepage": "https://github.com/rilldata/agent-skills",
+  "repository": "https://github.com/rilldata/agent-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "rill",
+    "analytics",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

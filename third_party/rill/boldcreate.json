@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/rilldata/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/rilldata/agent-skills",
+    "path": "skills",
+    "commit": "adfce5762be435c026f4731f72e388520cb133cc",
+    "author": "Rill Data",
+    "license": "Apache-2.0"
+  }
+}

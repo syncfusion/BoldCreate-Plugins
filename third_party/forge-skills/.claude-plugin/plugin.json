@@ -1,0 +1,18 @@
+{
+  "name": "forge-skills",
+  "displayName": "Atlassian Forge Skills",
+  "version": "0.1.0",
+  "description": "Forge app builder skill bundle with Forge MCP configuration for Atlassian Forge workflows.",
+  "author": {
+    "name": "Atlassian Labs"
+  },
+  "homepage": "https://github.com/atlassian/forge-skills",
+  "repository": "https://github.com/atlassian/forge-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "forge",
+    "developer-tools",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

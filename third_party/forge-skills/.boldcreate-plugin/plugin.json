@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "forge-skills",
+  "displayName": "Atlassian Forge Skills",
+  "version": "0.1.0",
+  "description": "Forge app builder skill bundle with Forge MCP configuration for Atlassian Forge workflows.",
+  "author": {
+    "name": "Atlassian Labs"
+  },
+  "homepage": "https://github.com/atlassian/forge-skills",
+  "repository": "https://github.com/atlassian/forge-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "forge",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/atlassian/forge-skills",
+  "upstream": {
+    "repository": "https://github.com/atlassian/forge-skills",
+    "path": "skills",
+    "commit": "4f04ae02879435f23808a4798da28f75d3ab74c3",
+    "author": "Atlassian Labs",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "forge-app-builder",
+      "forge-app-review",
+      "forge-connector",
+      "forge-cost-optimizer",
+      "forge-debugger",
+      "forge-security-review"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

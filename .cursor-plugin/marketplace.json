@@ -33,6 +33,11 @@
       "source": "third_party/airwallex-dev"
     },
     {
+      "name": "aiven",
+      "description": "Easily deploy managed PostgreSQL (pg), Kafka, OpenSearch, Clickhouse and other databases, streaming and apps.",
+      "source": "third_party/aiven"
+    },
+    {
       "name": "alloydb-omni",
       "description": "Create, connect, and interact with an AlloyDB Omni database and data.",
       "source": "third_party/alloydb-omni"
@@ -228,6 +233,11 @@
       "source": "third_party/coingecko"
     },
     {
+      "name": "confidence",
+      "description": "Access Confidence feature flags, experiments, and migration tools directly from Claude Code.",
+      "source": "third_party/confidence"
+    },
+    {
       "name": "context7",
       "description": "Pull up-to-date, version-specific library docs and code examples into the prompt.",
       "source": "third_party/context7"
@@ -331,6 +341,11 @@
       "name": "fireworks-ai",
       "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models.",
       "source": "third_party/fireworks-ai"
+    },
+    {
+      "name": "forge-skills",
+      "description": "Forge app builder skill bundle with Forge MCP configuration for Atlassian Forge workflows.",
+      "source": "third_party/forge-skills"
     },
     {
       "name": "gc-ai",
@@ -503,6 +518,11 @@
       "source": "third_party/grafana-mcp"
     },
     {
+      "name": "greptile",
+      "description": "Read and resolve Greptile pull request reviews and search your organization's coding patterns.",
+      "source": "third_party/greptile"
+    },
+    {
       "name": "growthbook",
       "description": "Manage GrowthBook feature flags, experiments, and product analytics.",
       "source": "third_party/growthbook"
@@ -593,6 +613,11 @@
       "source": "third_party/mintlify"
     },
     {
+      "name": "modern-web-guidance",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "source": "third_party/modern-web-guidance"
+    },
+    {
       "name": "monday",
       "description": "Manage monday.com boards, items, and workspaces.",
       "source": "third_party/monday"
@@ -638,6 +663,11 @@
       "source": "third_party/pagerduty"
     },
     {
+      "name": "paypal",
+      "description": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server",
+      "source": "third_party/paypal"
+    },
+    {
       "name": "pendo-analytics",
       "description": "Bring Pendo analytics into Claude Code with skills for app health, account health, feature adoption, session replays, feedback analysis, and data-informed planning",
       "source": "third_party/pendo-analytics"
@@ -658,6 +688,11 @@
       "source": "third_party/perplexity"
     },
     {
+      "name": "planetscale",
+      "description": "Inspect PlanetScale organizations, databases, branches, schema and Insights data.",
+      "source": "third_party/planetscale"
+    },
+    {
       "name": "posthog",
       "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
       "source": "third_party/posthog"
@@ -676,6 +711,11 @@
       "name": "pydantic-ai",
       "description": "Build production-grade AI agents with Pydantic AI — tools, capabilities, structured output, streaming, and testing patterns — and port existing agents over from LangChain, the OpenAI Agents SDK,",
       "source": "third_party/pydantic-ai"
+    },
+    {
+      "name": "qdrant-skills",
+      "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, edge, model migration, multitenancy, version upgrades, and SDK usage",
+      "source": "third_party/qdrant-skills"
     },
     {
       "name": "qodo",
@@ -706,6 +746,11 @@
       "name": "revenuecat",
       "description": "Set up RevenueCat, integrate it, and access data.",
       "source": "third_party/revenuecat"
+    },
+    {
+      "name": "rill",
+      "description": "Skills for developing and querying projects in the Rill business intelligence platform",
+      "source": "third_party/rill"
     },
     {
       "name": "runway-api",
@@ -763,9 +808,19 @@
       "source": "third_party/stackhawk-hawkscan"
     },
     {
+      "name": "streaming-skills-plugin",
+      "description": "Skills for streaming application developers, covering Kafka and Flink client libraries and Schema Registry",
+      "source": "third_party/streaming-skills-plugin"
+    },
+    {
       "name": "stripe",
       "description": "Work with Stripe customers, payments, subscriptions, and search Stripe docs.",
       "source": "third_party/stripe"
+    },
+    {
+      "name": "sumup",
+      "description": "Skills for SumUp payment integrations across terminal and online checkout flows",
+      "source": "third_party/sumup"
     },
     {
       "name": "supabase",
@@ -931,6 +986,11 @@
       "name": "vibe-prospecting",
       "description": "B2B data for lead lists, company research and outreach with Vibe Prospecting.",
       "source": "third_party/vibe-prospecting"
+    },
+    {
+      "name": "vsql-extension-builder",
+      "description": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server.",
+      "source": "third_party/vsql-extension-builder"
     },
     {
       "name": "wingspan",

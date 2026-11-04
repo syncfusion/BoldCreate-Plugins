@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "paypal",
+  "displayName": "PayPal",
+  "version": "1.2.0",
+  "description": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server",
+  "author": {
+    "name": "PayPal"
+  },
+  "homepage": "https://github.com/paypal/AI-Toolkit",
+  "repository": "https://github.com/paypal/AI-Toolkit",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "payments",
+  "keywords": [
+    "paypal",
+    "payments",
+    "skills"
+  ],
+  "docs": "https://github.com/paypal/AI-Toolkit",
+  "upstream": {
+    "repository": "https://github.com/paypal/AI-Toolkit",
+    "path": "skills",
+    "commit": "5dce83d8243f87eb37ac7cbd6711bc090fe042f8",
+    "author": "PayPal",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "paypal-best-practices",
+      "paypal-routing"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

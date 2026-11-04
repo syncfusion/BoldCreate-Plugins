@@ -1,0 +1,24 @@
+{
+  "name": "sumup",
+  "displayName": "SumUp",
+  "version": "1.0.0",
+  "description": "Skills for SumUp payment integrations across terminal and online checkout flows",
+  "author": {
+    "name": "SumUp"
+  },
+  "homepage": "https://github.com/sumup/sumup-skills",
+  "repository": "https://github.com/sumup/sumup-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "sumup",
+    "payments",
+    "skills"
+  ],
+  "category": "payments",
+  "tags": [
+    "payments",
+    "skills"
+  ],
+  "skills": "./skills/"
+}
