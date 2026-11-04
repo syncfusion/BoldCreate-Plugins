@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/explorium-ai/vibeprospecting-plugin",
+  "upstream": {
+    "repository": "https://github.com/explorium-ai/vibeprospecting-plugin",
+    "path": "skills",
+    "commit": "ca43f6d92395462d8915dc31364bbce6a83e4006",
+    "author": "Explorium",
+    "license": "MIT"
+  }
+}

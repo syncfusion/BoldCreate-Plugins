@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "expo",
+  "displayName": "Expo",
+  "version": "1.13.9",
+  "description": "Build, deploy, upgrade and debug Expo and React Native apps, including EAS.",
+  "author": {
+    "name": "Expo"
+  },
+  "homepage": "https://github.com/expo/skills",
+  "repository": "https://github.com/expo/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "mobile",
+  "keywords": [
+    "expo",
+    "react-native",
+    "eas",
+    "mobile"
+  ],
+  "docs": "https://github.com/expo/skills",
+  "upstream": {
+    "repository": "https://github.com/expo/skills",
+    "path": "skills",
+    "commit": "d4f484024fec15196bfd3c272e953e3f983972cf",
+    "author": "Expo",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "eas-app-stores",
+      "eas-hosting",
+      "eas-observe",
+      "eas-simulator",
+      "eas-update",
+      "eas-update-insights",
+      "eas-workflows",
+      "expo-animation",
+      "expo-app-clip",
+      "expo-brownfield",
+      "expo-data-fetching",
+      "expo-design-system",
+      "expo-dev-client",
+      "expo-dom",
+      "expo-examples",
+      "expo-module",
+      "expo-native-ui",
+      "expo-overview",
+      "expo-project-structure",
+      "expo-router",
+      "expo-skill-feedback",
+      "expo-ui",
+      "expo-upgrade",
+      "expo-web-to-native"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

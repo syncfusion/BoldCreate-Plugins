@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/endorlabs/ai-plugins",
+  "upstream": {
+    "repository": "https://github.com/endorlabs/ai-plugins",
+    "path": "skills",
+    "commit": "2de00883bd2be8b8578b46ab09baf2c8731376de",
+    "author": "Endor Labs",
+    "license": "MIT"
+  }
+}

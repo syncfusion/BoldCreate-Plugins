@@ -1,0 +1,27 @@
+{
+  "name": "ai-plugins",
+  "displayName": "Endor Labs",
+  "version": "0.1.0",
+  "description": "Endor Labs agent setup and workflow agents for findings, remediation and dependency review.",
+  "author": {
+    "name": "Endor Labs"
+  },
+  "homepage": "https://github.com/endorlabs/ai-plugins",
+  "repository": "https://github.com/endorlabs/ai-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "endorlabs",
+    "appsec",
+    "sca",
+    "sast",
+    "remediation"
+  ],
+  "category": "security",
+  "tags": [
+    "security",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

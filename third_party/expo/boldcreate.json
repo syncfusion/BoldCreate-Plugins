@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/expo/skills",
+  "upstream": {
+    "repository": "https://github.com/expo/skills",
+    "path": "skills",
+    "commit": "d4f484024fec15196bfd3c272e953e3f983972cf",
+    "author": "Expo",
+    "license": "MIT"
+  }
+}

@@ -10,6 +10,46 @@
   },
   "plugins": [
     {
+      "name": "activecampaign",
+      "displayName": "ActiveCampaign",
+      "version": "0.3.1",
+      "description": "Marketing automation, CRM and email marketing workflows for ActiveCampaign.",
+      "source": "third_party/activecampaign",
+      "logo": "third_party/activecampaign/assets/logo.svg",
+      "category": "marketing",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "ai-plugins",
+      "displayName": "Endor Labs",
+      "version": "0.1.0",
+      "description": "Endor Labs agent setup and workflow agents for findings, remediation and dependency review.",
+      "source": "third_party/ai-plugins",
+      "logo": "third_party/ai-plugins/assets/logo.png",
+      "category": "security",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "amplitude",
       "displayName": "Amplitude",
       "version": "0.7.1",
@@ -125,6 +165,26 @@
       "supportedByGateway": true
     },
     {
+      "name": "atomic-agents",
+      "displayName": "Atomic Agents",
+      "version": "2.2.0",
+      "description": "Build, scaffold and debug applications with the Atomic Agents framework.",
+      "source": "third_party/atomic-agents",
+      "logo": "third_party/atomic-agents/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "aws-knowledge",
       "displayName": "AWS Knowledge",
       "version": "0.7.0",
@@ -200,6 +260,25 @@
         "rules",
         "hooks",
         "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "boltz",
+      "displayName": "Boltz",
+      "version": "0.1.1",
+      "description": "Predict structures, screen molecules and proteins, and design binders with Boltz.",
+      "source": "third_party/boltz",
+      "logo": "third_party/boltz/assets/logo.svg",
+      "category": "science",
+      "components": [
+        "skills"
       ],
       "transports": [],
       "auth": [],
@@ -415,6 +494,25 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "expo",
+      "displayName": "Expo",
+      "version": "1.13.9",
+      "description": "Build, deploy, upgrade and debug Expo and React Native apps, including EAS.",
+      "source": "third_party/expo",
+      "logo": "third_party/expo/assets/logo.svg",
+      "category": "mobile",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "fastly-agent-toolkit",
@@ -2215,6 +2313,25 @@
         "wave": "B"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "vibe-prospecting",
+      "displayName": "Vibe Prospecting",
+      "version": "0.1.107",
+      "description": "B2B data for lead lists, company research and outreach with Vibe Prospecting.",
+      "source": "third_party/vibe-prospecting",
+      "logo": "third_party/vibe-prospecting/assets/logo.png",
+      "category": "sales",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "youdotcom-agent-skills",

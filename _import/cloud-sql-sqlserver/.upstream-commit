@@ -1,4 +1,0 @@
-repository: https://github.com/gemini-cli-extensions/cloud-sql-sqlserver.git
-path: .
-commit: 7efeaaf026b3ad8cabb973eded693428dae81179
-not copied: .codex-plugin/ .github/ evals/

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "activecampaign": {
-      "type": "http",
-      "url": "${user_config.server_url}"
-    }
-  }
-}

@@ -1,4 +1,0 @@
-repository: https://github.com/gemini-cli-extensions/knowledge-catalog.git
-path: .
-commit: 630397520359ca4594d9133c147c6e25f8b52125
-not copied: .codex-plugin/ .github/

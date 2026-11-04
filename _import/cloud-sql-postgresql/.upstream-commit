@@ -1,4 +1,0 @@
-repository: https://github.com/gemini-cli-extensions/cloud-sql-postgresql.git
-path: .
-commit: 1d758bb34795a37a29f543e78910eb7414927ac8
-not copied: .codex-plugin/ .github/ evals/

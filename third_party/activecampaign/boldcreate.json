@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/ActiveCampaign/activecampaign-plugin",
+  "upstream": {
+    "repository": "https://github.com/ActiveCampaign/activecampaign-plugin",
+    "path": "skills",
+    "commit": "0ff858728bc52aee335d5475b0d4eb5f3a9589b0",
+    "author": "ActiveCampaign",
+    "license": "MIT"
+  }
+}

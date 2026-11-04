@@ -1,4 +1,0 @@
-repository: https://github.com/awslabs/startups.git
-path: migrate/plugins/migration-to-aws
-commit: ec681ba5d49b039dbf1ef9d87d3304205b824f3d
-not copied: .codex-plugin/ docs/ fixtures/ scripts/ tests/ tools/

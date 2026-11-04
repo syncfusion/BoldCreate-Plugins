@@ -1,4 +1,0 @@
-repository: https://github.com/astronomer/agents.git
-path: .
-commit: 35b9610bb2710c37ca11326c4cbf7818b6725fec
-not copied: .github/ astro-airflow-mcp/

@@ -1,0 +1,26 @@
+{
+  "name": "activecampaign",
+  "displayName": "ActiveCampaign",
+  "version": "0.3.1",
+  "description": "Marketing automation, CRM and email marketing workflows for ActiveCampaign.",
+  "author": {
+    "name": "ActiveCampaign"
+  },
+  "homepage": "https://github.com/ActiveCampaign/activecampaign-plugin",
+  "repository": "https://github.com/ActiveCampaign/activecampaign-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "activecampaign",
+    "crm",
+    "email-marketing",
+    "automation"
+  ],
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

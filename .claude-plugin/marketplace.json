@@ -8,6 +8,16 @@
   },
   "plugins": [
     {
+      "name": "activecampaign",
+      "source": "./third_party/activecampaign",
+      "description": "Marketing automation, CRM and email marketing workflows for ActiveCampaign."
+    },
+    {
+      "name": "ai-plugins",
+      "source": "./third_party/ai-plugins",
+      "description": "Endor Labs agent setup and workflow agents for findings, remediation and dependency review."
+    },
+    {
       "name": "amplitude",
       "source": "./third_party/amplitude",
       "description": "Query Amplitude product analytics, charts, and experiments."
@@ -33,6 +43,11 @@
       "description": "Search and update Jira issues and Confluence pages."
     },
     {
+      "name": "atomic-agents",
+      "source": "./third_party/atomic-agents",
+      "description": "Build, scaffold and debug applications with the Atomic Agents framework."
+    },
+    {
       "name": "aws-knowledge",
       "source": "./third_party/aws-knowledge",
       "description": "Search AWS documentation, API references, and regional availability."
@@ -51,6 +66,11 @@
       "name": "boldcreate-toolkit",
       "source": "./boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
+    },
+    {
+      "name": "boltz",
+      "source": "./third_party/boltz",
+      "description": "Predict structures, screen molecules and proteins, and design binders with Boltz."
     },
     {
       "name": "box",
@@ -101,6 +121,11 @@
       "name": "exa",
       "source": "./third_party/exa",
       "description": "Search the web and fetch page content with Exa."
+    },
+    {
+      "name": "expo",
+      "source": "./third_party/expo",
+      "description": "Build, deploy, upgrade and debug Expo and React Native apps, including EAS."
     },
     {
       "name": "fastly-agent-toolkit",
@@ -506,6 +531,11 @@
       "name": "vercel",
       "source": "./third_party/vercel",
       "description": "Inspect Vercel projects, deployments, and build logs, and search Vercel docs."
+    },
+    {
+      "name": "vibe-prospecting",
+      "source": "./third_party/vibe-prospecting",
+      "description": "B2B data for lead lists, company research and outreach with Vibe Prospecting."
     },
     {
       "name": "youdotcom-agent-skills",

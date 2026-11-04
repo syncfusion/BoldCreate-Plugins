@@ -1,4 +1,0 @@
-repository: https://github.com/ClickHouse/clickhouse-claude-code-plugin.git
-path: .
-commit: 652664c8924c5a9454d9a7a5f6191944b4adfb11
-not copied: .github/ submodules/

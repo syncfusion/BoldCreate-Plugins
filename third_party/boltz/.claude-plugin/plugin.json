@@ -1,0 +1,19 @@
+{
+  "name": "boltz",
+  "displayName": "Boltz",
+  "version": "0.1.1",
+  "description": "Predict structures, screen molecules and proteins, and design binders with Boltz.",
+  "author": {
+    "name": "Boltz"
+  },
+  "homepage": "https://github.com/boltz-bio/boltz-api-skills",
+  "repository": "https://github.com/boltz-bio/boltz-api-skills",
+  "license": "MIT",
+  "keywords": [
+    "boltz",
+    "biology",
+    "protein-design",
+    "drug-discovery"
+  ],
+  "icon": "./assets/logo.svg"
+}

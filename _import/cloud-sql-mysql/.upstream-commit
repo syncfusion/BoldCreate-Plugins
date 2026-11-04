@@ -1,4 +1,0 @@
-repository: https://github.com/gemini-cli-extensions/cloud-sql-mysql.git
-path: .
-commit: 51aa269094a89b5eca705792705a3b507486b2d7
-not copied: .codex-plugin/ .github/ evals/

@@ -1,4 +1,0 @@
-repository: https://github.com/clay-run/agent-plugins.git
-path: clay
-commit: 769514a3a23683fcc7cbbf32067538d17e465381
-not copied: .codex-plugin/ bin/

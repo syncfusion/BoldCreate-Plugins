@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "activecampaign",
+  "displayName": "ActiveCampaign",
+  "version": "0.3.1",
+  "description": "Marketing automation, CRM and email marketing workflows for ActiveCampaign.",
+  "author": {
+    "name": "ActiveCampaign"
+  },
+  "homepage": "https://github.com/ActiveCampaign/activecampaign-plugin",
+  "repository": "https://github.com/ActiveCampaign/activecampaign-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "marketing",
+  "keywords": [
+    "activecampaign",
+    "crm",
+    "email-marketing",
+    "automation"
+  ],
+  "docs": "https://github.com/ActiveCampaign/activecampaign-plugin",
+  "upstream": {
+    "repository": "https://github.com/ActiveCampaign/activecampaign-plugin",
+    "path": "skills",
+    "commit": "0ff858728bc52aee335d5475b0d4eb5f3a9589b0",
+    "author": "ActiveCampaign",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "automation-builder",
+      "campaign-strategist",
+      "contact-operations",
+      "deals-crm",
+      "deliverability-advisor",
+      "reporting-analyst"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "data-operations",
+      "marketing-planner"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

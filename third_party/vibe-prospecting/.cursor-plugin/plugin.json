@@ -1,0 +1,25 @@
+{
+  "name": "vibe-prospecting",
+  "displayName": "Vibe Prospecting",
+  "version": "0.1.107",
+  "description": "B2B data for lead lists, company research and outreach with Vibe Prospecting.",
+  "author": {
+    "name": "Explorium"
+  },
+  "homepage": "https://github.com/explorium-ai/vibeprospecting-plugin",
+  "repository": "https://github.com/explorium-ai/vibeprospecting-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "vibe-prospecting",
+    "b2b",
+    "leads",
+    "sales"
+  ],
+  "category": "sales",
+  "tags": [
+    "sales",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

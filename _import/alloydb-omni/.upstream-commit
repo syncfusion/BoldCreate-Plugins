@@ -1,4 +1,0 @@
-repository: https://github.com/gemini-cli-extensions/alloydb-omni.git
-path: .
-commit: 37101e3f9aaf0bd4d0acaeee540a0da2fd773d00
-not copied: .codex-plugin/ .github/

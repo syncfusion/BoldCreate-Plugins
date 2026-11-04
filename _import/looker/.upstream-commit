@@ -1,4 +1,0 @@
-repository: https://github.com/gemini-cli-extensions/looker.git
-path: .
-commit: 13ed738a97a13efae7a408439dea3d43cff6f224
-not copied: .codex-plugin/ .github/

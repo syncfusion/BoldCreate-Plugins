@@ -1,3 +1,0 @@
-repository: https://github.com/getsentry/cli.git
-path: packages/cli/plugins/sentry-cli
-commit: 3567c3c937b5cc06667d5b023bda0b2d3f472c54

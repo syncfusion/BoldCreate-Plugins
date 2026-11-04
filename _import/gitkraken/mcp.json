@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "gitkraken": {
-      "command": "npx",
-      "args": ["-y", "@gitkraken/gk", "mcp", "--plugin", "--host=claude"]
-    }
-  }
-}

@@ -1,3 +1,0 @@
-repository: https://github.com/databricks/databricks-agent-skills.git
-path: plugins/databricks/claude
-commit: c1964266c7aa6063d89036691d0594420ffa0129

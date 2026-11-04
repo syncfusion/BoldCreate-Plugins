@@ -1,4 +1,0 @@
-repository: https://github.com/gemini-cli-extensions/dataproc.git
-path: .
-commit: 18534a9bfe0d03801643d5b7d28c0cec08bb7ba5
-not copied: .codex-plugin/ .github/
