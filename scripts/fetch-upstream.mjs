@@ -40,7 +40,8 @@ for (const name of names) {
 
   const tmp = mkdtempSync(join(tmpdir(), "fetch-upstream-"));
   try {
-    git(tmp, "clone", "--quiet", "--no-checkout", "--filter=blob:none", s.url, "repo");
+    // core.autocrlf=false keeps the files byte for byte as the vendor published them, also on Windows.
+    git(tmp, "-c", "core.autocrlf=false", "clone", "--quiet", "--no-checkout", "--filter=blob:none", s.url, "repo");
     const repo = join(tmp, "repo");
     git(repo, "checkout", "--quiet", s.sha);
     const from = join(repo, sub);
@@ -56,7 +57,11 @@ for (const name of names) {
     console.error(`  failed: ${e.message.split("\n")[0]}`);
     failed++;
   } finally {
-    rmSync(tmp, { recursive: true, force: true });
+    try {
+      rmSync(tmp, { recursive: true, force: true, maxRetries: 3, retryDelay: 200 });
+    } catch (e) {
+      console.error(`  could not delete the temporary folder ${tmp}: ${e.message.split("\n")[0]}`);
+    }
   }
 }
 process.exit(failed ? 1 : 0);
