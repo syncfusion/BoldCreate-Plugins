@@ -149,6 +149,45 @@
       "supportedByGateway": true
     },
     {
+      "name": "azure",
+      "displayName": "Azure",
+      "version": "1.2.50",
+      "description": "Plan, deploy, diagnose and manage Azure resources with Azure skills.",
+      "source": "third_party/azure",
+      "logo": "third_party/azure/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "azure-cosmos-db-assistant",
+      "displayName": "Azure Cosmos DB Assistant",
+      "version": "1.0.0",
+      "description": "Best-practice rules and an expert agent for designing and tuning Azure Cosmos DB.",
+      "source": "third_party/azure-cosmos-db-assistant",
+      "logo": "third_party/azure-cosmos-db-assistant/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "boldcreate-toolkit",
       "displayName": "BoldCreate Toolkit",
       "version": "0.7.1",
@@ -272,6 +311,25 @@
       "supportedByGateway": false
     },
     {
+      "name": "crowdstrike-falcon-foundry",
+      "displayName": "CrowdStrike Falcon Foundry",
+      "version": "1.6.0",
+      "description": "Build CrowdStrike Falcon Foundry applications: functions, workflows, UI extensions and collections.",
+      "source": "third_party/crowdstrike-falcon-foundry",
+      "logo": "third_party/crowdstrike-falcon-foundry/assets/logo.png",
+      "category": "security",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "deepwiki",
       "displayName": "DeepWiki",
       "version": "0.7.0",
@@ -359,6 +417,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "fastly-agent-toolkit",
+      "displayName": "Fastly Agent Toolkit",
+      "version": "0.1.0",
+      "description": "Work with the Fastly CLI, Compute, Fiddle, NGWAF, VCL tooling and reference architectures.",
+      "source": "third_party/fastly-agent-toolkit",
+      "logo": "third_party/fastly-agent-toolkit/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "figma",
       "displayName": "Figma",
       "version": "0.7.0",
@@ -405,6 +482,26 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "gc-ai",
+      "displayName": "GC AI",
+      "version": "0.1.0",
+      "description": "Use a GC AI legal knowledge base: upload documents, run review playbooks and ask grounded questions.",
+      "source": "third_party/gc-ai",
+      "logo": "third_party/gc-ai/assets/logo.svg",
+      "category": "legal",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "gitea",
@@ -1218,6 +1315,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "langfuse",
+      "displayName": "Langfuse",
+      "version": "1.10.0",
+      "description": "Work with Langfuse tracing, prompts and evaluation, and migrate prompts to Langfuse.",
+      "source": "third_party/langfuse",
+      "logo": "third_party/langfuse/assets/logo.png",
+      "category": "observability",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "leadfeeder",
       "displayName": "Leadfeeder",
       "version": "0.7.1",
@@ -1400,6 +1516,26 @@
       "supportedByGateway": true
     },
     {
+      "name": "nimble",
+      "displayName": "Nimble",
+      "version": "1.7.0",
+      "description": "Search the live web, extract page content and run research workflows with Nimble.",
+      "source": "third_party/nimble",
+      "logo": "third_party/nimble/assets/logo.png",
+      "category": "search",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "notion",
       "displayName": "Notion",
       "version": "0.7.0",
@@ -1496,6 +1632,44 @@
       "supportedByGateway": true
     },
     {
+      "name": "resend",
+      "displayName": "Resend",
+      "version": "1.0.5",
+      "description": "Send and receive email with Resend, build emails with React Email, and follow deliverability practices.",
+      "source": "third_party/resend",
+      "logo": "third_party/resend/assets/logo.svg",
+      "category": "email",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "sanity",
+      "displayName": "Sanity",
+      "version": "1.0.0",
+      "description": "Model content, write GROQ and Portable Text, and upgrade Sanity Studio.",
+      "source": "third_party/sanity",
+      "logo": "third_party/sanity/assets/logo.svg",
+      "category": "cms",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "sentry",
       "displayName": "Sentry",
       "version": "0.7.0",
@@ -1590,6 +1764,44 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "superdesign",
+      "displayName": "Superdesign",
+      "version": "0.6.0",
+      "description": "Design or redesign frontend UI, presentations and marketing graphics with Superdesign.",
+      "source": "third_party/superdesign",
+      "logo": "third_party/superdesign/assets/logo.png",
+      "category": "design",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "superpowers",
+      "displayName": "Superpowers",
+      "version": "7.0.0",
+      "description": "Core engineering skills: brainstorming, planning, test-driven development, debugging and code review.",
+      "source": "third_party/superpowers",
+      "logo": "third_party/superpowers/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "syncfusion-angular",
@@ -1958,6 +2170,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "togetherai-skills",
+      "displayName": "Together AI Skills",
+      "version": "1.0.0",
+      "description": "Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters.",
+      "source": "third_party/togetherai-skills",
+      "logo": "third_party/togetherai-skills/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "vanta",
       "displayName": "Vanta",
       "version": "0.7.1",
@@ -2004,6 +2235,25 @@
         "wave": "B"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "youdotcom-agent-skills",
+      "displayName": "You.com Skills",
+      "version": "0.6.0",
+      "description": "Search the web, read pages, research and look up finance data with You.com.",
+      "source": "third_party/youdotcom-agent-skills",
+      "logo": "third_party/youdotcom-agent-skills/assets/logo.svg",
+      "category": "search",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "zapier",

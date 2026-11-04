@@ -1,4 +1,0 @@
-repository: https://github.com/GoogleChrome/modern-web-guidance.git
-path: .
-commit: b31dc0a43ff5d19bcf386a3476a216f3b39a6f55
-not copied: .agents/ .codex-plugin/ .github/ .grok-plugin/ policies/

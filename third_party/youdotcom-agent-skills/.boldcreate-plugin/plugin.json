@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "youdotcom-agent-skills",
+  "displayName": "You.com Skills",
+  "version": "0.6.0",
+  "description": "Search the web, read pages, research and look up finance data with You.com.",
+  "author": {
+    "name": "You.com"
+  },
+  "homepage": "https://github.com/youdotcom-oss/agent-skills",
+  "repository": "https://github.com/youdotcom-oss/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "search",
+  "keywords": [
+    "you.com",
+    "search",
+    "research",
+    "finance"
+  ],
+  "docs": "https://github.com/youdotcom-oss/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/youdotcom-oss/agent-skills",
+    "path": "skills",
+    "commit": "a692b6f34fac566c72bc7fcc6cafbd7c0f7889c1",
+    "author": "You.com",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "you-discover",
+      "you-finance",
+      "you-free",
+      "you-research",
+      "you-web"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

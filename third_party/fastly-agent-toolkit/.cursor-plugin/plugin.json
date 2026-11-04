@@ -1,0 +1,26 @@
+{
+  "name": "fastly-agent-toolkit",
+  "displayName": "Fastly Agent Toolkit",
+  "version": "0.1.0",
+  "description": "Work with the Fastly CLI, Compute, Fiddle, NGWAF, VCL tooling and reference architectures.",
+  "author": {
+    "name": "Fastly"
+  },
+  "homepage": "https://github.com/fastly/fastly-agent-toolkit",
+  "repository": "https://github.com/fastly/fastly-agent-toolkit",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "fastly",
+    "cdn",
+    "edge",
+    "compute",
+    "vcl"
+  ],
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

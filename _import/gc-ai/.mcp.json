@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "gc-ai": {
-      "type": "http",
-      "url": "https://app.gc.ai/api/mcp"
-    }
-  }
-}

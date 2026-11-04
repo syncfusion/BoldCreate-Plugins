@@ -1,0 +1,18 @@
+{
+  "name": "superdesign",
+  "displayName": "Superdesign",
+  "version": "0.6.0",
+  "description": "Design or redesign frontend UI, presentations and marketing graphics with Superdesign.",
+  "author": {
+    "name": "Superdesign dev, Inc."
+  },
+  "homepage": "https://github.com/superdesigndev/superdesign-skill",
+  "repository": "https://github.com/superdesigndev/superdesign-skill",
+  "license": "MIT",
+  "keywords": [
+    "superdesign",
+    "design",
+    "ui"
+  ],
+  "icon": "./assets/logo.png"
+}

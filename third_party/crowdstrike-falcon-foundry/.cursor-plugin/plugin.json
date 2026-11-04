@@ -1,0 +1,25 @@
+{
+  "name": "crowdstrike-falcon-foundry",
+  "displayName": "CrowdStrike Falcon Foundry",
+  "version": "1.6.0",
+  "description": "Build CrowdStrike Falcon Foundry applications: functions, workflows, UI extensions and collections.",
+  "author": {
+    "name": "CrowdStrike"
+  },
+  "homepage": "https://github.com/CrowdStrike/foundry-skills",
+  "repository": "https://github.com/CrowdStrike/foundry-skills",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "crowdstrike",
+    "falcon",
+    "foundry",
+    "security"
+  ],
+  "category": "security",
+  "tags": [
+    "security",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "resend",
+  "displayName": "Resend",
+  "version": "1.0.5",
+  "description": "Send and receive email with Resend, build emails with React Email, and follow deliverability practices.",
+  "author": {
+    "name": "Resend"
+  },
+  "homepage": "https://github.com/resend/resend-skills",
+  "repository": "https://github.com/resend/resend-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "email",
+  "keywords": [
+    "resend",
+    "email",
+    "react-email"
+  ],
+  "docs": "https://github.com/resend/resend-skills",
+  "upstream": {
+    "repository": "https://github.com/resend/resend-skills",
+    "path": "skills",
+    "commit": "fd14937dba5a99de5dba902808f70fa575513cc5",
+    "author": "Resend",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "agent-email-inbox",
+      "email-best-practices",
+      "react-email",
+      "resend",
+      "resend-cli"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

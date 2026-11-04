@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "gc-ai",
+  "displayName": "GC AI",
+  "version": "0.1.0",
+  "description": "Use a GC AI legal knowledge base: upload documents, run review playbooks and ask grounded questions.",
+  "author": {
+    "name": "GC AI"
+  },
+  "homepage": "https://github.com/GC-AI-Inc/gc-ai-claude-plugin",
+  "repository": "https://github.com/GC-AI-Inc/gc-ai-claude-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "legal",
+  "keywords": [
+    "legal",
+    "contracts",
+    "gc-ai"
+  ],
+  "docs": "https://github.com/GC-AI-Inc/gc-ai-claude-plugin",
+  "upstream": {
+    "repository": "https://github.com/GC-AI-Inc/gc-ai-claude-plugin",
+    "path": "skills",
+    "commit": "efda779972c7b7162e79234e164bc2f359a8a518",
+    "author": "GC AI",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "ask",
+      "organize-matter",
+      "review-document"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "gc-ai-analyst"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,24 @@
+{
+  "name": "resend",
+  "displayName": "Resend",
+  "version": "1.0.5",
+  "description": "Send and receive email with Resend, build emails with React Email, and follow deliverability practices.",
+  "author": {
+    "name": "Resend"
+  },
+  "homepage": "https://github.com/resend/resend-skills",
+  "repository": "https://github.com/resend/resend-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "resend",
+    "email",
+    "react-email"
+  ],
+  "category": "email",
+  "tags": [
+    "email",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

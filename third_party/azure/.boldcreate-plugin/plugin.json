@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "azure",
+  "displayName": "Azure",
+  "version": "1.2.50",
+  "description": "Plan, deploy, diagnose and manage Azure resources with Azure skills.",
+  "author": {
+    "name": "Microsoft"
+  },
+  "homepage": "https://github.com/microsoft/azure-skills",
+  "repository": "https://github.com/microsoft/azure-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "cloud",
+  "keywords": [
+    "azure",
+    "cloud",
+    "deployment",
+    "microsoft"
+  ],
+  "docs": "https://github.com/microsoft/azure-skills",
+  "upstream": {
+    "repository": "https://github.com/microsoft/azure-skills",
+    "path": "skills",
+    "commit": "5b4f0c0778079a2f568581107f23349ce9a0a9b2",
+    "author": "Microsoft",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "airunway-aks-setup",
+      "appinsights-instrumentation",
+      "azure-ai",
+      "azure-aigateway",
+      "azure-app-onboard",
+      "azure-app-onboard-prereq",
+      "azure-cloud-migrate",
+      "azure-compliance",
+      "azure-compute",
+      "azure-cost",
+      "azure-deploy",
+      "azure-diagnostics",
+      "azure-enterprise-infra-planner",
+      "azure-kubernetes",
+      "azure-kusto",
+      "azure-messaging",
+      "azure-prepare",
+      "azure-quotas",
+      "azure-reliability",
+      "azure-resource-lookup",
+      "azure-resource-visualizer",
+      "azure-storage",
+      "azure-upgrade",
+      "azure-validate",
+      "entra-agent-id",
+      "entra-app-registration",
+      "microsoft-foundry",
+      "python-appservice-deploy"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

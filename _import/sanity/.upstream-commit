@@ -1,4 +1,0 @@
-repository: https://github.com/sanity-io/agent-toolkit.git
-path: .
-commit: 88d6cdfa7cb06c99edd5f376efa4dac21ae3f877
-not copied: .agents/ .codex-plugin/ .github/ scripts/

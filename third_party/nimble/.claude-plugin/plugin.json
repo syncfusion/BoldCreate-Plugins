@@ -1,0 +1,23 @@
+{
+  "name": "nimble",
+  "displayName": "Nimble",
+  "version": "1.7.0",
+  "description": "Search the live web, extract page content and run research workflows with Nimble.",
+  "author": {
+    "name": "Nimble"
+  },
+  "homepage": "https://github.com/Nimbleway/agent-skills",
+  "repository": "https://github.com/Nimbleway/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "nimble",
+    "web-search",
+    "web-extraction",
+    "research"
+  ],
+  "icon": "./assets/logo.png",
+  "agents": [
+    "./agents/nimble-analyst.md",
+    "./agents/nimble-researcher.md"
+  ]
+}

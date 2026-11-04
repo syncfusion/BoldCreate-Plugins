@@ -1,0 +1,62 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "nimble",
+  "displayName": "Nimble",
+  "version": "1.7.0",
+  "description": "Search the live web, extract page content and run research workflows with Nimble.",
+  "author": {
+    "name": "Nimble"
+  },
+  "homepage": "https://github.com/Nimbleway/agent-skills",
+  "repository": "https://github.com/Nimbleway/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "search",
+  "keywords": [
+    "nimble",
+    "web-search",
+    "web-extraction",
+    "research"
+  ],
+  "docs": "https://github.com/Nimbleway/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/Nimbleway/agent-skills",
+    "path": "skills",
+    "commit": "fdb077c7220ae19bddfc2a35cf6eb70cbf4577ef",
+    "author": "Nimble",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "brand-mention-monitor",
+      "company-deep-dive",
+      "competitor-intel",
+      "competitor-positioning",
+      "healthcare-providers-enrich",
+      "healthcare-providers-extract",
+      "healthcare-providers-verify",
+      "launch-monitor",
+      "local-places",
+      "market-finder",
+      "meeting-prep",
+      "nimble-databricks-data-products",
+      "nimble-web-expert",
+      "seo-intel",
+      "talent-sourcing"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "nimble-analyst",
+      "nimble-researcher"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

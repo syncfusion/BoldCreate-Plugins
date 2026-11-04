@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "togetherai-skills",
+  "displayName": "Together AI Skills",
+  "version": "1.0.0",
+  "description": "Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters.",
+  "author": {
+    "name": "Together AI"
+  },
+  "homepage": "https://github.com/togethercomputer/skills",
+  "repository": "https://github.com/togethercomputer/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "ai",
+  "keywords": [
+    "together-ai",
+    "inference",
+    "fine-tuning",
+    "embeddings"
+  ],
+  "docs": "https://github.com/togethercomputer/skills",
+  "upstream": {
+    "repository": "https://github.com/togethercomputer/skills",
+    "path": "skills",
+    "commit": "644d38225bbdef0318462fe222f6f9883c8addcd",
+    "author": "Together AI",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "together-audio",
+      "together-batch-inference",
+      "together-chat-completions",
+      "together-dedicated-containers",
+      "together-dedicated-model-inference",
+      "together-embeddings",
+      "together-evaluations",
+      "together-fine-tuning",
+      "together-gpu-clusters",
+      "together-images",
+      "together-kueue",
+      "together-sandboxes",
+      "together-video",
+      "together-volcano"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

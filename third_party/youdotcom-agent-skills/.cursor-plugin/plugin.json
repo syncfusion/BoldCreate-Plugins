@@ -1,0 +1,25 @@
+{
+  "name": "youdotcom-agent-skills",
+  "displayName": "You.com Skills",
+  "version": "0.6.0",
+  "description": "Search the web, read pages, research and look up finance data with You.com.",
+  "author": {
+    "name": "You.com"
+  },
+  "homepage": "https://github.com/youdotcom-oss/agent-skills",
+  "repository": "https://github.com/youdotcom-oss/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "you.com",
+    "search",
+    "research",
+    "finance"
+  ],
+  "category": "search",
+  "tags": [
+    "search",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

@@ -1,4 +1,0 @@
-repository: https://github.com/TheQtCompanyRnD/agent-skills.git
-path: .
-commit: a784c48445e34f126760f17ba0600a25f2d19968
-not copied: docs/ mcp/ overrides/ tests/ tools/

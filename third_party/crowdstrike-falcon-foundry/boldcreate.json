@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/CrowdStrike/foundry-skills",
+  "upstream": {
+    "repository": "https://github.com/CrowdStrike/foundry-skills",
+    "path": "skills",
+    "commit": "61572f38592d47c747e2595182459781bf0bc679",
+    "author": "CrowdStrike",
+    "license": "MIT"
+  }
+}

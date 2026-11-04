@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "fastly-agent-toolkit",
+  "displayName": "Fastly Agent Toolkit",
+  "version": "0.1.0",
+  "description": "Work with the Fastly CLI, Compute, Fiddle, NGWAF, VCL tooling and reference architectures.",
+  "author": {
+    "name": "Fastly"
+  },
+  "homepage": "https://github.com/fastly/fastly-agent-toolkit",
+  "repository": "https://github.com/fastly/fastly-agent-toolkit",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "cloud",
+  "keywords": [
+    "fastly",
+    "cdn",
+    "edge",
+    "compute",
+    "vcl"
+  ],
+  "docs": "https://github.com/fastly/fastly-agent-toolkit",
+  "upstream": {
+    "repository": "https://github.com/fastly/fastly-agent-toolkit",
+    "path": "skills",
+    "commit": "6db70eaf54ba885d56091861224987d6cf06c429",
+    "author": "Fastly",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "falco",
+      "fastlike",
+      "fastly",
+      "fastly-cli",
+      "fastly-fiddle",
+      "fastly-ngwaf",
+      "fastly-reference-architectures",
+      "fastly-stats",
+      "viceroy",
+      "xvcl"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

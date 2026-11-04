@@ -120,15 +120,28 @@ Skills copied from a vendor's own repository at a pinned commit. The vendor's fi
 | `name` | Plugin | Skills | Source |
 |:-------|:-------|-------:|:-------|
 | `apollo-skills` | [Apollo GraphQL Skills](third_party/apollo-skills/) | 14 | [apollographql/skills](https://github.com/apollographql/skills) |
+| `azure` | [Azure](third_party/azure/) | 28 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) |
+| `azure-cosmos-db-assistant` | [Azure Cosmos DB Assistant](third_party/azure-cosmos-db-assistant/) | 1 | [AzureCosmosDB/cosmosdb-claude-code-plugin](https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin) |
 | `box` | [Box](third_party/box/) | 9 | [box/skills](https://github.com/box/skills) |
 | `buildkite` | [Buildkite](third_party/buildkite/) | 7 | [buildkite/skills](https://github.com/buildkite/skills) |
 | `ckeditor` | [CKEditor](third_party/ckeditor/) | 1 | [ckeditor/skills](https://github.com/ckeditor/skills) |
 | `crowdsec` | [CrowdSec](third_party/crowdsec/) | 2 | [crowdsecurity/crowdsec-skill](https://github.com/crowdsecurity/crowdsec-skill) |
+| `crowdstrike-falcon-foundry` | [CrowdStrike Falcon Foundry](third_party/crowdstrike-falcon-foundry/) | 12 | [CrowdStrike/foundry-skills](https://github.com/CrowdStrike/foundry-skills) |
 | `duckdb-skills` | [DuckDB Skills](third_party/duckdb-skills/) | 9 | [duckdb/duckdb-skills](https://github.com/duckdb/duckdb-skills) |
 | `duende-skills` | [Duende Skills](third_party/duende-skills/) | 24 | [DuendeSoftware/duende-skills](https://github.com/DuendeSoftware/duende-skills) |
+| `fastly-agent-toolkit` | [Fastly Agent Toolkit](third_party/fastly-agent-toolkit/) | 10 | [fastly/fastly-agent-toolkit](https://github.com/fastly/fastly-agent-toolkit) |
+| `gc-ai` | [GC AI](third_party/gc-ai/) | 3 | [GC-AI-Inc/gc-ai-claude-plugin](https://github.com/GC-AI-Inc/gc-ai-claude-plugin) |
 | `growthbook` | [GrowthBook](third_party/growthbook/) | 4 | [growthbook/skills](https://github.com/growthbook/skills) |
+| `langfuse` | [Langfuse](third_party/langfuse/) | 2 | [langfuse/skills](https://github.com/langfuse/skills) |
 | `logfire` | [Pydantic Logfire](third_party/logfire/) | 6 | [pydantic/skills](https://github.com/pydantic/skills) |
 | `mapbox` | [Mapbox](third_party/mapbox/) | 20 | [mapbox/mapbox-agent-skills](https://github.com/mapbox/mapbox-agent-skills) |
+| `nimble` | [Nimble](third_party/nimble/) | 15 | [Nimbleway/agent-skills](https://github.com/Nimbleway/agent-skills) |
+| `resend` | [Resend](third_party/resend/) | 5 | [resend/resend-skills](https://github.com/resend/resend-skills) |
+| `sanity` | [Sanity](third_party/sanity/) | 8 | [sanity-io/agent-toolkit](https://github.com/sanity-io/agent-toolkit) |
+| `superdesign` | [Superdesign](third_party/superdesign/) | 1 | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) |
+| `superpowers` | [Superpowers](third_party/superpowers/) | 15 | [obra/superpowers](https://github.com/obra/superpowers) |
+| `togetherai-skills` | [Together AI Skills](third_party/togetherai-skills/) | 14 | [togethercomputer/skills](https://github.com/togethercomputer/skills) |
+| `youdotcom-agent-skills` | [You.com Skills](third_party/youdotcom-agent-skills/) | 5 | [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) |
 
 ## Repository structure
 

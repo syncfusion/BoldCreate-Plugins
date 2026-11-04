@@ -1,5 +1,0 @@
-[global]
-disable = ["MD013"]
-
-[per-file-ignores]
-"README.md" = ["MD033", "MD041"]

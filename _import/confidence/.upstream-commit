@@ -1,4 +1,0 @@
-repository: https://github.com/spotify/confidence-ai-plugins.git
-path: .
-commit: f416826fde819978ab90f1d7ae27513667aa5d0f
-not copied: .codex-plugin/ .github/ evals/

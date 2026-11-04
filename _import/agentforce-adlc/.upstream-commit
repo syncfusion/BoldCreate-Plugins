@@ -1,4 +1,0 @@
-repository: https://github.com/SalesforceAIResearch/agentforce-adlc.git
-path: .
-commit: 09bf1539d41f9ff355ba3eb5d05d4a75813423bb
-not copied: .github/ scripts/ shared/ tests/ tools/

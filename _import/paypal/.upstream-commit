@@ -1,4 +1,0 @@
-repository: https://github.com/paypal/AI-Toolkit.git
-path: .
-commit: 5dce83d8243f87eb37ac7cbd6711bc090fe042f8
-not copied: .agents/ .codex-plugin/ .github/ .husky/

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/fastly/fastly-agent-toolkit",
+  "upstream": {
+    "repository": "https://github.com/fastly/fastly-agent-toolkit",
+    "path": "skills",
+    "commit": "6db70eaf54ba885d56091861224987d6cf06c429",
+    "author": "Fastly",
+    "license": "MIT"
+  }
+}

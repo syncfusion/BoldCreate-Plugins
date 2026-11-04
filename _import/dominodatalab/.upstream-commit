@@ -1,4 +1,0 @@
-repository: https://github.com/dominodatalab/domino-claude-plugin.git
-path: .
-commit: 7949e3ac470cf2f3b1c97a790c571032c844a5a3
-not copied: .github/ mcp-servers/ output-styles/ scripts/ templates/

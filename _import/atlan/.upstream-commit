@@ -1,4 +1,0 @@
-repository: https://github.com/atlanhq/agent-toolkit.git
-path: .
-commit: 17b7ae3b4852a24a9271a55eb339dea0b38f1f60
-not copied: .agents/ .github/ codex-plugin/ cursor-plugin/ modelcontextprotocol/

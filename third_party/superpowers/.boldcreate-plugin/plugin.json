@@ -1,0 +1,60 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "superpowers",
+  "displayName": "Superpowers",
+  "version": "7.0.0",
+  "description": "Core engineering skills: brainstorming, planning, test-driven development, debugging and code review.",
+  "author": {
+    "name": "Jesse Vincent"
+  },
+  "homepage": "https://github.com/obra/superpowers",
+  "repository": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "tdd",
+    "debugging",
+    "planning",
+    "code-review",
+    "workflow"
+  ],
+  "docs": "https://github.com/obra/superpowers",
+  "upstream": {
+    "repository": "https://github.com/obra/superpowers",
+    "path": "skills",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "author": "Jesse Vincent",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "brainstorming",
+      "diagnosing-superpowers",
+      "dispatching-parallel-agents",
+      "executing-plans",
+      "finishing-a-development-branch",
+      "receiving-code-review",
+      "requesting-code-review",
+      "subagent-driven-development",
+      "systematic-debugging",
+      "test-driven-development",
+      "using-git-worktrees",
+      "using-superpowers",
+      "verification-before-completion",
+      "writing-plans",
+      "writing-skills"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

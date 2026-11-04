@@ -1,0 +1,22 @@
+{
+  "name": "azure-cosmos-db-assistant",
+  "displayName": "Azure Cosmos DB Assistant",
+  "version": "1.0.0",
+  "description": "Best-practice rules and an expert agent for designing and tuning Azure Cosmos DB.",
+  "author": {
+    "name": "Azure Cosmos DB"
+  },
+  "homepage": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+  "repository": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+  "license": "MIT",
+  "keywords": [
+    "cosmosdb",
+    "azure",
+    "nosql",
+    "database"
+  ],
+  "icon": "./assets/logo.svg",
+  "agents": [
+    "./agents/cosmosdb-expert.md"
+  ]
+}

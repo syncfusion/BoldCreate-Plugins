@@ -1,3 +1,0 @@
-# Local Claude Code dev artifacts (symlinks for CLI testing, generated plans)
-.claude/
-node_modules/
