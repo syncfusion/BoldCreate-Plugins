@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "coingecko",
+  "displayName": "CoinGecko",
+  "version": "0.1.0",
+  "description": "Track cryptocurrency prices, markets, exchanges, and trending coins.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.coingecko.com/en/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "finance",
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "prices",
+    "market data",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.coingecko.com/en/mcp",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "coingecko",
+        "transport": "streamable-http",
+        "url": "https://mcp.coingecko.com/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "live initialize call"
+  }
+}

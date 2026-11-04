@@ -1,0 +1,26 @@
+{
+  "name": "blockscout",
+  "displayName": "Blockscout",
+  "version": "0.1.0",
+  "description": "Query Ethereum and EVM blockchains: blocks, transactions, addresses, tokens, and smart contracts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.blockscout.com/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "evm",
+    "crypto",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "blockscout": {
+      "type": "http",
+      "url": "https://mcp.blockscout.com/mcp"
+    }
+  }
+}
