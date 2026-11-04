@@ -3,6 +3,7 @@
 // Run it on a machine that can reach GitHub.
 //   node scripts/fetch-upstream.mjs crowdsec growthbook-skills
 //   node scripts/fetch-upstream.mjs --dry-run crowdsec     (prints what it would do)
+//   node scripts/fetch-upstream.mjs --file docs/migration/batch-8.txt   (one plugin name per line)
 //   node scripts/fetch-upstream.mjs --full crowdsec        (copy the whole folder, not only what the import uses)
 // Each folder gets a .upstream-commit file holding the repository, path and commit.
 
@@ -17,7 +18,9 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
 const dry = args.includes("--dry-run");
 const full = args.includes("--full");
-const names = args.filter((a) => !a.startsWith("--"));
+const fileIdx = args.indexOf("--file");
+const fromFile = fileIdx >= 0 ? readFileSync(args[fileIdx + 1], "utf-8").split(/\r?\n/).map((l) => l.trim()).filter((l) => l && !l.startsWith("#")) : [];
+const names = [...args.filter((a, i) => !a.startsWith("--") && i !== fileIdx + 1), ...fromFile];
 if (!names.length) {
   console.error("Usage: node scripts/fetch-upstream.mjs [--dry-run] <plugin-name> [<plugin-name> ...]");
   process.exit(1);
