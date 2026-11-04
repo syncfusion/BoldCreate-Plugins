@@ -1,4 +1,0 @@
-repository: https://github.com/ory/lumen.git
-path: .
-commit: f60f9ecee41723b42f3758e9a9409141881ac7d5
-not copied: .agents/ .claude/ .codex/ .cursor/ .github/ .opencode/ bench-results/ bench-swe/ cmd/ docs/ internal/ plugins/ scripts/ testdata/

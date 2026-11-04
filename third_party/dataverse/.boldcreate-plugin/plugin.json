@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "dataverse",
+  "displayName": "Microsoft Dataverse",
+  "version": "1.14.0",
+  "description": "Microsoft Dataverse plugin for coding agents, covering record CRUD, bulk data operations, advanced queries, schema and metadata, administration, security, environment management, and solution",
+  "author": {
+    "name": "Microsoft"
+  },
+  "homepage": "https://github.com/microsoft/Dataverse-skills",
+  "repository": "https://github.com/microsoft/Dataverse-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "dataverse",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/microsoft/Dataverse-skills",
+  "upstream": {
+    "repository": "https://github.com/microsoft/Dataverse-skills",
+    "path": ".github/plugins/dataverse",
+    "commit": "669e71519886d4602753c34bff3db787d616d761",
+    "author": "Microsoft",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "dv-admin",
+      "dv-connect",
+      "dv-data",
+      "dv-metadata",
+      "dv-overview",
+      "dv-query",
+      "dv-security",
+      "dv-solution",
+      "erp-xpp"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,24 @@
+{
+  "name": "netlify-skills",
+  "displayName": "Netlify",
+  "version": "1.7.0",
+  "description": "Netlify platform skills for Claude Code",
+  "author": {
+    "name": "Netlify"
+  },
+  "homepage": "https://github.com/netlify/context-and-tools",
+  "repository": "https://github.com/netlify/context-and-tools",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "netlify",
+    "hosting",
+    "skills"
+  ],
+  "category": "hosting",
+  "tags": [
+    "hosting",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

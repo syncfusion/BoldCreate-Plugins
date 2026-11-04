@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "netlify-skills",
+  "displayName": "Netlify",
+  "version": "1.7.0",
+  "description": "Netlify platform skills for Claude Code",
+  "author": {
+    "name": "Netlify"
+  },
+  "homepage": "https://github.com/netlify/context-and-tools",
+  "repository": "https://github.com/netlify/context-and-tools",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "hosting",
+  "keywords": [
+    "netlify",
+    "hosting",
+    "skills"
+  ],
+  "docs": "https://github.com/netlify/context-and-tools",
+  "upstream": {
+    "repository": "https://github.com/netlify/context-and-tools",
+    "path": "skills",
+    "commit": "dc9ebf1b994420a4791e9d5d7cd68f62e07a0a41",
+    "author": "Netlify",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "netlify-access-control",
+      "netlify-agent-runner",
+      "netlify-ai-gateway",
+      "netlify-blobs",
+      "netlify-caching",
+      "netlify-config",
+      "netlify-database",
+      "netlify-deploy",
+      "netlify-edge-functions",
+      "netlify-forms",
+      "netlify-frameworks",
+      "netlify-functions",
+      "netlify-identity",
+      "netlify-image-cdn",
+      "netlify-mcp-servers"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

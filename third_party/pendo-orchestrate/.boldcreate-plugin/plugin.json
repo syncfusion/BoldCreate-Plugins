@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "pendo-orchestrate",
+  "displayName": "Pendo Orchestrate",
+  "version": "1.0.0",
+  "description": "Create, configure, and edit draft Orchestrate email journeys via Pendo MCP — multi-email journeys and conditional split flows.",
+  "author": {
+    "name": "Pendo"
+  },
+  "homepage": "https://github.com/pendo-io/claude-pendo-plugin",
+  "repository": "https://github.com/pendo-io/claude-pendo-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "analytics",
+  "keywords": [
+    "pendo",
+    "analytics",
+    "skills"
+  ],
+  "docs": "https://github.com/pendo-io/claude-pendo-plugin",
+  "upstream": {
+    "repository": "https://github.com/pendo-io/claude-pendo-plugin",
+    "path": "plugins/pendo-orchestrate",
+    "commit": "a0f85260c61b93c4511f59545612323a41c3f845",
+    "author": "Pendo",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "orchestrate-journeys"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,4 +1,0 @@
-repository: https://github.com/oracle-samples/oracle-aidp-samples.git
-path: ai/claude-code-plugins/oracle-ai-data-platform-workbench-databricks-migrator
-commit: a7225cbdd935ad47ed9a17ee8f1533e324f42623
-not copied: engine/ references/

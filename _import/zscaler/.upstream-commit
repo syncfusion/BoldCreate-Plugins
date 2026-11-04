@@ -1,4 +1,0 @@
-repository: https://github.com/zscaler/zscaler-mcp-server.git
-path: .
-commit: 6340cd24087a5681bc9ca2ba1c477748fbcc7bcb
-not copied: .github/ docs/ docsrc/ examples/ integrations/ scripts/ src/ tests/

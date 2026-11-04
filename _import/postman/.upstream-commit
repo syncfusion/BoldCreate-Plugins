@@ -1,4 +1,0 @@
-repository: https://github.com/postmanlabs/postman-plugin.git
-path: .
-commit: c6352ef5605cd46d3f817e15c601eeb9a56c08f7
-not copied: .claude/ .codex-plugin/ .factory-plugin/ .github/ .kimi-plugin/ .opencode/ installer/ opencode/ scripts/

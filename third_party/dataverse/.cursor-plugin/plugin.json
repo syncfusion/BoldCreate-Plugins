@@ -1,0 +1,24 @@
+{
+  "name": "dataverse",
+  "displayName": "Microsoft Dataverse",
+  "version": "1.14.0",
+  "description": "Microsoft Dataverse plugin for coding agents, covering record CRUD, bulk data operations, advanced queries, schema and metadata, administration, security, environment management, and solution",
+  "author": {
+    "name": "Microsoft"
+  },
+  "homepage": "https://github.com/microsoft/Dataverse-skills",
+  "repository": "https://github.com/microsoft/Dataverse-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "dataverse",
+    "database",
+    "skills"
+  ],
+  "category": "database",
+  "tags": [
+    "database",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

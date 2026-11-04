@@ -1,4 +1,0 @@
-repository: https://github.com/mergifyio/mergify-cli.git
-path: .
-commit: 6307ed10e8628c6fefe408e398ea48af16c94cfd
-not copied: .codex-plugin/ .github/

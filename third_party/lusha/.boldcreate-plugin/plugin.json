@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "lusha",
+  "displayName": "Lusha",
+  "version": "0.1.3",
+  "description": "Connect Lusha to Claude to pull verified B2B data, contact data, and company data — including verified emails, direct dials, mobile numbers, and real-time buying signals — straight into your conversation.",
+  "author": {
+    "name": "Lusha"
+  },
+  "homepage": "https://github.com/lusha-oss/lusha-mcp-plugin",
+  "repository": "https://github.com/lusha-oss/lusha-mcp-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "sales",
+  "keywords": [
+    "lusha",
+    "sales",
+    "skills"
+  ],
+  "docs": "https://github.com/lusha-oss/lusha-mcp-plugin",
+  "upstream": {
+    "repository": "https://github.com/lusha-oss/lusha-mcp-plugin",
+    "path": "skills",
+    "commit": "4bcf5c743d5799d7c02727dd991585208f7a47b1",
+    "author": "Lusha",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "enrich-contact",
+      "lookalike-prospect",
+      "outreach-research",
+      "outreach-sequence",
+      "prospect",
+      "signal-prospect"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

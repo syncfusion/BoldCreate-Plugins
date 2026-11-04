@@ -1,4 +1,0 @@
-repository: https://github.com/greptileai/claude-plugin.git
-path: plugins/greptile
-commit: f0b7379ca06e40896fdae93fe166e851d1c9db67
-not copied: scripts/

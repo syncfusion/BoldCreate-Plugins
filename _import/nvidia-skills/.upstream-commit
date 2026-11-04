@@ -1,4 +1,0 @@
-repository: https://github.com/NVIDIA/skills.git
-path: plugins/nvidia-skills
-commit: 029363a2023c0b24b1a75ddbeac11cd286d74afb
-not copied: .codex-plugin/

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/RevenueCat/rc-claude-code-plugin",
+  "upstream": {
+    "repository": "https://github.com/RevenueCat/rc-claude-code-plugin",
+    "path": "revenuecat",
+    "commit": "ccfc038185ec457b2ac9077f3bbf1ba947a44dbb",
+    "author": "RevenueCat",
+    "license": "MIT"
+  }
+}

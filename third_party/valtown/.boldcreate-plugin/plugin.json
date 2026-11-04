@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "valtown",
+  "displayName": "Val Town",
+  "version": "0.4.0",
+  "description": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations).",
+  "author": {
+    "name": "Val Town"
+  },
+  "homepage": "https://github.com/val-town/plugins",
+  "repository": "https://github.com/val-town/plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "hosting",
+  "keywords": [
+    "valtown",
+    "hosting",
+    "skills"
+  ],
+  "docs": "https://github.com/val-town/plugins",
+  "upstream": {
+    "repository": "https://github.com/val-town/plugins",
+    "path": "plugin",
+    "commit": "555ff7492c9c70ada2c4e9b66d7dea9367d7ce71",
+    "author": "Val Town",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "blob-storage",
+      "client-side-js",
+      "create-skill",
+      "cron-and-intervals",
+      "email",
+      "http-endpoints",
+      "oauth",
+      "react-ui",
+      "restricted-access",
+      "sqlite-storage",
+      "third-party-integrations"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

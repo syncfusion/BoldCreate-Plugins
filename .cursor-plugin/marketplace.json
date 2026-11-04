@@ -18,6 +18,11 @@
       "source": "third_party/ai-plugins"
     },
     {
+      "name": "amd-skills",
+      "description": "Serve and optimize large language models on AMD EPYC and Instinct hardware, and set up local AI with Lemonade.",
+      "source": "third_party/amd-skills"
+    },
+    {
       "name": "amplitude",
       "description": "Query Amplitude product analytics, charts, and experiments.",
       "source": "third_party/amplitude"
@@ -63,6 +68,11 @@
       "source": "third_party/azure-cosmos-db-assistant"
     },
     {
+      "name": "azure-sql-developer",
+      "description": "Agent skills for the Azure SQL Database container, the Azure SQL Database engine running locally.",
+      "source": "third_party/azure-sql-developer"
+    },
+    {
       "name": "boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
       "source": "boldcreate-toolkit"
@@ -103,9 +113,19 @@
       "source": "third_party/crowdstrike-falcon-foundry"
     },
     {
+      "name": "dataverse",
+      "description": "Microsoft Dataverse plugin for coding agents, covering record CRUD, bulk data operations, advanced queries, schema and metadata, administration, security, environment management, and solution",
+      "source": "third_party/dataverse"
+    },
+    {
       "name": "deepwiki",
       "description": "Ask questions about any public GitHub repository and read its generated wiki.",
       "source": "third_party/deepwiki"
+    },
+    {
+      "name": "desktop-commander",
+      "description": "MCP server for terminal commands, process management, and file operations across text files, code, PDF, DOCX, Excel, images, and structured data",
+      "source": "third_party/desktop-commander"
     },
     {
       "name": "duckdb-skills",
@@ -303,9 +323,19 @@
       "source": "third_party/growthbook"
     },
     {
+      "name": "honeycomb",
+      "description": "Skills, agents, and workflows for Honeycomb observability — query patterns, production investigations, SLOs, OpenTelemetry instrumentation, and Beeline migration.",
+      "source": "third_party/honeycomb"
+    },
+    {
       "name": "hunter",
       "description": "Find and verify professional email addresses with Hunter.",
       "source": "third_party/hunter"
+    },
+    {
+      "name": "idmp-plugin",
+      "description": "TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows.",
+      "source": "third_party/idmp-plugin"
     },
     {
       "name": "incident-io",
@@ -338,6 +368,11 @@
       "source": "third_party/logfire"
     },
     {
+      "name": "lusha",
+      "description": "Connect Lusha to Claude to pull verified B2B data, contact data, and company data — including verified emails, direct dials, mobile numbers, and real-time buying signals — straight into your conversation.",
+      "source": "third_party/lusha"
+    },
+    {
       "name": "mapbox",
       "description": "Build location-aware apps with Mapbox: maps, search, navigation, styles and geospatial tools.",
       "source": "third_party/mapbox"
@@ -363,6 +398,16 @@
       "source": "third_party/neon"
     },
     {
+      "name": "netlify-skills",
+      "description": "Netlify platform skills for Claude Code",
+      "source": "third_party/netlify-skills"
+    },
+    {
+      "name": "noibu",
+      "description": "Work with Noibu error and performance data for e-commerce sites.",
+      "source": "third_party/noibu"
+    },
+    {
       "name": "notion",
       "description": "Search, read, and update Notion pages and databases.",
       "source": "third_party/notion"
@@ -373,9 +418,44 @@
       "source": "third_party/pagerduty"
     },
     {
+      "name": "pendo-analytics",
+      "description": "Bring Pendo analytics into Claude Code with skills for app health, account health, feature adoption, session replays, feedback analysis, and data-informed planning",
+      "source": "third_party/pendo-analytics"
+    },
+    {
+      "name": "pendo-guides",
+      "description": "Create production-ready Pendo in-app guides (walkthroughs, announcements, alerts, polls, promotions) as HTML/CSS/JS from a short intake conversation",
+      "source": "third_party/pendo-guides"
+    },
+    {
+      "name": "pendo-orchestrate",
+      "description": "Create, configure, and edit draft Orchestrate email journeys via Pendo MCP — multi-email journeys and conditional split flows.",
+      "source": "third_party/pendo-orchestrate"
+    },
+    {
       "name": "posthog",
       "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
       "source": "third_party/posthog"
+    },
+    {
+      "name": "pydantic-ai",
+      "description": "Build production-grade AI agents with Pydantic AI — tools, capabilities, structured output, streaming, and testing patterns — and port existing agents over from LangChain, the OpenAI Agents SDK,",
+      "source": "third_party/pydantic-ai"
+    },
+    {
+      "name": "qodo",
+      "description": "Qodo setup, code intelligence, and review workflows.",
+      "source": "third_party/qodo"
+    },
+    {
+      "name": "qodo-standards",
+      "description": "Optional Qodo standards discovery and review rules/skills administration workflows.",
+      "source": "third_party/qodo-standards"
+    },
+    {
+      "name": "redis-development",
+      "description": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization",
+      "source": "third_party/redis-development"
     },
     {
       "name": "render",
@@ -388,6 +468,16 @@
       "source": "third_party/resend"
     },
     {
+      "name": "revenuecat",
+      "description": "Set up RevenueCat, integrate it, and access data.",
+      "source": "third_party/revenuecat"
+    },
+    {
+      "name": "runway-api",
+      "description": "Get guidance for integrating video, image and audio generation with the Runway API and official SDKs.",
+      "source": "third_party/runway-api"
+    },
+    {
       "name": "sanity",
       "description": "Model content, write GROQ and Portable Text, and upgrade Sanity Studio.",
       "source": "third_party/sanity"
@@ -398,9 +488,29 @@
       "source": "third_party/sentry"
     },
     {
+      "name": "setup-agent-analytics",
+      "description": "Detect AI agents in your codebase and instrument them with Pendo agent analytics via the best-fit path: Python SDK, TypeScript SDK, client-side trackAgent(), or the Conversations API",
+      "source": "third_party/setup-agent-analytics"
+    },
+    {
+      "name": "setup-mcp-agent-analytics",
+      "description": "Detect an MCP server's language (Python, TypeScript, Go, or Java) and instrument it with the matching Pendo SDK so MCP tool calls flow into Pendo Agent Analytics",
+      "source": "third_party/setup-mcp-agent-analytics"
+    },
+    {
       "name": "slack",
       "description": "Search Slack messages, read channels and threads, and find context from your workspace.",
       "source": "third_party/slack"
+    },
+    {
+      "name": "stackhawk-api",
+      "description": "Query the StackHawk platform API for security posture reporting, findings analysis, and app management.",
+      "source": "third_party/stackhawk-api"
+    },
+    {
+      "name": "stackhawk-hawkscan",
+      "description": "Configure, run, and interpret HawkScan DAST results inside Claude Code.",
+      "source": "third_party/stackhawk-hawkscan"
     },
     {
       "name": "stripe",
@@ -513,6 +623,11 @@
       "source": "syncfusion/migration-skills/xamarin-to-maui"
     },
     {
+      "name": "synthflow",
+      "description": "Connects Claude Code to the Synthflow AI voice-agent platform through its hosted MCP server, with skills for reviewing calls and auditing agent prompts, plus a docs-search connector.",
+      "source": "third_party/synthflow"
+    },
+    {
       "name": "tavily",
       "description": "Search the web and extract page content with Tavily.",
       "source": "third_party/tavily"
@@ -521,6 +636,11 @@
       "name": "togetherai-skills",
       "description": "Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters.",
       "source": "third_party/togetherai-skills"
+    },
+    {
+      "name": "valtown",
+      "description": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations).",
+      "source": "third_party/valtown"
     },
     {
       "name": "vanta",
@@ -536,6 +656,11 @@
       "name": "vibe-prospecting",
       "description": "B2B data for lead lists, company research and outreach with Vibe Prospecting.",
       "source": "third_party/vibe-prospecting"
+    },
+    {
+      "name": "wingspan",
+      "description": "Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment — then onboard contractors and log payments as drafts, with a preview before anything is written.",
+      "source": "third_party/wingspan"
     },
     {
       "name": "youdotcom-agent-skills",

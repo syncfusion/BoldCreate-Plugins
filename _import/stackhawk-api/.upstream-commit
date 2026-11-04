@@ -1,4 +1,0 @@
-repository: https://github.com/stackhawk/agent-skills.git
-path: plugins/api
-commit: d0eea864c42f7c2e872334bb3df424daa1fbaadc
-not copied: .codex-plugin/

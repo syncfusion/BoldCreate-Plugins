@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "honeycomb",
+  "displayName": "Honeycomb",
+  "version": "1.2.3",
+  "description": "Skills, agents, and workflows for Honeycomb observability — query patterns, production investigations, SLOs, OpenTelemetry instrumentation, and Beeline migration.",
+  "author": {
+    "name": "Honeycomb"
+  },
+  "homepage": "https://github.com/honeycombio/agent-skill",
+  "repository": "https://github.com/honeycombio/agent-skill",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "observability",
+  "keywords": [
+    "honeycomb",
+    "observability",
+    "skills"
+  ],
+  "docs": "https://github.com/honeycombio/agent-skill",
+  "upstream": {
+    "repository": "https://github.com/honeycombio/agent-skill",
+    "path": "honeycomb",
+    "commit": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+    "author": "Honeycomb",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "beeline-migration",
+      "create-honeycomb-board",
+      "metrics-queries",
+      "observability-fundamentals",
+      "otel-genai-instrumentation",
+      "otel-instrumentation",
+      "otel-migration",
+      "production-investigation",
+      "query-patterns",
+      "slos-and-triggers",
+      "verify-recent-trace"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "honeycomb-investigator",
+      "instrumentation-advisor"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "amd-skills",
+  "displayName": "AMD Skills",
+  "version": "1.0.0",
+  "description": "Serve and optimize large language models on AMD EPYC and Instinct hardware, and set up local AI with Lemonade.",
+  "author": {
+    "name": "AMD Skills"
+  },
+  "homepage": "https://github.com/amd/skills",
+  "repository": "https://github.com/amd/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "ai",
+  "keywords": [
+    "amd",
+    "ai",
+    "skills"
+  ],
+  "docs": "https://github.com/amd/skills",
+  "upstream": {
+    "repository": "https://github.com/amd/skills",
+    "path": "skills",
+    "commit": "6916fb371d1cba40757b223cf16b4cd4912b202f",
+    "author": "AMD Skills",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "hyperloom-workload-optimizer",
+      "lemonade-router-builder",
+      "local-ai-app-integration",
+      "local-ai-use",
+      "magpie-kernel-evaluator",
+      "serving-llms-on-epyc",
+      "serving-llms-on-instinct",
+      "tracelens-analysis-orchestrator"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

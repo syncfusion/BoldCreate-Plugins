@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "shippo-mcp": {
-      "type": "http",
-      "url": "https://mcp.shippo.com"
-    }
-  }
-}

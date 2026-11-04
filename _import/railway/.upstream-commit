@@ -1,4 +1,0 @@
-repository: https://github.com/railwayapp/railway-skills.git
-path: plugins/railway
-commit: a100f93e482c5153774fed74d0b3fb8f8ca63342
-not copied: .codex-plugin/ .grok-plugin/

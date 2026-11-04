@@ -1,4 +1,0 @@
-repository: https://github.com/Shopify/Shopify-AI-Toolkit.git
-path: .
-commit: 3c32168c6e4cb73f0b46243c82586176ca58bb48
-not copied: .agents/ .codex-plugin/ .github/ .hermes-plugin/ deprecated/

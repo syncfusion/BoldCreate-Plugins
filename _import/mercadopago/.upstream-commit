@@ -1,4 +1,0 @@
-repository: https://github.com/mercadopago/mercadopago-claude-marketplace.git
-path: plugins/mercadopago
-commit: 755d33740af23351b4ca7043c51077ce67ebf4d1
-not copied: scripts/

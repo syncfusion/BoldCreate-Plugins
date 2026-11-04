@@ -121,31 +121,56 @@ Skills copied from a vendor's own repository at a pinned commit. The vendor's fi
 |:-------|:-------|-------:|:-------|
 | `activecampaign` | [ActiveCampaign](third_party/activecampaign/) | 6 | [ActiveCampaign/activecampaign-plugin](https://github.com/ActiveCampaign/activecampaign-plugin) |
 | `ai-plugins` | [Endor Labs](third_party/ai-plugins/) | 1 | [endorlabs/ai-plugins](https://github.com/endorlabs/ai-plugins) |
+| `amd-skills` | [AMD Skills](third_party/amd-skills/) | 8 | [amd/skills](https://github.com/amd/skills) |
 | `apollo-skills` | [Apollo GraphQL Skills](third_party/apollo-skills/) | 14 | [apollographql/skills](https://github.com/apollographql/skills) |
 | `atomic-agents` | [Atomic Agents](third_party/atomic-agents/) | 7 | [BrainBlend-AI/atomic-agents](https://github.com/BrainBlend-AI/atomic-agents) |
 | `azure` | [Azure](third_party/azure/) | 28 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) |
 | `azure-cosmos-db-assistant` | [Azure Cosmos DB Assistant](third_party/azure-cosmos-db-assistant/) | 1 | [AzureCosmosDB/cosmosdb-claude-code-plugin](https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin) |
+| `azure-sql-developer` | [Azure SQL Developer](third_party/azure-sql-developer/) | 17 | [microsoft/azure-sql-database-container](https://github.com/microsoft/azure-sql-database-container) |
 | `boltz` | [Boltz](third_party/boltz/) | 8 | [boltz-bio/boltz-api-skills](https://github.com/boltz-bio/boltz-api-skills) |
 | `box` | [Box](third_party/box/) | 9 | [box/skills](https://github.com/box/skills) |
 | `buildkite` | [Buildkite](third_party/buildkite/) | 7 | [buildkite/skills](https://github.com/buildkite/skills) |
 | `ckeditor` | [CKEditor](third_party/ckeditor/) | 1 | [ckeditor/skills](https://github.com/ckeditor/skills) |
 | `crowdsec` | [CrowdSec](third_party/crowdsec/) | 2 | [crowdsecurity/crowdsec-skill](https://github.com/crowdsecurity/crowdsec-skill) |
 | `crowdstrike-falcon-foundry` | [CrowdStrike Falcon Foundry](third_party/crowdstrike-falcon-foundry/) | 12 | [CrowdStrike/foundry-skills](https://github.com/CrowdStrike/foundry-skills) |
+| `dataverse` | [Microsoft Dataverse](third_party/dataverse/) | 9 | [microsoft/Dataverse-skills](https://github.com/microsoft/Dataverse-skills) |
+| `desktop-commander` | [Desktop Commander](third_party/desktop-commander/) | 6 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) |
 | `duckdb-skills` | [DuckDB Skills](third_party/duckdb-skills/) | 9 | [duckdb/duckdb-skills](https://github.com/duckdb/duckdb-skills) |
 | `duende-skills` | [Duende Skills](third_party/duende-skills/) | 24 | [DuendeSoftware/duende-skills](https://github.com/DuendeSoftware/duende-skills) |
 | `expo` | [Expo](third_party/expo/) | 24 | [expo/skills](https://github.com/expo/skills) |
 | `fastly-agent-toolkit` | [Fastly Agent Toolkit](third_party/fastly-agent-toolkit/) | 10 | [fastly/fastly-agent-toolkit](https://github.com/fastly/fastly-agent-toolkit) |
 | `gc-ai` | [GC AI](third_party/gc-ai/) | 3 | [GC-AI-Inc/gc-ai-claude-plugin](https://github.com/GC-AI-Inc/gc-ai-claude-plugin) |
 | `growthbook` | [GrowthBook](third_party/growthbook/) | 4 | [growthbook/skills](https://github.com/growthbook/skills) |
+| `honeycomb` | [Honeycomb](third_party/honeycomb/) | 11 | [honeycombio/agent-skill](https://github.com/honeycombio/agent-skill) |
+| `idmp-plugin` | [TDengine IDMP](third_party/idmp-plugin/) | 23 | [taosdata/agent-skills](https://github.com/taosdata/agent-skills) |
 | `langfuse` | [Langfuse](third_party/langfuse/) | 2 | [langfuse/skills](https://github.com/langfuse/skills) |
 | `logfire` | [Pydantic Logfire](third_party/logfire/) | 6 | [pydantic/skills](https://github.com/pydantic/skills) |
+| `lusha` | [Lusha](third_party/lusha/) | 6 | [lusha-oss/lusha-mcp-plugin](https://github.com/lusha-oss/lusha-mcp-plugin) |
 | `mapbox` | [Mapbox](third_party/mapbox/) | 20 | [mapbox/mapbox-agent-skills](https://github.com/mapbox/mapbox-agent-skills) |
+| `netlify-skills` | [Netlify](third_party/netlify-skills/) | 15 | [netlify/context-and-tools](https://github.com/netlify/context-and-tools) |
+| `noibu` | [Noibu](third_party/noibu/) | 8 | [Noibu/ai-plugin](https://github.com/Noibu/ai-plugin) |
+| `pendo-analytics` | [Pendo Analytics](third_party/pendo-analytics/) | 6 | [pendo-io/claude-pendo-plugin](https://github.com/pendo-io/claude-pendo-plugin) |
+| `pendo-guides` | [Pendo Guides](third_party/pendo-guides/) | 1 | [pendo-io/claude-pendo-plugin](https://github.com/pendo-io/claude-pendo-plugin) |
+| `pendo-orchestrate` | [Pendo Orchestrate](third_party/pendo-orchestrate/) | 1 | [pendo-io/claude-pendo-plugin](https://github.com/pendo-io/claude-pendo-plugin) |
+| `pydantic-ai` | [Pydantic AI](third_party/pydantic-ai/) | 9 | [pydantic/skills](https://github.com/pydantic/skills) |
+| `qodo` | [Qodo](third_party/qodo/) | 5 | [qodo-ai/qodo-skills](https://github.com/qodo-ai/qodo-skills) |
+| `qodo-standards` | [Qodo Standards](third_party/qodo-standards/) | 2 | [qodo-ai/qodo-skills](https://github.com/qodo-ai/qodo-skills) |
+| `redis-development` | [Redis Development](third_party/redis-development/) | 8 | [redis/agent-skills](https://github.com/redis/agent-skills) |
 | `resend` | [Resend](third_party/resend/) | 5 | [resend/resend-skills](https://github.com/resend/resend-skills) |
+| `revenuecat` | [RevenueCat](third_party/revenuecat/) | 24 | [RevenueCat/rc-claude-code-plugin](https://github.com/RevenueCat/rc-claude-code-plugin) |
+| `runway-api` | [Runway API](third_party/runway-api/) | 7 | [runwayml/skills](https://github.com/runwayml/skills) |
 | `sanity` | [Sanity](third_party/sanity/) | 8 | [sanity-io/agent-toolkit](https://github.com/sanity-io/agent-toolkit) |
+| `setup-agent-analytics` | [Pendo Agent Analytics Setup](third_party/setup-agent-analytics/) | 1 | [pendo-io/claude-pendo-plugin](https://github.com/pendo-io/claude-pendo-plugin) |
+| `setup-mcp-agent-analytics` | [Pendo MCP Agent Analytics Setup](third_party/setup-mcp-agent-analytics/) | 1 | [pendo-io/claude-pendo-plugin](https://github.com/pendo-io/claude-pendo-plugin) |
+| `stackhawk-api` | [StackHawk API](third_party/stackhawk-api/) | 1 | [stackhawk/agent-skills](https://github.com/stackhawk/agent-skills) |
+| `stackhawk-hawkscan` | [StackHawk HawkScan](third_party/stackhawk-hawkscan/) | 1 | [stackhawk/agent-skills](https://github.com/stackhawk/agent-skills) |
 | `superdesign` | [Superdesign](third_party/superdesign/) | 1 | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) |
 | `superpowers` | [Superpowers](third_party/superpowers/) | 15 | [obra/superpowers](https://github.com/obra/superpowers) |
+| `synthflow` | [Synthflow](third_party/synthflow/) | 2 | [SynthFlowAI/AnthropicPlugin](https://github.com/SynthFlowAI/AnthropicPlugin) |
 | `togetherai-skills` | [Together AI Skills](third_party/togetherai-skills/) | 14 | [togethercomputer/skills](https://github.com/togethercomputer/skills) |
+| `valtown` | [Val Town](third_party/valtown/) | 11 | [val-town/plugins](https://github.com/val-town/plugins) |
 | `vibe-prospecting` | [Vibe Prospecting](third_party/vibe-prospecting/) | 1 | [explorium-ai/vibeprospecting-plugin](https://github.com/explorium-ai/vibeprospecting-plugin) |
+| `wingspan` | [Wingspan](third_party/wingspan/) | 8 | [wingspanHQ/mcp-claude-plugin](https://github.com/wingspanHQ/mcp-claude-plugin) |
 | `youdotcom-agent-skills` | [You.com Skills](third_party/youdotcom-agent-skills/) | 5 | [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) |
 
 ## Repository structure

@@ -1,4 +1,0 @@
-repository: https://github.com/grafana/ai-marketplace.git
-path: plugins/grafana-mcp
-commit: 6c28ba1961d502d82301cbd64d2322e6e960477c
-not copied: steering/

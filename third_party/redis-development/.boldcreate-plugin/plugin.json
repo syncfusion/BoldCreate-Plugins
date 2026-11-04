@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "redis-development",
+  "displayName": "Redis Development",
+  "version": "1.4.0",
+  "description": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization",
+  "author": {
+    "name": "Redis"
+  },
+  "homepage": "https://github.com/redis/agent-skills",
+  "repository": "https://github.com/redis/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "redis",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/redis/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/redis/agent-skills",
+    "path": "plugins/redis-development",
+    "commit": "a84871d065f398fed55e1633f66b66f731eb4e2b",
+    "author": "Redis",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "iris-development",
+      "redis-clustering",
+      "redis-connections",
+      "redis-core",
+      "redis-observability",
+      "redis-search",
+      "redis-security",
+      "redis-semantic-cache"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,4 +1,0 @@
-repository: https://github.com/lusha-oss/lusha-mcp-plugin.git
-path: .
-commit: 4bcf5c743d5799d7c02727dd991585208f7a47b1
-not copied: .agents/ .codex-plugin/ .github/

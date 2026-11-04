@@ -1,0 +1,24 @@
+{
+  "name": "valtown",
+  "displayName": "Val Town",
+  "version": "0.4.0",
+  "description": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations).",
+  "author": {
+    "name": "Val Town"
+  },
+  "homepage": "https://github.com/val-town/plugins",
+  "repository": "https://github.com/val-town/plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "valtown",
+    "hosting",
+    "skills"
+  ],
+  "category": "hosting",
+  "tags": [
+    "hosting",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

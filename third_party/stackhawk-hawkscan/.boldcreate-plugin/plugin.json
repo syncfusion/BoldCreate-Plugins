@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "stackhawk-hawkscan",
+  "displayName": "StackHawk HawkScan",
+  "version": "2.6.0",
+  "description": "Configure, run, and interpret HawkScan DAST results inside Claude Code.",
+  "author": {
+    "name": "StackHawk"
+  },
+  "homepage": "https://github.com/stackhawk/agent-skills",
+  "repository": "https://github.com/stackhawk/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "security",
+  "keywords": [
+    "stackhawk",
+    "security",
+    "skills"
+  ],
+  "docs": "https://github.com/stackhawk/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/stackhawk/agent-skills",
+    "path": "plugins/hawkscan",
+    "commit": "66cac9baa5883a1007575faf1b22855a1124834a",
+    "author": "StackHawk",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "hawkscan"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

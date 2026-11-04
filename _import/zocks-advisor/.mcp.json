@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "Zocks": {
-      "type": "http",
-      "url": "https://mcp.zocks.io/mcp"
-    }
-  }
-}

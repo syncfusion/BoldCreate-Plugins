@@ -1,4 +1,0 @@
-repository: https://github.com/voxel51/fiftyone-skills.git
-path: .
-commit: 8b87befcce6cfb86e73b4ccc1f692a0a2b6a4218
-not copied: .agents/ .codex-plugin/ .github/ scripts/

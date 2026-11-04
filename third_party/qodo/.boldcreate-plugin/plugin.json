@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "qodo",
+  "displayName": "Qodo",
+  "version": "2.1.2",
+  "description": "Qodo setup, code intelligence, and review workflows.",
+  "author": {
+    "name": "Qodo"
+  },
+  "homepage": "https://github.com/qodo-ai/qodo-skills",
+  "repository": "https://github.com/qodo-ai/qodo-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "qodo",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/qodo-ai/qodo-skills",
+  "upstream": {
+    "repository": "https://github.com/qodo-ai/qodo-skills",
+    "path": "packages/qodo",
+    "commit": "b8c21854199c538b1c35c981c12a93bab4839ef2",
+    "author": "Qodo",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "qodo-codebase-wisdom",
+      "qodo-review",
+      "qodo-review-notes",
+      "qodo-review-resolver",
+      "qodo-setup"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

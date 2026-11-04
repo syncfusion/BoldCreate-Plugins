@@ -1,4 +1,0 @@
-repository: https://github.com/preset-io/agent-skills.git
-path: plugins/preset-cli-skills
-commit: 838f0a408dc1a50adc94175b387550c81371554e
-not copied: .codex-plugin/ .github/

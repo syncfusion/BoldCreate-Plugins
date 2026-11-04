@@ -1,3 +1,0 @@
-repository: https://github.com/ServiceNow/sdk.git
-path: providers/claude/plugin
-commit: 6f01c0e26cbe597b8a129de0bd2706ec1c0e327c

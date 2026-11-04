@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "pydantic-ai",
+  "displayName": "Pydantic AI",
+  "version": "0.1.0",
+  "description": "Build production-grade AI agents with Pydantic AI — tools, capabilities, structured output, streaming, and testing patterns — and port existing agents over from LangChain, the OpenAI Agents SDK,",
+  "author": {
+    "name": "Pydantic"
+  },
+  "homepage": "https://github.com/pydantic/skills",
+  "repository": "https://github.com/pydantic/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "ai",
+  "keywords": [
+    "pydantic",
+    "ai",
+    "skills"
+  ],
+  "docs": "https://github.com/pydantic/skills",
+  "upstream": {
+    "repository": "https://github.com/pydantic/skills",
+    "path": "plugins/ai",
+    "commit": "238d97102650c1caa51f35027aee13c469c59542",
+    "author": "Pydantic",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "building-pydantic-ai-agents",
+      "migrating-agno-to-pydantic-ai",
+      "migrating-claude-agent-sdk-to-pydantic-ai",
+      "migrating-google-adk-to-pydantic-ai",
+      "migrating-langchain-to-pydantic-ai",
+      "migrating-mastra-to-pydantic-ai",
+      "migrating-openai-agents-sdk-to-pydantic-ai",
+      "migrating-pi-to-pydantic-ai",
+      "migrating-vercel-ai-sdk-and-eve-to-pydantic-ai"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

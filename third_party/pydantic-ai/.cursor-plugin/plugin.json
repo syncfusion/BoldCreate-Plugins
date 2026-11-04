@@ -1,0 +1,24 @@
+{
+  "name": "pydantic-ai",
+  "displayName": "Pydantic AI",
+  "version": "0.1.0",
+  "description": "Build production-grade AI agents with Pydantic AI — tools, capabilities, structured output, streaming, and testing patterns — and port existing agents over from LangChain, the OpenAI Agents SDK,",
+  "author": {
+    "name": "Pydantic"
+  },
+  "homepage": "https://github.com/pydantic/skills",
+  "repository": "https://github.com/pydantic/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "pydantic",
+    "ai",
+    "skills"
+  ],
+  "category": "ai",
+  "tags": [
+    "ai",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

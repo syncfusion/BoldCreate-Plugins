@@ -1,0 +1,24 @@
+{
+  "name": "amd-skills",
+  "displayName": "AMD Skills",
+  "version": "1.0.0",
+  "description": "Serve and optimize large language models on AMD EPYC and Instinct hardware, and set up local AI with Lemonade.",
+  "author": {
+    "name": "AMD Skills"
+  },
+  "homepage": "https://github.com/amd/skills",
+  "repository": "https://github.com/amd/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "amd",
+    "ai",
+    "skills"
+  ],
+  "category": "ai",
+  "tags": [
+    "ai",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

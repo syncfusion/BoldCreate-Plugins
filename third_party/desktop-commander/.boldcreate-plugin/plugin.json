@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "desktop-commander",
+  "displayName": "Desktop Commander",
+  "version": "0.2.0",
+  "description": "MCP server for terminal commands, process management, and file operations across text files, code, PDF, DOCX, Excel, images, and structured data",
+  "author": {
+    "name": "Desktop Commander"
+  },
+  "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "desktop",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "upstream": {
+    "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "path": "plugins/claude",
+    "commit": "75048278f4866f0d8bde26f6f9aa3b8d39dca870",
+    "author": "Desktop Commander",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "ai-tools-setup",
+      "computer-health-check",
+      "desktop-commander-overview",
+      "knowledge-base",
+      "obsidian-vault",
+      "terminal"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

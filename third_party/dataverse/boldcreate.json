@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/microsoft/Dataverse-skills",
+  "upstream": {
+    "repository": "https://github.com/microsoft/Dataverse-skills",
+    "path": ".github/plugins/dataverse",
+    "commit": "669e71519886d4602753c34bff3db787d616d761",
+    "author": "Microsoft",
+    "license": "MIT"
+  }
+}

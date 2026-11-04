@@ -1,3 +1,0 @@
-repository: https://github.com/pendo-io/claude-pendo-plugin.git
-path: plugins/setup-mcp-agent-analytics
-commit: a0f85260c61b93c4511f59545612323a41c3f845

@@ -1,4 +1,0 @@
-repository: https://github.com/wingspanHQ/mcp-claude-plugin.git
-path: .
-commit: 7f99cb3d1789a91390fa7abf1571328736b5e0a6
-not copied: .codex-plugin/ docs/
