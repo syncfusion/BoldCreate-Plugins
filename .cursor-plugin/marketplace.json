@@ -23,6 +23,11 @@
       "source": "third_party/apollo"
     },
     {
+      "name": "apollo-skills",
+      "description": "Build with Apollo GraphQL: Client, Server, Router, Federation, Connectors, Rover, iOS and Kotlin.",
+      "source": "third_party/apollo-skills"
+    },
+    {
       "name": "atlassian",
       "description": "Search and update Jira issues and Confluence pages.",
       "source": "third_party/atlassian"
@@ -36,6 +41,21 @@
       "name": "boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
       "source": "boldcreate-toolkit"
+    },
+    {
+      "name": "box",
+      "description": "Skills and guardrails for Box Platform integrations: content workflows, shared links, CLI, SDK and MCP.",
+      "source": "third_party/box"
+    },
+    {
+      "name": "buildkite",
+      "description": "Work with Buildkite pipelines, builds, the CLI and the REST API, and migrate from other CI systems.",
+      "source": "third_party/buildkite"
+    },
+    {
+      "name": "ckeditor",
+      "description": "Install, configure, and integrate CKEditor 5 in JavaScript projects.",
+      "source": "third_party/ckeditor"
     },
     {
       "name": "context7",
@@ -256,6 +276,16 @@
       "name": "linear",
       "description": "Find, create, and update Linear issues, projects, and cycles.",
       "source": "third_party/linear"
+    },
+    {
+      "name": "logfire",
+      "description": "Add Logfire observability to Python apps, query traces, and set up evals.",
+      "source": "third_party/logfire"
+    },
+    {
+      "name": "mapbox",
+      "description": "Build location-aware apps with Mapbox: maps, search, navigation, styles and geospatial tools.",
+      "source": "third_party/mapbox"
     },
     {
       "name": "microsoft-learn",

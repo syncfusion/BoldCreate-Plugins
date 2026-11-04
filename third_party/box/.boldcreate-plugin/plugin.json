@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "box",
+  "displayName": "Box",
+  "version": "1.0.0",
+  "description": "Skills and guardrails for Box Platform integrations: content workflows, shared links, CLI, SDK and MCP.",
+  "author": {
+    "name": "Box"
+  },
+  "homepage": "https://github.com/box/skills",
+  "repository": "https://github.com/box/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "storage",
+  "keywords": [
+    "box",
+    "content",
+    "files",
+    "sdk",
+    "legal"
+  ],
+  "docs": "https://github.com/box/skills",
+  "upstream": {
+    "repository": "https://github.com/box/skills",
+    "path": "skills",
+    "commit": "84320fd8984b95cab430335cd341d8314c14bbcb",
+    "author": "Box",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "box",
+      "box-cli",
+      "box-integration-best-practices",
+      "box-legal-workflows",
+      "box-legal-workflows-contract",
+      "box-legal-workflows-intake",
+      "box-legal-workflows-ma",
+      "box-mcp",
+      "box-sdk-development"
+    ],
+    "rules": [
+      "box"
+    ],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

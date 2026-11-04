@@ -82,6 +82,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "apollo-skills",
+      "displayName": "Apollo GraphQL Skills",
+      "version": "1.2.9",
+      "description": "Build with Apollo GraphQL: Client, Server, Router, Federation, Connectors, Rover, iOS and Kotlin.",
+      "source": "third_party/apollo-skills",
+      "logo": "third_party/apollo-skills/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "atlassian",
       "displayName": "Atlassian (Jira + Confluence)",
       "version": "0.7.0",
@@ -142,6 +161,64 @@
         "rules",
         "hooks",
         "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "box",
+      "displayName": "Box",
+      "version": "1.0.0",
+      "description": "Skills and guardrails for Box Platform integrations: content workflows, shared links, CLI, SDK and MCP.",
+      "source": "third_party/box",
+      "logo": "third_party/box/assets/logo.svg",
+      "category": "storage",
+      "components": [
+        "skills",
+        "rules"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "buildkite",
+      "displayName": "Buildkite",
+      "version": "1.0.0",
+      "description": "Work with Buildkite pipelines, builds, the CLI and the REST API, and migrate from other CI systems.",
+      "source": "third_party/buildkite",
+      "logo": "third_party/buildkite/assets/logo.svg",
+      "category": "ci-cd",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "ckeditor",
+      "displayName": "CKEditor",
+      "version": "0.1.1",
+      "description": "Install, configure, and integrate CKEditor 5 in JavaScript projects.",
+      "source": "third_party/ckeditor",
+      "logo": "third_party/ckeditor/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
       ],
       "transports": [],
       "auth": [],
@@ -1187,6 +1264,44 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "logfire",
+      "displayName": "Pydantic Logfire",
+      "version": "0.1.4",
+      "description": "Add Logfire observability to Python apps, query traces, and set up evals.",
+      "source": "third_party/logfire",
+      "logo": "third_party/logfire/assets/logo.svg",
+      "category": "observability",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "mapbox",
+      "displayName": "Mapbox",
+      "version": "1.0.0",
+      "description": "Build location-aware apps with Mapbox: maps, search, navigation, styles and geospatial tools.",
+      "source": "third_party/mapbox",
+      "logo": "third_party/mapbox/assets/logo.svg",
+      "category": "maps",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "microsoft-learn",

@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "logfire",
+  "displayName": "Pydantic Logfire",
+  "version": "0.1.4",
+  "description": "Add Logfire observability to Python apps, query traces, and set up evals.",
+  "author": {
+    "name": "Pydantic"
+  },
+  "homepage": "https://github.com/pydantic/skills",
+  "repository": "https://github.com/pydantic/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "observability",
+  "keywords": [
+    "logfire",
+    "pydantic",
+    "observability",
+    "tracing",
+    "opentelemetry"
+  ],
+  "docs": "https://github.com/pydantic/skills",
+  "upstream": {
+    "repository": "https://github.com/pydantic/skills",
+    "path": "plugins/logfire/skills",
+    "commit": "238d97102650c1caa51f35027aee13c469c59542",
+    "author": "Pydantic",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "logfire-evals",
+      "logfire-infrastructure",
+      "logfire-instrumentation",
+      "logfire-query",
+      "logfire-setup",
+      "logfire-ui"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

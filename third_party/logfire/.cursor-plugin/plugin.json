@@ -1,0 +1,26 @@
+{
+  "name": "logfire",
+  "displayName": "Pydantic Logfire",
+  "version": "0.1.4",
+  "description": "Add Logfire observability to Python apps, query traces, and set up evals.",
+  "author": {
+    "name": "Pydantic"
+  },
+  "homepage": "https://github.com/pydantic/skills",
+  "repository": "https://github.com/pydantic/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "logfire",
+    "pydantic",
+    "observability",
+    "tracing",
+    "opentelemetry"
+  ],
+  "category": "observability",
+  "tags": [
+    "observability",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

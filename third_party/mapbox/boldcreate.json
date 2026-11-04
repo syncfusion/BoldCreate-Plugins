@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/mapbox/mapbox-agent-skills",
+  "upstream": {
+    "repository": "https://github.com/mapbox/mapbox-agent-skills",
+    "path": "skills",
+    "commit": "f71cd72b8d8937b06db440538bd65559eb792c49",
+    "author": "Mapbox",
+    "license": "MIT"
+  }
+}

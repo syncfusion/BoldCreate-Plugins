@@ -1,0 +1,19 @@
+{
+  "name": "buildkite",
+  "displayName": "Buildkite",
+  "version": "1.0.0",
+  "description": "Work with Buildkite pipelines, builds, the CLI and the REST API, and migrate from other CI systems.",
+  "author": {
+    "name": "Buildkite"
+  },
+  "homepage": "https://github.com/buildkite/skills",
+  "repository": "https://github.com/buildkite/skills",
+  "license": "MIT",
+  "keywords": [
+    "buildkite",
+    "ci",
+    "pipelines",
+    "cli"
+  ],
+  "icon": "./assets/logo.svg"
+}

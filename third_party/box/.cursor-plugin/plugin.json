@@ -1,0 +1,27 @@
+{
+  "name": "box",
+  "displayName": "Box",
+  "version": "1.0.0",
+  "description": "Skills and guardrails for Box Platform integrations: content workflows, shared links, CLI, SDK and MCP.",
+  "author": {
+    "name": "Box"
+  },
+  "homepage": "https://github.com/box/skills",
+  "repository": "https://github.com/box/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "box",
+    "content",
+    "files",
+    "sdk",
+    "legal"
+  ],
+  "category": "storage",
+  "tags": [
+    "storage",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/"
+}

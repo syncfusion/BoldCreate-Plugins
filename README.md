@@ -119,10 +119,16 @@ Skills copied from a vendor's own repository at a pinned commit. The vendor's fi
 
 | `name` | Plugin | Skills | Source |
 |:-------|:-------|-------:|:-------|
+| `apollo-skills` | [Apollo GraphQL Skills](third_party/apollo-skills/) | 14 | [apollographql/skills](https://github.com/apollographql/skills) |
+| `box` | [Box](third_party/box/) | 9 | [box/skills](https://github.com/box/skills) |
+| `buildkite` | [Buildkite](third_party/buildkite/) | 7 | [buildkite/skills](https://github.com/buildkite/skills) |
+| `ckeditor` | [CKEditor](third_party/ckeditor/) | 1 | [ckeditor/skills](https://github.com/ckeditor/skills) |
 | `crowdsec` | [CrowdSec](third_party/crowdsec/) | 2 | [crowdsecurity/crowdsec-skill](https://github.com/crowdsecurity/crowdsec-skill) |
 | `duckdb-skills` | [DuckDB Skills](third_party/duckdb-skills/) | 9 | [duckdb/duckdb-skills](https://github.com/duckdb/duckdb-skills) |
 | `duende-skills` | [Duende Skills](third_party/duende-skills/) | 24 | [DuendeSoftware/duende-skills](https://github.com/DuendeSoftware/duende-skills) |
 | `growthbook` | [GrowthBook](third_party/growthbook/) | 4 | [growthbook/skills](https://github.com/growthbook/skills) |
+| `logfire` | [Pydantic Logfire](third_party/logfire/) | 6 | [pydantic/skills](https://github.com/pydantic/skills) |
+| `mapbox` | [Mapbox](third_party/mapbox/) | 20 | [mapbox/mapbox-agent-skills](https://github.com/mapbox/mapbox-agent-skills) |
 
 ## Repository structure
 

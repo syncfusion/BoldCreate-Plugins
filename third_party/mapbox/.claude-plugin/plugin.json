@@ -1,0 +1,20 @@
+{
+  "name": "mapbox",
+  "displayName": "Mapbox",
+  "version": "1.0.0",
+  "description": "Build location-aware apps with Mapbox: maps, search, navigation, styles and geospatial tools.",
+  "author": {
+    "name": "Mapbox"
+  },
+  "homepage": "https://github.com/mapbox/mapbox-agent-skills",
+  "repository": "https://github.com/mapbox/mapbox-agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "mapbox",
+    "maps",
+    "geospatial",
+    "navigation",
+    "search"
+  ],
+  "icon": "./assets/logo.svg"
+}

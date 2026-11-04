@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "buildkite",
+  "displayName": "Buildkite",
+  "version": "1.0.0",
+  "description": "Work with Buildkite pipelines, builds, the CLI and the REST API, and migrate from other CI systems.",
+  "author": {
+    "name": "Buildkite"
+  },
+  "homepage": "https://github.com/buildkite/skills",
+  "repository": "https://github.com/buildkite/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "ci-cd",
+  "keywords": [
+    "buildkite",
+    "ci",
+    "pipelines",
+    "cli"
+  ],
+  "docs": "https://github.com/buildkite/skills",
+  "upstream": {
+    "repository": "https://github.com/buildkite/skills",
+    "path": "skills",
+    "commit": "d29b846ecbb64817642fd3bd62c3cf53c703423e",
+    "author": "Buildkite",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "buildkite-agent-runtime",
+      "buildkite-api",
+      "buildkite-cache",
+      "buildkite-cli",
+      "buildkite-migration",
+      "buildkite-pipelines",
+      "buildkite-preflight"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}
