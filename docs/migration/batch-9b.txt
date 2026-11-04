@@ -74,3 +74,4 @@ workos
 zilliz
 zocks-advisor
 zscaler
+amd-skills
