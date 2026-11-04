@@ -1,0 +1,12 @@
+# These files will be ignored by Git.
+#
+# Be sure to append /** to folders to have everything inside them ignored.
+
+node_modules/
+
+# Created by the release scripts.
+/release/
+
+.idea
+.DS_Store
+npm-debug.log
