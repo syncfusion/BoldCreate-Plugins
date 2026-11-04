@@ -1,0 +1,26 @@
+{
+  "name": "ollama",
+  "displayName": "Ollama Docs",
+  "version": "0.1.0",
+  "description": "Search Ollama's official documentation for running and serving local large language models.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.ollama.com",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ollama",
+    "llm",
+    "local models",
+    "docs",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "ollama": {
+      "type": "http",
+      "url": "https://docs.ollama.com/mcp"
+    }
+  }
+}

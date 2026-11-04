@@ -130,6 +130,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "blockscout",
+      "displayName": "Blockscout",
+      "version": "0.1.0",
+      "description": "Query Ethereum and EVM blockchains: blocks, transactions, addresses, tokens, and smart contracts.",
+      "source": "third_party/blockscout",
+      "logo": "third_party/blockscout/assets/logo.png",
+      "category": "blockchain",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "boldcreate-toolkit",
       "displayName": "BoldCreate Toolkit",
       "version": "0.7.1",
@@ -150,6 +174,78 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "cloudflare",
+      "displayName": "Cloudflare Developer Platform",
+      "version": "0.1.0",
+      "description": "Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more.",
+      "source": "third_party/cloudflare",
+      "logo": "third_party/cloudflare/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "cohere",
+      "displayName": "Cohere Docs",
+      "version": "0.1.0",
+      "description": "Search Cohere's official documentation for the Command and Embed models and the Cohere API.",
+      "source": "third_party/cohere",
+      "logo": "third_party/cohere/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "coingecko",
+      "displayName": "CoinGecko",
+      "version": "0.1.0",
+      "description": "Track cryptocurrency prices, markets, exchanges, and trending coins.",
+      "source": "third_party/coingecko",
+      "logo": "third_party/coingecko/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "context7",
@@ -224,6 +320,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "excalidraw",
+      "displayName": "Excalidraw",
+      "version": "0.1.0",
+      "description": "Create and edit hand-drawn style diagrams, wireframes, and sketches from text prompts.",
+      "source": "third_party/excalidraw",
+      "logo": "third_party/excalidraw/assets/logo.png",
+      "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "figma",
       "displayName": "Figma",
       "version": "0.7.0",
@@ -263,6 +383,30 @@
       ],
       "auth": [
         "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "fireworks-ai",
+      "displayName": "Fireworks AI Docs",
+      "version": "0.1.0",
+      "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models.",
+      "source": "third_party/fireworks-ai",
+      "logo": "third_party/fireworks-ai/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
       ],
       "requiresSecrets": false,
       "rollout": {
@@ -992,6 +1136,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "huggingface",
+      "displayName": "Hugging Face",
+      "version": "0.1.0",
+      "description": "Search Hugging Face for models, datasets, and spaces.",
+      "source": "third_party/huggingface",
+      "logo": "third_party/huggingface/assets/logo.png",
+      "category": "ai",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "hunter",
       "displayName": "Hunter",
       "version": "0.7.1",
@@ -1232,6 +1400,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "ollama",
+      "displayName": "Ollama Docs",
+      "version": "0.1.0",
+      "description": "Search Ollama's official documentation for running and serving local large language models.",
+      "source": "third_party/ollama",
+      "logo": "third_party/ollama/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "pagerduty",
       "displayName": "PagerDuty",
       "version": "0.7.1",
@@ -1249,6 +1441,30 @@
         "header"
       ],
       "requiresSecrets": true,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "perplexity",
+      "displayName": "Perplexity Docs",
+      "version": "0.1.0",
+      "description": "Search Perplexity's official Sonar and API documentation.",
+      "source": "third_party/perplexity",
+      "logo": "third_party/perplexity/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
       "rollout": {
         "phase": 1,
         "wave": "A"
@@ -1757,6 +1973,30 @@
       ],
       "auth": [
         "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "together-ai",
+      "displayName": "Together AI Docs",
+      "version": "0.1.0",
+      "description": "Search Together AI's official documentation for models, inference, and fine-tuning.",
+      "source": "third_party/together-ai",
+      "logo": "third_party/together-ai/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
       ],
       "requiresSecrets": false,
       "rollout": {

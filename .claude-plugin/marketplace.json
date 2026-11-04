@@ -33,9 +33,29 @@
       "description": "Search AWS documentation, API references, and regional availability."
     },
     {
+      "name": "blockscout",
+      "source": "./third_party/blockscout",
+      "description": "Query Ethereum and EVM blockchains: blocks, transactions, addresses, tokens, and smart contracts."
+    },
+    {
       "name": "boldcreate-toolkit",
       "source": "./boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
+    },
+    {
+      "name": "cloudflare",
+      "source": "./third_party/cloudflare",
+      "description": "Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more."
+    },
+    {
+      "name": "cohere",
+      "source": "./third_party/cohere",
+      "description": "Search Cohere's official documentation for the Command and Embed models and the Cohere API."
+    },
+    {
+      "name": "coingecko",
+      "source": "./third_party/coingecko",
+      "description": "Track cryptocurrency prices, markets, exchanges, and trending coins."
     },
     {
       "name": "context7",
@@ -53,6 +73,11 @@
       "description": "Search the web and fetch page content with Exa."
     },
     {
+      "name": "excalidraw",
+      "source": "./third_party/excalidraw",
+      "description": "Create and edit hand-drawn style diagrams, wireframes, and sketches from text prompts."
+    },
+    {
       "name": "figma",
       "source": "./third_party/figma",
       "description": "Turn Figma frames into code and read design tokens, components, and variables."
@@ -61,6 +86,11 @@
       "name": "firecrawl",
       "source": "./third_party/firecrawl",
       "description": "Search the web, read pages, and research documentation with Firecrawl."
+    },
+    {
+      "name": "fireworks-ai",
+      "source": "./third_party/fireworks-ai",
+      "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models."
     },
     {
       "name": "gitea",
@@ -213,6 +243,11 @@
       "description": "Search US government contract opportunities and awards in GovTribe."
     },
     {
+      "name": "huggingface",
+      "source": "./third_party/huggingface",
+      "description": "Search Hugging Face for models, datasets, and spaces."
+    },
+    {
       "name": "hunter",
       "source": "./third_party/hunter",
       "description": "Find and verify professional email addresses with Hunter."
@@ -263,9 +298,19 @@
       "description": "Search, read, and update Notion pages and databases."
     },
     {
+      "name": "ollama",
+      "source": "./third_party/ollama",
+      "description": "Search Ollama's official documentation for running and serving local large language models."
+    },
+    {
       "name": "pagerduty",
       "source": "./third_party/pagerduty",
       "description": "Browse PagerDuty services, incidents, and change events."
+    },
+    {
+      "name": "perplexity",
+      "source": "./third_party/perplexity",
+      "description": "Search Perplexity's official Sonar and API documentation."
     },
     {
       "name": "posthog",
@@ -391,6 +436,11 @@
       "name": "tavily",
       "source": "./third_party/tavily",
       "description": "Search the web and extract page content with Tavily."
+    },
+    {
+      "name": "together-ai",
+      "source": "./third_party/together-ai",
+      "description": "Search Together AI's official documentation for models, inference, and fine-tuning."
     },
     {
       "name": "vanta",

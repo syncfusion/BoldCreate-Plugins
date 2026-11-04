@@ -1,0 +1,27 @@
+{
+  "name": "fireworks-ai",
+  "displayName": "Fireworks AI Docs",
+  "version": "0.1.0",
+  "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.fireworks.ai",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fireworks ai",
+    "inference",
+    "fine-tuning",
+    "llm",
+    "docs",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "fireworks-ai": {
+      "type": "http",
+      "url": "https://docs.fireworks.ai/mcp"
+    }
+  }
+}

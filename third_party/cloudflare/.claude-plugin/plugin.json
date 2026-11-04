@@ -1,0 +1,26 @@
+{
+  "name": "cloudflare",
+  "displayName": "Cloudflare Developer Platform",
+  "version": "0.1.0",
+  "description": "Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.cloudflare.com/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "docs",
+    "edge",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "cloudflare": {
+      "type": "http",
+      "url": "https://docs.mcp.cloudflare.com/mcp"
+    }
+  }
+}
