@@ -1,0 +1,24 @@
+{
+  "name": "make",
+  "displayName": "Make",
+  "version": "0.7.1",
+  "description": "Run Make scenarios and manage your Make account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.make.com/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "make",
+    "automation",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "make": {
+      "type": "http",
+      "url": "https://mcp.make.com/"
+    }
+  }
+}

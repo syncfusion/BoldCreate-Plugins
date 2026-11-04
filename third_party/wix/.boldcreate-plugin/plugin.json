@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "wix",
+  "displayName": "Wix",
+  "version": "0.7.1",
+  "description": "Manage and build sites and apps on Wix.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "cms",
+  "keywords": [
+    "wix",
+    "cms",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "wix",
+        "transport": "streamable-http",
+        "url": "https://mcp.wix.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge (no OAuth metadata in the challenge); endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

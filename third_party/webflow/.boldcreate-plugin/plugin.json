@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "webflow",
+  "displayName": "Webflow",
+  "version": "0.7.1",
+  "description": "Design pages, manage CMS content, add motion, analyze traffic, and launch the whole site, all from a prompt and all inside the permissions your workspace already has.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.webflow.com/data/docs/ai-tools",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "cms",
+  "keywords": [
+    "webflow",
+    "cms",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.webflow.com/data/docs/ai-tools",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "webflow",
+        "transport": "streamable-http",
+        "url": "https://mcp.webflow.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "miro",
+  "displayName": "Miro",
+  "version": "0.7.1",
+  "description": "Access and create new content on Miro boards.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.miro.com/docs/miro-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "design",
+  "keywords": [
+    "miro",
+    "design",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.miro.com/docs/miro-mcp",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "miro",
+        "transport": "streamable-http",
+        "url": "https://mcp.miro.com/",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

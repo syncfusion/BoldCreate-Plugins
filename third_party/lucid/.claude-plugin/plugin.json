@@ -1,0 +1,24 @@
+{
+  "name": "lucid",
+  "displayName": "Lucid",
+  "version": "0.7.1",
+  "description": "Ideate, diagram, and align teams.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://lucid.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lucid",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "lucid": {
+      "type": "http",
+      "url": "https://mcp.lucid.app/mcp"
+    }
+  }
+}

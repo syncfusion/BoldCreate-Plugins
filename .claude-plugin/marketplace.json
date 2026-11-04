@@ -18,9 +18,19 @@
       "description": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video."
     },
     {
+      "name": "ahrefs",
+      "source": "./third_party/ahrefs",
+      "description": "SEO & AI search analytics."
+    },
+    {
       "name": "ai-plugins",
       "source": "./third_party/ai-plugins",
       "description": "Endor Labs agent setup and workflow agents for findings, remediation and dependency review."
+    },
+    {
+      "name": "airtable",
+      "source": "./third_party/airtable",
+      "description": "Bring your structured data to Claude."
     },
     {
       "name": "airwallex-agentos",
@@ -71,6 +81,11 @@
       "name": "apollo-skills",
       "source": "./third_party/apollo-skills",
       "description": "Build with Apollo GraphQL: Client, Server, Router, Federation, Connectors, Rover, iOS and Kotlin."
+    },
+    {
+      "name": "asana",
+      "source": "./third_party/asana",
+      "description": "Connect to Asana to coordinate tasks, projects, and goals."
     },
     {
       "name": "astronomer-data-agents",
@@ -183,6 +198,16 @@
       "description": "Work with Buildkite pipelines, builds, the CLI and the REST API, and migrate from other CI systems."
     },
     {
+      "name": "calendly",
+      "source": "./third_party/calendly",
+      "description": "Manage scheduling and access meeting recaps."
+    },
+    {
+      "name": "canva",
+      "source": "./third_party/canva",
+      "description": "Search, create, autofill, and export Canva designs."
+    },
+    {
       "name": "carta-crm",
       "source": "./third_party/carta-crm",
       "description": "Manage the Carta CRM conversationally — search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings via the Carta CRM MCP Server"
@@ -211,6 +236,11 @@
       "name": "ckeditor",
       "source": "./third_party/ckeditor",
       "description": "Install, configure, and integrate CKEditor 5 in JavaScript projects."
+    },
+    {
+      "name": "clickup",
+      "source": "./third_party/clickup",
+      "description": "Project management & collaboration for teams & agents."
     },
     {
       "name": "cloudflare",
@@ -288,6 +318,11 @@
       "description": "MCP server for terminal commands, process management, and file operations across text files, code, PDF, DOCX, Excel, images, and structured data"
     },
     {
+      "name": "docusign",
+      "source": "./third_party/docusign",
+      "description": "Intelligent, secure contract management by Docusign."
+    },
+    {
       "name": "duckdb-skills",
       "source": "./third_party/duckdb-skills",
       "description": "Read data files, query DuckDB databases, and search DuckDB documentation."
@@ -338,6 +373,11 @@
       "description": "Search the web, read pages, and research documentation with Firecrawl."
     },
     {
+      "name": "fireflies",
+      "source": "./third_party/fireflies",
+      "description": "Analyze and generate insights from meeting transcripts."
+    },
+    {
       "name": "fireworks-ai",
       "source": "./third_party/fireworks-ai",
       "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models."
@@ -346,6 +386,11 @@
       "name": "forge-skills",
       "source": "./third_party/forge-skills",
       "description": "Forge app builder skill bundle with Forge MCP configuration for Atlassian Forge workflows."
+    },
+    {
+      "name": "gamma",
+      "source": "./third_party/gamma",
+      "description": "Create presentations, docs, socials, and sites with AI."
     },
     {
       "name": "gc-ai",
@@ -518,6 +563,11 @@
       "description": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management."
     },
     {
+      "name": "granola",
+      "source": "./third_party/granola",
+      "description": "The AI notepad for meetings, now in Claude. Ask about your notes, transcripts and meeting context."
+    },
+    {
       "name": "greptile",
       "source": "./third_party/greptile",
       "description": "Read and resolve Greptile pull request reviews and search your organization's coding patterns."
@@ -583,6 +633,11 @@
       "description": "Add Logfire observability to Python apps, query traces, and set up evals."
     },
     {
+      "name": "lucid",
+      "source": "./third_party/lucid",
+      "description": "Ideate, diagram, and align teams."
+    },
+    {
       "name": "lumen",
       "source": "./third_party/lumen",
       "description": "Precise local semantic code search via MCP."
@@ -591,6 +646,11 @@
       "name": "lusha",
       "source": "./third_party/lusha",
       "description": "Connect Lusha to Claude to pull verified B2B data, contact data, and company data — including verified emails, direct dials, mobile numbers, and real-time buying signals — straight into your conversation."
+    },
+    {
+      "name": "make",
+      "source": "./third_party/make",
+      "description": "Run Make scenarios and manage your Make account."
     },
     {
       "name": "mapbox",
@@ -613,6 +673,11 @@
       "description": "Search Mintlify documentation and manage your docs site."
     },
     {
+      "name": "miro",
+      "source": "./third_party/miro",
+      "description": "Access and create new content on Miro boards."
+    },
+    {
       "name": "modern-web-guidance",
       "source": "./third_party/modern-web-guidance",
       "description": "Keep your coding agent up to date with the latest web best practices"
@@ -631,6 +696,11 @@
       "name": "neon",
       "source": "./third_party/neon",
       "description": "Manage Neon serverless Postgres projects, branches, queries, and migrations."
+    },
+    {
+      "name": "netlify",
+      "source": "./third_party/netlify",
+      "description": "Create, deploy, manage, and secure websites on Netlify."
     },
     {
       "name": "netlify-skills",
@@ -943,6 +1013,11 @@
       "description": "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI."
     },
     {
+      "name": "todoist",
+      "source": "./third_party/todoist",
+      "description": "Search, complete, and manage your tasks in Todoist."
+    },
+    {
       "name": "together-ai",
       "source": "./third_party/together-ai",
       "description": "Search Together AI's official documentation for models, inference, and fine-tuning."
@@ -951,6 +1026,11 @@
       "name": "togetherai-skills",
       "source": "./third_party/togetherai-skills",
       "description": "Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters."
+    },
+    {
+      "name": "trello",
+      "source": "./third_party/trello",
+      "description": "Get things done in Trello."
     },
     {
       "name": "ui-theme-designer",
@@ -993,9 +1073,24 @@
       "description": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server."
     },
     {
+      "name": "webflow",
+      "source": "./third_party/webflow",
+      "description": "Design pages, manage CMS content, add motion, analyze traffic, and launch the whole site, all from a prompt and all inside the permissions your workspace already has."
+    },
+    {
       "name": "wingspan",
       "source": "./third_party/wingspan",
       "description": "Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment — then onboard contractors and log payments as drafts, with a preview before anything is written."
+    },
+    {
+      "name": "wix",
+      "source": "./third_party/wix",
+      "description": "Manage and build sites and apps on Wix."
+    },
+    {
+      "name": "xero",
+      "source": "./third_party/xero",
+      "description": "Access your Xero financials from any conversation."
     },
     {
       "name": "youdotcom-agent-skills",
@@ -1006,6 +1101,11 @@
       "name": "zapier",
       "source": "./third_party/zapier",
       "description": "Run Zapier actions across the apps connected to your Zapier account."
+    },
+    {
+      "name": "zoom",
+      "source": "./third_party/zoom",
+      "description": "Search, recap, and act on your Zoom meetings."
     },
     {
       "name": "zoominfo",

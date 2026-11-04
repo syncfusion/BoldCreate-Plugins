@@ -1,0 +1,24 @@
+{
+  "name": "fireflies",
+  "displayName": "Fireflies",
+  "version": "0.7.1",
+  "description": "Analyze and generate insights from meeting transcripts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.fireflies.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fireflies",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "fireflies": {
+      "type": "http",
+      "url": "https://api.fireflies.ai/mcp"
+    }
+  }
+}

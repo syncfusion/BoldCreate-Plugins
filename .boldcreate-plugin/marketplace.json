@@ -49,6 +49,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "ahrefs",
+      "displayName": "Ahrefs",
+      "version": "0.7.1",
+      "description": "SEO & AI search analytics.",
+      "source": "third_party/ahrefs",
+      "logo": "third_party/ahrefs/assets/logo.svg",
+      "category": "marketing",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "ai-plugins",
       "displayName": "Endor Labs",
       "version": "0.1.0",
@@ -67,6 +91,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "airtable",
+      "displayName": "Airtable",
+      "version": "0.7.1",
+      "description": "Bring your structured data to Claude.",
+      "source": "third_party/airtable",
+      "logo": "third_party/airtable/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "airwallex-agentos",
@@ -272,6 +320,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "asana",
+      "displayName": "Asana",
+      "version": "0.7.1",
+      "description": "Connect to Asana to coordinate tasks, projects, and goals.",
+      "source": "third_party/asana",
+      "logo": "third_party/asana/assets/logo.svg",
+      "category": "project-management",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "astronomer-data-agents",
@@ -713,6 +785,54 @@
       "supportedByGateway": false
     },
     {
+      "name": "calendly",
+      "displayName": "Calendly",
+      "version": "0.7.1",
+      "description": "Manage scheduling and access meeting recaps.",
+      "source": "third_party/calendly",
+      "logo": "third_party/calendly/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "canva",
+      "displayName": "Canva",
+      "version": "0.7.1",
+      "description": "Search, create, autofill, and export Canva designs.",
+      "source": "third_party/canva",
+      "logo": "third_party/canva/assets/logo.svg",
+      "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "carta-crm",
       "displayName": "Carta CRM",
       "version": "1.15.0",
@@ -827,6 +947,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "clickup",
+      "displayName": "ClickUp",
+      "version": "0.7.1",
+      "description": "Project management & collaboration for teams & agents.",
+      "source": "third_party/clickup",
+      "logo": "third_party/clickup/assets/logo.svg",
+      "category": "project-management",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "cloudflare",
@@ -1139,6 +1283,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "docusign",
+      "displayName": "Docusign",
+      "version": "0.7.1",
+      "description": "Intelligent, secure contract management by Docusign.",
+      "source": "third_party/docusign",
+      "logo": "third_party/docusign/assets/logo.svg",
+      "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "duckdb-skills",
       "displayName": "DuckDB Skills",
       "version": "0.2.4",
@@ -1350,6 +1518,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "fireflies",
+      "displayName": "Fireflies",
+      "version": "0.7.1",
+      "description": "Analyze and generate insights from meeting transcripts.",
+      "source": "third_party/fireflies",
+      "logo": "third_party/fireflies/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "fireworks-ai",
       "displayName": "Fireworks AI Docs",
       "version": "0.1.0",
@@ -1391,6 +1583,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "gamma",
+      "displayName": "Gamma",
+      "version": "0.7.1",
+      "description": "Create presentations, docs, socials, and sites with AI.",
+      "source": "third_party/gamma",
+      "logo": "third_party/gamma/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "gc-ai",
@@ -2190,6 +2406,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "granola",
+      "displayName": "Granola",
+      "version": "0.7.1",
+      "description": "The AI notepad for meetings, now in Claude. Ask about your notes, transcripts and meeting context.",
+      "source": "third_party/granola",
+      "logo": "third_party/granola/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "greptile",
       "displayName": "Greptile",
       "version": "0.7.1",
@@ -2473,6 +2713,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "lucid",
+      "displayName": "Lucid",
+      "version": "0.7.1",
+      "description": "Ideate, diagram, and align teams.",
+      "source": "third_party/lucid",
+      "logo": "third_party/lucid/assets/logo.svg",
+      "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "lumen",
       "displayName": "Lumen",
       "version": "0.0.42",
@@ -2509,6 +2773,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "make",
+      "displayName": "Make",
+      "version": "0.7.1",
+      "description": "Run Make scenarios and manage your Make account.",
+      "source": "third_party/make",
+      "logo": "third_party/make/assets/logo.svg",
+      "category": "automation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "mapbox",
@@ -2598,6 +2886,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "miro",
+      "displayName": "Miro",
+      "version": "0.7.1",
+      "description": "Access and create new content on Miro boards.",
+      "source": "third_party/miro",
+      "logo": "third_party/miro/assets/logo.svg",
+      "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "modern-web-guidance",
       "displayName": "Modern Web Guidance",
       "version": "0.0.194",
@@ -2680,6 +2992,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "netlify",
+      "displayName": "Netlify",
+      "version": "0.7.1",
+      "description": "Create, deploy, manage, and secure websites on Netlify.",
+      "source": "third_party/netlify",
+      "logo": "third_party/netlify/assets/logo.svg",
+      "category": "hosting",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -3923,6 +4259,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "todoist",
+      "displayName": "Todoist",
+      "version": "0.7.1",
+      "description": "Search, complete, and manage your tasks in Todoist.",
+      "source": "third_party/todoist",
+      "logo": "third_party/todoist/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "together-ai",
       "displayName": "Together AI Docs",
       "version": "0.1.0",
@@ -3964,6 +4324,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "trello",
+      "displayName": "Trello",
+      "version": "0.7.1",
+      "description": "Get things done in Trello.",
+      "source": "third_party/trello",
+      "logo": "third_party/trello/assets/logo.svg",
+      "category": "project-management",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "ui-theme-designer",
@@ -4128,6 +4512,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "webflow",
+      "displayName": "Webflow",
+      "version": "0.7.1",
+      "description": "Design pages, manage CMS content, add motion, analyze traffic, and launch the whole site, all from a prompt and all inside the permissions your workspace already has.",
+      "source": "third_party/webflow",
+      "logo": "third_party/webflow/assets/logo.svg",
+      "category": "cms",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "wingspan",
       "displayName": "Wingspan",
       "version": "0.1.0",
@@ -4145,6 +4553,54 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "wix",
+      "displayName": "Wix",
+      "version": "0.7.1",
+      "description": "Manage and build sites and apps on Wix.",
+      "source": "third_party/wix",
+      "logo": "third_party/wix/assets/logo.svg",
+      "category": "cms",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "xero",
+      "displayName": "Xero",
+      "version": "0.7.1",
+      "description": "Access your Xero financials from any conversation.",
+      "source": "third_party/xero",
+      "logo": "third_party/xero/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "youdotcom-agent-skills",
@@ -4186,6 +4642,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "zoom",
+      "displayName": "Zoom",
+      "version": "0.7.1",
+      "description": "Search, recap, and act on your Zoom meetings.",
+      "source": "third_party/zoom",
+      "logo": "third_party/zoom/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },

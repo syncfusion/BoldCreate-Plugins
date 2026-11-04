@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "make",
+  "displayName": "Make",
+  "version": "0.7.1",
+  "description": "Run Make scenarios and manage your Make account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.make.com/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "automation",
+  "keywords": [
+    "make",
+    "automation",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.make.com/mcp-server",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "make",
+        "transport": "streamable-http",
+        "url": "https://mcp.make.com/",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

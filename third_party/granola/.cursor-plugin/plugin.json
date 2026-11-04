@@ -1,0 +1,28 @@
+{
+  "name": "granola",
+  "displayName": "Granola",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "The AI notepad for meetings, now in Claude. Ask about your notes, transcripts and meeting context.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.granola.ai/help-center/sharing/integrations/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "granola",
+    "productivity",
+    "mcp"
+  ],
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

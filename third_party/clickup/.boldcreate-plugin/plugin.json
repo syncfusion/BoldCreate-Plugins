@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "clickup",
+  "displayName": "ClickUp",
+  "version": "0.7.1",
+  "description": "Project management & collaboration for teams & agents.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "project-management",
+  "keywords": [
+    "clickup",
+    "project-management",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "clickup",
+        "transport": "streamable-http",
+        "url": "https://mcp.clickup.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge (no OAuth metadata in the challenge); endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

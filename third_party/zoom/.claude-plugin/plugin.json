@@ -1,0 +1,24 @@
+{
+  "name": "zoom",
+  "displayName": "Zoom",
+  "version": "0.7.1",
+  "description": "Search, recap, and act on your Zoom meetings.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.zoom.us/docs/mcp/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zoom",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "zoom": {
+      "type": "http",
+      "url": "https://mcp.zoom.us/mcp/zoom/streamable"
+    }
+  }
+}

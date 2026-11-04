@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "asana",
+  "displayName": "Asana",
+  "version": "0.7.1",
+  "description": "Connect to Asana to coordinate tasks, projects, and goals.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.asana.com/docs/using-asanas-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "project-management",
+  "keywords": [
+    "asana",
+    "project-management",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.asana.com/docs/using-asanas-mcp-server",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "asana",
+        "transport": "streamable-http",
+        "url": "https://mcp.asana.com/v2/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}
