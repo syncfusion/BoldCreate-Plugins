@@ -1,0 +1,25 @@
+{
+  "name": "zapier",
+  "displayName": "Zapier",
+  "version": "0.7.1",
+  "description": "Run Zapier actions across the apps connected to your Zapier account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zapier",
+    "automation",
+    "workflows",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "zapier": {
+      "type": "http",
+      "url": "https://mcp.zapier.com/api/v1/connect"
+    }
+  }
+}

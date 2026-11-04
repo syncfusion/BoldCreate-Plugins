@@ -872,6 +872,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "intercom",
+      "displayName": "Intercom",
+      "version": "0.7.1",
+      "description": "Search Intercom conversations, contacts, and help center articles.",
+      "source": "third_party/intercom",
+      "logo": "third_party/intercom/assets/logo.svg",
+      "category": "customer-support",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "linear",
       "displayName": "Linear",
       "version": "0.7.1",
@@ -911,6 +935,30 @@
       ],
       "auth": [
         "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "monday",
+      "displayName": "monday.com",
+      "version": "0.7.1",
+      "description": "Manage monday.com boards, items, and workspaces.",
+      "source": "third_party/monday",
+      "logo": "third_party/monday/assets/logo.svg",
+      "category": "project-management",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
       ],
       "requiresSecrets": false,
       "rollout": {
@@ -1450,6 +1498,30 @@
       "rollout": {
         "phase": 1,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "zapier",
+      "displayName": "Zapier",
+      "version": "0.7.1",
+      "description": "Run Zapier actions across the apps connected to your Zapier account.",
+      "source": "third_party/zapier",
+      "logo": "third_party/zapier/assets/logo.svg",
+      "category": "automation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     }

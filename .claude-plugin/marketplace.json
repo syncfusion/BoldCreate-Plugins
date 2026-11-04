@@ -188,6 +188,11 @@
       "description": "Search across Gmail, Drive, Calendar, and other Google Workspace content in one place."
     },
     {
+      "name": "intercom",
+      "source": "./third_party/intercom",
+      "description": "Search Intercom conversations, contacts, and help center articles."
+    },
+    {
       "name": "linear",
       "source": "./third_party/linear",
       "description": "Find, create, and update Linear issues, projects, and cycles."
@@ -196,6 +201,11 @@
       "name": "microsoft-learn",
       "source": "./third_party/microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more."
+    },
+    {
+      "name": "monday",
+      "source": "./third_party/monday",
+      "description": "Manage monday.com boards, items, and workspaces."
     },
     {
       "name": "neon",
@@ -326,6 +336,11 @@
       "name": "vercel",
       "source": "./third_party/vercel",
       "description": "Inspect Vercel projects, deployments, and build logs, and search Vercel docs."
+    },
+    {
+      "name": "zapier",
+      "source": "./third_party/zapier",
+      "description": "Run Zapier actions across the apps connected to your Zapier account."
     }
   ]
 }

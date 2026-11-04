@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "zapier",
+  "displayName": "Zapier",
+  "version": "0.7.1",
+  "description": "Run Zapier actions across the apps connected to your Zapier account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "automation",
+  "keywords": [
+    "zapier",
+    "automation",
+    "workflows",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "zapier",
+        "transport": "streamable-http",
+        "url": "https://mcp.zapier.com/api/v1/connect",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (zapier/zapier-mcp)"
+  }
+}
