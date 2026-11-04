@@ -10,7 +10,7 @@
   "homepage": "https://github.com/mondaycom/mcp/tree/master/plugins/monday-crm",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "category": "project-management",
   "keywords": [
     "monday",

@@ -15,7 +15,7 @@
     "contacts",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "zoominfo": {
       "type": "http",

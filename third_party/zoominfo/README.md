@@ -35,7 +35,7 @@ The first time the agent calls a tool, each member signs in to ZoomInfo in the b
 
 ## Logo
 
-Neutral tile with the product's initials.
+Official ZoomInfo icon, downloaded from www.zoominfo.com. The mark is a trademark of its owner.
 
 ## License
 

@@ -35,7 +35,7 @@ The first time the agent calls a tool, each member signs in to Hunter in the bro
 
 ## Logo
 
-Neutral tile with the product's initials.
+Official Hunter icon, downloaded from hunter.io. The mark is a trademark of its owner.
 
 ## License
 

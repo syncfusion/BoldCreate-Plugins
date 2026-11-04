@@ -15,7 +15,7 @@
     "prospecting",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "hunter": {
       "type": "http",

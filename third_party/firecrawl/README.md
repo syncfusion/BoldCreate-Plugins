@@ -37,7 +37,7 @@ Requests send search queries and page URLs to Firecrawl. Include only what the t
 
 ## Logo
 
-Neutral tile with the product's initials.
+Official Firecrawl icon, downloaded from www.firecrawl.dev. The mark is a trademark of its owner.
 
 ## License
 

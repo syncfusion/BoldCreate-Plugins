@@ -10,7 +10,7 @@
   "homepage": "https://github.com/firecrawl/firecrawl-claude-plugin",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "category": "search",
   "keywords": [
     "firecrawl",

@@ -10,7 +10,7 @@
   "homepage": "https://github.com/incident-io/skills",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "category": "incident-management",
   "keywords": [
     "incident",

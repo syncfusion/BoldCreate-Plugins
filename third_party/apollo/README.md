@@ -35,7 +35,7 @@ The first time the agent calls a tool, each member signs in to Apollo in the bro
 
 ## Logo
 
-Neutral tile with the product's initials.
+Official Apollo icon, downloaded from www.apollo.io. The mark is a trademark of its owner.
 
 ## License
 
