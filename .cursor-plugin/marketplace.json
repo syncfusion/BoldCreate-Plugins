@@ -8,9 +8,19 @@
   },
   "plugins": [
     {
+      "name": "amplitude",
+      "description": "Query Amplitude product analytics, charts, and experiments.",
+      "source": "third_party/amplitude"
+    },
+    {
       "name": "android-management",
       "description": "Manage enterprise Android devices, policies, and apps with the Android Management API.",
       "source": "third_party/android-management"
+    },
+    {
+      "name": "apollo",
+      "description": "Search and enrich contacts and accounts in Apollo.io.",
+      "source": "third_party/apollo"
     },
     {
       "name": "atlassian",
@@ -38,9 +48,19 @@
       "source": "third_party/deepwiki"
     },
     {
+      "name": "exa",
+      "description": "Search the web and fetch page content with Exa.",
+      "source": "third_party/exa"
+    },
+    {
       "name": "figma",
       "description": "Turn Figma frames into code and read design tokens, components, and variables.",
       "source": "third_party/figma"
+    },
+    {
+      "name": "firecrawl",
+      "description": "Search the web, read pages, and research documentation with Firecrawl.",
+      "source": "third_party/firecrawl"
     },
     {
       "name": "gitea",
@@ -188,6 +208,31 @@
       "source": "third_party/google-workspace-search"
     },
     {
+      "name": "govtribe",
+      "description": "Search US government contract opportunities and awards in GovTribe.",
+      "source": "third_party/govtribe"
+    },
+    {
+      "name": "hunter",
+      "description": "Find and verify professional email addresses with Hunter.",
+      "source": "third_party/hunter"
+    },
+    {
+      "name": "incident-io",
+      "description": "Look up and manage incidents in incident.io.",
+      "source": "third_party/incident-io"
+    },
+    {
+      "name": "intercom",
+      "description": "Search Intercom conversations, contacts, and help center articles.",
+      "source": "third_party/intercom"
+    },
+    {
+      "name": "leadfeeder",
+      "description": "Look up companies that visit your website with Leadfeeder.",
+      "source": "third_party/leadfeeder"
+    },
+    {
       "name": "linear",
       "description": "Find, create, and update Linear issues, projects, and cycles.",
       "source": "third_party/linear"
@@ -196,6 +241,16 @@
       "name": "microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more.",
       "source": "third_party/microsoft-learn"
+    },
+    {
+      "name": "mintlify",
+      "description": "Search Mintlify documentation and manage your docs site.",
+      "source": "third_party/mintlify"
+    },
+    {
+      "name": "monday",
+      "description": "Manage monday.com boards, items, and workspaces.",
+      "source": "third_party/monday"
     },
     {
       "name": "neon",
@@ -208,14 +263,29 @@
       "source": "third_party/notion"
     },
     {
+      "name": "pagerduty",
+      "description": "Browse PagerDuty services, incidents, and change events.",
+      "source": "third_party/pagerduty"
+    },
+    {
       "name": "posthog",
       "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
       "source": "third_party/posthog"
     },
     {
+      "name": "render",
+      "description": "Inspect Render services, deploys, and logs.",
+      "source": "third_party/render"
+    },
+    {
       "name": "sentry",
       "description": "Investigate Sentry errors, stack traces, and issues for a project.",
       "source": "third_party/sentry"
+    },
+    {
+      "name": "slack",
+      "description": "Search Slack messages, read channels and threads, and find context from your workspace.",
+      "source": "third_party/slack"
     },
     {
       "name": "stripe",
@@ -318,9 +388,29 @@
       "source": "syncfusion/migration-skills/xamarin-to-maui"
     },
     {
+      "name": "tavily",
+      "description": "Search the web and extract page content with Tavily.",
+      "source": "third_party/tavily"
+    },
+    {
+      "name": "vanta",
+      "description": "Review Vanta compliance tests, controls, vendors, and vulnerabilities.",
+      "source": "third_party/vanta"
+    },
+    {
       "name": "vercel",
       "description": "Inspect Vercel projects, deployments, and build logs, and search Vercel docs.",
       "source": "third_party/vercel"
+    },
+    {
+      "name": "zapier",
+      "description": "Run Zapier actions across the apps connected to your Zapier account.",
+      "source": "third_party/zapier"
+    },
+    {
+      "name": "zoominfo",
+      "description": "Search ZoomInfo companies and contacts.",
+      "source": "third_party/zoominfo"
     }
   ]
 }

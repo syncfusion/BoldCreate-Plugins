@@ -1,0 +1,25 @@
+{
+  "name": "zoominfo",
+  "displayName": "ZoomInfo",
+  "version": "0.7.1",
+  "description": "Search ZoomInfo companies and contacts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/Zoominfo/zoominfo-mcp-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zoominfo",
+    "sales",
+    "contacts",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "zoominfo": {
+      "type": "http",
+      "url": "https://mcp.zoominfo.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "monday",
+  "displayName": "monday.com",
+  "version": "0.7.1",
+  "description": "Manage monday.com boards, items, and workspaces.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/mondaycom/mcp/tree/master/plugins/monday-crm",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "monday",
+    "work-management",
+    "crm",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "monday": {
+      "type": "http",
+      "url": "https://mcp.monday.com/mcp"
+    }
+  }
+}

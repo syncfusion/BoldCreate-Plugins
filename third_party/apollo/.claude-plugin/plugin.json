@@ -1,0 +1,25 @@
+{
+  "name": "apollo",
+  "displayName": "Apollo",
+  "version": "0.7.1",
+  "description": "Search and enrich contacts and accounts in Apollo.io.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/apolloio/apollo-mcp-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "apollo",
+    "sales",
+    "prospecting",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "apollo": {
+      "type": "http",
+      "url": "https://mcp.apollo.io/mcp"
+    }
+  }
+}

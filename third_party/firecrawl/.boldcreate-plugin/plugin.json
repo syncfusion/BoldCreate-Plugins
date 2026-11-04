@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "firecrawl",
+  "displayName": "Firecrawl",
+  "version": "0.7.1",
+  "description": "Search the web, read pages, and research documentation with Firecrawl.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/firecrawl/firecrawl-claude-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "search",
+  "keywords": [
+    "firecrawl",
+    "web",
+    "search",
+    "scrape",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/firecrawl/firecrawl-claude-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "firecrawl",
+        "transport": "streamable-http",
+        "url": "https://mcp.firecrawl.dev/v2/mcp-search",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (firecrawl/firecrawl-claude-plugin)"
+  }
+}

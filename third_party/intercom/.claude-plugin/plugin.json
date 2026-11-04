@@ -1,0 +1,25 @@
+{
+  "name": "intercom",
+  "displayName": "Intercom",
+  "version": "0.7.1",
+  "description": "Search Intercom conversations, contacts, and help center articles.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/intercom/intercom-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "intercom",
+    "support",
+    "customers",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "intercom": {
+      "type": "http",
+      "url": "https://mcp.intercom.com/mcp"
+    }
+  }
+}

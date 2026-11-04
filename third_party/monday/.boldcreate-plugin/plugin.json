@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "monday",
+  "displayName": "monday.com",
+  "version": "0.7.1",
+  "description": "Manage monday.com boards, items, and workspaces.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/mondaycom/mcp/tree/master/plugins/monday-crm",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "project-management",
+  "keywords": [
+    "monday",
+    "work-management",
+    "crm",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/mondaycom/mcp/tree/master/plugins/monday-crm",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "monday",
+        "transport": "streamable-http",
+        "url": "https://mcp.monday.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (mondaycom/mcp at 11e67e4)"
+  }
+}

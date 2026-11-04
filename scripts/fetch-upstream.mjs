@@ -1,0 +1,62 @@
+#!/usr/bin/env node
+// Copies upstream plugin folders into _import/<name>/ at the commit pinned in the saved index.
+// Run it on a machine that can reach GitHub.
+//   node scripts/fetch-upstream.mjs crowdsec growthbook-skills
+//   node scripts/fetch-upstream.mjs --dry-run crowdsec     (prints what it would do)
+// Each folder gets a .upstream-commit file holding the repository, path and commit.
+
+import { readFileSync, mkdirSync, rmSync, cpSync, writeFileSync, existsSync, mkdtempSync } from "fs";
+import { execFileSync } from "child_process";
+import { resolve, dirname, join } from "path";
+import { tmpdir } from "os";
+import { fileURLToPath } from "url";
+
+const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const args = process.argv.slice(2);
+const dry = args.includes("--dry-run");
+const names = args.filter((a) => !a.startsWith("--"));
+if (!names.length) {
+  console.error("Usage: node scripts/fetch-upstream.mjs [--dry-run] <plugin-name> [<plugin-name> ...]");
+  process.exit(1);
+}
+
+const index = JSON.parse(readFileSync(join(root, "docs/migration/anthropic-marketplace-index.json"), "utf-8"));
+const git = (cwd, ...a) => execFileSync("git", a, { cwd, stdio: "pipe" }).toString();
+
+let failed = 0;
+for (const name of names) {
+  const entry = index.plugins.find((p) => p.name === name);
+  if (!entry) { console.error(`${name}: not in the index`); failed++; continue; }
+  const s = entry.source;
+  if (typeof s === "string") { console.error(`${name}: lives inside claude-plugins-official (${s}); fetch that repository instead`); failed++; continue; }
+  if (!/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+(\.git)?$/.test(s.url) || !/^[0-9a-f]{40}$/.test(s.sha ?? "")) {
+    console.error(`${name}: unexpected source in the index`); failed++; continue;
+  }
+  const sub = s.path ?? "";
+  if (sub.split("/").includes("..")) { console.error(`${name}: path is not allowed`); failed++; continue; }
+  const dest = join(root, "_import", name);
+  console.log(`${name}: ${s.url} @ ${s.sha.slice(0, 12)} ${sub ? `(${sub})` : "(whole repository)"} -> _import/${name}`);
+  if (dry) continue;
+
+  const tmp = mkdtempSync(join(tmpdir(), "fetch-upstream-"));
+  try {
+    git(tmp, "clone", "--quiet", "--no-checkout", "--filter=blob:none", s.url, "repo");
+    const repo = join(tmp, "repo");
+    git(repo, "checkout", "--quiet", s.sha);
+    const from = join(repo, sub);
+    if (!existsSync(from)) throw new Error(`path "${sub}" not found at that commit`);
+    rmSync(dest, { recursive: true, force: true });
+    mkdirSync(dest, { recursive: true });
+    cpSync(from, dest, { recursive: true, filter: (p) => !p.split(/[\\/]/).includes(".git") });
+    // A plugin in a subfolder often relies on the repository-root LICENSE.
+    if (sub && !existsSync(join(dest, "LICENSE")) && existsSync(join(repo, "LICENSE"))) cpSync(join(repo, "LICENSE"), join(dest, "LICENSE"));
+    writeFileSync(join(dest, ".upstream-commit"), `repository: ${s.url}\npath: ${sub || "."}\ncommit: ${s.sha}\n`);
+    console.log(`  done`);
+  } catch (e) {
+    console.error(`  failed: ${e.message.split("\n")[0]}`);
+    failed++;
+  } finally {
+    rmSync(tmp, { recursive: true, force: true });
+  }
+}
+process.exit(failed ? 1 : 0);

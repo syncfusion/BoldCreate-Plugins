@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "incident-io",
+  "displayName": "incident.io",
+  "version": "0.7.1",
+  "description": "Look up and manage incidents in incident.io.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/incident-io/skills",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "incident-management",
+  "keywords": [
+    "incident",
+    "on-call",
+    "response",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/incident-io/skills",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "incident-io",
+        "transport": "streamable-http",
+        "url": "https://mcp.incident.io/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (incident-io/skills at 2741fb4)"
+  }
+}

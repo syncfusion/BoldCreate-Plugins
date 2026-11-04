@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "tavily",
+  "displayName": "Tavily",
+  "version": "0.7.1",
+  "description": "Search the web and extract page content with Tavily.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/tavily-ai/skills",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "search",
+  "keywords": [
+    "tavily",
+    "web",
+    "search",
+    "research",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/tavily-ai/skills",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "tavily",
+        "transport": "streamable-http",
+        "url": "https://mcp.tavily.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (tavily-ai/skills at b282c62)"
+  }
+}

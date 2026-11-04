@@ -10,6 +10,30 @@
   },
   "plugins": [
     {
+      "name": "amplitude",
+      "displayName": "Amplitude",
+      "version": "0.7.1",
+      "description": "Query Amplitude product analytics, charts, and experiments.",
+      "source": "third_party/amplitude",
+      "logo": "third_party/amplitude/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "android-management",
       "displayName": "Android Management",
       "version": "0.7.0",
@@ -30,6 +54,30 @@
       "rollout": {
         "phase": 2,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "apollo",
+      "displayName": "Apollo",
+      "version": "0.7.1",
+      "description": "Search and enrich contacts and accounts in Apollo.io.",
+      "source": "third_party/apollo",
+      "logo": "third_party/apollo/assets/logo.svg",
+      "category": "sales",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     },
@@ -152,6 +200,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "exa",
+      "displayName": "Exa",
+      "version": "0.7.1",
+      "description": "Search the web and fetch page content with Exa.",
+      "source": "third_party/exa",
+      "logo": "third_party/exa/assets/logo.svg",
+      "category": "search",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "figma",
       "displayName": "Figma",
       "version": "0.7.0",
@@ -172,6 +244,30 @@
       "rollout": {
         "phase": 1,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "firecrawl",
+      "displayName": "Firecrawl",
+      "version": "0.7.1",
+      "description": "Search the web, read pages, and research documentation with Firecrawl.",
+      "source": "third_party/firecrawl",
+      "logo": "third_party/firecrawl/assets/logo.svg",
+      "category": "search",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     },
@@ -872,6 +968,126 @@
       "supportedByGateway": true
     },
     {
+      "name": "govtribe",
+      "displayName": "GovTribe",
+      "version": "0.7.1",
+      "description": "Search US government contract opportunities and awards in GovTribe.",
+      "source": "third_party/govtribe",
+      "logo": "third_party/govtribe/assets/logo.svg",
+      "category": "sales",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "hunter",
+      "displayName": "Hunter",
+      "version": "0.7.1",
+      "description": "Find and verify professional email addresses with Hunter.",
+      "source": "third_party/hunter",
+      "logo": "third_party/hunter/assets/logo.svg",
+      "category": "sales",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "incident-io",
+      "displayName": "incident.io",
+      "version": "0.7.1",
+      "description": "Look up and manage incidents in incident.io.",
+      "source": "third_party/incident-io",
+      "logo": "third_party/incident-io/assets/logo.svg",
+      "category": "incident-management",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "intercom",
+      "displayName": "Intercom",
+      "version": "0.7.1",
+      "description": "Search Intercom conversations, contacts, and help center articles.",
+      "source": "third_party/intercom",
+      "logo": "third_party/intercom/assets/logo.svg",
+      "category": "customer-support",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "leadfeeder",
+      "displayName": "Leadfeeder",
+      "version": "0.7.1",
+      "description": "Look up companies that visit your website with Leadfeeder.",
+      "source": "third_party/leadfeeder",
+      "logo": "third_party/leadfeeder/assets/logo.svg",
+      "category": "sales",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "linear",
       "displayName": "Linear",
       "version": "0.7.1",
@@ -911,6 +1127,54 @@
       ],
       "auth": [
         "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mintlify",
+      "displayName": "Mintlify",
+      "version": "0.7.1",
+      "description": "Search Mintlify documentation and manage your docs site.",
+      "source": "third_party/mintlify",
+      "logo": "third_party/mintlify/assets/logo.svg",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "monday",
+      "displayName": "monday.com",
+      "version": "0.7.1",
+      "description": "Manage monday.com boards, items, and workspaces.",
+      "source": "third_party/monday",
+      "logo": "third_party/monday/assets/logo.svg",
+      "category": "project-management",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
       ],
       "requiresSecrets": false,
       "rollout": {
@@ -968,6 +1232,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "pagerduty",
+      "displayName": "PagerDuty",
+      "version": "0.7.1",
+      "description": "Browse PagerDuty services, incidents, and change events.",
+      "source": "third_party/pagerduty",
+      "logo": "third_party/pagerduty/assets/logo.svg",
+      "category": "incident-management",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "header"
+      ],
+      "requiresSecrets": true,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "posthog",
       "displayName": "PostHog",
       "version": "0.7.1",
@@ -975,6 +1263,30 @@
       "source": "third_party/posthog",
       "logo": "third_party/posthog/assets/logo.png",
       "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "render",
+      "displayName": "Render",
+      "version": "0.7.1",
+      "description": "Inspect Render services, deploys, and logs.",
+      "source": "third_party/render",
+      "logo": "third_party/render/assets/logo.svg",
+      "category": "hosting",
       "components": [
         "mcp"
       ],
@@ -1012,6 +1324,30 @@
       "rollout": {
         "phase": 1,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "slack",
+      "displayName": "Slack",
+      "version": "0.7.1",
+      "description": "Search Slack messages, read channels and threads, and find context from your workspace.",
+      "source": "third_party/slack",
+      "logo": "third_party/slack/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     },
@@ -1406,6 +1742,54 @@
       "supportedByGateway": false
     },
     {
+      "name": "tavily",
+      "displayName": "Tavily",
+      "version": "0.7.1",
+      "description": "Search the web and extract page content with Tavily.",
+      "source": "third_party/tavily",
+      "logo": "third_party/tavily/assets/logo.svg",
+      "category": "search",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "vanta",
+      "displayName": "Vanta",
+      "version": "0.7.1",
+      "description": "Review Vanta compliance tests, controls, vendors, and vulnerabilities.",
+      "source": "third_party/vanta",
+      "logo": "third_party/vanta/assets/logo.svg",
+      "category": "security",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "vercel",
       "displayName": "Vercel",
       "version": "0.7.0",
@@ -1426,6 +1810,54 @@
       "rollout": {
         "phase": 1,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "zapier",
+      "displayName": "Zapier",
+      "version": "0.7.1",
+      "description": "Run Zapier actions across the apps connected to your Zapier account.",
+      "source": "third_party/zapier",
+      "logo": "third_party/zapier/assets/logo.svg",
+      "category": "automation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "zoominfo",
+      "displayName": "ZoomInfo",
+      "version": "0.7.1",
+      "description": "Search ZoomInfo companies and contacts.",
+      "source": "third_party/zoominfo",
+      "logo": "third_party/zoominfo/assets/logo.svg",
+      "category": "sales",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     }

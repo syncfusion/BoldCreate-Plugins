@@ -1,0 +1,25 @@
+{
+  "name": "leadfeeder",
+  "displayName": "Leadfeeder",
+  "version": "0.7.1",
+  "description": "Look up companies that visit your website with Leadfeeder.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/Leadfeeder/leadfeeder-mcp-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "leadfeeder",
+    "dealfront",
+    "leads",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "leadfeeder": {
+      "type": "http",
+      "url": "https://mcp.leadfeeder.com/mcp"
+    }
+  }
+}

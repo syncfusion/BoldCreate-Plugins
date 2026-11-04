@@ -1,0 +1,26 @@
+{
+  "name": "exa",
+  "displayName": "Exa",
+  "version": "0.7.1",
+  "description": "Search the web and fetch page content with Exa.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/exa-labs/exa-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "exa",
+    "web",
+    "search",
+    "research",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "exa": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp"
+    }
+  }
+}

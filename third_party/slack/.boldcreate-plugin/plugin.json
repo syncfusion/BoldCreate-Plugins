@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "slack",
+  "displayName": "Slack",
+  "version": "0.7.1",
+  "description": "Search Slack messages, read channels and threads, and find context from your workspace.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "keywords": [
+    "slack",
+    "messaging",
+    "search",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/slackapi/slack-mcp-plugin/tree/main",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "slack",
+        "transport": "streamable-http",
+        "url": "https://mcp.slack.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (slackapi/slack-mcp-plugin at ad6be88)"
+  }
+}

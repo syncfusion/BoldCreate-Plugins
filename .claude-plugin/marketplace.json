@@ -8,9 +8,19 @@
   },
   "plugins": [
     {
+      "name": "amplitude",
+      "source": "./third_party/amplitude",
+      "description": "Query Amplitude product analytics, charts, and experiments."
+    },
+    {
       "name": "android-management",
       "source": "./third_party/android-management",
       "description": "Manage enterprise Android devices, policies, and apps with the Android Management API."
+    },
+    {
+      "name": "apollo",
+      "source": "./third_party/apollo",
+      "description": "Search and enrich contacts and accounts in Apollo.io."
     },
     {
       "name": "atlassian",
@@ -38,9 +48,19 @@
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
     },
     {
+      "name": "exa",
+      "source": "./third_party/exa",
+      "description": "Search the web and fetch page content with Exa."
+    },
+    {
       "name": "figma",
       "source": "./third_party/figma",
       "description": "Turn Figma frames into code and read design tokens, components, and variables."
+    },
+    {
+      "name": "firecrawl",
+      "source": "./third_party/firecrawl",
+      "description": "Search the web, read pages, and research documentation with Firecrawl."
     },
     {
       "name": "gitea",
@@ -188,6 +208,31 @@
       "description": "Search across Gmail, Drive, Calendar, and other Google Workspace content in one place."
     },
     {
+      "name": "govtribe",
+      "source": "./third_party/govtribe",
+      "description": "Search US government contract opportunities and awards in GovTribe."
+    },
+    {
+      "name": "hunter",
+      "source": "./third_party/hunter",
+      "description": "Find and verify professional email addresses with Hunter."
+    },
+    {
+      "name": "incident-io",
+      "source": "./third_party/incident-io",
+      "description": "Look up and manage incidents in incident.io."
+    },
+    {
+      "name": "intercom",
+      "source": "./third_party/intercom",
+      "description": "Search Intercom conversations, contacts, and help center articles."
+    },
+    {
+      "name": "leadfeeder",
+      "source": "./third_party/leadfeeder",
+      "description": "Look up companies that visit your website with Leadfeeder."
+    },
+    {
       "name": "linear",
       "source": "./third_party/linear",
       "description": "Find, create, and update Linear issues, projects, and cycles."
@@ -196,6 +241,16 @@
       "name": "microsoft-learn",
       "source": "./third_party/microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more."
+    },
+    {
+      "name": "mintlify",
+      "source": "./third_party/mintlify",
+      "description": "Search Mintlify documentation and manage your docs site."
+    },
+    {
+      "name": "monday",
+      "source": "./third_party/monday",
+      "description": "Manage monday.com boards, items, and workspaces."
     },
     {
       "name": "neon",
@@ -208,14 +263,29 @@
       "description": "Search, read, and update Notion pages and databases."
     },
     {
+      "name": "pagerduty",
+      "source": "./third_party/pagerduty",
+      "description": "Browse PagerDuty services, incidents, and change events."
+    },
+    {
       "name": "posthog",
       "source": "./third_party/posthog",
       "description": "Query product analytics, manage feature flags, and investigate errors in PostHog."
     },
     {
+      "name": "render",
+      "source": "./third_party/render",
+      "description": "Inspect Render services, deploys, and logs."
+    },
+    {
       "name": "sentry",
       "source": "./third_party/sentry",
       "description": "Investigate Sentry errors, stack traces, and issues for a project."
+    },
+    {
+      "name": "slack",
+      "source": "./third_party/slack",
+      "description": "Search Slack messages, read channels and threads, and find context from your workspace."
     },
     {
       "name": "stripe",
@@ -318,9 +388,29 @@
       "description": "Skills for moving Xamarin.Forms apps to .NET MAUI: project and framework changes, platform-specific code, renderers to handlers, and Syncfusion Xamarin controls to their .NET MAUI equivalents."
     },
     {
+      "name": "tavily",
+      "source": "./third_party/tavily",
+      "description": "Search the web and extract page content with Tavily."
+    },
+    {
+      "name": "vanta",
+      "source": "./third_party/vanta",
+      "description": "Review Vanta compliance tests, controls, vendors, and vulnerabilities."
+    },
+    {
       "name": "vercel",
       "source": "./third_party/vercel",
       "description": "Inspect Vercel projects, deployments, and build logs, and search Vercel docs."
+    },
+    {
+      "name": "zapier",
+      "source": "./third_party/zapier",
+      "description": "Run Zapier actions across the apps connected to your Zapier account."
+    },
+    {
+      "name": "zoominfo",
+      "source": "./third_party/zoominfo",
+      "description": "Search ZoomInfo companies and contacts."
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "intercom",
+  "displayName": "Intercom",
+  "version": "0.7.1",
+  "description": "Search Intercom conversations, contacts, and help center articles.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/intercom/intercom-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "customer-support",
+  "keywords": [
+    "intercom",
+    "support",
+    "customers",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/intercom/intercom-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "intercom",
+        "transport": "streamable-http",
+        "url": "https://mcp.intercom.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (intercom/claude-plugin-external at 5aa0530)"
+  }
+}
