@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "chronograph-lp",
+  "displayName": "Chronograph LP",
+  "version": "0.2.4",
+  "description": "Portfolio monitoring and analytics for private capital LP teams.",
+  "author": {
+    "name": "Chronograph"
+  },
+  "homepage": "https://github.com/chronograph-pe/chronograph-lp-claude-plugin",
+  "repository": "https://github.com/chronograph-pe/chronograph-lp-claude-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "finance",
+  "keywords": [
+    "chronograph",
+    "finance",
+    "skills"
+  ],
+  "docs": "https://github.com/chronograph-pe/chronograph-lp-claude-plugin",
+  "upstream": {
+    "repository": "https://github.com/chronograph-pe/chronograph-lp-claude-plugin",
+    "path": "skills",
+    "commit": "322b2d3fbd4db0a2eeed117e3b3c31522408ae6f",
+    "author": "Chronograph",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "chronograph-cashflow-forecast",
+      "chronograph-commitment-pacing-planner",
+      "chronograph-gp-meeting-prep",
+      "chronograph-look-through-exposure-scan"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "chronograph-cashflow-forecast",
+      "chronograph-commitment-pacing-planner",
+      "chronograph-gp-meeting-prep",
+      "chronograph-look-through-exposure-scan",
+      "chronograph-lp-analyst"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

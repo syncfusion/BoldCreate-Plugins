@@ -1,0 +1,25 @@
+{
+  "name": "chronograph-lp",
+  "displayName": "Chronograph LP",
+  "version": "0.2.4",
+  "description": "Portfolio monitoring and analytics for private capital LP teams.",
+  "author": {
+    "name": "Chronograph"
+  },
+  "homepage": "https://github.com/chronograph-pe/chronograph-lp-claude-plugin",
+  "repository": "https://github.com/chronograph-pe/chronograph-lp-claude-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "chronograph",
+    "finance",
+    "skills"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "lumen",
+  "displayName": "Lumen",
+  "version": "0.0.42",
+  "description": "Precise local semantic code search via MCP.",
+  "author": {
+    "name": "Ory Corp"
+  },
+  "homepage": "https://github.com/ory/lumen",
+  "repository": "https://github.com/ory/lumen",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "lumen",
+    "developer-tools",
+    "skills"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "chronograph-gp",
+  "displayName": "Chronograph GP",
+  "version": "0.2.4",
+  "description": "Portfolio monitoring, valuations, and analytics for private capital GP teams.",
+  "author": {
+    "name": "Chronograph"
+  },
+  "homepage": "https://github.com/chronograph-pe/chronograph-gp-claude-plugin",
+  "repository": "https://github.com/chronograph-pe/chronograph-gp-claude-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "chronograph",
+    "finance",
+    "skills"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

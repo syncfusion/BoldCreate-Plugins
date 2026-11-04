@@ -1,0 +1,24 @@
+{
+  "name": "aws-agents",
+  "displayName": "AWS Agents",
+  "version": "1.0.0",
+  "description": "Build, deploy, and operate AI agents on AWS.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+  "repository": "https://github.com/aws/agent-toolkit-for-aws",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "aws",
+    "cloud",
+    "skills"
+  ],
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

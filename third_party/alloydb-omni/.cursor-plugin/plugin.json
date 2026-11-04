@@ -1,0 +1,24 @@
+{
+  "name": "alloydb-omni",
+  "displayName": "AlloyDB Omni",
+  "version": "0.2.2",
+  "description": "Create, connect, and interact with an AlloyDB Omni database and data.",
+  "author": {
+    "name": "Google LLC"
+  },
+  "homepage": "https://github.com/gemini-cli-extensions/alloydb-omni",
+  "repository": "https://github.com/gemini-cli-extensions/alloydb-omni",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "alloydb",
+    "database",
+    "skills"
+  ],
+  "category": "database",
+  "tags": [
+    "database",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

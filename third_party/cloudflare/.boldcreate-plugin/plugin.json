@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "cloudflare",
+  "displayName": "Cloudflare",
+  "version": "1.0.0",
+  "description": "Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server.",
+  "author": {
+    "name": "Cloudflare"
+  },
+  "homepage": "https://github.com/cloudflare/skills",
+  "repository": "https://github.com/cloudflare/skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "hosting",
+  "keywords": [
+    "cloudflare",
+    "hosting",
+    "skills"
+  ],
+  "docs": "https://github.com/cloudflare/skills",
+  "upstream": {
+    "repository": "https://github.com/cloudflare/skills",
+    "path": "skills",
+    "commit": "b052c32bab7dd493513260228a36c88294f343f1",
+    "author": "Cloudflare",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "agents-sdk",
+      "cloudflare",
+      "cloudflare-email-service",
+      "cloudflare-one",
+      "cloudflare-one-migrations",
+      "durable-objects",
+      "nextjs-on-cloudflare",
+      "sandbox-migrate-to-next",
+      "sandbox-next",
+      "sandbox-stable",
+      "turnstile-spin",
+      "web-perf",
+      "workers-best-practices",
+      "wrangler"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

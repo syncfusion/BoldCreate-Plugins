@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "airwallex-dev",
+  "displayName": "Airwallex Dev",
+  "version": "0.1.3",
+  "description": "Airwallex integration skills for Claude.",
+  "author": {
+    "name": "Airwallex"
+  },
+  "homepage": "https://github.com/airwallex/airwallex-marketplace",
+  "repository": "https://github.com/airwallex/airwallex-marketplace",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "payments",
+  "keywords": [
+    "airwallex",
+    "payments",
+    "skills"
+  ],
+  "docs": "https://github.com/airwallex/airwallex-marketplace",
+  "upstream": {
+    "repository": "https://github.com/airwallex/airwallex-marketplace",
+    "path": "plugins/airwallex-dev",
+    "commit": "877551077786664d1cbeb32013443291c66e69e6",
+    "author": "Airwallex",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "airwallex-ai-provider-card-mit",
+      "airwallex-billing-checkout",
+      "airwallex-dropin",
+      "airwallex-hpp",
+      "airwallex-kyc",
+      "airwallex-split-card"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

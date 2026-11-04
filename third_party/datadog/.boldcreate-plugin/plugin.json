@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "datadog",
+  "displayName": "Datadog",
+  "version": "0.7.17",
+  "description": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server.",
+  "author": {
+    "name": "Datadog"
+  },
+  "homepage": "https://github.com/datadog-labs/claude-code-plugin",
+  "repository": "https://github.com/datadog-labs/claude-code-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "observability",
+  "keywords": [
+    "datadog",
+    "observability",
+    "skills"
+  ],
+  "docs": "https://github.com/datadog-labs/claude-code-plugin",
+  "upstream": {
+    "repository": "https://github.com/datadog-labs/claude-code-plugin",
+    "path": "skills",
+    "commit": "195f570c002beab3d7bd342739034d0019aa4863",
+    "author": "Datadog",
+    "license": "Apache-2.0",
+    "notice": true
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "datadog-app",
+      "ddconfig",
+      "ddsetup",
+      "ddtoolsets",
+      "ddviz"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

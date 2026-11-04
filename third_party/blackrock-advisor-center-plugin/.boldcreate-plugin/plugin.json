@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "blackrock-advisor-center-plugin",
+  "displayName": "BlackRock Advisor Center",
+  "version": "0.1.0",
+  "description": "BlackRock Advisor Center 360° skills for AC360 capability routing, guided benchmark selection, guided portfolio building, portfolio observations and opportunities, wealth projections, and portfolio",
+  "author": {
+    "name": "BlackRock Advisor Center"
+  },
+  "homepage": "https://github.com/blackrock/advisor-center-agent-skills",
+  "repository": "https://github.com/blackrock/advisor-center-agent-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "finance",
+  "keywords": [
+    "blackrock",
+    "finance",
+    "skills"
+  ],
+  "docs": "https://github.com/blackrock/advisor-center-agent-skills",
+  "upstream": {
+    "repository": "https://github.com/blackrock/advisor-center-agent-skills",
+    "path": "skills",
+    "commit": "591c758960c18c26fe8342ddb8ad3ba4dcfac6fe",
+    "author": "BlackRock Advisor Center",
+    "license": "Apache-2.0",
+    "notice": true
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "ac360-capability-router",
+      "guided-benchmark-selection",
+      "guided-portfolio-builder",
+      "portfolio-observations-and-opportunities",
+      "portfolio-review",
+      "wealth-projections"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

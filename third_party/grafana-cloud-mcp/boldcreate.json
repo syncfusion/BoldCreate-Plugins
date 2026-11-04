@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/grafana/ai-marketplace",
+  "upstream": {
+    "repository": "https://github.com/grafana/ai-marketplace",
+    "path": "plugins/grafana-cloud-mcp",
+    "commit": "6c28ba1961d502d82301cbd64d2322e6e960477c",
+    "author": "Grafana Labs",
+    "license": "Apache-2.0"
+  }
+}

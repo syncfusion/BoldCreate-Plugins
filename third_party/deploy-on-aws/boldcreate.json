@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/awslabs/agent-plugins",
+  "upstream": {
+    "repository": "https://github.com/awslabs/agent-plugins",
+    "path": "plugins/deploy-on-aws",
+    "commit": "fbefb3764e67558fe10ac834dd85db49734aa9b6",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  }
+}

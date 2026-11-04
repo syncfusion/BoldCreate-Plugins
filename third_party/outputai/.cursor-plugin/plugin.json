@@ -1,0 +1,25 @@
+{
+  "name": "outputai",
+  "displayName": "Output.ai",
+  "version": "0.3.0",
+  "description": "Workflow development tools",
+  "author": {
+    "name": "Output.ai"
+  },
+  "homepage": "https://github.com/growthxai/output",
+  "repository": "https://github.com/growthxai/output",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "outputai",
+    "developer-tools",
+    "skills"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

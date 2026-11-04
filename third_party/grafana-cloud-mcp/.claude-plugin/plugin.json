@@ -1,0 +1,18 @@
+{
+  "name": "grafana-cloud-mcp",
+  "displayName": "Grafana Cloud",
+  "version": "0.2.0",
+  "description": "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required.",
+  "author": {
+    "name": "Grafana Labs"
+  },
+  "homepage": "https://github.com/grafana/ai-marketplace",
+  "repository": "https://github.com/grafana/ai-marketplace",
+  "license": "Apache-2.0",
+  "keywords": [
+    "grafana",
+    "observability",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

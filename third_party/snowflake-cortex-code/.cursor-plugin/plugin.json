@@ -1,0 +1,24 @@
+{
+  "name": "snowflake-cortex-code",
+  "displayName": "Snowflake Cortex Code",
+  "version": "3.4.0",
+  "description": "Automatically route Snowflake prompts from Claude Code to Cortex Code for execution.",
+  "author": {
+    "name": "Snowflake"
+  },
+  "homepage": "https://github.com/Snowflake-Labs/snowflake-ai-kit",
+  "repository": "https://github.com/Snowflake-Labs/snowflake-ai-kit",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "snowflake",
+    "database",
+    "skills"
+  ],
+  "category": "database",
+  "tags": [
+    "database",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

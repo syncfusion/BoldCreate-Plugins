@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "auth0",
+  "displayName": "Auth0",
+  "version": "2.6.0",
+  "description": "A single unified Auth0 skill that detects your framework, feature, and tooling, then loads the right reference guides for adding authentication — login, MFA, Organizations, ACUL, custom domains,",
+  "author": {
+    "name": "Auth0"
+  },
+  "homepage": "https://github.com/auth0/agent-skills",
+  "repository": "https://github.com/auth0/agent-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "security",
+  "keywords": [
+    "auth0",
+    "security",
+    "skills"
+  ],
+  "docs": "https://github.com/auth0/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/auth0/agent-skills",
+    "path": "plugins/auth0",
+    "commit": "7b3821d533430eef35fd7406a87b7b8d02302bdf",
+    "author": "Auth0",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "auth0"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "grafana-mcp",
+  "displayName": "Grafana",
+  "version": "0.2.0",
+  "description": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
+  "author": {
+    "name": "Grafana Labs"
+  },
+  "homepage": "https://github.com/grafana/ai-marketplace",
+  "repository": "https://github.com/grafana/ai-marketplace",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "observability",
+  "keywords": [
+    "grafana",
+    "observability",
+    "skills"
+  ],
+  "docs": "https://github.com/grafana/ai-marketplace",
+  "upstream": {
+    "repository": "https://github.com/grafana/ai-marketplace",
+    "path": "plugins/grafana-mcp",
+    "commit": "6c28ba1961d502d82301cbd64d2322e6e960477c",
+    "author": "Grafana Labs",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "grafana-mcp-tools"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "deploy-on-aws",
+  "displayName": "Deploy on AWS",
+  "version": "1.4.0",
+  "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/awslabs/agent-plugins",
+  "repository": "https://github.com/awslabs/agent-plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "cloud",
+  "keywords": [
+    "deploy",
+    "cloud",
+    "skills"
+  ],
+  "docs": "https://github.com/awslabs/agent-plugins",
+  "upstream": {
+    "repository": "https://github.com/awslabs/agent-plugins",
+    "path": "plugins/deploy-on-aws",
+    "commit": "fbefb3764e67558fe10ac834dd85db49734aa9b6",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "aws-architecture-diagram",
+      "deploy",
+      "elastic-beanstalk"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

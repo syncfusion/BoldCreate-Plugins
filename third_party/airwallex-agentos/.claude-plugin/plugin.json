@@ -1,0 +1,18 @@
+{
+  "name": "airwallex-agentos",
+  "displayName": "Airwallex AgentOS",
+  "version": "0.2.8",
+  "description": "Bring Airwallex's global financial infrastructure to Claude.",
+  "author": {
+    "name": "Airwallex"
+  },
+  "homepage": "https://github.com/airwallex/airwallex-marketplace",
+  "repository": "https://github.com/airwallex/airwallex-marketplace",
+  "license": "Apache-2.0",
+  "keywords": [
+    "airwallex",
+    "payments",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

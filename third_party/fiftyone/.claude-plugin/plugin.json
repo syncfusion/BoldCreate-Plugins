@@ -1,0 +1,18 @@
+{
+  "name": "fiftyone",
+  "displayName": "FiftyOne",
+  "version": "1.0.3",
+  "description": "Build high-quality datasets and computer vision models.",
+  "author": {
+    "name": "Voxel51"
+  },
+  "homepage": "https://github.com/voxel51/fiftyone-skills",
+  "repository": "https://github.com/voxel51/fiftyone-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "fiftyone",
+    "ai",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

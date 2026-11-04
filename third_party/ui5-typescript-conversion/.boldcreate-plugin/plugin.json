@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "ui5-typescript-conversion",
+  "displayName": "UI5 TypeScript Conversion",
+  "version": "0.1.8",
+  "description": "SAPUI5 / OpenUI5 plugin for coding agents.",
+  "author": {
+    "name": "SAP SE"
+  },
+  "homepage": "https://github.com/UI5/plugins-coding-agents",
+  "repository": "https://github.com/UI5/plugins-coding-agents",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "ui5",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/UI5/plugins-coding-agents",
+  "upstream": {
+    "repository": "https://github.com/UI5/plugins-coding-agents",
+    "path": "plugins/ui5-typescript-conversion",
+    "commit": "2b8c4a944e39609214bce7aef3b05260985f0e91",
+    "author": "SAP SE",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "ui5-typescript-conversion"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

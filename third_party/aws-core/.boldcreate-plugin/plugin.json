@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "aws-core",
+  "displayName": "AWS Core",
+  "version": "1.1.0",
+  "description": "Build, deploy, and operate applications on AWS.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+  "repository": "https://github.com/aws/agent-toolkit-for-aws",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "cloud",
+  "keywords": [
+    "aws",
+    "cloud",
+    "skills"
+  ],
+  "docs": "https://github.com/aws/agent-toolkit-for-aws",
+  "upstream": {
+    "repository": "https://github.com/aws/agent-toolkit-for-aws",
+    "path": "plugins/aws-core",
+    "commit": "34b3eccfd8b619ea0cb4ba04a9be9dfefebd94e7",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "amazon-bedrock",
+      "aws-ai-ml",
+      "aws-auth",
+      "aws-billing-and-cost-management",
+      "aws-blocks",
+      "aws-cdk",
+      "aws-cloudformation",
+      "aws-compute",
+      "aws-containers",
+      "aws-database",
+      "aws-deployment",
+      "aws-iam",
+      "aws-messaging-and-streaming",
+      "aws-networking",
+      "aws-observability",
+      "aws-sdk-js-v3-usage",
+      "aws-sdk-python-usage",
+      "aws-sdk-swift-usage",
+      "aws-secrets-manager",
+      "aws-security",
+      "aws-serverless",
+      "aws-storage",
+      "aws-well-architected-review",
+      "launch-with-aws",
+      "signing-in-to-aws"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

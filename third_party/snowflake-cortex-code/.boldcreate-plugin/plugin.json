@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "snowflake-cortex-code",
+  "displayName": "Snowflake Cortex Code",
+  "version": "3.4.0",
+  "description": "Automatically route Snowflake prompts from Claude Code to Cortex Code for execution.",
+  "author": {
+    "name": "Snowflake"
+  },
+  "homepage": "https://github.com/Snowflake-Labs/snowflake-ai-kit",
+  "repository": "https://github.com/Snowflake-Labs/snowflake-ai-kit",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "snowflake",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/Snowflake-Labs/snowflake-ai-kit",
+  "upstream": {
+    "repository": "https://github.com/Snowflake-Labs/snowflake-ai-kit",
+    "path": "plugins/cortex-code",
+    "commit": "e2a3cbb45a9a62b5648266c5777c1b2edb3f8579",
+    "author": "Snowflake",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "cortex-router",
+      "cortex-run",
+      "cortex-setup"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

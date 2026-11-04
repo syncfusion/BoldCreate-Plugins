@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "aws-data-analytics",
+  "displayName": "AWS Data Analytics",
+  "version": "1.3.0",
+  "description": "Data lake, analytics, search, ETL, and orchestration workflows with S3 Tables, AWS Glue, Athena, Amazon Redshift, Amazon OpenSearch Service, and Amazon MWAA.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+  "repository": "https://github.com/aws/agent-toolkit-for-aws",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "cloud",
+  "keywords": [
+    "aws",
+    "cloud",
+    "skills"
+  ],
+  "docs": "https://github.com/aws/agent-toolkit-for-aws",
+  "upstream": {
+    "repository": "https://github.com/aws/agent-toolkit-for-aws",
+    "path": "plugins/aws-data-analytics",
+    "commit": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "amazon-opensearch-service",
+      "authoring-mwaa-workflow",
+      "connecting-to-data-source",
+      "creating-data-lake-table",
+      "debugging-mwaa-workflow",
+      "exploring-data-catalog",
+      "finding-data-lake-assets",
+      "ingesting-into-data-lake",
+      "querying-data-lake",
+      "redshift-guide",
+      "storing-and-querying-vectors",
+      "testing-mwaa-workflow",
+      "upgrading-mwaa-environments"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

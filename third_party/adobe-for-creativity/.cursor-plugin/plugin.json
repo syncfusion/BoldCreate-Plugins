@@ -1,0 +1,24 @@
+{
+  "name": "adobe-for-creativity",
+  "displayName": "Adobe for Creativity",
+  "version": "3.2.0",
+  "description": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video.",
+  "author": {
+    "name": "Adobe"
+  },
+  "homepage": "https://github.com/adobe/skills",
+  "repository": "https://github.com/adobe/skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "adobe",
+    "design",
+    "skills"
+  ],
+  "category": "design",
+  "tags": [
+    "design",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

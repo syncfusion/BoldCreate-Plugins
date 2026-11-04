@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "fiftyone",
+  "displayName": "FiftyOne",
+  "version": "1.0.3",
+  "description": "Build high-quality datasets and computer vision models.",
+  "author": {
+    "name": "Voxel51"
+  },
+  "homepage": "https://github.com/voxel51/fiftyone-skills",
+  "repository": "https://github.com/voxel51/fiftyone-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "ai",
+  "keywords": [
+    "fiftyone",
+    "ai",
+    "skills"
+  ],
+  "docs": "https://github.com/voxel51/fiftyone-skills",
+  "upstream": {
+    "repository": "https://github.com/voxel51/fiftyone-skills",
+    "path": "skills",
+    "commit": "8b87befcce6cfb86e73b4ccc1f692a0a2b6a4218",
+    "author": "Voxel51",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "fiftyone-app-playwright",
+      "fiftyone-code-style",
+      "fiftyone-create-notebook",
+      "fiftyone-dataset-curation",
+      "fiftyone-dataset-export",
+      "fiftyone-dataset-import",
+      "fiftyone-dataset-inference",
+      "fiftyone-develop-plugin",
+      "fiftyone-embeddings-visualization",
+      "fiftyone-eval-plugin",
+      "fiftyone-find-duplicates",
+      "fiftyone-generate-data-lens-connector",
+      "fiftyone-issue-triage",
+      "fiftyone-model-evaluation",
+      "fiftyone-sdk-guidance",
+      "fiftyone-troubleshoot",
+      "fiftyone-voodo-design",
+      "fiftyone-zoo-remote-model"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

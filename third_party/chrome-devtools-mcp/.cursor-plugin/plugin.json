@@ -1,0 +1,24 @@
+{
+  "name": "chrome-devtools-mcp",
+  "displayName": "Chrome DevTools",
+  "version": "1.11.0",
+  "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer",
+  "author": {
+    "name": "Chrome DevTools"
+  },
+  "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "chrome",
+    "developer-tools",
+    "skills"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "preset-cli-skills",
+  "displayName": "Preset CLI",
+  "version": "0.5.0",
+  "description": "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`).",
+  "author": {
+    "name": "Preset"
+  },
+  "homepage": "https://github.com/preset-io/agent-skills",
+  "repository": "https://github.com/preset-io/agent-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "analytics",
+  "keywords": [
+    "preset",
+    "analytics",
+    "skills"
+  ],
+  "docs": "https://github.com/preset-io/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/preset-io/agent-skills",
+    "path": "plugins/preset-cli-skills",
+    "commit": "838f0a408dc1a50adc94175b387550c81371554e",
+    "author": "Preset",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "preset-cli",
+      "preset-cli-mutations"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

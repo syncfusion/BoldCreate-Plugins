@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "chrome-devtools-mcp",
+  "displayName": "Chrome DevTools",
+  "version": "1.11.0",
+  "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer",
+  "author": {
+    "name": "Chrome DevTools"
+  },
+  "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "chrome",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "upstream": {
+    "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "path": "skills",
+    "commit": "a878bcad39584337e055778353246820deafa7c0",
+    "author": "Chrome DevTools",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "a11y-debugging",
+      "chrome-devtools",
+      "chrome-devtools-cli",
+      "cookie-debugging",
+      "debug-optimize-lcp",
+      "memory-leak-debugging",
+      "troubleshooting"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

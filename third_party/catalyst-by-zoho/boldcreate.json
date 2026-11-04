@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/catalystbyzoho/claude-plugin",
+  "upstream": {
+    "repository": "https://github.com/catalystbyzoho/claude-plugin",
+    "path": "skills",
+    "commit": "9670b79d72fe4923cc845ca0414d009ef3684ccb",
+    "author": "Catalyst by Zoho",
+    "license": "Apache-2.0"
+  }
+}

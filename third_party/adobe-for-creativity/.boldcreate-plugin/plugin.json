@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "adobe-for-creativity",
+  "displayName": "Adobe for Creativity",
+  "version": "3.2.0",
+  "description": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video.",
+  "author": {
+    "name": "Adobe"
+  },
+  "homepage": "https://github.com/adobe/skills",
+  "repository": "https://github.com/adobe/skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "design",
+  "keywords": [
+    "adobe",
+    "design",
+    "skills"
+  ],
+  "docs": "https://github.com/adobe/skills",
+  "upstream": {
+    "repository": "https://github.com/adobe/skills",
+    "path": "plugins/creative-cloud/adobe-for-creativity",
+    "commit": "0f487c9b1b98d8e62dfc80ee4d28b29f5471261f",
+    "author": "Adobe",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "adobe",
+      "adobe-anydocx",
+      "adobe-anyexcel",
+      "adobe-anypdf",
+      "adobe-anypptx",
+      "adobe-batch-edit-photos",
+      "adobe-create-pdfs-from-data",
+      "adobe-create-social-variations",
+      "adobe-design-from-template",
+      "adobe-design-to-pdf",
+      "adobe-document-review",
+      "adobe-edit-quick-cut",
+      "adobe-fonts",
+      "adobe-resize-photos-and-videos",
+      "adobe-retouch-portraits"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

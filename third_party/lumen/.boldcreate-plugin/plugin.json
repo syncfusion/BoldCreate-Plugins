@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "lumen",
+  "displayName": "Lumen",
+  "version": "0.0.42",
+  "description": "Precise local semantic code search via MCP.",
+  "author": {
+    "name": "Ory Corp"
+  },
+  "homepage": "https://github.com/ory/lumen",
+  "repository": "https://github.com/ory/lumen",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "lumen",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/ory/lumen",
+  "upstream": {
+    "repository": "https://github.com/ory/lumen",
+    "path": "skills",
+    "commit": "f60f9ecee41723b42f3758e9a9409141881ac7d5",
+    "author": "Ory Corp",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "doctor",
+      "reindex"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

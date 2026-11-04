@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "dynatrace",
+  "displayName": "Dynatrace",
+  "version": "8.0.1",
+  "description": "Connect Claude Code to your Dynatrace environment and investigate production issues, review deployments, and check for vulnerabilities using real data pulled directly into your session: root cause",
+  "author": {
+    "name": "Dynatrace"
+  },
+  "homepage": "https://github.com/Dynatrace/dynatrace-for-ai",
+  "repository": "https://github.com/Dynatrace/dynatrace-for-ai",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "observability",
+  "keywords": [
+    "dynatrace",
+    "observability",
+    "skills"
+  ],
+  "docs": "https://github.com/Dynatrace/dynatrace-for-ai",
+  "upstream": {
+    "repository": "https://github.com/Dynatrace/dynatrace-for-ai",
+    "path": "skills",
+    "commit": "4f9aa71f9802aa6db0a4069ae5619eb3392ff411",
+    "author": "Dynatrace",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "dt-alerting",
+      "dt-app-dashboards",
+      "dt-app-notebooks",
+      "dt-dql-essentials",
+      "dt-js-runtime",
+      "dt-migration",
+      "dt-obs-analytics",
+      "dt-obs-aws",
+      "dt-obs-azure",
+      "dt-obs-compliance-assistant",
+      "dt-obs-ext-monitors",
+      "dt-obs-frontends",
+      "dt-obs-gcp",
+      "dt-obs-genai",
+      "dt-obs-hosts",
+      "dt-obs-kubernetes",
+      "dt-obs-log-semantic-mapping",
+      "dt-obs-logs",
+      "dt-obs-network-devices",
+      "dt-obs-network-flows",
+      "dt-obs-predictive-analytics",
+      "dt-obs-problems",
+      "dt-obs-services",
+      "dt-obs-tracing",
+      "dt-platform-costs",
+      "dt-sec-contextualization",
+      "dt-sec-insights",
+      "dt-sec-ioc-hunting",
+      "dt-sec-semantic-mapping",
+      "dt-setup-android",
+      "dt-setup-flutter",
+      "dt-setup-ios",
+      "dt-setup-oneagent",
+      "dt-setup-react-native"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

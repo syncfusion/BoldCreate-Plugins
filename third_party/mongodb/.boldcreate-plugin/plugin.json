@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mongodb",
+  "displayName": "MongoDB",
+  "version": "1.2.1",
+  "description": "Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string.",
+  "author": {
+    "name": "MongoDB"
+  },
+  "homepage": "https://github.com/mongodb/agent-skills",
+  "repository": "https://github.com/mongodb/agent-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "mongodb",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/mongodb/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/mongodb/agent-skills",
+    "path": "plugins/mongodb",
+    "commit": "c370a63b27075008a92134686b24af3817edeb00",
+    "author": "MongoDB",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "mongodb-atlas-stream-processing",
+      "mongodb-connection",
+      "mongodb-mcp-setup",
+      "mongodb-natural-language-querying",
+      "mongodb-qe-size-estimation",
+      "mongodb-query-optimizer",
+      "mongodb-schema-design",
+      "mongodb-search-and-ai"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

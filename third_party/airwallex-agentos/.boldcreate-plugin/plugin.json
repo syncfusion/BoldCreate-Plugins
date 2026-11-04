@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "airwallex-agentos",
+  "displayName": "Airwallex AgentOS",
+  "version": "0.2.8",
+  "description": "Bring Airwallex's global financial infrastructure to Claude.",
+  "author": {
+    "name": "Airwallex"
+  },
+  "homepage": "https://github.com/airwallex/airwallex-marketplace",
+  "repository": "https://github.com/airwallex/airwallex-marketplace",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "payments",
+  "keywords": [
+    "airwallex",
+    "payments",
+    "skills"
+  ],
+  "docs": "https://github.com/airwallex/airwallex-marketplace",
+  "upstream": {
+    "repository": "https://github.com/airwallex/airwallex-marketplace",
+    "path": "plugins/airwallex-agentos",
+    "commit": "877551077786664d1cbeb32013443291c66e69e6",
+    "author": "Airwallex",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "awx-best-practices",
+      "beneficiary-creation",
+      "card-provisioning",
+      "contract-to-billing",
+      "manage-cashflow"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

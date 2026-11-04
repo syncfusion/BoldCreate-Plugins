@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "carta-crm",
+  "displayName": "Carta CRM",
+  "version": "1.15.0",
+  "description": "Manage the Carta CRM conversationally — search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings via the Carta CRM MCP Server",
+  "author": {
+    "name": "Carta"
+  },
+  "homepage": "https://github.com/carta/plugins",
+  "repository": "https://github.com/carta/plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "finance",
+  "keywords": [
+    "carta",
+    "finance",
+    "skills"
+  ],
+  "docs": "https://github.com/carta/plugins",
+  "upstream": {
+    "repository": "https://github.com/carta/plugins",
+    "path": "plugins/carta-crm",
+    "commit": "ea7fe1d4db0f0f273799ec4b40070c3c6b00fdcc",
+    "author": "Carta",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "add-company",
+      "add-contact",
+      "add-deal",
+      "add-fundraising",
+      "add-investor",
+      "add-note",
+      "carta-crm-home-build",
+      "deal-flow-analytics",
+      "enrich-company",
+      "get-angles",
+      "home",
+      "prepare-for-meeting",
+      "search-companies",
+      "search-contacts",
+      "search-deals",
+      "search-fundraisings",
+      "search-investors",
+      "search-notes",
+      "search-reports",
+      "tutorial",
+      "update-company",
+      "update-contact",
+      "update-deal",
+      "update-fundraising",
+      "update-investor",
+      "update-note"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

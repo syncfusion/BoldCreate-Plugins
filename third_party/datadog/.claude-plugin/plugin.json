@@ -1,0 +1,18 @@
+{
+  "name": "datadog",
+  "displayName": "Datadog",
+  "version": "0.7.17",
+  "description": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server.",
+  "author": {
+    "name": "Datadog"
+  },
+  "homepage": "https://github.com/datadog-labs/claude-code-plugin",
+  "repository": "https://github.com/datadog-labs/claude-code-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "datadog",
+    "observability",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

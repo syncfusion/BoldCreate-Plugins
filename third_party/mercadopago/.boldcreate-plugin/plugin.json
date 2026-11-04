@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mercadopago",
+  "displayName": "Mercado Pago",
+  "version": "4.3.2",
+  "description": "Mercado Pago integration toolkit for Claude Code.",
+  "author": {
+    "name": "Mercado Pago Developer Experience"
+  },
+  "homepage": "https://github.com/mercadopago/mercadopago-claude-marketplace",
+  "repository": "https://github.com/mercadopago/mercadopago-claude-marketplace",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "payments",
+  "keywords": [
+    "mercadopago",
+    "payments",
+    "skills"
+  ],
+  "docs": "https://github.com/mercadopago/mercadopago-claude-marketplace",
+  "upstream": {
+    "repository": "https://github.com/mercadopago/mercadopago-claude-marketplace",
+    "path": "plugins/mercadopago",
+    "commit": "755d33740af23351b4ca7043c51077ce67ebf4d1",
+    "author": "Mercado Pago Developer Experience",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "mp-integrate",
+      "mp-review",
+      "mp-test-setup",
+      "mp-webhooks"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "mp-integration-expert"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

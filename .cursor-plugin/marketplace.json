@@ -13,9 +13,34 @@
       "source": "third_party/activecampaign"
     },
     {
+      "name": "adobe-for-creativity",
+      "description": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video.",
+      "source": "third_party/adobe-for-creativity"
+    },
+    {
       "name": "ai-plugins",
       "description": "Endor Labs agent setup and workflow agents for findings, remediation and dependency review.",
       "source": "third_party/ai-plugins"
+    },
+    {
+      "name": "airwallex-agentos",
+      "description": "Bring Airwallex's global financial infrastructure to Claude.",
+      "source": "third_party/airwallex-agentos"
+    },
+    {
+      "name": "airwallex-dev",
+      "description": "Airwallex integration skills for Claude.",
+      "source": "third_party/airwallex-dev"
+    },
+    {
+      "name": "alloydb-omni",
+      "description": "Create, connect, and interact with an AlloyDB Omni database and data.",
+      "source": "third_party/alloydb-omni"
+    },
+    {
+      "name": "amazon-location-service",
+      "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
+      "source": "third_party/amazon-location-service"
     },
     {
       "name": "amd-skills",
@@ -43,9 +68,19 @@
       "source": "third_party/apollo-skills"
     },
     {
+      "name": "astronomer-data-agents",
+      "description": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
+      "source": "third_party/astronomer-data-agents"
+    },
+    {
       "name": "atlassian",
       "description": "Search and update Jira issues and Confluence pages.",
       "source": "third_party/atlassian"
+    },
+    {
+      "name": "atlassian-twg-cli",
+      "description": "Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources.",
+      "source": "third_party/atlassian-twg-cli"
     },
     {
       "name": "atomic-agents",
@@ -53,9 +88,44 @@
       "source": "third_party/atomic-agents"
     },
     {
+      "name": "auth0",
+      "description": "A single unified Auth0 skill that detects your framework, feature, and tooling, then loads the right reference guides for adding authentication — login, MFA, Organizations, ACUL, custom domains,",
+      "source": "third_party/auth0"
+    },
+    {
+      "name": "aws-agents",
+      "description": "Build, deploy, and operate AI agents on AWS.",
+      "source": "third_party/aws-agents"
+    },
+    {
+      "name": "aws-amplify",
+      "description": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions.",
+      "source": "third_party/aws-amplify"
+    },
+    {
+      "name": "aws-core",
+      "description": "Build, deploy, and operate applications on AWS.",
+      "source": "third_party/aws-core"
+    },
+    {
+      "name": "aws-data-analytics",
+      "description": "Data lake, analytics, search, ETL, and orchestration workflows with S3 Tables, AWS Glue, Athena, Amazon Redshift, Amazon OpenSearch Service, and Amazon MWAA.",
+      "source": "third_party/aws-data-analytics"
+    },
+    {
       "name": "aws-knowledge",
       "description": "Search AWS documentation, API references, and regional availability.",
       "source": "third_party/aws-knowledge"
+    },
+    {
+      "name": "aws-serverless",
+      "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+      "source": "third_party/aws-serverless"
+    },
+    {
+      "name": "aws-transform",
+      "description": "Migrate, modernize, and upgrade codebases to AWS.",
+      "source": "third_party/aws-transform"
     },
     {
       "name": "azure",
@@ -71,6 +141,16 @@
       "name": "azure-sql-developer",
       "description": "Agent skills for the Azure SQL Database container, the Azure SQL Database engine running locally.",
       "source": "third_party/azure-sql-developer"
+    },
+    {
+      "name": "bigquery-data-analytics",
+      "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
+      "source": "third_party/bigquery-data-analytics"
+    },
+    {
+      "name": "blackrock-advisor-center-plugin",
+      "description": "BlackRock Advisor Center 360° skills for AC360 capability routing, guided benchmark selection, guided portfolio building, portfolio observations and opportunities, wealth projections, and portfolio",
+      "source": "third_party/blackrock-advisor-center-plugin"
     },
     {
       "name": "boldcreate-toolkit",
@@ -93,9 +173,39 @@
       "source": "third_party/buildkite"
     },
     {
+      "name": "carta-crm",
+      "description": "Manage the Carta CRM conversationally — search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings via the Carta CRM MCP Server",
+      "source": "third_party/carta-crm"
+    },
+    {
+      "name": "catalyst-by-zoho",
+      "description": "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform.",
+      "source": "third_party/catalyst-by-zoho"
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer",
+      "source": "third_party/chrome-devtools-mcp"
+    },
+    {
+      "name": "chronograph-gp",
+      "description": "Portfolio monitoring, valuations, and analytics for private capital GP teams.",
+      "source": "third_party/chronograph-gp"
+    },
+    {
+      "name": "chronograph-lp",
+      "description": "Portfolio monitoring and analytics for private capital LP teams.",
+      "source": "third_party/chronograph-lp"
+    },
+    {
       "name": "ckeditor",
       "description": "Install, configure, and integrate CKEditor 5 in JavaScript projects.",
       "source": "third_party/ckeditor"
+    },
+    {
+      "name": "cloudflare",
+      "description": "Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server.",
+      "source": "third_party/cloudflare"
     },
     {
       "name": "context7",
@@ -113,14 +223,34 @@
       "source": "third_party/crowdstrike-falcon-foundry"
     },
     {
+      "name": "databases-on-aws",
+      "description": "Expert database guidance for the AWS database portfolio.",
+      "source": "third_party/databases-on-aws"
+    },
+    {
+      "name": "datadog",
+      "description": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server.",
+      "source": "third_party/datadog"
+    },
+    {
       "name": "dataverse",
       "description": "Microsoft Dataverse plugin for coding agents, covering record CRUD, bulk data operations, advanced queries, schema and metadata, administration, security, environment management, and solution",
       "source": "third_party/dataverse"
     },
     {
+      "name": "deepeval",
+      "description": "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications.",
+      "source": "third_party/deepeval"
+    },
+    {
       "name": "deepwiki",
       "description": "Ask questions about any public GitHub repository and read its generated wiki.",
       "source": "third_party/deepwiki"
+    },
+    {
+      "name": "deploy-on-aws",
+      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
+      "source": "third_party/deploy-on-aws"
     },
     {
       "name": "desktop-commander",
@@ -138,6 +268,11 @@
       "source": "third_party/duende-skills"
     },
     {
+      "name": "dynatrace",
+      "description": "Connect Claude Code to your Dynatrace environment and investigate production issues, review deployments, and check for vulnerabilities using real data pulled directly into your session: root cause",
+      "source": "third_party/dynatrace"
+    },
+    {
       "name": "exa",
       "description": "Search the web and fetch page content with Exa.",
       "source": "third_party/exa"
@@ -151,6 +286,11 @@
       "name": "fastly-agent-toolkit",
       "description": "Work with the Fastly CLI, Compute, Fiddle, NGWAF, VCL tooling and reference architectures.",
       "source": "third_party/fastly-agent-toolkit"
+    },
+    {
+      "name": "fiftyone",
+      "description": "Build high-quality datasets and computer vision models.",
+      "source": "third_party/fiftyone"
     },
     {
       "name": "figma",
@@ -318,6 +458,21 @@
       "source": "third_party/govtribe"
     },
     {
+      "name": "grafana-assistant",
+      "description": "Skills and rules for developing and using the Grafana Assistant app and CLI.",
+      "source": "third_party/grafana-assistant"
+    },
+    {
+      "name": "grafana-cloud-mcp",
+      "description": "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required.",
+      "source": "third_party/grafana-cloud-mcp"
+    },
+    {
+      "name": "grafana-mcp",
+      "description": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
+      "source": "third_party/grafana-mcp"
+    },
+    {
       "name": "growthbook",
       "description": "Manage GrowthBook feature flags, experiments, and product analytics.",
       "source": "third_party/growthbook"
@@ -341,6 +496,11 @@
       "name": "incident-io",
       "description": "Look up and manage incidents in incident.io.",
       "source": "third_party/incident-io"
+    },
+    {
+      "name": "informatica-for-claude-platform",
+      "description": "Informatica plugin for Claude Platform (Claude Code & Claude CoWork) — governed catalog discovery, data Q&A, powered by Informatica's Data catalog and Governance to understand and evaluate enterprise",
+      "source": "third_party/informatica-for-claude-platform"
     },
     {
       "name": "intercom",
@@ -368,6 +528,11 @@
       "source": "third_party/logfire"
     },
     {
+      "name": "lumen",
+      "description": "Precise local semantic code search via MCP.",
+      "source": "third_party/lumen"
+    },
+    {
       "name": "lusha",
       "description": "Connect Lusha to Claude to pull verified B2B data, contact data, and company data — including verified emails, direct dials, mobile numbers, and real-time buying signals — straight into your conversation.",
       "source": "third_party/lusha"
@@ -376,6 +541,11 @@
       "name": "mapbox",
       "description": "Build location-aware apps with Mapbox: maps, search, navigation, styles and geospatial tools.",
       "source": "third_party/mapbox"
+    },
+    {
+      "name": "mercadopago",
+      "description": "Mercado Pago integration toolkit for Claude Code.",
+      "source": "third_party/mercadopago"
     },
     {
       "name": "microsoft-learn",
@@ -391,6 +561,11 @@
       "name": "monday",
       "description": "Manage monday.com boards, items, and workspaces.",
       "source": "third_party/monday"
+    },
+    {
+      "name": "mongodb",
+      "description": "Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string.",
+      "source": "third_party/mongodb"
     },
     {
       "name": "neon",
@@ -411,6 +586,11 @@
       "name": "notion",
       "description": "Search, read, and update Notion pages and databases.",
       "source": "third_party/notion"
+    },
+    {
+      "name": "outputai",
+      "description": "Workflow development tools",
+      "source": "third_party/outputai"
     },
     {
       "name": "pagerduty",
@@ -436,6 +616,16 @@
       "name": "posthog",
       "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
       "source": "third_party/posthog"
+    },
+    {
+      "name": "postman",
+      "description": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman",
+      "source": "third_party/postman"
+    },
+    {
+      "name": "preset-cli-skills",
+      "description": "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`).",
+      "source": "third_party/preset-cli-skills"
     },
     {
       "name": "pydantic-ai",
@@ -478,9 +668,19 @@
       "source": "third_party/runway-api"
     },
     {
+      "name": "sagemaker-ai",
+      "description": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI.",
+      "source": "third_party/sagemaker-ai"
+    },
+    {
       "name": "sanity",
       "description": "Model content, write GROQ and Portable Text, and upgrade Sanity Studio.",
       "source": "third_party/sanity"
+    },
+    {
+      "name": "save-to-spotify",
+      "description": "Create polished audio episodes with TTS narration, rich timelines, cover images, and save them to Spotify via the save-to-spotify CLI.",
+      "source": "third_party/save-to-spotify"
     },
     {
       "name": "sentry",
@@ -501,6 +701,11 @@
       "name": "slack",
       "description": "Search Slack messages, read channels and threads, and find context from your workspace.",
       "source": "third_party/slack"
+    },
+    {
+      "name": "snowflake-cortex-code",
+      "description": "Automatically route Snowflake prompts from Claude Code to Cortex Code for execution.",
+      "source": "third_party/snowflake-cortex-code"
     },
     {
       "name": "stackhawk-api",
@@ -633,9 +838,29 @@
       "source": "third_party/tavily"
     },
     {
+      "name": "teamcity-cli",
+      "description": "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI.",
+      "source": "third_party/teamcity-cli"
+    },
+    {
       "name": "togetherai-skills",
       "description": "Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters.",
       "source": "third_party/togetherai-skills"
+    },
+    {
+      "name": "ui-theme-designer",
+      "description": "Plugin for coding agents working with UI theme designer.",
+      "source": "third_party/ui-theme-designer"
+    },
+    {
+      "name": "ui5-modernization",
+      "description": "Complete UI5 modernization toolkit with workflow and specialized fix patterns for modernizing SAPUI5/OpenUI5 applications",
+      "source": "third_party/ui5-modernization"
+    },
+    {
+      "name": "ui5-typescript-conversion",
+      "description": "SAPUI5 / OpenUI5 plugin for coding agents.",
+      "source": "third_party/ui5-typescript-conversion"
     },
     {
       "name": "valtown",

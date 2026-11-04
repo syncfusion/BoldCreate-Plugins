@@ -1,0 +1,60 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "postman",
+  "displayName": "Postman",
+  "version": "2.0.1",
+  "description": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman",
+  "author": {
+    "name": "Postman"
+  },
+  "homepage": "https://github.com/postmanlabs/postman-plugin",
+  "repository": "https://github.com/postmanlabs/postman-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "postman",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/postmanlabs/postman-plugin",
+  "upstream": {
+    "repository": "https://github.com/postmanlabs/postman-plugin",
+    "path": "skills",
+    "commit": "c6352ef5605cd46d3f817e15c601eeb9a56c08f7",
+    "author": "Postman",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "ai-readiness",
+      "api-discovery",
+      "api-documentation",
+      "api-engineer",
+      "api-mocking",
+      "api-monitoring",
+      "api-simulation",
+      "api-testing",
+      "bootstrap",
+      "ci-integration",
+      "collection-schema-v3",
+      "datasets",
+      "flows",
+      "performance-testing",
+      "postman-mcp-server",
+      "variables",
+      "webhook-testing"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

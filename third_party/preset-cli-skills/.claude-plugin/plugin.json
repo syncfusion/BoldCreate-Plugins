@@ -1,0 +1,18 @@
+{
+  "name": "preset-cli-skills",
+  "displayName": "Preset CLI",
+  "version": "0.5.0",
+  "description": "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`).",
+  "author": {
+    "name": "Preset"
+  },
+  "homepage": "https://github.com/preset-io/agent-skills",
+  "repository": "https://github.com/preset-io/agent-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "preset",
+    "analytics",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}
