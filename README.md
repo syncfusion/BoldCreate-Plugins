@@ -5,6 +5,7 @@ Syncfusion's BoldCreate plugins for BoldCreate Connect, Cursor and Claude Code. 
 - **Syncfusion plugins** at the repository root, made of skills, agents and rules. `boldcreate-toolkit/` gives agents one software delivery lifecycle on any stack.
 - **Syncfusion skill packs** under `syncfusion/`, one plugin per platform. Each is copied from Syncfusion's skill repository for that platform and teaches agents to build with Syncfusion components.
 - **MCP plugins** under `third_party/`. Each connects agents to a vendor's remote [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
+- **Community skill plugins** under `third_party/`. Each is a vendor's skills, copied as published, with the source commit recorded in `boldcreate.json`.
 
 ## Install
 
@@ -111,6 +112,15 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `vercel` | [Vercel](third_party/vercel/) | Hosting | Inspect Vercel projects, deployments, and build logs, and search Vercel docs. |
 | `zapier` | [Zapier](third_party/zapier/) | Productivity | Run Zapier actions across the apps connected to your Zapier account. |
 | `zoominfo` | [ZoomInfo](third_party/zoominfo/) | Productivity | Search ZoomInfo companies and contacts. |
+
+## Community skill plugins
+
+Skills copied from a vendor's own repository at a pinned commit. The vendor's files are unchanged, and `boldcreate.json` records the repository, commit and licence.
+
+| `name` | Plugin | Skills | Source |
+|:-------|:-------|-------:|:-------|
+| `crowdsec` | [CrowdSec](third_party/crowdsec/) | 2 | [crowdsecurity/crowdsec-skill](https://github.com/crowdsecurity/crowdsec-skill) |
+| `growthbook` | [GrowthBook](third_party/growthbook/) | 4 | [growthbook/skills](https://github.com/growthbook/skills) |
 
 ## Repository structure
 

@@ -176,6 +176,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "crowdsec",
+      "displayName": "CrowdSec",
+      "version": "0.3.0",
+      "description": "Install, configure, operate, and debug CrowdSec, and use the CrowdSec Console Service API.",
+      "source": "third_party/crowdsec",
+      "logo": "third_party/crowdsec/assets/logo.svg",
+      "category": "security",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "deepwiki",
       "displayName": "DeepWiki",
       "version": "0.7.0",
@@ -990,6 +1009,25 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "growthbook",
+      "displayName": "GrowthBook",
+      "version": "2.0.0",
+      "description": "Manage GrowthBook feature flags, experiments, and product analytics.",
+      "source": "third_party/growthbook",
+      "logo": "third_party/growthbook/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "hunter",

@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "growthbook",
+  "displayName": "GrowthBook",
+  "version": "2.0.0",
+  "description": "Manage GrowthBook feature flags, experiments, and product analytics.",
+  "author": {
+    "name": "GrowthBook"
+  },
+  "homepage": "https://github.com/growthbook/skills",
+  "repository": "https://github.com/growthbook/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "analytics",
+  "keywords": [
+    "growthbook",
+    "feature-flags",
+    "experimentation",
+    "ab-testing",
+    "analytics"
+  ],
+  "docs": "https://github.com/growthbook/skills",
+  "upstream": {
+    "repository": "https://github.com/growthbook/skills",
+    "path": "skills",
+    "commit": "7a84f338fe217b20641cdc5c01b5b37f0b950527",
+    "author": "GrowthBook",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "analytics",
+      "experiments",
+      "feature-flags",
+      "gb-setup"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

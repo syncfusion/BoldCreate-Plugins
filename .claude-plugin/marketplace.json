@@ -43,6 +43,11 @@
       "description": "Pull up-to-date, version-specific library docs and code examples into the prompt."
     },
     {
+      "name": "crowdsec",
+      "source": "./third_party/crowdsec",
+      "description": "Install, configure, operate, and debug CrowdSec, and use the CrowdSec Console Service API."
+    },
+    {
       "name": "deepwiki",
       "source": "./third_party/deepwiki",
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
@@ -211,6 +216,11 @@
       "name": "govtribe",
       "source": "./third_party/govtribe",
       "description": "Search US government contract opportunities and awards in GovTribe."
+    },
+    {
+      "name": "growthbook",
+      "source": "./third_party/growthbook",
+      "description": "Manage GrowthBook feature flags, experiments, and product analytics."
     },
     {
       "name": "hunter",

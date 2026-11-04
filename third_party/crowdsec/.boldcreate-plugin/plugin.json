@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "crowdsec",
+  "displayName": "CrowdSec",
+  "version": "0.3.0",
+  "description": "Install, configure, operate, and debug CrowdSec, and use the CrowdSec Console Service API.",
+  "author": {
+    "name": "CrowdSec"
+  },
+  "homepage": "https://github.com/crowdsecurity/crowdsec-skill",
+  "repository": "https://github.com/crowdsecurity/crowdsec-skill",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "security",
+  "keywords": [
+    "crowdsec",
+    "security",
+    "waf",
+    "appsec",
+    "bouncer",
+    "blocklist"
+  ],
+  "docs": "https://github.com/crowdsecurity/crowdsec-skill",
+  "upstream": {
+    "repository": "https://github.com/crowdsecurity/crowdsec-skill",
+    "path": "skills",
+    "commit": "9bca8a76de2cbf5e6b70a8b2cfeadeffe53512da",
+    "author": "CrowdSec",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "crowdsec",
+      "crowdsec-service-api"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/crowdsecurity/crowdsec-skill",
+  "upstream": {
+    "repository": "https://github.com/crowdsecurity/crowdsec-skill",
+    "path": "skills",
+    "commit": "9bca8a76de2cbf5e6b70a8b2cfeadeffe53512da",
+    "author": "CrowdSec",
+    "license": "MIT"
+  }
+}
