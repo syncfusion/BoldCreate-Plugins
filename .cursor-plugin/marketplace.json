@@ -8,9 +8,19 @@
   },
   "plugins": [
     {
+      "name": "amplitude",
+      "description": "Query Amplitude product analytics, charts, and experiments.",
+      "source": "third_party/amplitude"
+    },
+    {
       "name": "android-management",
       "description": "Manage enterprise Android devices, policies, and apps with the Android Management API.",
       "source": "third_party/android-management"
+    },
+    {
+      "name": "apollo",
+      "description": "Search and enrich contacts and accounts in Apollo.io.",
+      "source": "third_party/apollo"
     },
     {
       "name": "atlassian",
@@ -193,6 +203,16 @@
       "source": "third_party/google-workspace-search"
     },
     {
+      "name": "hunter",
+      "description": "Find and verify professional email addresses with Hunter.",
+      "source": "third_party/hunter"
+    },
+    {
+      "name": "incident-io",
+      "description": "Look up and manage incidents in incident.io.",
+      "source": "third_party/incident-io"
+    },
+    {
       "name": "intercom",
       "description": "Search Intercom conversations, contacts, and help center articles.",
       "source": "third_party/intercom"
@@ -206,6 +226,11 @@
       "name": "microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more.",
       "source": "third_party/microsoft-learn"
+    },
+    {
+      "name": "mintlify",
+      "description": "Search Mintlify documentation and manage your docs site.",
+      "source": "third_party/mintlify"
     },
     {
       "name": "monday",
@@ -231,6 +256,11 @@
       "name": "posthog",
       "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
       "source": "third_party/posthog"
+    },
+    {
+      "name": "render",
+      "description": "Inspect Render services, deploys, and logs.",
+      "source": "third_party/render"
     },
     {
       "name": "sentry",
@@ -361,6 +391,11 @@
       "name": "zapier",
       "description": "Run Zapier actions across the apps connected to your Zapier account.",
       "source": "third_party/zapier"
+    },
+    {
+      "name": "zoominfo",
+      "description": "Search ZoomInfo companies and contacts.",
+      "source": "third_party/zoominfo"
     }
   ]
 }

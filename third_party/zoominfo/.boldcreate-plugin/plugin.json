@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "zoominfo",
+  "displayName": "ZoomInfo",
+  "version": "0.7.1",
+  "description": "Search ZoomInfo companies and contacts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/Zoominfo/zoominfo-mcp-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "sales",
+  "keywords": [
+    "zoominfo",
+    "sales",
+    "contacts",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/Zoominfo/zoominfo-mcp-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "zoominfo",
+        "transport": "streamable-http",
+        "url": "https://mcp.zoominfo.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (Zoominfo/zoominfo-mcp-plugin at 31a1ec5)"
+  }
+}

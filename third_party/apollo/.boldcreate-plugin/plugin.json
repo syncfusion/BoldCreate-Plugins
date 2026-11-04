@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "apollo",
+  "displayName": "Apollo",
+  "version": "0.7.1",
+  "description": "Search and enrich contacts and accounts in Apollo.io.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/apolloio/apollo-mcp-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "sales",
+  "keywords": [
+    "apollo",
+    "sales",
+    "prospecting",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/apolloio/apollo-mcp-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "apollo",
+        "transport": "streamable-http",
+        "url": "https://mcp.apollo.io/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (apolloio/apollo-mcp-plugin at bd0513c)"
+  }
+}

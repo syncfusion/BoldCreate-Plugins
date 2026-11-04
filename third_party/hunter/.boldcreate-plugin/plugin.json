@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "hunter",
+  "displayName": "Hunter",
+  "version": "0.7.1",
+  "description": "Find and verify professional email addresses with Hunter.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/hunter-io/claude-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "sales",
+  "keywords": [
+    "hunter",
+    "email",
+    "prospecting",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/hunter-io/claude-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "hunter",
+        "transport": "streamable-http",
+        "url": "https://mcp.hunter.io/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (hunter-io/claude-plugin at a74a43a)"
+  }
+}

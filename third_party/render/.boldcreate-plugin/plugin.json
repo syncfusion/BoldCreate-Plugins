@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "render",
+  "displayName": "Render",
+  "version": "0.7.1",
+  "description": "Inspect Render services, deploys, and logs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/render-oss/render-plugin-claude-code",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "hosting",
+  "keywords": [
+    "render",
+    "hosting",
+    "deploy",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/render-oss/render-plugin-claude-code",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "render",
+        "transport": "streamable-http",
+        "url": "https://mcp.render.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (render-oss/render-plugin-claude-code at 2df0bc0)"
+  }
+}

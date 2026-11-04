@@ -1,0 +1,60 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mintlify",
+  "displayName": "Mintlify",
+  "version": "0.7.1",
+  "description": "Search Mintlify documentation and manage your docs site.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/mintlify/mintlify-claude-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "documentation",
+  "keywords": [
+    "mintlify",
+    "docs",
+    "documentation",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/mintlify/mintlify-claude-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "mintlify-search",
+        "transport": "streamable-http",
+        "url": "https://mintlify.com/docs/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      },
+      {
+        "name": "mintlify-admin",
+        "transport": "streamable-http",
+        "url": "https://mcp.mintlify.com",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (mintlify/mintlify-claude-plugin at 59d71b8)"
+  }
+}
