@@ -1,0 +1,29 @@
+{
+  "name": "greptile",
+  "displayName": "Greptile",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Read and resolve Greptile pull request reviews and search your organization's coding patterns.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/greptileai/claude-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "greptile",
+    "code-review",
+    "pull-requests",
+    "mcp"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

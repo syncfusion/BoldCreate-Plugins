@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "aiven",
+  "displayName": "Aiven",
+  "version": "1.0.6",
+  "description": "Easily deploy managed PostgreSQL (pg), Kafka, OpenSearch, Clickhouse and other databases, streaming and apps.",
+  "author": {
+    "name": "Aiven"
+  },
+  "homepage": "https://github.com/aiven/aiven-ai-plugins",
+  "repository": "https://github.com/aiven/aiven-ai-plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "aiven",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/aiven/aiven-ai-plugins",
+  "upstream": {
+    "repository": "https://github.com/aiven/aiven-ai-plugins",
+    "path": "skills",
+    "commit": "634f41d6852957cb9280e9245f2ea6f74645b4f1",
+    "author": "Aiven",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "aiven-getting-started"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

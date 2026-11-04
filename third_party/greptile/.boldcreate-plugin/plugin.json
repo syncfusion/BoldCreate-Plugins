@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "greptile",
+  "displayName": "Greptile",
+  "version": "0.7.1",
+  "description": "Read and resolve Greptile pull request reviews and search your organization's coding patterns.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/greptileai/claude-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "greptile",
+    "code-review",
+    "pull-requests",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/greptileai/claude-plugin",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "greptile",
+        "transport": "streamable-http",
+        "url": "https://api.greptile.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: tools listed anonymously, tool calls answer Unauthorized; endpoint from the vendor plugin repository (greptileai/claude-plugin at f0b7379)"
+  }
+}

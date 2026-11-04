@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "vsql-extension-builder",
+  "displayName": "VillageSQL Extension Builder",
+  "version": "1.0.0",
+  "description": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server.",
+  "author": {
+    "name": "VillageSQL"
+  },
+  "homepage": "https://github.com/villagesql/villagesql-skills",
+  "repository": "https://github.com/villagesql/villagesql-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.png",
+  "category": "database",
+  "keywords": [
+    "vsql",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/villagesql/villagesql-skills",
+  "upstream": {
+    "repository": "https://github.com/villagesql/villagesql-skills",
+    "path": "skills",
+    "commit": "18f7d68673e2bd5d400b4ee91298e5a4b9e8d24e",
+    "author": "VillageSQL",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "vsql-extension-builder",
+      "vsql-install-server"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

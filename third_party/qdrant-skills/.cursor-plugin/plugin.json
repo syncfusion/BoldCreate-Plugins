@@ -1,0 +1,24 @@
+{
+  "name": "qdrant-skills",
+  "displayName": "Qdrant Skills",
+  "version": "1.0.0",
+  "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, edge, model migration, multitenancy, version upgrades, and SDK usage",
+  "author": {
+    "name": "Qdrant"
+  },
+  "homepage": "https://github.com/qdrant/skills",
+  "repository": "https://github.com/qdrant/skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "qdrant",
+    "database",
+    "skills"
+  ],
+  "category": "database",
+  "tags": [
+    "database",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

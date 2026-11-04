@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "sumup",
+  "displayName": "SumUp",
+  "version": "1.0.0",
+  "description": "Skills for SumUp payment integrations across terminal and online checkout flows",
+  "author": {
+    "name": "SumUp"
+  },
+  "homepage": "https://github.com/sumup/sumup-skills",
+  "repository": "https://github.com/sumup/sumup-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "payments",
+  "keywords": [
+    "sumup",
+    "payments",
+    "skills"
+  ],
+  "docs": "https://github.com/sumup/sumup-skills",
+  "upstream": {
+    "repository": "https://github.com/sumup/sumup-skills",
+    "path": "skills",
+    "commit": "6922c7052ae9d0be834f27361b785bd80e0829cc",
+    "author": "SumUp",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "sumup",
+      "sumup-best-practices",
+      "sumup-debug",
+      "sumup-mcp",
+      "sumup-testing",
+      "upgrade-sumup"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

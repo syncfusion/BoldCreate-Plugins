@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "modern-web-guidance",
+  "displayName": "Modern Web Guidance",
+  "version": "0.0.194",
+  "description": "Keep your coding agent up to date with the latest web best practices",
+  "author": {
+    "name": "Google Chrome"
+  },
+  "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
+  "repository": "https://github.com/GoogleChrome/modern-web-guidance",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "modern",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/GoogleChrome/modern-web-guidance",
+  "upstream": {
+    "repository": "https://github.com/GoogleChrome/modern-web-guidance",
+    "path": "skills",
+    "commit": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55",
+    "author": "Google Chrome",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "chrome-extensions",
+      "modern-web-guidance"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

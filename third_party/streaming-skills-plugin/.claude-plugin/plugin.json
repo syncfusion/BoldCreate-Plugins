@@ -1,0 +1,18 @@
+{
+  "name": "streaming-skills-plugin",
+  "displayName": "Confluent Streaming Skills",
+  "version": "1.4.0",
+  "description": "Skills for streaming application developers, covering Kafka and Flink client libraries and Schema Registry",
+  "author": {
+    "name": "Confluent"
+  },
+  "homepage": "https://github.com/confluentinc/agent-skills",
+  "repository": "https://github.com/confluentinc/agent-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "streaming",
+    "data",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

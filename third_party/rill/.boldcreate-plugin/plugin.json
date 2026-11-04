@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "rill",
+  "displayName": "Rill",
+  "version": "1.0.0",
+  "description": "Skills for developing and querying projects in the Rill business intelligence platform",
+  "author": {
+    "name": "Rill Data"
+  },
+  "homepage": "https://github.com/rilldata/agent-skills",
+  "repository": "https://github.com/rilldata/agent-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "analytics",
+  "keywords": [
+    "rill",
+    "analytics",
+    "skills"
+  ],
+  "docs": "https://github.com/rilldata/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/rilldata/agent-skills",
+    "path": "skills",
+    "commit": "adfce5762be435c026f4731f72e388520cb133cc",
+    "author": "Rill Data",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "rill-analysis",
+      "rill-canvas",
+      "rill-component",
+      "rill-connector",
+      "rill-development",
+      "rill-explore",
+      "rill-metrics-view",
+      "rill-model",
+      "rill-rillyaml",
+      "rill-theme"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "A",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [],
+  "hostedBy": "vendor",
+  "docs": "https://planetscale.com/docs/connect/mcp",
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with an OAuth challenge; endpoint from the vendor plugin repository (planetscale/claude-plugin at 95c80f9)"
+  }
+}

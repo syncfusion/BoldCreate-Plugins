@@ -1,0 +1,26 @@
+{
+  "name": "planetscale",
+  "displayName": "PlanetScale",
+  "version": "0.7.1",
+  "description": "Inspect PlanetScale organizations, databases, branches, schema and Insights data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://planetscale.com/docs/connect/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "planetscale",
+    "database",
+    "mysql",
+    "postgres",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "planetscale": {
+      "type": "http",
+      "url": "https://mcp.pscale.dev/mcp/planetscale"
+    }
+  }
+}

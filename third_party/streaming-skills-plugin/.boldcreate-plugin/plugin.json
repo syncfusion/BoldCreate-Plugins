@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "streaming-skills-plugin",
+  "displayName": "Confluent Streaming Skills",
+  "version": "1.4.0",
+  "description": "Skills for streaming application developers, covering Kafka and Flink client libraries and Schema Registry",
+  "author": {
+    "name": "Confluent"
+  },
+  "homepage": "https://github.com/confluentinc/agent-skills",
+  "repository": "https://github.com/confluentinc/agent-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "data",
+  "keywords": [
+    "streaming",
+    "data",
+    "skills"
+  ],
+  "docs": "https://github.com/confluentinc/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/confluentinc/agent-skills",
+    "path": "skills",
+    "commit": "204b36f10e9be41819557988e8f5291711fda986",
+    "author": "Confluent",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "confluent-cloud-cdc-tableflow",
+      "confluent-cloud-flink-sql",
+      "confluent-skill-creator",
+      "confluent-skill-reviewer",
+      "confluent-tuning-advisor",
+      "developing-kafka-java-client",
+      "developing-kafka-python-client",
+      "flink-udf",
+      "kafka-schema-registry",
+      "kafka-streams-programming",
+      "msk-migration"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

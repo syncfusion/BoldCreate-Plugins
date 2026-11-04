@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "planetscale",
+  "displayName": "PlanetScale",
+  "version": "0.7.1",
+  "description": "Inspect PlanetScale organizations, databases, branches, schema and Insights data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://planetscale.com/docs/connect/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "planetscale",
+    "database",
+    "mysql",
+    "postgres",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://planetscale.com/docs/connect/mcp",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "planetscale",
+        "transport": "streamable-http",
+        "url": "https://mcp.pscale.dev/mcp/planetscale",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with an OAuth challenge; endpoint from the vendor plugin repository (planetscale/claude-plugin at 95c80f9)"
+  }
+}

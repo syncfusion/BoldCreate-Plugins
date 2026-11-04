@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "confidence",
+  "displayName": "Spotify Confidence",
+  "version": "0.9.0",
+  "description": "Access Confidence feature flags, experiments, and migration tools directly from Claude Code.",
+  "author": {
+    "name": "Spotify Confidence"
+  },
+  "homepage": "https://github.com/spotify/confidence-ai-plugins",
+  "repository": "https://github.com/spotify/confidence-ai-plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.png",
+  "category": "analytics",
+  "keywords": [
+    "confidence",
+    "analytics",
+    "skills"
+  ],
+  "docs": "https://github.com/spotify/confidence-ai-plugins",
+  "upstream": {
+    "repository": "https://github.com/spotify/confidence-ai-plugins",
+    "path": "skills",
+    "commit": "f416826fde819978ab90f1d7ae27513667aa5d0f",
+    "author": "Spotify Confidence",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "analyze-project",
+      "explore-metric",
+      "instrument-events",
+      "migrate-eppo",
+      "migrate-optimizely",
+      "migrate-posthog",
+      "migrate-statsig",
+      "onboard-confidence",
+      "onboard-confidence-dry-run",
+      "setup-warehouse",
+      "setup-warehouse-bigquery",
+      "setup-warehouse-databricks",
+      "setup-warehouse-redshift",
+      "setup-warehouse-snowflake"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}
