@@ -16,7 +16,7 @@
     "wireframes",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "excalidraw": {
       "type": "http",

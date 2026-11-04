@@ -16,7 +16,7 @@
     "docs",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "perplexity": {
       "type": "http",

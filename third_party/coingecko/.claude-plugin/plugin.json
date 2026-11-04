@@ -16,7 +16,7 @@
     "market data",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "coingecko": {
       "type": "http",

@@ -17,7 +17,7 @@
     "docs",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "fireworks-ai": {
       "type": "http",
