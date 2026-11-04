@@ -16,7 +16,7 @@
     "scrape",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "firecrawl": {
       "type": "http",

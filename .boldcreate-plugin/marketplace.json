@@ -15,7 +15,7 @@
       "version": "0.7.1",
       "description": "Query Amplitude product analytics, charts, and experiments.",
       "source": "third_party/amplitude",
-      "logo": "third_party/amplitude/assets/logo.svg",
+      "logo": "third_party/amplitude/assets/logo.png",
       "category": "analytics",
       "components": [
         "mcp"
@@ -63,7 +63,7 @@
       "version": "0.7.1",
       "description": "Search and enrich contacts and accounts in Apollo.io.",
       "source": "third_party/apollo",
-      "logo": "third_party/apollo/assets/logo.svg",
+      "logo": "third_party/apollo/assets/logo.png",
       "category": "sales",
       "components": [
         "mcp"
@@ -253,7 +253,7 @@
       "version": "0.7.1",
       "description": "Search the web, read pages, and research documentation with Firecrawl.",
       "source": "third_party/firecrawl",
-      "logo": "third_party/firecrawl/assets/logo.svg",
+      "logo": "third_party/firecrawl/assets/logo.png",
       "category": "search",
       "components": [
         "mcp"
@@ -997,7 +997,7 @@
       "version": "0.7.1",
       "description": "Find and verify professional email addresses with Hunter.",
       "source": "third_party/hunter",
-      "logo": "third_party/hunter/assets/logo.svg",
+      "logo": "third_party/hunter/assets/logo.png",
       "category": "sales",
       "components": [
         "mcp"
@@ -1021,7 +1021,7 @@
       "version": "0.7.1",
       "description": "Look up and manage incidents in incident.io.",
       "source": "third_party/incident-io",
-      "logo": "third_party/incident-io/assets/logo.svg",
+      "logo": "third_party/incident-io/assets/logo.png",
       "category": "incident-management",
       "components": [
         "mcp"
@@ -1165,7 +1165,7 @@
       "version": "0.7.1",
       "description": "Manage monday.com boards, items, and workspaces.",
       "source": "third_party/monday",
-      "logo": "third_party/monday/assets/logo.svg",
+      "logo": "third_party/monday/assets/logo.png",
       "category": "project-management",
       "components": [
         "mcp"
@@ -1843,7 +1843,7 @@
       "version": "0.7.1",
       "description": "Search ZoomInfo companies and contacts.",
       "source": "third_party/zoominfo",
-      "logo": "third_party/zoominfo/assets/logo.svg",
+      "logo": "third_party/zoominfo/assets/logo.png",
       "category": "sales",
       "components": [
         "mcp"

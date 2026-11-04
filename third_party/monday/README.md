@@ -37,7 +37,7 @@ The OAuth client is supplied by the BoldCreate Connect gateway.
 
 ## Logo
 
-Neutral tile with the product's initials.
+Official monday.com icon, downloaded from monday.com. The mark is a trademark of its owner.
 
 ## License
 

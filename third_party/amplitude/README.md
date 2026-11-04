@@ -35,7 +35,7 @@ The first time the agent calls a tool, each member signs in to Amplitude in the 
 
 ## Logo
 
-Neutral tile with the product's initials.
+Official Amplitude icon, downloaded from amplitude.com. The mark is a trademark of its owner.
 
 ## License
 

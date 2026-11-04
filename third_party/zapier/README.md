@@ -37,7 +37,7 @@ The OAuth client is supplied by the BoldCreate Connect gateway.
 
 ## Logo
 
-Neutral tile with the product's initials.
+Zapier mark from [Simple Icons](https://simpleicons.org) (CC0) in brand colour #FF4F00, on a padded white tile. The mark is a trademark of its owner.
 
 ## License
 

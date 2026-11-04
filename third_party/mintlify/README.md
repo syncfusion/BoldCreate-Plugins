@@ -44,7 +44,7 @@ The first time the agent calls a tool, each member signs in to Mintlify in the b
 
 ## Logo
 
-Neutral tile with the product's initials.
+Mintlify mark from [Simple Icons](https://simpleicons.org) (CC0) in brand colour #18E299, on a padded white tile. The mark is a trademark of its owner.
 
 ## License
 

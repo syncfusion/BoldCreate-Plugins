@@ -42,7 +42,7 @@ Tool calls run with the permissions of the key or token you provide. Rotate or r
 
 ## Logo
 
-Neutral tile with the product's initials.
+PagerDuty mark from [Simple Icons](https://simpleicons.org) (CC0) in brand colour #06AC38, on a padded white tile. The mark is a trademark of its owner.
 
 ## License
 

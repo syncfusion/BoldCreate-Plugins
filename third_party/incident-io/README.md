@@ -39,7 +39,7 @@ The first time the agent calls a tool, each member signs in to incident.io in th
 
 ## Logo
 
-Neutral tile with the product's initials.
+Official incident.io icon, downloaded from incident.io. The mark is a trademark of its owner.
 
 ## License
 

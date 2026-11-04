@@ -37,7 +37,7 @@ The vendor repository does not state the auth mode for the hosted server. OAuth 
 
 ## Logo
 
-Neutral tile with the product's initials.
+Official Tavily icon, downloaded from tavily.com. The mark is a trademark of its owner.
 
 ## License
 

@@ -15,7 +15,7 @@
     "response",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "incident-io": {
       "type": "http",
