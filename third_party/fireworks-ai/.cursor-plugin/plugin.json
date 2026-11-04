@@ -12,7 +12,7 @@
   "homepage": "https://docs.fireworks.ai",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "keywords": [
     "fireworks ai",
     "inference",

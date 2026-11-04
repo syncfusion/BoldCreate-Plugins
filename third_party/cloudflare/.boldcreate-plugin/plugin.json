@@ -10,7 +10,7 @@
   "homepage": "https://developers.cloudflare.com/mcp",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "category": "documentation",
   "keywords": [
     "cloudflare",

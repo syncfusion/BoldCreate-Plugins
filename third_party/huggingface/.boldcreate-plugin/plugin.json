@@ -10,7 +10,7 @@
   "homepage": "https://huggingface.co/mcp",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "category": "ai",
   "keywords": [
     "machine learning",

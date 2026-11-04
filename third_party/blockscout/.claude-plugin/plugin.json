@@ -16,7 +16,7 @@
     "crypto",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "blockscout": {
       "type": "http",
