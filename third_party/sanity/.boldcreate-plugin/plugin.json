@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "sanity",
+  "displayName": "Sanity",
+  "version": "1.0.0",
+  "description": "Model content, write GROQ and Portable Text, and upgrade Sanity Studio.",
+  "author": {
+    "name": "Sanity"
+  },
+  "homepage": "https://github.com/sanity-io/agent-toolkit",
+  "repository": "https://github.com/sanity-io/agent-toolkit",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "cms",
+  "keywords": [
+    "sanity",
+    "cms",
+    "groq",
+    "portable-text"
+  ],
+  "docs": "https://github.com/sanity-io/agent-toolkit",
+  "upstream": {
+    "repository": "https://github.com/sanity-io/agent-toolkit",
+    "path": "skills",
+    "commit": "88d6cdfa7cb06c99edd5f376efa4dac21ae3f877",
+    "author": "Sanity",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "content-experimentation-best-practices",
+      "content-modeling-best-practices",
+      "portable-text-conversion",
+      "portable-text-serialization",
+      "sanity-best-practices",
+      "sanity-migration",
+      "sanity-studio-upgrade",
+      "seo-aeo-best-practices"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

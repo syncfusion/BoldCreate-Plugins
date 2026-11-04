@@ -1,0 +1,26 @@
+{
+  "name": "duckdb-skills",
+  "displayName": "DuckDB Skills",
+  "version": "0.2.4",
+  "description": "Read data files, query DuckDB databases, and search DuckDB documentation.",
+  "author": {
+    "name": "duckdb"
+  },
+  "homepage": "https://github.com/duckdb/duckdb-skills",
+  "repository": "https://github.com/duckdb/duckdb-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "duckdb",
+    "sql",
+    "parquet",
+    "csv",
+    "data"
+  ],
+  "category": "data",
+  "tags": [
+    "data",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/growthbook/skills",
+  "upstream": {
+    "repository": "https://github.com/growthbook/skills",
+    "path": "skills",
+    "commit": "7a84f338fe217b20641cdc5c01b5b37f0b950527",
+    "author": "GrowthBook",
+    "license": "MIT"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "azure",
+  "displayName": "Azure",
+  "version": "1.2.50",
+  "description": "Plan, deploy, diagnose and manage Azure resources with Azure skills.",
+  "author": {
+    "name": "Microsoft"
+  },
+  "homepage": "https://github.com/microsoft/azure-skills",
+  "repository": "https://github.com/microsoft/azure-skills",
+  "license": "MIT",
+  "keywords": [
+    "azure",
+    "cloud",
+    "deployment",
+    "microsoft"
+  ],
+  "icon": "./assets/logo.svg"
+}

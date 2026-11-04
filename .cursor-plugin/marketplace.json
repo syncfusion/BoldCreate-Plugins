@@ -23,6 +23,11 @@
       "source": "third_party/apollo"
     },
     {
+      "name": "apollo-skills",
+      "description": "Build with Apollo GraphQL: Client, Server, Router, Federation, Connectors, Rover, iOS and Kotlin.",
+      "source": "third_party/apollo-skills"
+    },
+    {
       "name": "atlassian",
       "description": "Search and update Jira issues and Confluence pages.",
       "source": "third_party/atlassian"
@@ -33,9 +38,34 @@
       "source": "third_party/aws-knowledge"
     },
     {
+      "name": "azure",
+      "description": "Plan, deploy, diagnose and manage Azure resources with Azure skills.",
+      "source": "third_party/azure"
+    },
+    {
+      "name": "azure-cosmos-db-assistant",
+      "description": "Best-practice rules and an expert agent for designing and tuning Azure Cosmos DB.",
+      "source": "third_party/azure-cosmos-db-assistant"
+    },
+    {
       "name": "boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
       "source": "boldcreate-toolkit"
+    },
+    {
+      "name": "box",
+      "description": "Skills and guardrails for Box Platform integrations: content workflows, shared links, CLI, SDK and MCP.",
+      "source": "third_party/box"
+    },
+    {
+      "name": "buildkite",
+      "description": "Work with Buildkite pipelines, builds, the CLI and the REST API, and migrate from other CI systems.",
+      "source": "third_party/buildkite"
+    },
+    {
+      "name": "ckeditor",
+      "description": "Install, configure, and integrate CKEditor 5 in JavaScript projects.",
+      "source": "third_party/ckeditor"
     },
     {
       "name": "context7",
@@ -43,14 +73,39 @@
       "source": "third_party/context7"
     },
     {
+      "name": "crowdsec",
+      "description": "Install, configure, operate, and debug CrowdSec, and use the CrowdSec Console Service API.",
+      "source": "third_party/crowdsec"
+    },
+    {
+      "name": "crowdstrike-falcon-foundry",
+      "description": "Build CrowdStrike Falcon Foundry applications: functions, workflows, UI extensions and collections.",
+      "source": "third_party/crowdstrike-falcon-foundry"
+    },
+    {
       "name": "deepwiki",
       "description": "Ask questions about any public GitHub repository and read its generated wiki.",
       "source": "third_party/deepwiki"
     },
     {
+      "name": "duckdb-skills",
+      "description": "Read data files, query DuckDB databases, and search DuckDB documentation.",
+      "source": "third_party/duckdb-skills"
+    },
+    {
+      "name": "duende-skills",
+      "description": "Build secure identity solutions with Duende IdentityServer, BFF, OAuth 2.0 and OpenID Connect on ASP.NET Core.",
+      "source": "third_party/duende-skills"
+    },
+    {
       "name": "exa",
       "description": "Search the web and fetch page content with Exa.",
       "source": "third_party/exa"
+    },
+    {
+      "name": "fastly-agent-toolkit",
+      "description": "Work with the Fastly CLI, Compute, Fiddle, NGWAF, VCL tooling and reference architectures.",
+      "source": "third_party/fastly-agent-toolkit"
     },
     {
       "name": "figma",
@@ -61,6 +116,11 @@
       "name": "firecrawl",
       "description": "Search the web, read pages, and research documentation with Firecrawl.",
       "source": "third_party/firecrawl"
+    },
+    {
+      "name": "gc-ai",
+      "description": "Use a GC AI legal knowledge base: upload documents, run review playbooks and ask grounded questions.",
+      "source": "third_party/gc-ai"
     },
     {
       "name": "gitea",
@@ -213,6 +273,11 @@
       "source": "third_party/govtribe"
     },
     {
+      "name": "growthbook",
+      "description": "Manage GrowthBook feature flags, experiments, and product analytics.",
+      "source": "third_party/growthbook"
+    },
+    {
       "name": "hunter",
       "description": "Find and verify professional email addresses with Hunter.",
       "source": "third_party/hunter"
@@ -228,6 +293,11 @@
       "source": "third_party/intercom"
     },
     {
+      "name": "langfuse",
+      "description": "Work with Langfuse tracing, prompts and evaluation, and migrate prompts to Langfuse.",
+      "source": "third_party/langfuse"
+    },
+    {
       "name": "leadfeeder",
       "description": "Look up companies that visit your website with Leadfeeder.",
       "source": "third_party/leadfeeder"
@@ -236,6 +306,16 @@
       "name": "linear",
       "description": "Find, create, and update Linear issues, projects, and cycles.",
       "source": "third_party/linear"
+    },
+    {
+      "name": "logfire",
+      "description": "Add Logfire observability to Python apps, query traces, and set up evals.",
+      "source": "third_party/logfire"
+    },
+    {
+      "name": "mapbox",
+      "description": "Build location-aware apps with Mapbox: maps, search, navigation, styles and geospatial tools.",
+      "source": "third_party/mapbox"
     },
     {
       "name": "microsoft-learn",
@@ -278,6 +358,16 @@
       "source": "third_party/render"
     },
     {
+      "name": "resend",
+      "description": "Send and receive email with Resend, build emails with React Email, and follow deliverability practices.",
+      "source": "third_party/resend"
+    },
+    {
+      "name": "sanity",
+      "description": "Model content, write GROQ and Portable Text, and upgrade Sanity Studio.",
+      "source": "third_party/sanity"
+    },
+    {
       "name": "sentry",
       "description": "Investigate Sentry errors, stack traces, and issues for a project.",
       "source": "third_party/sentry"
@@ -296,6 +386,16 @@
       "name": "supabase",
       "description": "Query Postgres, manage tables, auth, storage, and edge functions in a Supabase project.",
       "source": "third_party/supabase"
+    },
+    {
+      "name": "superdesign",
+      "description": "Design or redesign frontend UI, presentations and marketing graphics with Superdesign.",
+      "source": "third_party/superdesign"
+    },
+    {
+      "name": "superpowers",
+      "description": "Core engineering skills: brainstorming, planning, test-driven development, debugging and code review.",
+      "source": "third_party/superpowers"
     },
     {
       "name": "syncfusion-angular",
@@ -393,6 +493,11 @@
       "source": "third_party/tavily"
     },
     {
+      "name": "togetherai-skills",
+      "description": "Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters.",
+      "source": "third_party/togetherai-skills"
+    },
+    {
       "name": "vanta",
       "description": "Review Vanta compliance tests, controls, vendors, and vulnerabilities.",
       "source": "third_party/vanta"
@@ -401,6 +506,11 @@
       "name": "vercel",
       "description": "Inspect Vercel projects, deployments, and build logs, and search Vercel docs.",
       "source": "third_party/vercel"
+    },
+    {
+      "name": "youdotcom-agent-skills",
+      "description": "Search the web, read pages, research and look up finance data with You.com.",
+      "source": "third_party/youdotcom-agent-skills"
     },
     {
       "name": "zapier",

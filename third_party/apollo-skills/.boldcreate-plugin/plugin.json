@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "apollo-skills",
+  "displayName": "Apollo GraphQL Skills",
+  "version": "1.2.9",
+  "description": "Build with Apollo GraphQL: Client, Server, Router, Federation, Connectors, Rover, iOS and Kotlin.",
+  "author": {
+    "name": "Apollo GraphQL"
+  },
+  "homepage": "https://github.com/apollographql/skills",
+  "repository": "https://github.com/apollographql/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "apollo",
+    "graphql",
+    "federation",
+    "router",
+    "rover"
+  ],
+  "docs": "https://github.com/apollographql/skills",
+  "upstream": {
+    "repository": "https://github.com/apollographql/skills",
+    "path": "skills",
+    "commit": "c288eb80629dd2309eed81f23d693f66a452d043",
+    "author": "Apollo GraphQL",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "apollo-client",
+      "apollo-connectors",
+      "apollo-federation",
+      "apollo-ios",
+      "apollo-kotlin",
+      "apollo-mcp-server",
+      "apollo-router",
+      "apollo-router-plugin-creator",
+      "apollo-server",
+      "graphql-operations",
+      "graphql-schema",
+      "rover",
+      "rust-best-practices",
+      "skill-creator"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

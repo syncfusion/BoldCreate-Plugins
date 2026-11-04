@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "superdesign",
+  "displayName": "Superdesign",
+  "version": "0.6.0",
+  "description": "Design or redesign frontend UI, presentations and marketing graphics with Superdesign.",
+  "author": {
+    "name": "Superdesign dev, Inc."
+  },
+  "homepage": "https://github.com/superdesigndev/superdesign-skill",
+  "repository": "https://github.com/superdesigndev/superdesign-skill",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "design",
+  "keywords": [
+    "superdesign",
+    "design",
+    "ui"
+  ],
+  "docs": "https://github.com/superdesigndev/superdesign-skill",
+  "upstream": {
+    "repository": "https://github.com/superdesigndev/superdesign-skill",
+    "path": "skills",
+    "commit": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
+    "author": "Superdesign dev, Inc.",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "superdesign"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

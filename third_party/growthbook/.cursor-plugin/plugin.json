@@ -1,0 +1,26 @@
+{
+  "name": "growthbook",
+  "displayName": "GrowthBook",
+  "version": "2.0.0",
+  "description": "Manage GrowthBook feature flags, experiments, and product analytics.",
+  "author": {
+    "name": "GrowthBook"
+  },
+  "homepage": "https://github.com/growthbook/skills",
+  "repository": "https://github.com/growthbook/skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "growthbook",
+    "feature-flags",
+    "experimentation",
+    "ab-testing",
+    "analytics"
+  ],
+  "category": "analytics",
+  "tags": [
+    "analytics",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

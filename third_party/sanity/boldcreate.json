@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/sanity-io/agent-toolkit",
+  "upstream": {
+    "repository": "https://github.com/sanity-io/agent-toolkit",
+    "path": "skills",
+    "commit": "88d6cdfa7cb06c99edd5f376efa4dac21ae3f877",
+    "author": "Sanity",
+    "license": "MIT"
+  }
+}

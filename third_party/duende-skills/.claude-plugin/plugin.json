@@ -1,0 +1,24 @@
+{
+  "name": "duende-skills",
+  "displayName": "Duende Skills",
+  "version": "0.3.0",
+  "description": "Build secure identity solutions with Duende IdentityServer, BFF, OAuth 2.0 and OpenID Connect on ASP.NET Core.",
+  "author": {
+    "name": "Duende Software"
+  },
+  "homepage": "https://github.com/DuendeSoftware/duende-skills",
+  "repository": "https://github.com/DuendeSoftware/duende-skills",
+  "license": "MIT",
+  "keywords": [
+    "duende",
+    "identityserver",
+    "oauth",
+    "oidc",
+    "aspnetcore"
+  ],
+  "icon": "./assets/logo.svg",
+  "agents": [
+    "./agents/identity-server-specialist.md",
+    "./agents/oauth-oidc-specialist.md"
+  ]
+}

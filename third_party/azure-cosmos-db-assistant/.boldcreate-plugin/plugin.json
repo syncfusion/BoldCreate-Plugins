@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "azure-cosmos-db-assistant",
+  "displayName": "Azure Cosmos DB Assistant",
+  "version": "1.0.0",
+  "description": "Best-practice rules and an expert agent for designing and tuning Azure Cosmos DB.",
+  "author": {
+    "name": "Azure Cosmos DB"
+  },
+  "homepage": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+  "repository": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "cosmosdb",
+    "azure",
+    "nosql",
+    "database"
+  ],
+  "docs": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+  "upstream": {
+    "repository": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+    "path": "skills",
+    "commit": "f1e0498579a9251e5f3179b92d25d6ce3409bae5",
+    "author": "Azure Cosmos DB",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "cosmosdb-best-practices"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "cosmosdb-expert"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

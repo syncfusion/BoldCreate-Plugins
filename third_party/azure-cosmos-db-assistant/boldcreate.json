@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+  "upstream": {
+    "repository": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+    "path": "skills",
+    "commit": "f1e0498579a9251e5f3179b92d25d6ce3409bae5",
+    "author": "Azure Cosmos DB",
+    "license": "MIT"
+  }
+}

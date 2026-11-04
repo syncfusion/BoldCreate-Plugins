@@ -1,0 +1,21 @@
+{
+  "name": "crowdsec",
+  "displayName": "CrowdSec",
+  "version": "0.3.0",
+  "description": "Install, configure, operate, and debug CrowdSec, and use the CrowdSec Console Service API.",
+  "author": {
+    "name": "CrowdSec"
+  },
+  "homepage": "https://github.com/crowdsecurity/crowdsec-skill",
+  "repository": "https://github.com/crowdsecurity/crowdsec-skill",
+  "license": "MIT",
+  "keywords": [
+    "crowdsec",
+    "security",
+    "waf",
+    "appsec",
+    "bouncer",
+    "blocklist"
+  ],
+  "icon": "./assets/logo.svg"
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "duende-skills",
+  "displayName": "Duende Skills",
+  "version": "0.3.0",
+  "description": "Build secure identity solutions with Duende IdentityServer, BFF, OAuth 2.0 and OpenID Connect on ASP.NET Core.",
+  "author": {
+    "name": "Duende Software"
+  },
+  "homepage": "https://github.com/DuendeSoftware/duende-skills",
+  "repository": "https://github.com/DuendeSoftware/duende-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "security",
+  "keywords": [
+    "duende",
+    "identityserver",
+    "oauth",
+    "oidc",
+    "aspnetcore"
+  ],
+  "docs": "https://github.com/DuendeSoftware/duende-skills",
+  "upstream": {
+    "repository": "https://github.com/DuendeSoftware/duende-skills",
+    "path": "skills",
+    "commit": "fb32edc51982bf1c600e21ba91df32c903098a9c",
+    "author": "Duende Software",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "aspnetcore-authentication",
+      "aspnetcore-authorization",
+      "claims-authorization",
+      "duende-bff",
+      "identity-security-hardening",
+      "identity-testing-patterns",
+      "identityserver-api-protection",
+      "identityserver-aspire",
+      "identityserver-configuration",
+      "identityserver-dcr",
+      "identityserver-deployment",
+      "identityserver-hosting-setup",
+      "identityserver-key-management",
+      "identityserver-saml",
+      "identityserver-sessions-providers",
+      "identityserver-stores",
+      "identityserver-token-lifecycle",
+      "identityserver-token-security",
+      "identityserver-ui-flows",
+      "identityserver-upgrade-v7-to-v8",
+      "identityserver-usermanagement",
+      "identityserver4-migration",
+      "oauth-oidc-protocols",
+      "token-management"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "identity-server-specialist",
+      "oauth-oidc-specialist"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,19 @@
+{
+  "name": "togetherai-skills",
+  "displayName": "Together AI Skills",
+  "version": "1.0.0",
+  "description": "Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters.",
+  "author": {
+    "name": "Together AI"
+  },
+  "homepage": "https://github.com/togethercomputer/skills",
+  "repository": "https://github.com/togethercomputer/skills",
+  "license": "MIT",
+  "keywords": [
+    "together-ai",
+    "inference",
+    "fine-tuning",
+    "embeddings"
+  ],
+  "icon": "./assets/logo.svg"
+}

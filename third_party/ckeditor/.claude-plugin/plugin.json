@@ -1,0 +1,19 @@
+{
+  "name": "ckeditor",
+  "displayName": "CKEditor",
+  "version": "0.1.1",
+  "description": "Install, configure, and integrate CKEditor 5 in JavaScript projects.",
+  "author": {
+    "name": "CKEditor (CKSource)"
+  },
+  "homepage": "https://github.com/ckeditor/skills",
+  "repository": "https://github.com/ckeditor/skills",
+  "license": "MIT",
+  "keywords": [
+    "ckeditor",
+    "editor",
+    "wysiwyg",
+    "javascript"
+  ],
+  "icon": "./assets/logo.svg"
+}

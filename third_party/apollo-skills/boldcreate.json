@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/apollographql/skills",
+  "upstream": {
+    "repository": "https://github.com/apollographql/skills",
+    "path": "skills",
+    "commit": "c288eb80629dd2309eed81f23d693f66a452d043",
+    "author": "Apollo GraphQL",
+    "license": "MIT"
+  }
+}

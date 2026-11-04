@@ -1,0 +1,25 @@
+{
+  "name": "sanity",
+  "displayName": "Sanity",
+  "version": "1.0.0",
+  "description": "Model content, write GROQ and Portable Text, and upgrade Sanity Studio.",
+  "author": {
+    "name": "Sanity"
+  },
+  "homepage": "https://github.com/sanity-io/agent-toolkit",
+  "repository": "https://github.com/sanity-io/agent-toolkit",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "sanity",
+    "cms",
+    "groq",
+    "portable-text"
+  ],
+  "category": "cms",
+  "tags": [
+    "cms",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

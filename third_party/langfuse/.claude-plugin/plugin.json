@@ -1,0 +1,19 @@
+{
+  "name": "langfuse",
+  "displayName": "Langfuse",
+  "version": "1.10.0",
+  "description": "Work with Langfuse tracing, prompts and evaluation, and migrate prompts to Langfuse.",
+  "author": {
+    "name": "Langfuse"
+  },
+  "homepage": "https://github.com/langfuse/skills",
+  "repository": "https://github.com/langfuse/skills",
+  "license": "MIT",
+  "keywords": [
+    "langfuse",
+    "llm",
+    "tracing",
+    "observability"
+  ],
+  "icon": "./assets/logo.png"
+}

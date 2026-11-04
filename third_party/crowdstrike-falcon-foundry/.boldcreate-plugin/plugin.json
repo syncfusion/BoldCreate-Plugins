@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "crowdstrike-falcon-foundry",
+  "displayName": "CrowdStrike Falcon Foundry",
+  "version": "1.6.0",
+  "description": "Build CrowdStrike Falcon Foundry applications: functions, workflows, UI extensions and collections.",
+  "author": {
+    "name": "CrowdStrike"
+  },
+  "homepage": "https://github.com/CrowdStrike/foundry-skills",
+  "repository": "https://github.com/CrowdStrike/foundry-skills",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "security",
+  "keywords": [
+    "crowdstrike",
+    "falcon",
+    "foundry",
+    "security"
+  ],
+  "docs": "https://github.com/CrowdStrike/foundry-skills",
+  "upstream": {
+    "repository": "https://github.com/CrowdStrike/foundry-skills",
+    "path": "skills",
+    "commit": "61572f38592d47c747e2595182459781bf0bc679",
+    "author": "CrowdStrike",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "ai-agents-development",
+      "api-integrations",
+      "collections-development",
+      "debugging-workflows",
+      "development-workflow",
+      "e2e-testing",
+      "functions-development",
+      "functions-falcon-api",
+      "fusion-redirect",
+      "security-patterns",
+      "ui-development",
+      "workflows-development"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

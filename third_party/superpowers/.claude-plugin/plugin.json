@@ -1,0 +1,20 @@
+{
+  "name": "superpowers",
+  "displayName": "Superpowers",
+  "version": "7.0.0",
+  "description": "Core engineering skills: brainstorming, planning, test-driven development, debugging and code review.",
+  "author": {
+    "name": "Jesse Vincent"
+  },
+  "homepage": "https://github.com/obra/superpowers",
+  "repository": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "keywords": [
+    "tdd",
+    "debugging",
+    "planning",
+    "code-review",
+    "workflow"
+  ],
+  "icon": "./assets/logo.png"
+}
