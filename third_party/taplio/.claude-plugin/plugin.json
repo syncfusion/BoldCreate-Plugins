@@ -1,0 +1,24 @@
+{
+  "name": "taplio",
+  "displayName": "Taplio",
+  "version": "0.7.1",
+  "description": "Run your LinkedIn by talking to Claude. Schedule content, pull inspiration from 5M+ viral posts, and get your analytics as plain answers.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://taplio.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "taplio",
+    "media",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "taplio": {
+      "type": "http",
+      "url": "https://mcp.taplio.com/"
+    }
+  }
+}

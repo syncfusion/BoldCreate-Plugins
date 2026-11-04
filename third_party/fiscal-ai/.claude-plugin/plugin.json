@@ -1,0 +1,24 @@
+{
+  "name": "fiscal-ai",
+  "displayName": "Fiscal.ai",
+  "version": "0.7.1",
+  "description": "Clean Public Equity Fundamental Data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://fiscal.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fiscal-ai",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "fiscal-ai": {
+      "type": "http",
+      "url": "https://api.fiscal.ai/mcp/sse"
+    }
+  }
+}

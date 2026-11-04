@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "circleback",
+  "displayName": "Circleback",
+  "version": "0.7.1",
+  "description": "Search and access context from meetings.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://circleback.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "communication",
+  "keywords": [
+    "circleback",
+    "communication",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://circleback.ai/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "circleback",
+        "transport": "streamable-http",
+        "url": "https://circleback.ai/api/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

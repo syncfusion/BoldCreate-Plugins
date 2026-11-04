@@ -1,0 +1,24 @@
+{
+  "name": "contentsquare",
+  "displayName": "Contentsquare",
+  "version": "0.7.1",
+  "description": "Experience analytics platform for digital businesses.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.contentsquare.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "contentsquare",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "contentsquare": {
+      "type": "http",
+      "url": "https://api.contentsquare.com/mcp"
+    }
+  }
+}

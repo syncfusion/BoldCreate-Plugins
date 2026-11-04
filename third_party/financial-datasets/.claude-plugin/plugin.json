@@ -1,0 +1,24 @@
+{
+  "name": "financial-datasets",
+  "displayName": "Financial Datasets",
+  "version": "0.7.1",
+  "description": "Access stock market data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.financialdatasets.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "financial-datasets",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "financial-datasets": {
+      "type": "http",
+      "url": "https://mcp.financialdatasets.ai/"
+    }
+  }
+}

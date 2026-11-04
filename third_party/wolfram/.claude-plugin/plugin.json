@@ -1,0 +1,24 @@
+{
+  "name": "wolfram",
+  "displayName": "Wolfram",
+  "version": "0.7.1",
+  "description": "Inject precise, real-time computation and knowledge.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.wolfram.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "wolfram",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "wolfram": {
+      "type": "http",
+      "url": "https://agenttools.wolfram.com/mcp"
+    }
+  }
+}

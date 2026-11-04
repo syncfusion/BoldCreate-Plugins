@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "coralogix": {
+      "type": "http",
+      "url": "https://api.eu2.coralogix.com/mgmt/api/v1/mcp"
+    }
+  }
+}

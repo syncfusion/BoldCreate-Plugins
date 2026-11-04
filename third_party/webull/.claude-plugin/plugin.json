@@ -1,0 +1,24 @@
+{
+  "name": "webull",
+  "displayName": "Webull",
+  "version": "0.7.1",
+  "description": "Your Global Multi-Asset Trading & Analysis Powerhouse.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.webull.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "webull",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "webull": {
+      "type": "http",
+      "url": "https://api.webull.com/mcp"
+    }
+  }
+}

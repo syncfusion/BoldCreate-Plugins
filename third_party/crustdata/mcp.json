@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "crustdata": {
+      "type": "http",
+      "url": "https://mcp.crustdata.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "viator",
+  "displayName": "Viator",
+  "version": "0.7.1",
+  "description": "Book travel experiences around the world.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.viator.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "viator",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "viator": {
+      "type": "http",
+      "url": "https://exp-app-mcp.prod.ep.viator.com/mcp"
+    }
+  }
+}

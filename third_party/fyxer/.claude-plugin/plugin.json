@@ -1,0 +1,24 @@
+{
+  "name": "fyxer",
+  "displayName": "Fyxer",
+  "version": "0.7.1",
+  "description": "Search your inbox, and draft replies in your voice.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.fyxer.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fyxer",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "fyxer": {
+      "type": "http",
+      "url": "https://app.fyxer.com/mcp"
+    }
+  }
+}

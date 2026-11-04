@@ -1,0 +1,24 @@
+{
+  "name": "sonos",
+  "displayName": "Sonos",
+  "version": "0.7.1",
+  "description": "Control your Sonos system.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.sonos.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "sonos",
+    "media",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "sonos": {
+      "type": "http",
+      "url": "https://mcp.ws.sonos.com/mcp"
+    }
+  }
+}

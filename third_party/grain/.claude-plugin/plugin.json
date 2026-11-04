@@ -1,0 +1,24 @@
+{
+  "name": "grain",
+  "displayName": "Grain",
+  "version": "0.7.1",
+  "description": "Put your meetings to work.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://grain.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "grain",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "grain": {
+      "type": "http",
+      "url": "https://api.grain.com/_/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "eraser",
+  "displayName": "Eraser",
+  "version": "0.7.1",
+  "description": "Generate, manage, and update Eraser diagrams and files.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://eraser.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "eraser",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "eraser": {
+      "type": "http",
+      "url": "https://app.eraser.io/api/mcp"
+    }
+  }
+}

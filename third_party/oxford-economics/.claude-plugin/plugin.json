@@ -1,0 +1,24 @@
+{
+  "name": "oxford-economics",
+  "displayName": "Oxford Economics",
+  "version": "0.7.1",
+  "description": "Access Oxford Economics’ trusted economic analysis and data directly in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.oxfordeconomics.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "oxford-economics",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "oxford-economics": {
+      "type": "http",
+      "url": "https://services.oxfordeconomics.com/mcp"
+    }
+  }
+}

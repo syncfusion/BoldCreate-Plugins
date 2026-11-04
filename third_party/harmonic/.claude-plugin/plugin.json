@@ -1,0 +1,24 @@
+{
+  "name": "harmonic",
+  "displayName": "Harmonic",
+  "version": "0.7.1",
+  "description": "Discover, research, and enrich companies and people.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://harmonic.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "harmonic",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "harmonic": {
+      "type": "http",
+      "url": "https://mcp.api.harmonic.ai/"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "moodys-credit": {
+      "type": "http",
+      "url": "https://mcp.moodys.com/genai-ready-data/Credit/mcp"
+    }
+  }
+}

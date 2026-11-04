@@ -1,0 +1,24 @@
+{
+  "name": "amass-connector",
+  "displayName": "Amass Connector",
+  "version": "0.7.1",
+  "description": "Life sciences intelligence, unified — publications, trials, drugs, genes, regulatory approvals, and patents in one cross-linked connector.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://amass.tech/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "amass-connector",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "amass-connector": {
+      "type": "http",
+      "url": "https://mcp.amass.tech/mcp"
+    }
+  }
+}

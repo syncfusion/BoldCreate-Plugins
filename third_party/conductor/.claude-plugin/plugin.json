@@ -1,0 +1,24 @@
+{
+  "name": "conductor",
+  "displayName": "Conductor",
+  "version": "0.7.1",
+  "description": "Analyze your brand presence and sentiment in AI.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.conductor.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "conductor",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "conductor": {
+      "type": "http",
+      "url": "https://mcp-universal.conductor.com/mcp/v3"
+    }
+  }
+}

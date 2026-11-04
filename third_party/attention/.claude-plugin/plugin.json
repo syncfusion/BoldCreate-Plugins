@@ -1,0 +1,24 @@
+{
+  "name": "attention",
+  "displayName": "Attention",
+  "version": "0.7.1",
+  "description": "Search, analyze, and act on client conversations.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://attention.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "attention",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "attention": {
+      "type": "http",
+      "url": "https://api.attention.tech/mcp"
+    }
+  }
+}

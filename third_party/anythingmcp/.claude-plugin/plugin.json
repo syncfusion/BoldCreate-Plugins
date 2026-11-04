@@ -1,0 +1,24 @@
+{
+  "name": "anythingmcp",
+  "displayName": "AnythingMCP",
+  "version": "0.7.1",
+  "description": "Connect Claude to SAP, weclapp, DATEV, Odoo, Etsy, Shopware, Billbee, Sendcloud, Deutsche Bahn, Telegram, Bundesbank & 180+ business APIs — or turn any REST, SOAP, GraphQL or SQL API into MCP tools.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://helpcode.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "anythingmcp",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "anythingmcp": {
+      "type": "http",
+      "url": "https://cloud.anythingmcp.com/mcp"
+    }
+  }
+}

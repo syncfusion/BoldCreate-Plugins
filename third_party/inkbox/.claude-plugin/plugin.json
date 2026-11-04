@@ -1,0 +1,24 @@
+{
+  "name": "inkbox",
+  "displayName": "Inkbox",
+  "version": "0.7.1",
+  "description": "Email, SMS, and iMessage for AI agents.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://inkbox.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "inkbox",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "inkbox": {
+      "type": "http",
+      "url": "https://inkbox.ai/mcp/anthropic"
+    }
+  }
+}

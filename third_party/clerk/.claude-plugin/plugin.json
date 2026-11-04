@@ -1,0 +1,24 @@
+{
+  "name": "clerk",
+  "displayName": "Clerk",
+  "version": "0.7.1",
+  "description": "Add authentication, organizations, and billing.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://clerk.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "clerk",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "clerk": {
+      "type": "http",
+      "url": "https://mcp.clerk.com/mcp"
+    }
+  }
+}

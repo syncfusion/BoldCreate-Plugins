@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "speko": {
+      "type": "http",
+      "url": "https://mcp.speko.ai/mcp"
+    }
+  }
+}

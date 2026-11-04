@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "readwise",
+  "displayName": "Readwise",
+  "version": "0.7.1",
+  "description": "Save, read, search, and learn.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://readwise.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "keywords": [
+    "readwise",
+    "productivity",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://readwise.io/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "readwise",
+        "transport": "streamable-http",
+        "url": "https://mcp2.readwise.io/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

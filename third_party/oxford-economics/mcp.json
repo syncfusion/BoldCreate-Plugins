@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "oxford-economics": {
+      "type": "http",
+      "url": "https://services.oxfordeconomics.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "agentmail",
+  "displayName": "AgentMail",
+  "version": "0.7.1",
+  "description": "Email inboxes for AI agents.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.agentmail.to/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "agentmail",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "agentmail": {
+      "type": "http",
+      "url": "https://mcp.agentmail.to/mcp"
+    }
+  }
+}

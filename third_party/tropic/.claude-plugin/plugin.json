@@ -1,0 +1,24 @@
+{
+  "name": "tropic",
+  "displayName": "Tropic",
+  "version": "0.7.1",
+  "description": "Save money on Software + AI contracts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.tropicapp.io/mcp-demo",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "tropic",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "tropic": {
+      "type": "http",
+      "url": "https://app.tropicapp.io/mcp"
+    }
+  }
+}

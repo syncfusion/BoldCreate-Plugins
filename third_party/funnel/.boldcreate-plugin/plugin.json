@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "funnel",
+  "displayName": "Funnel",
+  "version": "0.7.1",
+  "description": "Cross-channel marketing analytics across 600+ connectors.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://funnel.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "analytics",
+  "keywords": [
+    "funnel",
+    "analytics",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://funnel.io/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "funnel",
+        "transport": "streamable-http",
+        "url": "https://mcp.ai.funnel.io/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

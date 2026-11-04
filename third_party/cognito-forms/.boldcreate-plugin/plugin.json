@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "cognito-forms",
+  "displayName": "Cognito Forms",
+  "version": "0.7.1",
+  "description": "Create forms, analyze submissions, and download files.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.cognitoforms.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "keywords": [
+    "cognito-forms",
+    "productivity",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.cognitoforms.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "cognito-forms",
+        "transport": "streamable-http",
+        "url": "https://mcp.cognitoforms.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge (no OAuth metadata in the challenge); endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "evernote",
+  "displayName": "Evernote",
+  "version": "0.7.1",
+  "description": "Connect Evernote to search, edit, and organize your notes, create new ones, and bring your knowledge into every conversation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://evernote.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "evernote",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "evernote": {
+      "type": "http",
+      "url": "https://mcp.evernote.com/mcp"
+    }
+  }
+}

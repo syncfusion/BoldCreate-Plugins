@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "splice": {
+      "type": "http",
+      "url": "https://mcp.splice.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "runway",
+  "displayName": "Runway (runway.team)",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Automate, coordinate, and monitor your team's mobile app releases.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.runway.team/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "runway",
+    "developer-tools",
+    "mcp"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "motherduck",
+  "displayName": "MotherDuck",
+  "version": "0.7.1",
+  "description": "Get answers from your data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://motherduck.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "motherduck",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "motherduck": {
+      "type": "http",
+      "url": "https://api.motherduck.com/mcp"
+    }
+  }
+}

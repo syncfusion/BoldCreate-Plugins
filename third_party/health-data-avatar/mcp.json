@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "health-data-avatar": {
+      "type": "http",
+      "url": "https://hda-mcp.healthdataavatar.com/mcp"
+    }
+  }
+}

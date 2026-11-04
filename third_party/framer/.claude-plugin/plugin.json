@@ -1,0 +1,24 @@
+{
+  "name": "framer",
+  "displayName": "Framer",
+  "version": "0.7.1",
+  "description": "Design, update, and publish websites with Framer.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.framer.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "framer",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "framer": {
+      "type": "http",
+      "url": "https://mcp.framer.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "cortellis-cmc",
+  "displayName": "Cortellis CMC Intelligence",
+  "version": "0.7.1",
+  "description": "Trusted regulatory CMC insights, powered by Clarivate’s Cortellis CMC Intelligence.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://clarivate.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "cortellis-cmc",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "cortellis-cmc": {
+      "type": "http",
+      "url": "https://api.clarivate.com/lifesciences/mcp-cmc/mcp"
+    }
+  }
+}

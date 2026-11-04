@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "funnel": {
+      "type": "http",
+      "url": "https://mcp.ai.funnel.io/mcp"
+    }
+  }
+}

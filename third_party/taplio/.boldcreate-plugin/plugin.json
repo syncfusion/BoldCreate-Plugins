@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "taplio",
+  "displayName": "Taplio",
+  "version": "0.7.1",
+  "description": "Run your LinkedIn by talking to Claude. Schedule content, pull inspiration from 5M+ viral posts, and get your analytics as plain answers.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://taplio.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "media",
+  "keywords": [
+    "taplio",
+    "media",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://taplio.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "taplio",
+        "transport": "streamable-http",
+        "url": "https://mcp.taplio.com/",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "send",
+  "displayName": "Send",
+  "version": "0.7.1",
+  "description": "Create HTML in Claude. Share it with Send.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.send.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "design",
+  "keywords": [
+    "send",
+    "design",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.send.co/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "send",
+        "transport": "streamable-http",
+        "url": "https://www.send.co/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

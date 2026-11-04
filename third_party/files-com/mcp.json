@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "files-com": {
+      "type": "http",
+      "url": "https://app.files.com/api/ai/mcp/v1"
+    }
+  }
+}

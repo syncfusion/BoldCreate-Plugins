@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "b12-website-generator",
+  "displayName": "Website Generator by B12",
+  "version": "0.7.1",
+  "description": "Build a website or web app in minutes! Generate, design, write code, and create copy for your website. Powered by B12. Contact: hello@b12.io.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.b12.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "b12-website-generator",
+    "developer-tools",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.b12.io/",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "b12-website-generator",
+        "transport": "streamable-http",
+        "url": "https://mcp.b12.io/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP initialize and tools/list on 2026-11-04: HTTP 200 with a tool list, no sign-in asked; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

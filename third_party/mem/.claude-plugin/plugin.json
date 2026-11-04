@@ -1,0 +1,24 @@
+{
+  "name": "mem",
+  "displayName": "Mem",
+  "version": "0.7.1",
+  "description": "The AI notebook for everything on your mind.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://get.mem.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mem",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mem": {
+      "type": "http",
+      "url": "https://mcp.mem.ai/mcp"
+    }
+  }
+}

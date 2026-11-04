@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "close",
+  "displayName": "Close",
+  "version": "0.7.1",
+  "description": "Connect Claude to Close CRM to securely access and act on your sales data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.close.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "marketing",
+  "keywords": [
+    "close",
+    "marketing",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.close.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "close",
+        "transport": "streamable-http",
+        "url": "https://mcp.close.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "gem",
+  "displayName": "Gem",
+  "version": "0.7.1",
+  "description": "Access, analyze, and manage your Gem data in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.gem.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "gem",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "gem": {
+      "type": "http",
+      "url": "https://mcp.gem.com/mcp"
+    }
+  }
+}

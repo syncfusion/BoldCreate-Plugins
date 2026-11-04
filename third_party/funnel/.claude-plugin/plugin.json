@@ -1,0 +1,24 @@
+{
+  "name": "funnel",
+  "displayName": "Funnel",
+  "version": "0.7.1",
+  "description": "Cross-channel marketing analytics across 600+ connectors.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://funnel.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "funnel",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "funnel": {
+      "type": "http",
+      "url": "https://mcp.ai.funnel.io/mcp"
+    }
+  }
+}

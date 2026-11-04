@@ -1,0 +1,24 @@
+{
+  "name": "lunarcrush",
+  "displayName": "LunarCrush",
+  "version": "0.7.1",
+  "description": "Add real-time social media data to your searches.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://lunarcrush.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lunarcrush",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "lunarcrush": {
+      "type": "http",
+      "url": "https://lunarcrush.ai/mcp"
+    }
+  }
+}

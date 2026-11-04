@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "local-falcon": {
+      "type": "http",
+      "url": "https://mcp.localfalcon.com/"
+    }
+  }
+}

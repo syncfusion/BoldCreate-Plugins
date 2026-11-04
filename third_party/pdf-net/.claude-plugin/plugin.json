@@ -1,0 +1,24 @@
+{
+  "name": "pdf-net",
+  "displayName": "PDF.net",
+  "version": "0.7.1",
+  "description": "Generate and edit pdfs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://pdf.net/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "pdf-net",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "pdf-net": {
+      "type": "http",
+      "url": "https://mcp.pdf.net/mcp"
+    }
+  }
+}

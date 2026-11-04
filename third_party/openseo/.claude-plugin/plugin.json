@@ -1,0 +1,24 @@
+{
+  "name": "openseo",
+  "displayName": "OpenSEO",
+  "version": "0.7.1",
+  "description": "SEO made simple.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://openseo.so/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "openseo",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "openseo": {
+      "type": "http",
+      "url": "https://app.openseo.so/mcp"
+    }
+  }
+}

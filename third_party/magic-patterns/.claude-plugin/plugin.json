@@ -1,0 +1,24 @@
+{
+  "name": "magic-patterns",
+  "displayName": "Magic Patterns",
+  "version": "0.7.1",
+  "description": "Discuss and iterate on Magic Patterns designs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.magicpatterns.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "magic-patterns",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "magic-patterns": {
+      "type": "http",
+      "url": "https://mcp.magicpatterns.com/mcp"
+    }
+  }
+}

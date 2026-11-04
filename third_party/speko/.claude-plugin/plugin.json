@@ -1,0 +1,24 @@
+{
+  "name": "speko",
+  "displayName": "Speko",
+  "version": "0.7.1",
+  "description": "Make phone calls, transcribe audio, and narrate text.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://speko.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "speko",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "speko": {
+      "type": "http",
+      "url": "https://mcp.speko.ai/mcp"
+    }
+  }
+}

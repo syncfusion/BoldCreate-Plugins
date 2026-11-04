@@ -1,0 +1,24 @@
+{
+  "name": "airops",
+  "displayName": "AirOps",
+  "version": "0.7.1",
+  "description": "Craft content that wins AI search.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.airops.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "airops",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "airops": {
+      "type": "http",
+      "url": "https://app.airops.com/mcp"
+    }
+  }
+}

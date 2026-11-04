@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "legalzoom",
+  "displayName": "LegalZoom",
+  "version": "0.7.1",
+  "description": "Attorney guidance & tools for business & personal needs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.legalzoom.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "legal",
+  "keywords": [
+    "legalzoom",
+    "legal",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.legalzoom.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "legalzoom",
+        "transport": "streamable-http",
+        "url": "https://www.legalzoom.com/mcp/claude/v1",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

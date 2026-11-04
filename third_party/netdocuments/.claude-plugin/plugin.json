@@ -1,0 +1,24 @@
+{
+  "name": "netdocuments",
+  "displayName": "NetDocuments",
+  "version": "0.7.1",
+  "description": "Securely access your documents in NetDocuments.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.netdocuments.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "netdocuments",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "netdocuments": {
+      "type": "http",
+      "url": "https://web-api.us.netdocuments.app/connect/mcp"
+    }
+  }
+}

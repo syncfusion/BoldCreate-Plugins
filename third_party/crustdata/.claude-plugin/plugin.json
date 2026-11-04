@@ -1,0 +1,24 @@
+{
+  "name": "crustdata",
+  "displayName": "Crustdata",
+  "version": "0.7.1",
+  "description": "Search and enrich B2B company and people data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://crustdata.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "crustdata",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "crustdata": {
+      "type": "http",
+      "url": "https://mcp.crustdata.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "contentsquare": {
+      "type": "http",
+      "url": "https://api.contentsquare.com/mcp"
+    }
+  }
+}

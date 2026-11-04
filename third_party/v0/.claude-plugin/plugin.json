@@ -1,0 +1,24 @@
+{
+  "name": "v0",
+  "displayName": "v0",
+  "version": "0.7.1",
+  "description": "Build Full-Stack Web Apps with AI.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://vercel.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "v0",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "v0": {
+      "type": "http",
+      "url": "https://v0.app/api/mcp"
+    }
+  }
+}

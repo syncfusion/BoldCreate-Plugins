@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "glg": {
+      "type": "http",
+      "url": "https://mcp.glgresearch.com/myglg/mcp"
+    }
+  }
+}

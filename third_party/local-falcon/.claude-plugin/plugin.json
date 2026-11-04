@@ -1,0 +1,24 @@
+{
+  "name": "local-falcon",
+  "displayName": "Local Falcon",
+  "version": "0.7.1",
+  "description": "AI visibility and local search intelligence platform.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.localfalcon.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "local-falcon",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "local-falcon": {
+      "type": "http",
+      "url": "https://mcp.localfalcon.com/"
+    }
+  }
+}

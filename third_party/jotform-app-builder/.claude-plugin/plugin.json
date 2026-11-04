@@ -1,0 +1,24 @@
+{
+  "name": "jotform-app-builder",
+  "displayName": "Jotform App Builder",
+  "version": "0.7.1",
+  "description": "Build and manage no-code apps with AI. Create CRM apps, event apps, school apps, and internal tools. Customize layouts, automate workflows, and publish and share apps.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.jotform.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "jotform-app-builder",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "jotform-app-builder": {
+      "type": "http",
+      "url": "https://mcp.jotform.com/mcp-jotform-apps-v1"
+    }
+  }
+}

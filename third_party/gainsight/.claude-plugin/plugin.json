@@ -1,0 +1,24 @@
+{
+  "name": "gainsight",
+  "displayName": "Gainsight (Staircase AI)",
+  "version": "0.7.1",
+  "description": "Power AI Workflows with Customer Context.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.gainsight.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "gainsight",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "gainsight": {
+      "type": "http",
+      "url": "https://mcp.staircase.ai/mcp"
+    }
+  }
+}

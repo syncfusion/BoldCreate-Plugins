@@ -1,0 +1,24 @@
+{
+  "name": "sumble",
+  "displayName": "Sumble",
+  "version": "0.7.1",
+  "description": "Deep research any account's teams, tech, and people.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://sumble.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "sumble",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "sumble": {
+      "type": "http",
+      "url": "https://mcp.sumble.com/"
+    }
+  }
+}

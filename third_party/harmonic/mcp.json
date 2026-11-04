@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "harmonic": {
+      "type": "http",
+      "url": "https://mcp.api.harmonic.ai/"
+    }
+  }
+}

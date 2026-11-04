@@ -1,0 +1,24 @@
+{
+  "name": "nooks",
+  "displayName": "Nooks",
+  "version": "0.7.1",
+  "description": "Search, access, and get insights on your Nooks data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.nooks.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "nooks",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "nooks": {
+      "type": "http",
+      "url": "https://mcp.nooks.in/mcp"
+    }
+  }
+}

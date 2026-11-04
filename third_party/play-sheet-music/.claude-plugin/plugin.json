@@ -1,0 +1,24 @@
+{
+  "name": "play-sheet-music",
+  "displayName": "Play Sheet Music",
+  "version": "0.7.1",
+  "description": "Ask Claude to generate and play some sheet music for you with a visual component.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://modelcontextprotocol.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "play-sheet-music",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "play-sheet-music": {
+      "type": "http",
+      "url": "https://example-server.modelcontextprotocol.io/sheet-music/mcp"
+    }
+  }
+}

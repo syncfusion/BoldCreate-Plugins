@@ -1,0 +1,24 @@
+{
+  "name": "coralogix",
+  "displayName": "Coralogix",
+  "version": "0.7.1",
+  "description": "Explore and debug your Coralogix observability data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://coralogix.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "coralogix",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "coralogix": {
+      "type": "http",
+      "url": "https://api.eu2.coralogix.com/mgmt/api/v1/mcp"
+    }
+  }
+}

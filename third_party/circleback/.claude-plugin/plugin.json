@@ -1,0 +1,24 @@
+{
+  "name": "circleback",
+  "displayName": "Circleback",
+  "version": "0.7.1",
+  "description": "Search and access context from meetings.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://circleback.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "circleback",
+    "communication",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "circleback": {
+      "type": "http",
+      "url": "https://circleback.ai/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "within",
+  "displayName": "Within",
+  "version": "0.7.1",
+  "description": "Explore your org's processes.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.within.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "within",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "within": {
+      "type": "http",
+      "url": "https://api.within.ai/mcp"
+    }
+  }
+}

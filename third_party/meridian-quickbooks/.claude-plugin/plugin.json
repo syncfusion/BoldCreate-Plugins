@@ -1,0 +1,24 @@
+{
+  "name": "meridian-quickbooks",
+  "displayName": "Meridian Connector for QuickBooks",
+  "version": "0.7.1",
+  "description": "Make changes to QuickBooks Online from within Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://meridian.pilot.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "meridian-quickbooks",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "meridian-quickbooks": {
+      "type": "http",
+      "url": "https://qbo-connector.meridian.pilot.com/mcp"
+    }
+  }
+}

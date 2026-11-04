@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "guidepoint": {
+      "type": "http",
+      "url": "https://clapi.guidepoint.io/mcp-server/v1/mcp"
+    }
+  }
+}

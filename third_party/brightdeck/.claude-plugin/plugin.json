@@ -1,0 +1,24 @@
+{
+  "name": "brightdeck",
+  "displayName": "Brightdeck",
+  "version": "0.7.1",
+  "description": "Create presentations and slides, compatible with PowerPoint.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://brightdeck.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "brightdeck",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "brightdeck": {
+      "type": "http",
+      "url": "https://api.brightdeck.ai/mcp"
+    }
+  }
+}

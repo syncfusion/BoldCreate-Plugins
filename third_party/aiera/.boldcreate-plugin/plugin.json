@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "aiera",
+  "displayName": "Aiera",
+  "version": "0.7.1",
+  "description": "Live events, filings, company publications, and more.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.aiera.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "finance",
+  "keywords": [
+    "aiera",
+    "finance",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.aiera.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "aiera",
+        "transport": "streamable-http",
+        "url": "https://mcp-pub.aiera.com/",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge (no OAuth metadata in the challenge); endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

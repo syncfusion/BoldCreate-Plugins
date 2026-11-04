@@ -1,0 +1,24 @@
+{
+  "name": "health-data-avatar",
+  "displayName": "Health Data Avatar (HDA)",
+  "version": "0.7.1",
+  "description": "Your complete health history structured for Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://healthdataavatar.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "health-data-avatar",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "health-data-avatar": {
+      "type": "http",
+      "url": "https://hda-mcp.healthdataavatar.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "amass-connector": {
+      "type": "http",
+      "url": "https://mcp.amass.tech/mcp"
+    }
+  }
+}

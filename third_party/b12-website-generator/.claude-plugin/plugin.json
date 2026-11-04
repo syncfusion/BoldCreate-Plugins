@@ -1,0 +1,24 @@
+{
+  "name": "b12-website-generator",
+  "displayName": "Website Generator by B12",
+  "version": "0.7.1",
+  "description": "Build a website or web app in minutes! Generate, design, write code, and create copy for your website. Powered by B12. Contact: hello@b12.io.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.b12.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "b12-website-generator",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "b12-website-generator": {
+      "type": "http",
+      "url": "https://mcp.b12.io/mcp"
+    }
+  }
+}

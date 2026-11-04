@@ -1,0 +1,24 @@
+{
+  "name": "idiolect",
+  "displayName": "Idiolect",
+  "version": "0.7.1",
+  "description": "Make Claude write in your real writing voice.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://idiolect.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "idiolect",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "idiolect": {
+      "type": "http",
+      "url": "https://idiolect.app/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ubersuggest",
+  "displayName": "Ubersuggest",
+  "version": "0.7.1",
+  "description": "Keyword research, competitor analysis, backlinks, site audits and AI search visibility — powered by Ubersuggest.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ubersuggest.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ubersuggest",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "ubersuggest": {
+      "type": "http",
+      "url": "https://ubersuggest-mcp.neilpatelapi.com/mcp"
+    }
+  }
+}

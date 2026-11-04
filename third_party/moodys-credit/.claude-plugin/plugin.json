@@ -1,0 +1,24 @@
+{
+  "name": "moodys-credit",
+  "displayName": "Moody's Credit MCP",
+  "version": "0.7.1",
+  "description": "Risk insights, analytics, and decision intelligence.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://moodys.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "moodys-credit",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "moodys-credit": {
+      "type": "http",
+      "url": "https://mcp.moodys.com/genai-ready-data/Credit/mcp"
+    }
+  }
+}

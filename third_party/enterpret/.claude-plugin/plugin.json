@@ -1,0 +1,24 @@
+{
+  "name": "enterpret",
+  "displayName": "Enterpret",
+  "version": "0.7.1",
+  "description": "Get answers from unified feedback of your customers.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://enterpret.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "enterpret",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "enterpret": {
+      "type": "http",
+      "url": "https://wisdom-api.enterpret.com/server/mcp"
+    }
+  }
+}

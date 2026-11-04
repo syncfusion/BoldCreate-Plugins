@@ -1,0 +1,24 @@
+{
+  "name": "text-to-quant",
+  "displayName": "TEXT TO QUANT",
+  "version": "0.7.1",
+  "description": "Backtest trading strategies written in plain English on real market data, with graded, honesty flagged reports.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.texttoquant.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "text-to-quant",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "text-to-quant": {
+      "type": "http",
+      "url": "https://www.texttoquant.com/api/mcp"
+    }
+  }
+}

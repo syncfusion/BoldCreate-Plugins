@@ -1,0 +1,24 @@
+{
+  "name": "orshot",
+  "displayName": "Orshot",
+  "version": "0.7.1",
+  "description": "Automate Videos, PDFs and Images from templates for marketing, post to social platforms, and track and grow engagement.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://orshot.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "orshot",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "orshot": {
+      "type": "http",
+      "url": "https://mcp.orshot.com/mcp"
+    }
+  }
+}

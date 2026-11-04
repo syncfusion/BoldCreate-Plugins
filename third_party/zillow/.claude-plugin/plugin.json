@@ -1,0 +1,24 @@
+{
+  "name": "zillow",
+  "displayName": "Zillow",
+  "version": "0.7.1",
+  "description": "Search homes, rentals, neighborhoods, and affordability.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.zillow.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zillow",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "zillow": {
+      "type": "http",
+      "url": "https://mcp.zillow.com/api/v2"
+    }
+  }
+}

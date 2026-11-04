@@ -1,0 +1,24 @@
+{
+  "name": "tella",
+  "displayName": "Tella",
+  "version": "0.7.1",
+  "description": "Edit, polish, and publish your Tella videos by chatting with Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://tella.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "tella",
+    "media",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "tella": {
+      "type": "http",
+      "url": "https://api.tella.com/mcp"
+    }
+  }
+}

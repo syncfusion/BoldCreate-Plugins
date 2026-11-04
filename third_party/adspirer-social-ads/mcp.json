@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adspirer-social-ads": {
+      "type": "http",
+      "url": "https://mcp.adspirer.com/social-ads"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "coindesk": {
+      "type": "http",
+      "url": "https://mcp.coindesk.com/mcp"
+    }
+  }
+}

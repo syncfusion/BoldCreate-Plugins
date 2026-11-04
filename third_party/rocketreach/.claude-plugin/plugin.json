@@ -1,0 +1,24 @@
+{
+  "name": "rocketreach",
+  "displayName": "RocketReach",
+  "version": "0.7.1",
+  "description": "Verified work emails and phones from 700M+ contacts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://rocketreach.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "rocketreach",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "rocketreach": {
+      "type": "http",
+      "url": "https://mcp.rocketreach.co/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "send",
+  "displayName": "Send",
+  "version": "0.7.1",
+  "description": "Create HTML in Claude. Share it with Send.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.send.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "send",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "send": {
+      "type": "http",
+      "url": "https://www.send.co/mcp"
+    }
+  }
+}

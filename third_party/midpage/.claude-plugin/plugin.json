@@ -1,0 +1,24 @@
+{
+  "name": "midpage",
+  "displayName": "Midpage Legal Research",
+  "version": "0.7.1",
+  "description": "Conduct legal research and create work product.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.midpage.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "midpage",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "midpage": {
+      "type": "http",
+      "url": "https://app.midpage.ai/mcp"
+    }
+  }
+}

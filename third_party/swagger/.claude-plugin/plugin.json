@@ -1,0 +1,24 @@
+{
+  "name": "swagger",
+  "displayName": "Swagger",
+  "version": "0.7.1",
+  "description": "Build, govern, and document APIs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://smartbear.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "swagger",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "swagger": {
+      "type": "http",
+      "url": "https://swagger.mcp.smartbear.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "quo",
+  "displayName": "Quo",
+  "version": "0.7.1",
+  "description": "Surface call insights and missed opportunities.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://quo.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "quo",
+    "communication",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "quo": {
+      "type": "http",
+      "url": "https://mcp.quo.com/mcp"
+    }
+  }
+}
