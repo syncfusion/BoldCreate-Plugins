@@ -39,7 +39,7 @@ The first time the agent calls a tool, each member signs in to Render in the bro
 
 ## Logo
 
-Neutral tile with the product's initials.
+Render mark from [Simple Icons](https://simpleicons.org) (CC0) in brand colour #000000, on a padded white tile. The mark is a trademark of its owner.
 
 ## License
 
