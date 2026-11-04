@@ -23,9 +23,24 @@
       "description": "Search AWS documentation, API references, and regional availability."
     },
     {
+      "name": "blockscout",
+      "source": "./third_party/blockscout",
+      "description": "Query Ethereum and EVM blockchains: blocks, transactions, addresses, tokens, and smart contracts."
+    },
+    {
       "name": "boldcreate-toolkit",
       "source": "./boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
+    },
+    {
+      "name": "cloudflare",
+      "source": "./third_party/cloudflare",
+      "description": "Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more."
+    },
+    {
+      "name": "coingecko",
+      "source": "./third_party/coingecko",
+      "description": "Track cryptocurrency prices, markets, exchanges, and trending coins."
     },
     {
       "name": "context7",
@@ -36,6 +51,11 @@
       "name": "deepwiki",
       "source": "./third_party/deepwiki",
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
+    },
+    {
+      "name": "excalidraw",
+      "source": "./third_party/excalidraw",
+      "description": "Create and edit hand-drawn style diagrams, wireframes, and sketches from text prompts."
     },
     {
       "name": "figma",
@@ -186,6 +206,11 @@
       "name": "google-workspace-search",
       "source": "./third_party/google-workspace-search",
       "description": "Search across Gmail, Drive, Calendar, and other Google Workspace content in one place."
+    },
+    {
+      "name": "huggingface",
+      "source": "./third_party/huggingface",
+      "description": "Search Hugging Face for models, datasets, and spaces."
     },
     {
       "name": "linear",
