@@ -1,0 +1,97 @@
+# Changelog
+
+All notable changes to this skill are documented here.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+- `references/appsec/bot-detection/` — bot detection / AppSec challenge mode (CrowdSec 1.8):
+  `overview.md` (PoW + fingerprint model, challenge envelope, event vocabulary, bouncer
+  support), `deploy.md` (bundle choice, glob acquisition, bouncer wiring, four-step smoke
+  test), `configure.md` (the `challenge:` block, multi-instance `master_secret`, difficulty
+  levels), `customize.md` (hook/helper matrix, exemptions, `MatchKnownBot` datafiles,
+  fingerprint scoring, custom scenarios), `troubleshoot.md` (10 symptoms + metrics reading).
+- `CONTRIBUTING.md` and `.github/ISSUE_TEMPLATE/` (bug report, coverage request,
+  routing config).
+- `README.md` — **Reference docs** index linking each `references/` area.
+
+### Changed
+- `SKILL.md` — bot-detection routing rows, boundary row, trigger phrases in `description`,
+  and a new **Step 1.6 — Feature compatibility** table holding minimum engine versions and
+  feature prerequisites in one place.
+- `references/appsec/{overview,configure,deploy,troubleshoot}.md` — `challenge` action,
+  `on_challenge` / `on_challenge_submit` hooks, and pointers into `bot-detection/`.
+- `references/configure/bouncers/web-servers.md` — per-bouncer bot-detection capability column.
+- `README.md` — title and opening rewritten to state what the plugin is and which agents it
+  targets; version badge now reads `plugin.json` at render time; emoji removed from headings
+  so anchors are stable; marketplace/plugin/skill naming stated explicitly.
+- `CLAUDE.md` — `install/` layout row lists `pfsense.md`.
+
+### Fixed
+- `references/install/console.md` — `cscli console enroll` enables `manual` and `context`
+  (with `tainted`); the `share_*` false defaults only apply to never-enrolled engines.
+- `README.md` — Install row said OpnSense; the install doc covers pfSense. OPNsense/FreeBSD
+  is covered under `configure/` and `appsec/`, not `install/`.
+- `README.md` — doc link pointed at `doc.crowdsec.net`; now `docs.crowdsec.net` throughout.
+
+## [0.2.3] - 2026-05-29
+
+## [0.2.2] - 2026-05-26
+
+## [0.2.1] - 2026-05-25
+
+## [0.2.0] - 2026-05-22
+
+## [0.1.1] - 2026-05-21
+
+### Added
+- `references/configure/acquisition.md` — file/journald/docker datasources, the
+  `labels.type` model, verification with `crowdsec -t` / `cscli metrics show acquisition`
+  / `cscli explain`, and common pitfalls.
+- `references/configure/profiles.md` — alert→decision flow, why alerts don't always ban,
+  `profiles.yaml` structure, ban/captcha/throttle, `duration_expr` escalation, simulation
+  mode, and allowlist interaction.
+- `references/configure/hub.md` — collections vs items, `update` vs `upgrade`, tainted-item
+  detection and repair, `_custom/` overrides, and the `sed -i` symlink-break pitfall.
+- `references/configure/bouncers/web-servers.md` — full Traefik
+  (`maxlerebourg/crowdsec-bouncer-traefik-plugin`) and Caddy
+  (`hslatman/caddy-crowdsec-bouncer`) setup, AppSec wiring, and real-client-IP handling,
+  replacing the previous canonical-pointer stubs; plus a "Pick your bouncer" section index.
+- `references/operate/upgrades.md` — lean per-environment upgrade runbook (backward-compatible
+  happy path, independent bouncer cadence), the hub-upgrade-skips-tainted consequence,
+  backup-when-it-matters, and a verified rollback note.
+
+### Changed
+- `crowdsec/SKILL.md` — dropped the stub markers on acquisition/profiles/hub/upgrades; split
+  the single web-servers bouncer row into per-bouncer `§`-section routing rows (also adding
+  haproxy/apache cues); added a real-client-IP / reverse-proxy routing cue; and corrected the
+  cheat sheet (`cscli profiles list` does not exist; read `/etc/crowdsec/profiles.yaml`).
+
+## [0.1.0] - 2026-05-20
+
+## [0.1.0] - 2026-05-19
+
+### Added
+- Initial release of the CrowdSec operational skill.
+- `crowdsec/SKILL.md` covering install, configure, operate, and debug flows for
+  bare-metal/systemd, Docker, and Kubernetes/Helm.
+- Reference docs:
+  - `references/install/` — Docker and Kubernetes install notes.
+  - `references/operate/` — health check and audit guidance.
+  - `references/appsec/` — AppSec/WAF troubleshooting.
+  - `references/debug/` — triage and common errors.
+- Helper script:
+  - `scripts/diagnose.sh` — first-look triage; wraps `cscli support dump`
+    (auto-detecting systemd / Docker / Kubernetes) into a curated report.
+- Marketplace + plugin manifests under `.claude-plugin/`.
+
+[0.1.0]: https://github.com/crowdsecurity/crowdsec-skill/compare/v0.1.0...v0.1.0
+[0.1.1]: https://github.com/crowdsecurity/crowdsec-skill/compare/v0.1.0...v0.1.1
+[0.2.0]: https://github.com/crowdsecurity/crowdsec-skill/compare/v0.1.1...v0.2.0
+[0.2.1]: https://github.com/crowdsecurity/crowdsec-skill/compare/v0.2.0...v0.2.1
+[0.2.2]: https://github.com/crowdsecurity/crowdsec-skill/compare/v0.2.1...v0.2.2
+[Unreleased]: https://github.com/crowdsecurity/crowdsec-skill/compare/v0.2.3...HEAD
+[0.2.3]: https://github.com/crowdsecurity/crowdsec-skill/compare/v0.2.2...v0.2.3

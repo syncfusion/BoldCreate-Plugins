@@ -1,0 +1,42 @@
+{
+  "name": "crowdsecurity",
+  "owner": {
+    "name": "CrowdSec",
+    "url": "https://github.com/crowdsecurity"
+  },
+  "metadata": {
+    "description": "CrowdSec skills and tooling \u2014 operational automation for installing, configuring, and debugging CrowdSec, plus a Service API skill for the premium Console cloud API."
+  },
+  "plugins": [
+    {
+      "name": "crowdsec",
+      "source": "./",
+      "description": "CrowdSec skills: an operational skill (engine, cscli, hub, bouncers, WAF/AppSec and bot detection across bare-metal, Docker, Kubernetes) and a Service API skill (premium Console cloud API \u2014 blocklists, allowlists, firewall integrations, metrics, decisions).",
+      "version": "0.3.0",
+      "author": {
+        "name": "CrowdSec",
+        "url": "https://github.com/crowdsecurity"
+      },
+      "homepage": "https://github.com/crowdsecurity/crowdsec-skill",
+      "repository": "https://github.com/crowdsecurity/crowdsec-skill",
+      "license": "MIT",
+      "keywords": [
+        "crowdsec",
+        "security",
+        "waf",
+        "appsec",
+        "ids",
+        "ips",
+        "bouncer",
+        "fail2ban",
+        "devops",
+        "sre",
+        "console",
+        "service-api",
+        "sapi",
+        "blocklist",
+        "integration"
+      ]
+    }
+  ]
+}
