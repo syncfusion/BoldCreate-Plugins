@@ -1,0 +1,24 @@
+{
+  "name": "rippit",
+  "displayName": "Rippit",
+  "version": "0.7.1",
+  "description": "Run dynamic AI analysis on 100% of conversations.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.rippit.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "rippit",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "rippit": {
+      "type": "http",
+      "url": "https://mcp.rippit.com/mcp"
+    }
+  }
+}

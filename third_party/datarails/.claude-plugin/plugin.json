@@ -1,0 +1,24 @@
+{
+  "name": "datarails",
+  "displayName": "Datarails FinanceOS",
+  "version": "0.7.1",
+  "description": "Query and analyze your company's consolidated financial data from Datarails FinanceOS.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.datarails.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "datarails",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "datarails": {
+      "type": "http",
+      "url": "https://mcp.datarails.com/mcp"
+    }
+  }
+}

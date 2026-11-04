@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "tomorrow-io-weather",
+  "displayName": "Tomorrow.io Weather MCP App",
+  "version": "0.7.1",
+  "description": "Interactive weather, air quality, pollen, and wildfire-risk widgets powered by Tomorrow.io — live forecasts and conditions for any location, right inside Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.tomorrow.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "science",
+  "keywords": [
+    "tomorrow-io-weather",
+    "science",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.tomorrow.io/",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "tomorrow-io-weather",
+        "transport": "streamable-http",
+        "url": "https://api.tomorrow.io/v4/weather-intelligence/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP initialize and tools/list on 2026-11-04: HTTP 200 with a tool list, no sign-in asked; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

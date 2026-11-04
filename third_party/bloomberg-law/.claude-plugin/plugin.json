@@ -1,0 +1,24 @@
+{
+  "name": "bloomberg-law",
+  "displayName": "Bloomberg Law",
+  "version": "0.7.1",
+  "description": "Legal intelligence powered by Bloomberg AI.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.bloombergindustry.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "bloomberg-law",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "bloomberg-law": {
+      "type": "http",
+      "url": "https://gw.mcp.bindg.ai/blaw/mcp"
+    }
+  }
+}

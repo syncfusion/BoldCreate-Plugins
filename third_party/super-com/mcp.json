@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "super-com": {
+      "type": "http",
+      "url": "https://www.super.com/travel/mcp"
+    }
+  }
+}

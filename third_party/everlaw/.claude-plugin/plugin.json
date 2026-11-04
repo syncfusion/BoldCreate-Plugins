@@ -1,0 +1,24 @@
+{
+  "name": "everlaw",
+  "displayName": "Everlaw",
+  "version": "0.7.1",
+  "description": "Search and explore your Everlaw database in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://everlaw.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "everlaw",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "everlaw": {
+      "type": "http",
+      "url": "https://api.everlaw.com/v1/mcp"
+    }
+  }
+}

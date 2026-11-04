@@ -1,0 +1,24 @@
+{
+  "name": "canary-data",
+  "displayName": "Canary Data",
+  "version": "0.7.1",
+  "description": "Perform world-class investment analysis.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://canarydata.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "canary-data",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "canary-data": {
+      "type": "http",
+      "url": "https://api.canary-data.com/mcp"
+    }
+  }
+}

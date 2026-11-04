@@ -1,0 +1,28 @@
+{
+  "name": "tomorrow-io-weather",
+  "displayName": "Tomorrow.io Weather MCP App",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Interactive weather, air quality, pollen, and wildfire-risk widgets powered by Tomorrow.io — live forecasts and conditions for any location, right inside Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.tomorrow.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "tomorrow-io-weather",
+    "science",
+    "mcp"
+  ],
+  "category": "science",
+  "tags": [
+    "science",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

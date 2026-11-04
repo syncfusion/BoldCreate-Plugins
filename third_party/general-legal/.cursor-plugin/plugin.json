@@ -1,0 +1,28 @@
+{
+  "name": "general-legal",
+  "displayName": "General Legal",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Submit contracts for attorney review, answer their questions, and get redlined documents back — without leaving Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://general.legal/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "general-legal",
+    "legal",
+    "mcp"
+  ],
+  "category": "legal",
+  "tags": [
+    "legal",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

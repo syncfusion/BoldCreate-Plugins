@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "juro-contracts": {
+      "type": "http",
+      "url": "https://integrations.app.juro.com/mcp"
+    }
+  }
+}

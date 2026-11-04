@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "listen-labs": {
+      "type": "http",
+      "url": "https://listenlabs.ai/mcp"
+    }
+  }
+}

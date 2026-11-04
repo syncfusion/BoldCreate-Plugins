@@ -1,0 +1,24 @@
+{
+  "name": "intuit-developer",
+  "displayName": "Intuit Developer",
+  "version": "0.7.1",
+  "description": "Build and test integrations with Intuit APIs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.intuit.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "intuit-developer",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "intuit-developer": {
+      "type": "http",
+      "url": "https://ai-inc-developer.intuit.com/v1/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "macaly-cloud": {
+      "type": "http",
+      "url": "https://www.macaly.com/api/cloud/claude/mcp"
+    }
+  }
+}

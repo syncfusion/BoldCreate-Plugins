@@ -1,0 +1,24 @@
+{
+  "name": "etherscan",
+  "displayName": "Etherscan",
+  "version": "0.7.1",
+  "description": "Explore wallets, tokens, transactions, contracts, logs, blocks, and gas across 60+ EVM chains with Etherscan.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://etherscan.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "etherscan",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "etherscan": {
+      "type": "http",
+      "url": "https://mcp-keyless.etherscan.io/mcp"
+    }
+  }
+}

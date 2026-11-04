@@ -1,0 +1,24 @@
+{
+  "name": "morning-consult",
+  "displayName": "Morning Consult",
+  "version": "0.7.1",
+  "description": "Global market intelligence: brands, economy & politics.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://morningconsult.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "morning-consult",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "morning-consult": {
+      "type": "http",
+      "url": "https://api.morningconsult.com/mcp"
+    }
+  }
+}

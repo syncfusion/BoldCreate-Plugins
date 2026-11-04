@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "webex-for-claude": {
+      "type": "http",
+      "url": "https://mcp.webexapis.com/mcp/webex-suite"
+    }
+  }
+}

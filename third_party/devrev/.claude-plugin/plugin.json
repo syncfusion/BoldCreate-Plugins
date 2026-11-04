@@ -1,0 +1,24 @@
+{
+  "name": "devrev",
+  "displayName": "DevRev",
+  "version": "0.7.1",
+  "description": "Search and update your company's knowledge graph.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://devrev.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "devrev",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "devrev": {
+      "type": "http",
+      "url": "https://api.devrev.ai/mcp/v1"
+    }
+  }
+}

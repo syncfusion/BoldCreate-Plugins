@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "menti": {
+      "type": "http",
+      "url": "https://ai.mentimeter.com/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "yardi-matrix",
+  "displayName": "Yardi Matrix",
+  "version": "0.7.1",
+  "description": "Real estate market intelligence from Yardi Matrix.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.yardi.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "yardi-matrix",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "yardi-matrix": {
+      "type": "http",
+      "url": "https://matrixmcp.virtuoso.ai/mcp/"
+    }
+  }
+}

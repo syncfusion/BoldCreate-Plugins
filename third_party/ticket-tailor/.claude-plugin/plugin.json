@@ -1,0 +1,24 @@
+{
+  "name": "ticket-tailor",
+  "displayName": "Ticket Tailor",
+  "version": "0.7.1",
+  "description": "Event platform for managing tickets, orders & more.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.tickettailor.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ticket-tailor",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "ticket-tailor": {
+      "type": "http",
+      "url": "https://mcp.tickettailor.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ringcentral-chat",
+  "displayName": "RingCentral Chat",
+  "version": "0.7.1",
+  "description": "Stay on top of team communications and collaborate in RingCentral Team Chat directly within Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ringcentral.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ringcentral-chat",
+    "communication",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "ringcentral-chat": {
+      "type": "http",
+      "url": "https://mcp.labs.ringcentral.com/ringex/v1.1.0/team-chat"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "jotform-sign",
+  "displayName": "Jotform Sign",
+  "version": "0.7.1",
+  "description": "Create, share, and edit e-signature documents right inside Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.jotform.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "jotform-sign",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "jotform-sign": {
+      "type": "http",
+      "url": "https://mcp.jotform.com/mcp-sign-v1"
+    }
+  }
+}

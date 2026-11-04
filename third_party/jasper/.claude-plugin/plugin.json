@@ -1,0 +1,24 @@
+{
+  "name": "jasper",
+  "displayName": "Jasper",
+  "version": "0.7.1",
+  "description": "Keep every Claude session on-brand.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://jasper.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "jasper",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "jasper": {
+      "type": "http",
+      "url": "https://mcp.jasper.ai/"
+    }
+  }
+}

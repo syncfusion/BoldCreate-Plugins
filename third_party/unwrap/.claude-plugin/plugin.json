@@ -1,0 +1,24 @@
+{
+  "name": "unwrap",
+  "displayName": "Unwrap",
+  "version": "0.7.1",
+  "description": "Search and analyze customer feedback.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.unwrap.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "unwrap",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "unwrap": {
+      "type": "http",
+      "url": "https://nlp.api.production.unwrap.ai/mcp"
+    }
+  }
+}

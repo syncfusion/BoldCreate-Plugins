@@ -1,0 +1,24 @@
+{
+  "name": "felt-maps",
+  "displayName": "Felt Maps",
+  "version": "0.7.1",
+  "description": "Map and analyze your geospatial data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://felt.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "felt-maps",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "felt-maps": {
+      "type": "http",
+      "url": "https://felt.com/mcp"
+    }
+  }
+}

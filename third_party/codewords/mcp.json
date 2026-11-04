@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "codewords": {
+      "type": "http",
+      "url": "https://runtime.codewords.ai/run/devx_mcp/mcp"
+    }
+  }
+}

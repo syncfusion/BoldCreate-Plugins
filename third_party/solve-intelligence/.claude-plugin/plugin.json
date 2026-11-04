@@ -1,0 +1,24 @@
+{
+  "name": "solve-intelligence",
+  "displayName": "Solve Intelligence",
+  "version": "0.7.1",
+  "description": "Search, draft, and chart patents.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.solveintelligence.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "solve-intelligence",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "solve-intelligence": {
+      "type": "http",
+      "url": "https://api.solveintelligence.com/mcp/"
+    }
+  }
+}

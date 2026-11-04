@@ -1,0 +1,24 @@
+{
+  "name": "maven-bio",
+  "displayName": "Maven Bio",
+  "version": "0.7.1",
+  "description": "Biopharma catalysts, pipelines, trials, deals, and the citable primary sources behind them.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mavenbio.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "maven-bio",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "maven-bio": {
+      "type": "http",
+      "url": "https://mcp.mavenbio.com/"
+    }
+  }
+}

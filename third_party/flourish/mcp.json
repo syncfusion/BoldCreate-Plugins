@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flourish": {
+      "type": "http",
+      "url": "https://app.flourish.studio/mcp"
+    }
+  }
+}

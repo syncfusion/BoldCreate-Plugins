@@ -1,0 +1,24 @@
+{
+  "name": "rootly",
+  "displayName": "Rootly",
+  "version": "0.7.1",
+  "description": "Connect AI agents to Rootly for incident management, on-call, and reliability data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://rootly.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "rootly",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "rootly": {
+      "type": "http",
+      "url": "https://mcp.rootly.com/mcp"
+    }
+  }
+}

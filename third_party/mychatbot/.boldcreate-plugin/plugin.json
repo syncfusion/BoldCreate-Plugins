@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mychatbot",
+  "displayName": "MyChatBot",
+  "version": "0.7.1",
+  "description": "Build and run an AI sales agent for your business.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mychatbot.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "commerce",
+  "keywords": [
+    "mychatbot",
+    "commerce",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://mychatbot.app/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "mychatbot",
+        "transport": "streamable-http",
+        "url": "https://connector.mychatbot.app/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

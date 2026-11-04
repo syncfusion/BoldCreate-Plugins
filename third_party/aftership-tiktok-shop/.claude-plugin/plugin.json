@@ -1,0 +1,24 @@
+{
+  "name": "aftership-tiktok-shop",
+  "displayName": "AfterShip Channels for TikTok Shop",
+  "version": "0.7.1",
+  "description": "List, sync & grow your TikTok Shop business.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.aftership.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "aftership-tiktok-shop",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "aftership-tiktok-shop": {
+      "type": "http",
+      "url": "https://mcp.aftership.com/channels"
+    }
+  }
+}

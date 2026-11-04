@@ -1,0 +1,24 @@
+{
+  "name": "airwallex",
+  "displayName": "Airwallex Developer",
+  "version": "0.7.1",
+  "description": "Integrate with the Airwallex Platform using Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.airwallex.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "airwallex",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "airwallex": {
+      "type": "http",
+      "url": "https://mcp-demo.airwallex.com/developer"
+    }
+  }
+}

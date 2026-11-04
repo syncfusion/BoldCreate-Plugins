@@ -1,0 +1,24 @@
+{
+  "name": "codewords",
+  "displayName": "CodeWords",
+  "version": "0.7.1",
+  "description": "Build AI agents and automations by chatting.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://codewords.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "codewords",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "codewords": {
+      "type": "http",
+      "url": "https://runtime.codewords.ai/run/devx_mcp/mcp"
+    }
+  }
+}

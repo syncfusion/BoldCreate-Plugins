@@ -1,0 +1,24 @@
+{
+  "name": "payhawk",
+  "displayName": "Payhawk",
+  "version": "0.7.1",
+  "description": "Ask and act on company spend: cards, invoices, travel.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://payhawk.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "payhawk",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "payhawk": {
+      "type": "http",
+      "url": "https://mcp.payhawk.com/mcp"
+    }
+  }
+}

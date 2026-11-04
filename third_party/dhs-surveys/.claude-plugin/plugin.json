@@ -1,0 +1,24 @@
+{
+  "name": "dhs-surveys",
+  "displayName": "Demographic and Health Surveys",
+  "version": "0.7.1",
+  "description": "Data from The Demographic and Health Surveys Program.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://dhsprogram.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "dhs-surveys",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "dhs-surveys": {
+      "type": "http",
+      "url": "https://api.dhsprogram.com/mcp"
+    }
+  }
+}

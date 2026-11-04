@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "plaid-developer-tools": {
+      "type": "http",
+      "url": "https://api.dashboard.plaid.com/mcp/sse"
+    }
+  }
+}

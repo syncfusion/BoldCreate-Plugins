@@ -1,0 +1,24 @@
+{
+  "name": "thoughtspot-spotter",
+  "displayName": "ThoughtSpot Spotter",
+  "version": "0.7.1",
+  "description": "Your AI data analyst, from question to trusted insights.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.thoughtspot.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "thoughtspot-spotter",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "thoughtspot-spotter": {
+      "type": "http",
+      "url": "https://agent.thoughtspot.app/mcp?api-version=latest"
+    }
+  }
+}

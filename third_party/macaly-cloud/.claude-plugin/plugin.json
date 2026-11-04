@@ -1,0 +1,24 @@
+{
+  "name": "macaly-cloud",
+  "displayName": "Macaly Cloud",
+  "version": "0.7.1",
+  "description": "Claude writes the code, Macaly runs it - a git repo, cloud sandbox, database, live preview and production hosting for the apps you build in chat.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://macaly.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "macaly-cloud",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "macaly-cloud": {
+      "type": "http",
+      "url": "https://www.macaly.com/api/cloud/claude/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "helena-by-enrich-labs",
+  "displayName": "Helena by Enrich Labs",
+  "version": "0.7.1",
+  "description": "Your AI marketer for paid ads, SEO, email, social, and analytics.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.enrichlabs.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "helena-by-enrich-labs",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "helena-by-enrich-labs": {
+      "type": "http",
+      "url": "https://agent.enrichlabs.ai/api/mcp"
+    }
+  }
+}

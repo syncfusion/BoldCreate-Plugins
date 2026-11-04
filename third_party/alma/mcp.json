@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "alma": {
+      "type": "http",
+      "url": "https://mcp.alma.food/"
+    }
+  }
+}

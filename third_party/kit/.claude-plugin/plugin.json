@@ -1,0 +1,24 @@
+{
+  "name": "kit",
+  "displayName": "Kit",
+  "version": "0.7.1",
+  "description": "Search, analyze, draft, and manage your email marketing.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://kit.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "kit",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "kit": {
+      "type": "http",
+      "url": "https://app.kit.com/mcp"
+    }
+  }
+}

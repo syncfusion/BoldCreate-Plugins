@@ -1,0 +1,24 @@
+{
+  "name": "adspirer-search-ads",
+  "displayName": "Adspirer Search Ads",
+  "version": "0.7.1",
+  "description": "PPC and paid search agent for Google Ads and Microsoft Advertising (Bing Ads) — does competitor ads research, plans, launches, and autonomously runs your search advertising campaigns.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.adspirer.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "adspirer-search-ads",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "adspirer-search-ads": {
+      "type": "http",
+      "url": "https://mcp.adspirer.com/search-ads"
+    }
+  }
+}

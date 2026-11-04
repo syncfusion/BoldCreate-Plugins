@@ -1,0 +1,24 @@
+{
+  "name": "mychatbot",
+  "displayName": "MyChatBot",
+  "version": "0.7.1",
+  "description": "Build and run an AI sales agent for your business.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mychatbot.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mychatbot",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mychatbot": {
+      "type": "http",
+      "url": "https://connector.mychatbot.app/mcp"
+    }
+  }
+}

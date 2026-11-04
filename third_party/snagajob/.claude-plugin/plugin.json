@@ -1,0 +1,24 @@
+{
+  "name": "snagajob",
+  "displayName": "Snagajob",
+  "version": "0.7.1",
+  "description": "Find your next job.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.jobget.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "snagajob",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "snagajob": {
+      "type": "http",
+      "url": "https://platform.jobget.com/jobs-mcp/mcp"
+    }
+  }
+}

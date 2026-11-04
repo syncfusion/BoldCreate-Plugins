@@ -1,0 +1,24 @@
+{
+  "name": "rillet",
+  "displayName": "Rillet",
+  "version": "0.7.1",
+  "description": "Query your live GL and financials in plain English.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.rillet.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "rillet",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "rillet": {
+      "type": "http",
+      "url": "https://api.rillet.com/mcp"
+    }
+  }
+}

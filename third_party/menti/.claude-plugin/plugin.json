@@ -1,0 +1,24 @@
+{
+  "name": "menti",
+  "displayName": "Menti",
+  "version": "0.7.1",
+  "description": "Make Mentimeter presentations.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.mentimeter.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "menti",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "menti": {
+      "type": "http",
+      "url": "https://ai.mentimeter.com/api/mcp"
+    }
+  }
+}

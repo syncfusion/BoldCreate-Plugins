@@ -1,0 +1,24 @@
+{
+  "name": "juro-contracts",
+  "displayName": "Juro contracts",
+  "version": "0.7.1",
+  "description": "Query & work with contracts effortlessly throughout the lifecycle to agree contracts faster.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://juro.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "juro-contracts",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "juro-contracts": {
+      "type": "http",
+      "url": "https://integrations.app.juro.com/mcp"
+    }
+  }
+}

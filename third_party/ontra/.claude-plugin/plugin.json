@@ -1,0 +1,24 @@
+{
+  "name": "ontra",
+  "displayName": "Ontra",
+  "version": "0.7.1",
+  "description": "Query your Ontra data directly from any AI tool.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.ontra.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ontra",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "ontra": {
+      "type": "http",
+      "url": "https://mcp.ontra.ai/mcp"
+    }
+  }
+}

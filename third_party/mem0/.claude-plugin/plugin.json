@@ -1,0 +1,24 @@
+{
+  "name": "mem0",
+  "displayName": "Mem0",
+  "version": "0.7.1",
+  "description": "Persistent memory for AI agents & assistants.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mem0.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mem0",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mem0": {
+      "type": "http",
+      "url": "https://mcp.mem0.ai/mcp/"
+    }
+  }
+}

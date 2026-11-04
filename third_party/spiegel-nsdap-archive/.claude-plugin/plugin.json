@@ -1,0 +1,24 @@
+{
+  "name": "spiegel-nsdap-archive",
+  "displayName": "NSDAP Archiv - DER SPIEGEL",
+  "version": "0.7.1",
+  "description": "Search for NSDAP party members.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.spiegel.de/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "spiegel-nsdap-archive",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "spiegel-nsdap-archive": {
+      "type": "http",
+      "url": "https://nsdap-mcp.prod.ki.spiegel.de/mcp"
+    }
+  }
+}

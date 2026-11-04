@@ -1,0 +1,24 @@
+{
+  "name": "stack-overflow",
+  "displayName": "Stack Overflow",
+  "version": "0.7.1",
+  "description": "Access Stack Overflow's trusted content.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://stackoverflow.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "stack-overflow",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "stack-overflow": {
+      "type": "http",
+      "url": "https://mcp.stackoverflow.com/"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "pinegap",
+  "displayName": "Pinegap",
+  "version": "0.7.1",
+  "description": "AI-powered Equity Research Platform.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.pinegap.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "pinegap",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "pinegap": {
+      "type": "http",
+      "url": "https://mcp.pinegap.ai/"
+    }
+  }
+}

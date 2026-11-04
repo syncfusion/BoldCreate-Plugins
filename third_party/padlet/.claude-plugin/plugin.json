@@ -1,0 +1,24 @@
+{
+  "name": "padlet",
+  "displayName": "Padlet",
+  "version": "0.7.1",
+  "description": "Create and manage padlets.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://padlet.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "padlet",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "padlet": {
+      "type": "http",
+      "url": "https://mcp.padlet.com/"
+    }
+  }
+}

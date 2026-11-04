@@ -1,0 +1,24 @@
+{
+  "name": "webex-for-claude",
+  "displayName": "Webex for Claude",
+  "version": "0.7.1",
+  "description": "Access your Webex meetings, messaging, and Vidcast content securely in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://cisco.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "webex-for-claude",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "webex-for-claude": {
+      "type": "http",
+      "url": "https://mcp.webexapis.com/mcp/webex-suite"
+    }
+  }
+}

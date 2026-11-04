@@ -1,0 +1,24 @@
+{
+  "name": "listen-labs",
+  "displayName": "Listen Labs",
+  "version": "0.7.1",
+  "description": "Analyze user insights from Listen Labs.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://listenlabs.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "listen-labs",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "listen-labs": {
+      "type": "http",
+      "url": "https://listenlabs.ai/mcp"
+    }
+  }
+}

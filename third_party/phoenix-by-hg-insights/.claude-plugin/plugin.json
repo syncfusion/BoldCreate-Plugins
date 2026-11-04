@@ -1,0 +1,24 @@
+{
+  "name": "phoenix-by-hg-insights",
+  "displayName": "Phoenix by HG Insights",
+  "version": "0.7.1",
+  "description": "AI-powered B2B data intelligence & analytics.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://hginsights.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "phoenix-by-hg-insights",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "phoenix-by-hg-insights": {
+      "type": "http",
+      "url": "https://phoenix.hginsights.com/api/ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "reclaim-ai",
+  "displayName": "Reclaim.ai",
+  "version": "0.7.1",
+  "description": "Advanced scheduling for personal and work calendars.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://reclaim.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "reclaim-ai",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "reclaim-ai": {
+      "type": "http",
+      "url": "https://mcp.reclaim.ai/"
+    }
+  }
+}

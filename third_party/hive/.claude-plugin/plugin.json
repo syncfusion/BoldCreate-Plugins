@@ -1,0 +1,24 @@
+{
+  "name": "hive",
+  "displayName": "Hive",
+  "version": "0.7.1",
+  "description": "Manage projects, tasks, approvals, resources, and customer work in Hive.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://hive.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "hive",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "hive": {
+      "type": "http",
+      "url": "https://hive-mind.hive.com/mcp"
+    }
+  }
+}

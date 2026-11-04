@@ -1,0 +1,24 @@
+{
+  "name": "candid",
+  "displayName": "Candid",
+  "version": "0.7.1",
+  "description": "Research nonprofits and funders using Candid's data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://candid.org/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "candid",
+    "data",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "candid": {
+      "type": "http",
+      "url": "https://mcp.candid.org/mcp"
+    }
+  }
+}

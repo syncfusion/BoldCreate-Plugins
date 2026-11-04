@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pocketsmith-complete-access": {
+      "type": "http",
+      "url": "https://mcp.pocketsmith.com/mcp"
+    }
+  }
+}

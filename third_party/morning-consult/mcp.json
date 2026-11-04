@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "morning-consult": {
+      "type": "http",
+      "url": "https://api.morningconsult.com/mcp"
+    }
+  }
+}

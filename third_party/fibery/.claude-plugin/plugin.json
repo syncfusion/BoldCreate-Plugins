@@ -1,0 +1,24 @@
+{
+  "name": "fibery",
+  "displayName": "Fibery",
+  "version": "0.7.1",
+  "description": "Build your modular workspace with Claude: describe any process, from roadmaps and CRM to hiring and OKRs, and get it set up in Fibery, a work platform for orgs run by nerds.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://fibery.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fibery",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "fibery": {
+      "type": "http",
+      "url": "https://mcp.fibery.io/mcp"
+    }
+  }
+}

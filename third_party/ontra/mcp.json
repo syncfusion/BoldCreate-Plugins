@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ontra": {
+      "type": "http",
+      "url": "https://mcp.ontra.ai/mcp"
+    }
+  }
+}

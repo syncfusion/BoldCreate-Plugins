@@ -1,0 +1,24 @@
+{
+  "name": "coinmarketcap",
+  "displayName": "CoinMarketCap",
+  "version": "0.7.1",
+  "description": "Real-time crypto market and on-chain data analysis.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://coinmarketcap.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "coinmarketcap",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "coinmarketcap": {
+      "type": "http",
+      "url": "https://mcp.coinmarketcap.com/mcp"
+    }
+  }
+}

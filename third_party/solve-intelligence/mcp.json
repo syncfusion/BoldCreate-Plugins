@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "solve-intelligence": {
+      "type": "http",
+      "url": "https://api.solveintelligence.com/mcp/"
+    }
+  }
+}

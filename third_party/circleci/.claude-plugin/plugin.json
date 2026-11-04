@@ -1,0 +1,24 @@
+{
+  "name": "circleci",
+  "displayName": "CircleCI",
+  "version": "0.7.1",
+  "description": "Manage CI/CD pipelines, debug failed builds, and optimize test suites directly from Claude - no terminal required.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://circleci.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "circleci",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "circleci": {
+      "type": "http",
+      "url": "https://mcp.circleci.com/v1/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "crunchbase",
+  "displayName": "Crunchbase",
+  "version": "0.7.1",
+  "description": "Access reliable company data, market signals, and forward-looking predictions to research organizations, compare performance, uncover emerging trends, and make faster, more informed business decisions.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.crunchbase.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "crunchbase",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "crunchbase": {
+      "type": "http",
+      "url": "https://mcp.crunchbase.com/"
+    }
+  }
+}

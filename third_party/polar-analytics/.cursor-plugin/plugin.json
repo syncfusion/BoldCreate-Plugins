@@ -1,0 +1,28 @@
+{
+  "name": "polar-analytics",
+  "displayName": "Polar Analytics",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Bring all your data in one place & connect it to Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.polaranalytics.com/ai/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "polar-analytics",
+    "analytics",
+    "mcp"
+  ],
+  "category": "analytics",
+  "tags": [
+    "analytics",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

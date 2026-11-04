@@ -1,0 +1,24 @@
+{
+  "name": "sprinto",
+  "displayName": "Sprinto MCP",
+  "version": "0.7.1",
+  "description": "Manage trust workflows.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://sprinto.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "sprinto",
+    "security",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "sprinto": {
+      "type": "http",
+      "url": "https://mcp.sprinto.com/tools"
+    }
+  }
+}

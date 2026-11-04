@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kahoot": {
+      "type": "http",
+      "url": "https://mcp.kahoot.it/mcp"
+    }
+  }
+}

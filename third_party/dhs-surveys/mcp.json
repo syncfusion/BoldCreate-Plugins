@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dhs-surveys": {
+      "type": "http",
+      "url": "https://api.dhsprogram.com/mcp"
+    }
+  }
+}

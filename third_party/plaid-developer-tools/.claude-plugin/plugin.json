@@ -1,0 +1,24 @@
+{
+  "name": "plaid-developer-tools",
+  "displayName": "Plaid Developer Tools",
+  "version": "0.7.1",
+  "description": "Monitor, debug, and optimize your Plaid integration.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://plaid.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "plaid-developer-tools",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "plaid-developer-tools": {
+      "type": "http",
+      "url": "https://api.dashboard.plaid.com/mcp/sse"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "paxton-legal-research",
+  "displayName": "Paxton Legal Research",
+  "version": "0.7.1",
+  "description": "Research U.S. law in Claude—with citations you can open and verify.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.paxton.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "paxton-legal-research",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "paxton-legal-research": {
+      "type": "http",
+      "url": "https://paxton-mcp-connector-xmfvvq3waa-uc.a.run.app/mcp"
+    }
+  }
+}

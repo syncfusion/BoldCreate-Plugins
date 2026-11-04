@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "yardi-matrix": {
+      "type": "http",
+      "url": "https://matrixmcp.virtuoso.ai/mcp/"
+    }
+  }
+}

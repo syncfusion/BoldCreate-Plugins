@@ -1,0 +1,24 @@
+{
+  "name": "pitch",
+  "displayName": "Pitch",
+  "version": "0.7.1",
+  "description": "Create, edit, and share presentations, then see who engaged with them.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://pitch.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "pitch",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "pitch": {
+      "type": "http",
+      "url": "https://mcp.pitch.com/mcp"
+    }
+  }
+}

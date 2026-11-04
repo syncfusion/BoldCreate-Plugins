@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "klue": {
+      "type": "http",
+      "url": "https://mcp.app.klue.com/mcp"
+    }
+  }
+}

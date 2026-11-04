@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "seamless": {
+      "type": "http",
+      "url": "https://mcp.seamless.ai/mcp"
+    }
+  }
+}

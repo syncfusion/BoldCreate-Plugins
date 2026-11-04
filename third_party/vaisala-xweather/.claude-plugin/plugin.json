@@ -1,0 +1,24 @@
+{
+  "name": "vaisala-xweather",
+  "displayName": "Vaisala Xweather",
+  "version": "0.7.1",
+  "description": "Access real-time, forecast, and historical weather.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://xweather.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "vaisala-xweather",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "vaisala-xweather": {
+      "type": "http",
+      "url": "https://mcp.api.xweather.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "verisk-underwriting",
+  "displayName": "Verisk Underwriting Intelligence",
+  "version": "0.7.1",
+  "description": "Ask questions. Get underwriting insights from Verisk.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://verisk.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "verisk-underwriting",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "verisk-underwriting": {
+      "type": "http",
+      "url": "https://gatewaymcp.verisk.com/underwriting/intelligencemcp/v1"
+    }
+  }
+}

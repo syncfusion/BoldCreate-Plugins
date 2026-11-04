@@ -1,0 +1,24 @@
+{
+  "name": "openrush",
+  "displayName": "OpenRush",
+  "version": "0.7.1",
+  "description": "SEO and competitor analysis with live search data: keyword research, rank tracking, gap analysis, and site audits.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://openrush.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "openrush",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "openrush": {
+      "type": "http",
+      "url": "https://api.openrush.com/mcp"
+    }
+  }
+}

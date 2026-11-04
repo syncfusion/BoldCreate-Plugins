@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adspirer-search-ads": {
+      "type": "http",
+      "url": "https://mcp.adspirer.com/search-ads"
+    }
+  }
+}

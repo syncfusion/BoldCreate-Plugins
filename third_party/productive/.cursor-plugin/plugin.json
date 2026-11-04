@@ -1,0 +1,28 @@
+{
+  "name": "productive",
+  "displayName": "Productive",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Run projects, tasks, time tracking, budgets, and invoicing in your Productive workspace, straight from chat.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://productive.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "productive",
+    "analytics",
+    "mcp"
+  ],
+  "category": "analytics",
+  "tags": [
+    "analytics",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}
