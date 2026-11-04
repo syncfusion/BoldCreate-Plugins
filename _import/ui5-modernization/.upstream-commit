@@ -1,0 +1,4 @@
+repository: https://github.com/UI5/plugins-coding-agents.git
+path: plugins/ui5-modernization
+commit: 2b8c4a944e39609214bce7aef3b05260985f0e91
+not copied: .github/

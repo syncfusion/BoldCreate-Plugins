@@ -1,0 +1,4 @@
+repository: https://github.com/Unity-Technologies/unity-agent-plugin.git
+path: .
+commit: ba48956ae8bee4ef8a3ef3d75dec03c16aa5cc89
+not copied: .agents/ .codex-plugin/ .github/ scripts/

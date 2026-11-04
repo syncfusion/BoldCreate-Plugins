@@ -1,0 +1,89 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|Bash|apply_patch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/hook\" auto PreToolUse",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT\\scripts\\hook.exe\" auto PreToolUse"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|Bash|apply_patch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/hook\" auto PostToolUse --async",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT\\scripts\\hook.exe\" auto PostToolUse --async",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/hook\" auto SessionStatus",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT\\scripts\\hook.exe\" auto SessionStatus",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/hook\" auto SessionStart --async",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT\\scripts\\hook.exe\" auto SessionStart --async",
+            "async": true,
+            "timeout": 180
+          },
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/hook\" auto Update --async",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT\\scripts\\hook.exe\" auto Update --async",
+            "async": true,
+            "timeout": 180
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/hook\" auto Stop",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT\\scripts\\hook.exe\" auto Stop",
+            "timeout": 35
+          },
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/hook\" auto StopRewake --async",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT\\scripts\\hook.exe\" auto StopRewake --async",
+            "async": true,
+            "asyncRewake": true,
+            "timeout": 600
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "clear|resume|logout|prompt_input_exit|bypass_permissions_disabled|other",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/hook\" auto SessionEnd",
+            "commandWindows": "& \"$env:CLAUDE_PLUGIN_ROOT\\scripts\\hook.exe\" auto SessionEnd",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}

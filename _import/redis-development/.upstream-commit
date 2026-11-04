@@ -1,0 +1,4 @@
+repository: https://github.com/redis/agent-skills.git
+path: plugins/redis-development
+commit: a84871d065f398fed55e1633f66b66f731eb4e2b
+not copied: .codex-plugin/

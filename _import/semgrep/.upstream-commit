@@ -1,0 +1,4 @@
+repository: https://github.com/semgrep/mcp-marketplace.git
+path: plugin
+commit: b58f407c6ac0f5fe47dee8301602f2e290a8ecfb
+not copied: .codex-plugin/ scripts/

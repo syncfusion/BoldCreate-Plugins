@@ -1,0 +1,4 @@
+repository: https://github.com/JetBrains/teamcity-cli.git
+path: .
+commit: ac6c1fd83300b2e42df48fcfff365ba03f73bb92
+not copied: .github/ .teamcity/ acceptance/ api/ docs/ evals/ internal/ schemas/ scripts/ tc/

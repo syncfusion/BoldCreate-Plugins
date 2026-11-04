@@ -1,0 +1,3 @@
+repository: https://github.com/Shopify/liquid-skills.git
+path: plugins/liquid-skills
+commit: ae3e4cc3f454923e388bbd841fd931f0c7bf5be4

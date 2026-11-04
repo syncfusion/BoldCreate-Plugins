@@ -1,0 +1,29 @@
+{
+  "name": "mergify",
+  "description": "Skills for the Mergify CLI: manage merge queues, stacked pull requests, Test Engine (flaky tests, quarantine), merge protections, and Mergify configuration directly from the terminal.",
+  "author": {
+    "name": "Mergify"
+  },
+  "keywords": [
+    "git",
+    "pr",
+    "stacked-prs",
+    "merge-queue",
+    "ci",
+    "test-engine",
+    "test-insights",
+    "flaky-tests",
+    "quarantine",
+    "freeze",
+    "config",
+    "push",
+    "commit",
+    "branch",
+    "rebase",
+    "checkout",
+    "workflow"
+  ],
+  "license": "LicenseRef-Mergify-Proprietary",
+  "homepage": "https://mergify.com",
+  "repository": "https://github.com/Mergifyio/mergify-cli"
+}

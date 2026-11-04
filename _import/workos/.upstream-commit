@@ -1,0 +1,4 @@
+repository: https://github.com/workos/skills.git
+path: plugins/workos
+commit: e25141bae047a7c837d93817347f95977598720f
+not copied: .codex-plugin/

@@ -1,0 +1,4 @@
+repository: https://github.com/microsoft/azure-sql-database-container.git
+path: .
+commit: c1e8167e4c1d5979d7fc4a6ea11a6ce885a9398b
+not copied: .agents/ .codex-plugin/ .github/ docs/ eval/

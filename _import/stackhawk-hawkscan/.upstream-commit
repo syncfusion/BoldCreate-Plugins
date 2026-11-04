@@ -1,0 +1,4 @@
+repository: https://github.com/stackhawk/agent-skills.git
+path: plugins/hawkscan
+commit: 66cac9baa5883a1007575faf1b22855a1124834a
+not copied: .codex-plugin/

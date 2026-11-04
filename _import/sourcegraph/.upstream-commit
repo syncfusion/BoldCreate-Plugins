@@ -1,0 +1,3 @@
+repository: https://github.com/sourcegraph-community/sourcegraph-claudecode-plugin.git
+path: .
+commit: 674a05e2e28677fc3fdce7491063459455ded573

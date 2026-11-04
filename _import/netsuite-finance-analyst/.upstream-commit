@@ -1,0 +1,3 @@
+repository: https://github.com/oracle/netsuite-suitecloud-sdk.git
+path: anthropic/netsuite-finance-analyst
+commit: 23793a10a9bb557c684c5cb8a97f926eb3463f12

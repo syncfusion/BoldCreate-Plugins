@@ -1,0 +1,31 @@
+Copyright © 2021-2026 Mergify. All rights reserved.
+
+This software is proprietary to Mergify and is not open source.
+
+Mergify grants anyone who obtains a copy a non-exclusive, non-transferable,
+revocable, royalty-free licence to download, install, copy and run this
+software, unmodified, solely for use with the Mergify service, including as a
+dependency of a project that uses the Mergify service. You may make copies
+available within your organisation, including in internal package mirrors,
+container images and CI environments, for that same purpose.
+
+Except to the extent applicable law expressly permits it, you may not modify or
+create derivative works of this software, distribute it outside the purposes
+above, reverse engineer it, or use it to build or operate a product or service
+that competes with Mergify.
+
+Use of the Mergify service is governed by the Mergify Terms of Service
+(https://mergify.com/tos) or by your written agreement with Mergify, which
+prevails over this notice where it covers this software.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MERGIFY SHALL NOT BE
+LIABLE FOR ANY DAMAGES ARISING FROM ITS USE, EXCEPT AS PROVIDED IN YOUR
+AGREEMENT WITH MERGIFY.
+
+Some files carry their own licence notice, which applies to them instead of
+this one.
+
+This licence is governed by French law.
+
+Third-party components and their licenses are listed in THIRD_PARTY_LICENSES.

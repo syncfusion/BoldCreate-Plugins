@@ -1,0 +1,4 @@
+repository: https://github.com/netlify/context-and-tools.git
+path: .
+commit: dc9ebf1b994420a4791e9d5d7cd68f62e07a0a41
+not copied: .claude/ .ctx-gen/ .github/ .grok-plugin/ agent-plugin/ axis-fixtures/ axis-scenarios/ bin/ codex/ context/ cursor/ docs/ scripts/

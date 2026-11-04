@@ -1,0 +1,4 @@
+repository: https://github.com/SonarSource/sonarqube-agent-plugins.git
+path: .
+commit: 5a9356d957db063e4d2cf87511b44cc1ba88dc99
+not copied: .agents/ .codex-plugin/ .factory-plugin/ .github/ claude-hooks/ droids/ kiro-power/ scripts/

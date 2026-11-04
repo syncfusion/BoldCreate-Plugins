@@ -1,0 +1,4 @@
+repository: https://github.com/planetscale/claude-plugin.git
+path: .
+commit: 95c80f9f391be9b1b6172bf82d4191e1ec11b637
+not copied: .github/ database-skills/ planetscale-skills/ scripts/

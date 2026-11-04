@@ -1,0 +1,3 @@
+repository: https://github.com/legalzoom/claude-plugins.git
+path: plugins/legalzoom
+commit: f9fd8a0ca6e1421bc1aacb113a109663a7a6f6d8

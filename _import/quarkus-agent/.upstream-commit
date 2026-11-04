@@ -1,0 +1,4 @@
+repository: https://github.com/quarkusio/quarkus-agent-mcp.git
+path: .
+commit: 73cef3b2564d8debf787c3c05bee28b8539ae657
+not copied: .github/ .mvn/ container/ docs/ plugins/ presentation/ src/

@@ -1,0 +1,3 @@
+repository: https://github.com/qodo-ai/qodo-skills.git
+path: packages/qodo
+commit: b8c21854199c538b1c35c981c12a93bab4839ef2

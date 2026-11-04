@@ -1,0 +1,4 @@
+repository: https://github.com/grafana/ai-marketplace.git
+path: plugins/grafana-assistant
+commit: 12be5634a492f73c189d466c5449d09b853ad7a4
+not copied: steering/

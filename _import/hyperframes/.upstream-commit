@@ -1,0 +1,4 @@
+repository: https://github.com/heygen-com/hyperframes.git
+path: .
+commit: 8d2b6e7bdc1c2c26d1abf64ef075c00a1bb230a2
+not copied: .agents/ .claude/ .codex-plugin/ .codex/ .github/ docs/ examples/ packages/ plans/ registry/ releases/ scripts/ themes/ updates/

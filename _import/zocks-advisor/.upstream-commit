@@ -1,0 +1,4 @@
+repository: https://github.com/zocks-communications/zocks-agent-plugins.git
+path: .
+commit: a3e445c139665055c2f22f25c9a9f8721a7c6355
+not copied: .github/

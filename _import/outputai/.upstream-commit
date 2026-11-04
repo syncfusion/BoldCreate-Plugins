@@ -1,0 +1,3 @@
+repository: https://github.com/growthxai/output.git
+path: coding_assistants/claude/plugins/outputai
+commit: 2032ff617a62840ae786f0721ebb2941c5e2bd00

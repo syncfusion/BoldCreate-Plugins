@@ -1,0 +1,4 @@
+repository: https://github.com/mongodb/agent-skills.git
+path: plugins/mongodb
+commit: c370a63b27075008a92134686b24af3817edeb00
+not copied: .agy-plugin/ .codex-plugin/ .grok-plugin/

@@ -1,0 +1,4 @@
+repository: https://github.com/honeycombio/agent-skill.git
+path: honeycomb
+commit: 6bb09279fc3fb69abf113228be939dbb929e34f1
+not copied: .codex-plugin/ scripts/
