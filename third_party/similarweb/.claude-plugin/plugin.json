@@ -1,0 +1,24 @@
+{
+  "name": "similarweb",
+  "displayName": "Similarweb",
+  "version": "0.7.1",
+  "description": "Real time web, mobile app, and market data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://similarweb.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "similarweb",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "similarweb": {
+      "type": "http",
+      "url": "https://mcp.similarweb.com/"
+    }
+  }
+}

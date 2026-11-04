@@ -1,0 +1,24 @@
+{
+  "name": "fmp",
+  "displayName": "FMP",
+  "version": "0.7.1",
+  "description": "Comprehensive financial market data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://financialmodelingprep.com/?utm_source=claude",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fmp",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "fmp": {
+      "type": "http",
+      "url": "https://financialmodelingprep.com/mcp"
+    }
+  }
+}

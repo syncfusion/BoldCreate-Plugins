@@ -1,0 +1,24 @@
+{
+  "name": "strava",
+  "displayName": "Strava",
+  "version": "0.7.1",
+  "description": "Analyze, summarize, and explore your Strava data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://strava.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "strava",
+    "fitness",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "strava": {
+      "type": "http",
+      "url": "https://mcp.strava.com/mcp"
+    }
+  }
+}

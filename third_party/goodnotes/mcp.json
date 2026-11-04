@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "goodnotes": {
+      "type": "http",
+      "url": "https://claude-mcp-api.ml.goodnotes.com/mcp"
+    }
+  }
+}

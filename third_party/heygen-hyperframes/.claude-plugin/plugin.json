@@ -1,0 +1,24 @@
+{
+  "name": "heygen-hyperframes",
+  "displayName": "HyperFrames by HeyGen",
+  "version": "0.7.1",
+  "description": "Build animated slides and motion graphics with HTML.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.heygen.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "heygen-hyperframes",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "heygen-hyperframes": {
+      "type": "http",
+      "url": "https://mcp.heygen.com/mcp/hyperframes"
+    }
+  }
+}

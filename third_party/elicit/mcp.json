@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "elicit": {
+      "type": "http",
+      "url": "https://elicit.com/api/mcp"
+    }
+  }
+}

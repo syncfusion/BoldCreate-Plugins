@@ -1,6 +1,6 @@
 # Upstream plugin inventory
 
-The upstream index lists 315 plugins. 147 exist in `third_party/`, 128 of them imported from this index. 168 do not exist yet.
+The upstream index lists 315 plugins. 155 exist in `third_party/`, 128 of them imported from this index. 160 do not exist yet.
 
 The index holds names and source pointers only. It has no MCP endpoints, auth modes, variables, licences or logos, which a BoldCreate `plugin.json` requires. A plugin can be imported only after its source is read. The workspace egress policy blocks cloning the vendor repositories, so remote MCP plugins were imported by reading each vendor's `.mcp.json` and licence through the GitHub API, and skill plugins through `scripts/fetch-upstream.mjs`. Plugins not yet imported have the status **Not imported**.
 
@@ -19,311 +19,311 @@ This file is generated. Regenerate it with `node scripts/migration-inventory.mjs
 | PM-007 | aiven | 1.0.6 | not stated | No | Imported |
 | PM-008 | alloydb-omni | 0.2.2 | not stated | No | Imported |
 | PM-009 | amazon-location-service | 1.1.0 | not stated | No | Imported |
-| PM-010 | amd-skills | 1.0.0 | not stated | No | Imported |
-| PM-011 | amplitude | 0.7.1 | not stated | No | Imported |
-| PM-012 | apollo | 0.7.1 | not stated | No | Imported |
-| PM-013 | apollo-skills | 1.2.9 | not stated | No | Imported |
-| PM-014 | asana | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-015 | astronomer-data-agents | 0.1.0 | not stated | No | Imported |
-| PM-016 | atlassian | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-017 | atlassian-twg-cli | 1.0.12 | not stated | No | Imported |
-| PM-018 | atomic-agents | 2.2.0 | not stated | No | Imported |
-| PM-019 | auth0 | 2.6.0 | not stated | No | Imported |
-| PM-020 | aws-agents | 1.0.0 | not stated | No | Imported |
-| PM-021 | aws-amplify | 1.0.0 | not stated | No | Imported |
-| PM-022 | aws-core | 1.1.0 | not stated | No | Imported |
-| PM-023 | aws-data-analytics | 1.3.0 | not stated | No | Imported |
-| PM-024 | aws-serverless | 1.3.0 | not stated | No | Imported |
-| PM-025 | aws-transform | 1.9.0 | not stated | No | Imported |
-| PM-026 | azure | 1.2.50 | not stated | No | Imported |
-| PM-027 | azure-cosmos-db-assistant | 1.0.0 | not stated | No | Imported |
-| PM-028 | azure-sql-developer | 1.1.0 | not stated | No | Imported |
-| PM-029 | bigquery-data-analytics | 0.2.5 | not stated | No | Imported |
-| PM-030 | blackrock-advisor-center-plugin | 0.1.0 | not stated | No | Imported |
-| PM-031 | boltz | 0.1.1 | not stated | No | Imported |
-| PM-032 | box | 1.0.0 | not stated | No | Imported |
-| PM-033 | buildkite | 1.0.0 | not stated | No | Imported |
-| PM-034 | canva | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-035 | carta-crm | 1.15.0 | not stated | No | Imported |
-| PM-036 | catalyst-by-zoho | 0.0.2 | not stated | No | Imported |
-| PM-037 | chrome-devtools-mcp | 1.11.0 | not stated | No | Imported |
-| PM-038 | chronograph-gp | 0.2.4 | not stated | No | Imported |
-| PM-039 | chronograph-lp | 0.2.4 | not stated | No | Imported |
-| PM-040 | ckeditor | 0.1.1 | not stated | No | Imported |
-| PM-041 | cloudflare | 1.0.0 | not stated | No | Imported |
-| PM-042 | confidence | 0.9.0 | not stated | No | Imported |
-| PM-043 | context7 | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-044 | crowdsec | 0.3.0 | not stated | No | Imported |
-| PM-045 | crowdstrike-falcon-foundry | 1.6.0 | not stated | No | Imported |
-| PM-046 | databases-on-aws | 1.10.0 | not stated | No | Imported |
-| PM-047 | datadog | 0.7.17 | not stated | No | Imported |
-| PM-048 | dataverse | 1.14.0 | not stated | No | Imported |
-| PM-049 | deepeval | 1.0.0 | not stated | No | Imported |
-| PM-050 | deploy-on-aws | 1.4.0 | not stated | No | Imported |
-| PM-051 | desktop-commander | 0.2.0 | not stated | No | Imported |
-| PM-052 | duckdb-skills | 0.2.4 | not stated | No | Imported |
-| PM-053 | duende-skills | 0.3.0 | not stated | No | Imported |
-| PM-054 | dynatrace | 8.0.1 | not stated | No | Imported |
-| PM-055 | exa | 0.7.1 | not stated | No | Imported |
-| PM-056 | expo | 1.13.9 | not stated | No | Imported |
-| PM-057 | fastly-agent-toolkit | 0.1.0 | not stated | No | Imported |
-| PM-058 | fiftyone | 1.0.3 | not stated | No | Imported |
-| PM-059 | figma | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-060 | firecrawl | 0.7.1 | not stated | No | Imported |
-| PM-061 | forge-skills | 0.1.0 | not stated | No | Imported |
-| PM-062 | gc-ai | 0.1.0 | not stated | No | Imported |
-| PM-063 | github | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-064 | gitlab | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-065 | google-cloud-storage | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-066 | govtribe | 0.7.1 | not stated | No | Imported |
-| PM-067 | grafana-assistant | 0.2.0 | not stated | No | Imported |
-| PM-068 | grafana-cloud-mcp | 0.2.0 | not stated | No | Imported |
-| PM-069 | grafana-mcp | 0.2.0 | not stated | No | Imported |
-| PM-070 | greptile | 0.7.1 | not stated | No | Imported |
-| PM-071 | growthbook | 2.0.0 | not stated | No | Imported |
-| PM-072 | honeycomb | 1.2.3 | not stated | No | Imported |
-| PM-073 | hunter | 0.7.1 | not stated | No | Imported |
-| PM-074 | idmp-plugin | 0.1.0 | not stated | No | Imported |
-| PM-075 | incident-io | 0.7.1 | not stated | No | Imported |
-| PM-076 | informatica-for-claude-platform | 1.0.0 | not stated | No | Imported |
-| PM-077 | intercom | 0.7.1 | not stated | No | Imported |
-| PM-078 | langfuse | 1.10.0 | not stated | No | Imported |
-| PM-079 | leadfeeder | 0.7.1 | not stated | No | Imported |
-| PM-080 | linear | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-081 | logfire | 0.1.4 | not stated | No | Imported |
-| PM-082 | lumen | 0.0.42 | not stated | No | Imported |
-| PM-083 | lusha | 0.1.3 | not stated | No | Imported |
-| PM-084 | mapbox | 1.0.0 | not stated | No | Imported |
-| PM-085 | mercadopago | 4.3.2 | not stated | No | Imported |
-| PM-086 | mintlify | 0.7.1 | not stated | No | Imported |
-| PM-087 | miro | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-088 | modern-web-guidance | 0.0.194 | not stated | No | Imported |
-| PM-089 | monday-crm | 0.7.1 | not stated | No | Imported |
-| PM-090 | mongodb | 1.2.1 | not stated | No | Imported |
-| PM-091 | neon | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-092 | netlify-skills | 1.7.0 | not stated | No | Imported |
-| PM-093 | noibu | 1.0.0 | not stated | No | Imported |
-| PM-094 | notion | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-095 | outputai | 0.3.0 | not stated | No | Imported |
-| PM-096 | pagerduty | 0.7.1 | not stated | No | Imported |
-| PM-097 | paypal | 1.2.0 | not stated | No | Imported |
-| PM-098 | pendo-analytics | 1.4.0 | not stated | No | Imported |
-| PM-099 | pendo-guides | 1.3.0 | not stated | No | Imported |
-| PM-100 | pendo-orchestrate | 1.0.0 | not stated | No | Imported |
-| PM-101 | planetscale | 0.7.1 | not stated | No | Imported |
-| PM-102 | posthog | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-103 | postman | 2.0.1 | not stated | No | Imported |
-| PM-104 | preset-cli-skills | 0.5.0 | not stated | No | Imported |
-| PM-105 | pydantic-ai | 0.1.0 | not stated | No | Imported |
-| PM-106 | qdrant-skills | 1.0.0 | not stated | No | Imported |
-| PM-107 | qodo | 2.1.2 | not stated | No | Imported |
-| PM-108 | qodo-standards | 2.1.2 | not stated | No | Imported |
-| PM-109 | redis-development | 1.4.0 | not stated | No | Imported |
-| PM-110 | render | 0.7.1 | not stated | No | Imported |
-| PM-111 | resend | 1.0.5 | not stated | No | Imported |
-| PM-112 | revenuecat | 2.3.0 | not stated | No | Imported |
-| PM-113 | rill | 1.0.0 | not stated | No | Imported |
-| PM-114 | runway-api | 4.0.1 | not stated | No | Imported |
-| PM-115 | sagemaker-ai | 1.3.0 | not stated | No | Imported |
-| PM-116 | sanity | 1.0.0 | not stated | No | Imported |
-| PM-117 | save-to-spotify | 0.2.0 | not stated | No | Imported |
-| PM-118 | sentry | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-119 | setup-agent-analytics | 1.1.0 | not stated | No | Imported |
-| PM-120 | setup-mcp-agent-analytics | 1.1.0 | not stated | No | Imported |
-| PM-121 | slack | 0.7.1 | not stated | No | Imported |
-| PM-122 | snowflake-cortex-code | 3.4.0 | not stated | No | Imported |
-| PM-123 | stackhawk-api | 2.7.0 | not stated | No | Imported |
-| PM-124 | stackhawk-hawkscan | 2.6.0 | not stated | No | Imported |
-| PM-125 | streaming-skills-plugin | 1.4.0 | not stated | No | Imported |
-| PM-126 | stripe | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-127 | sumup | 1.0.0 | not stated | No | Imported |
-| PM-128 | supabase | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-129 | superdesign | 0.6.0 | not stated | No | Imported |
-| PM-130 | superpowers | 7.0.0 | not stated | No | Imported |
-| PM-131 | synthflow | 1.3.0 | not stated | No | Imported |
-| PM-132 | tavily | 0.7.1 | not stated | No | Imported |
-| PM-133 | teamcity-cli | 1.3.0 | not stated | No | Imported |
-| PM-134 | togetherai-skills | 1.0.0 | not stated | No | Imported |
-| PM-135 | ui-theme-designer | 2.0.0 | not stated | No | Imported |
-| PM-136 | ui5-modernization | 0.1.8 | not stated | No | Imported |
-| PM-137 | ui5-typescript-conversion | 0.1.8 | not stated | No | Imported |
-| PM-138 | valtown | 0.4.0 | not stated | No | Imported |
-| PM-139 | vanta | 0.7.1 | not stated | No | Imported |
-| PM-140 | vercel | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-141 | vibe-prospecting | 0.1.107 | not stated | No | Imported |
-| PM-142 | vsql-extension-builder | 1.0.0 | not stated | No | Imported |
-| PM-143 | wingspan | 0.1.0 | not stated | No | Imported |
-| PM-144 | wix | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
-| PM-145 | youdotcom-agent-skills | 0.6.0 | not stated | No | Imported |
-| PM-146 | zapier | 0.7.1 | not stated | No | Imported |
-| PM-147 | zoominfo | 0.7.1 | not stated | No | Imported |
+| PM-010 | amazon-selling-partner | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-011 | amd-skills | 1.0.0 | not stated | No | Imported |
+| PM-012 | amplitude | 0.7.1 | not stated | No | Imported |
+| PM-013 | apollo | 0.7.1 | not stated | No | Imported |
+| PM-014 | apollo-skills | 1.2.9 | not stated | No | Imported |
+| PM-015 | asana | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-016 | astronomer-data-agents | 0.1.0 | not stated | No | Imported |
+| PM-017 | atlassian | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-018 | atlassian-twg-cli | 1.0.12 | not stated | No | Imported |
+| PM-019 | atomic-agents | 2.2.0 | not stated | No | Imported |
+| PM-020 | auth0 | 2.6.0 | not stated | No | Imported |
+| PM-021 | aws-agents | 1.0.0 | not stated | No | Imported |
+| PM-022 | aws-amplify | 1.0.0 | not stated | No | Imported |
+| PM-023 | aws-core | 1.1.0 | not stated | No | Imported |
+| PM-024 | aws-data-analytics | 1.3.0 | not stated | No | Imported |
+| PM-025 | aws-serverless | 1.3.0 | not stated | No | Imported |
+| PM-026 | aws-transform | 1.9.0 | not stated | No | Imported |
+| PM-027 | azure | 1.2.50 | not stated | No | Imported |
+| PM-028 | azure-cosmos-db-assistant | 1.0.0 | not stated | No | Imported |
+| PM-029 | azure-sql-developer | 1.1.0 | not stated | No | Imported |
+| PM-030 | base44 | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-031 | bigdata-com | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-032 | bigquery-data-analytics | 0.2.5 | not stated | No | Imported |
+| PM-033 | blackrock-advisor-center-plugin | 0.1.0 | not stated | No | Imported |
+| PM-034 | boltz | 0.1.1 | not stated | No | Imported |
+| PM-035 | box | 1.0.0 | not stated | No | Imported |
+| PM-036 | buildkite | 1.0.0 | not stated | No | Imported |
+| PM-037 | canva | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-038 | carta-crm | 1.15.0 | not stated | No | Imported |
+| PM-039 | catalyst-by-zoho | 0.0.2 | not stated | No | Imported |
+| PM-040 | chrome-devtools-mcp | 1.11.0 | not stated | No | Imported |
+| PM-041 | chronograph-gp | 0.2.4 | not stated | No | Imported |
+| PM-042 | chronograph-lp | 0.2.4 | not stated | No | Imported |
+| PM-043 | ckeditor | 0.1.1 | not stated | No | Imported |
+| PM-044 | clay | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-045 | cloudflare | 1.0.0 | not stated | No | Imported |
+| PM-046 | confidence | 0.9.0 | not stated | No | Imported |
+| PM-047 | context7 | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-048 | crowdsec | 0.3.0 | not stated | No | Imported |
+| PM-049 | crowdstrike-falcon-foundry | 1.6.0 | not stated | No | Imported |
+| PM-050 | databases-on-aws | 1.10.0 | not stated | No | Imported |
+| PM-051 | datadog | 0.7.17 | not stated | No | Imported |
+| PM-052 | dataverse | 1.14.0 | not stated | No | Imported |
+| PM-053 | deepeval | 1.0.0 | not stated | No | Imported |
+| PM-054 | deploy-on-aws | 1.4.0 | not stated | No | Imported |
+| PM-055 | desktop-commander | 0.2.0 | not stated | No | Imported |
+| PM-056 | dropbox | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-057 | duckdb-skills | 0.2.4 | not stated | No | Imported |
+| PM-058 | duende-skills | 0.3.0 | not stated | No | Imported |
+| PM-059 | dynatrace | 8.0.1 | not stated | No | Imported |
+| PM-060 | exa | 0.7.1 | not stated | No | Imported |
+| PM-061 | expo | 1.13.9 | not stated | No | Imported |
+| PM-062 | fastly-agent-toolkit | 0.1.0 | not stated | No | Imported |
+| PM-063 | fiftyone | 1.0.3 | not stated | No | Imported |
+| PM-064 | figma | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-065 | firecrawl | 0.7.1 | not stated | No | Imported |
+| PM-066 | forge-skills | 0.1.0 | not stated | No | Imported |
+| PM-067 | gc-ai | 0.1.0 | not stated | No | Imported |
+| PM-068 | github | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-069 | gitlab | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-070 | google-cloud-storage | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-071 | govtribe | 0.7.1 | not stated | No | Imported |
+| PM-072 | grafana-assistant | 0.2.0 | not stated | No | Imported |
+| PM-073 | grafana-cloud-mcp | 0.2.0 | not stated | No | Imported |
+| PM-074 | grafana-mcp | 0.2.0 | not stated | No | Imported |
+| PM-075 | greptile | 0.7.1 | not stated | No | Imported |
+| PM-076 | growthbook | 2.0.0 | not stated | No | Imported |
+| PM-077 | honeycomb | 1.2.3 | not stated | No | Imported |
+| PM-078 | hunter | 0.7.1 | not stated | No | Imported |
+| PM-079 | idmp-plugin | 0.1.0 | not stated | No | Imported |
+| PM-080 | incident-io | 0.7.1 | not stated | No | Imported |
+| PM-081 | informatica-for-claude-platform | 1.0.0 | not stated | No | Imported |
+| PM-082 | intercom | 0.7.1 | not stated | No | Imported |
+| PM-083 | langfuse | 1.10.0 | not stated | No | Imported |
+| PM-084 | leadfeeder | 0.7.1 | not stated | No | Imported |
+| PM-085 | linear | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-086 | logfire | 0.1.4 | not stated | No | Imported |
+| PM-087 | lovable | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-088 | lumen | 0.0.42 | not stated | No | Imported |
+| PM-089 | lusha | 0.1.3 | not stated | No | Imported |
+| PM-090 | mapbox | 1.0.0 | not stated | No | Imported |
+| PM-091 | mercadopago | 4.3.2 | not stated | No | Imported |
+| PM-092 | mintlify | 0.7.1 | not stated | No | Imported |
+| PM-093 | miro | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-094 | modern-web-guidance | 0.0.194 | not stated | No | Imported |
+| PM-095 | monday-crm | 0.7.1 | not stated | No | Imported |
+| PM-096 | mongodb | 1.2.1 | not stated | No | Imported |
+| PM-097 | neon | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-098 | netlify-skills | 1.7.0 | not stated | No | Imported |
+| PM-099 | noibu | 1.0.0 | not stated | No | Imported |
+| PM-100 | notion | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-101 | outputai | 0.3.0 | not stated | No | Imported |
+| PM-102 | pagerduty | 0.7.1 | not stated | No | Imported |
+| PM-103 | paypal | 1.2.0 | not stated | No | Imported |
+| PM-104 | pendo-analytics | 1.4.0 | not stated | No | Imported |
+| PM-105 | pendo-guides | 1.3.0 | not stated | No | Imported |
+| PM-106 | pendo-orchestrate | 1.0.0 | not stated | No | Imported |
+| PM-107 | planetscale | 0.7.1 | not stated | No | Imported |
+| PM-108 | posthog | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-109 | postman | 2.0.1 | not stated | No | Imported |
+| PM-110 | preset-cli-skills | 0.5.0 | not stated | No | Imported |
+| PM-111 | pydantic-ai | 0.1.0 | not stated | No | Imported |
+| PM-112 | qdrant-skills | 1.0.0 | not stated | No | Imported |
+| PM-113 | qodo | 2.1.2 | not stated | No | Imported |
+| PM-114 | qodo-standards | 2.1.2 | not stated | No | Imported |
+| PM-115 | railway | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-116 | redis-development | 1.4.0 | not stated | No | Imported |
+| PM-117 | render | 0.7.1 | not stated | No | Imported |
+| PM-118 | resend | 1.0.5 | not stated | No | Imported |
+| PM-119 | revenuecat | 2.3.0 | not stated | No | Imported |
+| PM-120 | rill | 1.0.0 | not stated | No | Imported |
+| PM-121 | runway-api | 4.0.1 | not stated | No | Imported |
+| PM-122 | sagemaker-ai | 1.3.0 | not stated | No | Imported |
+| PM-123 | sanity | 1.0.0 | not stated | No | Imported |
+| PM-124 | save-to-spotify | 0.2.0 | not stated | No | Imported |
+| PM-125 | sentry | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-126 | setup-agent-analytics | 1.1.0 | not stated | No | Imported |
+| PM-127 | setup-mcp-agent-analytics | 1.1.0 | not stated | No | Imported |
+| PM-128 | slack | 0.7.1 | not stated | No | Imported |
+| PM-129 | snowflake-cortex-code | 3.4.0 | not stated | No | Imported |
+| PM-130 | stackhawk-api | 2.7.0 | not stated | No | Imported |
+| PM-131 | stackhawk-hawkscan | 2.6.0 | not stated | No | Imported |
+| PM-132 | streaming-skills-plugin | 1.4.0 | not stated | No | Imported |
+| PM-133 | stripe | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-134 | sumup | 1.0.0 | not stated | No | Imported |
+| PM-135 | supabase | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-136 | superdesign | 0.6.0 | not stated | No | Imported |
+| PM-137 | superpowers | 7.0.0 | not stated | No | Imported |
+| PM-138 | synthflow | 1.3.0 | not stated | No | Imported |
+| PM-139 | tavily | 0.7.1 | not stated | No | Imported |
+| PM-140 | teamcity-cli | 1.3.0 | not stated | No | Imported |
+| PM-141 | togetherai-skills | 1.0.0 | not stated | No | Imported |
+| PM-142 | ui-theme-designer | 2.0.0 | not stated | No | Imported |
+| PM-143 | ui5-modernization | 0.1.8 | not stated | No | Imported |
+| PM-144 | ui5-typescript-conversion | 0.1.8 | not stated | No | Imported |
+| PM-145 | valtown | 0.4.0 | not stated | No | Imported |
+| PM-146 | vanta | 0.7.1 | not stated | No | Imported |
+| PM-147 | vercel | 0.7.0 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-148 | vibe-prospecting | 0.1.107 | not stated | No | Imported |
+| PM-149 | vsql-extension-builder | 1.0.0 | not stated | No | Imported |
+| PM-150 | windsor-ai | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-151 | wingspan | 0.1.0 | not stated | No | Imported |
+| PM-152 | wix | 0.7.1 | not stated | Needs source comparison | Blocked: upstream source not readable |
+| PM-153 | youdotcom-agent-skills | 0.6.0 | not stated | No | Imported |
+| PM-154 | zapier | 0.7.1 | not stated | No | Imported |
+| PM-155 | zoominfo | 0.7.1 | not stated | No | Imported |
 
 ## Plugins not yet imported
 
 | ID | Connector | Category | Source type | Source | Pinned ref | Status |
 |---|---|---|---|---|---|---|
-| PM-148 | 42crunch-api-security-testing | security | git-subdir | 42Crunch-AI/claude-plugins (plugins/api-security-testing) | faf5305385de | Not imported |
-| PM-149 | agent-sdk-dev | development | local | claude-plugins-official ./plugins/agent-sdk-dev | - | Not imported |
-| PM-150 | agentforce-adlc | development | url | SalesforceAIResearch/agentforce-adlc | 09bf1539d41f | Not imported |
-| PM-151 | aikido |  | url | AikidoSec/aikido-claude-plugin | 8fdc995a4410 | Not imported |
-| PM-152 | alloydb | database | url | gemini-cli-extensions/alloydb | f9b3280bdcfe | Not imported |
-| PM-153 | altimate-code | database | git-subdir | AltimateAI/altimate-claude-plugin (plugins/altimate-code) | b7c8f68b3dfd | Not imported |
-| PM-154 | amazon-selling-partner | productivity | url | amzn/selling-partner-agentic-toolkit | 10573bac239b | Not imported |
-| PM-155 | appwrite | development | url | appwrite/claude-plugin | ab3c90b37c95 | Not imported |
-| PM-156 | atlan |  | url | atlanhq/agent-toolkit | 17b7ae3b4852 | Not imported |
-| PM-157 | aws-agents-for-devsecops | development | git-subdir | aws/agent-toolkit-for-aws (plugins/aws-agents-for-devsecops) | 7bde20faede4 | Not imported |
-| PM-158 | aws-startup-advisor | development | git-subdir | aws/agent-toolkit-for-aws (plugins/aws-startup-advisor) | b310d1c46b4c | Not imported |
-| PM-159 | base44 | development | url | base44/skills | 8548a482f606 | Not imported |
-| PM-160 | bigdata-com | database | git-subdir | Bigdata-com/bigdata-plugins-marketplace (plugins/bigdata-com) | 43777fbdb929 | Not imported |
-| PM-161 | brightdata-plugin |  | url | brightdata/skills | 37503c1ba310 | Not imported |
-| PM-162 | browser-use | automation | git-subdir | browser-use/plugins (browser-use) | 4749bcbfe456 | Not imported |
-| PM-163 | build-with-wordpress |  | url | Automattic/claude-code-wordpress.com | 052ca970df2c | Not imported |
-| PM-164 | carbone-skill | productivity | url | carboneio/carbone-skill | 25207b3f52b9 | Not imported |
-| PM-165 | carta-cap-table | productivity | git-subdir | carta/plugins (plugins/carta-cap-table) | ea7fe1d4db0f | Not imported |
-| PM-166 | carta-investors | productivity | git-subdir | carta/plugins (plugins/carta-investors) | ea7fe1d4db0f | Not imported |
-| PM-167 | cds-mcp | development | url | cap-js/mcp-server | 52ca3304342d | Not imported |
-| PM-168 | circle-skills | development | git-subdir | circlefin/skills (plugins/circle) | 58ab8648bb1a | Not imported |
-| PM-169 | circleback | productivity | url | circlebackai/claude-code-plugin | a610634c95ab | Not imported |
-| PM-170 | clangd-lsp | development | local | claude-plugins-official ./plugins/clangd-lsp | - | Not imported |
-| PM-171 | claude-code-setup | productivity | local | claude-plugins-official ./plugins/claude-code-setup | - | Not imported |
-| PM-172 | claude-md-management | productivity | local | claude-plugins-official ./plugins/claude-md-management | - | Not imported |
-| PM-173 | claude-security | security | local | claude-plugins-official ./plugins/claude-security | - | Not imported |
-| PM-174 | clay | productivity | git-subdir | clay-run/agent-plugins (clay) | 769514a3a236 | Not imported |
-| PM-175 | clickhouse | database | url | ClickHouse/clickhouse-claude-code-plugin | 652664c8924c | Not imported |
-| PM-176 | clickhouse-best-practices | database | url | ClickHouse/agent-skills | 356a8c1b9a73 | Not imported |
-| PM-177 | cloud-sql-mysql | database | url | gemini-cli-extensions/cloud-sql-mysql | 51aa269094a8 | Not imported |
-| PM-178 | cloud-sql-postgresql | database | url | gemini-cli-extensions/cloud-sql-postgresql | 1d758bb34795 | Not imported |
-| PM-179 | cloud-sql-sqlserver | database | url | gemini-cli-extensions/cloud-sql-sqlserver | 7efeaaf026b3 | Not imported |
-| PM-180 | cloudinary |  | url | cloudinary-devs/cloudinary-plugin | 86be53409e3f | Not imported |
-| PM-181 | cockroachdb | database | url | cockroachdb/claude-plugin | 6c96c6394a61 | Not imported |
-| PM-182 | code-modernization | development | local | claude-plugins-official ./plugins/code-modernization | - | Not imported |
-| PM-183 | code-review | productivity | local | claude-plugins-official ./plugins/code-review | - | Not imported |
-| PM-184 | code-simplifier | productivity | local | claude-plugins-official ./plugins/code-simplifier | - | Not imported |
-| PM-185 | coderabbit | productivity | url | coderabbitai/skills | 3e8763d24d54 | Not imported |
-| PM-186 | codspeed | development | url | CodSpeedHQ/codspeed | 59cfc90540bb | Not imported |
-| PM-187 | commit-commands | productivity | local | claude-plugins-official ./plugins/commit-commands | - | Not imported |
-| PM-188 | convex | database | url | get-convex/convex-backend-skill | 6ca54f6e2e75 | Not imported |
-| PM-189 | crowdstrike-falcon-fusion | security | url | CrowdStrike/fusion-skills | 38527dc5afa9 | Not imported |
-| PM-190 | csharp-lsp | development | local | claude-plugins-official ./plugins/csharp-lsp | - | Not imported |
-| PM-191 | cwc-makers | productivity | local | claude-plugins-official ./plugins/cwc-makers | - | Not imported |
-| PM-192 | dash0 | monitoring | url | dash0hq/dash0-agent-plugin | 72a84179e6c6 | Not imported |
-| PM-193 | data | development | url | astronomer/agents | 35b9610bb271 | Not imported |
-| PM-194 | data-agent-kit | development | url | GoogleCloudPlatform/data-agent-kit-plugin | 83c53b5f129c | Not imported |
-| PM-195 | data-engineering |  | url | astronomer/agents | 35b9610bb271 | Not imported |
-| PM-196 | databricks | database | git-subdir | databricks/databricks-agent-skills (plugins/databricks/claude) | c1964266c7aa | Not imported |
-| PM-197 | datahub-skills | database | url | datahub-project/datahub-skills | a27f8e7bb514 | Not imported |
-| PM-198 | dataproc | database | url | gemini-cli-extensions/dataproc | 18534a9bfe0d | Not imported |
-| PM-199 | datarobot-agent-skills | development | url | datarobot-oss/datarobot-agent-skills | 53a4dacc6b55 | Not imported |
-| PM-200 | discord | productivity | local | claude-plugins-official ./external_plugins/discord | - | Not imported |
-| PM-201 | dominodatalab | development | url | dominodatalab/domino-claude-plugin | 7949e3ac470c | Not imported |
-| PM-202 | dropbox | productivity | git-subdir | dropbox/dropbox-ai-plugins (claude) | 078f0ca36df4 | Not imported |
-| PM-203 | explanatory-output-style | learning | local | claude-plugins-official ./plugins/explanatory-output-style | - | Not imported |
-| PM-204 | fakechat | development | local | claude-plugins-official ./external_plugins/fakechat | - | Not imported |
-| PM-205 | feature-dev | development | local | claude-plugins-official ./plugins/feature-dev | - | Not imported |
-| PM-206 | firebase | database | local | claude-plugins-official ./external_plugins/firebase | - | Not imported |
-| PM-207 | firestore-native | database | url | gemini-cli-extensions/firestore-native | 6e6a841c2173 | Not imported |
-| PM-208 | frontend-design | development | local | claude-plugins-official ./plugins/frontend-design | - | Not imported |
-| PM-209 | fullstory | monitoring | url | fullstorydev/fullstory-skills | ca872d97f5c3 | Not imported |
-| PM-210 | gitkraken | development | url | gitkraken/claude-plugin | f7a53b2cd138 | Not imported |
-| PM-211 | gopls-lsp | development | local | claude-plugins-official ./plugins/gopls-lsp | - | Not imported |
-| PM-212 | hookify | productivity | local | claude-plugins-official ./plugins/hookify | - | Not imported |
-| PM-213 | hostinger | deployment | url | hostinger/claude-plugin | 569880c60681 | Not imported |
-| PM-214 | hubspot-sales | productivity | git-subdir | HubSpot/hubspot-mcp-plugins (HubSpot-Sales) | a0c59600fc1d | Not imported |
-| PM-215 | huggingface-skills | development | url | huggingface/skills | c3ff942be3e0 | Not imported |
-| PM-216 | hyperframes | design | url | heygen-com/hyperframes | 8d2b6e7bdc1c | Not imported |
-| PM-217 | imessage | productivity | local | claude-plugins-official ./external_plugins/imessage | - | Not imported |
-| PM-218 | intuit-quickbooks | productivity | url | intuit/quickbooks-claude-plugin | c8daa17a64d4 | Not imported |
-| PM-219 | jdtls-lsp | development | local | claude-plugins-official ./plugins/jdtls-lsp | - | Not imported |
-| PM-220 | jfrog | security | url | jfrog/claude-plugin | 9b1f8f6c8835 | Not imported |
-| PM-221 | knowledge-catalog | database | url | gemini-cli-extensions/knowledge-catalog | 630397520359 | Not imported |
-| PM-222 | kotlin-lsp | development | local | claude-plugins-official ./plugins/kotlin-lsp | - | Not imported |
-| PM-223 | langfuse-observability | monitoring | url | langfuse/claude-observability-plugin | b5211009698f | Not imported |
-| PM-224 | laravel-boost | development | local | claude-plugins-official ./external_plugins/laravel-boost | - | Not imported |
-| PM-225 | learn-with-coursera | learning | git-subdir | coursera/skills (skills) | ac28fd6ebf85 | Not imported |
-| PM-226 | learning-output-style | learning | local | claude-plugins-official ./plugins/learning-output-style | - | Not imported |
-| PM-227 | legalzoom | productivity | git-subdir | legalzoom/claude-plugins (plugins/legalzoom) | f9fd8a0ca6e1 | Not imported |
-| PM-228 | linq-alpha | productivity | git-subdir | linq-lab/linq-alpha-plugin (plugins/linq-alpha) | bfb594b7ccca | Not imported |
-| PM-229 | liquid-lsp | development | git-subdir | Shopify/liquid-skills (plugins/liquid-lsp) | ae3e4cc3f454 | Not imported |
-| PM-230 | liquid-skills | development | git-subdir | Shopify/liquid-skills (plugins/liquid-skills) | ae3e4cc3f454 | Not imported |
-| PM-231 | logrocket | monitoring | git-subdir | LogRocket/logrocket-claude-plugin (plugins/logrocket) | 2e44dbb47faf | Not imported |
-| PM-232 | looker | database | url | gemini-cli-extensions/looker | 13ed738a97a1 | Not imported |
-| PM-233 | lovable | development | url | lovablelabs/mcp | 0336e6db8026 | Not imported |
-| PM-234 | lua-lsp | development | local | claude-plugins-official ./plugins/lua-lsp | - | Not imported |
-| PM-235 | math-olympiad | math | local | claude-plugins-official ./plugins/math-olympiad | - | Not imported |
-| PM-236 | math-proof | math | local | claude-plugins-official ./plugins/math-proof | - | Not imported |
-| PM-237 | mattpocock-skills | development | url | mattpocock/skills | 49dd158d1076 | Not imported |
-| PM-238 | mcp-apps | development | git-subdir | modelcontextprotocol/ext-apps (plugins/mcp-apps) | 6d9bdc7babf2 | Not imported |
-| PM-239 | mcp-server-dev | development | local | claude-plugins-official ./plugins/mcp-server-dev | - | Not imported |
-| PM-240 | mcp-tunnels | development | local | claude-plugins-official ./plugins/mcp-tunnels | - | Not imported |
-| PM-241 | mergify | development | url | mergifyio/mergify-cli | 6307ed10e862 | Not imported |
-| PM-242 | microsoft-docs | development | url | MicrosoftDocs/mcp | f0a9478a954c | Not imported |
-| PM-243 | migration-to-aws | development | git-subdir | awslabs/startups (migrate/plugins/migration-to-aws) | ec681ba5d49b | Not imported |
-| PM-244 | mlflow | monitoring | url | mlflow/skills | 51a42ea2b07f | Not imported |
-| PM-245 | mongodb-atlas | database | git-subdir | mongodb/agent-skills (plugins/mongodb-atlas) | c370a63b2707 | Not imported |
-| PM-246 | netsuite-ai-companion | productivity | git-subdir | oracle/netsuite-suitecloud-sdk (anthropic/netsuite-ai-companion) | 23793a10a9bb | Not imported |
-| PM-247 | netsuite-finance-analyst | productivity | git-subdir | oracle/netsuite-suitecloud-sdk (anthropic/netsuite-finance-analyst) | 23793a10a9bb | Not imported |
-| PM-248 | netsuite-suitecloud | development | git-subdir | oracle/netsuite-suitecloud-sdk (anthropic/netsuite-suitecloud) | 23793a10a9bb | Not imported |
-| PM-249 | newrelic | monitoring | url | newrelic/claude-code-plugin | f8e5f8b62139 | Not imported |
-| PM-250 | nightvision |  | url | nvsecurity/nightvision-skills | 957db6bb9348 | Not imported |
-| PM-251 | nimble |  | url | Nimbleway/agent-skills | fdb077c7220a | Not imported |
-| PM-252 | nvidia-skills | development | git-subdir | NVIDIA/skills (plugins/nvidia-skills) | 029363a2023c | Not imported |
-| PM-253 | oracle-ai-data-platform-workbench-databricks-migrator | development | git-subdir | oracle-samples/oracle-aidp-samples (ai/claude-code-plugins/oracle-ai-data-platform-workbench-databricks-migrator) | a7225cbdd935 | Not imported |
-| PM-254 | oracle-ai-data-platform-workbench-engineer-agent | development | git-subdir | oracle-samples/oracle-aidp-samples (ai/claude-code-plugins/oracle-ai-data-platform-workbench-engineer-agent) | a7225cbdd935 | Not imported |
-| PM-255 | oracle-ai-data-platform-workbench-spark-connectors | development | git-subdir | oracle-samples/oracle-aidp-samples (ai/claude-code-plugins/oracle-ai-data-platform-workbench-spark-connectors) | a7225cbdd935 | Not imported |
-| PM-256 | oracledb | database | url | gemini-cli-extensions/oracledb | 8d24bdc3185c | Not imported |
-| PM-257 | php-lsp | development | local | claude-plugins-official ./plugins/php-lsp | - | Not imported |
-| PM-258 | pigment | productivity | url | gopigment/ai-plugins | 8a2c2d734f94 | Not imported |
-| PM-259 | pinecone | database | url | pinecone-io/pinecone-claude-code-plugin | c383d38b5cc3 | Not imported |
-| PM-260 | pixeltable | development | url | pixeltable/pixeltable-skill | c471dbb262b6 | Not imported |
-| PM-261 | playground | development | local | claude-plugins-official ./plugins/playground | - | Not imported |
-| PM-262 | playwright | testing | local | claude-plugins-official ./external_plugins/playwright | - | Not imported |
-| PM-263 | plugin-dev | development | local | claude-plugins-official ./plugins/plugin-dev | - | Not imported |
-| PM-264 | postiz |  | url | gitroomhq/postiz-agent | 86e02524377c | Not imported |
-| PM-265 | pr-review-toolkit | productivity | local | claude-plugins-official ./plugins/pr-review-toolkit | - | Not imported |
-| PM-266 | prisma |  | url | prisma/claude-plugin | 82edd74d8189 | Not imported |
-| PM-267 | project-artifact | productivity | local | claude-plugins-official ./plugins/project-artifact | - | Not imported |
-| PM-268 | pyright-lsp | development | local | claude-plugins-official ./plugins/pyright-lsp | - | Not imported |
-| PM-269 | qt-development-skills | development | url | TheQtCompanyRnD/agent-skills | a784c48445e3 | Not imported |
-| PM-270 | quarkus-agent | development | url | quarkusio/quarkus-agent-mcp | 73cef3b2564d | Not imported |
-| PM-271 | railway | deployment | git-subdir | railwayapp/railway-skills (plugins/railway) | a100f93e482c | Not imported |
-| PM-272 | ralph-loop | development | local | claude-plugins-official ./plugins/ralph-loop | - | Not imported |
-| PM-273 | rc | development | url | RevenueCat/rc-claude-code-plugin (revenuecat) | ccfc038185ec | Not imported |
-| PM-274 | receipts | productivity | local | claude-plugins-official ./plugins/receipts | - | Not imported |
-| PM-275 | remember |  | url | Digital-Process-Tools/claude-remember | ccd45061ee4b | Not imported |
-| PM-276 | rootly | monitoring | url | Rootly-AI-Labs/rootly-claude-plugin | 65832aa6ff7a | Not imported |
-| PM-277 | ruby-lsp | development | local | claude-plugins-official ./plugins/ruby-lsp | - | Not imported |
-| PM-278 | rust-analyzer-lsp | development | local | claude-plugins-official ./plugins/rust-analyzer-lsp | - | Not imported |
-| PM-279 | salesforce-development | development | git-subdir | forcedotcom/sf-skills (plugins/builder/salesforce-development) | d3088edf8776 | Not imported |
-| PM-280 | sap-cds-mcp | development | url | cap-js/mcp-server | 52ca3304342d | Not imported |
-| PM-281 | sap-fiori-mcp-server | development | git-subdir | SAP/open-ux-tools (packages/fiori-mcp-server) | 69e2c50833f1 | Not imported |
-| PM-282 | sap-hana-cli | database | url | SAP-samples/hana-cli-claude-plugin | abadd0aba327 | Not imported |
-| PM-283 | sap-mdk-server | development | url | SAP/mdk-mcp-server | ce65cbf22089 | Not imported |
-| PM-284 | scandit-sdk | development | url | Scandit/skills | 2f0731a090eb | Not imported |
-| PM-285 | security-guidance | security | local | claude-plugins-official ./plugins/security-guidance | - | Not imported |
-| PM-286 | semgrep | security | git-subdir | semgrep/mcp-marketplace (plugin) | b58f407c6ac0 | Not imported |
-| PM-287 | sentry-cli | monitoring | git-subdir | getsentry/cli (packages/cli/plugins/sentry-cli) | 3567c3c937b5 | Not imported |
-| PM-288 | serena | development | local | claude-plugins-official ./external_plugins/serena | - | Not imported |
-| PM-289 | servicenow-sdk | development | git-subdir | ServiceNow/sdk (providers/claude/plugin) | 6f01c0e26cbe | Not imported |
-| PM-290 | session-report | productivity | local | claude-plugins-official ./plugins/session-report | - | Not imported |
-| PM-291 | shippo | productivity | git-subdir | goshippo/ai (providers/claude/plugin) | cf8e96532f24 | Not imported |
-| PM-292 | shopify-ai-toolkit | development | url | Shopify/Shopify-AI-Toolkit | 3c32168c6e4c | Not imported |
-| PM-293 | skill-creator | development | local | claude-plugins-official ./plugins/skill-creator | - | Not imported |
-| PM-294 | sonarqube | security | url | SonarSource/sonarqube-agent-plugins | 5a9356d957db | Not imported |
-| PM-295 | sonatype-guide | security | url | sonatype/sonatype-guide-claude-plugin | 1dae73980f59 | Not imported |
-| PM-296 | sourcegraph | development | url | sourcegraph-community/sourcegraph-claudecode-plugin | 674a05e2e286 | Not imported |
-| PM-297 | spanner | database | url | gemini-cli-extensions/spanner | d4db42a27080 | Not imported |
-| PM-298 | spotify-ads-api | productivity | url | spotify/ads-claude-plugin | 532b47af3d2e | Not imported |
-| PM-299 | swift-lsp | development | local | claude-plugins-official ./plugins/swift-lsp | - | Not imported |
-| PM-300 | telegram | productivity | local | claude-plugins-official ./external_plugins/telegram | - | Not imported |
-| PM-301 | terraform | development | local | claude-plugins-official ./external_plugins/terraform | - | Not imported |
-| PM-302 | twilio-developer-kit | development | url | twilio/ai | 803790a281f0 | Not imported |
-| PM-303 | typescript-lsp | development | local | claude-plugins-official ./plugins/typescript-lsp | - | Not imported |
-| PM-304 | ui5 | development | git-subdir | UI5/plugins-coding-agents (plugins/ui5) | a99b882ce364 | Not imported |
-| PM-305 | unity | development | url | Unity-Technologies/unity-agent-plugin | ba48956ae8be | Not imported |
-| PM-306 | unreal-engine-skills-for-claude-code | development | url | EpicGames/unreal-engine-skills-for-claude-code-plugin | 0e27bde2b55c | Not imported |
-| PM-307 | vanguard-advisor-tools | productivity | url | Vanguard-oss/vanguard-advisor-tools | 328fe9f61fe7 | Not imported |
-| PM-308 | vanta-mcp-plugin | security | url | VantaInc/vanta-mcp-plugin | 345d86b55faa | Not imported |
-| PM-309 | windsor-ai | productivity | url | windsor-ai/claude-windsor-ai-plugin | d7ba1cb036c7 | Not imported |
+| PM-156 | 42crunch-api-security-testing | security | git-subdir | 42Crunch-AI/claude-plugins (plugins/api-security-testing) | faf5305385de | Not imported |
+| PM-157 | agent-sdk-dev | development | local | claude-plugins-official ./plugins/agent-sdk-dev | - | Not imported |
+| PM-158 | agentforce-adlc | development | url | SalesforceAIResearch/agentforce-adlc | 09bf1539d41f | Not imported |
+| PM-159 | aikido |  | url | AikidoSec/aikido-claude-plugin | 8fdc995a4410 | Not imported |
+| PM-160 | alloydb | database | url | gemini-cli-extensions/alloydb | f9b3280bdcfe | Not imported |
+| PM-161 | altimate-code | database | git-subdir | AltimateAI/altimate-claude-plugin (plugins/altimate-code) | b7c8f68b3dfd | Not imported |
+| PM-162 | appwrite | development | url | appwrite/claude-plugin | ab3c90b37c95 | Not imported |
+| PM-163 | atlan |  | url | atlanhq/agent-toolkit | 17b7ae3b4852 | Not imported |
+| PM-164 | aws-agents-for-devsecops | development | git-subdir | aws/agent-toolkit-for-aws (plugins/aws-agents-for-devsecops) | 7bde20faede4 | Not imported |
+| PM-165 | aws-startup-advisor | development | git-subdir | aws/agent-toolkit-for-aws (plugins/aws-startup-advisor) | b310d1c46b4c | Not imported |
+| PM-166 | brightdata-plugin |  | url | brightdata/skills | 37503c1ba310 | Not imported |
+| PM-167 | browser-use | automation | git-subdir | browser-use/plugins (browser-use) | 4749bcbfe456 | Not imported |
+| PM-168 | build-with-wordpress |  | url | Automattic/claude-code-wordpress.com | 052ca970df2c | Not imported |
+| PM-169 | carbone-skill | productivity | url | carboneio/carbone-skill | 25207b3f52b9 | Not imported |
+| PM-170 | carta-cap-table | productivity | git-subdir | carta/plugins (plugins/carta-cap-table) | ea7fe1d4db0f | Not imported |
+| PM-171 | carta-investors | productivity | git-subdir | carta/plugins (plugins/carta-investors) | ea7fe1d4db0f | Not imported |
+| PM-172 | cds-mcp | development | url | cap-js/mcp-server | 52ca3304342d | Not imported |
+| PM-173 | circle-skills | development | git-subdir | circlefin/skills (plugins/circle) | 58ab8648bb1a | Not imported |
+| PM-174 | circleback | productivity | url | circlebackai/claude-code-plugin | a610634c95ab | Not imported |
+| PM-175 | clangd-lsp | development | local | claude-plugins-official ./plugins/clangd-lsp | - | Not imported |
+| PM-176 | claude-code-setup | productivity | local | claude-plugins-official ./plugins/claude-code-setup | - | Not imported |
+| PM-177 | claude-md-management | productivity | local | claude-plugins-official ./plugins/claude-md-management | - | Not imported |
+| PM-178 | claude-security | security | local | claude-plugins-official ./plugins/claude-security | - | Not imported |
+| PM-179 | clickhouse | database | url | ClickHouse/clickhouse-claude-code-plugin | 652664c8924c | Not imported |
+| PM-180 | clickhouse-best-practices | database | url | ClickHouse/agent-skills | 356a8c1b9a73 | Not imported |
+| PM-181 | cloud-sql-mysql | database | url | gemini-cli-extensions/cloud-sql-mysql | 51aa269094a8 | Not imported |
+| PM-182 | cloud-sql-postgresql | database | url | gemini-cli-extensions/cloud-sql-postgresql | 1d758bb34795 | Not imported |
+| PM-183 | cloud-sql-sqlserver | database | url | gemini-cli-extensions/cloud-sql-sqlserver | 7efeaaf026b3 | Not imported |
+| PM-184 | cloudinary |  | url | cloudinary-devs/cloudinary-plugin | 86be53409e3f | Not imported |
+| PM-185 | cockroachdb | database | url | cockroachdb/claude-plugin | 6c96c6394a61 | Not imported |
+| PM-186 | code-modernization | development | local | claude-plugins-official ./plugins/code-modernization | - | Not imported |
+| PM-187 | code-review | productivity | local | claude-plugins-official ./plugins/code-review | - | Not imported |
+| PM-188 | code-simplifier | productivity | local | claude-plugins-official ./plugins/code-simplifier | - | Not imported |
+| PM-189 | coderabbit | productivity | url | coderabbitai/skills | 3e8763d24d54 | Not imported |
+| PM-190 | codspeed | development | url | CodSpeedHQ/codspeed | 59cfc90540bb | Not imported |
+| PM-191 | commit-commands | productivity | local | claude-plugins-official ./plugins/commit-commands | - | Not imported |
+| PM-192 | convex | database | url | get-convex/convex-backend-skill | 6ca54f6e2e75 | Not imported |
+| PM-193 | crowdstrike-falcon-fusion | security | url | CrowdStrike/fusion-skills | 38527dc5afa9 | Not imported |
+| PM-194 | csharp-lsp | development | local | claude-plugins-official ./plugins/csharp-lsp | - | Not imported |
+| PM-195 | cwc-makers | productivity | local | claude-plugins-official ./plugins/cwc-makers | - | Not imported |
+| PM-196 | dash0 | monitoring | url | dash0hq/dash0-agent-plugin | 72a84179e6c6 | Not imported |
+| PM-197 | data | development | url | astronomer/agents | 35b9610bb271 | Not imported |
+| PM-198 | data-agent-kit | development | url | GoogleCloudPlatform/data-agent-kit-plugin | 83c53b5f129c | Not imported |
+| PM-199 | data-engineering |  | url | astronomer/agents | 35b9610bb271 | Not imported |
+| PM-200 | databricks | database | git-subdir | databricks/databricks-agent-skills (plugins/databricks/claude) | c1964266c7aa | Not imported |
+| PM-201 | datahub-skills | database | url | datahub-project/datahub-skills | a27f8e7bb514 | Not imported |
+| PM-202 | dataproc | database | url | gemini-cli-extensions/dataproc | 18534a9bfe0d | Not imported |
+| PM-203 | datarobot-agent-skills | development | url | datarobot-oss/datarobot-agent-skills | 53a4dacc6b55 | Not imported |
+| PM-204 | discord | productivity | local | claude-plugins-official ./external_plugins/discord | - | Not imported |
+| PM-205 | dominodatalab | development | url | dominodatalab/domino-claude-plugin | 7949e3ac470c | Not imported |
+| PM-206 | explanatory-output-style | learning | local | claude-plugins-official ./plugins/explanatory-output-style | - | Not imported |
+| PM-207 | fakechat | development | local | claude-plugins-official ./external_plugins/fakechat | - | Not imported |
+| PM-208 | feature-dev | development | local | claude-plugins-official ./plugins/feature-dev | - | Not imported |
+| PM-209 | firebase | database | local | claude-plugins-official ./external_plugins/firebase | - | Not imported |
+| PM-210 | firestore-native | database | url | gemini-cli-extensions/firestore-native | 6e6a841c2173 | Not imported |
+| PM-211 | frontend-design | development | local | claude-plugins-official ./plugins/frontend-design | - | Not imported |
+| PM-212 | fullstory | monitoring | url | fullstorydev/fullstory-skills | ca872d97f5c3 | Not imported |
+| PM-213 | gitkraken | development | url | gitkraken/claude-plugin | f7a53b2cd138 | Not imported |
+| PM-214 | gopls-lsp | development | local | claude-plugins-official ./plugins/gopls-lsp | - | Not imported |
+| PM-215 | hookify | productivity | local | claude-plugins-official ./plugins/hookify | - | Not imported |
+| PM-216 | hostinger | deployment | url | hostinger/claude-plugin | 569880c60681 | Not imported |
+| PM-217 | hubspot-sales | productivity | git-subdir | HubSpot/hubspot-mcp-plugins (HubSpot-Sales) | a0c59600fc1d | Not imported |
+| PM-218 | huggingface-skills | development | url | huggingface/skills | c3ff942be3e0 | Not imported |
+| PM-219 | hyperframes | design | url | heygen-com/hyperframes | 8d2b6e7bdc1c | Not imported |
+| PM-220 | imessage | productivity | local | claude-plugins-official ./external_plugins/imessage | - | Not imported |
+| PM-221 | intuit-quickbooks | productivity | url | intuit/quickbooks-claude-plugin | c8daa17a64d4 | Not imported |
+| PM-222 | jdtls-lsp | development | local | claude-plugins-official ./plugins/jdtls-lsp | - | Not imported |
+| PM-223 | jfrog | security | url | jfrog/claude-plugin | 9b1f8f6c8835 | Not imported |
+| PM-224 | knowledge-catalog | database | url | gemini-cli-extensions/knowledge-catalog | 630397520359 | Not imported |
+| PM-225 | kotlin-lsp | development | local | claude-plugins-official ./plugins/kotlin-lsp | - | Not imported |
+| PM-226 | langfuse-observability | monitoring | url | langfuse/claude-observability-plugin | b5211009698f | Not imported |
+| PM-227 | laravel-boost | development | local | claude-plugins-official ./external_plugins/laravel-boost | - | Not imported |
+| PM-228 | learn-with-coursera | learning | git-subdir | coursera/skills (skills) | ac28fd6ebf85 | Not imported |
+| PM-229 | learning-output-style | learning | local | claude-plugins-official ./plugins/learning-output-style | - | Not imported |
+| PM-230 | legalzoom | productivity | git-subdir | legalzoom/claude-plugins (plugins/legalzoom) | f9fd8a0ca6e1 | Not imported |
+| PM-231 | linq-alpha | productivity | git-subdir | linq-lab/linq-alpha-plugin (plugins/linq-alpha) | bfb594b7ccca | Not imported |
+| PM-232 | liquid-lsp | development | git-subdir | Shopify/liquid-skills (plugins/liquid-lsp) | ae3e4cc3f454 | Not imported |
+| PM-233 | liquid-skills | development | git-subdir | Shopify/liquid-skills (plugins/liquid-skills) | ae3e4cc3f454 | Not imported |
+| PM-234 | logrocket | monitoring | git-subdir | LogRocket/logrocket-claude-plugin (plugins/logrocket) | 2e44dbb47faf | Not imported |
+| PM-235 | looker | database | url | gemini-cli-extensions/looker | 13ed738a97a1 | Not imported |
+| PM-236 | lua-lsp | development | local | claude-plugins-official ./plugins/lua-lsp | - | Not imported |
+| PM-237 | math-olympiad | math | local | claude-plugins-official ./plugins/math-olympiad | - | Not imported |
+| PM-238 | math-proof | math | local | claude-plugins-official ./plugins/math-proof | - | Not imported |
+| PM-239 | mattpocock-skills | development | url | mattpocock/skills | 49dd158d1076 | Not imported |
+| PM-240 | mcp-apps | development | git-subdir | modelcontextprotocol/ext-apps (plugins/mcp-apps) | 6d9bdc7babf2 | Not imported |
+| PM-241 | mcp-server-dev | development | local | claude-plugins-official ./plugins/mcp-server-dev | - | Not imported |
+| PM-242 | mcp-tunnels | development | local | claude-plugins-official ./plugins/mcp-tunnels | - | Not imported |
+| PM-243 | mergify | development | url | mergifyio/mergify-cli | 6307ed10e862 | Not imported |
+| PM-244 | microsoft-docs | development | url | MicrosoftDocs/mcp | f0a9478a954c | Not imported |
+| PM-245 | migration-to-aws | development | git-subdir | awslabs/startups (migrate/plugins/migration-to-aws) | ec681ba5d49b | Not imported |
+| PM-246 | mlflow | monitoring | url | mlflow/skills | 51a42ea2b07f | Not imported |
+| PM-247 | mongodb-atlas | database | git-subdir | mongodb/agent-skills (plugins/mongodb-atlas) | c370a63b2707 | Not imported |
+| PM-248 | netsuite-ai-companion | productivity | git-subdir | oracle/netsuite-suitecloud-sdk (anthropic/netsuite-ai-companion) | 23793a10a9bb | Not imported |
+| PM-249 | netsuite-finance-analyst | productivity | git-subdir | oracle/netsuite-suitecloud-sdk (anthropic/netsuite-finance-analyst) | 23793a10a9bb | Not imported |
+| PM-250 | netsuite-suitecloud | development | git-subdir | oracle/netsuite-suitecloud-sdk (anthropic/netsuite-suitecloud) | 23793a10a9bb | Not imported |
+| PM-251 | newrelic | monitoring | url | newrelic/claude-code-plugin | f8e5f8b62139 | Not imported |
+| PM-252 | nightvision |  | url | nvsecurity/nightvision-skills | 957db6bb9348 | Not imported |
+| PM-253 | nimble |  | url | Nimbleway/agent-skills | fdb077c7220a | Not imported |
+| PM-254 | nvidia-skills | development | git-subdir | NVIDIA/skills (plugins/nvidia-skills) | 029363a2023c | Not imported |
+| PM-255 | oracle-ai-data-platform-workbench-databricks-migrator | development | git-subdir | oracle-samples/oracle-aidp-samples (ai/claude-code-plugins/oracle-ai-data-platform-workbench-databricks-migrator) | a7225cbdd935 | Not imported |
+| PM-256 | oracle-ai-data-platform-workbench-engineer-agent | development | git-subdir | oracle-samples/oracle-aidp-samples (ai/claude-code-plugins/oracle-ai-data-platform-workbench-engineer-agent) | a7225cbdd935 | Not imported |
+| PM-257 | oracle-ai-data-platform-workbench-spark-connectors | development | git-subdir | oracle-samples/oracle-aidp-samples (ai/claude-code-plugins/oracle-ai-data-platform-workbench-spark-connectors) | a7225cbdd935 | Not imported |
+| PM-258 | oracledb | database | url | gemini-cli-extensions/oracledb | 8d24bdc3185c | Not imported |
+| PM-259 | php-lsp | development | local | claude-plugins-official ./plugins/php-lsp | - | Not imported |
+| PM-260 | pigment | productivity | url | gopigment/ai-plugins | 8a2c2d734f94 | Not imported |
+| PM-261 | pinecone | database | url | pinecone-io/pinecone-claude-code-plugin | c383d38b5cc3 | Not imported |
+| PM-262 | pixeltable | development | url | pixeltable/pixeltable-skill | c471dbb262b6 | Not imported |
+| PM-263 | playground | development | local | claude-plugins-official ./plugins/playground | - | Not imported |
+| PM-264 | playwright | testing | local | claude-plugins-official ./external_plugins/playwright | - | Not imported |
+| PM-265 | plugin-dev | development | local | claude-plugins-official ./plugins/plugin-dev | - | Not imported |
+| PM-266 | postiz |  | url | gitroomhq/postiz-agent | 86e02524377c | Not imported |
+| PM-267 | pr-review-toolkit | productivity | local | claude-plugins-official ./plugins/pr-review-toolkit | - | Not imported |
+| PM-268 | prisma |  | url | prisma/claude-plugin | 82edd74d8189 | Not imported |
+| PM-269 | project-artifact | productivity | local | claude-plugins-official ./plugins/project-artifact | - | Not imported |
+| PM-270 | pyright-lsp | development | local | claude-plugins-official ./plugins/pyright-lsp | - | Not imported |
+| PM-271 | qt-development-skills | development | url | TheQtCompanyRnD/agent-skills | a784c48445e3 | Not imported |
+| PM-272 | quarkus-agent | development | url | quarkusio/quarkus-agent-mcp | 73cef3b2564d | Not imported |
+| PM-273 | ralph-loop | development | local | claude-plugins-official ./plugins/ralph-loop | - | Not imported |
+| PM-274 | rc | development | url | RevenueCat/rc-claude-code-plugin (revenuecat) | ccfc038185ec | Not imported |
+| PM-275 | receipts | productivity | local | claude-plugins-official ./plugins/receipts | - | Not imported |
+| PM-276 | remember |  | url | Digital-Process-Tools/claude-remember | ccd45061ee4b | Not imported |
+| PM-277 | rootly | monitoring | url | Rootly-AI-Labs/rootly-claude-plugin | 65832aa6ff7a | Not imported |
+| PM-278 | ruby-lsp | development | local | claude-plugins-official ./plugins/ruby-lsp | - | Not imported |
+| PM-279 | rust-analyzer-lsp | development | local | claude-plugins-official ./plugins/rust-analyzer-lsp | - | Not imported |
+| PM-280 | salesforce-development | development | git-subdir | forcedotcom/sf-skills (plugins/builder/salesforce-development) | d3088edf8776 | Not imported |
+| PM-281 | sap-cds-mcp | development | url | cap-js/mcp-server | 52ca3304342d | Not imported |
+| PM-282 | sap-fiori-mcp-server | development | git-subdir | SAP/open-ux-tools (packages/fiori-mcp-server) | 69e2c50833f1 | Not imported |
+| PM-283 | sap-hana-cli | database | url | SAP-samples/hana-cli-claude-plugin | abadd0aba327 | Not imported |
+| PM-284 | sap-mdk-server | development | url | SAP/mdk-mcp-server | ce65cbf22089 | Not imported |
+| PM-285 | scandit-sdk | development | url | Scandit/skills | 2f0731a090eb | Not imported |
+| PM-286 | security-guidance | security | local | claude-plugins-official ./plugins/security-guidance | - | Not imported |
+| PM-287 | semgrep | security | git-subdir | semgrep/mcp-marketplace (plugin) | b58f407c6ac0 | Not imported |
+| PM-288 | sentry-cli | monitoring | git-subdir | getsentry/cli (packages/cli/plugins/sentry-cli) | 3567c3c937b5 | Not imported |
+| PM-289 | serena | development | local | claude-plugins-official ./external_plugins/serena | - | Not imported |
+| PM-290 | servicenow-sdk | development | git-subdir | ServiceNow/sdk (providers/claude/plugin) | 6f01c0e26cbe | Not imported |
+| PM-291 | session-report | productivity | local | claude-plugins-official ./plugins/session-report | - | Not imported |
+| PM-292 | shippo | productivity | git-subdir | goshippo/ai (providers/claude/plugin) | cf8e96532f24 | Not imported |
+| PM-293 | shopify-ai-toolkit | development | url | Shopify/Shopify-AI-Toolkit | 3c32168c6e4c | Not imported |
+| PM-294 | skill-creator | development | local | claude-plugins-official ./plugins/skill-creator | - | Not imported |
+| PM-295 | sonarqube | security | url | SonarSource/sonarqube-agent-plugins | 5a9356d957db | Not imported |
+| PM-296 | sonatype-guide | security | url | sonatype/sonatype-guide-claude-plugin | 1dae73980f59 | Not imported |
+| PM-297 | sourcegraph | development | url | sourcegraph-community/sourcegraph-claudecode-plugin | 674a05e2e286 | Not imported |
+| PM-298 | spanner | database | url | gemini-cli-extensions/spanner | d4db42a27080 | Not imported |
+| PM-299 | spotify-ads-api | productivity | url | spotify/ads-claude-plugin | 532b47af3d2e | Not imported |
+| PM-300 | swift-lsp | development | local | claude-plugins-official ./plugins/swift-lsp | - | Not imported |
+| PM-301 | telegram | productivity | local | claude-plugins-official ./external_plugins/telegram | - | Not imported |
+| PM-302 | terraform | development | local | claude-plugins-official ./external_plugins/terraform | - | Not imported |
+| PM-303 | twilio-developer-kit | development | url | twilio/ai | 803790a281f0 | Not imported |
+| PM-304 | typescript-lsp | development | local | claude-plugins-official ./plugins/typescript-lsp | - | Not imported |
+| PM-305 | ui5 | development | git-subdir | UI5/plugins-coding-agents (plugins/ui5) | a99b882ce364 | Not imported |
+| PM-306 | unity | development | url | Unity-Technologies/unity-agent-plugin | ba48956ae8be | Not imported |
+| PM-307 | unreal-engine-skills-for-claude-code | development | url | EpicGames/unreal-engine-skills-for-claude-code-plugin | 0e27bde2b55c | Not imported |
+| PM-308 | vanguard-advisor-tools | productivity | url | Vanguard-oss/vanguard-advisor-tools | 328fe9f61fe7 | Not imported |
+| PM-309 | vanta-mcp-plugin | security | url | VantaInc/vanta-mcp-plugin | 345d86b55faa | Not imported |
 | PM-310 | workos | security | git-subdir | workos/skills (plugins/workos) | e25141bae047 | Not imported |
 | PM-311 | zilliz | database | url | zilliztech/zilliz-plugin (plugins/zilliz) | 35c86c000c91 | Not imported |
 | PM-312 | zocks-advisor | productivity | url | zocks-communications/zocks-agent-plugins | a3e445c13966 | Not imported |

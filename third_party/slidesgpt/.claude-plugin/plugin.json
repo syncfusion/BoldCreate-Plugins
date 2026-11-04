@@ -1,0 +1,24 @@
+{
+  "name": "slidesgpt",
+  "displayName": "SlidesGPT",
+  "version": "0.7.1",
+  "description": "Make presentations and slides, export to PowerPoint.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://slidesgpt.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "slidesgpt",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "slidesgpt": {
+      "type": "http",
+      "url": "https://claude.slidesgpt.com/mcp"
+    }
+  }
+}

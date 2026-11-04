@@ -1,0 +1,24 @@
+{
+  "name": "factset",
+  "displayName": "FactSet AI-Ready Data",
+  "version": "0.7.1",
+  "description": "Access institutional-quality financial data and analytics.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.factset.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "factset",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "factset": {
+      "type": "http",
+      "url": "https://mcp.factset.com/content/v1"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "unsplash",
+  "displayName": "Unsplash",
+  "version": "0.7.1",
+  "description": "Find and use free HD images.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://unsplash.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "unsplash",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "unsplash": {
+      "type": "http",
+      "url": "https://mcp.unsplash.com/mcp"
+    }
+  }
+}

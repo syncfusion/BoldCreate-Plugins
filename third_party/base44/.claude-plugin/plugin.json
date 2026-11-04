@@ -1,0 +1,24 @@
+{
+  "name": "base44",
+  "displayName": "Base44",
+  "version": "0.7.1",
+  "description": "Build and manage Base44 apps.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://base44.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "base44",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "base44": {
+      "type": "http",
+      "url": "https://app.base44.com/mcp"
+    }
+  }
+}

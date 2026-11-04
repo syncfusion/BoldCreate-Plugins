@@ -1,0 +1,24 @@
+{
+  "name": "coursera",
+  "displayName": "Coursera",
+  "version": "0.7.1",
+  "description": "Transform your prompts into active skill-building.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.coursera.org/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "coursera",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "coursera": {
+      "type": "http",
+      "url": "https://api.coursera.com/mcp"
+    }
+  }
+}

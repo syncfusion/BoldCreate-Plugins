@@ -1,0 +1,24 @@
+{
+  "name": "supermetrics",
+  "displayName": "Supermetrics Marketing Analytics",
+  "version": "0.7.1",
+  "description": "Google Ads, Facebook Ads, Google Analytics, TikTok, LinkedIn, Instagram, YouTube & 200+ sources.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://supermetrics.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "supermetrics",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "supermetrics": {
+      "type": "http",
+      "url": "https://mcp.supermetrics.com/mcp"
+    }
+  }
+}

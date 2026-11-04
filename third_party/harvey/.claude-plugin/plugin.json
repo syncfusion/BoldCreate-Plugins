@@ -1,0 +1,24 @@
+{
+  "name": "harvey",
+  "displayName": "Harvey",
+  "version": "0.7.1",
+  "description": "Answer legal queries, search vaults, and research.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.harvey.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "harvey",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "harvey": {
+      "type": "http",
+      "url": "https://api.harvey.ai/hosted_mcp/mcp"
+    }
+  }
+}

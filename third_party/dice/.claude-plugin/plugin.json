@@ -1,0 +1,24 @@
+{
+  "name": "dice",
+  "displayName": "Dice",
+  "version": "0.7.1",
+  "description": "Find active tech jobs on Dice.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.dice.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "dice",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "dice": {
+      "type": "http",
+      "url": "https://mcp.dice.com/mcp"
+    }
+  }
+}

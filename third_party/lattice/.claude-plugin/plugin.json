@@ -1,0 +1,24 @@
+{
+  "name": "lattice",
+  "displayName": "Lattice",
+  "version": "0.7.1",
+  "description": "Lattice, wherever you work.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://lattice.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lattice",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "lattice": {
+      "type": "http",
+      "url": "https://api.latticehq.com/mcp"
+    }
+  }
+}

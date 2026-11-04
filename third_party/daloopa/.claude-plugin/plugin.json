@@ -1,0 +1,24 @@
+{
+  "name": "daloopa",
+  "displayName": "Daloopa",
+  "version": "0.7.1",
+  "description": "Financial fundamental data and KPIs with hyperlinks.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://daloopa.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "daloopa",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "daloopa": {
+      "type": "http",
+      "url": "https://mcp.daloopa.com/server/mcp"
+    }
+  }
+}

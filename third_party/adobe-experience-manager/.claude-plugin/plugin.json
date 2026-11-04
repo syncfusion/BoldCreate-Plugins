@@ -1,0 +1,24 @@
+{
+  "name": "adobe-experience-manager",
+  "displayName": "Adobe Experience Manager",
+  "version": "0.7.1",
+  "description": "Manage your Adobe Experience Manager content.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://business.adobe.com/products/experience-manager",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "adobe-experience-manager",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "adobe-experience-manager": {
+      "type": "http",
+      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/aem"
+    }
+  }
+}

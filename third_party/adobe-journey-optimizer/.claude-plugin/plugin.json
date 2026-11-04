@@ -1,0 +1,24 @@
+{
+  "name": "adobe-journey-optimizer",
+  "displayName": "Adobe Journey Optimizer",
+  "version": "0.7.1",
+  "description": "Understand and troubleshoot your Journeys and Campaigns.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://adobe.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "adobe-journey-optimizer",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "adobe-journey-optimizer": {
+      "type": "http",
+      "url": "https://ajo-mcp.adobe.io/mcp"
+    }
+  }
+}

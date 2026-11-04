@@ -1,0 +1,24 @@
+{
+  "name": "goodnotes",
+  "displayName": "Goodnotes",
+  "version": "0.7.1",
+  "description": "Turn AI insights into documents.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://goodnotes.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "goodnotes",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "goodnotes": {
+      "type": "http",
+      "url": "https://claude-mcp-api.ml.goodnotes.com/mcp"
+    }
+  }
+}

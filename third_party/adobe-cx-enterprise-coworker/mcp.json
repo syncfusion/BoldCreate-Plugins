@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adobe-cx-enterprise-coworker": {
+      "type": "http",
+      "url": "https://mcp.coworker.experience.adobe.io/"
+    }
+  }
+}

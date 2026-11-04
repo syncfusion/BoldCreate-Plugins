@@ -1,0 +1,24 @@
+{
+  "name": "ramp",
+  "displayName": "Ramp",
+  "version": "0.7.1",
+  "description": "Search, access, and analyze your Ramp financial data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ramp.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ramp",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "ramp": {
+      "type": "http",
+      "url": "https://ramp-mcp-remote.ramp.com/mcp"
+    }
+  }
+}

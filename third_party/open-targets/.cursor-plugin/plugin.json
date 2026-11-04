@@ -1,0 +1,28 @@
+{
+  "name": "open-targets",
+  "displayName": "Open Targets",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Drug target discovery and prioritisation platform.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.opentargets.org/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "open-targets",
+    "science",
+    "mcp"
+  ],
+  "category": "science",
+  "tags": [
+    "science",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

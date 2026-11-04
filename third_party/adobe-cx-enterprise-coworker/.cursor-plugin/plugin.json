@@ -1,0 +1,28 @@
+{
+  "name": "adobe-cx-enterprise-coworker",
+  "displayName": "Adobe CX Enterprise Coworker",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Drive CX Workflows.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://business.adobe.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "adobe-cx-enterprise-coworker",
+    "analytics",
+    "mcp"
+  ],
+  "category": "analytics",
+  "tags": [
+    "analytics",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

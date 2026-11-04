@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "superhuman-docs": {
+      "type": "http",
+      "url": "https://docs.superhuman.com/apis/mcp"
+    }
+  }
+}

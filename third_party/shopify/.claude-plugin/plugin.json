@@ -1,0 +1,24 @@
+{
+  "name": "shopify",
+  "displayName": "Shopify",
+  "version": "0.7.1",
+  "description": "Build, manage, and analyze your Shopify store.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.shopify.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "shopify": {
+      "type": "http",
+      "url": "https://setup.shopify.com/mcp"
+    }
+  }
+}

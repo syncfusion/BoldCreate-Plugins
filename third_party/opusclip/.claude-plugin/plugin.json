@@ -1,0 +1,24 @@
+{
+  "name": "opusclip",
+  "displayName": "OpusClip",
+  "version": "0.7.1",
+  "description": "Turn long videos into viral short clips.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://opus.pro/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "opusclip",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "opusclip": {
+      "type": "http",
+      "url": "https://api.opus.pro/api/mcp"
+    }
+  }
+}

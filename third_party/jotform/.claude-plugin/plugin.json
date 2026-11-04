@@ -1,0 +1,24 @@
+{
+  "name": "jotform",
+  "displayName": "Jotform",
+  "version": "0.7.1",
+  "description": "Create forms, surveys, quizzes & analyze submissions.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.jotform.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "jotform",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "jotform": {
+      "type": "http",
+      "url": "https://mcp.jotform.com/mcp-app"
+    }
+  }
+}

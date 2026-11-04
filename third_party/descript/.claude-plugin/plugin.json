@@ -1,0 +1,24 @@
+{
+  "name": "descript",
+  "displayName": "Descript",
+  "version": "0.7.1",
+  "description": "Import, edit, or create video with prompts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://descript.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "descript",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "descript": {
+      "type": "http",
+      "url": "https://api.descript.com/v2/mcp/claude"
+    }
+  }
+}

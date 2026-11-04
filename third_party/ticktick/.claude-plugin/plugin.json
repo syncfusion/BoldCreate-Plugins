@@ -1,0 +1,24 @@
+{
+  "name": "ticktick",
+  "displayName": "TickTick",
+  "version": "0.7.1",
+  "description": "Search, create and manage your tasks/habit it TickTick.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ticktick.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ticktick",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "ticktick": {
+      "type": "http",
+      "url": "https://mcp.ticktick.com/"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "courtlistener",
+  "displayName": "CourtListener",
+  "version": "0.7.1",
+  "description": "Legal research across millions of court records.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://free.law/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "courtlistener",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "courtlistener": {
+      "type": "http",
+      "url": "https://mcp.courtlistener.com/"
+    }
+  }
+}
