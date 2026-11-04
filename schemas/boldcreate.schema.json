@@ -35,7 +35,8 @@
         "path": { "type": "string", "description": "Plugin folder inside the source repository." },
         "commit": { "type": "string", "pattern": "^[0-9a-f]{7,40}$" },
         "author": { "type": "string", "description": "Author named in the source manifest." },
-        "license": { "type": "string" }
+        "license": { "type": "string" },
+        "notice": { "type": "boolean", "description": "True when the vendor repository has a NOTICE file. Apache-2.0 requires carrying it, so the plugin folder must then contain NOTICE." }
       }
     },
     "endpointCheck": {
