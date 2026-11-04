@@ -120,6 +120,8 @@ Skills copied from a vendor's own repository at a pinned commit. The vendor's fi
 | `name` | Plugin | Skills | Source |
 |:-------|:-------|-------:|:-------|
 | `crowdsec` | [CrowdSec](third_party/crowdsec/) | 2 | [crowdsecurity/crowdsec-skill](https://github.com/crowdsecurity/crowdsec-skill) |
+| `duckdb-skills` | [DuckDB Skills](third_party/duckdb-skills/) | 9 | [duckdb/duckdb-skills](https://github.com/duckdb/duckdb-skills) |
+| `duende-skills` | [Duende Skills](third_party/duende-skills/) | 24 | [DuendeSoftware/duende-skills](https://github.com/DuendeSoftware/duende-skills) |
 | `growthbook` | [GrowthBook](third_party/growthbook/) | 4 | [growthbook/skills](https://github.com/growthbook/skills) |
 
 ## Repository structure

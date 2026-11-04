@@ -219,6 +219,45 @@
       "supportedByGateway": true
     },
     {
+      "name": "duckdb-skills",
+      "displayName": "DuckDB Skills",
+      "version": "0.2.4",
+      "description": "Read data files, query DuckDB databases, and search DuckDB documentation.",
+      "source": "third_party/duckdb-skills",
+      "logo": "third_party/duckdb-skills/assets/logo.svg",
+      "category": "data",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "duende-skills",
+      "displayName": "Duende Skills",
+      "version": "0.3.0",
+      "description": "Build secure identity solutions with Duende IdentityServer, BFF, OAuth 2.0 and OpenID Connect on ASP.NET Core.",
+      "source": "third_party/duende-skills",
+      "logo": "third_party/duende-skills/assets/logo.svg",
+      "category": "security",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "exa",
       "displayName": "Exa",
       "version": "0.7.1",

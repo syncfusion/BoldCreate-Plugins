@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "duckdb-skills",
+  "displayName": "DuckDB Skills",
+  "version": "0.2.4",
+  "description": "Read data files, query DuckDB databases, and search DuckDB documentation.",
+  "author": {
+    "name": "duckdb"
+  },
+  "homepage": "https://github.com/duckdb/duckdb-skills",
+  "repository": "https://github.com/duckdb/duckdb-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "data",
+  "keywords": [
+    "duckdb",
+    "sql",
+    "parquet",
+    "csv",
+    "data"
+  ],
+  "docs": "https://github.com/duckdb/duckdb-skills",
+  "upstream": {
+    "repository": "https://github.com/duckdb/duckdb-skills",
+    "path": "skills",
+    "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+    "author": "duckdb",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "attach-db",
+      "convert-file",
+      "duckdb-docs",
+      "install-duckdb",
+      "query",
+      "read-file",
+      "read-memories",
+      "s3-explore",
+      "spatial"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

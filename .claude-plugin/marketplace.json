@@ -53,6 +53,16 @@
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
     },
     {
+      "name": "duckdb-skills",
+      "source": "./third_party/duckdb-skills",
+      "description": "Read data files, query DuckDB databases, and search DuckDB documentation."
+    },
+    {
+      "name": "duende-skills",
+      "source": "./third_party/duende-skills",
+      "description": "Build secure identity solutions with Duende IdentityServer, BFF, OAuth 2.0 and OpenID Connect on ASP.NET Core."
+    },
+    {
       "name": "exa",
       "source": "./third_party/exa",
       "description": "Search the web and fetch page content with Exa."

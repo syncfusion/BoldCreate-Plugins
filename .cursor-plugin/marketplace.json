@@ -53,6 +53,16 @@
       "source": "third_party/deepwiki"
     },
     {
+      "name": "duckdb-skills",
+      "description": "Read data files, query DuckDB databases, and search DuckDB documentation.",
+      "source": "third_party/duckdb-skills"
+    },
+    {
+      "name": "duende-skills",
+      "description": "Build secure identity solutions with Duende IdentityServer, BFF, OAuth 2.0 and OpenID Connect on ASP.NET Core.",
+      "source": "third_party/duende-skills"
+    },
+    {
       "name": "exa",
       "description": "Search the web and fetch page content with Exa.",
       "source": "third_party/exa"
