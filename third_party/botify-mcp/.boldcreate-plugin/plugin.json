@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "botify-mcp",
+  "displayName": "Botify MCP",
+  "version": "0.7.1",
+  "description": "AI search visibility, from insight to action.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.botify.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "analytics",
+  "keywords": [
+    "botify-mcp",
+    "analytics",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.botify.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "botify-mcp",
+        "transport": "streamable-http",
+        "url": "https://mcp.botify.com/",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

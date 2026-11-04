@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mygeotab-mcp",
+  "displayName": "MyGeotab MCP",
+  "version": "0.7.1",
+  "description": "Bring your fleet into Claude — analyze, manage, and act.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://geotab.com/geotab-mcp-connector",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "cloud",
+  "keywords": [
+    "mygeotab-mcp",
+    "cloud",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://geotab.com/geotab-mcp-connector",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "mygeotab-mcp",
+        "transport": "streamable-http",
+        "url": "https://mcp.geotab.com/mygeotab",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

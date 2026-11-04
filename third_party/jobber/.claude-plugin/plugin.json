@@ -1,0 +1,24 @@
+{
+  "name": "jobber",
+  "displayName": "Jobber",
+  "version": "0.7.1",
+  "description": "Get answers and take action with context from your Jobber account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.getjobber.com/?utm_source=anthropic&utm_medium=organic&utm_campaign=directory-listing",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "jobber",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "jobber": {
+      "type": "http",
+      "url": "https://mcp.getjobber.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "blackbaud": {
+      "type": "http",
+      "url": "https://mcp.sky.blackbaud.com/"
+    }
+  }
+}

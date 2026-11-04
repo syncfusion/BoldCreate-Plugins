@@ -1,0 +1,24 @@
+{
+  "name": "cube-software",
+  "displayName": "Cube Software",
+  "version": "0.7.1",
+  "description": "Bring trusted Cube financial context into Claude. Analyze performance, model scenarios, and move decisions into action, with your Cube permissions enforced on every request.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.cubesoftware.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "cube-software",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "cube-software": {
+      "type": "http",
+      "url": "https://mcp.cubesoftware.com/"
+    }
+  }
+}

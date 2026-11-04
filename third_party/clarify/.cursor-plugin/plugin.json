@@ -1,0 +1,28 @@
+{
+  "name": "clarify",
+  "displayName": "Clarify",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Query your CRM. Create records. Ask anything.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.clarify.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "clarify",
+    "productivity",
+    "mcp"
+  ],
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

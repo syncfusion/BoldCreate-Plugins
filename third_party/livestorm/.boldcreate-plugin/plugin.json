@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "livestorm",
+  "displayName": "Livestorm",
+  "version": "0.7.1",
+  "description": "Manage and analyze your webinars from Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://livestorm.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "analytics",
+  "keywords": [
+    "livestorm",
+    "analytics",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://livestorm.co/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "livestorm",
+        "transport": "streamable-http",
+        "url": "https://mcp.livestorm.co/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

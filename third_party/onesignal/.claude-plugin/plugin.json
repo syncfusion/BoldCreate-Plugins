@@ -1,0 +1,24 @@
+{
+  "name": "onesignal",
+  "displayName": "OneSignal",
+  "version": "0.7.1",
+  "description": "Agentic access to OneSignal’s customer engagement platform for messaging, users, and analytics.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://onesignal.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "onesignal",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "onesignal": {
+      "type": "http",
+      "url": "https://api.onesignal.com/mcp/oauth"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "sumsub",
+  "displayName": "Sumsub",
+  "version": "0.7.1",
+  "description": "Verify identities, businesses, and prevent fraud.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://sumsub.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "sumsub",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "sumsub": {
+      "type": "http",
+      "url": "https://api.sumsub.com/mcp/"
+    }
+  }
+}

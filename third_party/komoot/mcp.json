@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "komoot": {
+      "type": "http",
+      "url": "https://claude.main.komoot.net/mcp"
+    }
+  }
+}

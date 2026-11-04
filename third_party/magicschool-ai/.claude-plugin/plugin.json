@@ -1,0 +1,24 @@
+{
+  "name": "magicschool-ai",
+  "displayName": "MagicSchool AI",
+  "version": "0.7.1",
+  "description": "Save teaching materials directly to your MagicSchool Resource Library.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://magicschool.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "magicschool-ai",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "magicschool-ai": {
+      "type": "http",
+      "url": "https://app.magicschool.ai/api/mcp"
+    }
+  }
+}

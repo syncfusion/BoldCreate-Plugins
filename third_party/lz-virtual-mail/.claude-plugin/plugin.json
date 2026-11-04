@@ -1,0 +1,24 @@
+{
+  "name": "lz-virtual-mail",
+  "displayName": "LZ Virtual Mail",
+  "version": "0.7.1",
+  "description": "Manage your physical mail from anywhere.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.legalzoom.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lz-virtual-mail",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "lz-virtual-mail": {
+      "type": "http",
+      "url": "https://api.earthclassmail.com/v2/mcp/claude"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+# LawVu
+
+BoldCreate plugin that connects agents to LawVu through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
+
+Operating system for in-house legal teams.
+
+## Install
+
+- **BoldCreate Connect:** open **Marketplace**, find **LawVu**, and click **Install**.
+- **Cursor:** add this repository as a team marketplace, then install **LawVu**.
+- **Claude Code:** `/plugin marketplace add syncfusion/BoldCreate-Plugins`, then `/plugin install lawvu@boldcreate-plugins`.
+
+## MCP
+
+```json
+{
+  "mcpServers": {
+    "lawvu": {
+      "type": "http",
+      "url": "https://mcp.lawvu.com/mcp"
+    }
+  }
+}
+```
+
+## Setup
+
+No settings.
+
+The first time the agent calls a tool, each member signs in to LawVu in the browser (OAuth). Tool calls run with that member's permissions.
+
+The endpoint comes from the Claude connector directory. An anonymous request returned a 401 with OAuth metadata, so the server is reachable and asks for sign-in. No tool call has been made.
+
+## Docs
+
+- LawVu: https://lawvu.com/ (vendor homepage; the sandbox could not load it, so the link is not verified)
+
+## Logo
+
+Icon downloaded from the Claude connector directory listing for LawVu, converted to PNG and centred on a white tile. It is the vendor's own icon and a trademark of its owner. It is not covered by the MIT licence.}
+
+## License
+
+MIT

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "jobber",
+  "displayName": "Jobber",
+  "version": "0.7.1",
+  "description": "Get answers and take action with context from your Jobber account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.getjobber.com/?utm_source=anthropic&utm_medium=organic&utm_campaign=directory-listing",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "marketing",
+  "keywords": [
+    "jobber",
+    "marketing",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.getjobber.com/?utm_source=anthropic&utm_medium=organic&utm_campaign=directory-listing",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "jobber",
+        "transport": "streamable-http",
+        "url": "https://mcp.getjobber.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

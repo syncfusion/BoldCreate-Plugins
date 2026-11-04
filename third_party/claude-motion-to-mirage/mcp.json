@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "claude-motion-to-mirage": {
+      "type": "http",
+      "url": "https://mcp.mirage.app/claude-motion"
+    }
+  }
+}

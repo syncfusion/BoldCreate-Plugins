@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "abency",
+  "displayName": "Abency",
+  "version": "0.7.1",
+  "description": "Gestiona todas las marcas de tu agencia desde Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://abency.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "marketing",
+  "keywords": [
+    "abency",
+    "marketing",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://abency.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "abency",
+        "transport": "streamable-http",
+        "url": "https://app.abency.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

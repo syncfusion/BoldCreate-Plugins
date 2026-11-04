@@ -1,0 +1,24 @@
+{
+  "name": "stytch",
+  "displayName": "Stytch",
+  "version": "0.7.1",
+  "description": "Manage your Stytch Project.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://stytch.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "stytch",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "stytch": {
+      "type": "http",
+      "url": "https://mcp.stytch.dev/mcp"
+    }
+  }
+}

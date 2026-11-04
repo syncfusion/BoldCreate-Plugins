@@ -1,0 +1,24 @@
+{
+  "name": "komoot",
+  "displayName": "komoot",
+  "version": "0.7.1",
+  "description": "Discover outdoor routes and highlights.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.komoot.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "komoot",
+    "travel",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "komoot": {
+      "type": "http",
+      "url": "https://claude.main.komoot.net/mcp"
+    }
+  }
+}

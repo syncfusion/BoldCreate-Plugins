@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "filevine",
+  "displayName": "Filevine",
+  "version": "0.7.1",
+  "description": "Connect Claude to Filevine through the Filevine API to securely access and work with Filevine data and functionality.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.filevine.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "legal",
+  "keywords": [
+    "filevine",
+    "legal",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.filevine.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "filevine",
+        "transport": "streamable-http",
+        "url": "https://api.filevineapp.com/mcp/api-v2",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

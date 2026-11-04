@@ -1,0 +1,24 @@
+{
+  "name": "bill",
+  "displayName": "BILL",
+  "version": "0.7.1",
+  "description": "Finance answers, where you are.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.bill.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "bill",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "bill": {
+      "type": "http",
+      "url": "https://gateway.prod.bill.com/ai-mcp-server/v1"
+    }
+  }
+}

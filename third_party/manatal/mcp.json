@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "manatal": {
+      "type": "http",
+      "url": "https://mcp.manatal.com/mcp"
+    }
+  }
+}

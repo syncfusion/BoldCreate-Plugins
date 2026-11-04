@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sumsub": {
+      "type": "http",
+      "url": "https://api.sumsub.com/mcp/"
+    }
+  }
+}

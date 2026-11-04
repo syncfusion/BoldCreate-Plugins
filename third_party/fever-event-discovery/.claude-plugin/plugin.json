@@ -1,0 +1,24 @@
+{
+  "name": "fever-event-discovery",
+  "displayName": "Fever Event Discovery",
+  "version": "0.7.1",
+  "description": "Discover live entertainment events worldwide.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://feverup.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fever-event-discovery",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "fever-event-discovery": {
+      "type": "http",
+      "url": "https://data-search.apigw.feverup.com/mcp"
+    }
+  }
+}

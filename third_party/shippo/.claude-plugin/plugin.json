@@ -1,0 +1,24 @@
+{
+  "name": "shippo",
+  "displayName": "Shippo",
+  "version": "0.7.1",
+  "description": "Multi-carrier shipping, from a single package to high volume: compare live rates across USPS, UPS, FedEx, DHL, and 40+ carriers, then buy labels, validate addresses, and track packages.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://shippo.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "shippo",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "shippo": {
+      "type": "http",
+      "url": "https://mcp.shippo.com/"
+    }
+  }
+}

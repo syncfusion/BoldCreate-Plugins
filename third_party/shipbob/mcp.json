@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shipbob": {
+      "type": "http",
+      "url": "https://api.shipbob.com/developer-api/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "botify-mcp",
+  "displayName": "Botify MCP",
+  "version": "0.7.1",
+  "description": "AI search visibility, from insight to action.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.botify.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "botify-mcp",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "botify-mcp": {
+      "type": "http",
+      "url": "https://mcp.botify.com/"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "abency": {
+      "type": "http",
+      "url": "https://app.abency.com/mcp"
+    }
+  }
+}

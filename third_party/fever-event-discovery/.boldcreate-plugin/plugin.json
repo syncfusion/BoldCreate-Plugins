@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "fever-event-discovery",
+  "displayName": "Fever Event Discovery",
+  "version": "0.7.1",
+  "description": "Discover live entertainment events worldwide.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://feverup.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "keywords": [
+    "fever-event-discovery",
+    "productivity",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://feverup.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "fever-event-discovery",
+        "transport": "streamable-http",
+        "url": "https://data-search.apigw.feverup.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

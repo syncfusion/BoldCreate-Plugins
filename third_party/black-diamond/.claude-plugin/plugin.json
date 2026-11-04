@@ -1,0 +1,24 @@
+{
+  "name": "black-diamond",
+  "displayName": "Black Diamond",
+  "version": "0.7.1",
+  "description": "Client, portfolio, and performance data for advisors.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.sscblackdiamond.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "black-diamond",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "black-diamond": {
+      "type": "http",
+      "url": "https://bd3.bdreporting.com/mcp"
+    }
+  }
+}

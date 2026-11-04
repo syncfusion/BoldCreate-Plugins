@@ -1,0 +1,24 @@
+{
+  "name": "docuseal",
+  "displayName": "DocuSeal",
+  "version": "0.7.1",
+  "description": "Sign, send & manage documents with DocuSeal.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.docuseal.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "docuseal",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "docuseal": {
+      "type": "http",
+      "url": "https://docuseal.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "docsend-com",
+  "displayName": "docsend.com",
+  "version": "0.7.1",
+  "description": "Manage data rooms, track engagement, and move deals forward with DocSend in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.docsend.com/features/virtual-data-room/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "docsend-com",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "docsend-com": {
+      "type": "http",
+      "url": "https://docsend.com/mcp"
+    }
+  }
+}

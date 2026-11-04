@@ -1,0 +1,24 @@
+{
+  "name": "tabs",
+  "displayName": "Tabs",
+  "version": "0.7.1",
+  "description": "Make complex revenue simple at scale.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://tabs.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "tabs",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "tabs": {
+      "type": "http",
+      "url": "https://integrators.prod.api.tabsplatform.com/mcp"
+    }
+  }
+}

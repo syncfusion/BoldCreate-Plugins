@@ -1,0 +1,24 @@
+{
+  "name": "loops",
+  "displayName": "Loops",
+  "version": "0.7.1",
+  "description": "Run Loops with Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://loops.so/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "loops",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "loops": {
+      "type": "http",
+      "url": "https://mcp.loops.so/"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "shapes",
+  "displayName": "Shapes",
+  "version": "0.7.1",
+  "description": "Analyse your live people data, right in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://shapes.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "shapes",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "shapes": {
+      "type": "http",
+      "url": "https://mcp.shapes.co/mcp"
+    }
+  }
+}

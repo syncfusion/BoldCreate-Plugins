@@ -1,0 +1,24 @@
+{
+  "name": "planning-center",
+  "displayName": "Planning Center",
+  "version": "0.7.1",
+  "description": "Interact with your church data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.planningcenter.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "planning-center",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "planning-center": {
+      "type": "http",
+      "url": "https://mcp.planningcenteronline.com/mcp"
+    }
+  }
+}

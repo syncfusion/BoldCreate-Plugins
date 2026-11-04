@@ -1,0 +1,24 @@
+{
+  "name": "mospi",
+  "displayName": "MoSPI",
+  "version": "0.7.1",
+  "description": "India's official statistics via natural language.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.mospi.gov.in/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mospi",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mospi": {
+      "type": "http",
+      "url": "https://mcp.mospi.gov.in/"
+    }
+  }
+}

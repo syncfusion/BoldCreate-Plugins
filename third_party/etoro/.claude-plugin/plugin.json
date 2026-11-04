@@ -1,0 +1,24 @@
+{
+  "name": "etoro",
+  "displayName": "etoro",
+  "version": "0.7.1",
+  "description": "etoro. Where Our Collective Intelligence Meets Your Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://etoro.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "etoro",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "etoro": {
+      "type": "http",
+      "url": "https://mcp-readonly.public-api.etoro.com/"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "orion-by-gravity",
+  "displayName": "Orion by Gravity",
+  "version": "0.7.1",
+  "description": "Get insights from your autonomous AI analyst.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://bygravity.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "analytics",
+  "keywords": [
+    "orion-by-gravity",
+    "analytics",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://bygravity.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "orion-by-gravity",
+        "transport": "streamable-http",
+        "url": "https://g.runorion.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "coteach": {
+      "type": "http",
+      "url": "https://coteach.ai/api/mcp"
+    }
+  }
+}

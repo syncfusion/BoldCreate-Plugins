@@ -1,0 +1,28 @@
+{
+  "name": "lightfield",
+  "displayName": "Lightfield",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "CRM that remembers everything and works for you.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://lightfield.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "lightfield",
+    "marketing",
+    "mcp"
+  ],
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

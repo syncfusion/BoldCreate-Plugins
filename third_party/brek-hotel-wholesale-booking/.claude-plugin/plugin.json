@@ -1,0 +1,24 @@
+{
+  "name": "brek-hotel-wholesale-booking",
+  "displayName": "Brek - Hotel Wholesale Booking",
+  "version": "0.7.1",
+  "description": "Search and compare hotels with public and private wholesale rates.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.brek.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "brek-hotel-wholesale-booking",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "brek-hotel-wholesale-booking": {
+      "type": "http",
+      "url": "https://mcp.brek.com/mcp"
+    }
+  }
+}

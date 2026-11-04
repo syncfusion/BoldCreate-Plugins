@@ -1,0 +1,24 @@
+{
+  "name": "shipbob",
+  "displayName": "ShipBob",
+  "version": "0.7.1",
+  "description": "Your orders, inventory, and shipments from any prompt.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.shipbob.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "shipbob",
+    "commerce",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "shipbob": {
+      "type": "http",
+      "url": "https://api.shipbob.com/developer-api/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "travexp",
+  "displayName": "TravExp",
+  "version": "0.7.1",
+  "description": "Create rich, interactive travel itineraries.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.travexp.live/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "travexp",
+    "travel",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "travexp": {
+      "type": "http",
+      "url": "https://travexpserver-1-5480123242.us-central1.run.app/mcp-standard"
+    }
+  }
+}

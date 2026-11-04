@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "lawvu",
+  "displayName": "LawVu",
+  "version": "0.7.1",
+  "description": "Operating system for in-house legal teams.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://lawvu.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "legal",
+  "keywords": [
+    "lawvu",
+    "legal",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://lawvu.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "lawvu",
+        "transport": "streamable-http",
+        "url": "https://mcp.lawvu.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

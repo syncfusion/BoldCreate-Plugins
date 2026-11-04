@@ -1,0 +1,24 @@
+{
+  "name": "lawstronaut",
+  "displayName": "Lawstronaut",
+  "version": "0.7.1",
+  "description": "52+ million verified legal records, sourced directly from official authorities.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://lawstronaut.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lawstronaut",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "lawstronaut": {
+      "type": "http",
+      "url": "https://mcp.lawstronaut.com/"
+    }
+  }
+}

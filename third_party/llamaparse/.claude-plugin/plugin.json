@@ -1,0 +1,24 @@
+{
+  "name": "llamaparse",
+  "displayName": "LlamaParse",
+  "version": "0.7.1",
+  "description": "Turn your documents into agent-ready context for Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://llamaindex.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "llamaparse",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "llamaparse": {
+      "type": "http",
+      "url": "https://mcp.llamaindex.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "day-ai",
+  "displayName": "Day AI",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Know everything about your prospects & customers with CRMx.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://day.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "day-ai",
+    "marketing",
+    "mcp"
+  ],
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

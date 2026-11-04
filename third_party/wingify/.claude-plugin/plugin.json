@@ -1,0 +1,24 @@
+{
+  "name": "wingify",
+  "displayName": "Wingify",
+  "version": "0.7.1",
+  "description": "Optimize digital experiences directly from Claude and supercharge your CRO workflow.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://vwo.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "wingify",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "wingify": {
+      "type": "http",
+      "url": "https://mcp.wingify.ai/mcp"
+    }
+  }
+}

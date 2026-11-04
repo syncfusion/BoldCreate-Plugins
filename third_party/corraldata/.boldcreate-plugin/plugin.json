@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "corraldata",
+  "displayName": "CorralData",
+  "version": "0.7.1",
+  "description": "Connect Claude to CorralData so it can query your data, build dashboards, and manage boards and data apps without leaving the conversation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://corraldata.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "science",
+  "keywords": [
+    "corraldata",
+    "science",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://corraldata.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "corraldata",
+        "transport": "streamable-http",
+        "url": "https://mcp.corraldata.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

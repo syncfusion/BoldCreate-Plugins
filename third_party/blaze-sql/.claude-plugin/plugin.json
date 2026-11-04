@@ -1,0 +1,24 @@
+{
+  "name": "blaze-sql",
+  "displayName": "Blaze SQL",
+  "version": "0.7.1",
+  "description": "Let claude query any SQL Database or warehouse with accuracy, context, governance, and observability. BlazeSQL is a full BI Layer with visualizations, dashboards, scheduled reports, and more.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.blazesql.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "blaze-sql",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "blaze-sql": {
+      "type": "http",
+      "url": "https://claude.blazesql.com/"
+    }
+  }
+}

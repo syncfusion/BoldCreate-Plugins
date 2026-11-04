@@ -1,0 +1,24 @@
+{
+  "name": "insider-one",
+  "displayName": "Insider One",
+  "version": "0.7.1",
+  "description": "Query Insider One CDP and APIs using natural language.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://insiderone.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "insider-one",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "insider-one": {
+      "type": "http",
+      "url": "https://mcp.insiderone.com/mcp"
+    }
+  }
+}

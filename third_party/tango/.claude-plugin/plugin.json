@@ -1,0 +1,24 @@
+{
+  "name": "tango",
+  "displayName": "Tango",
+  "version": "0.7.1",
+  "description": "Search for US Government Contracting Data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://makegov.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "tango",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "tango": {
+      "type": "http",
+      "url": "https://govcon.dev/mcp"
+    }
+  }
+}

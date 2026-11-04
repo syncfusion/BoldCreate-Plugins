@@ -1,0 +1,24 @@
+{
+  "name": "flexport",
+  "displayName": "Flexport",
+  "version": "0.7.1",
+  "description": "Make global trade so easy that there will be more of it.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.flexport.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "flexport",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "flexport": {
+      "type": "http",
+      "url": "https://mcp.flexport.com/mcp"
+    }
+  }
+}

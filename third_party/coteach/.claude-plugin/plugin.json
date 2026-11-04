@@ -1,0 +1,24 @@
+{
+  "name": "coteach",
+  "displayName": "Coteach",
+  "version": "0.7.1",
+  "description": "Create classroom-ready K-12 math diagrams in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://coteach.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "coteach",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "coteach": {
+      "type": "http",
+      "url": "https://coteach.ai/api/mcp"
+    }
+  }
+}

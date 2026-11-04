@@ -1,0 +1,28 @@
+{
+  "name": "order-by-cash-app",
+  "displayName": "Order by Cash App",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Discover local food spots and order with a conversation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://block.xyz/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "order-by-cash-app",
+    "productivity",
+    "mcp"
+  ],
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

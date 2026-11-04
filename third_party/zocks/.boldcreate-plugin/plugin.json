@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "zocks",
+  "displayName": "Zocks",
+  "version": "0.7.1",
+  "description": "Analyze client conversations, patterns, and insights.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.zocks.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "finance",
+  "keywords": [
+    "zocks",
+    "finance",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.zocks.io/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "zocks",
+        "transport": "streamable-http",
+        "url": "https://mcp.zocks.io/v1/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge (no OAuth metadata in the challenge); endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

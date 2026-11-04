@@ -1,0 +1,24 @@
+{
+  "name": "freshbooks",
+  "displayName": "FreshBooks",
+  "version": "0.7.1",
+  "description": "Ask Claude how your business is really doing — straight from your FreshBooks financials.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.freshbooks.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "freshbooks",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "freshbooks": {
+      "type": "http",
+      "url": "https://mcp.freshbooks.com/v1"
+    }
+  }
+}

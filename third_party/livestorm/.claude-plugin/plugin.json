@@ -1,0 +1,24 @@
+{
+  "name": "livestorm",
+  "displayName": "Livestorm",
+  "version": "0.7.1",
+  "description": "Manage and analyze your webinars from Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://livestorm.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "livestorm",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "livestorm": {
+      "type": "http",
+      "url": "https://mcp.livestorm.co/mcp"
+    }
+  }
+}

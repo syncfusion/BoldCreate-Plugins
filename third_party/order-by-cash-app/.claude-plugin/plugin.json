@@ -1,0 +1,24 @@
+{
+  "name": "order-by-cash-app",
+  "displayName": "Order by Cash App",
+  "version": "0.7.1",
+  "description": "Discover local food spots and order with a conversation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://block.xyz/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "order-by-cash-app",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "order-by-cash-app": {
+      "type": "http",
+      "url": "https://connect.squareup.com/v2/mcp/cash-app"
+    }
+  }
+}

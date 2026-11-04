@@ -1,0 +1,24 @@
+{
+  "name": "perspective-ai",
+  "displayName": "Perspective AI",
+  "version": "0.7.1",
+  "description": "An AI Concierge that turns forms into conversations.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://getperspective.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "perspective-ai",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "perspective-ai": {
+      "type": "http",
+      "url": "https://getperspective.ai/mcp"
+    }
+  }
+}

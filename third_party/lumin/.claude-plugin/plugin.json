@@ -1,0 +1,24 @@
+{
+  "name": "lumin",
+  "displayName": "Lumin",
+  "version": "0.7.1",
+  "description": "Send documents for signature, track them to completion, and generate agreements from templates — without leaving the chat.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.luminpdf.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lumin",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "lumin": {
+      "type": "http",
+      "url": "https://mcp.luminpdf.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "order-by-cash-app",
+  "displayName": "Order by Cash App",
+  "version": "0.7.1",
+  "description": "Discover local food spots and order with a conversation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://block.xyz/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "productivity",
+  "keywords": [
+    "order-by-cash-app",
+    "productivity",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://block.xyz/",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "order-by-cash-app",
+        "transport": "streamable-http",
+        "url": "https://connect.squareup.com/v2/mcp/cash-app",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP initialize and tools/list on 2026-11-04: HTTP 200 with a tool list, no sign-in asked; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

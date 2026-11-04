@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "docuseal": {
+      "type": "http",
+      "url": "https://docuseal.com/mcp"
+    }
+  }
+}

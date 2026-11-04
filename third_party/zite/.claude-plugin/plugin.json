@@ -1,0 +1,24 @@
+{
+  "name": "zite",
+  "displayName": "Zite",
+  "version": "0.7.1",
+  "description": "Manage and query your Zite data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.zite.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zite",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "zite": {
+      "type": "http",
+      "url": "https://mcp.zite.com/mcp"
+    }
+  }
+}

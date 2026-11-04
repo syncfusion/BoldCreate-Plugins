@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "orion-by-gravity": {
+      "type": "http",
+      "url": "https://g.runorion.com/mcp"
+    }
+  }
+}

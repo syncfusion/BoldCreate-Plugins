@@ -1,0 +1,24 @@
+{
+  "name": "mygeotab-mcp",
+  "displayName": "MyGeotab MCP",
+  "version": "0.7.1",
+  "description": "Bring your fleet into Claude — analyze, manage, and act.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://geotab.com/geotab-mcp-connector",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mygeotab-mcp",
+    "cloud",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "mygeotab-mcp": {
+      "type": "http",
+      "url": "https://mcp.geotab.com/mygeotab"
+    }
+  }
+}

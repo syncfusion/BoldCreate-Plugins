@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "brand24",
+  "displayName": "Brand24",
+  "version": "0.7.1",
+  "description": "Analyze online discussions.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://brand24.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "marketing",
+  "keywords": [
+    "brand24",
+    "marketing",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://brand24.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "brand24",
+        "transport": "streamable-http",
+        "url": "https://mcp.brand24.com/v1/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

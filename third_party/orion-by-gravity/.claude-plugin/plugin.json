@@ -1,0 +1,24 @@
+{
+  "name": "orion-by-gravity",
+  "displayName": "Orion by Gravity",
+  "version": "0.7.1",
+  "description": "Get insights from your autonomous AI analyst.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://bygravity.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "orion-by-gravity",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "orion-by-gravity": {
+      "type": "http",
+      "url": "https://g.runorion.com/mcp"
+    }
+  }
+}

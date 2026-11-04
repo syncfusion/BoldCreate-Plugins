@@ -49,6 +49,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 
 | `name` | Plugin | Category | `description` (from marketplace) |
 |:-------|:-------|:---------|:-------------------------------------|
+| `abency` | [Abency](third_party/abency/) | Marketing | Gestiona todas las marcas de tu agencia desde Claude. |
 | `activecampaign` | [ActiveCampaign](third_party/activecampaign/) | Marketing | Marketing automation, CRM and email marketing workflows for ActiveCampaign. |
 | `adisinsight` | [AdisInsight](third_party/adisinsight/) | Science | Pharmaceutical drug & clinical trial intelligence. |
 | `adobe-customer-journey-analytics` | [Adobe Customer Journey Analytics](third_party/adobe-customer-journey-analytics/) | Analytics | Run reports using your metrics, dimensions, and segments. |
@@ -85,6 +86,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `amd-skills` | [AMD Skills](third_party/amd-skills/) | AI | Serve and optimize large language models on AMD EPYC and Instinct hardware, and set up local AI with Lemonade. |
 | `amplitude` | [Amplitude](third_party/amplitude/) | Analytics | Query Amplitude product analytics, charts, and experiments. |
 | `android-management` | [Android Management](third_party/android-management/) | Devices | Manage enterprise Android devices, policies, and apps with the Android Management API. |
+| `angellist` | [AngelList](third_party/angellist/) | Finance | Turn your fund into something you can talk to. |
 | `anythingmcp` | [AnythingMCP](third_party/anythingmcp/) | Developer Tools | Connect Claude to SAP, weclapp, DATEV, Odoo, Etsy, Shopware, Billbee, Sendcloud, Deutsche Bahn, Telegram, Bundesbank & 180+ business APIs — or turn any REST, SOAP, GraphQL or SQL API into MCP tools. |
 | `apollo` | [Apollo](third_party/apollo/) | Productivity | Search and enrich contacts and accounts in Apollo.io. |
 | `apollo-skills` | [Apollo GraphQL Skills](third_party/apollo-skills/) | Developer Tools | Build with Apollo GraphQL: Client, Server, Router, Federation, Connectors, Rover, iOS and Kotlin. |
@@ -115,17 +117,26 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `base44` | [Base44](third_party/base44/) | Developer Tools | Build and manage Base44 apps. |
 | `beehiiv` | [beehiiv](third_party/beehiiv/) | Design | Connect your beehiiv workspace to draft, design, analyze, and more. |
 | `bigdata-com` | [Bigdata.com](third_party/bigdata-com/) | Finance | Financial news, SEC filings, earnings call transcripts, fundamentals, sentiment, market data and stock research for AI, with every answer cited. The sources that move markets. |
+| `bigin-by-zoho-crm` | [Bigin by Zoho CRM](third_party/bigin-by-zoho-crm/) | Marketing | Simplify sales and customer management for small businesses. |
 | `bigquery-data-analytics` | [BigQuery Data Analytics](third_party/bigquery-data-analytics/) | Database | Connect, query, and generate data insights for BigQuery datasets and data. |
+| `bill` | [BILL](third_party/bill/) | Finance | Finance answers, where you are. |
 | `biorender` | [BioRender](third_party/biorender/) | Science | Search the BioRender library, find your files, and generate new scientific figures directly from Claude. |
 | `bird` | [Bird](third_party/bird/) | Developer Tools | Send email, SMS, and WhatsApp, place calls, verify users, and run your agent's inbox. |
 | `bitly` | [Bitly](third_party/bitly/) | Analytics | Shorten links, generate QR Codes, and track performance. |
+| `black-diamond` | [Black Diamond](third_party/black-diamond/) | Finance | Client, portfolio, and performance data for advisors. |
+| `blackbaud` | [Blackbaud](third_party/blackbaud/) | Analytics | Search, explore, and query Blackbaud data. |
 | `blackrock-advisor-center-plugin` | [BlackRock Advisor Center](third_party/blackrock-advisor-center-plugin/) | Finance | BlackRock Advisor Center 360° skills for AC360 capability routing, guided benchmark selection, guided portfolio building, portfolio observations and opportunities, wealth projections, and portfolio |
+| `blaze-sql` | [Blaze SQL](third_party/blaze-sql/) | Analytics | Let claude query any SQL Database or warehouse with accuracy, context, governance, and observability. BlazeSQL is a full BI Layer with visualizations, dashboards, scheduled reports, and more. |
+| `bling-mcp` | [Bling MCP](third_party/bling-mcp/) | Developer Tools | Access and manage your Bling directly in Claude. |
 | `blockscout` | [Blockscout](third_party/blockscout/) | Blockchain | Query Ethereum and EVM blockchains: blocks, transactions, addresses, tokens, and smart contracts. |
 | `bloomberg-law` | [Bloomberg Law](third_party/bloomberg-law/) | Legal | Legal intelligence powered by Bloomberg AI. |
 | `boltz` | [Boltz](third_party/boltz/) | Science | Predict structures, screen molecules and proteins, and design binders with Boltz. |
+| `botify-mcp` | [Botify MCP](third_party/botify-mcp/) | Analytics | AI search visibility, from insight to action. |
 | `box` | [Box](third_party/box/) | Storage | Skills and guardrails for Box Platform integrations: content workflows, shared links, CLI, SDK and MCP. |
+| `brand24` | [Brand24](third_party/brand24/) | Marketing | Analyze online discussions. |
 | `brandfetch` | [Brandfetch](third_party/brandfetch/) | Design | Make everything Claude creates on-brand. |
 | `braze` | [Braze](third_party/braze/) | Marketing | Braze Marketers can use this connector to answer questions, analyze trends, and provide insights. |
+| `brek-hotel-wholesale-booking` | [Brek - Hotel Wholesale Booking](third_party/brek-hotel-wholesale-booking/) | Commerce | Search and compare hotels with public and private wholesale rates. |
 | `brevo` | [Brevo](third_party/brevo/) | Marketing | Analyze campaigns, know your audience and create drafts. |
 | `brex` | [Brex](third_party/brex/) | Finance | Intelligent finance automation. |
 | `brightdeck` | [Brightdeck](third_party/brightdeck/) | Design | Create presentations and slides, compatible with PowerPoint. |
@@ -142,7 +153,9 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `catalyst-by-zoho` | [Catalyst by Zoho](third_party/catalyst-by-zoho/) | Developer Tools | Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform. |
 | `cb-insights` | [CB Insights](third_party/cb-insights/) | Finance | Predictive intelligence on private companies. |
 | `cdata-connect-ai` | [CData Connect AI](third_party/cdata-connect-ai/) | Analytics | Managed MCP platform for 350 sources. |
+| `celigo` | [Celigo](third_party/celigo/) | Productivity | Build and manage automations across hundreds of apps. |
 | `chargebee` | [Chargebee](third_party/chargebee/) | Finance | Live billing intelligence for your revenue team. |
+| `chartmogul` | [ChartMogul](third_party/chartmogul/) | Analytics | Analyze subscribers, recurring revenue, and churn. |
 | `chrome-devtools-mcp` | [Chrome DevTools](third_party/chrome-devtools-mcp/) | Developer Tools | Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer |
 | `chronograph` | [Chronograph](third_party/chronograph/) | Finance | Interact with your Chronograph data directly in Claude. |
 | `chronograph-gp` | [Chronograph GP](third_party/chronograph-gp/) | Finance | Portfolio monitoring, valuations, and analytics for private capital GP teams. |
@@ -150,6 +163,8 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `circleback` | [Circleback](third_party/circleback/) | Communication | Search and access context from meetings. |
 | `circleci` | [CircleCI](third_party/circleci/) | Developer Tools | Manage CI/CD pipelines, debug failed builds, and optimize test suites directly from Claude - no terminal required. |
 | `ckeditor` | [CKEditor](third_party/ckeditor/) | Developer Tools | Install, configure, and integrate CKEditor 5 in JavaScript projects. |
+| `clarify` | [Clarify](third_party/clarify/) | Productivity | Query your CRM. Create records. Ask anything. |
+| `claude-motion-to-mirage` | [Claude Motion to Mirage](third_party/claude-motion-to-mirage/) | Design | Import a Claude Motion video into Mirage. |
 | `clay` | [Clay](third_party/clay/) | Analytics | Find prospects. Research accounts. Personalize outreach. |
 | `clerk` | [Clerk](third_party/clerk/) | Developer Tools | Add authentication, organizations, and billing. |
 | `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Query and explore your ClickHouse Cloud data. |
@@ -174,8 +189,10 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `contentsquare` | [Contentsquare](third_party/contentsquare/) | Analytics | Experience analytics platform for digital businesses. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `coralogix` | [Coralogix](third_party/coralogix/) | Analytics | Explore and debug your Coralogix observability data. |
+| `corraldata` | [CorralData](third_party/corraldata/) | Science | Connect Claude to CorralData so it can query your data, build dashboards, and manage boards and data apps without leaving the conversation. |
 | `cortellis` | [Cortellis Regulatory Intelligence](third_party/cortellis/) | Science | Trusted Regulatory Answers, by Clarivate Cortellis. |
 | `cortellis-cmc` | [Cortellis CMC Intelligence](third_party/cortellis-cmc/) | Science | Trusted regulatory CMC insights, powered by Clarivate’s Cortellis CMC Intelligence. |
+| `coteach` | [Coteach](third_party/coteach/) | Education | Create classroom-ready K-12 math diagrams in Claude. |
 | `coupler-io` | [Coupler.io](third_party/coupler-io/) | Marketing | Access business data from hundreds of sources. |
 | `coursera` | [Coursera](third_party/coursera/) | Productivity | Transform your prompts into active skill-building. |
 | `courtlistener` | [CourtListener](third_party/courtlistener/) | Legal | Legal research across millions of court records. |
@@ -187,12 +204,15 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `crunchbase` | [Crunchbase](third_party/crunchbase/) | Finance | Access reliable company data, market signals, and forward-looking predictions to research organizations, compare performance, uncover emerging trends, and make faster, more informed business decisions. |
 | `crustdata` | [Crustdata](third_party/crustdata/) | Developer Tools | Search and enrich B2B company and people data. |
 | `crypto-com` | [Crypto.com](third_party/crypto-com/) | Finance | Real time prices, orders, charts, and more for crypto. |
+| `cube-software` | [Cube Software](third_party/cube-software/) | Finance | Bring trusted Cube financial context into Claude. Analyze performance, model scenarios, and move decisions into action, with your Cube permissions enforced on every request. |
+| `d-b-risk-analytics` | [D&B Risk Analytics](third_party/d-b-risk-analytics/) | Finance | Execute risk workflows powered by the D&B Commercial Graph™. |
 | `daloopa` | [Daloopa](third_party/daloopa/) | Finance | Financial fundamental data and KPIs with hyperlinks. |
 | `databases-on-aws` | [Databases on AWS](third_party/databases-on-aws/) | Database | Expert database guidance for the AWS database portfolio. |
 | `datadog` | [Datadog](third_party/datadog/) | Observability | Use Datadog directly in Claude Code through a preconfigured Datadog MCP server. |
 | `datahub` | [DataHub](third_party/datahub/) | Analytics | Connect AI agents to enterprise data & context. |
 | `datarails` | [Datarails FinanceOS](third_party/datarails/) | Finance | Query and analyze your company's consolidated financial data from Datarails FinanceOS. |
 | `dataverse` | [Microsoft Dataverse](third_party/dataverse/) | Database | Microsoft Dataverse plugin for coding agents, covering record CRUD, bulk data operations, advanced queries, schema and metadata, administration, security, environment management, and solution |
+| `day-ai` | [Day AI](third_party/day-ai/) | Marketing | Know everything about your prospects & customers with CRMx. |
 | `deepeval` | [DeepEval](third_party/deepeval/) | AI | Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications. |
 | `deepl` | [DeepL](third_party/deepl/) | Communication | Translate text and documents across 100+ languages, with your preferred styles applied. |
 | `deepwiki` | [DeepWiki](third_party/deepwiki/) | Documentation | Ask questions about any public GitHub repository and read its generated wiki. |
@@ -203,7 +223,11 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `devrev` | [DevRev](third_party/devrev/) | Analytics | Search and update your company's knowledge graph. |
 | `dhs-surveys` | [Demographic and Health Surveys](third_party/dhs-surveys/) | Science | Data from The Demographic and Health Surveys Program. |
 | `dice` | [Dice](third_party/dice/) | Productivity | Find active tech jobs on Dice. |
+| `digits` | [Digits](third_party/digits/) | Finance | Track and analyze your finances with Digits. |
+| `docsend-com` | [docsend.com](third_party/docsend-com/) | Finance | Manage data rooms, track engagement, and move deals forward with DocSend in Claude. |
+| `docuseal` | [DocuSeal](third_party/docuseal/) | Legal | Sign, send & manage documents with DocuSeal. |
 | `docusign` | [Docusign](third_party/docusign/) | Legal | Intelligent, secure contract management by Docusign. |
+| `dot` | [dot.](third_party/dot/) | Developer Tools | Get feedback on anything you build in Claude. |
 | `dovetail` | [Dovetail](third_party/dovetail/) | Productivity | Turn scattered feedback into decisions grounded in customer evidence. |
 | `drata` | [Drata](third_party/drata/) | Productivity | Agentic Trust Management on demand. |
 | `dropbox` | [Dropbox](third_party/dropbox/) | Legal | Search, organize, and take action on your Dropbox content. |
@@ -218,6 +242,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `era-context` | [Era Context](third_party/era-context/) | Finance | Manage your personal finances using Claude. |
 | `eraser` | [Eraser](third_party/eraser/) | Developer Tools | Generate, manage, and update Eraser diagrams and files. |
 | `etherscan` | [Etherscan](third_party/etherscan/) | Developer Tools | Explore wallets, tokens, transactions, contracts, logs, blocks, and gas across 60+ EVM chains with Etherscan. |
+| `etoro` | [etoro](third_party/etoro/) | Finance | etoro. Where Our Collective Intelligence Meets Your Claude. |
 | `euler` | [EULER](third_party/euler/) | Marketing | Manage your partner program and access your Partner Data Lake with Claude. |
 | `everlaw` | [Everlaw](third_party/everlaw/) | Legal | Search and explore your Everlaw database in Claude. |
 | `evernote` | [Evernote](third_party/evernote/) | Education | Connect Evernote to search, edit, and organize your notes, create new ones, and bring your knowledge into every conversation. |
@@ -231,21 +256,25 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `fathom` | [Fathom – Your Meeting Intelligence Layer](third_party/fathom/) | Productivity | Your meeting notes, transcripts, and context – now part of every Claude conversation. |
 | `fellow-ai` | [Fellow.ai](third_party/fellow-ai/) | Communication | Chat with your meetings to uncover actionable insights. |
 | `felt-maps` | [Felt Maps](third_party/felt-maps/) | Analytics | Map and analyze your geospatial data. |
+| `fever-event-discovery` | [Fever Event Discovery](third_party/fever-event-discovery/) | Productivity | Discover live entertainment events worldwide. |
 | `fibery` | [Fibery](third_party/fibery/) | Analytics | Build your modular workspace with Claude: describe any process, from roadmaps and CRM to hiring and OKRs, and get it set up in Fibery, a work platform for orgs run by nerds. |
 | `fiftyone` | [FiftyOne](third_party/fiftyone/) | AI | Build high-quality datasets and computer vision models. |
 | `figma` | [Figma](third_party/figma/) | Design | Turn Figma frames into code and read design tokens, components, and variables. |
 | `files-com` | [Files.com](third_party/files-com/) | Analytics | The Secure File Orchestration Platform. |
+| `filevine` | [Filevine](third_party/filevine/) | Legal | Connect Claude to Filevine through the Filevine API to securely access and work with Filevine data and functionality. |
 | `financial-datasets` | [Financial Datasets](third_party/financial-datasets/) | Finance | Access stock market data. |
 | `firecrawl` | [Firecrawl](third_party/firecrawl/) | Search | Search the web, read pages, and research documentation with Firecrawl. |
 | `fireflies` | [Fireflies](third_party/fireflies/) | Productivity | Analyze and generate insights from meeting transcripts. |
 | `fireworks-ai` | [Fireworks AI Docs](third_party/fireworks-ai/) | Documentation | Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models. |
 | `fiscal-ai` | [Fiscal.ai](third_party/fiscal-ai/) | Finance | Clean Public Equity Fundamental Data. |
+| `flexport` | [Flexport](third_party/flexport/) | Analytics | Make global trade so easy that there will be more of it. |
 | `floot` | [Floot](third_party/floot/) | Developer Tools | Build and host websites and mobile apps using your own Claude subscription. |
 | `flourish` | [Flourish](third_party/flourish/) | Productivity | Turn data into interactive charts you can edit. |
 | `fmp` | [FMP](third_party/fmp/) | Finance | Comprehensive financial market data. |
 | `forge-skills` | [Atlassian Forge Skills](third_party/forge-skills/) | Developer Tools | Forge app builder skill bundle with Forge MCP configuration for Atlassian Forge workflows. |
 | `framer` | [Framer](third_party/framer/) | Developer Tools | Design, update, and publish websites with Framer. |
 | `freee` | [freee](third_party/freee/) | Productivity | freeeの各種プロダクトへのデータ下書作成、自動登録、登録済みデータの分析 / Draft, register, and analyze data across freee products. |
+| `freshbooks` | [FreshBooks](third_party/freshbooks/) | Finance | Ask Claude how your business is really doing — straight from your FreshBooks financials. |
 | `frontify` | [Frontify](third_party/frontify/) | Design | Access your brand guidelines, assets and creative templates. |
 | `fullstory` | [Fullstory](third_party/fullstory/) | Developer Tools | Product analytics with receipts. Build segments, compute metrics, and analyze conversions from your Fullstory behavioral data. Then pull the real sessions to back it up. |
 | `funnel` | [Funnel](third_party/funnel/) | Analytics | Cross-channel marketing analytics across 600+ connectors. |
@@ -261,6 +290,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `gitlab` | [GitLab](third_party/gitlab/) | Source Control | Work with GitLab projects, issues, merge requests, pipelines, and code search. |
 | `glg` | [GLG](third_party/glg/) | Finance | Expert intelligence, instantly in your workflow. |
 | `gmail` | [Gmail](third_party/gmail/) | Productivity | Search, read, and draft Gmail messages and threads. |
+| `gocardless` | [GoCardless](third_party/gocardless/) | Finance | Build GoCardless payment API integrations. |
 | `godaddy` | [GoDaddy](third_party/godaddy/) | Productivity | Search domains and check availability. |
 | `goodnotes` | [Goodnotes](third_party/goodnotes/) | Productivity | Turn AI insights into documents. |
 | `google-calendar` | [Google Calendar](third_party/google-calendar/) | Productivity | List calendars, read events, and check free/busy time. |
@@ -302,8 +332,10 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `guru` | [Guru](third_party/guru/) | Productivity | Search and interact with your company knowledge. |
 | `gusto` | [Gusto](third_party/gusto/) | Finance | Query and analyze your Gusto data. |
 | `harmonic` | [Harmonic](third_party/harmonic/) | Productivity | Discover, research, and enrich companies and people. |
+| `harness` | [Harness](third_party/harness/) | Developer Tools | Build, Ship and Secure your apps on Harness Platform. |
 | `harvey` | [Harvey](third_party/harvey/) | Legal | Answer legal queries, search vaults, and research. |
 | `health-data-avatar` | [Health Data Avatar (HDA)](third_party/health-data-avatar/) | Science | Your complete health history structured for Claude. |
+| `healthex` | [HealthEx](third_party/healthex/) | Science | Connect your health records for personalized insights. |
 | `helena-by-enrich-labs` | [Helena by Enrich Labs](third_party/helena-by-enrich-labs/) | Commerce | Your AI marketer for paid ads, SEO, email, social, and analytics. |
 | `helium-10` | [Helium 10](third_party/helium-10/) | Commerce | Access your Helium 10 data directly in Claude. |
 | `heygen-hyperframes` | [HyperFrames by HeyGen](third_party/heygen-hyperframes/) | Design | Build animated slides and motion graphics with HTML. |
@@ -315,6 +347,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `hunter` | [Hunter](third_party/hunter/) | Productivity | Find and verify professional email addresses with Hunter. |
 | `ibisworld` | [IBISWorld](third_party/ibisworld/) | Finance | Financials, risk data and analysis on 50,000 industries. |
 | `ibkr` | [Interactive Brokers (IBKR)](third_party/ibkr/) | Finance | Trade, invest, analyze, and manage global markets. |
+| `ideals` | [Ideals](third_party/ideals/) | Finance | Search, manage, and update your Ideals project from Claude. |
 | `idiolect` | [Idiolect](third_party/idiolect/) | Productivity | Make Claude write in your real writing voice. |
 | `idmp-plugin` | [TDengine IDMP](third_party/idmp-plugin/) | Database | TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows. |
 | `ifttt` | [IFTTT](third_party/ifttt/) | Productivity | Connect, control, and automate 1,000+ apps with IFTTT. |
@@ -324,48 +357,65 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `inductive-bio` | [Inductive Bio](third_party/inductive-bio/) | Science | State-of-the-art ADMET prediction models for drug discovery. |
 | `informatica-for-claude-platform` | [Informatica](third_party/informatica-for-claude-platform/) | Data | Informatica plugin for Claude Platform (Claude Code & Claude CoWork) — governed catalog discovery, data Q&A, powered by Informatica's Data catalog and Governance to understand and evaluate enterprise |
 | `inkbox` | [Inkbox](third_party/inkbox/) | Developer Tools | Email, SMS, and iMessage for AI agents. |
+| `insider-one` | [Insider One](third_party/insider-one/) | Marketing | Query Insider One CDP and APIs using natural language. |
 | `instacart` | [Instacart](third_party/instacart/) | Productivity | Groceries and more delivered as fast as 30 minutes. |
 | `intercom` | [Intercom](third_party/intercom/) | Productivity | Search Intercom conversations, contacts, and help center articles. |
 | `intuit-developer` | [Intuit Developer](third_party/intuit-developer/) | Developer Tools | Build and test integrations with Intuit APIs. |
 | `ironclad-contracts` | [Ironclad Contracts](third_party/ironclad-contracts/) | Legal | Plain language search for faster contract answers and manage your contractual obligations. |
 | `jam` | [Jam](third_party/jam/) | Developer Tools | Record screen and collect automatic context for issues. |
 | `jasper` | [Jasper](third_party/jasper/) | Marketing | Keep every Claude session on-brand. |
+| `jobber` | [Jobber](third_party/jobber/) | Marketing | Get answers and take action with context from your Jobber account. |
 | `jotform` | [Jotform](third_party/jotform/) | Education | Create forms, surveys, quizzes & analyze submissions. |
 | `jotform-app-builder` | [Jotform App Builder](third_party/jotform-app-builder/) | Developer Tools | Build and manage no-code apps with AI. Create CRM apps, event apps, school apps, and internal tools. Customize layouts, automate workflows, and publish and share apps. |
 | `jotform-sign` | [Jotform Sign](third_party/jotform-sign/) | Education | Create, share, and edit e-signature documents right inside Claude. |
 | `juro-contracts` | [Juro contracts](third_party/juro-contracts/) | Legal | Query & work with contracts effortlessly throughout the lifecycle to agree contracts faster. |
 | `kahoot` | [Kahoot!](third_party/kahoot/) | Education | Create kahoots instantly. |
+| `kajabi` | [Kajabi](third_party/kajabi/) | Commerce | Build and grow your Kajabi business with Claude. |
 | `kit` | [Kit](third_party/kit/) | Analytics | Search, analyze, draft, and manage your email marketing. |
 | `kiwi-com` | [Kiwi.com](third_party/kiwi-com/) | Productivity | Search flights in Claude. |
 | `klaviyo` | [Klaviyo](third_party/klaviyo/) | Analytics | Report, strategize & create with real-time Klaviyo data. |
 | `klue` | [Klue](third_party/klue/) | Marketing | Access competitive intelligence, win-loss, & deal support. |
+| `komoot` | [komoot](third_party/komoot/) | Travel | Discover outdoor routes and highlights. |
 | `krisp` | [Krisp](third_party/krisp/) | Productivity | Add your meetings context via transcripts and notes. |
+| `kuliko-ai` | [Kuliko AI](third_party/kuliko-ai/) | Education | Your Learning Companion. |
 | `langfuse` | [Langfuse](third_party/langfuse/) | Observability | Work with Langfuse tracing, prompts and evaluation, and migrate prompts to Langfuse. |
 | `latchbio` | [LatchBio](third_party/latchbio/) | Science | Analyze data and launch bioinformatics workflows. |
 | `lattice` | [Lattice](third_party/lattice/) | Productivity | Lattice, wherever you work. |
+| `lawstronaut` | [Lawstronaut](third_party/lawstronaut/) | Legal | 52+ million verified legal records, sourced directly from official authorities. |
+| `lawvu` | [LawVu](third_party/lawvu/) | Legal | Operating system for in-house legal teams. |
 | `leadfeeder` | [Leadfeeder](third_party/leadfeeder/) | Productivity | Look up companies that visit your website with Leadfeeder. |
 | `legal-data-hunter` | [Legal Data Hunter](third_party/legal-data-hunter/) | Legal | Search 23M+ legal docs in 160+ jurisdictions. |
 | `legalzoom` | [LegalZoom](third_party/legalzoom/) | Legal | Attorney guidance & tools for business & personal needs. |
+| `letsfg` | [LetsFG | Book the best flights or hotels](third_party/letsfg/) | Travel | Don't book before checking here: same hotels often 20% cheaper, every airline in the world, real trip costs. Then we book it for you. |
+| `lightfield` | [Lightfield](third_party/lightfield/) | Marketing | CRM that remembers everything and works for you. |
 | `linear` | [Linear](third_party/linear/) | Project Management | Find, create, and update Linear issues, projects, and cycles. |
 | `linkedin-hiring-pro` | [LinkedIn Hiring Pro](third_party/linkedin-hiring-pro/) | Productivity | Draft, review, and post one free LinkedIn job from Claude. |
 | `listen-labs` | [Listen Labs](third_party/listen-labs/) | Productivity | Analyze user insights from Listen Labs. |
+| `livestorm` | [Livestorm](third_party/livestorm/) | Analytics | Manage and analyze your webinars from Claude. |
+| `llamaparse` | [LlamaParse](third_party/llamaparse/) | Analytics | Turn your documents into agent-ready context for Claude. |
 | `local-falcon` | [Local Falcon](third_party/local-falcon/) | Marketing | AI visibility and local search intelligence platform. |
 | `logfire` | [Pydantic Logfire](third_party/logfire/) | Observability | Add Logfire observability to Python apps, query traces, and set up evals. |
+| `loops` | [Loops](third_party/loops/) | Developer Tools | Run Loops with Claude. |
 | `lovable` | [Lovable](third_party/lovable/) | Developer Tools | Build, iterate, inspect, and deploy Lovable apps. |
 | `lseg` | [LSEG](third_party/lseg/) | Finance | Access best in class data & analytics across a broad spectrum of asset classes. |
 | `lucid` | [Lucid](third_party/lucid/) | Design | Ideate, diagram, and align teams. |
 | `lumen` | [Lumen](third_party/lumen/) | Developer Tools | Precise local semantic code search via MCP. |
+| `lumin` | [Lumin](third_party/lumin/) | Productivity | Send documents for signature, track them to completion, and generate agreements from templates — without leaving the chat. |
 | `lunarcrush` | [LunarCrush](third_party/lunarcrush/) | Finance | Add real-time social media data to your searches. |
 | `lusha` | [Lusha](third_party/lusha/) | Sales | Connect Lusha to Claude to pull verified B2B data, contact data, and company data — including verified emails, direct dials, mobile numbers, and real-time buying signals — straight into your conversation. |
+| `lz-virtual-mail` | [LZ Virtual Mail](third_party/lz-virtual-mail/) | Productivity | Manage your physical mail from anywhere. |
 | `macaly-cloud` | [Macaly Cloud](third_party/macaly-cloud/) | Developer Tools | Claude writes the code, Macaly runs it - a git repo, cloud sandbox, database, live preview and production hosting for the apps you build in chat. |
 | `magic-patterns` | [Magic Patterns](third_party/magic-patterns/) | Productivity | Discuss and iterate on Magic Patterns designs. |
+| `magicschool-ai` | [MagicSchool AI](third_party/magicschool-ai/) | Education | Save teaching materials directly to your MagicSchool Resource Library. |
 | `mailerlite` | [MailerLite](third_party/mailerlite/) | Communication | Turn Claude into your email marketing assistant. |
 | `make` | [Make](third_party/make/) | Automation | Run Make scenarios and manage your Make account. |
 | `malwarebytes` | [Malwarebytes](third_party/malwarebytes/) | Productivity | Check links, phones, and emails for scams. |
+| `manatal` | [Manatal](third_party/manatal/) | Productivity | Your AI recruiting assistant, inside Manatal. |
 | `mapbox` | [Mapbox](third_party/mapbox/) | Maps | Build location-aware apps with Mapbox: maps, search, navigation, styles and geospatial tools. |
 | `maven-bio` | [Maven Bio](third_party/maven-bio/) | Science | Biopharma catalysts, pipelines, trials, deals, and the citable primary sources behind them. |
 | `mcp-betterstack-com` | [mcp.betterstack.com](third_party/mcp-betterstack-com/) | Developer Tools | Better Stack plugin for Claude: observability for AI agents (logs, metrics, dashboards, uptime, incidents). |
 | `medidata` | [Medidata](third_party/medidata/) | Science | Clinical trial software and site ranking tools. |
+| `melon` | [Melon](third_party/melon/) | Productivity | Browse music charts & your personalized music picks. |
 | `meltwater` | [Meltwater](third_party/meltwater/) | Analytics | Search and analyze billions of news articles and social posts. |
 | `mem` | [Mem](third_party/mem/) | Productivity | The AI notebook for everything on your mind. |
 | `mem0` | [Mem0](third_party/mem0/) | Developer Tools | Persistent memory for AI agents & assistants. |
@@ -391,11 +441,13 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `morning-consult` | [Morning Consult](third_party/morning-consult/) | Analytics | Global market intelligence: brands, economy & politics. |
 | `morningstar` | [Morningstar](third_party/morningstar/) | Finance | Up-to-date investment and market insights. |
 | `morningstar-credit` | [Morningstar Credit Analytics](third_party/morningstar-credit/) | Finance | Structured credit insights and analytics. |
+| `mospi` | [MoSPI](third_party/mospi/) | Analytics | India's official statistics via natural language. |
 | `motherduck` | [MotherDuck](third_party/motherduck/) | Analytics | Get answers from your data. |
 | `motion` | [Motion Creative Analytics](third_party/motion/) | Analytics | Analyze your Meta ad creative & competitor ad libraries. |
 | `msci-connector` | [MSCI Connector](third_party/msci-connector/) | Finance | Data you can build on. |
 | `mt-newswires` | [MT Newswires](third_party/mt-newswires/) | Finance | Trusted real-time global financial news provider. |
 | `mychatbot` | [MyChatBot](third_party/mychatbot/) | Commerce | Build and run an AI sales agent for your business. |
+| `mygeotab-mcp` | [MyGeotab MCP](third_party/mygeotab-mcp/) | Cloud | Bring your fleet into Claude — analyze, manage, and act. |
 | `navan` | [Navan](third_party/navan/) | Finance | Access and analyze your Navan financial and travel data. |
 | `neon` | [Neon](third_party/neon/) | Database | Manage Neon serverless Postgres projects, branches, queries, and migrations. |
 | `netdocuments` | [NetDocuments](third_party/netdocuments/) | Legal | Securely access your documents in NetDocuments. |
@@ -409,12 +461,15 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `ollama` | [Ollama Docs](third_party/ollama/) | Documentation | Search Ollama's official documentation for running and serving local large language models. |
 | `omni-analytics` | [Omni Analytics](third_party/omni-analytics/) | Analytics | Query your data using natural language through Omni's semantic model. |
 | `omnisend` | [Omnisend MCP](third_party/omnisend/) | Marketing | Analyze your Omnisend marketing performance. |
+| `onesignal` | [OneSignal](third_party/onesignal/) | Developer Tools | Agentic access to OneSignal’s customer engagement platform for messaging, users, and analytics. |
 | `ontra` | [Ontra](third_party/ontra/) | Finance | Query your Ontra data directly from any AI tool. |
 | `open-targets` | [Open Targets](third_party/open-targets/) | Science | Drug target discovery and prioritisation platform. |
 | `openrush` | [OpenRush](third_party/openrush/) | Commerce | SEO and competitor analysis with live search data: keyword research, rank tracking, gap analysis, and site audits. |
 | `openseo` | [OpenSEO](third_party/openseo/) | Developer Tools | SEO made simple. |
 | `opusclip` | [OpusClip](third_party/opusclip/) | Marketing | Turn long videos into viral short clips. |
 | `opusclip-ai-producer` | [AI Producer by OpusClip](third_party/opusclip-ai-producer/) | Marketing | Edit videos with AI. |
+| `order-by-cash-app` | [Order by Cash App](third_party/order-by-cash-app/) | Productivity | Discover local food spots and order with a conversation. |
+| `orion-by-gravity` | [Orion by Gravity](third_party/orion-by-gravity/) | Analytics | Get insights from your autonomous AI analyst. |
 | `orshot` | [Orshot](third_party/orshot/) | Design | Automate Videos, PDFs and Images from templates for marketing, post to social platforms, and track and grow engagement. |
 | `otter-ai` | [Otter.ai](third_party/otter-ai/) | Productivity | Unlock your meeting intelligence. |
 | `otto-travel` | [Otto Travel](third_party/otto-travel/) | Productivity | Plan, book, and manage business travel. |
@@ -435,6 +490,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `pendo-guides` | [Pendo Guides](third_party/pendo-guides/) | Analytics | Create production-ready Pendo in-app guides (walkthroughs, announcements, alerts, polls, promotions) as HTML/CSS/JS from a short intake conversation |
 | `pendo-orchestrate` | [Pendo Orchestrate](third_party/pendo-orchestrate/) | Analytics | Create, configure, and edit draft Orchestrate email journeys via Pendo MCP — multi-email journeys and conditional split flows. |
 | `perplexity` | [Perplexity Docs](third_party/perplexity/) | Documentation | Search Perplexity's official Sonar and API documentation. |
+| `perspective-ai` | [Perspective AI](third_party/perspective-ai/) | Design | An AI Concierge that turns forms into conversations. |
 | `phoenix-by-hg-insights` | [Phoenix by HG Insights](third_party/phoenix-by-hg-insights/) | Analytics | AI-powered B2B data intelligence & analytics. |
 | `pinegap` | [Pinegap](third_party/pinegap/) | Finance | AI-powered Equity Research Platform. |
 | `pipedrive` | [Pipedrive](third_party/pipedrive/) | Analytics | Find deals, update records, manage activities and work with your live CRM data using natural language. |
@@ -442,14 +498,17 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `pitchbook-premium` | [PitchBook Premium](third_party/pitchbook-premium/) | Finance | PitchBook data, embedded in the way you work. |
 | `plaid-developer-tools` | [Plaid Developer Tools](third_party/plaid-developer-tools/) | Finance | Monitor, debug, and optimize your Plaid integration. |
 | `planetscale` | [PlanetScale](third_party/planetscale/) | Database | Inspect PlanetScale organizations, databases, branches, schema and Insights data. |
+| `planning-center` | [Planning Center](third_party/planning-center/) | Productivity | Interact with your church data. |
 | `plaud` | [Plaud](third_party/plaud/) | Productivity | Search and extract insights from your Plaud recordings. |
 | `play-sheet-music` | [Play Sheet Music](third_party/play-sheet-music/) | Productivity | Ask Claude to generate and play some sheet music for you with a visual component. |
 | `playmcp` | [PlayMCP](third_party/playmcp/) | Productivity | Connect and use PlayMCP servers in your toolbox. |
 | `pocketsmith-complete-access` | [PocketSmith Complete Access](third_party/pocketsmith-complete-access/) | Finance | Search and categorise transactions, track your budgets and analyse spending trends, forecast your net worth and monitor your cashflow! Work with your live PocketSmith data in plain language. |
 | `polar-analytics` | [Polar Analytics](third_party/polar-analytics/) | Analytics | Bring all your data in one place & connect it to Claude. |
+| `pophive` | [PopHIVE](third_party/pophive/) | Science | Yale's harmonized US public health surveillance data. |
 | `posthog` | [PostHog](third_party/posthog/) | Analytics | Query product analytics, manage feature flags, and investigate errors in PostHog. |
 | `postman` | [Postman](third_party/postman/) | Developer Tools | Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman |
 | `preset-cli-skills` | [Preset CLI](third_party/preset-cli-skills/) | Analytics | Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`). |
+| `process-street` | [Process Street](third_party/process-street/) | Productivity | Explore and update your Process Street data. |
 | `productive` | [Productive](third_party/productive/) | Analytics | Run projects, tasks, time tracking, budgets, and invoicing in your Productive workspace, straight from chat. |
 | `profound` | [Profound](third_party/profound/) | Marketing | Pull Profound Visibility, Citation, & AI Bot Visit Data. |
 | `pydantic-ai` | [Pydantic AI](third_party/pydantic-ai/) | AI | Build production-grade AI agents with Pydantic AI — tools, capabilities, structured output, streaming, and testing patterns — and port existing agents over from LangChain, the OpenAI Agents SDK, |
@@ -459,8 +518,10 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `qodo-standards` | [Qodo Standards](third_party/qodo-standards/) | Developer Tools | Optional Qodo standards discovery and review rules/skills administration workflows. |
 | `qonto` | [Qonto](third_party/qonto/) | Finance | Manage your Qonto business finances from Claude. |
 | `quartr` | [Quartr](third_party/quartr/) | Finance | Financial data and AI infrastructure for company research. |
+| `quicknode` | [QuickNode](third_party/quicknode/) | Developer Tools | Manage blockchain infrastructure right in Claude. |
 | `quo` | [Quo](third_party/quo/) | Communication | Surface call insights and missed opportunities. |
 | `railway` | [Railway](third_party/railway/) | Developer Tools | Deploy, manage, and debug your apps and infrastructure on Railway. |
+| `rally-mcp` | [Rally MCP](third_party/rally-mcp/) | Productivity | Find participant, pull study data and create studies. |
 | `ramp` | [Ramp](third_party/ramp/) | Finance | Search, access, and analyze your Ramp financial data. |
 | `ramp-data` | [Ramp Data](third_party/ramp-data/) | Finance | Search and analyze Ramp spend across 50,000+ businesses. |
 | `razorpay` | [Razorpay](third_party/razorpay/) | Productivity | Turn Claude into your Razorpay Dashboard Assistant. |
@@ -479,6 +540,9 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `ringcentral-chat` | [RingCentral Chat](third_party/ringcentral-chat/) | Communication | Stay on top of team communications and collaborate in RingCentral Team Chat directly within Claude. |
 | `rippit` | [Rippit](third_party/rippit/) | Analytics | Run dynamic AI analysis on 100% of conversations. |
 | `riverside` | [Riverside](third_party/riverside/) | Media | Prep, edit, clip, and publish your videos and podcasts. |
+| `roam-research` | [Roam Research](third_party/roam-research/) | Education | Let Claude read, search, and write in your Roam graphs. |
+| `robin` | [Robin (Workplace)](third_party/robin/) | Productivity | Robin is the workplace platform teams use to manage desks, rooms, and hybrid office schedules, and optimize how their workplace is planned and used. |
+| `roboflow` | [Roboflow](third_party/roboflow/) | Developer Tools | Build, search, and run computer vision with Roboflow. |
 | `rocketreach` | [RocketReach](third_party/rocketreach/) | Marketing | Verified work emails and phones from 700M+ contacts. |
 | `rootly` | [Rootly](third_party/rootly/) | Developer Tools | Connect AI agents to Rootly for incident management, on-call, and reliability data. |
 | `runway` | [Runway (runway.team)](third_party/runway/) | Developer Tools | Automate, coordinate, and monitor your team's mobile app releases. |
@@ -492,9 +556,13 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `seismic` | [Seismic](third_party/seismic/) | Productivity | Connect Claude to Seismic MCP for generative search. |
 | `semrush` | [Semrush](third_party/semrush/) | Analytics | SEO, keyword research, competitor analysis, traffic and market analytics, backlink analysis, domain analysis, and PPC. |
 | `send` | [Send](third_party/send/) | Design | Create HTML in Claude. Share it with Send. |
+| `sent` | [Sent](third_party/sent/) | Developer Tools | Send and manage customer messages across SMS, WhatsApp, and RCS. Build and manage production messaging agents and workflows. |
 | `sentry` | [Sentry](third_party/sentry/) | Observability | Investigate Sentry errors, stack traces, and issues for a project. |
 | `setup-agent-analytics` | [Pendo Agent Analytics Setup](third_party/setup-agent-analytics/) | Analytics | Detect AI agents in your codebase and instrument them with Pendo agent analytics via the best-fit path: Python SDK, TypeScript SDK, client-side trackAgent(), or the Conversations API |
 | `setup-mcp-agent-analytics` | [Pendo MCP Agent Analytics Setup](third_party/setup-mcp-agent-analytics/) | Analytics | Detect an MCP server's language (Python, TypeScript, Go, or Java) and instrument it with the matching Pendo SDK so MCP tool calls flow into Pendo Agent Analytics |
+| `shapes` | [Shapes](third_party/shapes/) | Productivity | Analyse your live people data, right in Claude. |
+| `shipbob` | [ShipBob](third_party/shipbob/) | Commerce | Your orders, inventory, and shipments from any prompt. |
+| `shippo` | [Shippo](third_party/shippo/) | Commerce | Multi-carrier shipping, from a single package to high volume: compare live rates across USPS, UPS, FedEx, DHL, and 40+ carriers, then buy labels, validate addresses, and track packages. |
 | `shopify` | [Shopify](third_party/shopify/) | Commerce | Build, manage, and analyze your Shopify store. |
 | `shutterstock` | [Shutterstock](third_party/shutterstock/) | Design | Spark ideas with Shutterstock. |
 | `signnow` | [SignNow](third_party/signnow/) | Legal | Automate eSignature workflows directly from Claude. |
@@ -502,15 +570,19 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `slack` | [Slack](third_party/slack/) | Productivity | Search Slack messages, read channels and threads, and find context from your workspace. |
 | `slicktrip` | [SlickTrip](third_party/slicktrip/) | Commerce | Search flights, hotels and seats, then get alerted the moment a price drops. |
 | `slidesgpt` | [SlidesGPT](third_party/slidesgpt/) | Productivity | Make presentations and slides, export to PowerPoint. |
+| `smartling` | [Smartling](third_party/smartling/) | Developer Tools | Translate content and manage Smartling projects, jobs, and quality issues directly from your AI assistant. |
 | `snagajob` | [Snagajob](third_party/snagajob/) | Productivity | Find your next job. |
 | `snomed-ct` | [SNOMED CT Terminology](third_party/snomed-ct/) | Science | Search, validate, and expand SNOMED CT concepts, directly from SNOMED International. |
 | `snowflake-cortex-code` | [Snowflake Cortex Code](third_party/snowflake-cortex-code/) | Database | Automatically route Snowflake prompts from Claude Code to Cortex Code for execution. |
+| `softr` | [Softr](third_party/softr/) | Developer Tools | Build internal tools, workflows and databases all in one platform. |
 | `solve-intelligence` | [Solve Intelligence](third_party/solve-intelligence/) | Legal | Search, draft, and chart patents. |
 | `sonos` | [Sonos](third_party/sonos/) | Media | Control your Sonos system. |
 | `sp-kfinance` | [S&P - Deterministic Retrieval](third_party/sp-kfinance/) | Finance | Deterministic access to S&P Global data. |
 | `speko` | [Speko](third_party/speko/) | Developer Tools | Make phone calls, transcribe audio, and narrate text. |
 | `spiegel-nsdap-archive` | [NSDAP Archiv - DER SPIEGEL](third_party/spiegel-nsdap-archive/) | Education | Search for NSDAP party members. |
+| `spinach-ai` | [Spinach AI](third_party/spinach-ai/) | Productivity | The system of action for conversation data. |
 | `splice` | [Splice](third_party/splice/) | Design | Search Splice's sounds catalog, build stacks & more! |
+| `spotdraft` | [SpotDraft](third_party/spotdraft/) | Legal | Search, review, and manage contracts from your SpotDraft workspace, right inside Claude. |
 | `sprinto` | [Sprinto MCP](third_party/sprinto/) | Security | Manage trust workflows. |
 | `square` | [Square](third_party/square/) | Finance | Search and manage transaction, merchant, and payment data. |
 | `stack-overflow` | [Stack Overflow](third_party/stack-overflow/) | Developer Tools | Access Stack Overflow's trusted content. |
@@ -519,7 +591,10 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `strava` | [Strava](third_party/strava/) | Fitness | Analyze, summarize, and explore your Strava data. |
 | `streaming-skills-plugin` | [Confluent Streaming Skills](third_party/streaming-skills-plugin/) | Data | Skills for streaming application developers, covering Kafka and Flink client libraries and Schema Registry |
 | `stripe` | [Stripe](third_party/stripe/) | Payments | Work with Stripe customers, payments, subscriptions, and search Stripe docs. |
+| `stytch` | [Stytch](third_party/stytch/) | Developer Tools | Manage your Stytch Project. |
+| `subtext` | [Subtext](third_party/subtext/) | Developer Tools | Session replay, built for agents. Give Claude a session link and it investigates the real production session—DOM, screenshots, console, network—to find the root cause. |
 | `sumble` | [Sumble](third_party/sumble/) | Marketing | Deep research any account's teams, tech, and people. |
+| `sumsub` | [Sumsub](third_party/sumsub/) | Finance | Verify identities, businesses, and prevent fraud. |
 | `sumup` | [SumUp](third_party/sumup/) | Payments | Skills for SumUp payment integrations across terminal and online checkout flows |
 | `supabase` | [Supabase](third_party/supabase/) | Database | Query Postgres, manage tables, auth, storage, and edge functions in a Supabase project. |
 | `super-com` | [Super.com](third_party/super-com/) | Travel | Compare hotels and find the lowest rate. |
@@ -534,9 +609,12 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `synapse-org` | [Synapse.org](third_party/synapse-org/) | Science | Search and metadata tools for Synapse scientific data. |
 | `synthesize-bio` | [Synthesize Bio](third_party/synthesize-bio/) | Science | Generate gene expression from a virtual human. |
 | `synthflow` | [Synthflow](third_party/synthflow/) | AI | Connects Claude Code to the Synthflow AI voice-agent platform through its hosted MCP server, with skills for reviewing calls and auditing agent prompts, plus a docs-search connector. |
+| `tabs` | [Tabs](third_party/tabs/) | Finance | Make complex revenue simple at scale. |
 | `tactiq` | [Tactiq](third_party/tactiq/) | Productivity | Search, summarise & find answers in meetings. |
 | `tally` | [Tally](third_party/tally/) | Analytics | Create beautiful forms. |
+| `tango` | [Tango](third_party/tango/) | Analytics | Search for US Government Contracting Data. |
 | `taplio` | [Taplio](third_party/taplio/) | Media | Run your LinkedIn by talking to Claude. Schedule content, pull inspiration from 5M+ viral posts, and get your analytics as plain answers. |
+| `taskrabbit-booking-assistance` | [Taskrabbit Booking Assistance](third_party/taskrabbit-booking-assistance/) | Productivity | Find & book local Taskrabbit services near you. |
 | `tavily` | [Tavily](third_party/tavily/) | Search | Search the web and extract page content with Tavily. |
 | `teamcity-cli` | [TeamCity CLI](third_party/teamcity-cli/) | CI/CD | Agent skill for interacting with TeamCity CI/CD using the teamcity CLI. |
 | `teamtailor` | [Teamtailor](third_party/teamtailor/) | Productivity | Chat with your recruitment data: jobs, candidates, pipelines, and todos from Teamtailor. |
@@ -544,6 +622,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `text-to-quant` | [TEXT TO QUANT](third_party/text-to-quant/) | Developer Tools | Backtest trading strategies written in plain English on real market data, with graded, honesty flagged reports. |
 | `third-bridge` | [Third Bridge](third_party/third-bridge/) | Finance | Expert-led enhanced insights. |
 | `thoughtspot-spotter` | [ThoughtSpot Spotter](third_party/thoughtspot-spotter/) | Analytics | Your AI data analyst, from question to trusted insights. |
+| `thumbtack` | [Thumbtack](third_party/thumbtack/) | Productivity | Find and hire local pros in Claude. |
 | `ticket-tailor` | [Ticket Tailor](third_party/ticket-tailor/) | Finance | Event platform for managing tickets, orders & more. |
 | `ticktick` | [TickTick](third_party/ticktick/) | Productivity | Search, create and manage your tasks/habit it TickTick. |
 | `tiktok-for-business` | [TikTok for Business](third_party/tiktok-for-business/) | Productivity | Create, manage, and analyze advertising campaigns on TikTok. |
@@ -555,7 +634,9 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `togetherai-skills` | [Together AI Skills](third_party/togetherai-skills/) | AI | Use the Together AI platform: chat, embeddings, images, audio, video, batch inference, fine-tuning and GPU clusters. |
 | `tomorrow-io-weather` | [Tomorrow.io Weather MCP App](third_party/tomorrow-io-weather/) | Science | Interactive weather, air quality, pollen, and wildfire-risk widgets powered by Tomorrow.io — live forecasts and conditions for any location, right inside Claude. |
 | `tomtom-maps` | [TomTom Maps](third_party/tomtom-maps/) | Analytics | TomTom maps, routing, geocoding & traffic data. |
+| `travexp` | [TravExp](third_party/travexp/) | Travel | Create rich, interactive travel itineraries. |
 | `trello` | [Trello](third_party/trello/) | Project Management | Get things done in Trello. |
+| `treppmcp` | [TreppMCP](third_party/treppmcp/) | Finance | Bring Trepp's trusted CRE, CMBS, CRE CLO, and Lending data, analytics, and market intelligence directly into your AI workflows. |
 | `trimble-sketchup` | [Trimble SketchUp](third_party/trimble-sketchup/) | Design | Create and iterate 3D models for use in SketchUp. |
 | `trivago` | [Trivago](third_party/trivago/) | Travel | Use trivago's powerful metasearch to find your ideal hotel and compare prices from multiple providers. |
 | `tropic` | [Tropic](third_party/tropic/) | Productivity | Save money on Software + AI contracts. |
@@ -581,15 +662,18 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `verisk-underwriting` | [Verisk Underwriting Intelligence](third_party/verisk-underwriting/) | Finance | Ask questions. Get underwriting insights from Verisk. |
 | `viator` | [Viator](third_party/viator/) | Productivity | Book travel experiences around the world. |
 | `vibe-prospecting` | [Vibe Prospecting](third_party/vibe-prospecting/) | Sales | B2B data for lead lists, company research and outreach with Vibe Prospecting. |
+| `viberate-music-data` | [Viberate music data](third_party/viberate-music-data/) | Media | Music industry data inside Claude — artists, tracks, festivals, charts. |
 | `vidiq` | [vidIQ](third_party/vidiq/) | Media | Research and create for YouTube, Instagram & TikTok. |
 | `vsql-extension-builder` | [VillageSQL Extension Builder](third_party/vsql-extension-builder/) | Database | Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server. |
 | `webex-for-claude` | [Webex for Claude](third_party/webex-for-claude/) | Marketing | Access your Webex meetings, messaging, and Vidcast content securely in Claude. |
 | `webex-meetings` | [Webex Meetings](third_party/webex-meetings/) | Communication | AI-powered workflows for Webex meetings. |
 | `webflow` | [Webflow](third_party/webflow/) | CMS | Design pages, manage CMS content, add motion, analyze traffic, and launch the whole site, all from a prompt and all inside the permissions your workspace already has. |
 | `webull` | [Webull](third_party/webull/) | Finance | Your Global Multi-Asset Trading & Analysis Powerhouse. |
+| `weweb` | [WeWeb](third_party/weweb/) | Developer Tools | Build your WeWeb projects using Claude. |
 | `whimsical` | [Whimsical](third_party/whimsical/) | Design | Create flowcharts, mindmaps, wireframes and diagrams. |
 | `wiley-scholar-gateway` | [Wiley Scholar Gateway](third_party/wiley-scholar-gateway/) | Science | Enhance responses with scholarly research and citations. |
 | `windsor-ai` | [Windsor.ai](third_party/windsor-ai/) | Analytics | Connect Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads + 320 more. |
+| `wingify` | [Wingify](third_party/wingify/) | Analytics | Optimize digital experiences directly from Claude and supercharge your CRO workflow. |
 | `wingspan` | [Wingspan](third_party/wingspan/) | Payments | Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment — then onboard contractors and log payments as drafts, with a preview before anything is written. |
 | `wispr-flow` | [Wispr Flow](third_party/wispr-flow/) | Communication | Your meetings, notes, and tasks from Wispr Flow — now native context for Claude. |
 | `within` | [Within](third_party/within/) | Productivity | Explore your org's processes. |
@@ -604,6 +688,8 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `youdotcom-agent-skills` | [You.com Skills](third_party/youdotcom-agent-skills/) | Search | Search the web, read pages, research and look up finance data with You.com. |
 | `zapier` | [Zapier](third_party/zapier/) | Productivity | Run Zapier actions across the apps connected to your Zapier account. |
 | `zillow` | [Zillow](third_party/zillow/) | Commerce | Search homes, rentals, neighborhoods, and affordability. |
+| `zite` | [Zite](third_party/zite/) | Productivity | Manage and query your Zite data. |
+| `zocks` | [Zocks](third_party/zocks/) | Finance | Analyze client conversations, patterns, and insights. |
 | `zoho-books` | [Zoho Books](third_party/zoho-books/) | Finance | Zoho Books MCP for Smart Finance Ops. |
 | `zoho-crm` | [Zoho CRM](third_party/zoho-crm/) | Productivity | MCP Server for Zoho CRM Workflows. |
 | `zoho-desk` | [Zoho Desk](third_party/zoho-desk/) | Communication | Zoho Desk MCP for Customer Support Automation. |

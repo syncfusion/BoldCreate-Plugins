@@ -1,0 +1,24 @@
+{
+  "name": "bling-mcp",
+  "displayName": "Bling MCP",
+  "version": "0.7.1",
+  "description": "Access and manage your Bling directly in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.bling.com.br/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "bling-mcp",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "bling-mcp": {
+      "type": "http",
+      "url": "https://mcp.bling.com.br/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "d-b-risk-analytics": {
+      "type": "http",
+      "url": "https://agents.riskanalytics.dnb.com/mcp"
+    }
+  }
+}

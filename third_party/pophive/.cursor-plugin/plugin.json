@@ -1,0 +1,28 @@
+{
+  "name": "pophive",
+  "displayName": "PopHIVE",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Yale's harmonized US public health surveillance data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.pophive.org/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "pophive",
+    "science",
+    "mcp"
+  ],
+  "category": "science",
+  "tags": [
+    "science",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

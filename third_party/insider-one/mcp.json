@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "insider-one": {
+      "type": "http",
+      "url": "https://mcp.insiderone.com/mcp"
+    }
+  }
+}

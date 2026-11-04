@@ -1,0 +1,28 @@
+{
+  "name": "softr",
+  "displayName": "Softr",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Build internal tools, workflows and databases all in one platform.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.softr.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "softr",
+    "developer-tools",
+    "mcp"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

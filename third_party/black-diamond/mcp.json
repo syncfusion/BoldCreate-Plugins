@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "black-diamond": {
+      "type": "http",
+      "url": "https://bd3.bdreporting.com/mcp"
+    }
+  }
+}

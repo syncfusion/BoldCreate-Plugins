@@ -1,0 +1,24 @@
+{
+  "name": "healthex",
+  "displayName": "HealthEx",
+  "version": "0.7.1",
+  "description": "Connect your health records for personalized insights.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://healthex.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "healthex",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "healthex": {
+      "type": "http",
+      "url": "https://api.healthex.io/mcp"
+    }
+  }
+}

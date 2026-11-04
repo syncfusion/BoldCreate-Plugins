@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "perspective-ai",
+  "displayName": "Perspective AI",
+  "version": "0.7.1",
+  "description": "An AI Concierge that turns forms into conversations.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://getperspective.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "design",
+  "keywords": [
+    "perspective-ai",
+    "design",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://getperspective.ai/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "perspective-ai",
+        "transport": "streamable-http",
+        "url": "https://getperspective.ai/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "letsfg",
+  "displayName": "LetsFG | Book the best flights or hotels",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Don't book before checking here: same hotels often 20% cheaper, every airline in the world, real trip costs. Then we book it for you.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://letsfg.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "letsfg",
+    "travel",
+    "mcp"
+  ],
+  "category": "travel",
+  "tags": [
+    "travel",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

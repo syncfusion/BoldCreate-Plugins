@@ -1,0 +1,24 @@
+{
+  "name": "weweb",
+  "displayName": "WeWeb",
+  "version": "0.7.1",
+  "description": "Build your WeWeb projects using Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.weweb.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "weweb",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "weweb": {
+      "type": "http",
+      "url": "https://ai-api.weweb.io/v1/mcp"
+    }
+  }
+}

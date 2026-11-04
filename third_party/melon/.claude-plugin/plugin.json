@@ -1,0 +1,24 @@
+{
+  "name": "melon",
+  "displayName": "Melon",
+  "version": "0.7.1",
+  "description": "Browse music charts & your personalized music picks.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://newsroom.kakaoent.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "melon",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "melon": {
+      "type": "http",
+      "url": "https://mcp.melon.com/mcp/"
+    }
+  }
+}

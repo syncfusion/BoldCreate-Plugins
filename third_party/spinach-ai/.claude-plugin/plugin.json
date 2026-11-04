@@ -1,0 +1,24 @@
+{
+  "name": "spinach-ai",
+  "displayName": "Spinach AI",
+  "version": "0.7.1",
+  "description": "The system of action for conversation data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.spinach.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "spinach-ai",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "spinach-ai": {
+      "type": "http",
+      "url": "https://mcp.spinach.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "filevine": {
+      "type": "http",
+      "url": "https://api.filevineapp.com/mcp/api-v2"
+    }
+  }
+}

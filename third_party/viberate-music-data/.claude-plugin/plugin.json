@@ -1,0 +1,24 @@
+{
+  "name": "viberate-music-data",
+  "displayName": "Viberate music data",
+  "version": "0.7.1",
+  "description": "Music industry data inside Claude — artists, tracks, festivals, charts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://viberate.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "viberate-music-data",
+    "media",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "viberate-music-data": {
+      "type": "http",
+      "url": "https://mcp.viberate.com/v1/sse"
+    }
+  }
+}

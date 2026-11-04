@@ -1,0 +1,24 @@
+{
+  "name": "rally-mcp",
+  "displayName": "Rally MCP",
+  "version": "0.7.1",
+  "description": "Find participant, pull study data and create studies.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://rallyuxr.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "rally-mcp",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "rally-mcp": {
+      "type": "http",
+      "url": "https://mcp.rallyuxr.com/mcp"
+    }
+  }
+}

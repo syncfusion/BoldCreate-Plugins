@@ -1,0 +1,28 @@
+{
+  "name": "kuliko-ai",
+  "displayName": "Kuliko AI",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Your Learning Companion.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://kuliko.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "kuliko-ai",
+    "education",
+    "mcp"
+  ],
+  "category": "education",
+  "tags": [
+    "education",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}
