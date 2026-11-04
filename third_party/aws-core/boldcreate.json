@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/aws/agent-toolkit-for-aws",
+  "upstream": {
+    "repository": "https://github.com/aws/agent-toolkit-for-aws",
+    "path": "plugins/aws-core",
+    "commit": "34b3eccfd8b619ea0cb4ba04a9be9dfefebd94e7",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  }
+}

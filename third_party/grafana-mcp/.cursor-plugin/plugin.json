@@ -1,0 +1,24 @@
+{
+  "name": "grafana-mcp",
+  "displayName": "Grafana",
+  "version": "0.2.0",
+  "description": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
+  "author": {
+    "name": "Grafana Labs"
+  },
+  "homepage": "https://github.com/grafana/ai-marketplace",
+  "repository": "https://github.com/grafana/ai-marketplace",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "grafana",
+    "observability",
+    "skills"
+  ],
+  "category": "observability",
+  "tags": [
+    "observability",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

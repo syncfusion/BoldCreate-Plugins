@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "informatica-for-claude-platform",
+  "displayName": "Informatica",
+  "version": "1.0.0",
+  "description": "Informatica plugin for Claude Platform (Claude Code & Claude CoWork) — governed catalog discovery, data Q&A, powered by Informatica's Data catalog and Governance to understand and evaluate enterprise",
+  "author": {
+    "name": "informatica"
+  },
+  "homepage": "https://github.com/forcedotcom/informatica-claude-plugins",
+  "repository": "https://github.com/forcedotcom/informatica-claude-plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "data",
+  "keywords": [
+    "informatica",
+    "data",
+    "skills"
+  ],
+  "docs": "https://github.com/forcedotcom/informatica-claude-plugins",
+  "upstream": {
+    "repository": "https://github.com/forcedotcom/informatica-claude-plugins",
+    "path": "informatica-for-claude-platform",
+    "commit": "554d02e0f7f2adafeaeeedbde04435b7bd310a47",
+    "author": "informatica",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "catalog-and-data-discovery"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,24 @@
+{
+  "name": "qodo",
+  "displayName": "Qodo",
+  "version": "2.1.2",
+  "description": "Qodo setup, code intelligence, and review workflows.",
+  "author": {
+    "name": "Qodo"
+  },
+  "homepage": "https://github.com/qodo-ai/qodo-skills",
+  "repository": "https://github.com/qodo-ai/qodo-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "qodo",
+    "developer-tools",
+    "skills"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

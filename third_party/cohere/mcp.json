@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cohere": {
+      "type": "http",
+      "url": "https://docs.cohere.com/mcp"
+    }
+  }
+}

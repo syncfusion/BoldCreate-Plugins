@@ -1,0 +1,18 @@
+{
+  "name": "stackhawk-api",
+  "displayName": "StackHawk API",
+  "version": "2.7.0",
+  "description": "Query the StackHawk platform API for security posture reporting, findings analysis, and app management.",
+  "author": {
+    "name": "StackHawk"
+  },
+  "homepage": "https://github.com/stackhawk/agent-skills",
+  "repository": "https://github.com/stackhawk/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "stackhawk",
+    "security",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

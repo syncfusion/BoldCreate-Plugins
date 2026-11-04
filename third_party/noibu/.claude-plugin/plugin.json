@@ -1,0 +1,18 @@
+{
+  "name": "noibu",
+  "displayName": "Noibu",
+  "version": "1.0.0",
+  "description": "Work with Noibu error and performance data for e-commerce sites.",
+  "author": {
+    "name": "Noibu"
+  },
+  "homepage": "https://github.com/Noibu/ai-plugin",
+  "repository": "https://github.com/Noibu/ai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "noibu",
+    "observability",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

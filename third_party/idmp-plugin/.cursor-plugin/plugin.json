@@ -1,0 +1,24 @@
+{
+  "name": "idmp-plugin",
+  "displayName": "TDengine IDMP",
+  "version": "0.1.0",
+  "description": "TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows.",
+  "author": {
+    "name": "TaosData"
+  },
+  "homepage": "https://github.com/taosdata/agent-skills",
+  "repository": "https://github.com/taosdata/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "idmp",
+    "database",
+    "skills"
+  ],
+  "category": "database",
+  "tags": [
+    "database",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

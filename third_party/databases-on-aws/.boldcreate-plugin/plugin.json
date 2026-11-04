@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "databases-on-aws",
+  "displayName": "Databases on AWS",
+  "version": "1.10.0",
+  "description": "Expert database guidance for the AWS database portfolio.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/awslabs/agent-plugins",
+  "repository": "https://github.com/awslabs/agent-plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "databases",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/awslabs/agent-plugins",
+  "upstream": {
+    "repository": "https://github.com/awslabs/agent-plugins",
+    "path": "plugins/databases-on-aws",
+    "commit": "fbefb3764e67558fe10ac834dd85db49734aa9b6",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "dsql"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

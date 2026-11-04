@@ -1,0 +1,18 @@
+{
+  "name": "bigquery-data-analytics",
+  "displayName": "BigQuery Data Analytics",
+  "version": "0.2.5",
+  "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
+  "author": {
+    "name": "Google LLC"
+  },
+  "homepage": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+  "repository": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+  "license": "Apache-2.0",
+  "keywords": [
+    "bigquery",
+    "database",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

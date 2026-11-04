@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/adobe/skills",
+  "upstream": {
+    "repository": "https://github.com/adobe/skills",
+    "path": "plugins/creative-cloud/adobe-for-creativity",
+    "commit": "0f487c9b1b98d8e62dfc80ee4d28b29f5471261f",
+    "author": "Adobe",
+    "license": "Apache-2.0"
+  }
+}

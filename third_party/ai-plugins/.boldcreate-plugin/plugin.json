@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "ai-plugins",
+  "displayName": "Endor Labs",
+  "version": "0.1.0",
+  "description": "Endor Labs agent setup and workflow agents for findings, remediation and dependency review.",
+  "author": {
+    "name": "Endor Labs"
+  },
+  "homepage": "https://github.com/endorlabs/ai-plugins",
+  "repository": "https://github.com/endorlabs/ai-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "security",
+  "keywords": [
+    "endorlabs",
+    "appsec",
+    "sca",
+    "sast",
+    "remediation"
+  ],
+  "docs": "https://github.com/endorlabs/ai-plugins",
+  "upstream": {
+    "repository": "https://github.com/endorlabs/ai-plugins",
+    "path": "skills",
+    "commit": "2de00883bd2be8b8578b46ab09baf2c8731376de",
+    "author": "Endor Labs",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "endor-agent-kit-setup"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "ai-sast-remediation",
+      "cicd-posture",
+      "configuration-automation",
+      "dependency-reviewer",
+      "findings-browser",
+      "malware-responder",
+      "oss-upgrade-investigator",
+      "remediation-planning",
+      "sca-remediation",
+      "troubleshooting",
+      "vulnerability-explainer"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

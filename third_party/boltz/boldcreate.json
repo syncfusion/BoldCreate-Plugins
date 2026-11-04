@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/boltz-bio/boltz-api-skills",
+  "upstream": {
+    "repository": "https://github.com/boltz-bio/boltz-api-skills",
+    "path": "skills",
+    "commit": "beafb3c16236347ab10fb54f78a5da49cbf7c7bb",
+    "author": "Boltz",
+    "license": "MIT"
+  }
+}

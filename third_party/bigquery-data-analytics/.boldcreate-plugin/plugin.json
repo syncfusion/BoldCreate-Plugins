@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "bigquery-data-analytics",
+  "displayName": "BigQuery Data Analytics",
+  "version": "0.2.5",
+  "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
+  "author": {
+    "name": "Google LLC"
+  },
+  "homepage": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+  "repository": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "bigquery",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+  "upstream": {
+    "repository": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+    "path": "skills",
+    "commit": "6f9b35627d208b03e840271f6522a28f76e7f8df",
+    "author": "Google LLC",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "bigquery-ai-ml"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

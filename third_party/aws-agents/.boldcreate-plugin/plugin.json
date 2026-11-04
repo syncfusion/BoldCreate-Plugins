@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "aws-agents",
+  "displayName": "AWS Agents",
+  "version": "1.0.0",
+  "description": "Build, deploy, and operate AI agents on AWS.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+  "repository": "https://github.com/aws/agent-toolkit-for-aws",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "cloud",
+  "keywords": [
+    "aws",
+    "cloud",
+    "skills"
+  ],
+  "docs": "https://github.com/aws/agent-toolkit-for-aws",
+  "upstream": {
+    "repository": "https://github.com/aws/agent-toolkit-for-aws",
+    "path": "plugins/aws-agents",
+    "commit": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "agents-build",
+      "agents-connect",
+      "agents-debug",
+      "agents-deploy",
+      "agents-get-started",
+      "agents-harden",
+      "agents-optimize",
+      "agents-pay"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "amazon-location-service",
+  "displayName": "Amazon Location Service",
+  "version": "1.1.0",
+  "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/awslabs/agent-plugins",
+  "repository": "https://github.com/awslabs/agent-plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "cloud",
+  "keywords": [
+    "amazon",
+    "cloud",
+    "skills"
+  ],
+  "docs": "https://github.com/awslabs/agent-plugins",
+  "upstream": {
+    "repository": "https://github.com/awslabs/agent-plugins",
+    "path": "plugins/amazon-location-service",
+    "commit": "097fe8ad56d8a1d5e2c81d7880adf145553cf244",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "amazon-location-service"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

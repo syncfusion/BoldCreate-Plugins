@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "aws-serverless",
+  "displayName": "AWS Serverless",
+  "version": "1.3.0",
+  "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/awslabs/agent-plugins",
+  "repository": "https://github.com/awslabs/agent-plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "cloud",
+  "keywords": [
+    "aws",
+    "cloud",
+    "skills"
+  ],
+  "docs": "https://github.com/awslabs/agent-plugins",
+  "upstream": {
+    "repository": "https://github.com/awslabs/agent-plugins",
+    "path": "plugins/aws-serverless",
+    "commit": "097fe8ad56d8a1d5e2c81d7880adf145553cf244",
+    "author": "Amazon Web Services",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "api-gateway",
+      "aws-lambda",
+      "aws-lambda-durable-functions",
+      "aws-lambda-managed-instances",
+      "aws-lambda-microvms",
+      "aws-serverless-deployment",
+      "aws-step-functions"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

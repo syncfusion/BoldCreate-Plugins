@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "grafana-assistant",
+  "displayName": "Grafana Assistant",
+  "version": "0.2.0",
+  "description": "Skills and rules for developing and using the Grafana Assistant app and CLI.",
+  "author": {
+    "name": "Grafana Labs"
+  },
+  "homepage": "https://github.com/grafana/ai-marketplace",
+  "repository": "https://github.com/grafana/ai-marketplace",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "observability",
+  "keywords": [
+    "grafana",
+    "observability",
+    "skills"
+  ],
+  "docs": "https://github.com/grafana/ai-marketplace",
+  "upstream": {
+    "repository": "https://github.com/grafana/ai-marketplace",
+    "path": "plugins/grafana-assistant",
+    "commit": "12be5634a492f73c189d466c5449d09b853ad7a4",
+    "author": "Grafana Labs",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "grafana-assistant-cli"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

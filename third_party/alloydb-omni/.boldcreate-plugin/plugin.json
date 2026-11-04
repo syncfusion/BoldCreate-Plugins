@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "alloydb-omni",
+  "displayName": "AlloyDB Omni",
+  "version": "0.2.2",
+  "description": "Create, connect, and interact with an AlloyDB Omni database and data.",
+  "author": {
+    "name": "Google LLC"
+  },
+  "homepage": "https://github.com/gemini-cli-extensions/alloydb-omni",
+  "repository": "https://github.com/gemini-cli-extensions/alloydb-omni",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "alloydb",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/gemini-cli-extensions/alloydb-omni",
+  "upstream": {
+    "repository": "https://github.com/gemini-cli-extensions/alloydb-omni",
+    "path": "skills",
+    "commit": "37101e3f9aaf0bd4d0acaeee540a0da2fd773d00",
+    "author": "Google LLC",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "alloydb-omni-container",
+      "alloydb-omni-kubernetes"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

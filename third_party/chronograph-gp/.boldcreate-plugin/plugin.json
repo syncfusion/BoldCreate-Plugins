@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "chronograph-gp",
+  "displayName": "Chronograph GP",
+  "version": "0.2.4",
+  "description": "Portfolio monitoring, valuations, and analytics for private capital GP teams.",
+  "author": {
+    "name": "Chronograph"
+  },
+  "homepage": "https://github.com/chronograph-pe/chronograph-gp-claude-plugin",
+  "repository": "https://github.com/chronograph-pe/chronograph-gp-claude-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "finance",
+  "keywords": [
+    "chronograph",
+    "finance",
+    "skills"
+  ],
+  "docs": "https://github.com/chronograph-pe/chronograph-gp-claude-plugin",
+  "upstream": {
+    "repository": "https://github.com/chronograph-pe/chronograph-gp-claude-plugin",
+    "path": "skills",
+    "commit": "35cb3d12cf4e24823c0efca4abe6f13c2fd0e5f5",
+    "author": "Chronograph",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "chronograph-budget-vs-actuals-variance",
+      "chronograph-fund-quarterly-review-pack",
+      "chronograph-markup-markdown-brief",
+      "chronograph-portfolio-company-one-pager",
+      "chronograph-tvpi-attribution-by-company"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "chronograph-budget-vs-actuals-variance",
+      "chronograph-fund-quarterly-review-pack",
+      "chronograph-gp-analyst",
+      "chronograph-markup-markdown-brief",
+      "chronograph-portfolio-company-one-pager",
+      "chronograph-tvpi-attribution-by-company"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

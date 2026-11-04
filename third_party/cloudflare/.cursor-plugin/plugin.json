@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare",
+  "displayName": "Cloudflare",
+  "version": "1.0.0",
+  "description": "Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server.",
+  "author": {
+    "name": "Cloudflare"
+  },
+  "homepage": "https://github.com/cloudflare/skills",
+  "repository": "https://github.com/cloudflare/skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "cloudflare",
+    "hosting",
+    "skills"
+  ],
+  "category": "hosting",
+  "tags": [
+    "hosting",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

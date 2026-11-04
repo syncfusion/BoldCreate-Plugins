@@ -1,0 +1,18 @@
+{
+  "name": "qodo-standards",
+  "displayName": "Qodo Standards",
+  "version": "2.1.2",
+  "description": "Optional Qodo standards discovery and review rules/skills administration workflows.",
+  "author": {
+    "name": "Qodo"
+  },
+  "homepage": "https://github.com/qodo-ai/qodo-skills",
+  "repository": "https://github.com/qodo-ai/qodo-skills",
+  "license": "MIT",
+  "keywords": [
+    "qodo",
+    "developer-tools",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

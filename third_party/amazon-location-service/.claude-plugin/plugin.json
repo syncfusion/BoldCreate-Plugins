@@ -1,0 +1,18 @@
+{
+  "name": "amazon-location-service",
+  "displayName": "Amazon Location Service",
+  "version": "1.1.0",
+  "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/awslabs/agent-plugins",
+  "repository": "https://github.com/awslabs/agent-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "amazon",
+    "cloud",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

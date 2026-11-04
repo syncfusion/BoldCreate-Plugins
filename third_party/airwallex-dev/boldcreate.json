@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/airwallex/airwallex-marketplace",
+  "upstream": {
+    "repository": "https://github.com/airwallex/airwallex-marketplace",
+    "path": "plugins/airwallex-dev",
+    "commit": "877551077786664d1cbeb32013443291c66e69e6",
+    "author": "Airwallex",
+    "license": "Apache-2.0"
+  }
+}

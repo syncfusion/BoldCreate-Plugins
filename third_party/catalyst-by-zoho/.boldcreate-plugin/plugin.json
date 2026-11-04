@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "catalyst-by-zoho",
+  "displayName": "Catalyst by Zoho",
+  "version": "0.0.2",
+  "description": "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform.",
+  "author": {
+    "name": "Catalyst by Zoho"
+  },
+  "homepage": "https://github.com/catalystbyzoho/claude-plugin",
+  "repository": "https://github.com/catalystbyzoho/claude-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "catalyst",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/catalystbyzoho/claude-plugin",
+  "upstream": {
+    "repository": "https://github.com/catalystbyzoho/claude-plugin",
+    "path": "skills",
+    "commit": "9670b79d72fe4923cc845ca0414d009ef3684ccb",
+    "author": "Catalyst by Zoho",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "catalyst-appsail",
+      "catalyst-authentication",
+      "catalyst-basics",
+      "catalyst-by-zoho",
+      "catalyst-cache",
+      "catalyst-datastore",
+      "catalyst-functions",
+      "catalyst-nosql",
+      "catalyst-pricing",
+      "catalyst-sdk",
+      "catalyst-signals",
+      "catalyst-slate",
+      "catalyst-smartbrowz",
+      "catalyst-stratus",
+      "catalyst-zia",
+      "catalyst-zoho-mcp"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

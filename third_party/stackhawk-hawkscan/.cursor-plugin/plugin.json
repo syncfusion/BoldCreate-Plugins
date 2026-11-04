@@ -1,0 +1,24 @@
+{
+  "name": "stackhawk-hawkscan",
+  "displayName": "StackHawk HawkScan",
+  "version": "2.6.0",
+  "description": "Configure, run, and interpret HawkScan DAST results inside Claude Code.",
+  "author": {
+    "name": "StackHawk"
+  },
+  "homepage": "https://github.com/stackhawk/agent-skills",
+  "repository": "https://github.com/stackhawk/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "stackhawk",
+    "security",
+    "skills"
+  ],
+  "category": "security",
+  "tags": [
+    "security",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

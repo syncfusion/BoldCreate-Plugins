@@ -1,0 +1,25 @@
+{
+  "name": "honeycomb",
+  "displayName": "Honeycomb",
+  "version": "1.2.3",
+  "description": "Skills, agents, and workflows for Honeycomb observability — query patterns, production investigations, SLOs, OpenTelemetry instrumentation, and Beeline migration.",
+  "author": {
+    "name": "Honeycomb"
+  },
+  "homepage": "https://github.com/honeycombio/agent-skill",
+  "repository": "https://github.com/honeycombio/agent-skill",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "honeycomb",
+    "observability",
+    "skills"
+  ],
+  "category": "observability",
+  "tags": [
+    "observability",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

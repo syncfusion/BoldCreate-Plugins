@@ -1,0 +1,26 @@
+{
+  "name": "coingecko",
+  "displayName": "CoinGecko",
+  "version": "0.1.0",
+  "description": "Track cryptocurrency prices, markets, exchanges, and trending coins.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.coingecko.com/en/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "prices",
+    "market data",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "coingecko": {
+      "type": "http",
+      "url": "https://mcp.coingecko.com/mcp"
+    }
+  }
+}

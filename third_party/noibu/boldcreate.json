@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/Noibu/ai-plugin",
+  "upstream": {
+    "repository": "https://github.com/Noibu/ai-plugin",
+    "path": "src",
+    "commit": "9fa2eddc3a86937b7956dedfaab32fac6cabf868",
+    "author": "Noibu",
+    "license": "MIT"
+  }
+}

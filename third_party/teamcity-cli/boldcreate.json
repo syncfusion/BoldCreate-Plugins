@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/JetBrains/teamcity-cli",
+  "upstream": {
+    "repository": "https://github.com/JetBrains/teamcity-cli",
+    "path": "skills",
+    "commit": "ac6c1fd83300b2e42df48fcfff365ba03f73bb92",
+    "author": "JetBrains",
+    "license": "Apache-2.0"
+  }
+}

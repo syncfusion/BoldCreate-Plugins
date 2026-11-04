@@ -1,0 +1,18 @@
+{
+  "name": "databases-on-aws",
+  "displayName": "Databases on AWS",
+  "version": "1.10.0",
+  "description": "Expert database guidance for the AWS database portfolio.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/awslabs/agent-plugins",
+  "repository": "https://github.com/awslabs/agent-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "databases",
+    "database",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

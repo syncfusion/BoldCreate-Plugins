@@ -1,0 +1,18 @@
+{
+  "name": "informatica-for-claude-platform",
+  "displayName": "Informatica",
+  "version": "1.0.0",
+  "description": "Informatica plugin for Claude Platform (Claude Code & Claude CoWork) — governed catalog discovery, data Q&A, powered by Informatica's Data catalog and Governance to understand and evaluate enterprise",
+  "author": {
+    "name": "informatica"
+  },
+  "homepage": "https://github.com/forcedotcom/informatica-claude-plugins",
+  "repository": "https://github.com/forcedotcom/informatica-claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "informatica",
+    "data",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/spotify/save-to-spotify",
+  "upstream": {
+    "repository": "https://github.com/spotify/save-to-spotify",
+    "path": "plugin",
+    "commit": "9d05c8cd8c8559552f84e27fe30f46b7693ce69a",
+    "author": "Spotify",
+    "license": "Apache-2.0"
+  }
+}

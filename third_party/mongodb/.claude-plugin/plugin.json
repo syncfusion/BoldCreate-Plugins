@@ -1,0 +1,18 @@
+{
+  "name": "mongodb",
+  "displayName": "MongoDB",
+  "version": "1.2.1",
+  "description": "Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string.",
+  "author": {
+    "name": "MongoDB"
+  },
+  "homepage": "https://github.com/mongodb/agent-skills",
+  "repository": "https://github.com/mongodb/agent-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mongodb",
+    "database",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

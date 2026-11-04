@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ollama": {
+      "type": "http",
+      "url": "https://docs.ollama.com/mcp"
+    }
+  }
+}

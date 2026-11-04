@@ -1,0 +1,24 @@
+{
+  "name": "aws-core",
+  "displayName": "AWS Core",
+  "version": "1.1.0",
+  "description": "Build, deploy, and operate applications on AWS.",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+  "repository": "https://github.com/aws/agent-toolkit-for-aws",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "aws",
+    "cloud",
+    "skills"
+  ],
+  "category": "cloud",
+  "tags": [
+    "cloud",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "qodo-standards",
+  "displayName": "Qodo Standards",
+  "version": "2.1.2",
+  "description": "Optional Qodo standards discovery and review rules/skills administration workflows.",
+  "author": {
+    "name": "Qodo"
+  },
+  "homepage": "https://github.com/qodo-ai/qodo-skills",
+  "repository": "https://github.com/qodo-ai/qodo-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "qodo",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/qodo-ai/qodo-skills",
+  "upstream": {
+    "repository": "https://github.com/qodo-ai/qodo-skills",
+    "path": "packages/qodo-standards",
+    "commit": "b8c21854199c538b1c35c981c12a93bab4839ef2",
+    "author": "Qodo",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "qodo-get-rules",
+      "qodo-manage-standards"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

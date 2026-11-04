@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "stackhawk-api",
+  "displayName": "StackHawk API",
+  "version": "2.7.0",
+  "description": "Query the StackHawk platform API for security posture reporting, findings analysis, and app management.",
+  "author": {
+    "name": "StackHawk"
+  },
+  "homepage": "https://github.com/stackhawk/agent-skills",
+  "repository": "https://github.com/stackhawk/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "security",
+  "keywords": [
+    "stackhawk",
+    "security",
+    "skills"
+  ],
+  "docs": "https://github.com/stackhawk/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/stackhawk/agent-skills",
+    "path": "plugins/api",
+    "commit": "d0eea864c42f7c2e872334bb3df424daa1fbaadc",
+    "author": "StackHawk",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "api"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

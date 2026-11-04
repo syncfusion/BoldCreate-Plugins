@@ -1,0 +1,24 @@
+{
+  "name": "deepeval",
+  "displayName": "DeepEval",
+  "version": "1.0.0",
+  "description": "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications.",
+  "author": {
+    "name": "Confident AI"
+  },
+  "homepage": "https://github.com/confident-ai/deepeval",
+  "repository": "https://github.com/confident-ai/deepeval",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "deepeval",
+    "ai",
+    "skills"
+  ],
+  "category": "ai",
+  "tags": [
+    "ai",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

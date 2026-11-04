@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "atlassian-twg-cli",
+  "displayName": "Atlassian Teamwork Graph CLI",
+  "version": "1.0.12",
+  "description": "Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources.",
+  "author": {
+    "name": "Atlassian"
+  },
+  "homepage": "https://github.com/atlassian-labs/twg-plugins",
+  "repository": "https://github.com/atlassian-labs/twg-plugins",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.png",
+  "category": "project-management",
+  "keywords": [
+    "atlassian",
+    "project-management",
+    "skills"
+  ],
+  "docs": "https://github.com/atlassian-labs/twg-plugins",
+  "upstream": {
+    "repository": "https://github.com/atlassian-labs/twg-plugins",
+    "path": "skills",
+    "commit": "b3336ef63d45e2636ff411a922ed602244e0f3db",
+    "author": "Atlassian",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "twg-setup"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

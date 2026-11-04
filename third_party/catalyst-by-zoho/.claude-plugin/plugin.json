@@ -1,0 +1,18 @@
+{
+  "name": "catalyst-by-zoho",
+  "displayName": "Catalyst by Zoho",
+  "version": "0.0.2",
+  "description": "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform.",
+  "author": {
+    "name": "Catalyst by Zoho"
+  },
+  "homepage": "https://github.com/catalystbyzoho/claude-plugin",
+  "repository": "https://github.com/catalystbyzoho/claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "catalyst",
+    "developer-tools",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

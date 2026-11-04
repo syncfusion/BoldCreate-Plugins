@@ -1,0 +1,23 @@
+{
+  "name": "atomic-agents",
+  "displayName": "Atomic Agents",
+  "version": "2.2.0",
+  "description": "Build, scaffold and debug applications with the Atomic Agents framework.",
+  "author": {
+    "name": "Kenny Vaneetvelde"
+  },
+  "homepage": "https://github.com/BrainBlend-AI/atomic-agents",
+  "repository": "https://github.com/BrainBlend-AI/atomic-agents",
+  "license": "MIT",
+  "keywords": [
+    "atomic-agents",
+    "llm",
+    "agents",
+    "python"
+  ],
+  "icon": "./assets/logo.svg",
+  "agents": [
+    "./agents/atomic-explorer.md",
+    "./agents/atomic-reviewer.md"
+  ]
+}

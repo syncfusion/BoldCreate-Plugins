@@ -1,0 +1,62 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "ui5-modernization",
+  "displayName": "UI5 Modernization",
+  "version": "0.1.8",
+  "description": "Complete UI5 modernization toolkit with workflow and specialized fix patterns for modernizing SAPUI5/OpenUI5 applications",
+  "author": {
+    "name": "SAP SE"
+  },
+  "homepage": "https://github.com/UI5/plugins-coding-agents",
+  "repository": "https://github.com/UI5/plugins-coding-agents",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "ui5",
+    "developer-tools",
+    "skills"
+  ],
+  "docs": "https://github.com/UI5/plugins-coding-agents",
+  "upstream": {
+    "repository": "https://github.com/UI5/plugins-coding-agents",
+    "path": "plugins/ui5-modernization",
+    "commit": "2b8c4a944e39609214bce7aef3b05260985f0e91",
+    "author": "SAP SE",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "fix-bootstrap-params",
+      "fix-component-async",
+      "fix-control-renderer",
+      "fix-csp-compliance",
+      "fix-cyclic-deps",
+      "fix-deprecated-controls",
+      "fix-fiori-elements-extensions",
+      "fix-js-globals",
+      "fix-library-init",
+      "fix-linter-blind-spots",
+      "fix-manifest-json",
+      "fix-partially-deprecated-apis",
+      "fix-pseudo-modules",
+      "fix-table-row-mode",
+      "fix-xml-globals",
+      "fix-xml-native-html",
+      "modernize-flp-sandbox",
+      "modernize-test-starter",
+      "modernize-ui5-app"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

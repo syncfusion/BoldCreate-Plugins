@@ -1,0 +1,18 @@
+{
+  "name": "pendo-analytics",
+  "displayName": "Pendo Analytics",
+  "version": "1.4.0",
+  "description": "Bring Pendo analytics into Claude Code with skills for app health, account health, feature adoption, session replays, feedback analysis, and data-informed planning",
+  "author": {
+    "name": "Pendo"
+  },
+  "homepage": "https://github.com/pendo-io/claude-pendo-plugin",
+  "repository": "https://github.com/pendo-io/claude-pendo-plugin",
+  "license": "MIT",
+  "keywords": [
+    "pendo",
+    "analytics",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

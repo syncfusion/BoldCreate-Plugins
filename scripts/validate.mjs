@@ -48,6 +48,42 @@ function validate(kind, file) {
 const VAR_REF = /\$\{([A-Za-z_][A-Za-z0-9_]*)\}/g;
 const SEMVER = /^\d+\.\d+\.\d+(-[0-9A-Za-z.-]+)?$/;
 
+
+// Licences. Syncfusion's own plugins and MCP plugins are MIT, like cursor/plugins. A community
+// plugin copies another vendor's files, so its manifest must name the vendor's real licence:
+// MIT or Apache-2.0, matching the LICENSE file kept in the plugin folder and the licence recorded
+// in boldcreate.json under "upstream". Apache-2.0 also requires carrying the vendor's NOTICE file.
+const COMMUNITY_LICENSES = new Set(["MIT", "Apache-2.0"]);
+function detectLicense(text) {
+  const head = text.slice(0, 4000).replace(/\s+/g, " ");
+  if (/Apache License/i.test(head) && /Version 2\.0/i.test(head)) return "Apache-2.0";
+  if (/MIT License|Permission is hereby granted, free of charge/i.test(head)) return "MIT";
+  return null;
+}
+function checkLicense(base, manifest, meta) {
+  const community = base.startsWith("third_party/") && meta?.upstream;
+  if (!community) {
+    if (manifest.license !== "MIT") fail(`${base}: license must be set (MIT, like cursor/plugins)`);
+    return;
+  }
+  if (!COMMUNITY_LICENSES.has(manifest.license)) {
+    fail(`${base}: license "${manifest.license}" is not allowed for a community plugin (use MIT or Apache-2.0)`);
+    return;
+  }
+  if (meta.upstream.license !== manifest.license) {
+    fail(`${base}: boldcreate.json upstream.license "${meta.upstream.license}" must match the manifest license "${manifest.license}"`);
+  }
+  const file = join(root, base, "LICENSE");
+  if (!existsSync(file)) return; // the missing file is reported with the other required files
+  const found = detectLicense(readFileSync(file, "utf-8"));
+  if (found !== manifest.license) {
+    fail(`${base}: the LICENSE file reads as ${found ?? "an unrecognised licence"}, but the manifest says ${manifest.license}`);
+  }
+  if (manifest.license === "Apache-2.0" && !existsSync(join(root, base, "NOTICE")) && meta.upstream.notice === true) {
+    fail(`${base}: boldcreate.json says the vendor has a NOTICE file, but NOTICE is missing from the plugin folder`);
+  }
+}
+
 const plugins = listPlugins();
 const summaries = [];
 for (const { name, dir: base } of plugins) {
@@ -58,7 +94,7 @@ for (const { name, dir: base } of plugins) {
   if (manifest.name !== name) fail(`${base}: manifest name "${manifest.name}" must be "${name}"`);
   if (!SEMVER.test(manifest.version ?? "")) fail(`${base}: version "${manifest.version}" is not semver`);
 
-  if (manifest.license !== "MIT") fail(`${base}: license must be set (MIT, like cursor/plugins)`);
+  checkLicense(base, manifest, meta);
   if (!manifest.logo) fail(`${base}: logo must be set, e.g. "assets/logo.svg"`);
   else if (!/^assets\/[^/]+\.(svg|png)$/.test(manifest.logo)) fail(`${base}: logo must be an .svg or .png under assets/`);
   else if (!existsSync(join(root, base, manifest.logo))) fail(`${base}/${manifest.logo} does not exist`);

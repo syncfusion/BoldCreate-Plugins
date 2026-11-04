@@ -1,0 +1,24 @@
+{
+  "name": "airwallex-dev",
+  "displayName": "Airwallex Dev",
+  "version": "0.1.3",
+  "description": "Airwallex integration skills for Claude.",
+  "author": {
+    "name": "Airwallex"
+  },
+  "homepage": "https://github.com/airwallex/airwallex-marketplace",
+  "repository": "https://github.com/airwallex/airwallex-marketplace",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "airwallex",
+    "payments",
+    "skills"
+  ],
+  "category": "payments",
+  "tags": [
+    "payments",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

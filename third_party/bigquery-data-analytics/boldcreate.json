@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+  "upstream": {
+    "repository": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+    "path": "skills",
+    "commit": "6f9b35627d208b03e840271f6522a28f76e7f8df",
+    "author": "Google LLC",
+    "license": "Apache-2.0"
+  }
+}

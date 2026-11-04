@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "vibe-prospecting",
+  "displayName": "Vibe Prospecting",
+  "version": "0.1.107",
+  "description": "B2B data for lead lists, company research and outreach with Vibe Prospecting.",
+  "author": {
+    "name": "Explorium"
+  },
+  "homepage": "https://github.com/explorium-ai/vibeprospecting-plugin",
+  "repository": "https://github.com/explorium-ai/vibeprospecting-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "sales",
+  "keywords": [
+    "vibe-prospecting",
+    "b2b",
+    "leads",
+    "sales"
+  ],
+  "docs": "https://github.com/explorium-ai/vibeprospecting-plugin",
+  "upstream": {
+    "repository": "https://github.com/explorium-ai/vibeprospecting-plugin",
+    "path": "skills",
+    "commit": "ca43f6d92395462d8915dc31364bbce6a83e4006",
+    "author": "Explorium",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "vibe-prospecting"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

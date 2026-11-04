@@ -1,0 +1,19 @@
+{
+  "name": "expo",
+  "displayName": "Expo",
+  "version": "1.13.9",
+  "description": "Build, deploy, upgrade and debug Expo and React Native apps, including EAS.",
+  "author": {
+    "name": "Expo"
+  },
+  "homepage": "https://github.com/expo/skills",
+  "repository": "https://github.com/expo/skills",
+  "license": "MIT",
+  "keywords": [
+    "expo",
+    "react-native",
+    "eas",
+    "mobile"
+  ],
+  "icon": "./assets/logo.svg"
+}

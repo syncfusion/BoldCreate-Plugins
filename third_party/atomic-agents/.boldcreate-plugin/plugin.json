@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "atomic-agents",
+  "displayName": "Atomic Agents",
+  "version": "2.2.0",
+  "description": "Build, scaffold and debug applications with the Atomic Agents framework.",
+  "author": {
+    "name": "Kenny Vaneetvelde"
+  },
+  "homepage": "https://github.com/BrainBlend-AI/atomic-agents",
+  "repository": "https://github.com/BrainBlend-AI/atomic-agents",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "atomic-agents",
+    "llm",
+    "agents",
+    "python"
+  ],
+  "docs": "https://github.com/BrainBlend-AI/atomic-agents",
+  "upstream": {
+    "repository": "https://github.com/BrainBlend-AI/atomic-agents",
+    "path": "skills",
+    "commit": "33d2ec94f42d4a65393a336e35edf21ee5700303",
+    "author": "Kenny Vaneetvelde",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "create-atomic-agent",
+      "create-atomic-context-provider",
+      "create-atomic-schema",
+      "create-atomic-tool",
+      "framework",
+      "new-app",
+      "troubleshoot"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [
+      "atomic-explorer",
+      "atomic-reviewer"
+    ],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,24 @@
+{
+  "name": "revenuecat",
+  "displayName": "RevenueCat",
+  "version": "2.3.0",
+  "description": "Set up RevenueCat, integrate it, and access data.",
+  "author": {
+    "name": "RevenueCat"
+  },
+  "homepage": "https://github.com/RevenueCat/rc-claude-code-plugin",
+  "repository": "https://github.com/RevenueCat/rc-claude-code-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "revenuecat",
+    "payments",
+    "skills"
+  ],
+  "category": "payments",
+  "tags": [
+    "payments",
+    "skills"
+  ],
+  "skills": "./skills/"
+}

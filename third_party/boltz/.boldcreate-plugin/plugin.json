@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "boltz",
+  "displayName": "Boltz",
+  "version": "0.1.1",
+  "description": "Predict structures, screen molecules and proteins, and design binders with Boltz.",
+  "author": {
+    "name": "Boltz"
+  },
+  "homepage": "https://github.com/boltz-bio/boltz-api-skills",
+  "repository": "https://github.com/boltz-bio/boltz-api-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "science",
+  "keywords": [
+    "boltz",
+    "biology",
+    "protein-design",
+    "drug-discovery"
+  ],
+  "docs": "https://github.com/boltz-bio/boltz-api-skills",
+  "upstream": {
+    "repository": "https://github.com/boltz-bio/boltz-api-skills",
+    "path": "skills",
+    "commit": "beafb3c16236347ab10fb54f78a5da49cbf7c7bb",
+    "author": "Boltz",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "boltz-check-status",
+      "boltz-cli-setup",
+      "boltz-protein-design",
+      "boltz-protein-screen",
+      "boltz-small-molecule-adme",
+      "boltz-small-molecule-design",
+      "boltz-small-molecule-screen",
+      "boltz-structure-and-binding"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

@@ -1,0 +1,18 @@
+{
+  "name": "dynatrace",
+  "displayName": "Dynatrace",
+  "version": "8.0.1",
+  "description": "Connect Claude Code to your Dynatrace environment and investigate production issues, review deployments, and check for vulnerabilities using real data pulled directly into your session: root cause",
+  "author": {
+    "name": "Dynatrace"
+  },
+  "homepage": "https://github.com/Dynatrace/dynatrace-for-ai",
+  "repository": "https://github.com/Dynatrace/dynatrace-for-ai",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dynatrace",
+    "observability",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg"
+}

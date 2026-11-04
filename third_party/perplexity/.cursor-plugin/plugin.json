@@ -1,0 +1,30 @@
+{
+  "name": "perplexity",
+  "displayName": "Perplexity Docs",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Search Perplexity's official Sonar and API documentation.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.perplexity.ai",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "perplexity",
+    "sonar",
+    "ai",
+    "docs",
+    "mcp"
+  ],
+  "category": "documentation",
+  "tags": [
+    "documentation",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

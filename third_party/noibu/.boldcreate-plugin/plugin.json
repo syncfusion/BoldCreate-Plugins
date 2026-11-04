@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "noibu",
+  "displayName": "Noibu",
+  "version": "1.0.0",
+  "description": "Work with Noibu error and performance data for e-commerce sites.",
+  "author": {
+    "name": "Noibu"
+  },
+  "homepage": "https://github.com/Noibu/ai-plugin",
+  "repository": "https://github.com/Noibu/ai-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "observability",
+  "keywords": [
+    "noibu",
+    "observability",
+    "skills"
+  ],
+  "docs": "https://github.com/Noibu/ai-plugin",
+  "upstream": {
+    "repository": "https://github.com/Noibu/ai-plugin",
+    "path": "src",
+    "commit": "9fa2eddc3a86937b7956dedfaab32fac6cabf868",
+    "author": "Noibu",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "accessibility-audit",
+      "build-business-context",
+      "checkout-analysis",
+      "product-analysis",
+      "querying-noibu-data",
+      "segment-analysis",
+      "store-pulse",
+      "tech-diagnosis"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

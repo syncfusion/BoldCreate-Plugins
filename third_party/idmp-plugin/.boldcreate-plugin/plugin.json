@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "idmp-plugin",
+  "displayName": "TDengine IDMP",
+  "version": "0.1.0",
+  "description": "TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows.",
+  "author": {
+    "name": "TaosData"
+  },
+  "homepage": "https://github.com/taosdata/agent-skills",
+  "repository": "https://github.com/taosdata/agent-skills",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "idmp",
+    "database",
+    "skills"
+  ],
+  "docs": "https://github.com/taosdata/agent-skills",
+  "upstream": {
+    "repository": "https://github.com/taosdata/agent-skills",
+    "path": "plugins/idmp-plugin",
+    "commit": "bf5197716bacc38908cf8025e594d15be9e00b8c",
+    "author": "TaosData",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "idmp-ai",
+      "idmp-analysis",
+      "idmp-annotation",
+      "idmp-attribute",
+      "idmp-dashboard",
+      "idmp-data",
+      "idmp-datasource",
+      "idmp-element",
+      "idmp-event",
+      "idmp-notification",
+      "idmp-openapi-explorer",
+      "idmp-panel",
+      "idmp-shared",
+      "idmp-template",
+      "idmp-uom",
+      "idmp-user-access",
+      "idmp-workflow-alert-create",
+      "idmp-workflow-alert-debug",
+      "idmp-workflow-analysis-create",
+      "idmp-workflow-asset-bootstrap",
+      "idmp-workflow-data-import-export",
+      "idmp-workflow-datasource-diagnose",
+      "idmp-workflow-panel-build"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

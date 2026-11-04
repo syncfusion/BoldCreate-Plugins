@@ -57,6 +57,9 @@ for (const name of names) {
     // --full copies everything. The default copies only what the import step uses (see slim-copy.mjs).
     let skipped = [];
     if (full) cpSync(from, dest, { recursive: true, filter: copyFilter });
+    // When the pinned folder is itself the skills folder (path ".../skills"), everything in it is a
+    // skill, so it goes into <dest>/skills/ where the import step expects it.
+    else if (/(^|\/)skills$/.test(sub)) cpSync(from, join(dest, "skills"), { recursive: true, filter: copyFilter });
     else ({ skipped } = slimCopy(from, dest));
     const pointers = findLfsPointers(dest);
     if (pointers.length) {

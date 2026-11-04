@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "setup-agent-analytics",
+  "displayName": "Pendo Agent Analytics Setup",
+  "version": "1.1.0",
+  "description": "Detect AI agents in your codebase and instrument them with Pendo agent analytics via the best-fit path: Python SDK, TypeScript SDK, client-side trackAgent(), or the Conversations API",
+  "author": {
+    "name": "Pendo"
+  },
+  "homepage": "https://github.com/pendo-io/claude-pendo-plugin",
+  "repository": "https://github.com/pendo-io/claude-pendo-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "analytics",
+  "keywords": [
+    "setup",
+    "analytics",
+    "skills"
+  ],
+  "docs": "https://github.com/pendo-io/claude-pendo-plugin",
+  "upstream": {
+    "repository": "https://github.com/pendo-io/claude-pendo-plugin",
+    "path": "plugins/setup-agent-analytics",
+    "commit": "340d503c23eed487be83693aa4c1837df4a7dcd4",
+    "author": "Pendo",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "setup-agent-analytics"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}

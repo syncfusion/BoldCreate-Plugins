@@ -1,0 +1,21 @@
+{
+  "name": "mercadopago",
+  "displayName": "Mercado Pago",
+  "version": "4.3.2",
+  "description": "Mercado Pago integration toolkit for Claude Code.",
+  "author": {
+    "name": "Mercado Pago Developer Experience"
+  },
+  "homepage": "https://github.com/mercadopago/mercadopago-claude-marketplace",
+  "repository": "https://github.com/mercadopago/mercadopago-claude-marketplace",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mercadopago",
+    "payments",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "agents": [
+    "./agents/mp-integration-expert.md"
+  ]
+}

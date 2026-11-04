@@ -10,6 +10,160 @@
   },
   "plugins": [
     {
+      "name": "activecampaign",
+      "displayName": "ActiveCampaign",
+      "version": "0.3.1",
+      "description": "Marketing automation, CRM and email marketing workflows for ActiveCampaign.",
+      "source": "third_party/activecampaign",
+      "logo": "third_party/activecampaign/assets/logo.svg",
+      "category": "marketing",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "adobe-for-creativity",
+      "displayName": "Adobe for Creativity",
+      "version": "3.2.0",
+      "description": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video.",
+      "source": "third_party/adobe-for-creativity",
+      "logo": "third_party/adobe-for-creativity/assets/logo.svg",
+      "category": "design",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "ai-plugins",
+      "displayName": "Endor Labs",
+      "version": "0.1.0",
+      "description": "Endor Labs agent setup and workflow agents for findings, remediation and dependency review.",
+      "source": "third_party/ai-plugins",
+      "logo": "third_party/ai-plugins/assets/logo.png",
+      "category": "security",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "airwallex-agentos",
+      "displayName": "Airwallex AgentOS",
+      "version": "0.2.8",
+      "description": "Bring Airwallex's global financial infrastructure to Claude.",
+      "source": "third_party/airwallex-agentos",
+      "logo": "third_party/airwallex-agentos/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "airwallex-dev",
+      "displayName": "Airwallex Dev",
+      "version": "0.1.3",
+      "description": "Airwallex integration skills for Claude.",
+      "source": "third_party/airwallex-dev",
+      "logo": "third_party/airwallex-dev/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "alloydb-omni",
+      "displayName": "AlloyDB Omni",
+      "version": "0.2.2",
+      "description": "Create, connect, and interact with an AlloyDB Omni database and data.",
+      "source": "third_party/alloydb-omni",
+      "logo": "third_party/alloydb-omni/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "amazon-location-service",
+      "displayName": "Amazon Location Service",
+      "version": "1.1.0",
+      "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
+      "source": "third_party/amazon-location-service",
+      "logo": "third_party/amazon-location-service/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "amd-skills",
+      "displayName": "AMD Skills",
+      "version": "1.0.0",
+      "description": "Serve and optimize large language models on AMD EPYC and Instinct hardware, and set up local AI with Lemonade.",
+      "source": "third_party/amd-skills",
+      "logo": "third_party/amd-skills/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "amplitude",
       "displayName": "Amplitude",
       "version": "0.7.1",
@@ -101,6 +255,25 @@
       "supportedByGateway": false
     },
     {
+      "name": "astronomer-data-agents",
+      "displayName": "Astronomer Data Agents",
+      "version": "0.1.0",
+      "description": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
+      "source": "third_party/astronomer-data-agents",
+      "logo": "third_party/astronomer-data-agents/assets/logo.svg",
+      "category": "data",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "atlassian",
       "displayName": "Atlassian (Jira + Confluence)",
       "version": "0.7.0",
@@ -125,6 +298,140 @@
       "supportedByGateway": true
     },
     {
+      "name": "atlassian-twg-cli",
+      "displayName": "Atlassian Teamwork Graph CLI",
+      "version": "1.0.12",
+      "description": "Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources.",
+      "source": "third_party/atlassian-twg-cli",
+      "logo": "third_party/atlassian-twg-cli/assets/logo.png",
+      "category": "project-management",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "atomic-agents",
+      "displayName": "Atomic Agents",
+      "version": "2.2.0",
+      "description": "Build, scaffold and debug applications with the Atomic Agents framework.",
+      "source": "third_party/atomic-agents",
+      "logo": "third_party/atomic-agents/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "auth0",
+      "displayName": "Auth0",
+      "version": "2.6.0",
+      "description": "A single unified Auth0 skill that detects your framework, feature, and tooling, then loads the right reference guides for adding authentication — login, MFA, Organizations, ACUL, custom domains,",
+      "source": "third_party/auth0",
+      "logo": "third_party/auth0/assets/logo.svg",
+      "category": "security",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "aws-agents",
+      "displayName": "AWS Agents",
+      "version": "1.0.0",
+      "description": "Build, deploy, and operate AI agents on AWS.",
+      "source": "third_party/aws-agents",
+      "logo": "third_party/aws-agents/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "aws-amplify",
+      "displayName": "AWS Amplify",
+      "version": "1.0.0",
+      "description": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions.",
+      "source": "third_party/aws-amplify",
+      "logo": "third_party/aws-amplify/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "aws-core",
+      "displayName": "AWS Core",
+      "version": "1.1.0",
+      "description": "Build, deploy, and operate applications on AWS.",
+      "source": "third_party/aws-core",
+      "logo": "third_party/aws-core/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "aws-data-analytics",
+      "displayName": "AWS Data Analytics",
+      "version": "1.3.0",
+      "description": "Data lake, analytics, search, ETL, and orchestration workflows with S3 Tables, AWS Glue, Athena, Amazon Redshift, Amazon OpenSearch Service, and Amazon MWAA.",
+      "source": "third_party/aws-data-analytics",
+      "logo": "third_party/aws-data-analytics/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "aws-knowledge",
       "displayName": "AWS Knowledge",
       "version": "0.7.0",
@@ -147,6 +454,44 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "aws-serverless",
+      "displayName": "AWS Serverless",
+      "version": "1.3.0",
+      "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+      "source": "third_party/aws-serverless",
+      "logo": "third_party/aws-serverless/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "aws-transform",
+      "displayName": "AWS Transform",
+      "version": "1.9.0",
+      "description": "Migrate, modernize, and upgrade codebases to AWS.",
+      "source": "third_party/aws-transform",
+      "logo": "third_party/aws-transform/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "azure",
@@ -188,6 +533,87 @@
       "supportedByGateway": false
     },
     {
+      "name": "azure-sql-developer",
+      "displayName": "Azure SQL Developer",
+      "version": "1.1.0",
+      "description": "Agent skills for the Azure SQL Database container, the Azure SQL Database engine running locally.",
+      "source": "third_party/azure-sql-developer",
+      "logo": "third_party/azure-sql-developer/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "bigquery-data-analytics",
+      "displayName": "BigQuery Data Analytics",
+      "version": "0.2.5",
+      "description": "Connect, query, and generate data insights for BigQuery datasets and data.",
+      "source": "third_party/bigquery-data-analytics",
+      "logo": "third_party/bigquery-data-analytics/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "blackrock-advisor-center-plugin",
+      "displayName": "BlackRock Advisor Center",
+      "version": "0.1.0",
+      "description": "BlackRock Advisor Center 360° skills for AC360 capability routing, guided benchmark selection, guided portfolio building, portfolio observations and opportunities, wealth projections, and portfolio",
+      "source": "third_party/blackrock-advisor-center-plugin",
+      "logo": "third_party/blackrock-advisor-center-plugin/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "blockscout",
+      "displayName": "Blockscout",
+      "version": "0.1.0",
+      "description": "Query Ethereum and EVM blockchains: blocks, transactions, addresses, tokens, and smart contracts.",
+      "source": "third_party/blockscout",
+      "logo": "third_party/blockscout/assets/logo.png",
+      "category": "blockchain",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "boldcreate-toolkit",
       "displayName": "BoldCreate Toolkit",
       "version": "0.7.1",
@@ -200,6 +626,25 @@
         "rules",
         "hooks",
         "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "boltz",
+      "displayName": "Boltz",
+      "version": "0.1.1",
+      "description": "Predict structures, screen molecules and proteins, and design binders with Boltz.",
+      "source": "third_party/boltz",
+      "logo": "third_party/boltz/assets/logo.svg",
+      "category": "science",
+      "components": [
+        "skills"
       ],
       "transports": [],
       "auth": [],
@@ -249,6 +694,103 @@
       "supportedByGateway": false
     },
     {
+      "name": "carta-crm",
+      "displayName": "Carta CRM",
+      "version": "1.15.0",
+      "description": "Manage the Carta CRM conversationally — search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings via the Carta CRM MCP Server",
+      "source": "third_party/carta-crm",
+      "logo": "third_party/carta-crm/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "catalyst-by-zoho",
+      "displayName": "Catalyst by Zoho",
+      "version": "0.0.2",
+      "description": "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform.",
+      "source": "third_party/catalyst-by-zoho",
+      "logo": "third_party/catalyst-by-zoho/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "displayName": "Chrome DevTools",
+      "version": "1.11.0",
+      "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer",
+      "source": "third_party/chrome-devtools-mcp",
+      "logo": "third_party/chrome-devtools-mcp/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "chronograph-gp",
+      "displayName": "Chronograph GP",
+      "version": "0.2.4",
+      "description": "Portfolio monitoring, valuations, and analytics for private capital GP teams.",
+      "source": "third_party/chronograph-gp",
+      "logo": "third_party/chronograph-gp/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "chronograph-lp",
+      "displayName": "Chronograph LP",
+      "version": "0.2.4",
+      "description": "Portfolio monitoring and analytics for private capital LP teams.",
+      "source": "third_party/chronograph-lp",
+      "logo": "third_party/chronograph-lp/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "ckeditor",
       "displayName": "CKEditor",
       "version": "0.1.1",
@@ -266,6 +808,97 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "cloudflare",
+      "displayName": "Cloudflare",
+      "version": "1.0.0",
+      "description": "Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server.",
+      "source": "third_party/cloudflare",
+      "logo": "third_party/cloudflare/assets/logo.svg",
+      "category": "hosting",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "cloudflare-docs",
+      "displayName": "Cloudflare Docs",
+      "version": "0.1.0",
+      "description": "Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more.",
+      "source": "third_party/cloudflare-docs",
+      "logo": "third_party/cloudflare-docs/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "cohere",
+      "displayName": "Cohere Docs",
+      "version": "0.1.0",
+      "description": "Search Cohere's official documentation for the Command and Embed models and the Cohere API.",
+      "source": "third_party/cohere",
+      "logo": "third_party/cohere/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "coingecko",
+      "displayName": "CoinGecko",
+      "version": "0.1.0",
+      "description": "Track cryptocurrency prices, markets, exchanges, and trending coins.",
+      "source": "third_party/coingecko",
+      "logo": "third_party/coingecko/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "context7",
@@ -330,6 +963,82 @@
       "supportedByGateway": false
     },
     {
+      "name": "databases-on-aws",
+      "displayName": "Databases on AWS",
+      "version": "1.10.0",
+      "description": "Expert database guidance for the AWS database portfolio.",
+      "source": "third_party/databases-on-aws",
+      "logo": "third_party/databases-on-aws/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "datadog",
+      "displayName": "Datadog",
+      "version": "0.7.17",
+      "description": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server.",
+      "source": "third_party/datadog",
+      "logo": "third_party/datadog/assets/logo.svg",
+      "category": "observability",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "dataverse",
+      "displayName": "Microsoft Dataverse",
+      "version": "1.14.0",
+      "description": "Microsoft Dataverse plugin for coding agents, covering record CRUD, bulk data operations, advanced queries, schema and metadata, administration, security, environment management, and solution",
+      "source": "third_party/dataverse",
+      "logo": "third_party/dataverse/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "deepeval",
+      "displayName": "DeepEval",
+      "version": "1.0.0",
+      "description": "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications.",
+      "source": "third_party/deepeval",
+      "logo": "third_party/deepeval/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "deepwiki",
       "displayName": "DeepWiki",
       "version": "0.7.0",
@@ -352,6 +1061,44 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "deploy-on-aws",
+      "displayName": "Deploy on AWS",
+      "version": "1.4.0",
+      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
+      "source": "third_party/deploy-on-aws",
+      "logo": "third_party/deploy-on-aws/assets/logo.svg",
+      "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "desktop-commander",
+      "displayName": "Desktop Commander",
+      "version": "0.2.0",
+      "description": "MCP server for terminal commands, process management, and file operations across text files, code, PDF, DOCX, Excel, images, and structured data",
+      "source": "third_party/desktop-commander",
+      "logo": "third_party/desktop-commander/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "duckdb-skills",
@@ -393,6 +1140,25 @@
       "supportedByGateway": false
     },
     {
+      "name": "dynatrace",
+      "displayName": "Dynatrace",
+      "version": "8.0.1",
+      "description": "Connect Claude Code to your Dynatrace environment and investigate production issues, review deployments, and check for vulnerabilities using real data pulled directly into your session: root cause",
+      "source": "third_party/dynatrace",
+      "logo": "third_party/dynatrace/assets/logo.svg",
+      "category": "observability",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "exa",
       "displayName": "Exa",
       "version": "0.7.1",
@@ -417,6 +1183,49 @@
       "supportedByGateway": true
     },
     {
+      "name": "excalidraw",
+      "displayName": "Excalidraw",
+      "version": "0.1.0",
+      "description": "Create and edit hand-drawn style diagrams, wireframes, and sketches from text prompts.",
+      "source": "third_party/excalidraw",
+      "logo": "third_party/excalidraw/assets/logo.png",
+      "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "expo",
+      "displayName": "Expo",
+      "version": "1.13.9",
+      "description": "Build, deploy, upgrade and debug Expo and React Native apps, including EAS.",
+      "source": "third_party/expo",
+      "logo": "third_party/expo/assets/logo.svg",
+      "category": "mobile",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "fastly-agent-toolkit",
       "displayName": "Fastly Agent Toolkit",
       "version": "0.1.0",
@@ -424,6 +1233,25 @@
       "source": "third_party/fastly-agent-toolkit",
       "logo": "third_party/fastly-agent-toolkit/assets/logo.svg",
       "category": "cloud",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "fiftyone",
+      "displayName": "FiftyOne",
+      "version": "1.0.3",
+      "description": "Build high-quality datasets and computer vision models.",
+      "source": "third_party/fiftyone",
+      "logo": "third_party/fiftyone/assets/logo.svg",
+      "category": "ai",
       "components": [
         "skills"
       ],
@@ -475,6 +1303,30 @@
       ],
       "auth": [
         "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "fireworks-ai",
+      "displayName": "Fireworks AI Docs",
+      "version": "0.1.0",
+      "description": "Search Fireworks AI's official documentation for inference, fine-tuning, and deployed models.",
+      "source": "third_party/fireworks-ai",
+      "logo": "third_party/fireworks-ai/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
       ],
       "requiresSecrets": false,
       "rollout": {
@@ -1224,6 +2076,63 @@
       "supportedByGateway": true
     },
     {
+      "name": "grafana-assistant",
+      "displayName": "Grafana Assistant",
+      "version": "0.2.0",
+      "description": "Skills and rules for developing and using the Grafana Assistant app and CLI.",
+      "source": "third_party/grafana-assistant",
+      "logo": "third_party/grafana-assistant/assets/logo.svg",
+      "category": "observability",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "grafana-cloud-mcp",
+      "displayName": "Grafana Cloud",
+      "version": "0.2.0",
+      "description": "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required.",
+      "source": "third_party/grafana-cloud-mcp",
+      "logo": "third_party/grafana-cloud-mcp/assets/logo.svg",
+      "category": "observability",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "grafana-mcp",
+      "displayName": "Grafana",
+      "version": "0.2.0",
+      "description": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
+      "source": "third_party/grafana-mcp",
+      "logo": "third_party/grafana-mcp/assets/logo.svg",
+      "category": "observability",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "growthbook",
       "displayName": "GrowthBook",
       "version": "2.0.0",
@@ -1241,6 +2150,50 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "honeycomb",
+      "displayName": "Honeycomb",
+      "version": "1.2.3",
+      "description": "Skills, agents, and workflows for Honeycomb observability — query patterns, production investigations, SLOs, OpenTelemetry instrumentation, and Beeline migration.",
+      "source": "third_party/honeycomb",
+      "logo": "third_party/honeycomb/assets/logo.png",
+      "category": "observability",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "huggingface",
+      "displayName": "Hugging Face",
+      "version": "0.1.0",
+      "description": "Search Hugging Face for models, datasets, and spaces.",
+      "source": "third_party/huggingface",
+      "logo": "third_party/huggingface/assets/logo.png",
+      "category": "ai",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "hunter",
@@ -1267,6 +2220,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "idmp-plugin",
+      "displayName": "TDengine IDMP",
+      "version": "0.1.0",
+      "description": "TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows.",
+      "source": "third_party/idmp-plugin",
+      "logo": "third_party/idmp-plugin/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "incident-io",
       "displayName": "incident.io",
       "version": "0.7.1",
@@ -1289,6 +2261,25 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "informatica-for-claude-platform",
+      "displayName": "Informatica",
+      "version": "1.0.0",
+      "description": "Informatica plugin for Claude Platform (Claude Code & Claude CoWork) — governed catalog discovery, data Q&A, powered by Informatica's Data catalog and Governance to understand and evaluate enterprise",
+      "source": "third_party/informatica-for-claude-platform",
+      "logo": "third_party/informatica-for-claude-platform/assets/logo.svg",
+      "category": "data",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "intercom",
@@ -1401,6 +2392,44 @@
       "supportedByGateway": false
     },
     {
+      "name": "lumen",
+      "displayName": "Lumen",
+      "version": "0.0.42",
+      "description": "Precise local semantic code search via MCP.",
+      "source": "third_party/lumen",
+      "logo": "third_party/lumen/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "lusha",
+      "displayName": "Lusha",
+      "version": "0.1.3",
+      "description": "Connect Lusha to Claude to pull verified B2B data, contact data, and company data — including verified emails, direct dials, mobile numbers, and real-time buying signals — straight into your conversation.",
+      "source": "third_party/lusha",
+      "logo": "third_party/lusha/assets/logo.png",
+      "category": "sales",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "mapbox",
       "displayName": "Mapbox",
       "version": "1.0.0",
@@ -1410,6 +2439,26 @@
       "category": "maps",
       "components": [
         "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "mercadopago",
+      "displayName": "Mercado Pago",
+      "version": "4.3.2",
+      "description": "Mercado Pago integration toolkit for Claude Code.",
+      "source": "third_party/mercadopago",
+      "logo": "third_party/mercadopago/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "skills",
+        "agents"
       ],
       "transports": [],
       "auth": [],
@@ -1492,6 +2541,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "mongodb",
+      "displayName": "MongoDB",
+      "version": "1.2.1",
+      "description": "Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string.",
+      "source": "third_party/mongodb",
+      "logo": "third_party/mongodb/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "neon",
       "displayName": "Neon",
       "version": "0.7.1",
@@ -1514,6 +2582,44 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "netlify-skills",
+      "displayName": "Netlify",
+      "version": "1.7.0",
+      "description": "Netlify platform skills for Claude Code",
+      "source": "third_party/netlify-skills",
+      "logo": "third_party/netlify-skills/assets/logo.svg",
+      "category": "hosting",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "noibu",
+      "displayName": "Noibu",
+      "version": "1.0.0",
+      "description": "Work with Noibu error and performance data for e-commerce sites.",
+      "source": "third_party/noibu",
+      "logo": "third_party/noibu/assets/logo.svg",
+      "category": "observability",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "notion",
@@ -1540,6 +2646,50 @@
       "supportedByGateway": true
     },
     {
+      "name": "ollama",
+      "displayName": "Ollama Docs",
+      "version": "0.1.0",
+      "description": "Search Ollama's official documentation for running and serving local large language models.",
+      "source": "third_party/ollama",
+      "logo": "third_party/ollama/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "outputai",
+      "displayName": "Output.ai",
+      "version": "0.3.0",
+      "description": "Workflow development tools",
+      "source": "third_party/outputai",
+      "logo": "third_party/outputai/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "pagerduty",
       "displayName": "PagerDuty",
       "version": "0.7.1",
@@ -1557,6 +2707,87 @@
         "header"
       ],
       "requiresSecrets": true,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "pendo-analytics",
+      "displayName": "Pendo Analytics",
+      "version": "1.4.0",
+      "description": "Bring Pendo analytics into Claude Code with skills for app health, account health, feature adoption, session replays, feedback analysis, and data-informed planning",
+      "source": "third_party/pendo-analytics",
+      "logo": "third_party/pendo-analytics/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "pendo-guides",
+      "displayName": "Pendo Guides",
+      "version": "1.3.0",
+      "description": "Create production-ready Pendo in-app guides (walkthroughs, announcements, alerts, polls, promotions) as HTML/CSS/JS from a short intake conversation",
+      "source": "third_party/pendo-guides",
+      "logo": "third_party/pendo-guides/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "pendo-orchestrate",
+      "displayName": "Pendo Orchestrate",
+      "version": "1.0.0",
+      "description": "Create, configure, and edit draft Orchestrate email journeys via Pendo MCP — multi-email journeys and conditional split flows.",
+      "source": "third_party/pendo-orchestrate",
+      "logo": "third_party/pendo-orchestrate/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "perplexity",
+      "displayName": "Perplexity Docs",
+      "version": "0.1.0",
+      "description": "Search Perplexity's official Sonar and API documentation.",
+      "source": "third_party/perplexity",
+      "logo": "third_party/perplexity/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
       "rollout": {
         "phase": 1,
         "wave": "A"
@@ -1586,6 +2817,120 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "postman",
+      "displayName": "Postman",
+      "version": "2.0.1",
+      "description": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman",
+      "source": "third_party/postman",
+      "logo": "third_party/postman/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "preset-cli-skills",
+      "displayName": "Preset CLI",
+      "version": "0.5.0",
+      "description": "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`).",
+      "source": "third_party/preset-cli-skills",
+      "logo": "third_party/preset-cli-skills/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "pydantic-ai",
+      "displayName": "Pydantic AI",
+      "version": "0.1.0",
+      "description": "Build production-grade AI agents with Pydantic AI — tools, capabilities, structured output, streaming, and testing patterns — and port existing agents over from LangChain, the OpenAI Agents SDK,",
+      "source": "third_party/pydantic-ai",
+      "logo": "third_party/pydantic-ai/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "qodo",
+      "displayName": "Qodo",
+      "version": "2.1.2",
+      "description": "Qodo setup, code intelligence, and review workflows.",
+      "source": "third_party/qodo",
+      "logo": "third_party/qodo/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "qodo-standards",
+      "displayName": "Qodo Standards",
+      "version": "2.1.2",
+      "description": "Optional Qodo standards discovery and review rules/skills administration workflows.",
+      "source": "third_party/qodo-standards",
+      "logo": "third_party/qodo-standards/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "redis-development",
+      "displayName": "Redis Development",
+      "version": "1.4.0",
+      "description": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization",
+      "source": "third_party/redis-development",
+      "logo": "third_party/redis-development/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "render",
@@ -1631,6 +2976,63 @@
       "supportedByGateway": false
     },
     {
+      "name": "revenuecat",
+      "displayName": "RevenueCat",
+      "version": "2.3.0",
+      "description": "Set up RevenueCat, integrate it, and access data.",
+      "source": "third_party/revenuecat",
+      "logo": "third_party/revenuecat/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "runway-api",
+      "displayName": "Runway API",
+      "version": "4.0.1",
+      "description": "Get guidance for integrating video, image and audio generation with the Runway API and official SDKs.",
+      "source": "third_party/runway-api",
+      "logo": "third_party/runway-api/assets/logo.png",
+      "category": "media",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "sagemaker-ai",
+      "displayName": "Amazon SageMaker AI",
+      "version": "1.3.0",
+      "description": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI.",
+      "source": "third_party/sagemaker-ai",
+      "logo": "third_party/sagemaker-ai/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "sanity",
       "displayName": "Sanity",
       "version": "1.0.0",
@@ -1638,6 +3040,25 @@
       "source": "third_party/sanity",
       "logo": "third_party/sanity/assets/logo.svg",
       "category": "cms",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "save-to-spotify",
+      "displayName": "Save to Spotify",
+      "version": "0.2.0",
+      "description": "Create polished audio episodes with TTS narration, rich timelines, cover images, and save them to Spotify via the save-to-spotify CLI.",
+      "source": "third_party/save-to-spotify",
+      "logo": "third_party/save-to-spotify/assets/logo.svg",
+      "category": "media",
       "components": [
         "skills"
       ],
@@ -1674,6 +3095,44 @@
       "supportedByGateway": true
     },
     {
+      "name": "setup-agent-analytics",
+      "displayName": "Pendo Agent Analytics Setup",
+      "version": "1.1.0",
+      "description": "Detect AI agents in your codebase and instrument them with Pendo agent analytics via the best-fit path: Python SDK, TypeScript SDK, client-side trackAgent(), or the Conversations API",
+      "source": "third_party/setup-agent-analytics",
+      "logo": "third_party/setup-agent-analytics/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "setup-mcp-agent-analytics",
+      "displayName": "Pendo MCP Agent Analytics Setup",
+      "version": "1.1.0",
+      "description": "Detect an MCP server's language (Python, TypeScript, Go, or Java) and instrument it with the matching Pendo SDK so MCP tool calls flow into Pendo Agent Analytics",
+      "source": "third_party/setup-mcp-agent-analytics",
+      "logo": "third_party/setup-mcp-agent-analytics/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "slack",
       "displayName": "Slack",
       "version": "0.7.1",
@@ -1696,6 +3155,63 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "snowflake-cortex-code",
+      "displayName": "Snowflake Cortex Code",
+      "version": "3.4.0",
+      "description": "Automatically route Snowflake prompts from Claude Code to Cortex Code for execution.",
+      "source": "third_party/snowflake-cortex-code",
+      "logo": "third_party/snowflake-cortex-code/assets/logo.svg",
+      "category": "database",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "stackhawk-api",
+      "displayName": "StackHawk API",
+      "version": "2.7.0",
+      "description": "Query the StackHawk platform API for security posture reporting, findings analysis, and app management.",
+      "source": "third_party/stackhawk-api",
+      "logo": "third_party/stackhawk-api/assets/logo.svg",
+      "category": "security",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "stackhawk-hawkscan",
+      "displayName": "StackHawk HawkScan",
+      "version": "2.6.0",
+      "description": "Configure, run, and interpret HawkScan DAST results inside Claude Code.",
+      "source": "third_party/stackhawk-hawkscan",
+      "logo": "third_party/stackhawk-hawkscan/assets/logo.svg",
+      "category": "security",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "stripe",
@@ -2126,6 +3642,25 @@
       "supportedByGateway": false
     },
     {
+      "name": "synthflow",
+      "displayName": "Synthflow",
+      "version": "1.3.0",
+      "description": "Connects Claude Code to the Synthflow AI voice-agent platform through its hosted MCP server, with skills for reviewing calls and auditing agent prompts, plus a docs-search connector.",
+      "source": "third_party/synthflow",
+      "logo": "third_party/synthflow/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "tavily",
       "displayName": "Tavily",
       "version": "0.7.1",
@@ -2150,6 +3685,49 @@
       "supportedByGateway": true
     },
     {
+      "name": "teamcity-cli",
+      "displayName": "TeamCity CLI",
+      "version": "1.3.0",
+      "description": "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI.",
+      "source": "third_party/teamcity-cli",
+      "logo": "third_party/teamcity-cli/assets/logo.svg",
+      "category": "ci-cd",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "together-ai",
+      "displayName": "Together AI Docs",
+      "version": "0.1.0",
+      "description": "Search Together AI's official documentation for models, inference, and fine-tuning.",
+      "source": "third_party/together-ai",
+      "logo": "third_party/together-ai/assets/logo.png",
+      "category": "documentation",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "togetherai-skills",
       "displayName": "Together AI Skills",
       "version": "1.0.0",
@@ -2157,6 +3735,82 @@
       "source": "third_party/togetherai-skills",
       "logo": "third_party/togetherai-skills/assets/logo.svg",
       "category": "ai",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "ui-theme-designer",
+      "displayName": "SAP UI Theme Designer",
+      "version": "2.0.0",
+      "description": "Plugin for coding agents working with UI theme designer.",
+      "source": "third_party/ui-theme-designer",
+      "logo": "third_party/ui-theme-designer/assets/logo.svg",
+      "category": "design",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "ui5-modernization",
+      "displayName": "UI5 Modernization",
+      "version": "0.1.8",
+      "description": "Complete UI5 modernization toolkit with workflow and specialized fix patterns for modernizing SAPUI5/OpenUI5 applications",
+      "source": "third_party/ui5-modernization",
+      "logo": "third_party/ui5-modernization/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "ui5-typescript-conversion",
+      "displayName": "UI5 TypeScript Conversion",
+      "version": "0.1.8",
+      "description": "SAPUI5 / OpenUI5 plugin for coding agents.",
+      "source": "third_party/ui5-typescript-conversion",
+      "logo": "third_party/ui5-typescript-conversion/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "valtown",
+      "displayName": "Val Town",
+      "version": "0.4.0",
+      "description": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations).",
+      "source": "third_party/valtown",
+      "logo": "third_party/valtown/assets/logo.svg",
+      "category": "hosting",
       "components": [
         "skills"
       ],
@@ -2215,6 +3869,44 @@
         "wave": "B"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "vibe-prospecting",
+      "displayName": "Vibe Prospecting",
+      "version": "0.1.107",
+      "description": "B2B data for lead lists, company research and outreach with Vibe Prospecting.",
+      "source": "third_party/vibe-prospecting",
+      "logo": "third_party/vibe-prospecting/assets/logo.png",
+      "category": "sales",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "wingspan",
+      "displayName": "Wingspan",
+      "version": "0.1.0",
+      "description": "Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment — then onboard contractors and log payments as drafts, with a preview before anything is written.",
+      "source": "third_party/wingspan",
+      "logo": "third_party/wingspan/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "youdotcom-agent-skills",

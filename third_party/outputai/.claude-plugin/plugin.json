@@ -1,0 +1,25 @@
+{
+  "name": "outputai",
+  "displayName": "Output.ai",
+  "version": "0.3.0",
+  "description": "Workflow development tools",
+  "author": {
+    "name": "Output.ai"
+  },
+  "homepage": "https://github.com/growthxai/output",
+  "repository": "https://github.com/growthxai/output",
+  "license": "Apache-2.0",
+  "keywords": [
+    "outputai",
+    "developer-tools",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "agents": [
+    "./agents/workflow_context_fetcher.md",
+    "./agents/workflow_debugger.md",
+    "./agents/workflow_planner.md",
+    "./agents/workflow_prompt_writer.md",
+    "./agents/workflow_quality.md"
+  ]
+}

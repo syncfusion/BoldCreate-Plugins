@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "docs": "https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents",
+  "upstream": {
+    "repository": "https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents",
+    "path": "plugins/ui-theme-designer",
+    "commit": "3eff5832700d85e550b28a3ae58c1763382e405a",
+    "author": "SAP SE",
+    "license": "Apache-2.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "cloudflare-docs",
+  "displayName": "Cloudflare Docs",
+  "version": "0.1.0",
+  "description": "Search Cloudflare's developer documentation for Workers, Pages, R2, D1, and more.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.cloudflare.com/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "documentation",
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "docs",
+    "edge",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.cloudflare.com/mcp",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "cloudflare-docs",
+        "transport": "streamable-http",
+        "url": "https://docs.mcp.cloudflare.com/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "live initialize call"
+  }
+}
