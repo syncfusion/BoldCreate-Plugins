@@ -222,6 +222,16 @@ export function boldcreateManifest({ dir }) {
   };
 }
 
+// Remote plugins listed in docs/migration/claude-remote-plugins.json. Each source is pinned to a
+// commit SHA. They appear only in the Claude Code marketplace; the Cursor and BoldCreate indexes
+// need a full manifest, which a remote entry does not provide.
+function remoteClaudePlugins(localNames) {
+  const file = join(root, "docs/migration/claude-remote-plugins.json");
+  if (!existsSync(file)) return [];
+  const taken = new Set(localNames);
+  return readJSON(file).plugins.filter((p) => !taken.has(p.name));
+}
+
 export function marketplaces(plugins) {
   const entries = plugins.map((p) => {
     const m = readJSON(join(root, p.dir, ".cursor-plugin/plugin.json"));
@@ -237,7 +247,10 @@ export function marketplaces(plugins) {
     name: MARKETPLACE.name,
     owner: MARKETPLACE.owner,
     metadata: { description: MARKETPLACE.description },
-    plugins: entries.map((e) => ({ name: e.name, source: `./${e.dir}`, description: e.description })),
+    plugins: [
+      ...entries.map((e) => ({ name: e.name, source: `./${e.dir}`, description: e.description })),
+      ...remoteClaudePlugins(entries.map((e) => e.name)),
+    ],
   };
   const boldcreate = {
     $schema: "../schemas/boldcreate-marketplace.schema.json",
