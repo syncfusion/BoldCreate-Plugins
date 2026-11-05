@@ -1743,6 +1743,11 @@
       "description": "Search Intercom conversations, contacts, and help center articles."
     },
     {
+      "name": "internet-computer",
+      "source": "./third_party/internet-computer",
+      "description": "Ask questions and perform actions across Internet Computer (ICP) apps using your Internet Identity."
+    },
+    {
       "name": "intuit-developer",
       "source": "./third_party/intuit-developer",
       "description": "Build and test integrations with Intuit APIs."
@@ -2546,6 +2551,11 @@
       "name": "phoenix-by-hg-insights",
       "source": "./third_party/phoenix-by-hg-insights",
       "description": "AI-powered B2B data intelligence & analytics."
+    },
+    {
+      "name": "picpay",
+      "source": "./third_party/picpay",
+      "description": "PicPay. Seu próximo banco."
     },
     {
       "name": "pinegap",

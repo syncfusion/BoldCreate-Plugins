@@ -8051,6 +8051,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "internet-computer",
+      "displayName": "Internet Computer",
+      "version": "0.7.1",
+      "description": "Ask questions and perform actions across Internet Computer (ICP) apps using your Internet Identity.",
+      "source": "third_party/internet-computer",
+      "logo": "third_party/internet-computer/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "intuit-developer",
       "displayName": "Intuit Developer",
       "version": "0.7.1",
@@ -11825,6 +11849,30 @@
       "source": "third_party/phoenix-by-hg-insights",
       "logo": "third_party/phoenix-by-hg-insights/assets/logo.svg",
       "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "picpay",
+      "displayName": "PicPay",
+      "version": "0.7.1",
+      "description": "PicPay. Seu próximo banco.",
+      "source": "third_party/picpay",
+      "logo": "third_party/picpay/assets/logo.svg",
+      "category": "finance",
       "components": [
         "mcp"
       ],

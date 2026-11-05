@@ -1,0 +1,24 @@
+{
+  "name": "picpay",
+  "displayName": "PicPay",
+  "version": "0.7.1",
+  "description": "PicPay. Seu próximo banco.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://picpay.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "picpay",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "picpay": {
+      "type": "http",
+      "url": "https://mcp.svc.picpay.com/v2/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "picpay": {
+      "type": "http",
+      "url": "https://mcp.svc.picpay.com/v2/mcp"
+    }
+  }
+}
