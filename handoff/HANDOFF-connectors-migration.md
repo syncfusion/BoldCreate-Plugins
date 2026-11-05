@@ -91,12 +91,12 @@ Status of the 1,064 at the time of this handoff (counts from the old session, fr
 
 | Status | Count |
 |---|---|
-| Migrated (endpoint matches a plugin) | 591 |
+| Migrated (endpoint matches a plugin) | 591 (503 + 88 from batch 7) |
 | Held back after probing, batches 2 to 7 | 66 |
 | Skipped: name clash | 23 |
 | Skipped: Anthropic-hosted | 11 |
 | Skipped: internal or URL placeholder | 2 (Spotify, Booking.com) |
-| Not reached yet, remote with a URL | 197 |
+| Not reached yet, remote with a URL | 185 |
 | Remote, no URL in the directory | 54 |
 | Local desktop extensions (stdio) | 132 |
 
