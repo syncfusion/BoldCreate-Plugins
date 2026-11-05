@@ -147,3 +147,15 @@ All 628 connectors use streamable HTTP over `https` only: `boldcreate.json` `tra
 - Renamed for length: `usafacts`, `blackthorn-forge`, `iubenda`, `clarivate-compumark`.
 - Re-tested the export script on 628 connectors: `exported 628 connectors`, `All 628 plugins are valid`, `Generated files are up to date.`, 628 README rows plus the header.
 - Expect `628`, not `540`, everywhere in section 5.
+
+## 14. Check the counts yourself
+
+`handoff/reconcile-connectors.mjs` compares the saved Claude directory page with a repo and prints the counts. Run it instead of trusting a number from a chat.
+
+```
+node handoff/reconcile-connectors.mjs <saved-page.txt> <repo-folder> [--list]
+```
+
+Expected on the old branch (628 connectors) and on a fresh export of it: 1064 page records, 932 remote, 132 local; 591 exact URL matches; 7 same-host-only (Atlassian MCP, Sentry, Adspirer Retail Media Ads, PDF Viewer, Three.js 3D Viewer, AfterShip Post-Purchase, Infobip Documentation; four are different services, not matches); 280 remote not in the repo; 54 remote with no URL.
+
+A repo with fewer connectors (for example `main` before PR #14 merges) gives a lower exact count. The 280 "not in repo" is not the same as "not reached yet": it also holds the connectors skipped or held back on purpose (about 35 skipped by rule and 66 held after probing). About 185 have not been probed yet.
