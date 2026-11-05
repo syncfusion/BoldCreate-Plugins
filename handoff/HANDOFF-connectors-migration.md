@@ -2,6 +2,8 @@
 
 Paste or attach this file at the start of the new session. It says what was done, what is true now, and what to do next. Where a claim was not checked, it says so.
 
+> **UPDATE (read first).** The new repo `SF3922-Shreedhar/BoldCreate-Connectors` is no longer empty. It already has 800 connectors (batches 7 to 9 built in another session plus the 540 moved from here). **Do not run `scripts/export-connectors.mjs` into it** and do not follow section 5 as written. Use section 15 instead. Moving or deleting connectors in BoldCreate Plugins is postponed by the user.
+
 ## 1. Who and what
 
 - User GitHub account: `SF3922-Shreedhar`. Source repo: `syncfusion/BoldCreate-Plugins` ("BoldCreate Plugins"). New repo: `SF3922-Shreedhar/BoldCreate-Connectors` ("BoldCreate Connectors"), **private**, created and still holding only GitHub's auto-generated README. It stays under the user's profile until verified, then moves to the Syncfusion organization.
@@ -159,3 +161,48 @@ node handoff/reconcile-connectors.mjs <saved-page.txt> <repo-folder> [--list]
 Expected on the old branch (628 connectors) and on a fresh export of it: 1064 page records, 932 remote, 132 local; 591 exact URL matches; 7 same-host-only (Atlassian MCP, Sentry, Adspirer Retail Media Ads, PDF Viewer, Three.js 3D Viewer, AfterShip Post-Purchase, Infobip Documentation; four are different services, not matches); 280 remote not in the repo; 54 remote with no URL.
 
 A repo with fewer connectors (for example `main` before PR #14 merges) gives a lower exact count. The 280 "not in repo" is not the same as "not reached yet": it also holds the connectors skipped or held back on purpose (about 35 skipped by rule and 66 held after probing). About 185 have not been probed yet.
+
+## 15. Final batch for the new repo (use this, not section 5)
+
+Five connectors are in this branch and not in the new repo. Add them with one script:
+
+```
+node handoff/add-connectors.mjs <path-to-BoldCreate-Connectors-checkout> internet-computer picpay autonomad kindora-funder-discovery d-b-finance-analytics
+cd <that checkout> && npm run build && npm run validate && npm run build -- --check
+```
+
+Run it from a BoldCreate Plugins checkout of branch `bc/1d0e49bb-perform-complete`. It copies the folders without the generated manifests, points repository links at the new repo, adds sorted README rows, and refuses to overwrite an existing folder. Tested on a copy of the new repo's layout: `All 630 plugins are valid`, generated files up to date, README sorted with no duplicates.
+
+| Folder | Endpoint | Auth | Note |
+|---|---|---|---|
+| `internet-computer` | https://mcp.internetcomputer.org/mcp | oauth (401 with OAuth metadata) | Simple Icons mark |
+| `picpay` | https://mcp.svc.picpay.com/v2/mcp | oauth (401 with OAuth metadata) | Simple Icons mark |
+| `autonomad` | https://mcp.autonomad.ai/mcp | none (tools listed without sign-in) | vendor logo |
+| `kindora-funder-discovery` | https://mcp.kindora.co/mcp | none (tools listed without sign-in) | initials tile |
+| `d-b-finance-analytics` | https://mcp.financeanalytics.dnb.com/mcp | oauth (401 with OAuth metadata) | vendor logo |
+
+Each was probed once, anonymously, on 2026-11-04 or 2026-11-05. No tool call was made. Check the new repo for a folder with the same endpoint before adding (the script only checks the folder name).
+
+### Why only five
+
+Everything else on the Claude page that is not in the new repo falls into one of these (from this session's reconciliation, approximate, matched by endpoint and folder name):
+
+- 11 Anthropic-hosted (`*.mcp.claude.com`), 20 name clashes with existing plugins, 2 internal or placeholder URLs, 2 example servers: skipped by the user's rules.
+- About 61 already probed and held back (403, 404, 5xx, token in URL, API key, or tools that act on a signed-in account).
+- 22 never probed before this batch: 2 added (above), plus the held list below.
+- 54 remote connectors have no URL on the page, and 132 are local (stdio), so they cannot be added.
+
+### Held in this last probe (not added; reasons)
+
+- **403 / blocked:** athenahealth, Cottages, Franklin Templeton Funds and Insights, Novasol, Shipt.
+- **No connection:** AutoRFP.ai, FINNY, Invesco for Advisors, J.P. Morgan Asset Management (55ip).
+- **404 / 405:** mittwald (404), Risotto (405).
+- **Signeasy:** the listed endpoint is `/mcp/sse` (401 with OAuth metadata). It is an SSE path, and the schema supports streamable HTTP only today. Needs a decision.
+- **Fourthwall:** answers 200 but the body is compressed binary, no tool list read. Needs another look.
+- **Tools listed without sign-in, but they act on an account or place orders:** Configure Memory, Countersignatory (places orders), Docfarm (can delete docs), Domino's India (orders), Duvo, InfiniteWatch, Lightbringer.
+
+### Things to check in the new repo
+
+- The new repo holds four connectors the old session held back: `all-accor`, `cloze`, `datacamp`, `squarespace`. Their tools act on a signed-in account or store, and Cloze uses an API key. Their `auth` values are unverified.
+- Its CI check on PR #4 passed (`validate`). The Claude validator's own output was not read.
+- Nothing has been installed or tested in BoldConnect.
