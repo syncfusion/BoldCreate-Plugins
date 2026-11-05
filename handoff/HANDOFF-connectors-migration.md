@@ -12,14 +12,14 @@ Paste or attach this file at the start of the new session. It says what was done
 
 1. **Create the BoldCreate Connectors repo content** (the repo exists, it is empty): mirror the structure, configuration and setup of BoldCreate Plugins, with **connectors only**.
 2. **Move the connectors** from BoldCreate Plugins to BoldCreate Connectors, preserving structure and function.
-3. **Close PR #14** in BoldCreate Plugins (batches 4 to 6, 265 connectors). Its content moves to the new repo. Add a comment linking the new repo.
+3. **Close PR #14** in BoldCreate Plugins (batches 4 to 7, 353 connectors). Its content moves to the new repo. Add a comment linking the new repo.
 4. **Remove the connectors from BoldCreate Plugins** in a reviewable PR (see section 6).
 5. **No migration docs in either repo.** The new repo must have none. The removal PR deletes the existing ones from BoldCreate Plugins.
 6. Later batches (the remaining remote connectors) go into the **new repo**, not the old one.
 
 ## 3. Definition: what is a "connector"
 
-A folder under `third_party/` that has an `mcp.json` (a remote MCP server over streamable HTTP). There are **540** in the working tree of the old branch.
+A folder under `third_party/` that has an `mcp.json` (a remote MCP server over streamable HTTP). There are **628** in the working tree of the old branch.
 
 - Skill plugins (108 folders under `third_party/`, no `mcp.json`) are **not** connectors. They stay in BoldCreate Plugins.
 - Not connectors either, and they stay: `boldcreate-toolkit/` and everything under `syncfusion/`.
@@ -29,21 +29,21 @@ A folder under `third_party/` that has an `mcp.json` (a remote MCP server over s
 
 - The old session built a local copy in its sandbox. **That sandbox is gone. Nothing was ever pushed to the new repo** (git returned 403: "not granted").
 - The script **`scripts/export-connectors.mjs`** in BoldCreate Plugins rebuilds that copy. It is committed on the old branch (commit message `Add export-connectors script that builds the BoldCreate Connectors repository`). **It may not be on `main` of BoldCreate Plugins.** If it is missing in the new session, see section 5, step 0.
-- In the old session, running it produced a folder that passed `npm ci`, `npm run build`, `npm run validate` ("All 540 plugins are valid") and `npm run build -- --check`. It matched the hand-made copy except for one intentional change: the CI loop only globs `third_party/*/.claude-plugin`.
+- In the old session, running it produced a folder that passed `npm ci`, `npm run build`, `npm run validate` ("All 628 plugins are valid") and `npm run build -- --check`. It matched the hand-made copy except for one intentional change: the CI loop only globs `third_party/*/.claude-plugin`.
 
 ## 5. Steps for the new session
 
-0. **Get the script.** In the BoldCreate Plugins checkout, check `ls scripts/export-connectors.mjs`. If missing, check the old branch (`git fetch origin bc/1d0e49bb-perform-complete`) and `git checkout origin/bc/1d0e49bb-perform-complete -- scripts/export-connectors.mjs`. Also check how many connectors the checkout actually has (540 expected only on the old branch; `main` has fewer until PR #14 is merged).
+0. **Get the script.** In the BoldCreate Plugins checkout, check `ls scripts/export-connectors.mjs`. If missing, check the old branch (`git fetch origin bc/1d0e49bb-perform-complete`) and `git checkout origin/bc/1d0e49bb-perform-complete -- scripts/export-connectors.mjs`. Also check how many connectors the checkout actually has (628 expected only on the old branch; `main` has fewer until PR #14 is merged).
 1. **Confirm access** to the new repo: `git ls-remote https://github.com/SF3922-Shreedhar/BoldCreate-Connectors.git`. If it says 403 or "not granted", stop and tell the user. Do not work around it.
-2. **Make sure the checkout has all 540 connectors.** They are in the old branch, not in `main`. Batches 4 to 6 (265) are only in PR #14's branch. If the session cannot see that branch, stop and ask.
+2. **Make sure the checkout has all 628 connectors.** They are in the old branch, not in `main`. Batches 4 to 7 (353) are only in PR #14's branch. If the session cannot see that branch, stop and ask.
 3. **Export:**
    ```
    git clone https://github.com/SF3922-Shreedhar/BoldCreate-Connectors.git ../BoldCreate-Connectors
    node scripts/export-connectors.mjs ../BoldCreate-Connectors
    cd ../BoldCreate-Connectors && npm ci && npm run build && npm run validate && npm run build -- --check
    ```
-   Expect `exported 540 connectors`, `All 540 plugins are valid`, `Generated files are up to date.`
-4. **Check before committing:** no `docs/` folder, no `_import/`, no `fetch-upstream.mjs` or `migration-inventory.mjs` or `slim-copy.mjs`; README has 540 rows and a table header; no `node_modules` committed (it is in `.gitignore`).
+   Expect `exported 628 connectors`, `All 628 plugins are valid`, `Generated files are up to date.`
+4. **Check before committing:** no `docs/` folder, no `_import/`, no `fetch-upstream.mjs` or `migration-inventory.mjs` or `slim-copy.mjs`; README has 628 rows and a table header; no `node_modules` committed (it is in `.gitignore`).
 5. **Commit and push to `main`** of the new repo (it has an auto-generated first commit, so pull first). Use clear messages. The user will do pushes by default through the platform's PR tool where it applies. If you can only push the work branch, push that and open a PR.
 6. **Wait for CI** in the new repo. The CI runs `npm run build -- --check`, `npm run validate` and the Claude plugin validator (`claude plugin validate --strict`). The Claude validator has **never been run on these plugins** (not verified). Report its result honestly. Fix problems in the connector files if they appear (these are hand-written files, not vendor skill files).
 7. **Only after the new repo has the files and CI is green:** close PR #14 with a comment pointing to the new repo, then open the removal PR (section 6).
@@ -91,14 +91,16 @@ Status of the 1,064 at the time of this handoff (counts from the old session, fr
 
 | Status | Count |
 |---|---|
-| Migrated (endpoint matches a plugin) | 503 |
-| Held back after probing, batches 2 to 6 | 54 |
+| Migrated (endpoint matches a plugin) | 591 |
+| Held back after probing, batches 2 to 7 | 66 |
 | Skipped: name clash | 23 |
 | Skipped: Anthropic-hosted | 11 |
 | Skipped: internal or URL placeholder | 2 (Spotify, Booking.com) |
-| Not reached yet, remote with a URL | 285 |
+| Not reached yet, remote with a URL | 197 |
 | Remote, no URL in the directory | 54 |
 | Local desktop extensions (stdio) | 132 |
+
+Batch 7 is the last batch built (88 connectors, "mdn" to "craft-io" in popularity order, 12 held). Attentive was added without the directory's `?readOnly=false` query (recorded in its CHANGELOG). Batch 7 logos: 50 vendor icons, 2 Simple Icons marks, 36 initials tiles.
 
 Held back, with reasons:
 
@@ -106,6 +108,7 @@ Held back, with reasons:
 - **Endpoint errors:** Lawve AI (404), TopCounsel (404), S&P Global Adaptive Retrieval (503), Vanguard Advisor Tools (redirects to "not found"), CarGurus (400), Aura (no connection).
 - **Tools listed with no sign-in, but they act on a signed-in account (auth none looked wrong):** Deel, LetsBot, Have I Been Pwned, Campfire, Tineo, Autosheet, Constant Contact, GraphOS MCP Tools.
 - **Token in URL:** Tripadvisor, AccuWeather.
+- **Batch 7 holds (12):** GetYourGuide, Benevity, Turo, The Economist Graphs, Vital Care Finder (403); Revolut X (needs an `Mcp-Method` header, so it is not a standard client call); Cloze (API key, not OAuth); DataCamp, AthenaHQ, Jentic, Squarespace, ALL Accor (tools listed without sign-in, but they act on a signed-in account or store).
 - **API key with unknown header:** Datasite, Learning Commons.
 - **Odd endpoints:** Shop (needs protocol version 2026-07-28 and then rejects it), Sprouts Data Intelligence (personal Cloudflare Workers address), Gemini (a tool exposes server auth config), Three.js 3D Viewer (example server).
 - **Name clashes (23):** Atlassian MCP, Box, Datadog, Sentry, Cloudflare Developer Platform, Postman, Lusha, Vibe Prospecting, Resend, PayPal, Mapbox, Yelp, Sanity, Expo, MongoDB Atlas, Grafana Cloud, Boltz API, Honeycomb, Intuit Credit Karma, BlackRock Advisor Center, Gainsight (Customer Communities), Catalyst by Zoho, Synthflow. Not checked: whether each directory endpoint matches the existing plugin.
@@ -128,7 +131,7 @@ Skill plugins need `scripts/fetch-upstream.mjs`, which the user runs on their ow
 
 ## 11. Transport
 
-All 540 connectors use streamable HTTP over `https` only: `boldcreate.json` `transport: "streamable-http"`, `mcp.json` `type: "http"`. The validator rejects non-https URLs. The schema lists stdio, sse and websocket, but its own description says BoldCreate Connect supports streamable-http only today. This was read from the schema and validator, **not tested in the product**. Stdio plugins (the 13 above and the 132 local desktop extensions) cannot be migrated as they are.
+All 628 connectors use streamable HTTP over `https` only: `boldcreate.json` `transport: "streamable-http"`, `mcp.json` `type: "http"`. The validator rejects non-https URLs. The schema lists stdio, sse and websocket, but its own description says BoldCreate Connect supports streamable-http only today. This was read from the schema and validator, **not tested in the product**. Stdio plugins (the 13 above and the 132 local desktop extensions) cannot be migrated as they are.
 
 ## 12. Not verified (be honest about these)
 
@@ -136,3 +139,11 @@ All 540 connectors use streamable HTTP over `https` only: `boldcreate.json` `tra
 - No connector has been installed or tested in BoldCreate Connect. No tool call was made to any vendor server; only anonymous `initialize` (and `tools/list` for open servers) were sent.
 - OAuth is an assumption for connectors whose 401 had no OAuth metadata (recorded in their READMEs).
 - Docs links in about 13 connectors per batch are vendor homepages that could not be loaded (bot blocks).
+
+## 13. Batch 7 added after the first version of this file
+
+- Commit `Add 88 remote MCP plugins ... (batch 7)` on the old branch adds 88 connectors (total 628 with `mcp.json`, 736 folders in `third_party/` including 108 skill plugins).
+- Counts: 13 `auth: none` (open `tools/list`), 71 OAuth with metadata, 4 OAuth without metadata (blackthorn-forge, kpler, paytm-payment-gateway, atlar), 8 docs links are unverified vendor homepages.
+- Renamed for length: `usafacts`, `blackthorn-forge`, `iubenda`, `clarivate-compumark`.
+- Re-tested the export script on 628 connectors: `exported 628 connectors`, `All 628 plugins are valid`, `Generated files are up to date.`, 628 README rows plus the header.
+- Expect `628`, not `540`, everywhere in section 5.
