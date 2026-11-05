@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "control-plane": {
+      "type": "http",
+      "url": "https://mcp.cpln.io/mcp"
+    }
+  }
+}

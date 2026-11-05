@@ -1,0 +1,24 @@
+{
+  "name": "verisk-xactrestore",
+  "displayName": "Verisk XactRestore",
+  "version": "0.7.1",
+  "description": "Natural-language estimating for XactRestore.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://verisk.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "verisk-xactrestore",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "verisk-xactrestore": {
+      "type": "http",
+      "url": "https://xactrestore-xactremodelserver-usw2-prod.propsol.io/mcp"
+    }
+  }
+}

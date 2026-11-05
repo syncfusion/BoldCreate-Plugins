@@ -1,0 +1,24 @@
+{
+  "name": "onfire",
+  "displayName": "Onfire",
+  "version": "0.7.1",
+  "description": "GTM intelligence, prospecting, and buying signals.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://onfire.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "onfire",
+    "marketing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "onfire": {
+      "type": "http",
+      "url": "https://mcp.onfire.ai/v1/mcp"
+    }
+  }
+}

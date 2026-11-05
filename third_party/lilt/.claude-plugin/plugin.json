@@ -1,0 +1,24 @@
+{
+  "name": "lilt",
+  "displayName": "LILT",
+  "version": "0.7.1",
+  "description": "High-quality translation with human verification.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://lilt.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lilt",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "lilt": {
+      "type": "http",
+      "url": "https://mcp.lilt.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "planday": {
+      "type": "http",
+      "url": "https://public-mcp-server.prod-westeurope.planday.cloud/mcp"
+    }
+  }
+}

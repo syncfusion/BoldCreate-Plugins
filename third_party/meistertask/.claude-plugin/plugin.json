@@ -1,0 +1,24 @@
+{
+  "name": "meistertask",
+  "displayName": "MeisterTask",
+  "version": "0.7.1",
+  "description": "Create, search, and update tasks, projects, and notes.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.meisterlabs.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "meistertask",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "meistertask": {
+      "type": "http",
+      "url": "https://mcp.meistertask.com/mcp"
+    }
+  }
+}

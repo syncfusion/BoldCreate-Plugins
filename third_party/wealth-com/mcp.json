@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wealth-com": {
+      "type": "http",
+      "url": "https://mcp.wealth.com/mcp"
+    }
+  }
+}

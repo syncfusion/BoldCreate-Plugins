@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clear-street": {
+      "type": "http",
+      "url": "https://api.clearstreet.com/v1/mcp"
+    }
+  }
+}

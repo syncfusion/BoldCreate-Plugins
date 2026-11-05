@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fitch-solutions": {
+      "type": "http",
+      "url": "https://api.fitch.group/nexus/mcp"
+    }
+  }
+}

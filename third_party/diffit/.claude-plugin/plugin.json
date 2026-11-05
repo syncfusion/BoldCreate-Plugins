@@ -1,0 +1,24 @@
+{
+  "name": "diffit",
+  "displayName": "Diffit",
+  "version": "0.7.1",
+  "description": "Quality, classroom-ready resources for anything.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://web.diffit.me/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "diffit",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "diffit": {
+      "type": "http",
+      "url": "https://api.diffit.me/mcp/"
+    }
+  }
+}

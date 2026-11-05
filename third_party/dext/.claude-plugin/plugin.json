@@ -1,0 +1,24 @@
+{
+  "name": "dext",
+  "displayName": "Dext",
+  "version": "0.7.1",
+  "description": "For accounting and bookkeeping firms: ask Dext about client data health, VAT and CT positions, aged debt, workflow and team capacity - across one client or your whole portfolio. Read-only.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://dext.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "dext",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "dext": {
+      "type": "http",
+      "url": "https://app.dext.com/mcp"
+    }
+  }
+}

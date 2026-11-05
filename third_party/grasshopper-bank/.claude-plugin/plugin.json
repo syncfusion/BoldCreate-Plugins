@@ -1,0 +1,24 @@
+{
+  "name": "grasshopper-bank",
+  "displayName": "Grasshopper Bank",
+  "version": "0.7.1",
+  "description": "Query and analyze your financial data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.grasshopper.bank/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "grasshopper-bank",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "grasshopper-bank": {
+      "type": "http",
+      "url": "https://grasshopper-mcp.prd.narmitech.com/mcp"
+    }
+  }
+}

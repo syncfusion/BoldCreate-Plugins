@@ -1,0 +1,28 @@
+{
+  "name": "lorikeet",
+  "displayName": "Lorikeet",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "A universal concierge for complex businesses.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.lorikeetcx.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "lorikeet",
+    "productivity",
+    "mcp"
+  ],
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

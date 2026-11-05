@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "paytm-payment-gateway": {
+      "type": "http",
+      "url": "https://mcp.paytmpayments.com/mcp"
+    }
+  }
+}

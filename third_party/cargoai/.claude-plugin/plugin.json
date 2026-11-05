@@ -1,0 +1,24 @@
+{
+  "name": "cargoai",
+  "displayName": "CargoAi",
+  "version": "0.7.1",
+  "description": "Instant air cargo rates, quotes & tracking.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.cargoai.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "cargoai",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "cargoai": {
+      "type": "http",
+      "url": "https://api.cargoai.co/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vani-by-zoho",
+  "displayName": "Vani by Zoho",
+  "version": "0.7.1",
+  "description": "Create diagrams, visualize workflows, and manage Spaces in Vani.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://zoho.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "vani-by-zoho",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "vani-by-zoho": {
+      "type": "http",
+      "url": "https://app.vanihq.com/mcp"
+    }
+  }
+}

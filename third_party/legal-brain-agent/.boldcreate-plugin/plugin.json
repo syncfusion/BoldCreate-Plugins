@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "legal-brain-agent",
+  "displayName": "Legal Brain Agent",
+  "version": "0.7.1",
+  "description": "日本最大級の法律データベースを基盤にした、法務特化AIエージェント.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.bengo4.com/corporate/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "legal",
+  "keywords": [
+    "legal-brain-agent",
+    "legal",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.bengo4.com/corporate/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "legal-brain-agent",
+        "transport": "streamable-http",
+        "url": "https://api.legalbrain.com/v1/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

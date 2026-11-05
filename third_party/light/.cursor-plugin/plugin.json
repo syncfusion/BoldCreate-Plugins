@@ -1,0 +1,28 @@
+{
+  "name": "light",
+  "displayName": "Light",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Work with your Light finance data in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.light.inc/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "light",
+    "finance",
+    "mcp"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

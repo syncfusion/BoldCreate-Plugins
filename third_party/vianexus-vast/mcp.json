@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vianexus-vast": {
+      "type": "http",
+      "url": "https://vast.blueskyapi.com/vianexus/mcp"
+    }
+  }
+}

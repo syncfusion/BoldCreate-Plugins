@@ -8,6 +8,11 @@
   },
   "plugins": [
     {
+      "name": "8am-mycase",
+      "source": "./third_party/8am-mycase",
+      "description": "Connect your MyCase practice data to Claude — look up matters, contacts, tasks, time, and billing without leaving your AI workspace."
+    },
+    {
       "name": "abency",
       "source": "./third_party/abency",
       "description": "Gestiona todas las marcas de tu agencia desde Claude."
@@ -16,6 +21,21 @@
       "name": "activecampaign",
       "source": "./third_party/activecampaign",
       "description": "Marketing automation, CRM and email marketing workflows for ActiveCampaign."
+    },
+    {
+      "name": "actively",
+      "source": "./third_party/actively",
+      "description": "1:1 account agents for GTM teams."
+    },
+    {
+      "name": "addepar-mcp",
+      "source": "./third_party/addepar-mcp",
+      "description": "Bring Addepar portfolio intelligence into Claude."
+    },
+    {
+      "name": "addgene",
+      "source": "./third_party/addgene",
+      "description": "Search Addgene's catalog of plasmids and viral preps."
     },
     {
       "name": "adisinsight",
@@ -133,6 +153,11 @@
       "description": "Easily deploy managed PostgreSQL (pg), Kafka, OpenSearch, Clickhouse and other databases, streaming and apps."
     },
     {
+      "name": "aiwyn-tax",
+      "source": "./third_party/aiwyn-tax",
+      "description": "Estimate your federal & state taxes with Aiwyn's tax engine."
+    },
+    {
       "name": "aleph",
       "source": "./third_party/aleph",
       "description": "Ask, analyze, act on FP&A data."
@@ -233,6 +258,16 @@
       "description": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration"
     },
     {
+      "name": "atlar",
+      "source": "./third_party/atlar",
+      "description": "Query your live treasury data: accounts, balances, transactions, and forecasts—directly from Claude."
+    },
+    {
+      "name": "atlasfindings",
+      "source": "./third_party/atlasfindings",
+      "description": "Search, investigate, and act on Atlas data."
+    },
+    {
       "name": "atlassian",
       "source": "./third_party/atlassian",
       "description": "Search and update Jira issues and Confluence pages."
@@ -253,9 +288,19 @@
       "description": "Search, analyze, and act on client conversations."
     },
     {
+      "name": "attentive",
+      "source": "./third_party/attentive",
+      "description": "Attentive, inside the AI tools you already use."
+    },
+    {
       "name": "attio",
       "source": "./third_party/attio",
       "description": "Search, manage, and update your Attio CRM from Claude."
+    },
+    {
+      "name": "aurora",
+      "source": "./third_party/aurora",
+      "description": "Search your Consilio matters, docs, and more."
     },
     {
       "name": "auth0",
@@ -266,6 +311,11 @@
       "name": "autodesk-help",
       "source": "./third_party/autodesk-help",
       "description": "Securely access Autodesk's help documentation."
+    },
+    {
+      "name": "autonomad",
+      "source": "./third_party/autonomad",
+      "description": "Flights, hotels and tours booked in one payment, and changed when plans change, all from Claude."
     },
     {
       "name": "aws-agents",
@@ -378,6 +428,11 @@
       "description": "Shorten links, generate QR Codes, and track performance."
     },
     {
+      "name": "bitrise-mcp",
+      "source": "./third_party/bitrise-mcp",
+      "description": "Set up and manage mobile CI/CD on Bitrise: build, test, and distribute iOS, Android, Flutter, and React Native apps from your AI assistant."
+    },
+    {
       "name": "black-diamond",
       "source": "./third_party/black-diamond",
       "description": "Client, portfolio, and performance data for advisors."
@@ -391,6 +446,11 @@
       "name": "blackrock-advisor-center-plugin",
       "source": "./third_party/blackrock-advisor-center-plugin",
       "description": "BlackRock Advisor Center 360° skills for AC360 capability routing, guided benchmark selection, guided portfolio building, portfolio observations and opportunities, wealth projections, and portfolio"
+    },
+    {
+      "name": "blackthorn-forge",
+      "source": "./third_party/blackthorn-forge",
+      "description": "Blackthorn's MCP server for Salesforce events: create, query, and report on events, attendees, tickets, sessions, forms, and email campaigns, over 100 available tools, live against your org."
     },
     {
       "name": "blaze-sql",
@@ -508,6 +568,11 @@
       "description": "Search, create, autofill, and export Canva designs."
     },
     {
+      "name": "cargoai",
+      "source": "./third_party/cargoai",
+      "description": "Instant air cargo rates, quotes & tracking."
+    },
+    {
       "name": "carta",
       "source": "./third_party/carta",
       "description": "The connected ERP for private capital."
@@ -543,9 +608,19 @@
       "description": "Live billing intelligence for your revenue team."
     },
     {
+      "name": "chariot",
+      "source": "./third_party/chariot",
+      "description": "Manage your nonprofit's DAF donations and deposits."
+    },
+    {
       "name": "chartmogul",
       "source": "./third_party/chartmogul",
       "description": "Analyze subscribers, recurring revenue, and churn."
+    },
+    {
+      "name": "checkatrade",
+      "source": "./third_party/checkatrade",
+      "description": "Find trusted local tradespeople and book fixed-price jobs — without leaving Claude."
     },
     {
       "name": "chrome-devtools-mcp",
@@ -578,6 +653,11 @@
       "description": "Manage CI/CD pipelines, debug failed builds, and optimize test suites directly from Claude - no terminal required."
     },
     {
+      "name": "civitatis",
+      "source": "./third_party/civitatis",
+      "description": "Search, plan, and book tours and activities worldwide with Civitatis."
+    },
+    {
       "name": "ckeditor",
       "source": "./third_party/ckeditor",
       "description": "Install, configure, and integrate CKEditor 5 in JavaScript projects."
@@ -588,6 +668,16 @@
       "description": "Query your CRM. Create records. Ask anything."
     },
     {
+      "name": "clarity-ai",
+      "source": "./third_party/clarity-ai",
+      "description": "Simulate fund classifications under proposed SFDR 2.0."
+    },
+    {
+      "name": "clarivate-compumark",
+      "source": "./third_party/clarivate-compumark",
+      "description": "Trusted Trademark Intelligence from Clarivate CompuMark."
+    },
+    {
       "name": "claude-motion-to-mirage",
       "source": "./third_party/claude-motion-to-mirage",
       "description": "Import a Claude Motion video into Mirage."
@@ -596,6 +686,11 @@
       "name": "clay",
       "source": "./third_party/clay",
       "description": "Find prospects. Research accounts. Personalize outreach."
+    },
+    {
+      "name": "clear-street",
+      "source": "./third_party/clear-street",
+      "description": "Research and Analyze Stocks and Options."
     },
     {
       "name": "clerk",
@@ -631,6 +726,11 @@
       "name": "cloudinary",
       "source": "./third_party/cloudinary",
       "description": "Manage, transform and deliver your images & videos."
+    },
+    {
+      "name": "cna-taiwan-news",
+      "source": "./third_party/cna-taiwan-news",
+      "description": "把中央社可信新聞接進你的 AI｜Taiwan CNA news, sourced answers."
     },
     {
       "name": "cocounsel-legal",
@@ -673,6 +773,11 @@
       "description": "Live crypto, stock, gold & oil trading data from Hyperliquid: see what the best traders and whales are doing on Bitcoin, ETH, the S&P 500 and more."
     },
     {
+      "name": "cometchat",
+      "source": "./third_party/cometchat",
+      "description": "Add real-time chat, voice, and video to your app."
+    },
+    {
       "name": "common-room",
       "source": "./third_party/common-room",
       "description": "Your GTM Copilot."
@@ -706,6 +811,11 @@
       "name": "context7",
       "source": "./third_party/context7",
       "description": "Pull up-to-date, version-specific library docs and code examples into the prompt."
+    },
+    {
+      "name": "control-plane",
+      "source": "./third_party/control-plane",
+      "description": "Deploy, scale, and debug cloud apps from one platform."
     },
     {
       "name": "coralogix",
@@ -758,6 +868,11 @@
       "description": "Notes & second brain."
     },
     {
+      "name": "craft-io",
+      "source": "./third_party/craft-io",
+      "description": "Manage your end-to-end product lifecycle - backlog, PRDs, customer feedback, roadmaps, and strategic OKRs - with Claude connected directly to your Craft.io data."
+    },
+    {
       "name": "crossbeam",
       "source": "./third_party/crossbeam",
       "description": "Explore partner data and ecosystem insights in Claude."
@@ -791,6 +906,11 @@
       "name": "cube-software",
       "source": "./third_party/cube-software",
       "description": "Bring trusted Cube financial context into Claude. Analyze performance, model scenarios, and move decisions into action, with your Cube permissions enforced on every request."
+    },
+    {
+      "name": "d-b-finance-analytics",
+      "source": "./third_party/d-b-finance-analytics",
+      "description": "Commercial credit decisioning and portfolio risk workflows for AI."
     },
     {
       "name": "d-b-risk-analytics",
@@ -848,6 +968,11 @@
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
     },
     {
+      "name": "definely",
+      "source": "./third_party/definely",
+      "description": "Structured contract review tools for legal teams."
+    },
+    {
       "name": "deploy-on-aws",
       "source": "./third_party/deploy-on-aws",
       "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment."
@@ -873,6 +998,11 @@
       "description": "Search and update your company's knowledge graph."
     },
     {
+      "name": "dext",
+      "source": "./third_party/dext",
+      "description": "For accounting and bookkeeping firms: ask Dext about client data health, VAT and CT positions, aged debt, workflow and team capacity - across one client or your whole portfolio. Read-only."
+    },
+    {
       "name": "dhs-surveys",
       "source": "./third_party/dhs-surveys",
       "description": "Data from The Demographic and Health Surveys Program."
@@ -881,6 +1011,11 @@
       "name": "dice",
       "source": "./third_party/dice",
       "description": "Find active tech jobs on Dice."
+    },
+    {
+      "name": "diffit",
+      "source": "./third_party/diffit",
+      "description": "Quality, classroom-ready resources for anything."
     },
     {
       "name": "digits",
@@ -956,6 +1091,11 @@
       "name": "elicit",
       "source": "./third_party/elicit",
       "description": "Search and analyze scientific papers."
+    },
+    {
+      "name": "embat",
+      "source": "./third_party/embat",
+      "description": "Ask Embat about cash, debt, payments, and accounting."
     },
     {
       "name": "enterpret",
@@ -1103,6 +1243,11 @@
       "description": "Clean Public Equity Fundamental Data."
     },
     {
+      "name": "fitch-solutions",
+      "source": "./third_party/fitch-solutions",
+      "description": "Fitch credit intelligence, inside your AI workflow."
+    },
+    {
       "name": "flexport",
       "source": "./third_party/flexport",
       "description": "Make global trade so easy that there will be more of it."
@@ -1191,6 +1336,11 @@
       "name": "general-legal",
       "source": "./third_party/general-legal",
       "description": "Submit contracts for attorney review, answer their questions, and get redlined documents back — without leaving Claude."
+    },
+    {
+      "name": "gis-cloud",
+      "source": "./third_party/gis-cloud",
+      "description": "Run your entire GIS workflow in plain language: maps, data, analysis, field apps, and reports."
     },
     {
       "name": "gitea",
@@ -1393,6 +1543,16 @@
       "description": "Discover every grant opportunity in existence."
     },
     {
+      "name": "grasp",
+      "source": "./third_party/grasp",
+      "description": "Find, screen and analyse private-market opportunities."
+    },
+    {
+      "name": "grasshopper-bank",
+      "source": "./third_party/grasshopper-bank",
+      "description": "Query and analyze your financial data."
+    },
+    {
       "name": "greenhouse",
       "source": "./third_party/greenhouse",
       "description": "Connect Claude to Greenhouse. Search, analyze and update candidates, applications, jobs, interviews, scorecards, offers and more in plain language."
@@ -1483,6 +1643,11 @@
       "description": "CRM context for every answer, insight, and action."
     },
     {
+      "name": "hubstaff",
+      "source": "./third_party/hubstaff",
+      "description": "AI-ready workforce insights."
+    },
+    {
       "name": "huggingface",
       "source": "./third_party/huggingface",
       "description": "Search Hugging Face for models, datasets, and spaces."
@@ -1543,6 +1708,11 @@
       "description": "State-of-the-art ADMET prediction models for drug discovery."
     },
     {
+      "name": "infobip-message",
+      "source": "./third_party/infobip-message",
+      "description": "Send SMS, RCS, MMS, and Viber messages through Infobip in Claude."
+    },
+    {
       "name": "informatica-for-claude-platform",
       "source": "./third_party/informatica-for-claude-platform",
       "description": "Informatica plugin for Claude Platform (Claude Code & Claude CoWork) — governed catalog discovery, data Q&A, powered by Informatica's Data catalog and Governance to understand and evaluate enterprise"
@@ -1563,6 +1733,11 @@
       "description": "Groceries and more delivered as fast as 30 minutes."
     },
     {
+      "name": "instrumentl",
+      "source": "./third_party/instrumentl",
+      "description": "Find, evaluate, and manage your grants."
+    },
+    {
       "name": "intercom",
       "source": "./third_party/intercom",
       "description": "Search Intercom conversations, contacts, and help center articles."
@@ -1576,6 +1751,16 @@
       "name": "ironclad-contracts",
       "source": "./third_party/ironclad-contracts",
       "description": "Plain language search for faster contract answers and manage your contractual obligations."
+    },
+    {
+      "name": "isolved-people-cloud",
+      "source": "./third_party/isolved-people-cloud",
+      "description": "Your isolved data, inside Claude."
+    },
+    {
+      "name": "iubenda",
+      "source": "./third_party/iubenda",
+      "description": "GDPR and CCPA compliance: cookie consent, cookie scanner, and terms and conditions."
     },
     {
       "name": "jam",
@@ -1608,9 +1793,19 @@
       "description": "Create, share, and edit e-signature documents right inside Claude."
     },
     {
+      "name": "jupiterone",
+      "source": "./third_party/jupiterone",
+      "description": "Ask questions about your JupiterOne agentic security and it asset graph and manage alerts, rules, and dashboards — in natural language."
+    },
+    {
       "name": "juro-contracts",
       "source": "./third_party/juro-contracts",
       "description": "Query & work with contracts effortlessly throughout the lifecycle to agree contracts faster."
+    },
+    {
+      "name": "jus-ai-by-jus-mundi",
+      "source": "./third_party/jus-ai-by-jus-mundi",
+      "description": "AI-powered global arbitration intelligence."
     },
     {
       "name": "kahoot",
@@ -1621,6 +1816,16 @@
       "name": "kajabi",
       "source": "./third_party/kajabi",
       "description": "Build and grow your Kajabi business with Claude."
+    },
+    {
+      "name": "ketryx",
+      "source": "./third_party/ketryx",
+      "description": "Search and explore regulated software lifecycle data."
+    },
+    {
+      "name": "kindora-funder-discovery",
+      "source": "./third_party/kindora-funder-discovery",
+      "description": "Find funders who support causes like yours."
     },
     {
       "name": "kit",
@@ -1646,6 +1851,11 @@
       "name": "komoot",
       "source": "./third_party/komoot",
       "description": "Discover outdoor routes and highlights."
+    },
+    {
+      "name": "kpler",
+      "source": "./third_party/kpler",
+      "description": "Explore Kpler's maritime and commodities intelligence."
     },
     {
       "name": "krisp",
@@ -1688,6 +1898,11 @@
       "description": "Look up companies that visit your website with Leadfeeder."
     },
     {
+      "name": "legal-brain-agent",
+      "source": "./third_party/legal-brain-agent",
+      "description": "日本最大級の法律データベースを基盤にした、法務特化AIエージェント."
+    },
+    {
       "name": "legal-data-hunter",
       "source": "./third_party/legal-data-hunter",
       "description": "Search 23M+ legal docs in 160+ jurisdictions."
@@ -1698,14 +1913,29 @@
       "description": "Attorney guidance & tools for business & personal needs."
     },
     {
+      "name": "legora",
+      "source": "./third_party/legora",
+      "description": "Ask legal questions and get grounded answers with citations."
+    },
+    {
       "name": "letsfg",
       "source": "./third_party/letsfg",
       "description": "Don't book before checking here: same hotels often 20% cheaper, every airline in the world, real trip costs. Then we book it for you."
     },
     {
+      "name": "light",
+      "source": "./third_party/light",
+      "description": "Work with your Light finance data in Claude."
+    },
+    {
       "name": "lightfield",
       "source": "./third_party/lightfield",
       "description": "CRM that remembers everything and works for you."
+    },
+    {
+      "name": "lilt",
+      "source": "./third_party/lilt",
+      "description": "High-quality translation with human verification."
     },
     {
       "name": "linear",
@@ -1743,9 +1973,19 @@
       "description": "Add Logfire observability to Python apps, query traces, and set up evals."
     },
     {
+      "name": "loopio",
+      "source": "./third_party/loopio",
+      "description": "Search approved response content, answer entire RFPs, and manage projects effortlessly."
+    },
+    {
       "name": "loops",
       "source": "./third_party/loops",
       "description": "Run Loops with Claude."
+    },
+    {
+      "name": "lorikeet",
+      "source": "./third_party/lorikeet",
+      "description": "A universal concierge for complex businesses."
     },
     {
       "name": "lovable",
@@ -1771,6 +2011,11 @@
       "name": "lumin",
       "source": "./third_party/lumin",
       "description": "Send documents for signature, track them to completion, and generate agreements from templates — without leaving the chat."
+    },
+    {
+      "name": "lumonic",
+      "source": "./third_party/lumonic",
+      "description": "Analyze portfolio data and reporting in Claude."
     },
     {
       "name": "lunarcrush",
@@ -1823,6 +2068,11 @@
       "description": "Your AI recruiting assistant, inside Manatal."
     },
     {
+      "name": "manufact",
+      "source": "./third_party/manufact",
+      "description": "Deploy and monitor MCP servers."
+    },
+    {
       "name": "mapbox",
       "source": "./third_party/mapbox",
       "description": "Build location-aware apps with Mapbox: maps, search, navigation, styles and geospatial tools."
@@ -1838,9 +2088,19 @@
       "description": "Better Stack plugin for Claude: observability for AI agents (logs, metrics, dashboards, uptime, incidents)."
     },
     {
+      "name": "mdn",
+      "source": "./third_party/mdn",
+      "description": "Search & retrieval of MDN docs & browser compat data."
+    },
+    {
       "name": "medidata",
       "source": "./third_party/medidata",
       "description": "Clinical trial software and site ranking tools."
+    },
+    {
+      "name": "meistertask",
+      "source": "./third_party/meistertask",
+      "description": "Create, search, and update tasks, projects, and notes."
     },
     {
       "name": "melon",
@@ -1906,6 +2166,11 @@
       "name": "midpage",
       "source": "./third_party/midpage",
       "description": "Conduct legal research and create work product."
+    },
+    {
+      "name": "mindmeister",
+      "source": "./third_party/mindmeister",
+      "description": "Build, search, and edit mind maps in Claude."
     },
     {
       "name": "mintlify",
@@ -1998,6 +2263,11 @@
       "description": "Trusted real-time global financial news provider."
     },
     {
+      "name": "mulesoft",
+      "source": "./third_party/mulesoft",
+      "description": "Govern, manage, and observe your entire Agent ecosystem."
+    },
+    {
       "name": "mychatbot",
       "source": "./third_party/mychatbot",
       "description": "Build and run an AI sales agent for your business."
@@ -2006,6 +2276,11 @@
       "name": "mygeotab-mcp",
       "source": "./third_party/mygeotab-mcp",
       "description": "Bring your fleet into Claude — analyze, manage, and act."
+    },
+    {
+      "name": "myob",
+      "source": "./third_party/myob",
+      "description": "Understand your MYOB business finances with Claude."
     },
     {
       "name": "navan",
@@ -2053,6 +2328,11 @@
       "description": "Search, read, and update Notion pages and databases."
     },
     {
+      "name": "nutshell-crm",
+      "source": "./third_party/nutshell-crm",
+      "description": "Connect Claude to Nutshell CRM to search leads, contacts, and companies, pull sales reports, and review deal timelines - all without leaving chat."
+    },
+    {
       "name": "o-reilly",
       "source": "./third_party/o-reilly",
       "description": "Discover O'Reilly's expert learning content."
@@ -2076,6 +2356,11 @@
       "name": "onesignal",
       "source": "./third_party/onesignal",
       "description": "Agentic access to OneSignal’s customer engagement platform for messaging, users, and analytics."
+    },
+    {
+      "name": "onfire",
+      "source": "./third_party/onfire",
+      "description": "GTM intelligence, prospecting, and buying signals."
     },
     {
       "name": "ontra",
@@ -2111,6 +2396,16 @@
       "name": "order-by-cash-app",
       "source": "./third_party/order-by-cash-app",
       "description": "Discover local food spots and order with a conversation."
+    },
+    {
+      "name": "origin",
+      "source": "./third_party/origin",
+      "description": "See what AI agents are doing across your endpoint fleet."
+    },
+    {
+      "name": "orion",
+      "source": "./third_party/orion",
+      "description": "Bring Orion Connect portfolio data and Redtail CRM together in Claude — prep for client meetings, capture follow-ups, prioritize your pipeline, and turn reports into talking points."
     },
     {
       "name": "orion-by-gravity",
@@ -2168,9 +2463,19 @@
       "description": "Create, send, sign and track documents."
     },
     {
+      "name": "paperoffice",
+      "source": "./third_party/paperoffice",
+      "description": "Built for companies. Ready for AI agents. The headless DMS for Claude: search, read, extract, approve, send for signing and archive documents in your own account, with your permissions."
+    },
+    {
       "name": "parallel-search",
       "source": "./third_party/parallel-search",
       "description": "Free token-efficient search using Parallel."
+    },
+    {
+      "name": "patlytics",
+      "source": "./third_party/patlytics",
+      "description": "Prior art, claims, and portfolio search."
     },
     {
       "name": "paxton-legal-research",
@@ -2186,6 +2491,11 @@
       "name": "paypal",
       "source": "./third_party/paypal",
       "description": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server"
+    },
+    {
+      "name": "paytm-payment-gateway",
+      "source": "./third_party/paytm-payment-gateway",
+      "description": "Make Claude your Paytm Payments assistant."
     },
     {
       "name": "pdf-net",
@@ -2223,6 +2533,16 @@
       "description": "An AI Concierge that turns forms into conversations."
     },
     {
+      "name": "pg-aiguide",
+      "source": "./third_party/pg-aiguide",
+      "description": "Search pg and Tiger docs, learn database skills."
+    },
+    {
+      "name": "phished",
+      "source": "./third_party/phished",
+      "description": "Phished's entire ZIR app at your fingertips directly in Claude."
+    },
+    {
       "name": "phoenix-by-hg-insights",
       "source": "./third_party/phoenix-by-hg-insights",
       "description": "AI-powered B2B data intelligence & analytics."
@@ -2251,6 +2571,11 @@
       "name": "plaid-developer-tools",
       "source": "./third_party/plaid-developer-tools",
       "description": "Monitor, debug, and optimize your Plaid integration."
+    },
+    {
+      "name": "planday",
+      "source": "./third_party/planday",
+      "description": "Manage Planday scheduling (Early access)."
     },
     {
       "name": "planetscale",
@@ -2306,6 +2631,11 @@
       "name": "preset-cli-skills",
       "source": "./third_party/preset-cli-skills",
       "description": "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`)."
+    },
+    {
+      "name": "privacy-com",
+      "source": "./third_party/privacy-com",
+      "description": "Manage virtual cards and track your spending patterns."
     },
     {
       "name": "process-street",
@@ -2506,6 +2836,11 @@
       "name": "sagemaker-ai",
       "source": "./third_party/sagemaker-ai",
       "description": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI."
+    },
+    {
+      "name": "salesflare",
+      "source": "./third_party/salesflare",
+      "description": "Manage and explore your CRM in Claude."
     },
     {
       "name": "salesloft",
@@ -2758,6 +3093,11 @@
       "description": "Compare hotels and find the lowest rate."
     },
     {
+      "name": "superbooks",
+      "source": "./third_party/superbooks",
+      "description": "Financial OS for small businesses."
+    },
+    {
       "name": "superdesign",
       "source": "./third_party/superdesign",
       "description": "Design or redesign frontend UI, presentations and marketing graphics with Superdesign."
@@ -2938,6 +3278,11 @@
       "description": "Search the web and extract page content with Tavily."
     },
     {
+      "name": "taxact",
+      "source": "./third_party/taxact",
+      "description": "Estimate your refund, and check what documents you need."
+    },
+    {
       "name": "teamcity-cli",
       "source": "./third_party/teamcity-cli",
       "description": "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI."
@@ -2986,6 +3331,11 @@
       "name": "tiktok-for-business",
       "source": "./third_party/tiktok-for-business",
       "description": "Create, manage, and analyze advertising campaigns on TikTok."
+    },
+    {
+      "name": "tiller",
+      "source": "./third_party/tiller",
+      "description": "Connect to your transactions in your Tiller spreadsheet."
     },
     {
       "name": "tinyfish",
@@ -3063,6 +3413,11 @@
       "description": "Search flights, plan trips, and manage bookings."
     },
     {
+      "name": "turquoise",
+      "source": "./third_party/turquoise",
+      "description": "Query Turquoise's proprietary healthcare pricing data."
+    },
+    {
       "name": "twelve-data",
       "source": "./third_party/twelve-data",
       "description": "Real-time prices, 100+ technical indicators, and fundamentals for stocks, forex, crypto, and ETFs — ask in plain English, no API knowledge needed."
@@ -3071,6 +3426,11 @@
       "name": "twilio",
       "source": "./third_party/twilio",
       "description": "Build powerful communications and customer engagement."
+    },
+    {
+      "name": "twinmind",
+      "source": "./third_party/twinmind",
+      "description": "AI notes & Memory."
     },
     {
       "name": "typefully",
@@ -3108,6 +3468,11 @@
       "description": "Bring full context to every agent and AI tools."
     },
     {
+      "name": "unify",
+      "source": "./third_party/unify",
+      "description": "Find, enrich, and sequence prospects from 40+ data sources."
+    },
+    {
       "name": "unsplash",
       "source": "./third_party/unsplash",
       "description": "Find and use free HD images."
@@ -3118,6 +3483,11 @@
       "description": "Turn any document into AI-ready structured data."
     },
     {
+      "name": "unthread",
+      "source": "./third_party/unthread",
+      "description": "Manage and automate your support tickets."
+    },
+    {
       "name": "unwrap",
       "source": "./third_party/unwrap",
       "description": "Search and analyze customer feedback."
@@ -3126,6 +3496,11 @@
       "name": "upwork",
       "source": "./third_party/upwork",
       "description": "Hire talent or find work."
+    },
+    {
+      "name": "usafacts",
+      "source": "./third_party/usafacts",
+      "description": "Give Claude a better source for government data."
     },
     {
       "name": "v0",
@@ -3143,9 +3518,19 @@
       "description": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations)."
     },
     {
+      "name": "vani-by-zoho",
+      "source": "./third_party/vani-by-zoho",
+      "description": "Create diagrams, visualize workflows, and manage Spaces in Vani."
+    },
+    {
       "name": "vanta",
       "source": "./third_party/vanta",
       "description": "Review Vanta compliance tests, controls, vendors, and vulnerabilities."
+    },
+    {
+      "name": "veltra-activities",
+      "source": "./third_party/veltra-activities",
+      "description": "Design the genuine experiences of tomorrow."
     },
     {
       "name": "vercel",
@@ -3156,6 +3541,21 @@
       "name": "verisk-underwriting",
       "source": "./third_party/verisk-underwriting",
       "description": "Ask questions. Get underwriting insights from Verisk."
+    },
+    {
+      "name": "verisk-xactrestore",
+      "source": "./third_party/verisk-xactrestore",
+      "description": "Natural-language estimating for XactRestore."
+    },
+    {
+      "name": "vertiso-memory",
+      "source": "./third_party/vertiso-memory",
+      "description": "Portable, durable memory for every AI agent you use."
+    },
+    {
+      "name": "vianexus-vast",
+      "source": "./third_party/vianexus-vast",
+      "description": "Power AI workflows with viaNexus: a financial data marketplace delivering prices, news, fundamentals, and global macro economic data directly from trusted provider partners."
     },
     {
       "name": "viator",
@@ -3183,6 +3583,21 @@
       "description": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server."
     },
     {
+      "name": "vuetify-mcp",
+      "source": "./third_party/vuetify-mcp",
+      "description": "Official Vuetify docs, APIs, and bins for AI agents."
+    },
+    {
+      "name": "wealth-com",
+      "source": "./third_party/wealth-com",
+      "description": "Bring your clients' estate plans, tax returns, and documents into Claude — with instant snapshots, risk analysis, and advisor-ready summaries."
+    },
+    {
+      "name": "wealthbox",
+      "source": "./third_party/wealthbox",
+      "description": "Search, update, and manage Wealthbox data from inside Claude."
+    },
+    {
       "name": "webex-for-claude",
       "source": "./third_party/webex-for-claude",
       "description": "Access your Webex meetings, messaging, and Vidcast content securely in Claude."
@@ -3198,9 +3613,19 @@
       "description": "Design pages, manage CMS content, add motion, analyze traffic, and launch the whole site, all from a prompt and all inside the permissions your workspace already has."
     },
     {
+      "name": "webmcp-evaluator",
+      "source": "./third_party/webmcp-evaluator",
+      "description": "Check whether a public page is ready for agents: tools observed, tools to add, what must never be exposed."
+    },
+    {
       "name": "webull",
       "source": "./third_party/webull",
       "description": "Your Global Multi-Asset Trading & Analysis Powerhouse."
+    },
+    {
+      "name": "wetransfer",
+      "source": "./third_party/wetransfer",
+      "description": "Send files from your chat via WeTransfer — get a shareable link or email them to recipients, using your own WeTransfer account."
     },
     {
       "name": "weweb",
@@ -3216,6 +3641,11 @@
       "name": "wiley-scholar-gateway",
       "source": "./third_party/wiley-scholar-gateway",
       "description": "Enhance responses with scholarly research and citations."
+    },
+    {
+      "name": "windmill-hr",
+      "source": "./third_party/windmill-hr",
+      "description": "Draft performance reviews, manage 1:1s, send pulses, and collect feedback in Windmill, without ever leaving Claude."
     },
     {
       "name": "windsor-ai",
@@ -3278,6 +3708,11 @@
       "description": "Access your Xero financials from any conversation."
     },
     {
+      "name": "xtiles",
+      "source": "./third_party/xtiles",
+      "description": "Projects that keep Claude in context."
+    },
+    {
       "name": "yardi-matrix",
       "source": "./third_party/yardi-matrix",
       "description": "Real estate market intelligence from Yardi Matrix."
@@ -3286,6 +3721,11 @@
       "name": "youdotcom-agent-skills",
       "source": "./third_party/youdotcom-agent-skills",
       "description": "Search the web, read pages, research and look up finance data with You.com."
+    },
+    {
+      "name": "zacks-data",
+      "source": "./third_party/zacks-data",
+      "description": "Trusted Financial Data from Zacks Investment Research."
     },
     {
       "name": "zapier",

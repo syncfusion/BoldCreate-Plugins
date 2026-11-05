@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "myob": {
+      "type": "http",
+      "url": "https://mcp.myob.com/mcp"
+    }
+  }
+}

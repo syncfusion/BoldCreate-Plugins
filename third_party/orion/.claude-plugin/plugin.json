@@ -1,0 +1,24 @@
+{
+  "name": "orion",
+  "displayName": "Orion",
+  "version": "0.7.1",
+  "description": "Bring Orion Connect portfolio data and Redtail CRM together in Claude — prep for client meetings, capture follow-ups, prioritize your pipeline, and turn reports into talking points.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://orion.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "orion",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "orion": {
+      "type": "http",
+      "url": "https://gateway.oriondenali.ai/mcp"
+    }
+  }
+}

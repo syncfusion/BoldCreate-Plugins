@@ -1,0 +1,24 @@
+{
+  "name": "paytm-payment-gateway",
+  "displayName": "Paytm Payment Gateway",
+  "version": "0.7.1",
+  "description": "Make Claude your Paytm Payments assistant.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.paytmpayments.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "paytm-payment-gateway",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "paytm-payment-gateway": {
+      "type": "http",
+      "url": "https://mcp.paytmpayments.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "cna-taiwan-news",
+  "displayName": "中央社新聞 CNA TAIWAN NEWS",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "把中央社可信新聞接進你的 AI｜Taiwan CNA news, sourced answers.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ask.cna.com.tw/ask",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "cna-taiwan-news",
+    "education",
+    "mcp"
+  ],
+  "category": "education",
+  "tags": [
+    "education",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

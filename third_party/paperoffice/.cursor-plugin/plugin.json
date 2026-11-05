@@ -1,0 +1,28 @@
+{
+  "name": "paperoffice",
+  "displayName": "PaperOffice",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Built for companies. Ready for AI agents. The headless DMS for Claude: search, read, extract, approve, send for signing and archive documents in your own account, with your permissions.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://paperoffice.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "paperoffice",
+    "finance",
+    "mcp"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

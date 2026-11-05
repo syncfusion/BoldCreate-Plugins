@@ -1,0 +1,24 @@
+{
+  "name": "lumonic",
+  "displayName": "Lumonic",
+  "version": "0.7.1",
+  "description": "Analyze portfolio data and reporting in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.lumonic.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lumonic",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "lumonic": {
+      "type": "http",
+      "url": "https://mcp.lumonic.com/mcp"
+    }
+  }
+}

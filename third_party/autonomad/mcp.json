@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "autonomad": {
+      "type": "http",
+      "url": "https://mcp.autonomad.ai/mcp"
+    }
+  }
+}

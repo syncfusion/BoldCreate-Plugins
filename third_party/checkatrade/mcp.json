@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "checkatrade": {
+      "type": "http",
+      "url": "https://api.checkatrade.com/consumer-claude-mcp/v1/mcp"
+    }
+  }
+}

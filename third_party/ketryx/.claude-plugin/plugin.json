@@ -1,0 +1,24 @@
+{
+  "name": "ketryx",
+  "displayName": "Ketryx",
+  "version": "0.7.1",
+  "description": "Search and explore regulated software lifecycle data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.ketryx.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "ketryx",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "ketryx": {
+      "type": "http",
+      "url": "https://app.ketryx.com/api/mcp"
+    }
+  }
+}

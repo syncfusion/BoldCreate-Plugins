@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "atlasfindings": {
+      "type": "http",
+      "url": "https://api.esentire.com/mcp/rpc"
+    }
+  }
+}

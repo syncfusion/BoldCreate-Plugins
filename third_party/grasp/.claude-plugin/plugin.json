@@ -1,0 +1,24 @@
+{
+  "name": "grasp",
+  "displayName": "Grasp",
+  "version": "0.7.1",
+  "description": "Find, screen and analyse private-market opportunities.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://grasp-ai.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "grasp",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "grasp": {
+      "type": "http",
+      "url": "https://app.grasp-ai.com/mcp"
+    }
+  }
+}

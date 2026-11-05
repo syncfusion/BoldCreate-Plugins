@@ -1,0 +1,24 @@
+{
+  "name": "addgene",
+  "displayName": "Addgene",
+  "version": "0.7.1",
+  "description": "Search Addgene's catalog of plasmids and viral preps.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.addgene.org/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "addgene",
+    "science",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "addgene": {
+      "type": "http",
+      "url": "https://mcp-server.addgene.org/mcp"
+    }
+  }
+}

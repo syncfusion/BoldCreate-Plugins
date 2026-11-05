@@ -1,0 +1,24 @@
+{
+  "name": "fitch-solutions",
+  "displayName": "Fitch Solutions",
+  "version": "0.7.1",
+  "description": "Fitch credit intelligence, inside your AI workflow.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://fitchsolutions.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "fitch-solutions",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "fitch-solutions": {
+      "type": "http",
+      "url": "https://api.fitch.group/nexus/mcp"
+    }
+  }
+}

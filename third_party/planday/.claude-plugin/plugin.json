@@ -1,0 +1,24 @@
+{
+  "name": "planday",
+  "displayName": "Planday",
+  "version": "0.7.1",
+  "description": "Manage Planday scheduling (Early access).",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://planday.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "planday",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "planday": {
+      "type": "http",
+      "url": "https://public-mcp-server.prod-westeurope.planday.cloud/mcp"
+    }
+  }
+}

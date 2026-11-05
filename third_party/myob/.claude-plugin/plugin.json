@@ -1,0 +1,24 @@
+{
+  "name": "myob",
+  "displayName": "MYOB",
+  "version": "0.7.1",
+  "description": "Understand your MYOB business finances with Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.myob.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "myob",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "myob": {
+      "type": "http",
+      "url": "https://mcp.myob.com/mcp"
+    }
+  }
+}

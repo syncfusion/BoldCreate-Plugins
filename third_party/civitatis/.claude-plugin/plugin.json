@@ -1,0 +1,24 @@
+{
+  "name": "civitatis",
+  "displayName": "Civitatis",
+  "version": "0.7.1",
+  "description": "Search, plan, and book tours and activities worldwide with Civitatis.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.civitatis.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "civitatis",
+    "travel",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "civitatis": {
+      "type": "http",
+      "url": "https://civitatis-claude-app.civitatis.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "unthread",
+  "displayName": "Unthread",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Manage and automate your support tickets.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://unthread.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "unthread",
+    "productivity",
+    "mcp"
+  ],
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

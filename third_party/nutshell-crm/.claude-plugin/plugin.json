@@ -1,0 +1,24 @@
+{
+  "name": "nutshell-crm",
+  "displayName": "Nutshell CRM",
+  "version": "0.7.1",
+  "description": "Connect Claude to Nutshell CRM to search leads, contacts, and companies, pull sales reports, and review deal timelines - all without leaving chat.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.nutshell.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "nutshell-crm",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "nutshell-crm": {
+      "type": "http",
+      "url": "https://app.nutshell.com/mcp"
+    }
+  }
+}

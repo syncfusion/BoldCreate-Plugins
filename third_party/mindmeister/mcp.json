@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mindmeister": {
+      "type": "http",
+      "url": "https://mcp.mindmeister.com/mcp"
+    }
+  }
+}

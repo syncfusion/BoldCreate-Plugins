@@ -1,0 +1,24 @@
+{
+  "name": "unthread",
+  "displayName": "Unthread",
+  "version": "0.7.1",
+  "description": "Manage and automate your support tickets.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://unthread.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "unthread",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "unthread": {
+      "type": "http",
+      "url": "https://app.unthread.io/api/mcp"
+    }
+  }
+}

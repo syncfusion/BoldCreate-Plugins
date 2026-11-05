@@ -1,0 +1,24 @@
+{
+  "name": "blackthorn-forge",
+  "displayName": "Blackthorn Forge MCP for Native Salesforce Event Management",
+  "version": "0.7.1",
+  "description": "Blackthorn's MCP server for Salesforce events: create, query, and report on events, attendees, tickets, sessions, forms, and email campaigns, over 100 available tools, live against your org.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://blackthorn.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "blackthorn-forge",
+    "education",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "blackthorn-forge": {
+      "type": "http",
+      "url": "https://forge.blackthorn.io/api/mcp"
+    }
+  }
+}

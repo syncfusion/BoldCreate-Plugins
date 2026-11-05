@@ -1,0 +1,24 @@
+{
+  "name": "veltra-activities",
+  "displayName": "Veltra Activities",
+  "version": "0.7.1",
+  "description": "Design the genuine experiences of tomorrow.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.veltra.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "veltra-activities",
+    "travel",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "veltra-activities": {
+      "type": "http",
+      "url": "https://ai.veltra.com/veltra/mcp"
+    }
+  }
+}

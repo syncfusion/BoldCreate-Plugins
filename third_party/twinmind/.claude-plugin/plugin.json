@@ -1,0 +1,24 @@
+{
+  "name": "twinmind",
+  "displayName": "TwinMind",
+  "version": "0.7.1",
+  "description": "AI notes & Memory.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://twinmind.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "twinmind",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "twinmind": {
+      "type": "http",
+      "url": "https://api.twinmind.com/mcp"
+    }
+  }
+}

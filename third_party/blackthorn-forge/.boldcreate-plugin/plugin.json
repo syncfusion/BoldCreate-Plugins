@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "blackthorn-forge",
+  "displayName": "Blackthorn Forge MCP for Native Salesforce Event Management",
+  "version": "0.7.1",
+  "description": "Blackthorn's MCP server for Salesforce events: create, query, and report on events, attendees, tickets, sessions, forms, and email campaigns, over 100 available tools, live against your org.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://blackthorn.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "education",
+  "keywords": [
+    "blackthorn-forge",
+    "education",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://blackthorn.io/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "blackthorn-forge",
+        "transport": "streamable-http",
+        "url": "https://forge.blackthorn.io/api/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge (no OAuth metadata in the challenge); endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

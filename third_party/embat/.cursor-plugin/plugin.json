@@ -1,0 +1,28 @@
+{
+  "name": "embat",
+  "displayName": "Embat",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Ask Embat about cash, debt, payments, and accounting.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.embat.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "embat",
+    "finance",
+    "mcp"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

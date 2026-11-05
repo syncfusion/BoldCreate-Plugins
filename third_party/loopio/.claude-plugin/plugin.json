@@ -1,0 +1,24 @@
+{
+  "name": "loopio",
+  "displayName": "Loopio",
+  "version": "0.7.1",
+  "description": "Search approved response content, answer entire RFPs, and manage projects effortlessly.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://loopio.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "loopio",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "loopio": {
+      "type": "http",
+      "url": "https://mcp-server.loopio.com/v1/mcp"
+    }
+  }
+}

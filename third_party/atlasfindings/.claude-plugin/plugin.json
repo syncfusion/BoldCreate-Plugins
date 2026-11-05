@@ -1,0 +1,24 @@
+{
+  "name": "atlasfindings",
+  "displayName": "atlasFindings",
+  "version": "0.7.1",
+  "description": "Search, investigate, and act on Atlas data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.esentire.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "atlasfindings",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "atlasfindings": {
+      "type": "http",
+      "url": "https://api.esentire.com/mcp/rpc"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "usafacts",
+  "displayName": "USAFacts Government Data Connector",
+  "version": "0.7.1",
+  "description": "Give Claude a better source for government data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://usafacts.org/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "usafacts",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "usafacts": {
+      "type": "http",
+      "url": "https://data.mcp.usafacts.org/mcp"
+    }
+  }
+}

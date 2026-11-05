@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clarivate-compumark": {
+      "type": "http",
+      "url": "https://ipone.clarivate.com/trademarks/mcp"
+    }
+  }
+}

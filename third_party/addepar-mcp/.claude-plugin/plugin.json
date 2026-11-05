@@ -1,0 +1,24 @@
+{
+  "name": "addepar-mcp",
+  "displayName": "Addepar MCP",
+  "version": "0.7.1",
+  "description": "Bring Addepar portfolio intelligence into Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://addepar.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "addepar-mcp",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "addepar-mcp": {
+      "type": "http",
+      "url": "https://mcp.addepar.com/"
+    }
+  }
+}

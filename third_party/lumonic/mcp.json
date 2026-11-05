@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lumonic": {
+      "type": "http",
+      "url": "https://mcp.lumonic.com/mcp"
+    }
+  }
+}

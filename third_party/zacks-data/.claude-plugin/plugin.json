@@ -1,0 +1,24 @@
+{
+  "name": "zacks-data",
+  "displayName": "Zacks Data",
+  "version": "0.7.1",
+  "description": "Trusted Financial Data from Zacks Investment Research.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ai.zacksdata.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "zacks-data",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "zacks-data": {
+      "type": "http",
+      "url": "https://mcp.zacksdata.com/"
+    }
+  }
+}

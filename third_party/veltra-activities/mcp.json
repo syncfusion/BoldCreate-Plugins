@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "veltra-activities": {
+      "type": "http",
+      "url": "https://ai.veltra.com/veltra/mcp"
+    }
+  }
+}

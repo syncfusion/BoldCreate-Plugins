@@ -1,0 +1,24 @@
+{
+  "name": "salesflare",
+  "displayName": "Salesflare",
+  "version": "0.7.1",
+  "description": "Manage and explore your CRM in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://salesflare.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "salesflare",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "salesflare": {
+      "type": "http",
+      "url": "https://mcp.salesflare.com/mcp"
+    }
+  }
+}

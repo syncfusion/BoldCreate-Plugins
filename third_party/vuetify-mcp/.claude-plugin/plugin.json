@@ -1,0 +1,24 @@
+{
+  "name": "vuetify-mcp",
+  "displayName": "Vuetify MCP",
+  "version": "0.7.1",
+  "description": "Official Vuetify docs, APIs, and bins for AI agents.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://vuetifyjs.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "vuetify-mcp",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "vuetify-mcp": {
+      "type": "http",
+      "url": "https://mcp.vuetifyjs.com/mcp"
+    }
+  }
+}

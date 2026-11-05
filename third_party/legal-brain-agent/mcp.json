@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "legal-brain-agent": {
+      "type": "http",
+      "url": "https://api.legalbrain.com/v1/mcp"
+    }
+  }
+}

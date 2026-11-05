@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "cna-taiwan-news",
+  "displayName": "中央社新聞 CNA TAIWAN NEWS",
+  "version": "0.7.1",
+  "description": "把中央社可信新聞接進你的 AI｜Taiwan CNA news, sourced answers.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://ask.cna.com.tw/ask",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "education",
+  "keywords": [
+    "cna-taiwan-news",
+    "education",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://ask.cna.com.tw/ask",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "cna-taiwan-news",
+        "transport": "streamable-http",
+        "url": "https://ask.cna.com.tw/mcp/connect",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

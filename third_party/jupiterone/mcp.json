@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jupiterone": {
+      "type": "http",
+      "url": "https://mcp.us.jupiterone.io/mcp"
+    }
+  }
+}

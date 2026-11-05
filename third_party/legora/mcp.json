@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "legora": {
+      "type": "http",
+      "url": "https://mcp.legora.com/mcp"
+    }
+  }
+}

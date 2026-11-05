@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "isolved-people-cloud": {
+      "type": "http",
+      "url": "https://api.myisolved.com/restmcp-prod/mcp"
+    }
+  }
+}

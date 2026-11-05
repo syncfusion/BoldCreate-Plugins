@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "blackthorn-forge": {
+      "type": "http",
+      "url": "https://forge.blackthorn.io/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "origin": {
+      "type": "http",
+      "url": "https://mcp.prod.originhq.com/mcp"
+    }
+  }
+}

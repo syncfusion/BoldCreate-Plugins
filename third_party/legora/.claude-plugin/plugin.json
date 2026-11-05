@@ -1,0 +1,24 @@
+{
+  "name": "legora",
+  "displayName": "Legora",
+  "version": "0.7.1",
+  "description": "Ask legal questions and get grounded answers with citations.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://legora.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "legora",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "legora": {
+      "type": "http",
+      "url": "https://mcp.legora.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vianexus-vast",
+  "displayName": "viaNexus vAST",
+  "version": "0.7.1",
+  "description": "Power AI workflows with viaNexus: a financial data marketplace delivering prices, news, fundamentals, and global macro economic data directly from trusted provider partners.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://vianexus.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "vianexus-vast",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "vianexus-vast": {
+      "type": "http",
+      "url": "https://vast.blueskyapi.com/vianexus/mcp"
+    }
+  }
+}

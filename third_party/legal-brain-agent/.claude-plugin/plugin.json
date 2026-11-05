@@ -1,0 +1,24 @@
+{
+  "name": "legal-brain-agent",
+  "displayName": "Legal Brain Agent",
+  "version": "0.7.1",
+  "description": "日本最大級の法律データベースを基盤にした、法務特化AIエージェント.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.bengo4.com/corporate/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "legal-brain-agent",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "legal-brain-agent": {
+      "type": "http",
+      "url": "https://api.legalbrain.com/v1/mcp"
+    }
+  }
+}

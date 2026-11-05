@@ -1,0 +1,24 @@
+{
+  "name": "8am-mycase",
+  "displayName": "8am MyCase",
+  "version": "0.7.1",
+  "description": "Connect your MyCase practice data to Claude — look up matters, contacts, tasks, time, and billing without leaving your AI workspace.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://8am.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "8am-mycase",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "8am-mycase": {
+      "type": "http",
+      "url": "https://mcp.mycase.com/mcp"
+    }
+  }
+}

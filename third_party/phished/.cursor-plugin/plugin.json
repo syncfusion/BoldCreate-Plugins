@@ -1,0 +1,28 @@
+{
+  "name": "phished",
+  "displayName": "Phished",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Phished's entire ZIR app at your fingertips directly in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://phished.io/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "phished",
+    "developer-tools",
+    "mcp"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

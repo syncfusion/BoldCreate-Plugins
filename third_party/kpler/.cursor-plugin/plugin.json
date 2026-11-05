@@ -1,0 +1,28 @@
+{
+  "name": "kpler",
+  "displayName": "Kpler",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Explore Kpler's maritime and commodities intelligence.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.kpler.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "kpler",
+    "analytics",
+    "mcp"
+  ],
+  "category": "analytics",
+  "tags": [
+    "analytics",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

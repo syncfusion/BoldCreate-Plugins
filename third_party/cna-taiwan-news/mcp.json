@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cna-taiwan-news": {
+      "type": "http",
+      "url": "https://ask.cna.com.tw/mcp/connect"
+    }
+  }
+}

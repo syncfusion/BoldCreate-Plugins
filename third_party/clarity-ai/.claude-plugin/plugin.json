@@ -1,0 +1,24 @@
+{
+  "name": "clarity-ai",
+  "displayName": "Clarity AI",
+  "version": "0.7.1",
+  "description": "Simulate fund classifications under proposed SFDR 2.0.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://clarity.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "clarity-ai",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "clarity-ai": {
+      "type": "http",
+      "url": "https://clarity-sfdr20-mcp.pro.clarity.ai/mcp"
+    }
+  }
+}

@@ -10,6 +10,30 @@
   },
   "plugins": [
     {
+      "name": "8am-mycase",
+      "displayName": "8am MyCase",
+      "version": "0.7.1",
+      "description": "Connect your MyCase practice data to Claude — look up matters, contacts, tasks, time, and billing without leaving your AI workspace.",
+      "source": "third_party/8am-mycase",
+      "logo": "third_party/8am-mycase/assets/logo.png",
+      "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "abency",
       "displayName": "Abency",
       "version": "0.7.1",
@@ -52,6 +76,78 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "actively",
+      "displayName": "Actively",
+      "version": "0.7.1",
+      "description": "1:1 account agents for GTM teams.",
+      "source": "third_party/actively",
+      "logo": "third_party/actively/assets/logo.png",
+      "category": "marketing",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "addepar-mcp",
+      "displayName": "Addepar MCP",
+      "version": "0.7.1",
+      "description": "Bring Addepar portfolio intelligence into Claude.",
+      "source": "third_party/addepar-mcp",
+      "logo": "third_party/addepar-mcp/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "addgene",
+      "displayName": "Addgene",
+      "version": "0.7.1",
+      "description": "Search Addgene's catalog of plasmids and viral preps.",
+      "source": "third_party/addgene",
+      "logo": "third_party/addgene/assets/logo.svg",
+      "category": "science",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "adisinsight",
@@ -582,6 +678,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "aiwyn-tax",
+      "displayName": "Aiwyn Tax (formerly Column Tax)",
+      "version": "0.7.1",
+      "description": "Estimate your federal & state taxes with Aiwyn's tax engine.",
+      "source": "third_party/aiwyn-tax",
+      "logo": "third_party/aiwyn-tax/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "aleph",
       "displayName": "Aleph",
       "version": "0.7.1",
@@ -1037,6 +1157,54 @@
       "supportedByGateway": false
     },
     {
+      "name": "atlar",
+      "displayName": "Atlar",
+      "version": "0.7.1",
+      "description": "Query your live treasury data: accounts, balances, transactions, and forecasts—directly from Claude.",
+      "source": "third_party/atlar",
+      "logo": "third_party/atlar/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "atlasfindings",
+      "displayName": "atlasFindings",
+      "version": "0.7.1",
+      "description": "Search, investigate, and act on Atlas data.",
+      "source": "third_party/atlasfindings",
+      "logo": "third_party/atlasfindings/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "atlassian",
       "displayName": "Atlassian (Jira + Confluence)",
       "version": "0.7.0",
@@ -1124,6 +1292,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "attentive",
+      "displayName": "Attentive",
+      "version": "0.7.1",
+      "description": "Attentive, inside the AI tools you already use.",
+      "source": "third_party/attentive",
+      "logo": "third_party/attentive/assets/logo.png",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "attio",
       "displayName": "Attio",
       "version": "0.7.1",
@@ -1131,6 +1323,30 @@
       "source": "third_party/attio",
       "logo": "third_party/attio/assets/logo.svg",
       "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "aurora",
+      "displayName": "Aurora",
+      "version": "0.7.1",
+      "description": "Search your Consilio matters, docs, and more.",
+      "source": "third_party/aurora",
+      "logo": "third_party/aurora/assets/logo.png",
+      "category": "legal",
       "components": [
         "mcp"
       ],
@@ -1174,6 +1390,30 @@
       "source": "third_party/autodesk-help",
       "logo": "third_party/autodesk-help/assets/logo.svg",
       "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "autonomad",
+      "displayName": "AUTONOMAD",
+      "version": "0.7.1",
+      "description": "Flights, hotels and tours booked in one payment, and changed when plans change, all from Claude.",
+      "source": "third_party/autonomad",
+      "logo": "third_party/autonomad/assets/logo.png",
+      "category": "travel",
       "components": [
         "mcp"
       ],
@@ -1670,6 +1910,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "bitrise-mcp",
+      "displayName": "Bitrise MCP",
+      "version": "0.7.1",
+      "description": "Set up and manage mobile CI/CD on Bitrise: build, test, and distribute iOS, Android, Flutter, and React Native apps from your AI assistant.",
+      "source": "third_party/bitrise-mcp",
+      "logo": "third_party/bitrise-mcp/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "black-diamond",
       "displayName": "Black Diamond",
       "version": "0.7.1",
@@ -1735,6 +1999,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "blackthorn-forge",
+      "displayName": "Blackthorn Forge MCP for Native Salesforce Event Management",
+      "version": "0.7.1",
+      "description": "Blackthorn's MCP server for Salesforce events: create, query, and report on events, attendees, tickets, sessions, forms, and email campaigns, over 100 available tools, live against your org.",
+      "source": "third_party/blackthorn-forge",
+      "logo": "third_party/blackthorn-forge/assets/logo.png",
+      "category": "education",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "blaze-sql",
@@ -2273,6 +2561,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "cargoai",
+      "displayName": "CargoAi",
+      "version": "0.7.1",
+      "description": "Instant air cargo rates, quotes & tracking.",
+      "source": "third_party/cargoai",
+      "logo": "third_party/cargoai/assets/logo.png",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "carta",
       "displayName": "Carta",
       "version": "0.7.1",
@@ -2431,6 +2743,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "chariot",
+      "displayName": "Chariot",
+      "version": "0.7.1",
+      "description": "Manage your nonprofit's DAF donations and deposits.",
+      "source": "third_party/chariot",
+      "logo": "third_party/chariot/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "chartmogul",
       "displayName": "ChartMogul",
       "version": "0.7.1",
@@ -2451,6 +2787,30 @@
       "rollout": {
         "phase": 1,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "checkatrade",
+      "displayName": "Checkatrade",
+      "version": "0.7.1",
+      "description": "Find trusted local tradespeople and book fixed-price jobs — without leaving Claude.",
+      "source": "third_party/checkatrade",
+      "logo": "third_party/checkatrade/assets/logo.svg",
+      "category": "commerce",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     },
@@ -2586,6 +2946,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "civitatis",
+      "displayName": "Civitatis",
+      "version": "0.7.1",
+      "description": "Search, plan, and book tours and activities worldwide with Civitatis.",
+      "source": "third_party/civitatis",
+      "logo": "third_party/civitatis/assets/logo.svg",
+      "category": "travel",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "ckeditor",
       "displayName": "CKEditor",
       "version": "0.1.1",
@@ -2612,6 +2996,54 @@
       "source": "third_party/clarify",
       "logo": "third_party/clarify/assets/logo.png",
       "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "clarity-ai",
+      "displayName": "Clarity AI",
+      "version": "0.7.1",
+      "description": "Simulate fund classifications under proposed SFDR 2.0.",
+      "source": "third_party/clarity-ai",
+      "logo": "third_party/clarity-ai/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "clarivate-compumark",
+      "displayName": "Clarivate IPOne CompuMark Trademarks",
+      "version": "0.7.1",
+      "description": "Trusted Trademark Intelligence from Clarivate CompuMark.",
+      "source": "third_party/clarivate-compumark",
+      "logo": "third_party/clarivate-compumark/assets/logo.png",
+      "category": "analytics",
       "components": [
         "mcp"
       ],
@@ -2660,6 +3092,30 @@
       "source": "third_party/clay",
       "logo": "third_party/clay/assets/logo.svg",
       "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "clear-street",
+      "displayName": "Clear Street",
+      "version": "0.7.1",
+      "description": "Research and Analyze Stocks and Options.",
+      "source": "third_party/clear-street",
+      "logo": "third_party/clear-street/assets/logo.svg",
+      "category": "finance",
       "components": [
         "mcp"
       ],
@@ -2823,6 +3279,30 @@
       "source": "third_party/cloudinary",
       "logo": "third_party/cloudinary/assets/logo.png",
       "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "cna-taiwan-news",
+      "displayName": "中央社新聞 CNA TAIWAN NEWS",
+      "version": "0.7.1",
+      "description": "把中央社可信新聞接進你的 AI｜Taiwan CNA news, sourced answers.",
+      "source": "third_party/cna-taiwan-news",
+      "logo": "third_party/cna-taiwan-news/assets/logo.png",
+      "category": "education",
       "components": [
         "mcp"
       ],
@@ -3032,6 +3512,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "cometchat",
+      "displayName": "CometChat",
+      "version": "0.7.1",
+      "description": "Add real-time chat, voice, and video to your app.",
+      "source": "third_party/cometchat",
+      "logo": "third_party/cometchat/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "common-room",
       "displayName": "Common Room",
       "version": "0.7.1",
@@ -3191,6 +3695,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "control-plane",
+      "displayName": "Control Plane",
+      "version": "0.7.1",
+      "description": "Deploy, scale, and debug cloud apps from one platform.",
+      "source": "third_party/control-plane",
+      "logo": "third_party/control-plane/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -3435,6 +3963,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "craft-io",
+      "displayName": "Craft.io",
+      "version": "0.7.1",
+      "description": "Manage your end-to-end product lifecycle - backlog, PRDs, customer feedback, roadmaps, and strategic OKRs - with Claude connected directly to your Craft.io data.",
+      "source": "third_party/craft-io",
+      "logo": "third_party/craft-io/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "crossbeam",
       "displayName": "Crossbeam",
       "version": "0.7.1",
@@ -3575,6 +4127,30 @@
       "description": "Bring trusted Cube financial context into Claude. Analyze performance, model scenarios, and move decisions into action, with your Cube permissions enforced on every request.",
       "source": "third_party/cube-software",
       "logo": "third_party/cube-software/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "d-b-finance-analytics",
+      "displayName": "D&B Finance Analytics",
+      "version": "0.7.1",
+      "description": "Commercial credit decisioning and portfolio risk workflows for AI.",
+      "source": "third_party/d-b-finance-analytics",
+      "logo": "third_party/d-b-finance-analytics/assets/logo.png",
       "category": "finance",
       "components": [
         "mcp"
@@ -3837,6 +4413,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "definely",
+      "displayName": "Definely",
+      "version": "0.7.1",
+      "description": "Structured contract review tools for legal teams.",
+      "source": "third_party/definely",
+      "logo": "third_party/definely/assets/logo.svg",
+      "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "deploy-on-aws",
       "displayName": "Deploy on AWS",
       "version": "1.4.0",
@@ -3947,6 +4547,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "dext",
+      "displayName": "Dext",
+      "version": "0.7.1",
+      "description": "For accounting and bookkeeping firms: ask Dext about client data health, VAT and CT positions, aged debt, workflow and team capacity - across one client or your whole portfolio. Read-only.",
+      "source": "third_party/dext",
+      "logo": "third_party/dext/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "dhs-surveys",
       "displayName": "Demographic and Health Surveys",
       "version": "0.7.1",
@@ -3991,6 +4615,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "diffit",
+      "displayName": "Diffit",
+      "version": "0.7.1",
+      "description": "Quality, classroom-ready resources for anything.",
+      "source": "third_party/diffit",
+      "logo": "third_party/diffit/assets/logo.png",
+      "category": "education",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -4324,6 +4972,30 @@
       "source": "third_party/elicit",
       "logo": "third_party/elicit/assets/logo.svg",
       "category": "science",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "embat",
+      "displayName": "Embat",
+      "version": "0.7.1",
+      "description": "Ask Embat about cash, debt, payments, and accounting.",
+      "source": "third_party/embat",
+      "logo": "third_party/embat/assets/logo.svg",
+      "category": "finance",
       "components": [
         "mcp"
       ],
@@ -5022,6 +5694,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "fitch-solutions",
+      "displayName": "Fitch Solutions",
+      "version": "0.7.1",
+      "description": "Fitch credit intelligence, inside your AI workflow.",
+      "source": "third_party/fitch-solutions",
+      "logo": "third_party/fitch-solutions/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "flexport",
       "displayName": "Flexport",
       "version": "0.7.1",
@@ -5428,6 +6124,30 @@
       "source": "third_party/general-legal",
       "logo": "third_party/general-legal/assets/logo.png",
       "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "gis-cloud",
+      "displayName": "GIS Cloud",
+      "version": "0.7.1",
+      "description": "Run your entire GIS workflow in plain language: maps, data, analysis, field apps, and reports.",
+      "source": "third_party/gis-cloud",
+      "logo": "third_party/gis-cloud/assets/logo.svg",
+      "category": "analytics",
       "components": [
         "mcp"
       ],
@@ -6390,6 +7110,54 @@
       "supportedByGateway": true
     },
     {
+      "name": "grasp",
+      "displayName": "Grasp",
+      "version": "0.7.1",
+      "description": "Find, screen and analyse private-market opportunities.",
+      "source": "third_party/grasp",
+      "logo": "third_party/grasp/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "grasshopper-bank",
+      "displayName": "Grasshopper Bank",
+      "version": "0.7.1",
+      "description": "Query and analyze your financial data.",
+      "source": "third_party/grasshopper-bank",
+      "logo": "third_party/grasshopper-bank/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "greenhouse",
       "displayName": "Greenhouse",
       "version": "0.7.1",
@@ -6813,6 +7581,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "hubstaff",
+      "displayName": "Hubstaff",
+      "version": "0.7.1",
+      "description": "AI-ready workforce insights.",
+      "source": "third_party/hubstaff",
+      "logo": "third_party/hubstaff/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "huggingface",
       "displayName": "Hugging Face",
       "version": "0.1.0",
@@ -7096,6 +7888,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "infobip-message",
+      "displayName": "Infobip Message",
+      "version": "0.7.1",
+      "description": "Send SMS, RCS, MMS, and Viber messages through Infobip in Claude.",
+      "source": "third_party/infobip-message",
+      "logo": "third_party/infobip-message/assets/logo.png",
+      "category": "communication",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "informatica-for-claude-platform",
       "displayName": "Informatica",
       "version": "1.0.0",
@@ -7187,6 +8003,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "instrumentl",
+      "displayName": "Instrumentl",
+      "version": "0.7.1",
+      "description": "Find, evaluate, and manage your grants.",
+      "source": "third_party/instrumentl",
+      "logo": "third_party/instrumentl/assets/logo.svg",
+      "category": "data",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "intercom",
       "displayName": "Intercom",
       "version": "0.7.1",
@@ -7242,6 +8082,54 @@
       "source": "third_party/ironclad-contracts",
       "logo": "third_party/ironclad-contracts/assets/logo.svg",
       "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "isolved-people-cloud",
+      "displayName": "isolved People Cloud",
+      "version": "0.7.1",
+      "description": "Your isolved data, inside Claude.",
+      "source": "third_party/isolved-people-cloud",
+      "logo": "third_party/isolved-people-cloud/assets/logo.png",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "iubenda",
+      "displayName": "iubenda: Privacy policy & cookie banner",
+      "version": "0.7.1",
+      "description": "GDPR and CCPA compliance: cookie consent, cookie scanner, and terms and conditions.",
+      "source": "third_party/iubenda",
+      "logo": "third_party/iubenda/assets/logo.svg",
+      "category": "developer-tools",
       "components": [
         "mcp"
       ],
@@ -7403,12 +8291,60 @@
       "supportedByGateway": true
     },
     {
+      "name": "jupiterone",
+      "displayName": "JupiterOne",
+      "version": "0.7.1",
+      "description": "Ask questions about your JupiterOne agentic security and it asset graph and manage alerts, rules, and dashboards — in natural language.",
+      "source": "third_party/jupiterone",
+      "logo": "third_party/jupiterone/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "juro-contracts",
       "displayName": "Juro contracts",
       "version": "0.7.1",
       "description": "Query & work with contracts effortlessly throughout the lifecycle to agree contracts faster.",
       "source": "third_party/juro-contracts",
       "logo": "third_party/juro-contracts/assets/logo.svg",
+      "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "jus-ai-by-jus-mundi",
+      "displayName": "Jus AI by Jus Mundi (Light Mode)",
+      "version": "0.7.1",
+      "description": "AI-powered global arbitration intelligence.",
+      "source": "third_party/jus-ai-by-jus-mundi",
+      "logo": "third_party/jus-ai-by-jus-mundi/assets/logo.svg",
       "category": "legal",
       "components": [
         "mcp"
@@ -7471,6 +8407,54 @@
       "rollout": {
         "phase": 1,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "ketryx",
+      "displayName": "Ketryx",
+      "version": "0.7.1",
+      "description": "Search and explore regulated software lifecycle data.",
+      "source": "third_party/ketryx",
+      "logo": "third_party/ketryx/assets/logo.png",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "kindora-funder-discovery",
+      "displayName": "Kindora Funder Discovery",
+      "version": "0.7.1",
+      "description": "Find funders who support causes like yours.",
+      "source": "third_party/kindora-funder-discovery",
+      "logo": "third_party/kindora-funder-discovery/assets/logo.svg",
+      "category": "data",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     },
@@ -7591,6 +8575,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "kpler",
+      "displayName": "Kpler",
+      "version": "0.7.1",
+      "description": "Explore Kpler's maritime and commodities intelligence.",
+      "source": "third_party/kpler",
+      "logo": "third_party/kpler/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -7782,6 +8790,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "legal-brain-agent",
+      "displayName": "Legal Brain Agent",
+      "version": "0.7.1",
+      "description": "日本最大級の法律データベースを基盤にした、法務特化AIエージェント.",
+      "source": "third_party/legal-brain-agent",
+      "logo": "third_party/legal-brain-agent/assets/logo.svg",
+      "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "legal-data-hunter",
       "displayName": "Legal Data Hunter",
       "version": "0.7.1",
@@ -7830,6 +8862,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "legora",
+      "displayName": "Legora",
+      "version": "0.7.1",
+      "description": "Ask legal questions and get grounded answers with citations.",
+      "source": "third_party/legora",
+      "logo": "third_party/legora/assets/logo.svg",
+      "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "letsfg",
       "displayName": "LetsFG | Book the best flights or hotels",
       "version": "0.7.1",
@@ -7854,6 +8910,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "light",
+      "displayName": "Light",
+      "version": "0.7.1",
+      "description": "Work with your Light finance data in Claude.",
+      "source": "third_party/light",
+      "logo": "third_party/light/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "lightfield",
       "displayName": "Lightfield",
       "version": "0.7.1",
@@ -7861,6 +8941,30 @@
       "source": "third_party/lightfield",
       "logo": "third_party/lightfield/assets/logo.svg",
       "category": "marketing",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "lilt",
+      "displayName": "LILT",
+      "version": "0.7.1",
+      "description": "High-quality translation with human verification.",
+      "source": "third_party/lilt",
+      "logo": "third_party/lilt/assets/logo.svg",
+      "category": "productivity",
       "components": [
         "mcp"
       ],
@@ -8041,6 +9145,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "loopio",
+      "displayName": "Loopio",
+      "version": "0.7.1",
+      "description": "Search approved response content, answer entire RFPs, and manage projects effortlessly.",
+      "source": "third_party/loopio",
+      "logo": "third_party/loopio/assets/logo.svg",
+      "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "loops",
       "displayName": "Loops",
       "version": "0.7.1",
@@ -8048,6 +9176,30 @@
       "source": "third_party/loops",
       "logo": "third_party/loops/assets/logo.svg",
       "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "lorikeet",
+      "displayName": "Lorikeet",
+      "version": "0.7.1",
+      "description": "A universal concierge for complex businesses.",
+      "source": "third_party/lorikeet",
+      "logo": "third_party/lorikeet/assets/logo.svg",
+      "category": "productivity",
       "components": [
         "mcp"
       ],
@@ -8163,6 +9315,30 @@
       "source": "third_party/lumin",
       "logo": "third_party/lumin/assets/logo.svg",
       "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "lumonic",
+      "displayName": "Lumonic",
+      "version": "0.7.1",
+      "description": "Analyze portfolio data and reporting in Claude.",
+      "source": "third_party/lumonic",
+      "logo": "third_party/lumonic/assets/logo.svg",
+      "category": "finance",
       "components": [
         "mcp"
       ],
@@ -8415,6 +9591,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "manufact",
+      "displayName": "Manufact",
+      "version": "0.7.1",
+      "description": "Deploy and monitor MCP servers.",
+      "source": "third_party/manufact",
+      "logo": "third_party/manufact/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "mapbox",
       "displayName": "Mapbox",
       "version": "1.0.0",
@@ -8482,6 +9682,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "mdn",
+      "displayName": "MDN",
+      "version": "0.7.1",
+      "description": "Search & retrieval of MDN docs & browser compat data.",
+      "source": "third_party/mdn",
+      "logo": "third_party/mdn/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "medidata",
       "displayName": "Medidata",
       "version": "0.7.1",
@@ -8489,6 +9713,30 @@
       "source": "third_party/medidata",
       "logo": "third_party/medidata/assets/logo.png",
       "category": "science",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "meistertask",
+      "displayName": "MeisterTask",
+      "version": "0.7.1",
+      "description": "Create, search, and update tasks, projects, and notes.",
+      "source": "third_party/meistertask",
+      "logo": "third_party/meistertask/assets/logo.svg",
+      "category": "productivity",
       "components": [
         "mcp"
       ],
@@ -8797,6 +10045,30 @@
       "source": "third_party/midpage",
       "logo": "third_party/midpage/assets/logo.svg",
       "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mindmeister",
+      "displayName": "MindMeister",
+      "version": "0.7.1",
+      "description": "Build, search, and edit mind maps in Claude.",
+      "source": "third_party/mindmeister",
+      "logo": "third_party/mindmeister/assets/logo.svg",
+      "category": "education",
       "components": [
         "mcp"
       ],
@@ -9236,6 +10508,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "mulesoft",
+      "displayName": "MuleSoft",
+      "version": "0.7.1",
+      "description": "Govern, manage, and observe your entire Agent ecosystem.",
+      "source": "third_party/mulesoft",
+      "logo": "third_party/mulesoft/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "mychatbot",
       "displayName": "MyChatBot",
       "version": "0.7.1",
@@ -9267,6 +10563,30 @@
       "source": "third_party/mygeotab-mcp",
       "logo": "third_party/mygeotab-mcp/assets/logo.png",
       "category": "cloud",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "myob",
+      "displayName": "MYOB",
+      "version": "0.7.1",
+      "description": "Understand your MYOB business finances with Claude.",
+      "source": "third_party/myob",
+      "logo": "third_party/myob/assets/logo.png",
+      "category": "finance",
       "components": [
         "mcp"
       ],
@@ -9490,6 +10810,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "nutshell-crm",
+      "displayName": "Nutshell CRM",
+      "version": "0.7.1",
+      "description": "Connect Claude to Nutshell CRM to search leads, contacts, and companies, pull sales reports, and review deal timelines - all without leaving chat.",
+      "source": "third_party/nutshell-crm",
+      "logo": "third_party/nutshell-crm/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "o-reilly",
       "displayName": "O’Reilly",
       "version": "0.7.1",
@@ -9593,6 +10937,30 @@
       "source": "third_party/onesignal",
       "logo": "third_party/onesignal/assets/logo.svg",
       "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "onfire",
+      "displayName": "Onfire",
+      "version": "0.7.1",
+      "description": "GTM intelligence, prospecting, and buying signals.",
+      "source": "third_party/onfire",
+      "logo": "third_party/onfire/assets/logo.svg",
+      "category": "marketing",
       "components": [
         "mcp"
       ],
@@ -9774,6 +11142,54 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "origin",
+      "displayName": "Origin",
+      "version": "0.7.1",
+      "description": "See what AI agents are doing across your endpoint fleet.",
+      "source": "third_party/origin",
+      "logo": "third_party/origin/assets/logo.png",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "orion",
+      "displayName": "Orion",
+      "version": "0.7.1",
+      "description": "Bring Orion Connect portfolio data and Redtail CRM together in Claude — prep for client meetings, capture follow-ups, prioritize your pipeline, and turn reports into talking points.",
+      "source": "third_party/orion",
+      "logo": "third_party/orion/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -10038,6 +11454,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "paperoffice",
+      "displayName": "PaperOffice",
+      "version": "0.7.1",
+      "description": "Built for companies. Ready for AI agents. The headless DMS for Claude: search, read, extract, approve, send for signing and archive documents in your own account, with your permissions.",
+      "source": "third_party/paperoffice",
+      "logo": "third_party/paperoffice/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "parallel-search",
       "displayName": "Parallel Search",
       "version": "0.7.1",
@@ -10058,6 +11498,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "patlytics",
+      "displayName": "Patlytics",
+      "version": "0.7.1",
+      "description": "Prior art, claims, and portfolio search.",
+      "source": "third_party/patlytics",
+      "logo": "third_party/patlytics/assets/logo.svg",
+      "category": "legal",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -10127,6 +11591,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "paytm-payment-gateway",
+      "displayName": "Paytm Payment Gateway",
+      "version": "0.7.1",
+      "description": "Make Claude your Paytm Payments assistant.",
+      "source": "third_party/paytm-payment-gateway",
+      "logo": "third_party/paytm-payment-gateway/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "pdf-net",
@@ -10282,6 +11770,54 @@
       "supportedByGateway": true
     },
     {
+      "name": "pg-aiguide",
+      "displayName": "pg-aiguide",
+      "version": "0.7.1",
+      "description": "Search pg and Tiger docs, learn database skills.",
+      "source": "third_party/pg-aiguide",
+      "logo": "third_party/pg-aiguide/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "phished",
+      "displayName": "Phished",
+      "version": "0.7.1",
+      "description": "Phished's entire ZIR app at your fingertips directly in Claude.",
+      "source": "third_party/phished",
+      "logo": "third_party/phished/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "phoenix-by-hg-insights",
       "displayName": "Phoenix by HG Insights",
       "version": "0.7.1",
@@ -10409,6 +11945,30 @@
       "source": "third_party/plaid-developer-tools",
       "logo": "third_party/plaid-developer-tools/assets/logo.svg",
       "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "planday",
+      "displayName": "Planday",
+      "version": "0.7.1",
+      "description": "Manage Planday scheduling (Early access).",
+      "source": "third_party/planday",
+      "logo": "third_party/planday/assets/logo.png",
+      "category": "productivity",
       "components": [
         "mcp"
       ],
@@ -10678,6 +12238,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "privacy-com",
+      "displayName": "Privacy.com",
+      "version": "0.7.1",
+      "description": "Manage virtual cards and track your spending patterns.",
+      "source": "third_party/privacy-com",
+      "logo": "third_party/privacy-com/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "process-street",
@@ -11588,6 +13172,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "salesflare",
+      "displayName": "Salesflare",
+      "version": "0.7.1",
+      "description": "Manage and explore your CRM in Claude.",
+      "source": "third_party/salesflare",
+      "logo": "third_party/salesflare/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "salesloft",
@@ -12745,6 +14353,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "superbooks",
+      "displayName": "SuperBooks",
+      "version": "0.7.1",
+      "description": "Financial OS for small businesses.",
+      "source": "third_party/superbooks",
+      "logo": "third_party/superbooks/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "superdesign",
       "displayName": "Superdesign",
       "version": "0.6.0",
@@ -13504,6 +15136,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "taxact",
+      "displayName": "TaxAct",
+      "version": "0.7.1",
+      "description": "Estimate your refund, and check what documents you need.",
+      "source": "third_party/taxact",
+      "logo": "third_party/taxact/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "teamcity-cli",
       "displayName": "TeamCity CLI",
       "version": "1.3.0",
@@ -13722,6 +15378,30 @@
       "source": "third_party/tiktok-for-business",
       "logo": "third_party/tiktok-for-business/assets/logo.svg",
       "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "tiller",
+      "displayName": "Tiller",
+      "version": "0.7.1",
+      "description": "Connect to your transactions in your Tiller spreadsheet.",
+      "source": "third_party/tiller",
+      "logo": "third_party/tiller/assets/logo.svg",
+      "category": "finance",
       "components": [
         "mcp"
       ],
@@ -14094,6 +15774,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "turquoise",
+      "displayName": "Turquoise",
+      "version": "0.7.1",
+      "description": "Query Turquoise's proprietary healthcare pricing data.",
+      "source": "third_party/turquoise",
+      "logo": "third_party/turquoise/assets/logo.svg",
+      "category": "science",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "twelve-data",
       "displayName": "Twelve Data",
       "version": "0.7.1",
@@ -14138,6 +15842,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "twinmind",
+      "displayName": "TwinMind",
+      "version": "0.7.1",
+      "description": "AI notes & Memory.",
+      "source": "third_party/twinmind",
+      "logo": "third_party/twinmind/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -14295,6 +16023,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "unify",
+      "displayName": "Unify",
+      "version": "0.7.1",
+      "description": "Find, enrich, and sequence prospects from 40+ data sources.",
+      "source": "third_party/unify",
+      "logo": "third_party/unify/assets/logo.svg",
+      "category": "marketing",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "unsplash",
       "displayName": "Unsplash",
       "version": "0.7.1",
@@ -14326,6 +16078,30 @@
       "source": "third_party/unstructured",
       "logo": "third_party/unstructured/assets/logo.svg",
       "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "unthread",
+      "displayName": "Unthread",
+      "version": "0.7.1",
+      "description": "Manage and automate your support tickets.",
+      "source": "third_party/unthread",
+      "logo": "third_party/unthread/assets/logo.svg",
+      "category": "productivity",
       "components": [
         "mcp"
       ],
@@ -14387,6 +16163,30 @@
       "rollout": {
         "phase": 1,
         "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "usafacts",
+      "displayName": "USAFacts Government Data Connector",
+      "version": "0.7.1",
+      "description": "Give Claude a better source for government data.",
+      "source": "third_party/usafacts",
+      "logo": "third_party/usafacts/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
       },
       "supportedByGateway": true
     },
@@ -14458,6 +16258,30 @@
       "supportedByGateway": false
     },
     {
+      "name": "vani-by-zoho",
+      "displayName": "Vani by Zoho",
+      "version": "0.7.1",
+      "description": "Create diagrams, visualize workflows, and manage Spaces in Vani.",
+      "source": "third_party/vani-by-zoho",
+      "logo": "third_party/vani-by-zoho/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "vanta",
       "displayName": "Vanta",
       "version": "0.7.1",
@@ -14473,6 +16297,30 @@
       ],
       "auth": [
         "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "veltra-activities",
+      "displayName": "Veltra Activities",
+      "version": "0.7.1",
+      "description": "Design the genuine experiences of tomorrow.",
+      "source": "third_party/veltra-activities",
+      "logo": "third_party/veltra-activities/assets/logo.svg",
+      "category": "travel",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
       ],
       "requiresSecrets": false,
       "rollout": {
@@ -14512,6 +16360,78 @@
       "description": "Ask questions. Get underwriting insights from Verisk.",
       "source": "third_party/verisk-underwriting",
       "logo": "third_party/verisk-underwriting/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "verisk-xactrestore",
+      "displayName": "Verisk XactRestore",
+      "version": "0.7.1",
+      "description": "Natural-language estimating for XactRestore.",
+      "source": "third_party/verisk-xactrestore",
+      "logo": "third_party/verisk-xactrestore/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "vertiso-memory",
+      "displayName": "Vertiso Memory",
+      "version": "0.7.1",
+      "description": "Portable, durable memory for every AI agent you use.",
+      "source": "third_party/vertiso-memory",
+      "logo": "third_party/vertiso-memory/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "vianexus-vast",
+      "displayName": "viaNexus vAST",
+      "version": "0.7.1",
+      "description": "Power AI workflows with viaNexus: a financial data marketplace delivering prices, news, fundamentals, and global macro economic data directly from trusted provider partners.",
+      "source": "third_party/vianexus-vast",
+      "logo": "third_party/vianexus-vast/assets/logo.svg",
       "category": "finance",
       "components": [
         "mcp"
@@ -14640,6 +16560,78 @@
       "supportedByGateway": false
     },
     {
+      "name": "vuetify-mcp",
+      "displayName": "Vuetify MCP",
+      "version": "0.7.1",
+      "description": "Official Vuetify docs, APIs, and bins for AI agents.",
+      "source": "third_party/vuetify-mcp",
+      "logo": "third_party/vuetify-mcp/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "wealth-com",
+      "displayName": "Wealth.com",
+      "version": "0.7.1",
+      "description": "Bring your clients' estate plans, tax returns, and documents into Claude — with instant snapshots, risk analysis, and advisor-ready summaries.",
+      "source": "third_party/wealth-com",
+      "logo": "third_party/wealth-com/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "wealthbox",
+      "displayName": "Wealthbox",
+      "version": "0.7.1",
+      "description": "Search, update, and manage Wealthbox data from inside Claude.",
+      "source": "third_party/wealthbox",
+      "logo": "third_party/wealthbox/assets/logo.svg",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "webex-for-claude",
       "displayName": "Webex for Claude",
       "version": "0.7.1",
@@ -14712,6 +16704,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "webmcp-evaluator",
+      "displayName": "WebMCP Evaluator",
+      "version": "0.7.1",
+      "description": "Check whether a public page is ready for agents: tools observed, tools to add, what must never be exposed.",
+      "source": "third_party/webmcp-evaluator",
+      "logo": "third_party/webmcp-evaluator/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "webull",
       "displayName": "Webull",
       "version": "0.7.1",
@@ -14719,6 +16735,30 @@
       "source": "third_party/webull",
       "logo": "third_party/webull/assets/logo.svg",
       "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "wetransfer",
+      "displayName": "WeTransfer",
+      "version": "0.7.1",
+      "description": "Send files from your chat via WeTransfer — get a shareable link or email them to recipients, using your own WeTransfer account.",
+      "source": "third_party/wetransfer",
+      "logo": "third_party/wetransfer/assets/logo.svg",
+      "category": "design",
       "components": [
         "mcp"
       ],
@@ -14791,6 +16831,30 @@
       "source": "third_party/wiley-scholar-gateway",
       "logo": "third_party/wiley-scholar-gateway/assets/logo.svg",
       "category": "science",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "windmill-hr",
+      "displayName": "Windmill HR",
+      "version": "0.7.1",
+      "description": "Draft performance reviews, manage 1:1s, send pulses, and collect feedback in Windmill, without ever leaving Claude.",
+      "source": "third_party/windmill-hr",
+      "logo": "third_party/windmill-hr/assets/logo.svg",
+      "category": "analytics",
       "components": [
         "mcp"
       ],
@@ -15091,6 +17155,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "xtiles",
+      "displayName": "xTiles",
+      "version": "0.7.1",
+      "description": "Projects that keep Claude in context.",
+      "source": "third_party/xtiles",
+      "logo": "third_party/xtiles/assets/logo.png",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "yardi-matrix",
       "displayName": "Yardi Matrix",
       "version": "0.7.1",
@@ -15132,6 +17220,30 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "zacks-data",
+      "displayName": "Zacks Data",
+      "version": "0.7.1",
+      "description": "Trusted Financial Data from Zacks Investment Research.",
+      "source": "third_party/zacks-data",
+      "logo": "third_party/zacks-data/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "zapier",

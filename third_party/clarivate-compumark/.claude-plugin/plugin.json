@@ -1,0 +1,24 @@
+{
+  "name": "clarivate-compumark",
+  "displayName": "Clarivate IPOne CompuMark Trademarks",
+  "version": "0.7.1",
+  "description": "Trusted Trademark Intelligence from Clarivate CompuMark.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://clarivate.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "clarivate-compumark",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "clarivate-compumark": {
+      "type": "http",
+      "url": "https://ipone.clarivate.com/trademarks/mcp"
+    }
+  }
+}

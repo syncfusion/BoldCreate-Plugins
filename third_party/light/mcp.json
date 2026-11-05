@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "light": {
+      "type": "http",
+      "url": "https://api.light.inc/mcp"
+    }
+  }
+}

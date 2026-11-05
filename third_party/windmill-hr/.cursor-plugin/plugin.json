@@ -1,0 +1,28 @@
+{
+  "name": "windmill-hr",
+  "displayName": "Windmill HR",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Draft performance reviews, manage 1:1s, send pulses, and collect feedback in Windmill, without ever leaving Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://gowindmill.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "windmill-hr",
+    "analytics",
+    "mcp"
+  ],
+  "category": "analytics",
+  "tags": [
+    "analytics",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

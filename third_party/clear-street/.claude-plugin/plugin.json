@@ -1,0 +1,24 @@
+{
+  "name": "clear-street",
+  "displayName": "Clear Street",
+  "version": "0.7.1",
+  "description": "Research and Analyze Stocks and Options.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.clearstreet.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "clear-street",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "clear-street": {
+      "type": "http",
+      "url": "https://api.clearstreet.com/v1/mcp"
+    }
+  }
+}

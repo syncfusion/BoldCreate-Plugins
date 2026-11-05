@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jus-ai-by-jus-mundi": {
+      "type": "http",
+      "url": "https://mcp.jusmundi.com/"
+    }
+  }
+}

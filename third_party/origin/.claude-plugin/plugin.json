@@ -1,0 +1,24 @@
+{
+  "name": "origin",
+  "displayName": "Origin",
+  "version": "0.7.1",
+  "description": "See what AI agents are doing across your endpoint fleet.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.originhq.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "origin",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "origin": {
+      "type": "http",
+      "url": "https://mcp.prod.originhq.com/mcp"
+    }
+  }
+}

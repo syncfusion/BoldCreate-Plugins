@@ -1,0 +1,24 @@
+{
+  "name": "gis-cloud",
+  "displayName": "GIS Cloud",
+  "version": "0.7.1",
+  "description": "Run your entire GIS workflow in plain language: maps, data, analysis, field apps, and reports.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.giscloud.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "gis-cloud",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "gis-cloud": {
+      "type": "http",
+      "url": "https://mcp.giscloud.com/mcp"
+    }
+  }
+}

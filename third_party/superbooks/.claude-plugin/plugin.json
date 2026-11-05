@@ -1,0 +1,24 @@
+{
+  "name": "superbooks",
+  "displayName": "SuperBooks",
+  "version": "0.7.1",
+  "description": "Financial OS for small businesses.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://devino.ca/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "superbooks",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "superbooks": {
+      "type": "http",
+      "url": "https://app.superbooks.io/mcp"
+    }
+  }
+}

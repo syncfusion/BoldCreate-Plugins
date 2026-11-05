@@ -1,0 +1,24 @@
+{
+  "name": "xtiles",
+  "displayName": "xTiles",
+  "version": "0.7.1",
+  "description": "Projects that keep Claude in context.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://xtiles.app/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "xtiles",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "xtiles": {
+      "type": "http",
+      "url": "https://mcp.xtiles.app/mcp"
+    }
+  }
+}

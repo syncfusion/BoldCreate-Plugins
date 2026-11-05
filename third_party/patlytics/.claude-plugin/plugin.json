@@ -1,0 +1,24 @@
+{
+  "name": "patlytics",
+  "displayName": "Patlytics",
+  "version": "0.7.1",
+  "description": "Prior art, claims, and portfolio search.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.patlytics.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "patlytics",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "patlytics": {
+      "type": "http",
+      "url": "https://mcp.patlytics.ai/mcp"
+    }
+  }
+}

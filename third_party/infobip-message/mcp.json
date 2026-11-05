@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "infobip-message": {
+      "type": "http",
+      "url": "https://mcp.infobip.com/message"
+    }
+  }
+}

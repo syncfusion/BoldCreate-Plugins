@@ -1,0 +1,24 @@
+{
+  "name": "mulesoft",
+  "displayName": "MuleSoft",
+  "version": "0.7.1",
+  "description": "Govern, manage, and observe your entire Agent ecosystem.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.mulesoft.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mulesoft",
+    "analytics",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mulesoft": {
+      "type": "http",
+      "url": "https://omni.mulesoft.com/mcp"
+    }
+  }
+}

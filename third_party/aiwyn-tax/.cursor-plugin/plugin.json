@@ -1,0 +1,28 @@
+{
+  "name": "aiwyn-tax",
+  "displayName": "Aiwyn Tax (formerly Column Tax)",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Estimate your federal & state taxes with Aiwyn's tax engine.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://aiwyn.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "aiwyn-tax",
+    "finance",
+    "mcp"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

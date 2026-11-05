@@ -1,0 +1,24 @@
+{
+  "name": "jus-ai-by-jus-mundi",
+  "displayName": "Jus AI by Jus Mundi (Light Mode)",
+  "version": "0.7.1",
+  "description": "AI-powered global arbitration intelligence.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://jusmundi.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "jus-ai-by-jus-mundi",
+    "legal",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "jus-ai-by-jus-mundi": {
+      "type": "http",
+      "url": "https://mcp.jusmundi.com/"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "webmcp-evaluator",
+  "displayName": "WebMCP Evaluator",
+  "version": "0.7.1",
+  "description": "Check whether a public page is ready for agents: tools observed, tools to add, what must never be exposed.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.sunbusinessgroup.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "webmcp-evaluator",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "webmcp-evaluator": {
+      "type": "http",
+      "url": "https://mcp.webmcp-eval.com/mcp"
+    }
+  }
+}

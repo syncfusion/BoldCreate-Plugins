@@ -1,0 +1,24 @@
+{
+  "name": "jupiterone",
+  "displayName": "JupiterOne",
+  "version": "0.7.1",
+  "description": "Ask questions about your JupiterOne agentic security and it asset graph and manage alerts, rules, and dashboards — in natural language.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.jupiterone.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "jupiterone",
+    "developer-tools",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "jupiterone": {
+      "type": "http",
+      "url": "https://mcp.us.jupiterone.io/mcp"
+    }
+  }
+}

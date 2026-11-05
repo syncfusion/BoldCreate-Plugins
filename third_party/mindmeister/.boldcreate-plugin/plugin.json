@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mindmeister",
+  "displayName": "MindMeister",
+  "version": "0.7.1",
+  "description": "Build, search, and edit mind maps in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.meisterlabs.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "education",
+  "keywords": [
+    "mindmeister",
+    "education",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.meisterlabs.com/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "mindmeister",
+        "transport": "streamable-http",
+        "url": "https://mcp.mindmeister.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP request on 2026-11-04: HTTP 401 with a Bearer challenge that points to OAuth metadata; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "paperoffice": {
+      "type": "http",
+      "url": "https://mcp.paperoffice.ai/claude"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "chariot",
+  "displayName": "Chariot",
+  "version": "0.7.1",
+  "description": "Manage your nonprofit's DAF donations and deposits.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://givechariot.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "chariot",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "chariot": {
+      "type": "http",
+      "url": "https://api.givechariot.com/mcp"
+    }
+  }
+}

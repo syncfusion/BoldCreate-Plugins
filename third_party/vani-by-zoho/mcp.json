@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vani-by-zoho": {
+      "type": "http",
+      "url": "https://app.vanihq.com/mcp"
+    }
+  }
+}

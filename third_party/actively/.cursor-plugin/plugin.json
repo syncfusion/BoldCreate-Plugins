@@ -1,0 +1,28 @@
+{
+  "name": "actively",
+  "displayName": "Actively",
+  "version": "0.7.1",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "1:1 account agents for GTM teams.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.actively.ai/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "actively",
+    "marketing",
+    "mcp"
+  ],
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

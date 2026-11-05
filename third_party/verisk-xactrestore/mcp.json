@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "verisk-xactrestore": {
+      "type": "http",
+      "url": "https://xactrestore-xactremodelserver-usw2-prod.propsol.io/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wetransfer": {
+      "type": "http",
+      "url": "https://mcp-server.wetransfer.com/mcp"
+    }
+  }
+}

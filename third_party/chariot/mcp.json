@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chariot": {
+      "type": "http",
+      "url": "https://api.givechariot.com/mcp"
+    }
+  }
+}

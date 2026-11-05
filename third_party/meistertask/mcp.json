@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "meistertask": {
+      "type": "http",
+      "url": "https://mcp.meistertask.com/mcp"
+    }
+  }
+}

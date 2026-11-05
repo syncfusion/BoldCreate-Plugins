@@ -1,0 +1,24 @@
+{
+  "name": "infobip-message",
+  "displayName": "Infobip Message",
+  "version": "0.7.1",
+  "description": "Send SMS, RCS, MMS, and Viber messages through Infobip in Claude.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://infobip.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "infobip-message",
+    "communication",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "infobip-message": {
+      "type": "http",
+      "url": "https://mcp.infobip.com/message"
+    }
+  }
+}

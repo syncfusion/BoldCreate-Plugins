@@ -1,0 +1,24 @@
+{
+  "name": "privacy-com",
+  "displayName": "Privacy.com",
+  "version": "0.7.1",
+  "description": "Manage virtual cards and track your spending patterns.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://privacy.com/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "privacy-com",
+    "finance",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "privacy-com": {
+      "type": "http",
+      "url": "https://mcp.privacy.com/"
+    }
+  }
+}

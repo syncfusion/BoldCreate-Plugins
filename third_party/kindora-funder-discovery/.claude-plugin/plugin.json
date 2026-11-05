@@ -1,0 +1,24 @@
+{
+  "name": "kindora-funder-discovery",
+  "displayName": "Kindora Funder Discovery",
+  "version": "0.7.1",
+  "description": "Find funders who support causes like yours.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.kindora.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "kindora-funder-discovery",
+    "data",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "kindora-funder-discovery": {
+      "type": "http",
+      "url": "https://mcp.kindora.co/mcp"
+    }
+  }
+}

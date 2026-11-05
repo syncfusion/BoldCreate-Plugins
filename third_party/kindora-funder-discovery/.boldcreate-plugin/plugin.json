@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "kindora-funder-discovery",
+  "displayName": "Kindora Funder Discovery",
+  "version": "0.7.1",
+  "description": "Find funders who support causes like yours.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.kindora.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "data",
+  "keywords": [
+    "kindora-funder-discovery",
+    "data",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.kindora.co/",
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "kindora-funder-discovery",
+        "transport": "streamable-http",
+        "url": "https://mcp.kindora.co/mcp",
+        "auth": {
+          "type": "none",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-04",
+    "source": "anonymous MCP initialize and tools/list on 2026-11-04: HTTP 200 with a tool list, no sign-in asked; endpoint from the Claude connector directory (claude.com/marketplace/connectors-plugins)"
+  }
+}

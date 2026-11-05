@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mulesoft": {
+      "type": "http",
+      "url": "https://omni.mulesoft.com/mcp"
+    }
+  }
+}
