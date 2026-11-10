@@ -2,6 +2,12 @@
 
 All notable changes to this plugin will be documented here.
 
+## 0.7.1 - 2026-11-10
+
+- Checked the hosted server again: the endpoint, streamable HTTP and OAuth are unchanged.
+- Recorded the OAuth scopes the server advertises: `org:read`, `project:write`, `team:write`, `event:write`, `alerts:write`.
+- Updated the description and README to match the vendor's current docs.
+
 ## 0.7.0 - 2026-10-29
 
 - Updated plugin version for marketplace release.

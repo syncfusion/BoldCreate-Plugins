@@ -2900,7 +2900,7 @@
     {
       "name": "sentry",
       "source": "./third_party/sentry",
-      "description": "Investigate Sentry errors, stack traces, and issues for a project."
+      "description": "Search Sentry errors, analyze performance, triage issues, read Sentry docs, and manage projects, scoped to one organization and project."
     },
     {
       "name": "setup-agent-analytics",

@@ -5,10 +5,17 @@
   "transport": "streamable-http",
   "auth": "oauth",
   "alternativeAuth": [],
+  "oauthScopes": [
+    "org:read",
+    "project:write",
+    "team:write",
+    "event:write",
+    "alerts:write"
+  ],
   "hostedBy": "vendor",
   "docs": "https://mcp.sentry.dev/",
   "endpointCheck": {
-    "lastLiveCheck": null,
-    "source": "vendor docs"
+    "lastLiveCheck": "2026-11-10",
+    "source": "anonymous MCP request on 2026-11-10: HTTP 401 with a Bearer challenge that points to OAuth metadata; scopes from mcp.sentry.dev/.well-known/oauth-authorization-server; URL pattern from mcp.sentry.dev/llms.txt"
   }
 }

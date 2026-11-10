@@ -626,7 +626,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `semrush` | [Semrush](third_party/semrush/) | Analytics | SEO, keyword research, competitor analysis, traffic and market analytics, backlink analysis, domain analysis, and PPC. |
 | `send` | [Send](third_party/send/) | Design | Create HTML in Claude. Share it with Send. |
 | `sent` | [Sent](third_party/sent/) | Developer Tools | Send and manage customer messages across SMS, WhatsApp, and RCS. Build and manage production messaging agents and workflows. |
-| `sentry` | [Sentry](third_party/sentry/) | Observability | Investigate Sentry errors, stack traces, and issues for a project. |
+| `sentry` | [Sentry](third_party/sentry/) | Observability | Search Sentry errors, analyze performance, triage issues, read Sentry docs, and manage projects, scoped to one organization and project. |
 | `setup-agent-analytics` | [Pendo Agent Analytics Setup](third_party/setup-agent-analytics/) | Analytics | Detect AI agents in your codebase and instrument them with Pendo agent analytics via the best-fit path: Python SDK, TypeScript SDK, client-side trackAgent(), or the Conversations API |
 | `setup-mcp-agent-analytics` | [Pendo MCP Agent Analytics Setup](third_party/setup-mcp-agent-analytics/) | Analytics | Detect an MCP server's language (Python, TypeScript, Go, or Java) and instrument it with the matching Pendo SDK so MCP tool calls flow into Pendo Agent Analytics |
 | `shapes` | [Shapes](third_party/shapes/) | Productivity | Analyse your live people data, right in Claude. |

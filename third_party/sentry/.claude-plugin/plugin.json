@@ -1,8 +1,8 @@
 {
   "name": "sentry",
   "displayName": "Sentry",
-  "version": "0.7.0",
-  "description": "Investigate Sentry errors, stack traces, and issues for a project.",
+  "version": "0.7.1",
+  "description": "Search Sentry errors, analyze performance, triage issues, read Sentry docs, and manage projects, scoped to one organization and project.",
   "author": {
     "name": "Syncfusion"
   },

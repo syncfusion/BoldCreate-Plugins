@@ -2,7 +2,7 @@
 
 BoldCreate plugin that connects agents to Sentry through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Investigate Sentry errors, stack traces, and issues for a project.
+Search Sentry errors, analyze performance, triage issues, read Sentry docs, and manage projects, scoped to one organization and project.
 
 ## Install
 
@@ -34,9 +34,16 @@ Set these when you install the plugin. They only scope the server to one organiz
 
 The first time the agent calls a tool, each member signs in to their own account in the browser (OAuth). Tool calls run with that member's permissions.
 
+The server asks for these OAuth scopes: `org:read`, `project:write`, `team:write`, `event:write`, `alerts:write`.
+
+Scoping to a project is the vendor's recommendation. With a scope set, tools default to that organization and project, and discovery tools that are no longer needed are hidden.
+
+This is Sentry's hosted server for sentry.io. Self-hosted Sentry is not covered; Sentry offers a separate local (stdio) server for that.
+
 ## Docs
 
 - Sentry MCP server: https://mcp.sentry.dev/
+- Source: https://github.com/getsentry/toolkit
 
 ## Logo
 
