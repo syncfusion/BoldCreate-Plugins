@@ -2,6 +2,13 @@
 
 All notable changes to this plugin will be documented here.
 
+## 0.7.2 - 2026-11-10
+
+- Documented what the server offers: 76 tools in five skills, which skills are on by default, and which ones can write or delete.
+- Listed the `Sentry-Bearer` API token mode as an alternative sign-in method (`header`). Sign-in is still OAuth by default.
+- Noted the rate-limit behaviour and the OAuth scope difference.
+- Pointed the source link at `getsentry/toolkit`.
+
 ## 0.7.1 - 2026-11-10
 
 - Checked the hosted server again: the endpoint, streamable HTTP and OAuth are unchanged.

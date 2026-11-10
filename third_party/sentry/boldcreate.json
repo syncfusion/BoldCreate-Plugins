@@ -4,7 +4,9 @@
   "wave": "B",
   "transport": "streamable-http",
   "auth": "oauth",
-  "alternativeAuth": [],
+  "alternativeAuth": [
+    "header"
+  ],
   "oauthScopes": [
     "org:read",
     "project:write",
@@ -16,6 +18,6 @@
   "docs": "https://mcp.sentry.dev/",
   "endpointCheck": {
     "lastLiveCheck": "2026-11-10",
-    "source": "anonymous MCP request on 2026-11-10: HTTP 401 with a Bearer challenge that points to OAuth metadata; scopes from mcp.sentry.dev/.well-known/oauth-authorization-server; URL pattern from mcp.sentry.dev/llms.txt"
+    "source": "anonymous MCP request on 2026-11-10: HTTP 401 with a Bearer challenge that points to OAuth metadata; scopes from mcp.sentry.dev/.well-known/oauth-authorization-server; tools, skills and Sentry-Bearer mode from getsentry/toolkit (toolDefinitions.json, skillDefinitions.json, mcp-handler.ts)"
   }
 }

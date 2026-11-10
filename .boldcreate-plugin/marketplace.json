@@ -13454,7 +13454,7 @@
     {
       "name": "sentry",
       "displayName": "Sentry",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "description": "Search Sentry errors, analyze performance, triage issues, read Sentry docs, and manage projects, scoped to one organization and project.",
       "source": "third_party/sentry",
       "logo": "third_party/sentry/assets/logo.svg",

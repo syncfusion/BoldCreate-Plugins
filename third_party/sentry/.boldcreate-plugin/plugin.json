@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/boldcreate-plugin.schema.json",
   "name": "sentry",
   "displayName": "Sentry",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Search Sentry errors, analyze performance, triage issues, read Sentry docs, and manage projects, scoped to one organization and project.",
   "author": {
     "name": "Syncfusion"
@@ -48,7 +48,9 @@
         "url": "https://mcp.sentry.dev/mcp/${SENTRY_ORG}/${SENTRY_PROJECT}",
         "auth": {
           "type": "oauth",
-          "alternatives": [],
+          "alternatives": [
+            "header"
+          ],
           "scopes": [
             "org:read",
             "project:write",
@@ -67,6 +69,6 @@
   },
   "endpointCheck": {
     "lastLiveCheck": "2026-11-10",
-    "source": "anonymous MCP request on 2026-11-10: HTTP 401 with a Bearer challenge that points to OAuth metadata; scopes from mcp.sentry.dev/.well-known/oauth-authorization-server; URL pattern from mcp.sentry.dev/llms.txt"
+    "source": "anonymous MCP request on 2026-11-10: HTTP 401 with a Bearer challenge that points to OAuth metadata; scopes from mcp.sentry.dev/.well-known/oauth-authorization-server; tools, skills and Sentry-Bearer mode from getsentry/toolkit (toolDefinitions.json, skillDefinitions.json, mcp-handler.ts)"
   }
 }
