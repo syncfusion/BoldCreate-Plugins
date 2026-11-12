@@ -33,6 +33,11 @@
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
     },
     {
+      "name": "bolddesk",
+      "source": "./third_party/bolddesk",
+      "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk."
+    },
+    {
       "name": "clickhouse",
       "source": "./third_party/clickhouse",
       "description": "Query and explore your ClickHouse Cloud data."
