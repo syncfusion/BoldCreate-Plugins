@@ -22,7 +22,7 @@
     "BOLDDESK_HOST": {
       "type": "string",
       "title": "BoldDesk host",
-      "description": "Your BoldDesk host name, such as yourcompany.bolddesk.com, or your mapped custom domain. It must match your account, or BoldDesk rejects the request.",
+      "description": "The full host name of your BoldDesk account, such as yourcompany.bolddesk.com (not just \"yourcompany\"), or your mapped custom domain. It must match your account, or BoldDesk rejects the request.",
       "required": true,
       "sensitive": false
     }

@@ -45,15 +45,23 @@ Set this when you install the plugin.
 
 | Setting | Required | Secret | What to enter |
 | --- | --- | --- | --- |
-| **BoldDesk host** (`BOLDDESK_HOST`) | Yes | No | Your BoldDesk host name, such as yourcompany.bolddesk.com, or your mapped custom domain. It must match your account, or BoldDesk rejects the request. |
+| **BoldDesk host** (`BOLDDESK_HOST`) | Yes | No | The full host name of your BoldDesk account, such as yourcompany.bolddesk.com (not just "yourcompany"), or your mapped custom domain. It must match your account, or BoldDesk rejects the request. |
 
-Auth is OAuth 2.0 (automatic registration). The first time the agent calls a tool, each member signs in to BoldDesk in the browser. Tool calls run with that member's permissions.
+## Sign-in options
+
+BoldDesk supports two ways to sign in. Both use the endpoint `https://<host>/mcp`, and either one acts with the permissions and brand access of the user who signs in.
+
+| Option | Use it for | How |
+| --- | --- | --- |
+| **OAuth 2.0** (default) | People using an AI assistant or editor | Choose OAuth in **Authentication**. BoldDesk registers the client automatically, so there is no client ID or secret. The first time the agent calls a tool, each member signs in to BoldDesk in the browser and accepts the consent request. |
+| **API key** | Trusted server-side and automation workflows | Choose **API key** in **Authentication**, set the header name to `x-api-key`, and enter your BoldDesk API key. |
 
 ## Before you connect
 
 - A BoldDesk admin turns the MCP server on and manages connected OAuth clients in **AI Center, MCP Server**. BoldDesk registers clients dynamically, so there is no client ID or secret to enter here.
+- The endpoint must match your account host. A request to a mismatched host is rejected.
 - BoldDesk recommends trying read-only requests first, before using tools that create or change data.
-- To use an API key instead of OAuth, open the server in BoldCreate Connect, set **Authentication** to **API key**, use the header name `x-api-key`, and enter your BoldDesk API key. The key acts with the permissions of its user. Keep it secret and rotate it regularly.
+- Keep API keys secret and rotate them regularly. Review connected OAuth clients in **AI Center, MCP Server** and revoke any you no longer use.
 
 ## Docs
 
