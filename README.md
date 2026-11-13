@@ -57,6 +57,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `bolddesk` | [BoldDesk](third_party/bolddesk/) | Customer Support | Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk. |
 | `cashfree` | [Cashfree](third_party/cashfree/) | Payments | Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree. |
 | `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Query and explore your ClickHouse Cloud data. |
+| `coingecko` | [CoinGecko](third_party/coingecko/) | Finance | Connect AI agents to real-time crypto data via the CoinGecko MCP Server. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `datadog` | [Datadog](third_party/datadog/) | Observability | Query Datadog logs, metrics, traces, incidents, and monitors. |
 | `deepwiki` | [DeepWiki](third_party/deepwiki/) | Documentation | Ask questions about any public GitHub repository and read its generated wiki. |
@@ -119,6 +120,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `stripe` | [Stripe](third_party/stripe/) | Payments | Interact with the Stripe API and search the Stripe knowledge base, including documentation and support articles. |
 | `supabase` | [Supabase](third_party/supabase/) | Database | Connect AI assistants to your Supabase project to manage tables, fetch config, and query them. |
 | `tavily` | [Tavily](third_party/tavily/) | AI | Web search, content extraction, crawling, deep research, and URL discovery. |
+| `twelve-data` | [Twelve Data](third_party/twelve-data/) | Finance | Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings. |
 | `twilio` | [Twilio](third_party/twilio/) | Communication | Search Twilio documentation and API specifications, with 57 Twilio and SendGrid skills. |
 | `vercel` | [Vercel](third_party/vercel/) | Hosting | Search Vercel documentation, manage projects, inspect deployments, and query Web Analytics. |
 | `webflow` | [Webflow](third_party/webflow/) | Hosting | AI-powered design and management for Webflow sites. |

@@ -53,6 +53,11 @@
       "description": "Query and explore your ClickHouse Cloud data."
     },
     {
+      "name": "coingecko",
+      "source": "./third_party/coingecko",
+      "description": "Connect AI agents to real-time crypto data via the CoinGecko MCP Server."
+    },
+    {
       "name": "context7",
       "source": "./third_party/context7",
       "description": "Pull up-to-date, version-specific library docs and code examples into the prompt."
@@ -451,6 +456,11 @@
       "name": "tavily",
       "source": "./third_party/tavily",
       "description": "Web search, content extraction, crawling, deep research, and URL discovery."
+    },
+    {
+      "name": "twelve-data",
+      "source": "./third_party/twelve-data",
+      "description": "Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings."
     },
     {
       "name": "twilio",

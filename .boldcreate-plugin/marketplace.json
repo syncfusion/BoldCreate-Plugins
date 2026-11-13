@@ -225,6 +225,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "coingecko",
+      "displayName": "CoinGecko",
+      "version": "0.1.0",
+      "description": "Connect AI agents to real-time crypto data via the CoinGecko MCP Server.",
+      "source": "third_party/coingecko",
+      "logo": "third_party/coingecko/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "context7",
       "displayName": "Context7",
       "version": "0.7.1",
@@ -2051,6 +2076,31 @@
         "mcp",
         "skills",
         "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "twelve-data",
+      "displayName": "Twelve Data",
+      "version": "0.1.0",
+      "description": "Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings.",
+      "source": "third_party/twelve-data",
+      "logo": "third_party/twelve-data/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"

@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "twelve-data",
+  "displayName": "Twelve Data",
+  "version": "0.1.0",
+  "description": "Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://twelvedata.com/docs/ai/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "finance",
+  "keywords": [
+    "twelve-data",
+    "market-data",
+    "stocks",
+    "forex",
+    "crypto",
+    "etf",
+    "technical-indicators",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://twelvedata.com/docs/ai/mcp-server",
+  "upstream": {
+    "repository": "https://github.com/MazeBraker/twelvedata-skills",
+    "path": "skills",
+    "commit": "76b9acf146f1b2c19f3da272e9f85eaf27200a8b",
+    "author": "Twelve Data",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "twelve-data",
+        "transport": "streamable-http",
+        "url": "https://mcp.twelvedata.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "twelvedata-api",
+      "twelvedata-best-practices",
+      "twelvedata-funds",
+      "twelvedata-indicators",
+      "twelvedata-websocket"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.twelvedata.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://auth.twelvedata.com lists a registration endpoint, client ID metadata documents and S256 PKCE"
+  }
+}
