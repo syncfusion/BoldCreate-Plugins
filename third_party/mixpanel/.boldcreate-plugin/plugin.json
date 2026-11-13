@@ -48,15 +48,12 @@
       "analyze-report",
       "create-dashboard",
       "deep-research",
-      "install",
       "learn-mcp",
-      "manage-boards",
       "manage-experiment",
       "manage-feature-flags",
       "manage-lexicon",
       "monitor-metrics",
-      "prepare-ai-readiness",
-      "tracking-implementation"
+      "prepare-ai-readiness"
     ],
     "rules": [],
     "hooks": [],
