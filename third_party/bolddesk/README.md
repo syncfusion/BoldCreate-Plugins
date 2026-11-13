@@ -47,12 +47,13 @@ Set this when you install the plugin.
 | --- | --- | --- | --- |
 | **BoldDesk host** (`BOLDDESK_HOST`) | Yes | No | Your BoldDesk host name, such as yourcompany.bolddesk.com, or your mapped custom domain. It must match your account, or BoldDesk rejects the request. |
 
-Sign-in is OAuth 2.0 only (automatic registration). The plugin does not offer an API key option. The first time the agent calls a tool, each member signs in to BoldDesk in the browser. Tool calls run with that member's permissions.
+Auth is OAuth 2.0 (automatic registration). The first time the agent calls a tool, each member signs in to BoldDesk in the browser. Tool calls run with that member's permissions.
 
 ## Before you connect
 
 - A BoldDesk admin turns the MCP server on and manages connected OAuth clients in **AI Center, MCP Server**. BoldDesk registers clients dynamically, so there is no client ID or secret to enter here.
 - BoldDesk recommends trying read-only requests first, before using tools that create or change data.
+- To use an API key instead of OAuth, open the server in BoldCreate Connect, set **Authentication** to **API key**, use the header name `x-api-key`, and enter your BoldDesk API key. The key acts with the permissions of its user. Keep it secret and rotate it regularly.
 
 ## Docs
 
