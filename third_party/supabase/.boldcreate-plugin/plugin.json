@@ -34,13 +34,20 @@
     "wave": "A"
   },
   "supportedByGateway": true,
-  "variables": {},
+  "variables": {
+    "SUPABASE_READ_ONLY": {
+      "title": "Read-only mode",
+      "description": "Enter \"true\" to run queries as a read-only Postgres user, or \"false\" to allow writes. There is no default, so you must set a value.",
+      "required": true,
+      "secret": false
+    }
+  },
   "components": {
     "mcp": [
       {
         "name": "supabase",
         "transport": "streamable-http",
-        "url": "https://mcp.supabase.com/mcp?read_only=false",
+        "url": "https://mcp.supabase.com/mcp?read_only=${SUPABASE_READ_ONLY}",
         "auth": {
           "type": "oauth",
           "alternatives": [

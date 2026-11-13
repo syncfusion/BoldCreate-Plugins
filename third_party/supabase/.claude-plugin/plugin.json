@@ -18,10 +18,19 @@
     "mcp"
   ],
   "icon": "./assets/logo.svg",
+  "userConfig": {
+    "SUPABASE_READ_ONLY": {
+      "type": "string",
+      "title": "Read-only mode",
+      "description": "Enter \"true\" to run queries as a read-only Postgres user, or \"false\" to allow writes. There is no default, so you must set a value.",
+      "required": true,
+      "sensitive": false
+    }
+  },
   "mcpServers": {
     "supabase": {
       "type": "http",
-      "url": "https://mcp.supabase.com/mcp?read_only=false"
+      "url": "https://mcp.supabase.com/mcp?read_only=${user_config.SUPABASE_READ_ONLY}"
     }
   }
 }
