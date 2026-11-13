@@ -1,7 +1,7 @@
 {
   "name": "supabase",
   "displayName": "Supabase",
-  "version": "0.7.2",
+  "version": "0.7.1",
   "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
   "author": {
     "name": "Syncfusion"

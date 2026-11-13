@@ -1,7 +1,7 @@
 {
   "name": "supabase",
   "displayName": "Supabase",
-  "version": "0.7.2",
+  "version": "0.7.1",
   "minClientVersions": {
     "cursor": "3.13.0"
   },
