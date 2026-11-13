@@ -1043,14 +1043,13 @@
     {
       "name": "mixpanel",
       "displayName": "Mixpanel",
-      "version": "0.2.0",
+      "version": "0.1.0",
       "description": "Analyze, query, and manage your Mixpanel data.",
       "source": "third_party/mixpanel",
       "logo": "third_party/mixpanel/assets/logo.svg",
       "category": "analytics",
       "components": [
-        "mcp",
-        "skills"
+        "mcp"
       ],
       "transports": [
         "streamable-http"
