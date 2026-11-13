@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "swagger",
+  "displayName": "Swagger",
+  "version": "0.1.0",
+  "description": "Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.smartbear.com/smartbear-mcp/docs/remote-swagger",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "swagger",
+    "swaggerhub",
+    "openapi",
+    "asyncapi",
+    "api-design",
+    "api-governance",
+    "api-documentation",
+    "smartbear",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developer.smartbear.com/smartbear-mcp/docs/remote-swagger",
+  "upstream": {
+    "repository": "https://github.com/SmartBear/swagger-agent-skills",
+    "path": "plugins/cursor/rules",
+    "commit": "7c4ef60b915a9080afc598026804ee640eac46aa",
+    "author": "SmartBear",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "swagger",
+        "transport": "streamable-http",
+        "url": "https://swagger.mcp.smartbear.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "header"
+          ]
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [
+      "swagger"
+    ],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://swagger.mcp.smartbear.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate OAuth and a resource_metadata link; authorization server metadata at https://auth.swaggerhub.com lists a registration endpoint and S256 PKCE"
+  }
+}

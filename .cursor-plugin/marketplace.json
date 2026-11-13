@@ -43,6 +43,11 @@
       "source": "third_party/bolddesk"
     },
     {
+      "name": "brevo",
+      "description": "Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language.",
+      "source": "third_party/brevo"
+    },
+    {
       "name": "cashfree",
       "description": "Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree.",
       "source": "third_party/cashfree"
@@ -51,6 +56,11 @@
       "name": "clickhouse",
       "description": "Query and explore your ClickHouse Cloud data.",
       "source": "third_party/clickhouse"
+    },
+    {
+      "name": "cloudinary",
+      "description": "Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language.",
+      "source": "third_party/cloudinary"
     },
     {
       "name": "coingecko",
@@ -238,6 +248,11 @@
       "source": "third_party/google-workspace-search"
     },
     {
+      "name": "harness",
+      "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
+      "source": "third_party/harness"
+    },
+    {
       "name": "hubspot",
       "description": "Secure read and write access to your HubSpot CRM data — contacts, deals, engagements, and more.",
       "source": "third_party/hubspot"
@@ -276,6 +291,11 @@
       "name": "microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more.",
       "source": "third_party/microsoft-learn"
+    },
+    {
+      "name": "mintlify",
+      "description": "Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules.",
+      "source": "third_party/mintlify"
     },
     {
       "name": "mixpanel",
@@ -333,6 +353,11 @@
       "source": "third_party/replit"
     },
     {
+      "name": "roboflow",
+      "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
+      "source": "third_party/roboflow"
+    },
+    {
       "name": "sentry",
       "description": "Search errors, analyze performance, triage issues, read documentation, and manage projects in Sentry.",
       "source": "third_party/sentry"
@@ -361,6 +386,11 @@
       "name": "supabase",
       "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
       "source": "third_party/supabase"
+    },
+    {
+      "name": "swagger",
+      "description": "Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals.",
+      "source": "third_party/swagger"
     },
     {
       "name": "syncfusion-angular",

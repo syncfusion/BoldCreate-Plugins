@@ -1,0 +1,35 @@
+{
+  "name": "swagger",
+  "displayName": "Swagger",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.smartbear.com/smartbear-mcp/docs/remote-swagger",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "swagger",
+    "swaggerhub",
+    "openapi",
+    "asyncapi",
+    "api-design",
+    "api-governance",
+    "api-documentation",
+    "smartbear",
+    "mcp"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "mcp",
+    "rules"
+  ],
+  "rules": "./rules/",
+  "mcpServers": "./mcp.json"
+}

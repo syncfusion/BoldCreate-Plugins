@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [
+    "bearer"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.brevo.com/docs/mcp-protocol",
+  "upstream": {
+    "repository": "https://github.com/getbrevo/brevo-skills",
+    "path": "skills",
+    "commit": "399856558d83de75b97f99c3601c14b34f12e74b",
+    "author": "Brevo",
+    "license": "MIT"
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.brevo.com/v1/openai/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://mcp.brevo.com/v1/openai/oauth lists a registration endpoint and S256 PKCE"
+  }
+}

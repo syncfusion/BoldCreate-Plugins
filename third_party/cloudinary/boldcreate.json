@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [
+    "header"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://cloudinary.com/documentation/cloudinary_llm_mcp",
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of the four /mcp addresses on asset-management, environment-config, structured-metadata and analysis .mcp.cloudinary.com: each unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; each authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

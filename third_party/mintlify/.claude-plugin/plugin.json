@@ -1,0 +1,28 @@
+{
+  "name": "mintlify",
+  "displayName": "Mintlify",
+  "version": "0.1.0",
+  "description": "Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.mintlify.com/docs/ai/mintlify-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mintlify",
+    "documentation",
+    "docs",
+    "mdx",
+    "docs-as-code",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mintlify": {
+      "type": "http",
+      "url": "https://mcp.mintlify.com"
+    }
+  }
+}

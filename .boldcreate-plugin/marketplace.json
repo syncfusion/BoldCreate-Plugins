@@ -177,6 +177,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "brevo",
+      "displayName": "Brevo",
+      "version": "0.1.0",
+      "description": "Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language.",
+      "source": "third_party/brevo",
+      "logo": "third_party/brevo/assets/logo.svg",
+      "category": "communication",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "cashfree",
       "displayName": "Cashfree",
       "version": "0.1.0",
@@ -208,6 +233,30 @@
       "source": "third_party/clickhouse",
       "logo": "third_party/clickhouse/assets/logo.png",
       "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "cloudinary",
+      "displayName": "Cloudinary",
+      "version": "0.1.0",
+      "description": "Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language.",
+      "source": "third_party/cloudinary",
+      "logo": "third_party/cloudinary/assets/logo.png",
+      "category": "design",
       "components": [
         "mcp"
       ],
@@ -1116,6 +1165,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "harness",
+      "displayName": "Harness",
+      "version": "0.1.0",
+      "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
+      "source": "third_party/harness",
+      "logo": "third_party/harness/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "hubspot",
       "displayName": "HubSpot",
       "version": "0.1.0",
@@ -1307,6 +1381,32 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mintlify",
+      "displayName": "Mintlify",
+      "version": "0.1.0",
+      "description": "Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules.",
+      "source": "third_party/mintlify",
+      "logo": "third_party/mintlify/assets/logo.svg",
+      "category": "documentation",
+      "components": [
+        "mcp",
+        "skills",
+        "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -1575,6 +1675,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "roboflow",
+      "displayName": "Roboflow",
+      "version": "0.1.0",
+      "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
+      "source": "third_party/roboflow",
+      "logo": "third_party/roboflow/assets/logo.png",
+      "category": "ai",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "sentry",
       "displayName": "Sentry",
       "version": "0.7.0",
@@ -1719,6 +1844,31 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "swagger",
+      "displayName": "Swagger",
+      "version": "0.1.0",
+      "description": "Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals.",
+      "source": "third_party/swagger",
+      "logo": "third_party/swagger/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "mcp",
+        "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },

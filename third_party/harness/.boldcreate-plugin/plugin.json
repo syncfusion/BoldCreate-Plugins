@@ -1,0 +1,149 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "harness",
+  "displayName": "Harness",
+  "version": "0.1.0",
+  "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.harness.io/harness-platform/use-harness-ai/connect-with-ai/index/hosted-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "harness",
+    "ci-cd",
+    "devops",
+    "pipelines",
+    "gitops",
+    "feature-flags",
+    "cloud-cost",
+    "chaos-engineering",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developer.harness.io/harness-platform/use-harness-ai/connect-with-ai/index/hosted-mcp",
+  "upstream": {
+    "repository": "https://github.com/harness/harness-ai",
+    "path": "plugins/cursor/skills",
+    "commit": "ca2ab816842172cab64fe0df5f76d9ff2d286d4f",
+    "author": "Harness",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {
+    "CLIENT_ID": {
+      "title": "Client ID",
+      "description": "The OAuth client ID that Harness documents for its hosted MCP server. It is not a secret. Replace it only if Harness gives your team a different one.",
+      "required": false,
+      "secret": false,
+      "default": "mcp-client"
+    }
+  },
+  "components": {
+    "mcp": [
+      {
+        "name": "harness",
+        "transport": "streamable-http",
+        "url": "https://mcp.harness.io/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [],
+          "oauthClient": {
+            "clientId": "${CLIENT_ID}"
+          }
+        }
+      }
+    ],
+    "skills": [
+      "ai-operations",
+      "analyze-costs",
+      "approve-exempt",
+      "audit-report",
+      "chaos-code-risk-scan",
+      "chaos-dr-test",
+      "chaos-experiment",
+      "choose-metric",
+      "cleanup-feature-flags",
+      "configure-agent-pr-attestation",
+      "configure-container-scan",
+      "configure-dast-scan",
+      "configure-repo-scan",
+      "configure-secret-scan",
+      "create-agent",
+      "create-agent-template",
+      "create-connector",
+      "create-environment",
+      "create-experiment",
+      "create-feature-flag",
+      "create-infrastructure",
+      "create-metric",
+      "create-pipeline",
+      "create-pipeline-v1",
+      "create-policy",
+      "create-sbom",
+      "create-secret",
+      "create-service",
+      "create-template",
+      "create-trigger",
+      "dbops-changeset",
+      "debug-pipeline",
+      "deployment-readiness",
+      "discover-feature-flags",
+      "dora-metrics",
+      "enforce-sbom",
+      "enforce-slsa",
+      "exempt-vuln",
+      "explain-flag",
+      "feature-flag-onboarding",
+      "fme-pipeline",
+      "generate-slsa",
+      "gitops-status",
+      "incident-response",
+      "instrument-feature-flag",
+      "instrument-metric",
+      "manage-artifacts",
+      "manage-cde",
+      "manage-delegates",
+      "manage-experiments",
+      "manage-flag-lifecycle",
+      "manage-freeze-windows",
+      "manage-iacm",
+      "manage-idp",
+      "manage-pull-requests",
+      "manage-roles",
+      "manage-segments",
+      "manage-slos",
+      "manage-supply-chain",
+      "manage-users",
+      "migrate-pipeline",
+      "optimize-pipeline",
+      "pr-analysis",
+      "review-experiment-results",
+      "run-pipeline",
+      "scorecard-review",
+      "security-report",
+      "sei-analytics",
+      "sign-artifact",
+      "template-usage",
+      "update-flag-targeting",
+      "verify-sign",
+      "write-hql"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.harness.io/mcp: unauthenticated initialize returned HTTP 401 with no WWW-Authenticate header; protected-resource metadata at /.well-known/oauth-protected-resource/mcp names https://id.harness.io/idp/realms/HarnessIDP, whose metadata lists a registration endpoint and S256 PKCE"
+  }
+}

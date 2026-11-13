@@ -1,0 +1,29 @@
+{
+  "name": "brevo",
+  "displayName": "Brevo",
+  "version": "0.1.0",
+  "description": "Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.brevo.com/docs/mcp-protocol",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "brevo",
+    "email",
+    "email-marketing",
+    "campaigns",
+    "contacts",
+    "sms",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "brevo": {
+      "type": "http",
+      "url": "https://mcp.brevo.com/v1/openai/mcp"
+    }
+  }
+}
