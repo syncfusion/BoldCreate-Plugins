@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 2,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/dropbox/dropbox-ai-plugins/tree/main/cursor",
+  "oauthScopes": [
+    "account_info.read",
+    "files.metadata.read",
+    "files.content.read",
+    "files.content.write",
+    "sharing.read",
+    "sharing.write",
+    "file_requests.read",
+    "file_requests.write"
+  ],
+  "upstream": {
+    "repository": "https://github.com/dropbox/dropbox-ai-plugins",
+    "path": "cursor",
+    "commit": "078f0ca36df40f054829b58731a5f86a561d9668",
+    "author": "Dropbox",
+    "license": "Apache-2.0"
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "vendor plugin repository (dropbox/dropbox-ai-plugins at 078f0ca, cursor/mcp.json); live: OAuth protected-resource metadata returns 200 and an unauthenticated request returns 401 with a Bearer challenge"
+  }
+}

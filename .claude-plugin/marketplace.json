@@ -53,6 +53,11 @@
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
     },
     {
+      "name": "dropbox",
+      "source": "./third_party/dropbox",
+      "description": "Connect your Dropbox files so you can search, reference, and organize them, save generated content, and create sharing links without switching tools."
+    },
+    {
       "name": "figma",
       "source": "./third_party/figma",
       "description": "Turn Figma frames into code and read design tokens, components, and variables."

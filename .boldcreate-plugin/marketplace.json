@@ -225,6 +225,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "dropbox",
+      "displayName": "Dropbox",
+      "version": "0.1.0",
+      "description": "Connect your Dropbox files so you can search, reference, and organize them, save generated content, and create sharing links without switching tools.",
+      "source": "third_party/dropbox",
+      "logo": "third_party/dropbox/assets/logo.png",
+      "category": "productivity",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 2,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "figma",
       "displayName": "Figma",
       "version": "0.7.0",

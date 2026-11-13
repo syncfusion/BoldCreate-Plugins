@@ -1,0 +1,97 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "dropbox",
+  "displayName": "Dropbox",
+  "version": "0.1.0",
+  "description": "Connect your Dropbox files so you can search, reference, and organize them, save generated content, and create sharing links without switching tools.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.dropbox.com",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "productivity",
+  "keywords": [
+    "dropbox",
+    "files",
+    "storage",
+    "cloud",
+    "cloud storage",
+    "save",
+    "upload",
+    "download",
+    "share",
+    "sharing",
+    "sync",
+    "folder",
+    "folders",
+    "documents",
+    "docs",
+    "content",
+    "links",
+    "permissions",
+    "organize",
+    "search",
+    "retrieve",
+    "manage",
+    "import",
+    "export",
+    "file requests",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/dropbox/dropbox-ai-plugins/tree/main/cursor",
+  "upstream": {
+    "repository": "https://github.com/dropbox/dropbox-ai-plugins",
+    "path": "cursor",
+    "commit": "078f0ca36df40f054829b58731a5f86a561d9668",
+    "author": "Dropbox",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 2,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "dropbox",
+        "transport": "streamable-http",
+        "url": "https://mcp.dropbox.com/cursor_app_mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [],
+          "scopes": [
+            "account_info.read",
+            "files.metadata.read",
+            "files.content.read",
+            "files.content.write",
+            "sharing.read",
+            "sharing.write",
+            "file_requests.read",
+            "file_requests.write"
+          ]
+        }
+      }
+    ],
+    "skills": [
+      "clean-up-dropbox-content",
+      "collect-files-with-request",
+      "find-dropbox-content",
+      "inspect-dropbox-file",
+      "organize-dropbox-folder",
+      "share-dropbox-content"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "vendor plugin repository (dropbox/dropbox-ai-plugins at 078f0ca, cursor/mcp.json); live: OAuth protected-resource metadata returns 200 and an unauthenticated request returns 401 with a Bearer challenge"
+  }
+}

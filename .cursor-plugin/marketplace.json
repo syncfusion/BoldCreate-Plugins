@@ -53,6 +53,11 @@
       "source": "third_party/deepwiki"
     },
     {
+      "name": "dropbox",
+      "description": "Connect your Dropbox files so you can search, reference, and organize them, save generated content, and create sharing links without switching tools.",
+      "source": "third_party/dropbox"
+    },
+    {
       "name": "figma",
       "description": "Turn Figma frames into code and read design tokens, components, and variables.",
       "source": "third_party/figma"
