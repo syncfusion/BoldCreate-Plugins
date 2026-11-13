@@ -1,0 +1,34 @@
+{
+  "name": "airwallex-agentos",
+  "displayName": "Airwallex",
+  "version": "0.1.0",
+  "description": "Bring Airwallex's global financial infrastructure to your AI agent. Orchestrate actions across your account in plain language, e.g., set up invoices from a PO, onboard suppliers from invoices, and check current cash position across currencies. AgentOS bundles pre-built finance Skills with MCP servers. A public CLI connects your agent to Airwallex's capabilities.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.airwallex.com/docs",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "airwallex",
+    "business accounts",
+    "billing",
+    "invoices",
+    "payments",
+    "issuing",
+    "treasury",
+    "cli",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "airwallex-dev": {
+      "type": "http",
+      "url": "https://mcp.sandbox.airwallex.com/developer"
+    },
+    "airwallex-agentos": {
+      "type": "http",
+      "url": "https://mcp.airwallex.com/mcp"
+    }
+  }
+}
