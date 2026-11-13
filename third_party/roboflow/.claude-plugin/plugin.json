@@ -1,0 +1,30 @@
+{
+  "name": "roboflow",
+  "displayName": "Roboflow",
+  "version": "0.1.0",
+  "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.roboflow.com/agents/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "roboflow",
+    "computer-vision",
+    "datasets",
+    "annotation",
+    "training",
+    "inference",
+    "workflows",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "roboflow": {
+      "type": "http",
+      "url": "https://mcp.roboflow.com/mcp"
+    }
+  }
+}

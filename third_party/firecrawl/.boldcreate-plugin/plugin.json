@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "firecrawl",
+  "displayName": "Firecrawl",
+  "version": "0.1.0",
+  "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.firecrawl.dev/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "ai",
+  "keywords": [
+    "firecrawl",
+    "web-scraping",
+    "web-search",
+    "crawl",
+    "browser",
+    "research",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://docs.firecrawl.dev/mcp-server",
+  "upstream": {
+    "repository": "https://github.com/firecrawl/firecrawl-cursor-plugin",
+    "path": "skills",
+    "commit": "81aa63c0f5a7d8b6bb0f3df204156aad608eac78",
+    "author": "Firecrawl",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "firecrawl",
+        "transport": "streamable-http",
+        "url": "https://mcp.firecrawl.dev/v2/mcp-oauth",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "bearer"
+          ]
+        }
+      }
+    ],
+    "skills": [
+      "brand-identity",
+      "business-contact-research",
+      "design",
+      "enrich-lead",
+      "fantasy-sports",
+      "find-leads",
+      "firecrawl",
+      "flights-and-hotels",
+      "get-started",
+      "job-postings",
+      "local-businesses",
+      "markets-and-filings",
+      "news-coverage",
+      "prices-and-plans",
+      "property-listings",
+      "read-docs",
+      "seo-audit",
+      "video-transcripts"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.firecrawl.dev/v2/mcp-oauth: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://www.firecrawl.dev lists a registration endpoint, client ID metadata documents and S256 PKCE"
+  }
+}

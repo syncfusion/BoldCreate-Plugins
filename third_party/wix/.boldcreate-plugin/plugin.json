@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "wix",
+  "displayName": "Wix",
+  "version": "0.1.0",
+  "description": "Search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "hosting",
+  "keywords": [
+    "wix",
+    "website",
+    "ecommerce",
+    "cms",
+    "bookings",
+    "headless",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+  "upstream": {
+    "repository": "https://github.com/wix/skills",
+    "path": "skills",
+    "commit": "b69326692b240e198183953535d2754ef42f6238",
+    "author": "Wix",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "wix",
+        "transport": "streamable-http",
+        "url": "https://mcp.wix.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "wix-docs",
+      "wix-manage",
+      "wix-readme",
+      "wix-studio-two"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.wix.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

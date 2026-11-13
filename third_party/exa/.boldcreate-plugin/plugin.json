@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "exa",
+  "displayName": "Exa",
+  "version": "0.1.0",
+  "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://exa.ai/docs/get-started/exa-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "ai",
+  "keywords": [
+    "exa",
+    "web-search",
+    "research",
+    "web-fetch",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://exa.ai/docs/get-started/exa-mcp",
+  "upstream": {
+    "repository": "https://github.com/exa-labs/exa-mcp-server",
+    "path": "skills",
+    "commit": "93c0d5e1fecfc1ec9bf70fa9f3633962a1f2fa8a",
+    "author": "Exa",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "exa",
+        "transport": "streamable-http",
+        "url": "https://mcp.exa.ai/mcp/oauth",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "bearer"
+          ]
+        }
+      }
+    ],
+    "skills": [
+      "search"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.exa.ai/mcp/oauth: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://auth.exa.ai lists a registration endpoint, client ID metadata documents and S256 PKCE"
+  }
+}

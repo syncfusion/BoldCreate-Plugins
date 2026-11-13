@@ -1,0 +1,27 @@
+{
+  "name": "exa",
+  "displayName": "Exa",
+  "version": "0.1.0",
+  "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://exa.ai/docs/get-started/exa-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "exa",
+    "web-search",
+    "research",
+    "web-fetch",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "exa": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp/oauth"
+    }
+  }
+}

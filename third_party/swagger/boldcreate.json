@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [
+    "header"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developer.smartbear.com/smartbear-mcp/docs/remote-swagger",
+  "upstream": {
+    "repository": "https://github.com/SmartBear/swagger-agent-skills",
+    "path": "plugins/cursor/rules",
+    "commit": "7c4ef60b915a9080afc598026804ee640eac46aa",
+    "author": "SmartBear",
+    "license": "MIT"
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://swagger.mcp.smartbear.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate OAuth and a resource_metadata link; authorization server metadata at https://auth.swaggerhub.com lists a registration endpoint and S256 PKCE"
+  }
+}

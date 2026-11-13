@@ -1,0 +1,73 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "brevo",
+  "displayName": "Brevo",
+  "version": "0.1.0",
+  "description": "Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.brevo.com/docs/mcp-protocol",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "communication",
+  "keywords": [
+    "brevo",
+    "email",
+    "email-marketing",
+    "campaigns",
+    "contacts",
+    "sms",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.brevo.com/docs/mcp-protocol",
+  "upstream": {
+    "repository": "https://github.com/getbrevo/brevo-skills",
+    "path": "skills",
+    "commit": "399856558d83de75b97f99c3601c14b34f12e74b",
+    "author": "Brevo",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "brevo",
+        "transport": "streamable-http",
+        "url": "https://mcp.brevo.com/v1/openai/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "bearer"
+          ]
+        }
+      }
+    ],
+    "skills": [
+      "brevo-guide",
+      "email",
+      "email-brand-kit",
+      "email-campaign-create",
+      "email-template-check",
+      "email-template-to-dnd",
+      "email-template-write",
+      "email-test-preview"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.brevo.com/v1/openai/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://mcp.brevo.com/v1/openai/oauth lists a registration endpoint and S256 PKCE"
+  }
+}

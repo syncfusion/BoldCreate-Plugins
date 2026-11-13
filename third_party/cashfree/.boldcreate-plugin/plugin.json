@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "cashfree",
+  "displayName": "Cashfree",
+  "version": "0.1.0",
+  "description": "Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.cashfree.com/docs/tools-ai/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "payments",
+  "keywords": [
+    "cashfree",
+    "payments",
+    "settlements",
+    "refunds",
+    "payment-links",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.cashfree.com/docs/tools-ai/mcp-server",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "cashfree",
+        "transport": "streamable-http",
+        "url": "https://mcp.cashfree.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.cashfree.com/mcp: unauthenticated initialize returned HTTP 401 with an authentication_error body and no WWW-Authenticate header; protected-resource metadata at the server root names the server as its own authorization server, whose metadata lists a registration endpoint and S256 PKCE"
+  }
+}

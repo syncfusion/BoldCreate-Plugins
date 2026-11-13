@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mintlify",
+  "displayName": "Mintlify",
+  "version": "0.1.0",
+  "description": "Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.mintlify.com/docs/ai/mintlify-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "documentation",
+  "keywords": [
+    "mintlify",
+    "documentation",
+    "docs",
+    "mdx",
+    "docs-as-code",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.mintlify.com/docs/ai/mintlify-mcp",
+  "upstream": {
+    "repository": "https://github.com/mintlify/cursor-plugin",
+    "path": ".",
+    "commit": "f61ad66e0d187d11bcf5bf6cc4b7abdacc4a1c5c",
+    "author": "Mintlify",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "mintlify",
+        "transport": "streamable-http",
+        "url": "https://mcp.mintlify.com",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "mintlify"
+    ],
+    "rules": [
+      "mintlify"
+    ],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.mintlify.com: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

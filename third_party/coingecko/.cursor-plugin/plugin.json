@@ -1,0 +1,32 @@
+{
+  "name": "coingecko",
+  "displayName": "CoinGecko",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Connect AI agents to real-time crypto data via the CoinGecko MCP Server.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.coingecko.com/ai-integration/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "coingecko",
+    "crypto",
+    "market-data",
+    "onchain",
+    "mcp",
+    "skills"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "mcp",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

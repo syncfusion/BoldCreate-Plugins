@@ -1,0 +1,27 @@
+{
+  "name": "webflow",
+  "displayName": "Webflow",
+  "version": "0.1.0",
+  "description": "AI-powered design and management for Webflow sites.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.webflow.com/mcp/reference/overview",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "webflow",
+    "cms",
+    "website",
+    "designer",
+    "publishing",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "webflow": {
+      "type": "http",
+      "url": "https://mcp.webflow.com/mcp"
+    }
+  }
+}

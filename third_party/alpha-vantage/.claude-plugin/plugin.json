@@ -1,0 +1,29 @@
+{
+  "name": "alpha-vantage",
+  "displayName": "Alpha Vantage",
+  "version": "0.1.0",
+  "description": "Real-time and historical stock market data from Alpha Vantage.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mcp.alphavantage.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "alpha-vantage",
+    "stocks",
+    "market-data",
+    "forex",
+    "crypto",
+    "commodities",
+    "economic-indicators",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "alpha-vantage": {
+      "type": "http",
+      "url": "https://mcp.alphavantage.co/mcp"
+    }
+  }
+}

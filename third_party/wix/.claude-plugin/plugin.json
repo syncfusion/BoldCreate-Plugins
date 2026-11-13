@@ -1,0 +1,29 @@
+{
+  "name": "wix",
+  "displayName": "Wix",
+  "version": "0.1.0",
+  "description": "Search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "wix",
+    "website",
+    "ecommerce",
+    "cms",
+    "bookings",
+    "headless",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "wix": {
+      "type": "http",
+      "url": "https://mcp.wix.com/mcp"
+    }
+  }
+}

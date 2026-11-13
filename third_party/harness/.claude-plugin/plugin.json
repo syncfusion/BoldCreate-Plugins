@@ -1,0 +1,31 @@
+{
+  "name": "harness",
+  "displayName": "Harness",
+  "version": "0.1.0",
+  "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.harness.io/harness-platform/use-harness-ai/connect-with-ai/index/hosted-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "harness",
+    "ci-cd",
+    "devops",
+    "pipelines",
+    "gitops",
+    "feature-flags",
+    "cloud-cost",
+    "chaos-engineering",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "harness": {
+      "type": "http",
+      "url": "https://mcp.harness.io/mcp"
+    }
+  }
+}

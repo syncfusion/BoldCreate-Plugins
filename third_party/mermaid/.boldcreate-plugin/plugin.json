@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mermaid",
+  "displayName": "Mermaid",
+  "version": "0.1.0",
+  "description": "Create, validate, and render Mermaid diagrams, and manage them in your Mermaid account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mermaid.ai/docs/ai/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "design",
+  "keywords": [
+    "mermaid",
+    "diagrams",
+    "flowchart",
+    "sequence-diagram",
+    "rendering",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://mermaid.ai/docs/ai/mcp-server",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "mermaid",
+        "transport": "streamable-http",
+        "url": "https://mcp.mermaid.ai/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "header"
+          ]
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.mermaid.ai/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; the authorization server named there lists a registration endpoint and S256 PKCE"
+  }
+}

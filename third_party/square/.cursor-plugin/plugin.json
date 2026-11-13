@@ -1,0 +1,33 @@
+{
+  "name": "square",
+  "displayName": "Square",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Work with payments, orders, catalog, customers, and invoices.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.squareup.com/docs/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "square",
+    "payments",
+    "point-of-sale",
+    "orders",
+    "catalog",
+    "customers",
+    "invoices",
+    "mcp"
+  ],
+  "category": "payments",
+  "tags": [
+    "payments",
+    "mcp",
+    "http"
+  ],
+  "mcpServers": "./mcp.json"
+}

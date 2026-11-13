@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "hostedBy": "vendor",
+  "docs": "https://docs.coingecko.com/ai-integration/mcp-server",
+  "upstream": {
+    "repository": "https://github.com/coingecko/skills",
+    "path": "SKILL.md",
+    "commit": "84fb359ffd4667aa2a772fe3725e03bc586b7592",
+    "author": "CoinGecko",
+    "license": "MIT"
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.pro-api.coingecko.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; the server publishes its own authorization server metadata with a registration endpoint and S256 PKCE"
+  }
+}

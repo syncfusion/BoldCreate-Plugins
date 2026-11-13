@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "mem0",
+  "displayName": "Mem0",
+  "version": "0.1.0",
+  "description": "Add, search, update, and delete long-term memories in Mem0.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.mem0.ai/platform/mem0-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "keywords": [
+    "mem0",
+    "memory",
+    "long-term-memory",
+    "agents",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://docs.mem0.ai/platform/mem0-mcp",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "mem0",
+        "transport": "streamable-http",
+        "url": "https://mcp.mem0.ai/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "bearer"
+          ]
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.mem0.ai/mcp: the path redirects with HTTP 307 to /mcp/, and an unauthenticated initialize there returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

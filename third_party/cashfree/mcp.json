@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cashfree": {
+      "type": "http",
+      "url": "https://mcp.cashfree.com/mcp"
+    }
+  }
+}

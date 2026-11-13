@@ -1,0 +1,62 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "coingecko",
+  "displayName": "CoinGecko",
+  "version": "0.1.0",
+  "description": "Connect AI agents to real-time crypto data via the CoinGecko MCP Server.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.coingecko.com/ai-integration/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "finance",
+  "keywords": [
+    "coingecko",
+    "crypto",
+    "market-data",
+    "onchain",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://docs.coingecko.com/ai-integration/mcp-server",
+  "upstream": {
+    "repository": "https://github.com/coingecko/skills",
+    "path": "SKILL.md",
+    "commit": "84fb359ffd4667aa2a772fe3725e03bc586b7592",
+    "author": "CoinGecko",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "coingecko",
+        "transport": "streamable-http",
+        "url": "https://mcp.pro-api.coingecko.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "coingecko"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.pro-api.coingecko.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; the server publishes its own authorization server metadata with a registration endpoint and S256 PKCE"
+  }
+}

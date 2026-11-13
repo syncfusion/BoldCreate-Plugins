@@ -1,0 +1,27 @@
+{
+  "name": "mermaid",
+  "displayName": "Mermaid",
+  "version": "0.1.0",
+  "description": "Create, validate, and render Mermaid diagrams, and manage them in your Mermaid account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mermaid.ai/docs/ai/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mermaid",
+    "diagrams",
+    "flowchart",
+    "sequence-diagram",
+    "rendering",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mermaid": {
+      "type": "http",
+      "url": "https://mcp.mermaid.ai/mcp"
+    }
+  }
+}

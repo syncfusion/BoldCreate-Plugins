@@ -1,0 +1,90 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "cloudinary",
+  "displayName": "Cloudinary",
+  "version": "0.1.0",
+  "description": "Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://cloudinary.com/documentation/cloudinary_llm_mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "design",
+  "keywords": [
+    "cloudinary",
+    "images",
+    "video",
+    "media",
+    "transformations",
+    "asset-management",
+    "metadata",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://cloudinary.com/documentation/cloudinary_llm_mcp",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "cloudinary-asset-mgmt",
+        "transport": "streamable-http",
+        "url": "https://asset-management.mcp.cloudinary.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "header"
+          ]
+        }
+      },
+      {
+        "name": "cloudinary-env-config",
+        "transport": "streamable-http",
+        "url": "https://environment-config.mcp.cloudinary.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "header"
+          ]
+        }
+      },
+      {
+        "name": "cloudinary-smd",
+        "transport": "streamable-http",
+        "url": "https://structured-metadata.mcp.cloudinary.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "header"
+          ]
+        }
+      },
+      {
+        "name": "cloudinary-analysis",
+        "transport": "streamable-http",
+        "url": "https://analysis.mcp.cloudinary.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "header"
+          ]
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of the four /mcp addresses on asset-management, environment-config, structured-metadata and analysis .mcp.cloudinary.com: each unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; each authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

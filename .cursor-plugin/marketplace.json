@@ -8,6 +8,11 @@
   },
   "plugins": [
     {
+      "name": "alpha-vantage",
+      "description": "Real-time and historical stock market data from Alpha Vantage.",
+      "source": "third_party/alpha-vantage"
+    },
+    {
       "name": "amplitude",
       "description": "Query Amplitude product analytics, charts, and experiments.",
       "source": "third_party/amplitude"
@@ -38,9 +43,29 @@
       "source": "third_party/bolddesk"
     },
     {
+      "name": "brevo",
+      "description": "Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language.",
+      "source": "third_party/brevo"
+    },
+    {
+      "name": "cashfree",
+      "description": "Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree.",
+      "source": "third_party/cashfree"
+    },
+    {
       "name": "clickhouse",
       "description": "Query and explore your ClickHouse Cloud data.",
       "source": "third_party/clickhouse"
+    },
+    {
+      "name": "cloudinary",
+      "description": "Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language.",
+      "source": "third_party/cloudinary"
+    },
+    {
+      "name": "coingecko",
+      "description": "Connect AI agents to real-time crypto data via the CoinGecko MCP Server.",
+      "source": "third_party/coingecko"
     },
     {
       "name": "context7",
@@ -58,9 +83,24 @@
       "source": "third_party/deepwiki"
     },
     {
+      "name": "exa",
+      "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
+      "source": "third_party/exa"
+    },
+    {
       "name": "figma",
       "description": "Give AI agents the design context to generate code from your Figma files, and write native Figma content back to the canvas.",
       "source": "third_party/figma"
+    },
+    {
+      "name": "firecrawl",
+      "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor.",
+      "source": "third_party/firecrawl"
+    },
+    {
+      "name": "freshbooks",
+      "description": "Check profit, cash, invoices, clients, and more in your FreshBooks account.",
+      "source": "third_party/freshbooks"
     },
     {
       "name": "gitea",
@@ -208,6 +248,11 @@
       "source": "third_party/google-workspace-search"
     },
     {
+      "name": "harness",
+      "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
+      "source": "third_party/harness"
+    },
+    {
       "name": "hubspot",
       "description": "Secure read and write access to your HubSpot CRM data — contacts, deals, engagements, and more.",
       "source": "third_party/hubspot"
@@ -223,14 +268,34 @@
       "source": "third_party/linear"
     },
     {
+      "name": "make",
+      "description": "Build, run and debug Make automation scenarios.",
+      "source": "third_party/make"
+    },
+    {
       "name": "mdn",
       "description": "Search & retrieval of MDN docs & browser compat data.",
       "source": "third_party/mdn"
     },
     {
+      "name": "mem0",
+      "description": "Add, search, update, and delete long-term memories in Mem0.",
+      "source": "third_party/mem0"
+    },
+    {
+      "name": "mermaid",
+      "description": "Create, validate, and render Mermaid diagrams, and manage them in your Mermaid account.",
+      "source": "third_party/mermaid"
+    },
+    {
       "name": "microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more.",
       "source": "third_party/microsoft-learn"
+    },
+    {
+      "name": "mintlify",
+      "description": "Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules.",
+      "source": "third_party/mintlify"
     },
     {
       "name": "mixpanel",
@@ -273,6 +338,11 @@
       "source": "third_party/railway"
     },
     {
+      "name": "razorpay",
+      "description": "Work with your Razorpay account: payments, orders, refunds, payment links, and settlements.",
+      "source": "third_party/razorpay"
+    },
+    {
       "name": "render",
       "description": "Inspect Render services, deploys, and logs.",
       "source": "third_party/render"
@@ -281,6 +351,11 @@
       "name": "replit",
       "description": "Turn ideas into apps and websites instantly.",
       "source": "third_party/replit"
+    },
+    {
+      "name": "roboflow",
+      "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
+      "source": "third_party/roboflow"
     },
     {
       "name": "sentry",
@@ -298,6 +373,11 @@
       "source": "third_party/slack"
     },
     {
+      "name": "square",
+      "description": "Work with payments, orders, catalog, customers, and invoices.",
+      "source": "third_party/square"
+    },
+    {
       "name": "stripe",
       "description": "Interact with the Stripe API and search the Stripe knowledge base, including documentation and support articles.",
       "source": "third_party/stripe"
@@ -306,6 +386,11 @@
       "name": "supabase",
       "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
       "source": "third_party/supabase"
+    },
+    {
+      "name": "swagger",
+      "description": "Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals.",
+      "source": "third_party/swagger"
     },
     {
       "name": "syncfusion-angular",
@@ -398,6 +483,16 @@
       "source": "syncfusion/migration-skills/xamarin-to-maui"
     },
     {
+      "name": "tavily",
+      "description": "Web search, content extraction, crawling, deep research, and URL discovery.",
+      "source": "third_party/tavily"
+    },
+    {
+      "name": "twelve-data",
+      "description": "Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings.",
+      "source": "third_party/twelve-data"
+    },
+    {
       "name": "twilio",
       "description": "Build powerful communications and customer engagement.",
       "source": "third_party/twilio"
@@ -406,6 +501,16 @@
       "name": "vercel",
       "description": "Search Vercel documentation, manage projects, inspect deployments, and query Web Analytics.",
       "source": "third_party/vercel"
+    },
+    {
+      "name": "webflow",
+      "description": "AI-powered design and management for Webflow sites.",
+      "source": "third_party/webflow"
+    },
+    {
+      "name": "wix",
+      "description": "Search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites.",
+      "source": "third_party/wix"
     },
     {
       "name": "xero",

@@ -1,0 +1,35 @@
+{
+  "name": "twelve-data",
+  "displayName": "Twelve Data",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://twelvedata.com/docs/ai/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "twelve-data",
+    "market-data",
+    "stocks",
+    "forex",
+    "crypto",
+    "etf",
+    "technical-indicators",
+    "mcp",
+    "skills"
+  ],
+  "category": "finance",
+  "tags": [
+    "finance",
+    "mcp",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

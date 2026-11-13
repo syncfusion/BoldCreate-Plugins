@@ -1,0 +1,48 @@
+{
+  "name": "harness",
+  "displayName": "Harness",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.harness.io/harness-platform/use-harness-ai/connect-with-ai/index/hosted-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "harness",
+    "ci-cd",
+    "devops",
+    "pipelines",
+    "gitops",
+    "feature-flags",
+    "cloud-cost",
+    "chaos-engineering",
+    "mcp",
+    "skills"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "mcp",
+    "skills"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "CLIENT_ID": {
+        "type": "string",
+        "title": "Client ID",
+        "description": "The OAuth client ID that Harness documents for its hosted MCP server. It is not a secret. Replace it only if Harness gives your team a different one.",
+        "default": "mcp-client",
+        "x-sensitive": false
+      }
+    }
+  },
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

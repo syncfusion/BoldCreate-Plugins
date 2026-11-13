@@ -1,0 +1,28 @@
+{
+  "name": "razorpay",
+  "displayName": "Razorpay",
+  "version": "0.1.0",
+  "description": "Work with your Razorpay account: payments, orders, refunds, payment links, and settlements.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://razorpay.com/docs/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "razorpay",
+    "payments",
+    "refunds",
+    "payment-links",
+    "settlements",
+    "upi",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "razorpay": {
+      "type": "http",
+      "url": "https://mcp.razorpay.com/mcp"
+    }
+  }
+}

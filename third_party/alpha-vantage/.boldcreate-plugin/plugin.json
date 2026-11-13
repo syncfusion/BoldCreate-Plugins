@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "alpha-vantage",
+  "displayName": "Alpha Vantage",
+  "version": "0.1.0",
+  "description": "Real-time and historical stock market data from Alpha Vantage.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mcp.alphavantage.co/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "finance",
+  "keywords": [
+    "alpha-vantage",
+    "stocks",
+    "market-data",
+    "forex",
+    "crypto",
+    "commodities",
+    "economic-indicators",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://mcp.alphavantage.co/",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "alpha-vantage",
+        "transport": "streamable-http",
+        "url": "https://mcp.alphavantage.co/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "bearer"
+          ]
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.alphavantage.co/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

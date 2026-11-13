@@ -10,6 +10,30 @@
   },
   "plugins": [
     {
+      "name": "alpha-vantage",
+      "displayName": "Alpha Vantage",
+      "version": "0.1.0",
+      "description": "Real-time and historical stock market data from Alpha Vantage.",
+      "source": "third_party/alpha-vantage",
+      "logo": "third_party/alpha-vantage/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "amplitude",
       "displayName": "Amplitude",
       "version": "0.1.0",
@@ -153,6 +177,55 @@
       "supportedByGateway": true
     },
     {
+      "name": "brevo",
+      "displayName": "Brevo",
+      "version": "0.1.0",
+      "description": "Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language.",
+      "source": "third_party/brevo",
+      "logo": "third_party/brevo/assets/logo.svg",
+      "category": "communication",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "cashfree",
+      "displayName": "Cashfree",
+      "version": "0.1.0",
+      "description": "Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree.",
+      "source": "third_party/cashfree",
+      "logo": "third_party/cashfree/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "clickhouse",
       "displayName": "ClickHouse",
       "version": "0.1.0",
@@ -162,6 +235,55 @@
       "category": "analytics",
       "components": [
         "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "cloudinary",
+      "displayName": "Cloudinary",
+      "version": "0.1.0",
+      "description": "Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language.",
+      "source": "third_party/cloudinary",
+      "logo": "third_party/cloudinary/assets/logo.png",
+      "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "coingecko",
+      "displayName": "CoinGecko",
+      "version": "0.1.0",
+      "description": "Connect AI agents to real-time crypto data via the CoinGecko MCP Server.",
+      "source": "third_party/coingecko",
+      "logo": "third_party/coingecko/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"
@@ -249,6 +371,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "exa",
+      "displayName": "Exa",
+      "version": "0.1.0",
+      "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
+      "source": "third_party/exa",
+      "logo": "third_party/exa/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "figma",
       "displayName": "Figma",
       "version": "0.7.0",
@@ -256,6 +403,55 @@
       "source": "third_party/figma",
       "logo": "third_party/figma/assets/logo.svg",
       "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "firecrawl",
+      "displayName": "Firecrawl",
+      "version": "0.1.0",
+      "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor.",
+      "source": "third_party/firecrawl",
+      "logo": "third_party/firecrawl/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "freshbooks",
+      "displayName": "FreshBooks",
+      "version": "0.1.0",
+      "description": "Check profit, cash, invoices, clients, and more in your FreshBooks account.",
+      "source": "third_party/freshbooks",
+      "logo": "third_party/freshbooks/assets/logo.svg",
+      "category": "finance",
       "components": [
         "mcp"
       ],
@@ -969,6 +1165,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "harness",
+      "displayName": "Harness",
+      "version": "0.1.0",
+      "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
+      "source": "third_party/harness",
+      "logo": "third_party/harness/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "hubspot",
       "displayName": "HubSpot",
       "version": "0.1.0",
@@ -1043,6 +1264,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "make",
+      "displayName": "Make",
+      "version": "0.1.0",
+      "description": "Build, run and debug Make automation scenarios.",
+      "source": "third_party/make",
+      "logo": "third_party/make/assets/logo.png",
+      "category": "productivity",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "mdn",
       "displayName": "MDN",
       "version": "0.1.0",
@@ -1067,6 +1313,54 @@
       "supportedByGateway": true
     },
     {
+      "name": "mem0",
+      "displayName": "Mem0",
+      "version": "0.1.0",
+      "description": "Add, search, update, and delete long-term memories in Mem0.",
+      "source": "third_party/mem0",
+      "logo": "third_party/mem0/assets/logo.svg",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mermaid",
+      "displayName": "Mermaid",
+      "version": "0.1.0",
+      "description": "Create, validate, and render Mermaid diagrams, and manage them in your Mermaid account.",
+      "source": "third_party/mermaid",
+      "logo": "third_party/mermaid/assets/logo.svg",
+      "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "microsoft-learn",
       "displayName": "Microsoft Learn",
       "version": "0.7.0",
@@ -1087,6 +1381,32 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mintlify",
+      "displayName": "Mintlify",
+      "version": "0.1.0",
+      "description": "Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules.",
+      "source": "third_party/mintlify",
+      "logo": "third_party/mintlify/assets/logo.svg",
+      "category": "documentation",
+      "components": [
+        "mcp",
+        "skills",
+        "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -1283,6 +1603,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "razorpay",
+      "displayName": "Razorpay",
+      "version": "0.1.0",
+      "description": "Work with your Razorpay account: payments, orders, refunds, payment links, and settlements.",
+      "source": "third_party/razorpay",
+      "logo": "third_party/razorpay/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "render",
       "displayName": "Render",
       "version": "0.1.0",
@@ -1316,6 +1660,31 @@
       "category": "developer-tools",
       "components": [
         "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "roboflow",
+      "displayName": "Roboflow",
+      "version": "0.1.0",
+      "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
+      "source": "third_party/roboflow",
+      "logo": "third_party/roboflow/assets/logo.png",
+      "category": "ai",
+      "components": [
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"
@@ -1405,6 +1774,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "square",
+      "displayName": "Square",
+      "version": "0.1.0",
+      "description": "Work with payments, orders, catalog, customers, and invoices.",
+      "source": "third_party/square",
+      "logo": "third_party/square/assets/logo.svg",
+      "category": "payments",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "stripe",
       "displayName": "Stripe",
       "version": "0.7.2",
@@ -1451,6 +1844,31 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "swagger",
+      "displayName": "Swagger",
+      "version": "0.1.0",
+      "description": "Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals.",
+      "source": "third_party/swagger",
+      "logo": "third_party/swagger/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "mcp",
+        "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -1797,6 +2215,57 @@
       "supportedByGateway": false
     },
     {
+      "name": "tavily",
+      "displayName": "Tavily",
+      "version": "0.1.0",
+      "description": "Web search, content extraction, crawling, deep research, and URL discovery.",
+      "source": "third_party/tavily",
+      "logo": "third_party/tavily/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "mcp",
+        "skills",
+        "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "twelve-data",
+      "displayName": "Twelve Data",
+      "version": "0.1.0",
+      "description": "Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings.",
+      "source": "third_party/twelve-data",
+      "logo": "third_party/twelve-data/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "twilio",
       "displayName": "Twilio",
       "version": "0.1.0",
@@ -1833,6 +2302,55 @@
         "mcp",
         "skills",
         "agents"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "webflow",
+      "displayName": "Webflow",
+      "version": "0.1.0",
+      "description": "AI-powered design and management for Webflow sites.",
+      "source": "third_party/webflow",
+      "logo": "third_party/webflow/assets/logo.svg",
+      "category": "hosting",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "wix",
+      "displayName": "Wix",
+      "version": "0.1.0",
+      "description": "Search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites.",
+      "source": "third_party/wix",
+      "logo": "third_party/wix/assets/logo.svg",
+      "category": "hosting",
+      "components": [
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"
