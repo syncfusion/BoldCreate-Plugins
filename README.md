@@ -4,7 +4,7 @@ Syncfusion's BoldCreate plugins for BoldCreate Connect, Cursor and Claude Code. 
 
 - **Syncfusion plugins** at the repository root, made of skills, agents and rules. `boldcreate-toolkit/` gives agents one software delivery lifecycle on any stack.
 - **Syncfusion skill packs** under `syncfusion/`, one plugin per platform. Each is copied from Syncfusion's skill repository for that platform and teaches agents to build with Syncfusion components.
-- **MCP plugins** under `third_party/`. Each connects agents to a vendor's remote [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
+- **MCP plugins** under `third_party/`. Each connects agents to a service's remote [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
 ## Install
 
@@ -49,9 +49,12 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 
 | `name` | Plugin | Category | `description` (from marketplace) |
 |:-------|:-------|:---------|:-------------------------------------|
+| `amplitude` | [Amplitude](third_party/amplitude/) | Analytics | Query Amplitude product analytics, charts, and experiments. |
 | `android-management` | [Android Management](third_party/android-management/) | Devices | Manage enterprise Android devices, policies, and apps with the Android Management API. |
 | `atlassian` | [Atlassian (Jira + Confluence)](third_party/atlassian/) | Project Management | Search and update Jira issues and Confluence pages. |
 | `aws-knowledge` | [AWS Knowledge](third_party/aws-knowledge/) | Documentation | Search AWS documentation, API references, and regional availability. |
+| `bolddesk` | [BoldDesk](third_party/bolddesk/) | Customer Support | Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk. |
+| `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Query and explore your ClickHouse Cloud data. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `deepwiki` | [DeepWiki](third_party/deepwiki/) | Documentation | Ask questions about any public GitHub repository and read its generated wiki. |
 | `figma` | [Figma](third_party/figma/) | Design | Turn Figma frames into code and read design tokens, components, and variables. |
@@ -84,14 +87,17 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `google-slides` | [Google Slides](third_party/google-slides/) | Productivity | Read, create, and edit Google Slides presentations. |
 | `google-stitch` | [Stitch](third_party/google-stitch/) | Design | Generate UI designs and front-end code with Google Stitch. |
 | `google-workspace-search` | [Google Workspace Search](third_party/google-workspace-search/) | Productivity | Search across Gmail, Drive, Calendar, and other Google Workspace content in one place. |
+| `huggingface` | [Hugging Face](third_party/huggingface/) | AI | Search Hugging Face for models, datasets, and spaces. |
 | `linear` | [Linear](third_party/linear/) | Project Management | Find, create, and update Linear issues, projects, and cycles. |
+| `mdn` | [MDN](third_party/mdn/) | Developer Tools | Search and retrieve MDN Web Docs and browser compatibility data. |
 | `microsoft-learn` | [Microsoft Learn](third_party/microsoft-learn/) | Documentation | Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more. |
+| `mixpanel` | [Mixpanel](third_party/mixpanel/) | Analytics | Analyze, query, and manage your Mixpanel data. |
 | `neon` | [Neon](third_party/neon/) | Database | Manage Neon serverless Postgres projects, branches, queries, and migrations. |
 | `notion` | [Notion](third_party/notion/) | Documentation | Search, read, and update Notion pages and databases. |
 | `posthog` | [PostHog](third_party/posthog/) | Analytics | Query product analytics, manage feature flags, and investigate errors in PostHog. |
 | `sentry` | [Sentry](third_party/sentry/) | Observability | Investigate Sentry errors, stack traces, and issues for a project. |
 | `stripe` | [Stripe](third_party/stripe/) | Payments | Work with Stripe customers, payments, subscriptions, and search Stripe docs. |
-| `supabase` | [Supabase](third_party/supabase/) | Database | Query Postgres, manage tables, auth, storage, and edge functions in a Supabase project. |
+| `supabase` | [Supabase](third_party/supabase/) | Database | Connect AI assistants to your Supabase project to manage tables, fetch config, and query data. |
 | `vercel` | [Vercel](third_party/vercel/) | Hosting | Inspect Vercel projects, deployments, and build logs, and search Vercel docs. |
 
 ## Repository structure
@@ -132,8 +138,9 @@ third_party/
     ├── .cursor-plugin/plugin.json      # Per-plugin manifest and install-time variables
     ├── .claude-plugin/plugin.json      # Claude Code manifest (generated)
     ├── .boldcreate-plugin/plugin.json  # BoldCreate Connect manifest (generated)
-    ├── boldcreate.json                 # Transport, auth and docs metadata
+    ├── boldcreate.json                 # Transport, auth, OAuth scopes, docs and upstream source
     ├── mcp.json                        # MCP server definitions
+    ├── skills/, agents/, rules/        # Optional: only when the plugin ships them
     ├── assets/logo.svg                 # Logo
     ├── README.md
     ├── CHANGELOG.md
