@@ -4,8 +4,8 @@ All notable changes to this plugin will be documented here.
 
 ## 0.7.2 - 2026-11-13
 
-- Fixed "Unreachable" on install: the server URL no longer holds a `${SUPABASE_READ_ONLY}` placeholder, which stayed unreplaced when the app did not apply the default. The URL is now fixed to `https://mcp.supabase.com/mcp?read_only=true`.
-- The `SUPABASE_READ_ONLY` setting is removed, so the plugin always starts in read-only mode. To allow writes, change the server URL in BoldCreate Connect to `read_only=false`.
+- Fixed "Unreachable" on install: the server URL no longer holds a `${SUPABASE_READ_ONLY}` placeholder, which stayed unreplaced when the app did not apply the default. The URL is now fixed to `https://mcp.supabase.com/mcp?read_only=false`.
+- The `SUPABASE_READ_ONLY` setting is removed, and the plugin now starts with writes allowed (`read_only=false`). To make it read-only, change the server URL in BoldCreate Connect to `read_only=true`.
 - README: added a link to Supabase's privacy policy.
 
 ## 0.7.1 - 2026-11-10

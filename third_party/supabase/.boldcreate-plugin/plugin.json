@@ -40,7 +40,7 @@
       {
         "name": "supabase",
         "transport": "streamable-http",
-        "url": "https://mcp.supabase.com/mcp?read_only=true",
+        "url": "https://mcp.supabase.com/mcp?read_only=false",
         "auth": {
           "type": "oauth",
           "alternatives": [
