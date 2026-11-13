@@ -8,6 +8,11 @@
   },
   "plugins": [
     {
+      "name": "amplitude",
+      "description": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts.",
+      "source": "third_party/amplitude"
+    },
+    {
       "name": "android-management",
       "description": "Manage enterprise Android devices, policies, and apps with the Android Management API.",
       "source": "third_party/android-management"
@@ -26,6 +31,16 @@
       "name": "boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
       "source": "boldcreate-toolkit"
+    },
+    {
+      "name": "bolddesk",
+      "description": "Create, update, and manage support tickets, activities, approvals, worklogs, Knowledge Base content, and related support operations in BoldDesk.",
+      "source": "third_party/bolddesk"
+    },
+    {
+      "name": "clickhouse",
+      "description": "Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries.",
+      "source": "third_party/clickhouse"
     },
     {
       "name": "context7",
@@ -188,14 +203,29 @@
       "source": "third_party/google-workspace-search"
     },
     {
+      "name": "huggingface",
+      "description": "Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers.",
+      "source": "third_party/huggingface"
+    },
+    {
       "name": "linear",
       "description": "Find, create, and update Linear issues, projects, and cycles.",
       "source": "third_party/linear"
     },
     {
+      "name": "mdn",
+      "description": "Access MDN's search, documentation, and browser compatibility data (experimental MCP server).",
+      "source": "third_party/mdn"
+    },
+    {
       "name": "microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more.",
       "source": "third_party/microsoft-learn"
+    },
+    {
+      "name": "mixpanel",
+      "description": "Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags.",
+      "source": "third_party/mixpanel"
     },
     {
       "name": "neon",
@@ -209,7 +239,7 @@
     },
     {
       "name": "posthog",
-      "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
+      "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards.",
       "source": "third_party/posthog"
     },
     {
@@ -224,7 +254,7 @@
     },
     {
       "name": "supabase",
-      "description": "Query Postgres, manage tables, auth, storage, and edge functions in a Supabase project.",
+      "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
       "source": "third_party/supabase"
     },
     {

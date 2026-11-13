@@ -5,7 +5,7 @@
   "minClientVersions": {
     "cursor": "3.13.0"
   },
-  "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
+  "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards.",
   "author": {
     "name": "Syncfusion"
   },

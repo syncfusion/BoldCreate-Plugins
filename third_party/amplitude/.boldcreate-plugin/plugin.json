@@ -1,0 +1,86 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "amplitude",
+  "displayName": "Amplitude",
+  "version": "0.1.0",
+  "description": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/amplitude/mcp-marketplace",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "analytics",
+  "keywords": [
+    "amplitude",
+    "analytics",
+    "product",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/amplitude/mcp-marketplace",
+  "upstream": {
+    "repository": "https://github.com/amplitude/mcp-marketplace",
+    "path": "plugins/amplitude/skills",
+    "commit": "658f88b994d80ac94cff8deaf2886b7f9eb927e9",
+    "author": "Amplitude",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "amplitude",
+        "transport": "streamable-http",
+        "url": "https://mcp.amplitude.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "add-analytics-instrumentation",
+      "analyze-account-health",
+      "analyze-ai-topics",
+      "analyze-dashboard",
+      "analyze-feedback",
+      "chart-link-analysis",
+      "compare-user-journeys",
+      "create-dashboard",
+      "daily-brief",
+      "debug-replay",
+      "diagnose-errors",
+      "diff-intake",
+      "discover-analytics-patterns",
+      "discover-event-surfaces",
+      "discover-opportunities",
+      "instrument-events",
+      "investigate-ai-session",
+      "live-data-forensics",
+      "monitor-ai-quality",
+      "monitor-reliability",
+      "replay-ux-audit",
+      "review-agent-insights",
+      "scheduled-report-refresh",
+      "taxonomy",
+      "tracking-plan-audit",
+      "user-cohort-forensics",
+      "weekly-brief"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (amplitude/mcp-marketplace at 94f58cc)"
+  }
+}

@@ -3,7 +3,7 @@
   "name": "posthog",
   "displayName": "PostHog",
   "version": "0.7.1",
-  "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
+  "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards.",
   "author": {
     "name": "Syncfusion"
   },
@@ -49,6 +49,6 @@
   },
   "endpointCheck": {
     "lastLiveCheck": null,
-    "source": "vendor docs"
+    "source": "official docs"
   }
 }

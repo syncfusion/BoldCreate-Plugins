@@ -10,6 +10,31 @@
   },
   "plugins": [
     {
+      "name": "amplitude",
+      "displayName": "Amplitude",
+      "version": "0.1.0",
+      "description": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts.",
+      "source": "third_party/amplitude",
+      "logo": "third_party/amplitude/assets/logo.png",
+      "category": "analytics",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "android-management",
       "displayName": "Android Management",
       "version": "0.7.0",
@@ -102,6 +127,54 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "bolddesk",
+      "displayName": "BoldDesk",
+      "version": "0.7.1",
+      "description": "Create, update, and manage support tickets, activities, approvals, worklogs, Knowledge Base content, and related support operations in BoldDesk.",
+      "source": "third_party/bolddesk",
+      "logo": "third_party/bolddesk/assets/logo.svg",
+      "category": "customer-support",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 2,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "clickhouse",
+      "displayName": "ClickHouse",
+      "version": "0.1.0",
+      "description": "Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries.",
+      "source": "third_party/clickhouse",
+      "logo": "third_party/clickhouse/assets/logo.png",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "context7",
@@ -872,6 +945,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "huggingface",
+      "displayName": "Hugging Face",
+      "version": "0.1.0",
+      "description": "Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers.",
+      "source": "third_party/huggingface",
+      "logo": "third_party/huggingface/assets/logo.png",
+      "category": "ai",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "linear",
       "displayName": "Linear",
       "version": "0.7.1",
@@ -887,6 +984,30 @@
       ],
       "auth": [
         "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mdn",
+      "displayName": "MDN",
+      "version": "0.1.0",
+      "description": "Access MDN's search, documentation, and browser compatibility data (experimental MCP server).",
+      "source": "third_party/mdn",
+      "logo": "third_party/mdn/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
       ],
       "requiresSecrets": false,
       "rollout": {
@@ -916,6 +1037,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mixpanel",
+      "displayName": "Mixpanel",
+      "version": "0.1.0",
+      "description": "Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags.",
+      "source": "third_party/mixpanel",
+      "logo": "third_party/mixpanel/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -971,7 +1116,7 @@
       "name": "posthog",
       "displayName": "PostHog",
       "version": "0.7.1",
-      "description": "Query product analytics, manage feature flags, and investigate errors in PostHog.",
+      "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards.",
       "source": "third_party/posthog",
       "logo": "third_party/posthog/assets/logo.png",
       "category": "analytics",
@@ -1042,21 +1187,22 @@
     {
       "name": "supabase",
       "displayName": "Supabase",
-      "version": "0.7.0",
-      "description": "Query Postgres, manage tables, auth, storage, and edge functions in a Supabase project.",
+      "version": "0.7.1",
+      "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
       "source": "third_party/supabase",
       "logo": "third_party/supabase/assets/logo.svg",
       "category": "database",
       "components": [
-        "mcp"
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"
       ],
       "auth": [
-        "bearer"
+        "oauth"
       ],
-      "requiresSecrets": true,
+      "requiresSecrets": false,
       "rollout": {
         "phase": 1,
         "wave": "A"
