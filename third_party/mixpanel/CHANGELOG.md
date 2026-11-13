@@ -2,6 +2,11 @@
 
 All notable changes to this plugin will be documented here.
 
+## 0.2.0 - 2026-11-13
+
+- Added the 12 agent skills published in `mixpanel/ai-plugins` (commit `dad3c11d`), copied unchanged, with the original licence in `skills/LICENSE`.
+- No change to the MCP server, sign-in or install settings.
+
 ## 0.1.0 - 2026-11-04
 
 - First version: Mixpanel remote MCP server over streamable HTTP.

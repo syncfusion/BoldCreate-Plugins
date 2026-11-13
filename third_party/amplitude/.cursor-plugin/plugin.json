@@ -1,7 +1,7 @@
 {
   "name": "amplitude",
   "displayName": "Amplitude",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minClientVersions": {
     "cursor": "3.13.0"
   },
@@ -25,5 +25,6 @@
     "mcp",
     "http"
   ],
+  "skills": "./skills/",
   "mcpServers": "./mcp.json"
 }

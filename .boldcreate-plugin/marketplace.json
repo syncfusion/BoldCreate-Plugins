@@ -12,13 +12,14 @@
     {
       "name": "amplitude",
       "displayName": "Amplitude",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Query Amplitude product analytics, charts, and experiments.",
       "source": "third_party/amplitude",
       "logo": "third_party/amplitude/assets/logo.png",
       "category": "analytics",
       "components": [
-        "mcp"
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"
@@ -1042,13 +1043,14 @@
     {
       "name": "mixpanel",
       "displayName": "Mixpanel",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Analyze, query, and manage your Mixpanel data.",
       "source": "third_party/mixpanel",
       "logo": "third_party/mixpanel/assets/logo.svg",
       "category": "analytics",
       "components": [
-        "mcp"
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"

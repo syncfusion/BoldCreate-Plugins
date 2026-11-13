@@ -7,6 +7,13 @@
   "alternativeAuth": [],
   "hostedBy": "vendor",
   "docs": "https://docs.mixpanel.com/docs/mcp",
+  "upstream": {
+    "repository": "https://github.com/mixpanel/ai-plugins",
+    "path": "plugins/mixpanel/skills",
+    "commit": "dad3c11dbd2b4e2cc2c521efd6e81ae7c2f1bd57",
+    "author": "Mixpanel",
+    "license": "Apache-2.0"
+  },
   "endpointCheck": {
     "lastLiveCheck": "2026-11-04",
     "source": "vendor docs (docs.mixpanel.com/docs/mcp): US endpoint https://mcp.mixpanel.com/mcp, OAuth sign-in supported"
