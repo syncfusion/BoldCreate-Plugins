@@ -3,7 +3,7 @@
   "name": "huggingface",
   "displayName": "Hugging Face",
   "version": "0.1.0",
-  "description": "Search Hugging Face for models, datasets, and spaces.",
+  "description": "Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers.",
   "author": {
     "name": "Syncfusion"
   },

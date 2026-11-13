@@ -10,7 +10,7 @@
     {
       "name": "amplitude",
       "source": "./third_party/amplitude",
-      "description": "Query Amplitude product analytics, charts, and experiments."
+      "description": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts."
     },
     {
       "name": "android-management",
@@ -35,12 +35,12 @@
     {
       "name": "bolddesk",
       "source": "./third_party/bolddesk",
-      "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk."
+      "description": "Create, update, and manage support tickets, activities, approvals, worklogs, Knowledge Base content, and related support operations in BoldDesk."
     },
     {
       "name": "clickhouse",
       "source": "./third_party/clickhouse",
-      "description": "Query and explore your ClickHouse Cloud data."
+      "description": "Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries."
     },
     {
       "name": "context7",
@@ -205,7 +205,7 @@
     {
       "name": "huggingface",
       "source": "./third_party/huggingface",
-      "description": "Search Hugging Face for models, datasets, and spaces."
+      "description": "Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers."
     },
     {
       "name": "linear",
@@ -215,7 +215,7 @@
     {
       "name": "mdn",
       "source": "./third_party/mdn",
-      "description": "Search & retrieval of MDN docs & browser compat data."
+      "description": "Access MDN's search, documentation, and browser compatibility data (experimental MCP server)."
     },
     {
       "name": "microsoft-learn",
@@ -225,7 +225,7 @@
     {
       "name": "mixpanel",
       "source": "./third_party/mixpanel",
-      "description": "Analyze, query, and manage your Mixpanel data."
+      "description": "Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags."
     },
     {
       "name": "neon",
@@ -240,7 +240,7 @@
     {
       "name": "posthog",
       "source": "./third_party/posthog",
-      "description": "Query product analytics, manage feature flags, and investigate errors in PostHog."
+      "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards."
     },
     {
       "name": "sentry",

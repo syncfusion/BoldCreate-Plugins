@@ -3,7 +3,7 @@
   "name": "bolddesk",
   "displayName": "BoldDesk",
   "version": "0.7.1",
-  "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk.",
+  "description": "Create, update, and manage support tickets, activities, approvals, worklogs, Knowledge Base content, and related support operations in BoldDesk.",
   "author": {
     "name": "Syncfusion"
   },

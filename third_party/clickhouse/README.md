@@ -2,7 +2,7 @@
 
 BoldCreate plugin that connects agents to ClickHouse through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Query and explore your ClickHouse Cloud data.
+Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries.
 
 ## Install
 

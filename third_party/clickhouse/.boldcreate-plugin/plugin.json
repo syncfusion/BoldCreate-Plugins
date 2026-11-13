@@ -3,7 +3,7 @@
   "name": "clickhouse",
   "displayName": "ClickHouse",
   "version": "0.1.0",
-  "description": "Query and explore your ClickHouse Cloud data.",
+  "description": "Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries.",
   "author": {
     "name": "Syncfusion"
   },

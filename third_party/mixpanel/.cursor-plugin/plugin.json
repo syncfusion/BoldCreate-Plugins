@@ -5,7 +5,7 @@
   "minClientVersions": {
     "cursor": "3.13.0"
   },
-  "description": "Analyze, query, and manage your Mixpanel data.",
+  "description": "Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags.",
   "author": {
     "name": "Syncfusion"
   },

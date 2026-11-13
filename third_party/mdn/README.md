@@ -2,7 +2,7 @@
 
 BoldCreate plugin that connects agents to MDN through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Search & retrieval of MDN docs & browser compat data.
+Access MDN's search, documentation, and browser compatibility data (experimental MCP server).
 
 ## Install
 

@@ -2,7 +2,7 @@
 
 BoldCreate plugin that connects agents to Amplitude through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Query Amplitude product analytics, charts, and experiments.
+Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts.
 
 ## Install
 

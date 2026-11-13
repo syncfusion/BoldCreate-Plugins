@@ -2,7 +2,7 @@
 
 BoldCreate plugin that connects agents to BoldDesk through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk.
+Create, update, and manage support tickets, activities, approvals, worklogs, Knowledge Base content, and related support operations in BoldDesk.
 
 ## Install
 
