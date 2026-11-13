@@ -8,6 +8,11 @@
   },
   "plugins": [
     {
+      "name": "alpha-vantage",
+      "description": "Real-time and historical stock market data from Alpha Vantage.",
+      "source": "third_party/alpha-vantage"
+    },
+    {
       "name": "amplitude",
       "description": "Query Amplitude product analytics, charts, and experiments.",
       "source": "third_party/amplitude"
@@ -38,6 +43,11 @@
       "source": "third_party/bolddesk"
     },
     {
+      "name": "cashfree",
+      "description": "Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree.",
+      "source": "third_party/cashfree"
+    },
+    {
       "name": "clickhouse",
       "description": "Query and explore your ClickHouse Cloud data.",
       "source": "third_party/clickhouse"
@@ -58,9 +68,24 @@
       "source": "third_party/deepwiki"
     },
     {
+      "name": "exa",
+      "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
+      "source": "third_party/exa"
+    },
+    {
       "name": "figma",
       "description": "Give AI agents the design context to generate code from your Figma files, and write native Figma content back to the canvas.",
       "source": "third_party/figma"
+    },
+    {
+      "name": "firecrawl",
+      "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor.",
+      "source": "third_party/firecrawl"
+    },
+    {
+      "name": "freshbooks",
+      "description": "Check profit, cash, invoices, clients, and more in your FreshBooks account.",
+      "source": "third_party/freshbooks"
     },
     {
       "name": "gitea",
@@ -223,9 +248,24 @@
       "source": "third_party/linear"
     },
     {
+      "name": "make",
+      "description": "Build, run and debug Make automation scenarios.",
+      "source": "third_party/make"
+    },
+    {
       "name": "mdn",
       "description": "Search & retrieval of MDN docs & browser compat data.",
       "source": "third_party/mdn"
+    },
+    {
+      "name": "mem0",
+      "description": "Add, search, update, and delete long-term memories in Mem0.",
+      "source": "third_party/mem0"
+    },
+    {
+      "name": "mermaid",
+      "description": "Create, validate, and render Mermaid diagrams, and manage them in your Mermaid account.",
+      "source": "third_party/mermaid"
     },
     {
       "name": "microsoft-learn",
@@ -273,6 +313,11 @@
       "source": "third_party/railway"
     },
     {
+      "name": "razorpay",
+      "description": "Work with your Razorpay account: payments, orders, refunds, payment links, and settlements.",
+      "source": "third_party/razorpay"
+    },
+    {
       "name": "render",
       "description": "Inspect Render services, deploys, and logs.",
       "source": "third_party/render"
@@ -296,6 +341,11 @@
       "name": "slack",
       "description": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps.",
       "source": "third_party/slack"
+    },
+    {
+      "name": "square",
+      "description": "Work with payments, orders, catalog, customers, and invoices.",
+      "source": "third_party/square"
     },
     {
       "name": "stripe",
@@ -398,6 +448,11 @@
       "source": "syncfusion/migration-skills/xamarin-to-maui"
     },
     {
+      "name": "tavily",
+      "description": "Web search, content extraction, crawling, deep research, and URL discovery.",
+      "source": "third_party/tavily"
+    },
+    {
       "name": "twilio",
       "description": "Build powerful communications and customer engagement.",
       "source": "third_party/twilio"
@@ -406,6 +461,16 @@
       "name": "vercel",
       "description": "Search Vercel documentation, manage projects, inspect deployments, and query Web Analytics.",
       "source": "third_party/vercel"
+    },
+    {
+      "name": "webflow",
+      "description": "AI-powered design and management for Webflow sites.",
+      "source": "third_party/webflow"
+    },
+    {
+      "name": "wix",
+      "description": "Search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites.",
+      "source": "third_party/wix"
     },
     {
       "name": "xero",

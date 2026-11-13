@@ -1,0 +1,29 @@
+{
+  "name": "firecrawl",
+  "displayName": "Firecrawl",
+  "version": "0.1.0",
+  "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.firecrawl.dev/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "firecrawl",
+    "web-scraping",
+    "web-search",
+    "crawl",
+    "browser",
+    "research",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "firecrawl": {
+      "type": "http",
+      "url": "https://mcp.firecrawl.dev/v2/mcp-oauth"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "webflow",
+  "displayName": "Webflow",
+  "version": "0.1.0",
+  "description": "AI-powered design and management for Webflow sites.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.webflow.com/mcp/reference/overview",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "hosting",
+  "keywords": [
+    "webflow",
+    "cms",
+    "website",
+    "designer",
+    "publishing",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.webflow.com/mcp/reference/overview",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "webflow",
+        "transport": "streamable-http",
+        "url": "https://mcp.webflow.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.webflow.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

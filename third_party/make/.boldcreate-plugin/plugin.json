@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "make",
+  "displayName": "Make",
+  "version": "0.1.0",
+  "description": "Build, run and debug Make automation scenarios.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developers.make.com/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "productivity",
+  "keywords": [
+    "make",
+    "automation",
+    "scenarios",
+    "workflow",
+    "integration",
+    "no-code",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developers.make.com/mcp-server",
+  "upstream": {
+    "repository": "https://github.com/integromat/make-skills",
+    "path": "skills",
+    "commit": "9c4298027268148dc3e4525a09af90102a717107",
+    "author": "Make",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "make",
+        "transport": "streamable-http",
+        "url": "https://mcp.make.com/v2",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "make-credential-requests",
+      "make-endpoints",
+      "make-functions-v2",
+      "make-scenario-building",
+      "make-scenario-explore",
+      "make-scenario-operations",
+      "make-scenario-reference"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.make.com/v2: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://www.make.com/mcp-openai lists a registration endpoint and S256 PKCE"
+  }
+}

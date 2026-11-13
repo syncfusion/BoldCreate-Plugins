@@ -1,0 +1,26 @@
+{
+  "name": "mem0",
+  "displayName": "Mem0",
+  "version": "0.1.0",
+  "description": "Add, search, update, and delete long-term memories in Mem0.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.mem0.ai/platform/mem0-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "mem0",
+    "memory",
+    "long-term-memory",
+    "agents",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "mem0": {
+      "type": "http",
+      "url": "https://mcp.mem0.ai/mcp"
+    }
+  }
+}

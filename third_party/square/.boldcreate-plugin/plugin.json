@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "square",
+  "displayName": "Square",
+  "version": "0.1.0",
+  "description": "Work with payments, orders, catalog, customers, and invoices.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.squareup.com/docs/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "payments",
+  "keywords": [
+    "square",
+    "payments",
+    "point-of-sale",
+    "orders",
+    "catalog",
+    "customers",
+    "invoices",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developer.squareup.com/docs/mcp",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "square",
+        "transport": "streamable-http",
+        "url": "https://mcp.squareup.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.squareup.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

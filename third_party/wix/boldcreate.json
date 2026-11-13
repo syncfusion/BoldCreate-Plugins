@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [],
+  "hostedBy": "vendor",
+  "docs": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+  "upstream": {
+    "repository": "https://github.com/wix/skills",
+    "path": "skills",
+    "commit": "b69326692b240e198183953535d2754ef42f6238",
+    "author": "Wix",
+    "license": "MIT"
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.wix.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}
