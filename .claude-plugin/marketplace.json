@@ -8,6 +8,11 @@
   },
   "plugins": [
     {
+      "name": "amplitude",
+      "source": "./third_party/amplitude",
+      "description": "Query Amplitude product analytics, charts, and experiments."
+    },
+    {
       "name": "android-management",
       "source": "./third_party/android-management",
       "description": "Manage enterprise Android devices, policies, and apps with the Android Management API."
@@ -26,6 +31,16 @@
       "name": "boldcreate-toolkit",
       "source": "./boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
+    },
+    {
+      "name": "bolddesk",
+      "source": "./third_party/bolddesk",
+      "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk."
+    },
+    {
+      "name": "clickhouse",
+      "source": "./third_party/clickhouse",
+      "description": "Query and explore your ClickHouse Cloud data."
     },
     {
       "name": "context7",
@@ -188,14 +203,29 @@
       "description": "Search across Gmail, Drive, Calendar, and other Google Workspace content in one place."
     },
     {
+      "name": "huggingface",
+      "source": "./third_party/huggingface",
+      "description": "Search Hugging Face for models, datasets, and spaces."
+    },
+    {
       "name": "linear",
       "source": "./third_party/linear",
       "description": "Find, create, and update Linear issues, projects, and cycles."
     },
     {
+      "name": "mdn",
+      "source": "./third_party/mdn",
+      "description": "Search & retrieval of MDN docs & browser compat data."
+    },
+    {
       "name": "microsoft-learn",
       "source": "./third_party/microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more."
+    },
+    {
+      "name": "mixpanel",
+      "source": "./third_party/mixpanel",
+      "description": "Analyze, query, and manage your Mixpanel data."
     },
     {
       "name": "neon",
@@ -225,7 +255,7 @@
     {
       "name": "supabase",
       "source": "./third_party/supabase",
-      "description": "Query Postgres, manage tables, auth, storage, and edge functions in a Supabase project."
+      "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data."
     },
     {
       "name": "syncfusion-angular",

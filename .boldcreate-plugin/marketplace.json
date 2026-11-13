@@ -10,6 +10,30 @@
   },
   "plugins": [
     {
+      "name": "amplitude",
+      "displayName": "Amplitude",
+      "version": "0.1.0",
+      "description": "Query Amplitude product analytics, charts, and experiments.",
+      "source": "third_party/amplitude",
+      "logo": "third_party/amplitude/assets/logo.png",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "android-management",
       "displayName": "Android Management",
       "version": "0.7.0",
@@ -102,6 +126,54 @@
         "phase": 1
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "bolddesk",
+      "displayName": "BoldDesk",
+      "version": "0.7.1",
+      "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk.",
+      "source": "third_party/bolddesk",
+      "logo": "third_party/bolddesk/assets/logo.svg",
+      "category": "customer-support",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 2,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "clickhouse",
+      "displayName": "ClickHouse",
+      "version": "0.1.0",
+      "description": "Query and explore your ClickHouse Cloud data.",
+      "source": "third_party/clickhouse",
+      "logo": "third_party/clickhouse/assets/logo.png",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "context7",
@@ -872,6 +944,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "huggingface",
+      "displayName": "Hugging Face",
+      "version": "0.1.0",
+      "description": "Search Hugging Face for models, datasets, and spaces.",
+      "source": "third_party/huggingface",
+      "logo": "third_party/huggingface/assets/logo.png",
+      "category": "ai",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "linear",
       "displayName": "Linear",
       "version": "0.7.1",
@@ -887,6 +983,30 @@
       ],
       "auth": [
         "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mdn",
+      "displayName": "MDN",
+      "version": "0.1.0",
+      "description": "Search & retrieval of MDN docs & browser compat data.",
+      "source": "third_party/mdn",
+      "logo": "third_party/mdn/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "none"
       ],
       "requiresSecrets": false,
       "rollout": {
@@ -916,6 +1036,30 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "mixpanel",
+      "displayName": "Mixpanel",
+      "version": "0.1.0",
+      "description": "Analyze, query, and manage your Mixpanel data.",
+      "source": "third_party/mixpanel",
+      "logo": "third_party/mixpanel/assets/logo.svg",
+      "category": "analytics",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -1042,21 +1186,22 @@
     {
       "name": "supabase",
       "displayName": "Supabase",
-      "version": "0.7.0",
-      "description": "Query Postgres, manage tables, auth, storage, and edge functions in a Supabase project.",
+      "version": "0.7.1",
+      "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
       "source": "third_party/supabase",
       "logo": "third_party/supabase/assets/logo.svg",
       "category": "database",
       "components": [
-        "mcp"
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"
       ],
       "auth": [
-        "bearer"
+        "oauth"
       ],
-      "requiresSecrets": true,
+      "requiresSecrets": false,
       "rollout": {
         "phase": 1,
         "wave": "A"
