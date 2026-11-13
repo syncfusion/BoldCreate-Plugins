@@ -4,9 +4,8 @@ All notable changes to this plugin will be documented here.
 
 ## 0.2.0 - 2026-11-13
 
-- Description now uses the wording from the vendor's own source (plugin, README or docs).
 - Added 27 of the 36 agent skills published in `amplitude/mcp-marketplace` (commit `658f88b9`), copied unchanged, with the original licence in `skills/LICENSE`.
-- Left out 9 skills that Amplitude marks with feature flags: `analyze-chart`, `analyze-experiment`, `analyze-experiment-consolidated`, `build-charts-with-typed-params`, `create-chart`, `edit-guides-surveys`, `manage-amp-context`, `monitor-experiments`, `monitor-experiments-consolidated`. This plugin cannot set those flags, and `analyze-experiment` also has a name that does not match its folder.
+- Not included: 9 skills that depend on Amplitude feature flags (`analyze-chart`, `analyze-experiment`, `analyze-experiment-consolidated`, `build-charts-with-typed-params`, `create-chart`, `edit-guides-surveys`, `manage-amp-context`, `monitor-experiments`, `monitor-experiments-consolidated`).
 - No change to the MCP server, sign-in or install settings.
 
 ## 0.1.0 - 2026-11-04

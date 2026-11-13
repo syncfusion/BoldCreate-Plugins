@@ -4,8 +4,7 @@ All notable changes to this plugin will be documented here.
 
 ## 0.7.2 - 2026-11-13
 
-- `SUPABASE_READ_ONLY` is back as a required setting with no default. You enter `true` or `false` at install. Because a value is required, the URL placeholder cannot be left unreplaced.
-- README: added a link to Supabase's privacy policy.
+- `SUPABASE_READ_ONLY` is now a required setting with no default. Enter `true` for read-only mode or `false` to allow writes when you install.
 
 ## 0.7.1 - 2026-11-10
 
