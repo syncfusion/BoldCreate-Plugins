@@ -1,7 +1,7 @@
 {
   "name": "supabase",
   "displayName": "Supabase",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "minClientVersions": {
     "cursor": "3.13.0"
   },
@@ -27,18 +27,6 @@
     "mcp",
     "http"
   ],
-  "variables": {
-    "type": "object",
-    "properties": {
-      "SUPABASE_READ_ONLY": {
-        "type": "string",
-        "title": "Read-only mode",
-        "description": "\"true\" runs queries as a read-only Postgres user. Set \"false\" to allow writes.",
-        "default": "true",
-        "x-sensitive": false
-      }
-    }
-  },
   "skills": "./skills/",
   "mcpServers": "./mcp.json"
 }

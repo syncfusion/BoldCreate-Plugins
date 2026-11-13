@@ -17,7 +17,7 @@ Connect AI assistants to your Supabase project to manage tables, fetch config, a
   "mcpServers": {
     "supabase": {
       "type": "http",
-      "url": "https://mcp.supabase.com/mcp?read_only=${SUPABASE_READ_ONLY}"
+      "url": "https://mcp.supabase.com/mcp?read_only=true"
     }
   }
 }
@@ -25,11 +25,7 @@ Connect AI assistants to your Supabase project to manage tables, fetch config, a
 
 ## Setup
 
-Set this when you install the plugin. It is not a secret.
-
-| Setting | Required | Secret | What to enter |
-| --- | --- | --- | --- |
-| **Read-only mode** (`SUPABASE_READ_ONLY`) | No (default `true`) | No | "true" runs queries as a read-only Postgres user. Set "false" to allow writes. |
+There is nothing to set when you install the plugin. The server URL is fixed and always starts in read-only mode (`read_only=true`).
 
 Auth is OAuth. Supabase's documentation says the hosted server uses dynamic client registration by default, so you do not create a personal access token or an OAuth app. The first time the agent calls a tool, each member signs in to their own account in the browser. Supabase's README says to choose the organization that contains the project you want to work with.
 
@@ -60,7 +56,7 @@ Supabase's page lists a tool for storage configuration and none for auth.
 
 Many of these tools change your Supabase projects, and some can delete data or create billable resources. Examples from Supabase's tool list include `apply_migration`, `execute_sql`, `deploy_edge_function`, `create_project`, `pause_project`, `delete_branch` and `delete_notebook`. Supabase's page says `delete_notebook` cannot be undone.
 
-This plugin defaults to read-only mode, which Supabase describes as executing all queries as a read-only Postgres user. Supabase's documentation says `submit_feedback` and `delete_feedback` are disabled in read-only mode, and that in read-only mode `create_notebook` and `delete_notebook` are refused.
+This plugin always starts in read-only mode, which Supabase describes as executing all queries as a read-only Postgres user. Supabase's documentation says `submit_feedback` and `delete_feedback` are disabled in read-only mode, and that in read-only mode `create_notebook` and `delete_notebook` are refused.
 
 ## Confirmations
 
@@ -82,8 +78,12 @@ Supabase's MCP page lists no rate limits for the server.
 
 - Supabase's documentation describes prompt injection as the primary attack vector, where untrusted content in your data may trick the model into running commands. It recommends keeping manual approval of tool calls enabled for interactive work and reviewing each call.
 - Supabase says the server operates under your developer permissions and recommends that you do not give it to your customers or end users.
-- Supabase recommends read-only mode, project scoping, restricted feature groups and branching to lower the risk. This plugin sets read-only mode by default. It sets no project scope and no feature groups.
+- Supabase recommends read-only mode, project scoping, restricted feature groups and branching to lower the risk. This plugin always uses read-only mode. It sets no project scope and no feature groups.
 - Supabase labels this resource "Supabase MCP (Beta)" in its OAuth metadata.
+
+## Privacy
+
+- Supabase privacy policy: https://supabase.com/privacy
 
 ## Skills
 

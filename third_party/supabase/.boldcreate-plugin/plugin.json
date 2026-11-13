@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/boldcreate-plugin.schema.json",
   "name": "supabase",
   "displayName": "Supabase",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
   "author": {
     "name": "Syncfusion"
@@ -34,21 +34,13 @@
     "wave": "A"
   },
   "supportedByGateway": true,
-  "variables": {
-    "SUPABASE_READ_ONLY": {
-      "title": "Read-only mode",
-      "description": "\"true\" runs queries as a read-only Postgres user. Set \"false\" to allow writes.",
-      "required": false,
-      "secret": false,
-      "default": "true"
-    }
-  },
+  "variables": {},
   "components": {
     "mcp": [
       {
         "name": "supabase",
         "transport": "streamable-http",
-        "url": "https://mcp.supabase.com/mcp?read_only=${SUPABASE_READ_ONLY}",
+        "url": "https://mcp.supabase.com/mcp?read_only=true",
         "auth": {
           "type": "oauth",
           "alternatives": [

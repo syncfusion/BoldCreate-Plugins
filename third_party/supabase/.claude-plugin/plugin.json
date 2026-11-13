@@ -1,7 +1,7 @@
 {
   "name": "supabase",
   "displayName": "Supabase",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
   "author": {
     "name": "Syncfusion"
@@ -18,19 +18,10 @@
     "mcp"
   ],
   "icon": "./assets/logo.svg",
-  "userConfig": {
-    "SUPABASE_READ_ONLY": {
-      "type": "string",
-      "title": "Read-only mode",
-      "description": "\"true\" runs queries as a read-only Postgres user. Set \"false\" to allow writes.",
-      "default": "true",
-      "sensitive": false
-    }
-  },
   "mcpServers": {
     "supabase": {
       "type": "http",
-      "url": "https://mcp.supabase.com/mcp?read_only=${user_config.SUPABASE_READ_ONLY}"
+      "url": "https://mcp.supabase.com/mcp?read_only=true"
     }
   }
 }
