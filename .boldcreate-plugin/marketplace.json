@@ -60,10 +60,10 @@
     {
       "name": "atlassian",
       "displayName": "Atlassian (Jira + Confluence)",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
       "source": "third_party/atlassian",
-      "logo": "third_party/atlassian/assets/logo.svg",
+      "logo": "third_party/atlassian/assets/logo.png",
       "category": "project-management",
       "components": [
         "mcp",
@@ -153,6 +153,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "cb-insights",
+      "displayName": "CB Insights",
+      "version": "0.1.0",
+      "description": "Connect agents to CB Insights to research private and public companies, investors, deals, markets and analyst research, and to manage watchlists and signal alerts.",
+      "source": "third_party/cb-insights",
+      "logo": "third_party/cb-insights/assets/logo.png",
+      "category": "data",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "clickhouse",
       "displayName": "ClickHouse",
       "version": "0.1.0",
@@ -184,6 +208,31 @@
       "source": "third_party/close",
       "logo": "third_party/close/assets/logo.svg",
       "category": "crm",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "coinmarketcap",
+      "displayName": "CoinMarketCap",
+      "version": "0.1.0",
+      "description": "Connect agents to CoinMarketCap for crypto prices, market metrics, technical analysis, news, trending narratives and on-chain data.",
+      "source": "third_party/coinmarketcap",
+      "logo": "third_party/coinmarketcap/assets/logo.png",
+      "category": "finance",
       "components": [
         "mcp",
         "skills"
@@ -494,7 +543,7 @@
     {
       "name": "google-chat",
       "displayName": "Google Chat",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "description": "Read Google Chat spaces and messages, and post messages.",
       "source": "third_party/google-chat",
       "logo": "third_party/google-chat/assets/logo.svg",
@@ -1214,6 +1263,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "morningstar",
+      "displayName": "Morningstar",
+      "version": "0.1.0",
+      "description": "Connect agents to Morningstar for fund, ETF and stock data, analyst research, articles, investment screening and portfolio analysis.",
+      "source": "third_party/morningstar",
+      "logo": "third_party/morningstar/assets/logo.png",
+      "category": "finance",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "neon",
       "displayName": "Neon",
       "version": "0.7.1",
@@ -1314,7 +1387,7 @@
     {
       "name": "pagerduty",
       "displayName": "PagerDuty",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Browse PagerDuty services, incidents, and change events.",
       "source": "third_party/pagerduty",
       "logo": "third_party/pagerduty/assets/logo.svg",
@@ -1532,7 +1605,7 @@
     {
       "name": "slack",
       "displayName": "Slack",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps.",
       "source": "third_party/slack",
       "logo": "third_party/slack/assets/logo.svg",

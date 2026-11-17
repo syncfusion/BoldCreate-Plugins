@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/boldcreate-plugin.schema.json",
   "name": "slack",
   "displayName": "Slack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps.",
   "author": {
     "name": "Syncfusion"
@@ -25,7 +25,7 @@
   "upstream": {
     "repository": "https://github.com/slackapi/slack-skills-plugin",
     "path": "skills",
-    "commit": "99e027a47c065223ac719a1b291997d4fc23cec0",
+    "commit": "524163c09c9564947b3c17591952a779fd3f9792",
     "author": "Slack",
     "license": "MIT"
   },
@@ -98,14 +98,10 @@
     ],
     "skills": [
       "block-kit",
-      "create-slack-app",
-      "deploy-slack-app",
       "slack-api",
-      "slack-cli",
       "slack-docs",
       "slack-messaging",
-      "slack-search",
-      "test-slack-app"
+      "slack-search"
     ],
     "rules": [],
     "hooks": [],
@@ -113,7 +109,7 @@
     "commands": []
   },
   "endpointCheck": {
-    "lastLiveCheck": "2026-11-10",
-    "source": "official docs and live check (https://docs.slack.dev/ai/slack-mcp-server, https://mcp.slack.com/.well-known/oauth-protected-resource)"
+    "lastLiveCheck": "2026-11-17",
+    "source": "live probe of https://mcp.slack.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; the authorization server metadata at https://mcp.slack.com has no registration endpoint, and its 30 scopes match oauthScopes; docs at https://docs.slack.dev/ai/slack-mcp-server say dynamic client registration is not supported"
   }
 }

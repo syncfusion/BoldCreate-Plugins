@@ -1,7 +1,7 @@
 {
   "name": "atlassian",
   "displayName": "Atlassian (Jira + Confluence)",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
   "author": {
     "name": "Syncfusion"
@@ -17,7 +17,7 @@
     "wiki",
     "mcp"
   ],
-  "icon": "./assets/logo.svg",
+  "icon": "./assets/logo.png",
   "mcpServers": {
     "atlassian": {
       "type": "http",

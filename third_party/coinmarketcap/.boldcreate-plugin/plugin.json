@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "coinmarketcap",
+  "displayName": "CoinMarketCap",
+  "version": "0.1.0",
+  "description": "Connect agents to CoinMarketCap for crypto prices, market metrics, technical analysis, news, trending narratives and on-chain data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://coinmarketcap.com/api/mcp/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "finance",
+  "keywords": [
+    "coinmarketcap",
+    "crypto",
+    "cryptocurrency",
+    "prices",
+    "market-data",
+    "technical-analysis",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://coinmarketcap.com/api/documentation/ai-agent-hub/mcp",
+  "upstream": {
+    "repository": "https://github.com/OpenCMC/skills-for-ai-agents-by-CoinMarketCap",
+    "path": "skills",
+    "commit": "734e728ad1b3b9fe775c911f581dc750e7875983",
+    "author": "CoinMarketCap",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "cmc-mcp",
+        "transport": "streamable-http",
+        "url": "https://mcp.coinmarketcap.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "header"
+          ]
+        }
+      }
+    ],
+    "skills": [
+      "cmc-mcp",
+      "crypto-research",
+      "market-report"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-16",
+    "source": "live probe of https://mcp.coinmarketcap.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer; protected-resource metadata at /.well-known/oauth-protected-resource/mcp names https://mcp.coinmarketcap.com, whose authorization server metadata lists a registration endpoint and S256 PKCE"
+  }
+}

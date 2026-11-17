@@ -109,6 +109,16 @@ Write-type scopes (9):
 
 A team that wants fewer permissions can request only the read-type scopes on its Slack app. Search and read features then work, and sending, scheduling, canvas and list edits, file uploads and channel creation do not.
 
+## Authentication
+
+A live check on 2026-11-17 found:
+
+- An unauthenticated request to `https://mcp.slack.com/mcp` returned HTTP 401 with `WWW-Authenticate: Bearer` and a link to the protected-resource metadata.
+- The authorization server metadata at `https://mcp.slack.com` lists S256 PKCE and the token method `client_secret_post`. It has no registration endpoint, which matches Slack's documentation.
+- The metadata advertises the same 30 scopes listed above.
+
+**Not checked.** The tool list behind sign-in was not read. Whether Slack accepts BoldCreate Connect's redirect address was not checked, and Slack's documentation does not give it.
+
 ## Rate limits
 
 Slack's documentation says the Slack MCP server is subject to rate limits like all Slack Web API methods, enforced per tool or action type, and that the same limits apply through MCP or directly through the Web API.
@@ -139,12 +149,14 @@ Slack's documentation says the Slack MCP server is subject to rate limits like a
 
 ## Skills
 
-The `skills/` folder holds the 9 agent skills published in [slackapi/slack-skills-plugin](https://github.com/slackapi/slack-skills-plugin/tree/99e027a47c065223ac719a1b291997d4fc23cec0/skills) at commit `99e027a47c065223ac719a1b291997d4fc23cec0`, copied unchanged. The source is licensed under MIT, copyright Slack Technologies, LLC. The original licence text is in `skills/LICENSE`.
+The `skills/` folder holds 5 agent skills published in [slackapi/slack-skills-plugin](https://github.com/slackapi/slack-skills-plugin/tree/524163c09c9564947b3c17591952a779fd3f9792/skills) at commit `524163c09c9564947b3c17591952a779fd3f9792`, copied unchanged. The source is licensed under MIT, copyright Slack Technologies, LLC. The original licence text is in `skills/LICENSE`.
 
 - **Skills for the MCP tools:** `slack-messaging`, `slack-search`.
-- **Skills for building Slack apps:** `block-kit`, `create-slack-app`, `deploy-slack-app`, `slack-api`, `slack-cli`, `slack-docs`, `test-slack-app`.
+- **Skills for building Slack apps:** `block-kit`, `slack-api`, `slack-docs`.
 
-Some of these skills ask the agent to run commands. `create-slack-app`, `slack-cli` and `test-slack-app` use the Slack CLI, and they suggest `brew` and Node or Python installs. `deploy-slack-app` includes two shell scripts, `references/deploy-heroku.sh` and `references/deploy-railway.sh`, that pass `SLACK_BOT_TOKEN` and `SLACK_APP_TOKEN` to a hosting provider. Review these before you enable the skills.
+Left out: `slack-cli`, `create-slack-app`, `deploy-slack-app` and `test-slack-app`. `slack-cli` tells the agent to install the Slack CLI with `curl ... | bash`. `create-slack-app` suggests `brew` installs. `deploy-slack-app` ships two shell scripts (`references/deploy-heroku.sh` and `references/deploy-railway.sh`) that pass `SLACK_BOT_TOKEN` and `SLACK_APP_TOKEN` to a hosting provider. `test-slack-app` depends on `slack-cli`.
+
+The kept skills `block-kit`, `slack-api` and `slack-docs` still mention the `slack-cli` skill as an option. It is not included here. They also describe a path without the CLI: `block-kit` sends blocks to Slack's `blocks.validate` method with `curl`, `slack-docs` searches Slack's docs, and `slack-api` asks the developer for a Slack token to call a method. The Slack CLI is not installed by any of them.
 
 Slack's repository also publishes five slash commands, such as `/slack:summarize-channel`. They are not included here.
 

@@ -1,0 +1,29 @@
+{
+  "name": "coinmarketcap",
+  "displayName": "CoinMarketCap",
+  "version": "0.1.0",
+  "description": "Connect agents to CoinMarketCap for crypto prices, market metrics, technical analysis, news, trending narratives and on-chain data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://coinmarketcap.com/api/mcp/",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "coinmarketcap",
+    "crypto",
+    "cryptocurrency",
+    "prices",
+    "market-data",
+    "technical-analysis",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "cmc-mcp": {
+      "type": "http",
+      "url": "https://mcp.coinmarketcap.com/mcp"
+    }
+  }
+}

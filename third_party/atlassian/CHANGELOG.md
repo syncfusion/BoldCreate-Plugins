@@ -2,6 +2,14 @@
 
 All notable changes to this plugin will be documented here.
 
+## 0.7.2 - 2026-11-17
+
+- Skills refreshed to `atlassian/atlassian-mcp-server` commit `352a02b0`: 6 skills, copied unchanged.
+- Removed `generate-status-report`, which ships a Python script. Atlassian's newer report skills ship Python renderers and are not included.
+- README: live check of the hosted endpoint, and the places where the live scopes differ from Atlassian's README.
+- Logo is now Atlassian's own site icon.
+- Recorded a live check of the hosted endpoint on 2026-11-17.
+
 ## 0.7.1 - 2026-11-10
 
 - The server URL is now `https://mcp.atlassian.com/v2/mcp`, the endpoint Atlassian recommends.

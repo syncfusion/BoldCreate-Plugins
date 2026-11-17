@@ -1,0 +1,29 @@
+{
+  "name": "morningstar",
+  "displayName": "Morningstar",
+  "version": "0.1.0",
+  "description": "Connect agents to Morningstar for fund, ETF and stock data, analyst research, articles, investment screening and portfolio analysis.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "morningstar",
+    "funds",
+    "etf",
+    "stocks",
+    "investment-research",
+    "analyst-research",
+    "portfolio-analysis",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "morningstar": {
+      "type": "http",
+      "url": "https://mcp.morningstar.com/mcp"
+    }
+  }
+}

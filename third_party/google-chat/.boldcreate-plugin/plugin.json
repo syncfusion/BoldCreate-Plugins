@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/boldcreate-plugin.schema.json",
   "name": "google-chat",
   "displayName": "Google Chat",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Read Google Chat spaces and messages, and post messages.",
   "author": {
     "name": "Syncfusion"
@@ -71,7 +71,7 @@
     "commands": []
   },
   "endpointCheck": {
-    "lastLiveCheck": null,
-    "source": "official docs (developers.google.com/workspace/guides/configure-mcp-servers)"
+    "lastLiveCheck": "2026-11-17",
+    "source": "live probe of https://chatmcp.googleapis.com/mcp/v1: tools/list answered without sign-in and listed 4 tools; a tools/call without a token returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; the protected-resource metadata names https://accounts.google.com as the authorization server, which has no registration endpoint"
   }
 }

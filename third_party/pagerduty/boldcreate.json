@@ -4,11 +4,13 @@
   "wave": "A",
   "transport": "streamable-http",
   "auth": "header",
-  "alternativeAuth": [],
+  "alternativeAuth": [
+    "oauth"
+  ],
   "hostedBy": "vendor",
-  "docs": "https://github.com/PagerDuty/claude-code-plugins",
+  "docs": "https://docs.pagerduty.com/developer/api/reference/mcp",
   "endpointCheck": {
-    "lastLiveCheck": null,
-    "source": "vendor plugin repository (PagerDuty/claude-code-plugins)"
+    "lastLiveCheck": "2026-11-17",
+    "source": "live probe of https://mcp.pagerduty.com/mcp and https://mcp.eu.pagerduty.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; docs at https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server describe the API key header and say dynamic client registration is not supported"
   }
 }

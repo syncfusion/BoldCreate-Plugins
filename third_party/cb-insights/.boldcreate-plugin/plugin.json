@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "cb-insights",
+  "displayName": "CB Insights",
+  "version": "0.1.0",
+  "description": "Connect agents to CB Insights to research private and public companies, investors, deals, markets and analyst research, and to manage watchlists and signal alerts.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://mcp.cbinsights.com/docs-portal.md",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "data",
+  "keywords": [
+    "cb-insights",
+    "market-intelligence",
+    "private-companies",
+    "funding",
+    "investors",
+    "deals",
+    "research",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://mcp.cbinsights.com/docs-portal.md",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "cb-insights",
+        "transport": "streamable-http",
+        "url": "https://mcp.cbinsights.com",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-15",
+    "source": "live probe of https://mcp.cbinsights.com: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://mcp.cbinsights.com lists a registration endpoint and S256 PKCE"
+  }
+}

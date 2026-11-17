@@ -2,7 +2,7 @@
   "mcpServers": {
     "pagerduty": {
       "type": "http",
-      "url": "https://mcp.pagerduty.com/mcp",
+      "url": "https://${PAGERDUTY_MCP_HOST}/mcp",
       "headers": {
         "Authorization": "Token token=${PAGERDUTY_API_KEY}"
       }

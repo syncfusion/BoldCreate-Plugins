@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "morningstar",
+  "displayName": "Morningstar",
+  "version": "0.1.0",
+  "description": "Connect agents to Morningstar for fund, ETF and stock data, analyst research, articles, investment screening and portfolio analysis.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "finance",
+  "keywords": [
+    "morningstar",
+    "funds",
+    "etf",
+    "stocks",
+    "investment-research",
+    "analyst-research",
+    "portfolio-analysis",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "morningstar",
+        "transport": "streamable-http",
+        "url": "https://mcp.morningstar.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "bearer"
+          ]
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-16",
+    "source": "live probe of https://mcp.morningstar.com/mcp: unauthenticated initialize returned HTTP 401 with no WWW-Authenticate header; protected-resource metadata at /.well-known/oauth-protected-resource/mcp names the server as its own authorization server, whose metadata lists a registration endpoint and S256 PKCE"
+  }
+}
