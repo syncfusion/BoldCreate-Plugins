@@ -1,4 +1,4 @@
-# PR Fixer test pagee
+# PR Fixer test page
 
 This file exists only to test the `pr-fixer` skill. Do not merge it.
 
