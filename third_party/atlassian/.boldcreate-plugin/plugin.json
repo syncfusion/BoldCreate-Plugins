@@ -3,7 +3,7 @@
   "name": "atlassian",
   "displayName": "Atlassian (Jira + Confluence)",
   "version": "0.7.1",
-  "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+  "description": "Search and update Jira issues and Confluence pages.",
   "author": {
     "name": "Syncfusion"
   },
@@ -25,7 +25,7 @@
   "upstream": {
     "repository": "https://github.com/atlassian/atlassian-mcp-server",
     "path": "skills",
-    "commit": "3be55622453304b905f0c0fd5ef96fa4d638627c",
+    "commit": "352a02b05189e2a958a973867cc6eca365cb8fc3",
     "author": "Atlassian",
     "license": "Apache-2.0"
   },
@@ -52,7 +52,6 @@
     "skills": [
       "atlassian-mcp-code-search",
       "capture-tasks-from-meeting-notes",
-      "generate-status-report",
       "jira-sprint-dashboard",
       "search-company-knowledge",
       "spec-to-backlog",

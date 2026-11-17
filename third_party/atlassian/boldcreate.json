@@ -12,7 +12,7 @@
   "upstream": {
     "repository": "https://github.com/atlassian/atlassian-mcp-server",
     "path": "skills",
-    "commit": "3be55622453304b905f0c0fd5ef96fa4d638627c",
+    "commit": "352a02b05189e2a958a973867cc6eca365cb8fc3",
     "author": "Atlassian",
     "license": "Apache-2.0"
   },
