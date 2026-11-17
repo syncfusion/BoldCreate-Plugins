@@ -33,11 +33,6 @@
       "source": "third_party/bolddesk"
     },
     {
-      "name": "cb-insights",
-      "description": "Connect agents to CB Insights to research private and public companies, investors, deals, markets and analyst research, and to manage watchlists and signal alerts.",
-      "source": "third_party/cb-insights"
-    },
-    {
       "name": "clickhouse",
       "description": "Query and explore your ClickHouse Cloud data.",
       "source": "third_party/clickhouse"
@@ -46,11 +41,6 @@
       "name": "close",
       "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records.",
       "source": "third_party/close"
-    },
-    {
-      "name": "coinmarketcap",
-      "description": "Connect agents to CoinMarketCap for crypto prices, market metrics, technical analysis, news, trending narratives and on-chain data.",
-      "source": "third_party/coinmarketcap"
     },
     {
       "name": "context7",
@@ -261,11 +251,6 @@
       "name": "mixpanel",
       "description": "Analyze, query, and manage your Mixpanel data.",
       "source": "third_party/mixpanel"
-    },
-    {
-      "name": "morningstar",
-      "description": "Connect agents to Morningstar for fund, ETF and stock data, analyst research, articles, investment screening and portfolio analysis.",
-      "source": "third_party/morningstar"
     },
     {
       "name": "neon",

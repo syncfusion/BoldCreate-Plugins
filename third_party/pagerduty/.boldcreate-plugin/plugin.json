@@ -2,12 +2,12 @@
   "$schema": "../../../schemas/boldcreate-plugin.schema.json",
   "name": "pagerduty",
   "displayName": "PagerDuty",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Browse PagerDuty services, incidents, and change events.",
   "author": {
     "name": "Syncfusion"
   },
-  "homepage": "https://docs.pagerduty.com/developer/api/reference/mcp",
+  "homepage": "https://github.com/PagerDuty/claude-code-plugins",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
   "logo": "assets/logo.svg",
@@ -19,7 +19,7 @@
     "mcp"
   ],
   "hostedBy": "vendor",
-  "docs": "https://docs.pagerduty.com/developer/api/reference/mcp",
+  "docs": "https://github.com/PagerDuty/claude-code-plugins",
   "rollout": {
     "phase": 1,
     "wave": "A"
@@ -31,13 +31,6 @@
       "description": "API user token from PagerDuty: User Profile, User Settings, API Access, Create API User Token.",
       "required": true,
       "secret": true
-    },
-    "PAGERDUTY_MCP_HOST": {
-      "title": "PagerDuty MCP host",
-      "description": "mcp.pagerduty.com for US accounts, or mcp.eu.pagerduty.com for EU service region accounts. Your API key is sent to this host, so enter only one of these two values.",
-      "required": false,
-      "secret": false,
-      "default": "mcp.pagerduty.com"
     }
   },
   "components": {
@@ -45,15 +38,13 @@
       {
         "name": "pagerduty",
         "transport": "streamable-http",
-        "url": "https://${PAGERDUTY_MCP_HOST}/mcp",
+        "url": "https://mcp.pagerduty.com/mcp",
         "headers": {
           "Authorization": "Token token=${PAGERDUTY_API_KEY}"
         },
         "auth": {
           "type": "header",
-          "alternatives": [
-            "oauth"
-          ]
+          "alternatives": []
         }
       }
     ],
@@ -64,7 +55,7 @@
     "commands": []
   },
   "endpointCheck": {
-    "lastLiveCheck": "2026-11-17",
-    "source": "live probe of https://mcp.pagerduty.com/mcp and https://mcp.eu.pagerduty.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; docs at https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server describe the API key header and say dynamic client registration is not supported"
+    "lastLiveCheck": null,
+    "source": "vendor plugin repository (PagerDuty/claude-code-plugins)"
   }
 }

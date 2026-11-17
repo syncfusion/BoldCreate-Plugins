@@ -54,10 +54,8 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `atlassian` | [Atlassian (Jira + Confluence)](third_party/atlassian/) | Project Management | Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools. |
 | `aws-knowledge` | [AWS Knowledge](third_party/aws-knowledge/) | Documentation | Search AWS documentation, API references, and regional availability. |
 | `bolddesk` | [BoldDesk](third_party/bolddesk/) | Customer Support | Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk. |
-| `cb-insights` | [CB Insights](third_party/cb-insights/) | Data | Connect agents to CB Insights to research private and public companies, investors, deals, markets and analyst research, and to manage watchlists and signal alerts. |
 | `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Query and explore your ClickHouse Cloud data. |
 | `close` | [Close](third_party/close/) | CRM | Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records. |
-| `coinmarketcap` | [CoinMarketCap](third_party/coinmarketcap/) | Finance | Connect agents to CoinMarketCap for crypto prices, market metrics, technical analysis, news, trending narratives and on-chain data. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `datadog` | [Datadog](third_party/datadog/) | Observability | Query Datadog logs, metrics, traces, incidents, and monitors. |
 | `deepwiki` | [DeepWiki](third_party/deepwiki/) | Documentation | Ask questions about any public GitHub repository and read its generated wiki. |
@@ -100,7 +98,6 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `mdn` | [MDN](third_party/mdn/) | Developer Tools | Search and retrieve MDN Web Docs and browser compatibility data. |
 | `microsoft-learn` | [Microsoft Learn](third_party/microsoft-learn/) | Documentation | Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more. |
 | `mixpanel` | [Mixpanel](third_party/mixpanel/) | Analytics | Analyze, query, and manage your Mixpanel data. |
-| `morningstar` | [Morningstar](third_party/morningstar/) | Finance | Connect agents to Morningstar for fund, ETF and stock data, analyst research, articles, investment screening and portfolio analysis. |
 | `netlify` | [Netlify](third_party/netlify/) | Hosting | Create, deploy, manage, and secure websites on Netlify. |
 | `neon` | [Neon](third_party/neon/) | Database | Manage Neon serverless Postgres projects, branches, queries, and migrations. |
 | `notion` | [Notion](third_party/notion/) | Documentation | Search your Notion workspace, create and edit pages, and manage databases. |

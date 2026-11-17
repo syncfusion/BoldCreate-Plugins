@@ -1,12 +1,12 @@
 {
   "name": "pagerduty",
   "displayName": "PagerDuty",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Browse PagerDuty services, incidents, and change events.",
   "author": {
     "name": "Syncfusion"
   },
-  "homepage": "https://docs.pagerduty.com/developer/api/reference/mcp",
+  "homepage": "https://github.com/PagerDuty/claude-code-plugins",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
   "keywords": [
@@ -23,19 +23,12 @@
       "description": "API user token from PagerDuty: User Profile, User Settings, API Access, Create API User Token.",
       "required": true,
       "sensitive": true
-    },
-    "PAGERDUTY_MCP_HOST": {
-      "type": "string",
-      "title": "PagerDuty MCP host",
-      "description": "mcp.pagerduty.com for US accounts, or mcp.eu.pagerduty.com for EU service region accounts. Your API key is sent to this host, so enter only one of these two values.",
-      "default": "mcp.pagerduty.com",
-      "sensitive": false
     }
   },
   "mcpServers": {
     "pagerduty": {
       "type": "http",
-      "url": "https://${user_config.PAGERDUTY_MCP_HOST}/mcp",
+      "url": "https://mcp.pagerduty.com/mcp",
       "headers": {
         "Authorization": "Token token=${user_config.PAGERDUTY_API_KEY}"
       }
