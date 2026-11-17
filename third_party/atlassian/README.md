@@ -17,7 +17,7 @@ Search and update Jira issues and Confluence pages.
   "mcpServers": {
     "atlassian": {
       "type": "http",
-      "url": "https://mcp.atlassian.com/v1/mcp"
+      "url": "https://mcp.atlassian.com/v2/mcp"
     }
   }
 }
@@ -33,7 +33,7 @@ The first time the agent calls a tool, each member signs in to their own account
 
 Uses OAuth by default. Sites whose admin enables API token access can use Basic auth (email + API token) instead. This plugin ships the OAuth flow.
 
-The plugin keeps the `/v1/mcp` address. Atlassian's README says v2 is now the recommended version at `https://mcp.atlassian.com/v2/mcp`, that the v1 endpoints remain supported, and that existing v1 connections start to expose and use v2 tools. The skills below use v2 tool names.
+The plugin uses `https://mcp.atlassian.com/v2/mcp`, the endpoint Atlassian recommends for new setups. Atlassian's README says clients that cannot complete authentication after the move to v2 tools may need to clear cached client IDs or `.well-known` credentials.
 
 ## Skills
 
@@ -48,7 +48,7 @@ The `skills/` folder holds 6 agent skills published in [atlassian/atlassian-mcp-
 | `spec-to-backlog` |
 | `triage-issue` |
 
-Atlassian's skills README says these skills target the v2 endpoint and use v2 tool names, such as `listJiraProjects` and `searchConfluence`.
+Atlassian's skills README says these skills target the `/v2/mcp` endpoint and use v2 tool names, such as `listJiraProjects` and `searchConfluence`.
 
 Left out:
 
