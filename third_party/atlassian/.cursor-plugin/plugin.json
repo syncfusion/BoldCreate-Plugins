@@ -5,14 +5,14 @@
   "minClientVersions": {
     "cursor": "3.13.0"
   },
-  "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+  "description": "Search and update Jira issues and Confluence pages.",
   "author": {
     "name": "Syncfusion"
   },
   "homepage": "https://github.com/atlassian/atlassian-mcp-server",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
-  "logo": "assets/logo.png",
+  "logo": "assets/logo.svg",
   "keywords": [
     "jira",
     "confluence",

@@ -61,9 +61,9 @@
       "name": "atlassian",
       "displayName": "Atlassian (Jira + Confluence)",
       "version": "0.7.2",
-      "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+      "description": "Search and update Jira issues and Confluence pages.",
       "source": "third_party/atlassian",
-      "logo": "third_party/atlassian/assets/logo.png",
+      "logo": "third_party/atlassian/assets/logo.svg",
       "category": "project-management",
       "components": [
         "mcp",

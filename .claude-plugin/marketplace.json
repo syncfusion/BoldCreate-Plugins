@@ -20,7 +20,7 @@
     {
       "name": "atlassian",
       "source": "./third_party/atlassian",
-      "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools."
+      "description": "Search and update Jira issues and Confluence pages."
     },
     {
       "name": "aws-knowledge",
