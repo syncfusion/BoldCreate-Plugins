@@ -947,6 +947,25 @@
       "supportedByGateway": true
     },
     {
+      "name": "incident-investigator",
+      "displayName": "Incident Investigator",
+      "version": "0.1.0",
+      "description": "Give an on-call engineer an evidence-based first read of an alert: impact, timeline, ranked causes with the evidence for each, and what to check next.",
+      "source": "plugins/incident-investigator",
+      "logo": "plugins/incident-investigator/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 2
+      },
+      "supportedByGateway": false
+    },
+    {
       "name": "linear",
       "displayName": "Linear",
       "version": "0.7.1",
@@ -1113,6 +1132,25 @@
         "wave": "A"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "pr-fixer",
+      "displayName": "PR Fixer",
+      "version": "0.1.0",
+      "description": "Fix an existing pull request: answer clear review comments, repair failing CI and resolve simple merge conflicts, and ask when intent is unclear. Never merges.",
+      "source": "plugins/pr-fixer",
+      "logo": "plugins/pr-fixer/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 2
+      },
+      "supportedByGateway": false
     },
     {
       "name": "sdlc-toolkit",
@@ -1548,6 +1586,25 @@
       "requiresSecrets": false,
       "rollout": {
         "phase": 1
+      },
+      "supportedByGateway": false
+    },
+    {
+      "name": "ticket-assistant",
+      "displayName": "Ticket Assistant",
+      "version": "0.1.0",
+      "description": "Check whether a Jira or Linear ticket is ready to build, list the exact questions if not, and write a short implementation brief. Changes the tracker only after you confirm.",
+      "source": "plugins/ticket-assistant",
+      "logo": "plugins/ticket-assistant/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "skills"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 2
       },
       "supportedByGateway": false
     },
