@@ -107,28 +107,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "boldcreate-toolkit",
-      "displayName": "BoldCreate Toolkit",
-      "version": "0.7.1",
-      "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
-      "source": "boldcreate-toolkit",
-      "logo": "boldcreate-toolkit/assets/logo.png",
-      "category": "developer-tools",
-      "components": [
-        "skills",
-        "rules",
-        "hooks",
-        "agents"
-      ],
-      "transports": [],
-      "auth": [],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1
-      },
-      "supportedByGateway": false
-    },
-    {
       "name": "bolddesk",
       "displayName": "BoldDesk",
       "version": "0.7.1",
@@ -1552,6 +1530,28 @@
         "wave": "B"
       },
       "supportedByGateway": true
+    },
+    {
+      "name": "sdlc-toolkit",
+      "displayName": "SDLC Toolkit",
+      "version": "0.7.2",
+      "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
+      "source": "sdlc-toolkit",
+      "logo": "sdlc-toolkit/assets/logo.png",
+      "category": "developer-tools",
+      "components": [
+        "skills",
+        "rules",
+        "hooks",
+        "agents"
+      ],
+      "transports": [],
+      "auth": [],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1
+      },
+      "supportedByGateway": false
     },
     {
       "name": "sentry",

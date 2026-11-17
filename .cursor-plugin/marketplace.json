@@ -28,11 +28,6 @@
       "source": "third_party/aws-knowledge"
     },
     {
-      "name": "boldcreate-toolkit",
-      "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
-      "source": "boldcreate-toolkit"
-    },
-    {
       "name": "bolddesk",
       "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk.",
       "source": "third_party/bolddesk"
@@ -326,6 +321,11 @@
       "name": "roboflow",
       "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
       "source": "third_party/roboflow"
+    },
+    {
+      "name": "sdlc-toolkit",
+      "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
+      "source": "sdlc-toolkit"
     },
     {
       "name": "sentry",

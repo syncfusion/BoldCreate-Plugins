@@ -14,7 +14,7 @@ Get independent findings on what changed, on axes that are reported separately s
    - the commit or range the caller or user named, else
    - the merge base with the default branch: `git merge-base HEAD <git.default_branch>`, reading the branch from `.boldcreate/project.yml` (default `main`).
 
-   When the first commit after the base is `Set up BoldCreate Toolkit`, move the base to that commit and say so; setup files are not part of the change. Record the range as `<base>..HEAD`. Only committed changes are reviewed. Run `git status`; if it shows uncommitted changes, list them, say they are outside the review, and ask the user whether to commit them first. Never skip them silently. Done when the range is fixed, the user has answered about any uncommitted changes, and `git diff --stat <base>..HEAD` is not empty.
+   When the first commit after the base is `Set up SDLC Toolkit`, move the base to that commit and say so; setup files are not part of the change. Record the range as `<base>..HEAD`. Only committed changes are reviewed. Run `git status`; if it shows uncommitted changes, list them, say they are outside the review, and ask the user whether to commit them first. Never skip them silently. Done when the range is fixed, the user has answered about any uncommitted changes, and `git diff --stat <base>..HEAD` is not empty.
 
 2. **Check the host.** The reviewers must run as separate agents with no chat history. If the host cannot start subagents, stop here and tell the user that this review needs a host with subagent support. Do not review in the main session instead.
 

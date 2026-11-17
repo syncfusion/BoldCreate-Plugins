@@ -28,11 +28,6 @@
       "description": "Search AWS documentation, API references, and regional availability."
     },
     {
-      "name": "boldcreate-toolkit",
-      "source": "./boldcreate-toolkit",
-      "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
-    },
-    {
       "name": "bolddesk",
       "source": "./third_party/bolddesk",
       "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk."
@@ -326,6 +321,11 @@
       "name": "roboflow",
       "source": "./third_party/roboflow",
       "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment."
+    },
+    {
+      "name": "sdlc-toolkit",
+      "source": "./sdlc-toolkit",
+      "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
     },
     {
       "name": "sentry",

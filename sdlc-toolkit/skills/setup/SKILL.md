@@ -61,7 +61,7 @@ The templates are in this skill's folder: `project-template.yml` and `principles
 
    Done when `git status` would not list any of these paths.
 
-9. **Commit or leave for the first branch.** If the current branch is not protected, commit the setup files as one commit, `Set up BoldCreate Toolkit`. On a protected branch, leave them uncommitted: the skill that next creates a work branch commits them there first, under the same subject.
+9. **Commit or leave for the first branch.** If the current branch is not protected, commit the setup files as one commit, `Set up SDLC Toolkit`. On a protected branch, leave them uncommitted: the skill that next creates a work branch commits them there first, under the same subject.
 
    Done when the setup files are committed, or you are on a protected branch.
 

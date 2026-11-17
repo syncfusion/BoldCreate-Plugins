@@ -1,14 +1,18 @@
 {
-  "name": "boldcreate-toolkit",
-  "displayName": "BoldCreate Toolkit",
-  "version": "0.7.1",
+  "name": "sdlc-toolkit",
+  "displayName": "SDLC Toolkit",
+  "version": "0.7.2",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
   "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
   "author": {
     "name": "Syncfusion"
   },
-  "homepage": "https://github.com/syncfusion/BoldCreate-Plugins/tree/main/boldcreate-toolkit",
+  "homepage": "https://github.com/syncfusion/BoldCreate-Plugins/tree/main/sdlc-toolkit",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
+  "logo": "assets/logo.png",
   "keywords": [
     "sdlc",
     "specification",
@@ -19,13 +23,14 @@
     "skills",
     "agents"
   ],
-  "icon": "./assets/logo.png",
-  "agents": [
-    "./agents/doc-reviewer.md",
-    "./agents/implementer.md",
-    "./agents/security-reviewer.md",
-    "./agents/spec-reviewer.md",
-    "./agents/standards-reviewer.md"
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "skills",
+    "agents",
+    "rules"
   ],
-  "hooks": "./hooks/claude-hooks.json"
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "rules": "./rules/"
 }

@@ -2,7 +2,7 @@
 
 Syncfusion's BoldCreate plugins for BoldCreate Connect, Cursor and Claude Code. The repository holds three kinds of plugin, each in its own directory with its own manifests:
 
-- **Syncfusion plugins** at the repository root, made of skills, agents and rules. `boldcreate-toolkit/` gives agents one software delivery lifecycle on any stack.
+- **Syncfusion plugins** at the repository root, made of skills, agents and rules. `sdlc-toolkit/` gives agents one software delivery lifecycle on any stack.
 - **Syncfusion skill packs** under `syncfusion/`, one plugin per platform. Each is copied from Syncfusion's skill repository for that platform and teaches agents to build with Syncfusion components.
 - **MCP plugins** under `third_party/`. Each connects agents to a service's remote [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
@@ -18,7 +18,7 @@ Secrets such as API keys are never stored in this repository. Each MCP plugin de
 
 | `name` | Plugin | Category | `description` |
 |:-------|:-------|:---------|:-------------------------------------|
-| `boldcreate-toolkit` | [BoldCreate Toolkit](boldcreate-toolkit/) | Developer Tools | Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests. |
+| `sdlc-toolkit` | [SDLC Toolkit](sdlc-toolkit/) | Developer Tools | Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests. |
 
 ## Syncfusion skill packs
 
@@ -133,7 +133,7 @@ This is a multi-plugin marketplace repository. The root marketplace files list e
 .boldcreate-plugin/marketplace.json   # BoldCreate Connect marketplace (generated)
 .cursor-plugin/marketplace.json       # Cursor marketplace (generated)
 .claude-plugin/marketplace.json       # Claude Code marketplace (generated)
-boldcreate-toolkit/                   # Syncfusion plugin
+sdlc-toolkit/                   # Syncfusion plugin
 ├── .cursor-plugin/plugin.json        # Manifest
 ├── .claude-plugin/plugin.json        # Claude Code manifest (generated)
 ├── .boldcreate-plugin/plugin.json    # BoldCreate Connect manifest (generated)

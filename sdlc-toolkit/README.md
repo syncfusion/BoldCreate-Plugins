@@ -1,4 +1,4 @@
-# BoldCreate Toolkit
+# SDLC Toolkit
 
 Syncfusion's BoldCreate plugin that gives AI coding agents one software delivery lifecycle: idea, specification, build, test, review, release and maintenance.
 
@@ -6,9 +6,9 @@ The kit is a set of skills, agents and rules. It has no MCP server and calls no 
 
 ## Install
 
-- **BoldCreate Connect:** open **Marketplace**, find **BoldCreate Toolkit**, and click **Install**.
-- **Cursor:** add this repository as a team marketplace, then install **BoldCreate Toolkit**.
-- **Claude Code:** `/plugin marketplace add syncfusion/BoldCreate-Plugins`, then `/plugin install boldcreate-toolkit@boldcreate-plugins`.
+- **BoldCreate Connect:** open **Marketplace**, find **SDLC Toolkit**, and click **Install**.
+- **Cursor:** add this repository as a team marketplace, then install **SDLC Toolkit**.
+- **Claude Code:** `/plugin marketplace add syncfusion/BoldCreate-Plugins`, then `/plugin install sdlc-toolkit@boldcreate-plugins`.
 
 You also need:
 
@@ -18,7 +18,7 @@ You also need:
 
 ## Get started
 
-Run the `bc-start` skill and describe what you want. In Cursor, type `/bc-start`. In Claude Code, type `/boldcreate-toolkit:bc-start`.
+Run the `bc-start` skill and describe what you want. In Cursor, type `/bc-start`. In Claude Code, type `/sdlc-toolkit:bc-start`.
 
 In Claude Code, the agent cannot start the skills marked "You" below by itself. When a path reaches one, it reads that skill's `SKILL.md` from the folder next to the current skill's folder and follows it; the session-start hook also prints the kit's skills folder as `Kit skills: <path>`. If Claude Code asks before each read, allow reads of installed plugins in `~/.claude/settings.json`:
 
@@ -120,7 +120,7 @@ Every skill keeps the templates and review checklists it reads in its own folder
 | `docs/learnings/<date>-<topic>.md` | `retro` | Lessons learned |
 | `docs/reports/` | `report` | Drift reports, release notes and progress summaries |
 
-Commit the other files so that the whole team and every new session share them. `setup` commits its own files as `Set up BoldCreate Toolkit`, on the first work branch when you start on a protected branch, and reviews leave that commit out. If a command in `project.yml` is missing or fails, the kit asks you for it instead of guessing.
+Commit the other files so that the whole team and every new session share them. `setup` commits its own files as `Set up SDLC Toolkit`, on the first work branch when you start on a protected branch, and reviews leave that commit out. If a command in `project.yml` is missing or fails, the kit asks you for it instead of guessing.
 
 ## Context budget
 

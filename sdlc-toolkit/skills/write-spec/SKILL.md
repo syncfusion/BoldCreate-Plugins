@@ -20,7 +20,7 @@ Paths below are defaults. When `.boldcreate/project.yml` exists, use its `docs` 
 
    Done when the target path is fixed and any existing spec for this feature has been read.
 
-2. **Prepare the branch.** Read `git.default_branch` and `git.protected_branches` from `.boldcreate/project.yml`. If the current branch is a work branch not in `protected_branches`, stay on it. Otherwise create `feat/<feature-slug>` from the default branch and check it out. If setup left its files uncommitted, commit them on the new branch first as `Set up BoldCreate Toolkit`. Never write the spec, glossary or decision records on a protected branch.
+2. **Prepare the branch.** Read `git.default_branch` and `git.protected_branches` from `.boldcreate/project.yml`. If the current branch is a work branch not in `protected_branches`, stay on it. Otherwise create `feat/<feature-slug>` from the default branch and check it out. If setup left its files uncommitted, commit them on the new branch first as `Set up SDLC Toolkit`. Never write the spec, glossary or decision records on a protected branch.
 
    Done when you are on a branch that is not protected, before any file is written.
 
