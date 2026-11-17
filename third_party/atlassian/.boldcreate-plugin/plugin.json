@@ -63,7 +63,7 @@
     "commands": []
   },
   "endpointCheck": {
-    "lastLiveCheck": "2026-11-17",
-    "source": "live probe of https://mcp.atlassian.com/v2/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; the metadata names an authorization server whose metadata lists a registration endpoint (dynamic client registration) and S256 PKCE"
+    "lastLiveCheck": "2026-11-10",
+    "source": "official docs"
   }
 }
