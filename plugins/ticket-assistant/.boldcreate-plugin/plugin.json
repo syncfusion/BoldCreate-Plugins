@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "ticket-assistant",
+  "displayName": "Ticket Assistant",
+  "version": "0.1.0",
+  "description": "Check whether a Jira or Linear ticket is ready to build, list the exact questions if not, and write a short implementation brief. Changes the tracker only after you confirm.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/syncfusion/BoldCreate-Plugins/tree/main/plugins/ticket-assistant",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "tickets",
+    "jira",
+    "linear",
+    "readiness",
+    "acceptance-criteria",
+    "skills"
+  ],
+  "stage": "preview",
+  "docs": "https://github.com/syncfusion/BoldCreate-Plugins/tree/main/plugins/ticket-assistant",
+  "rollout": {
+    "phase": 2
+  },
+  "supportedByGateway": false,
+  "variables": {},
+  "components": {
+    "mcp": [],
+    "skills": [
+      "ticket-assistant"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": null
+}
