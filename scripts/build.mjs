@@ -23,7 +23,8 @@ const check = process.argv.includes("--check");
 
 export const PLUGINS_DIR = "third_party";
 export const SKILL_PACKS_DIR = "syncfusion";
-const NOT_PLUGINS = new Set([PLUGINS_DIR, SKILL_PACKS_DIR, "node_modules", "schemas", "scripts"]);
+export const FIRST_PARTY_DIR = "plugins";
+const NOT_PLUGINS = new Set([PLUGINS_DIR, SKILL_PACKS_DIR, FIRST_PARTY_DIR, "node_modules", "schemas", "scripts"]);
 
 const MARKETPLACE = {
   name: "boldcreate-plugins",
@@ -46,10 +47,14 @@ const filesWith = (dir, ext) =>
 // Each plugin is { name, dir } with dir relative to the repo root. A skill pack in
 // syncfusion/<group>/<folder> is named syncfusion-<folder>.
 export function listPlugins() {
-  const firstParty = subdirs(root)
+  const atRoot = subdirs(root)
     .filter((n) => !n.startsWith(".") && !NOT_PLUGINS.has(n))
     .filter((n) => existsSync(join(root, n, ".cursor-plugin/plugin.json")))
     .map((name) => ({ name, dir: name }));
+  const grouped = subdirs(join(root, FIRST_PARTY_DIR))
+    .filter((n) => existsSync(join(root, FIRST_PARTY_DIR, n, ".cursor-plugin/plugin.json")))
+    .map((name) => ({ name, dir: `${FIRST_PARTY_DIR}/${name}` }));
+  const firstParty = [...atRoot, ...grouped];
   const packs = subdirs(join(root, SKILL_PACKS_DIR)).flatMap((group) =>
     subdirs(join(root, SKILL_PACKS_DIR, group))
       .filter((n) => existsSync(join(root, SKILL_PACKS_DIR, group, n, ".cursor-plugin/plugin.json")))

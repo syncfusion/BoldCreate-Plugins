@@ -1,0 +1,22 @@
+{
+  "name": "incident-investigator",
+  "displayName": "Incident Investigator",
+  "version": "0.1.0",
+  "description": "Give an on-call engineer an evidence-based first read of an alert: impact, timeline, ranked causes with the evidence for each, and what to check next.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/syncfusion/BoldCreate-Plugins/tree/main/plugins/incident-investigator",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "incident",
+    "on-call",
+    "root-cause",
+    "pagerduty",
+    "datadog",
+    "sentry",
+    "skills"
+  ],
+  "icon": "./assets/logo.png"
+}

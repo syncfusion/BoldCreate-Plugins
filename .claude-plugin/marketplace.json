@@ -203,6 +203,11 @@
       "description": "Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers."
     },
     {
+      "name": "incident-investigator",
+      "source": "./plugins/incident-investigator",
+      "description": "Give an on-call engineer an evidence-based first read of an alert: impact, timeline, ranked causes with the evidence for each, and what to check next."
+    },
+    {
       "name": "linear",
       "source": "./third_party/linear",
       "description": "Find, create, and update Linear issues, projects, and cycles."
@@ -236,6 +241,11 @@
       "name": "posthog",
       "source": "./third_party/posthog",
       "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards."
+    },
+    {
+      "name": "pr-fixer",
+      "source": "./plugins/pr-fixer",
+      "description": "Fix an existing pull request: answer clear review comments, repair failing CI and resolve simple merge conflicts, and ask when intent is unclear. Never merges."
     },
     {
       "name": "sdlc-toolkit",
@@ -346,6 +356,11 @@
       "name": "syncfusion-xamarin-to-maui",
       "source": "./syncfusion/migration-skills/xamarin-to-maui",
       "description": "Skills for moving Xamarin.Forms apps to .NET MAUI: project and framework changes, platform-specific code, renderers to handlers, and Syncfusion Xamarin controls to their .NET MAUI equivalents."
+    },
+    {
+      "name": "ticket-assistant",
+      "source": "./plugins/ticket-assistant",
+      "description": "Check whether a Jira or Linear ticket is ready to build, list the exact questions if not, and write a short implementation brief. Changes the tracker only after you confirm."
     },
     {
       "name": "vercel",

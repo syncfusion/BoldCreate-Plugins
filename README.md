@@ -2,7 +2,7 @@
 
 Syncfusion's BoldCreate plugins for BoldCreate Connect, Cursor and Claude Code. The repository holds three kinds of plugin, each in its own directory with its own manifests:
 
-- **Syncfusion plugins** at the repository root, made of skills, agents and rules. `sdlc-toolkit/` gives agents one software delivery lifecycle on any stack.
+- **Syncfusion plugins**, made of skills, agents and rules: `sdlc-toolkit/` at the repository root gives agents one software delivery lifecycle on any stack, and new ones live under `plugins/`, one folder each.
 - **Syncfusion skill packs** under `syncfusion/`, one plugin per platform. Each is copied from Syncfusion's skill repository for that platform and teaches agents to build with Syncfusion components.
 - **MCP plugins** under `third_party/`. Each connects agents to a service's remote [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
@@ -19,6 +19,9 @@ Secrets such as API keys are never stored in this repository. Each MCP plugin de
 | `name` | Plugin | Category | `description` (from marketplace) |
 |:-------|:-------|:---------|:-------------------------------------|
 | `sdlc-toolkit` | [SDLC Toolkit](sdlc-toolkit/) | Developer Tools | Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests. |
+| `incident-investigator` | [Incident Investigator](plugins/incident-investigator/) | Developer Tools | Give an on-call engineer an evidence-based first read of an alert: impact, timeline, ranked causes with the evidence for each, and what to check next. |
+| `ticket-assistant` | [Ticket Assistant](plugins/ticket-assistant/) | Developer Tools | Check whether a Jira or Linear ticket is ready to build, list the exact questions if not, and write a short implementation brief. Changes the tracker only after you confirm. |
+| `pr-fixer` | [PR Fixer](plugins/pr-fixer/) | Developer Tools | Fix an existing pull request: answer clear review comments, repair failing CI and resolve simple merge conflicts, and ask when intent is unclear. Never merges. |
 
 ## Syncfusion skill packs
 
