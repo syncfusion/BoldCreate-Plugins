@@ -7,6 +7,13 @@
   "alternativeAuth": [],
   "hostedBy": "vendor",
   "docs": "https://github.com/amplitude/mcp-marketplace",
+  "upstream": {
+    "repository": "https://github.com/amplitude/mcp-marketplace",
+    "path": "plugins/amplitude/skills",
+    "commit": "658f88b994d80ac94cff8deaf2886b7f9eb927e9",
+    "author": "Amplitude",
+    "license": "MIT"
+  },
   "endpointCheck": {
     "lastLiveCheck": null,
     "source": "vendor plugin repository (amplitude/mcp-marketplace at 94f58cc)"
