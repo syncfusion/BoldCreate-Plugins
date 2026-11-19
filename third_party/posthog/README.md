@@ -2,7 +2,7 @@
 
 BoldCreate plugin that connects agents to PostHog through its hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Query product analytics, manage feature flags, and investigate errors in PostHog.
+Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards.
 
 ## Install
 

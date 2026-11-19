@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "onesignal",
+  "displayName": "OneSignal",
+  "version": "0.1.0",
+  "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://documentation.onesignal.com/docs/en/model-context-protocol",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "communication",
+  "keywords": [
+    "onesignal",
+    "push-notifications",
+    "email",
+    "sms",
+    "in-app-messaging",
+    "journeys",
+    "segments",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://documentation.onesignal.com/docs/en/model-context-protocol",
+  "upstream": {
+    "repository": "https://github.com/OneSignal/onesignal-cursor-plugin",
+    "path": ".",
+    "commit": "491d5626d39311021fc9fbb3353fbe2dead02641",
+    "author": "OneSignal",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "onesignal",
+        "transport": "streamable-http",
+        "url": "https://api.onesignal.com/mcp/oauth",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "onesignal-setup"
+    ],
+    "rules": [
+      "onesignal-safety"
+    ],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://api.onesignal.com/mcp/oauth: unauthenticated initialize returned HTTP 401 with no WWW-Authenticate header; protected-resource and authorization server metadata at https://api.onesignal.com list a registration endpoint and S256 PKCE"
+  }
+}

@@ -7,3 +7,5 @@ All notable changes to this plugin will be documented here.
 - First version: Amplitude remote MCP server over streamable HTTP.
 - Endpoint taken from the vendor's plugin repository (amplitude/mcp-marketplace at 94f58cc). The vendor's repository is MIT-licensed.
 - OAuth sign-in: each member signs in to their own Amplitude account in the browser. BoldCreate Connect supplies its own OAuth client.
+- Includes 27 of the 36 agent skills published in `amplitude/mcp-marketplace` (commit `658f88b9`), copied unchanged, with the original licence in `skills/LICENSE`.
+- Not included: 9 skills that depend on Amplitude feature flags (`analyze-chart`, `analyze-experiment`, `analyze-experiment-consolidated`, `build-charts-with-typed-params`, `create-chart`, `edit-guides-surveys`, `manage-amp-context`, `monitor-experiments`, `monitor-experiments-consolidated`).

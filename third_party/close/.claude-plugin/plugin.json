@@ -1,0 +1,29 @@
+{
+  "name": "close",
+  "displayName": "Close",
+  "version": "0.1.0",
+  "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.close.com/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "close",
+    "crm",
+    "sales",
+    "leads",
+    "pipeline",
+    "opportunities",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "close": {
+      "type": "http",
+      "url": "https://mcp.close.com/mcp"
+    }
+  }
+}

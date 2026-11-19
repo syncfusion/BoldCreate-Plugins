@@ -2,7 +2,7 @@
 
 BoldCreate plugin that connects agents to Hugging Face through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Search Hugging Face for models, datasets, and spaces.
+Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers.
 
 ## Install
 

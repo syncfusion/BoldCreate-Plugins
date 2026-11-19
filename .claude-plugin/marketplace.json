@@ -10,7 +10,7 @@
     {
       "name": "amplitude",
       "source": "./third_party/amplitude",
-      "description": "Query Amplitude product analytics, charts, and experiments."
+      "description": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts."
     },
     {
       "name": "android-management",
@@ -35,7 +35,12 @@
     {
       "name": "clickhouse",
       "source": "./third_party/clickhouse",
-      "description": "Query and explore your ClickHouse Cloud data."
+      "description": "Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries."
+    },
+    {
+      "name": "close",
+      "source": "./third_party/close",
+      "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records."
     },
     {
       "name": "context7",
@@ -48,9 +53,24 @@
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
     },
     {
+      "name": "exa",
+      "source": "./third_party/exa",
+      "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research."
+    },
+    {
       "name": "figma",
       "source": "./third_party/figma",
       "description": "Turn Figma frames into code and read design tokens, components, and variables."
+    },
+    {
+      "name": "firecrawl",
+      "source": "./third_party/firecrawl",
+      "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor."
+    },
+    {
+      "name": "freshbooks",
+      "source": "./third_party/freshbooks",
+      "description": "Check profit, cash, invoices, clients, and more in your FreshBooks account."
     },
     {
       "name": "gitea",
@@ -200,7 +220,7 @@
     {
       "name": "huggingface",
       "source": "./third_party/huggingface",
-      "description": "Search Hugging Face for models, datasets, and spaces."
+      "description": "Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers."
     },
     {
       "name": "incident-investigator",
@@ -215,7 +235,7 @@
     {
       "name": "mdn",
       "source": "./third_party/mdn",
-      "description": "Search & retrieval of MDN docs & browser compat data."
+      "description": "Access MDN's search, documentation, and browser compatibility data (experimental MCP server)."
     },
     {
       "name": "microsoft-learn",
@@ -225,7 +245,7 @@
     {
       "name": "mixpanel",
       "source": "./third_party/mixpanel",
-      "description": "Analyze, query, and manage your Mixpanel data."
+      "description": "Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags."
     },
     {
       "name": "neon",
@@ -238,14 +258,24 @@
       "description": "Search, read, and update Notion pages and databases."
     },
     {
+      "name": "onesignal",
+      "source": "./third_party/onesignal",
+      "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app."
+    },
+    {
       "name": "posthog",
       "source": "./third_party/posthog",
-      "description": "Query product analytics, manage feature flags, and investigate errors in PostHog."
+      "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards."
     },
     {
       "name": "pr-fixer",
       "source": "./plugins/pr-fixer",
       "description": "Fix an existing pull request: answer clear review comments, repair failing CI and resolve simple merge conflicts, and ask when intent is unclear. Never merges."
+    },
+    {
+      "name": "roboflow",
+      "source": "./third_party/roboflow",
+      "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment."
     },
     {
       "name": "sdlc-toolkit",
@@ -361,6 +391,11 @@
       "name": "ticket-assistant",
       "source": "./plugins/ticket-assistant",
       "description": "Check whether a Jira or Linear ticket is ready to build, list the exact questions if not, and write a short implementation brief. Changes the tracker only after you confirm."
+    },
+    {
+      "name": "todoist",
+      "source": "./third_party/todoist",
+      "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects."
     },
     {
       "name": "vercel",
