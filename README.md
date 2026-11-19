@@ -54,13 +54,17 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 |:-------|:-------|:---------|:-------------------------------------|
 | `amplitude` | [Amplitude](third_party/amplitude/) | Analytics | Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts. |
 | `android-management` | [Android Management](third_party/android-management/) | Devices | Manage enterprise Android devices, policies, and apps with the Android Management API. |
-| `atlassian` | [Atlassian (Jira + Confluence)](third_party/atlassian/) | Project Management | Search and update Jira issues and Confluence pages. |
+| `atlassian` | [Atlassian (Jira + Confluence)](third_party/atlassian/) | Project Management | Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools. |
 | `aws-knowledge` | [AWS Knowledge](third_party/aws-knowledge/) | Documentation | Search AWS documentation, API references, and regional availability. |
 | `bolddesk` | [BoldDesk](third_party/bolddesk/) | Customer Support | Create, update, and manage support tickets, activities, approvals, worklogs, Knowledge Base content, and related support operations in BoldDesk. |
 | `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries. |
+| `close` | [Close](third_party/close/) | CRM | Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `deepwiki` | [DeepWiki](third_party/deepwiki/) | Documentation | Ask questions about any public GitHub repository and read its generated wiki. |
+| `exa` | [Exa](third_party/exa/) | AI | Connect AI agents to Exa for web search, content fetching, and multi-step research. |
 | `figma` | [Figma](third_party/figma/) | Design | Turn Figma frames into code and read design tokens, components, and variables. |
+| `firecrawl` | [Firecrawl](third_party/firecrawl/) | AI | Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor. |
+| `freshbooks` | [FreshBooks](third_party/freshbooks/) | Finance | Check profit, cash, invoices, clients, and more in your FreshBooks account. |
 | `gitea` | [Gitea](third_party/gitea/) | Source Control | Work with Gitea repositories, issues, pull requests, and releases through your own gitea-mcp server. |
 | `github` | [GitHub](third_party/github/) | Source Control | Manage repos, issues, pull requests, and Actions. |
 | `gitlab` | [GitLab](third_party/gitlab/) | Source Control | Work with GitLab projects, issues, merge requests, pipelines, and code search. |
@@ -97,10 +101,13 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `mixpanel` | [Mixpanel](third_party/mixpanel/) | Analytics | Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags. |
 | `neon` | [Neon](third_party/neon/) | Database | Manage Neon serverless Postgres projects, branches, queries, and migrations. |
 | `notion` | [Notion](third_party/notion/) | Documentation | Search, read, and update Notion pages and databases. |
+| `onesignal` | [OneSignal](third_party/onesignal/) | Communication | Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app. |
 | `posthog` | [PostHog](third_party/posthog/) | Analytics | Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards. |
+| `roboflow` | [Roboflow](third_party/roboflow/) | AI | Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment. |
 | `sentry` | [Sentry](third_party/sentry/) | Observability | Investigate Sentry errors, stack traces, and issues for a project. |
 | `stripe` | [Stripe](third_party/stripe/) | Payments | Work with Stripe customers, payments, subscriptions, and search Stripe docs. |
 | `supabase` | [Supabase](third_party/supabase/) | Database | Connect AI assistants to your Supabase project to manage tables, fetch config, and query data. |
+| `todoist` | [Todoist](third_party/todoist/) | Productivity | Connect agents to Todoist to read, add and change tasks, and to reorganize projects. |
 | `vercel` | [Vercel](third_party/vercel/) | Hosting | Inspect Vercel projects, deployments, and build logs, and search Vercel docs. |
 
 ## Repository structure
