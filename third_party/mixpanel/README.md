@@ -2,7 +2,7 @@
 
 BoldCreate plugin that connects agents to Mixpanel through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags.
+Analyze, query, and manage your Mixpanel data.
 
 ## Install
 

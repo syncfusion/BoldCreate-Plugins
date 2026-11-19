@@ -10,7 +10,7 @@
     {
       "name": "amplitude",
       "source": "./third_party/amplitude",
-      "description": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts."
+      "description": "Query Amplitude product analytics, charts, and experiments."
     },
     {
       "name": "android-management",
@@ -35,7 +35,7 @@
     {
       "name": "clickhouse",
       "source": "./third_party/clickhouse",
-      "description": "Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries."
+      "description": "Query and explore your ClickHouse Cloud data."
     },
     {
       "name": "context7",
@@ -200,7 +200,7 @@
     {
       "name": "huggingface",
       "source": "./third_party/huggingface",
-      "description": "Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers."
+      "description": "Search Hugging Face for models, datasets, and spaces."
     },
     {
       "name": "incident-investigator",
@@ -215,7 +215,7 @@
     {
       "name": "mdn",
       "source": "./third_party/mdn",
-      "description": "Access MDN's search, documentation, and browser compatibility data (experimental MCP server)."
+      "description": "Search & retrieval of MDN docs & browser compat data."
     },
     {
       "name": "microsoft-learn",
@@ -225,7 +225,7 @@
     {
       "name": "mixpanel",
       "source": "./third_party/mixpanel",
-      "description": "Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags."
+      "description": "Analyze, query, and manage your Mixpanel data."
     },
     {
       "name": "neon",
@@ -240,7 +240,7 @@
     {
       "name": "posthog",
       "source": "./third_party/posthog",
-      "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards."
+      "description": "Query product analytics, manage feature flags, and investigate errors in PostHog."
     },
     {
       "name": "pr-fixer",
