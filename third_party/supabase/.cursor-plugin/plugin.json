@@ -33,13 +33,11 @@
       "SUPABASE_READ_ONLY": {
         "type": "string",
         "title": "Read-only mode",
-        "description": "Enter \"true\" to run queries as a read-only Postgres user, or \"false\" to allow writes. There is no default, so you must set a value.",
+        "description": "\"true\" runs queries as a read-only Postgres user. Set \"false\" to allow writes.",
+        "default": "true",
         "x-sensitive": false
       }
-    },
-    "required": [
-      "SUPABASE_READ_ONLY"
-    ]
+    }
   },
   "skills": "./skills/",
   "mcpServers": "./mcp.json"

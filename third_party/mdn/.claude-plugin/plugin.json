@@ -2,7 +2,7 @@
   "name": "mdn",
   "displayName": "MDN",
   "version": "0.1.0",
-  "description": "Access MDN's search, documentation, and browser compatibility data (experimental MCP server).",
+  "description": "Search & retrieval of MDN docs & browser compat data.",
   "author": {
     "name": "Syncfusion"
   },
