@@ -2,6 +2,13 @@
 
 All notable changes to this plugin will be documented here.
 
+## 0.7.1 - 2026-11-17
+
+- The server URL is now `https://mcp.atlassian.com/v2/mcp`, the endpoint Atlassian recommends.
+- Added 6 agent skills published in `atlassian/atlassian-mcp-server` (commit `352a02b0`), copied unchanged, with Atlassian's Apache-2.0 licence in `skills/LICENSE`.
+- Left out `generate-status-report` and Atlassian's newer report skills because they ship Python scripts. The README names them.
+- README: added a Skills section and a note on the endpoint.
+
 ## 0.7.0 - 2026-10-29
 
 - Updated plugin version for marketplace release.

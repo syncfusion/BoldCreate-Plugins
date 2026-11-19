@@ -1,0 +1,28 @@
+{
+  "name": "freshbooks",
+  "displayName": "FreshBooks",
+  "version": "0.1.0",
+  "description": "Check profit, cash, invoices, clients, and more in your FreshBooks account.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://support.freshbooks.com/hc/en-us/articles/47907329443597",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "freshbooks",
+    "accounting",
+    "invoices",
+    "expenses",
+    "clients",
+    "reports",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "mcpServers": {
+    "freshbooks": {
+      "type": "http",
+      "url": "https://mcp.freshbooks.com/v1"
+    }
+  }
+}

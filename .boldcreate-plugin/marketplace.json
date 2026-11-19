@@ -61,13 +61,14 @@
     {
       "name": "atlassian",
       "displayName": "Atlassian (Jira + Confluence)",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "description": "Search and update Jira issues and Confluence pages.",
       "source": "third_party/atlassian",
       "logo": "third_party/atlassian/assets/logo.svg",
       "category": "project-management",
       "components": [
-        "mcp"
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"
@@ -155,6 +156,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "close",
+      "displayName": "Close",
+      "version": "0.1.0",
+      "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records.",
+      "source": "third_party/close",
+      "logo": "third_party/close/assets/logo.svg",
+      "category": "crm",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "context7",
       "displayName": "Context7",
       "version": "0.7.1",
@@ -203,6 +229,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "exa",
+      "displayName": "Exa",
+      "version": "0.1.0",
+      "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
+      "source": "third_party/exa",
+      "logo": "third_party/exa/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "figma",
       "displayName": "Figma",
       "version": "0.7.0",
@@ -210,6 +261,55 @@
       "source": "third_party/figma",
       "logo": "third_party/figma/assets/logo.svg",
       "category": "design",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "firecrawl",
+      "displayName": "Firecrawl",
+      "version": "0.1.0",
+      "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor.",
+      "source": "third_party/firecrawl",
+      "logo": "third_party/firecrawl/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "freshbooks",
+      "displayName": "FreshBooks",
+      "version": "0.1.0",
+      "description": "Check profit, cash, invoices, clients, and more in your FreshBooks account.",
+      "source": "third_party/freshbooks",
+      "logo": "third_party/freshbooks/assets/logo.svg",
+      "category": "finance",
       "components": [
         "mcp"
       ],
@@ -1110,6 +1210,32 @@
       "supportedByGateway": true
     },
     {
+      "name": "onesignal",
+      "displayName": "OneSignal",
+      "version": "0.1.0",
+      "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app.",
+      "source": "third_party/onesignal",
+      "logo": "third_party/onesignal/assets/logo.png",
+      "category": "communication",
+      "components": [
+        "mcp",
+        "skills",
+        "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "posthog",
       "displayName": "PostHog",
       "version": "0.7.1",
@@ -1151,6 +1277,31 @@
         "phase": 2
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "roboflow",
+      "displayName": "Roboflow",
+      "version": "0.1.0",
+      "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
+      "source": "third_party/roboflow",
+      "logo": "third_party/roboflow/assets/logo.svg",
+      "category": "ai",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "sdlc-toolkit",
@@ -1607,6 +1758,30 @@
         "phase": 2
       },
       "supportedByGateway": false
+    },
+    {
+      "name": "todoist",
+      "displayName": "Todoist",
+      "version": "0.1.0",
+      "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects.",
+      "source": "third_party/todoist",
+      "logo": "third_party/todoist/assets/logo.png",
+      "category": "productivity",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
     },
     {
       "name": "vercel",

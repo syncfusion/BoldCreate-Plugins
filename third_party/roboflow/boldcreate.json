@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [
+    "header"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://docs.roboflow.com/agents/mcp-server",
+  "upstream": {
+    "repository": "https://github.com/roboflow/computer-vision-skills",
+    "path": "skills",
+    "commit": "c4263a7e5a5d79d7e2473b22e802f94de6c0bd4c",
+    "author": "Roboflow",
+    "license": "Apache-2.0"
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.roboflow.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://app.roboflow.com lists a registration endpoint, client ID metadata documents and S256 PKCE"
+  }
+}

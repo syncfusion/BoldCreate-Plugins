@@ -1,0 +1,36 @@
+{
+  "name": "onesignal",
+  "displayName": "OneSignal",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://documentation.onesignal.com/docs/en/model-context-protocol",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "onesignal",
+    "push-notifications",
+    "email",
+    "sms",
+    "in-app-messaging",
+    "journeys",
+    "segments",
+    "mcp",
+    "skills"
+  ],
+  "category": "communication",
+  "tags": [
+    "communication",
+    "mcp",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/",
+  "mcpServers": "./mcp.json"
+}
