@@ -2,8 +2,8 @@
   "$schema": "../../../schemas/boldcreate-plugin.schema.json",
   "name": "bolddesk",
   "displayName": "BoldDesk",
-  "version": "0.7.1",
-  "description": "Create, update, and manage support tickets, activities, approvals, worklogs, Knowledge Base content, and related support operations in BoldDesk.",
+  "version": "0.7.2",
+  "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk.",
   "author": {
     "name": "Syncfusion"
   },
@@ -56,7 +56,7 @@
     "commands": []
   },
   "endpointCheck": {
-    "lastLiveCheck": null,
-    "source": "vendor docs (developer.bolddesk.com/mcp-server). The endpoint is per account, so it was not called."
+    "lastLiveCheck": "2026-11-17",
+    "source": "BoldDesk MCP Server docs (developer.bolddesk.com/mcp-server) and a live probe of support.bolddesk.com/mcp: an unauthenticated initialize returned HTTP 401 with a resource_metadata link, and the authorization metadata lists a registration endpoint (dynamic client registration) and S256 PKCE. No client was registered."
   }
 }

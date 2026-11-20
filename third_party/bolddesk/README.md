@@ -1,8 +1,8 @@
 # BoldDesk
 
-BoldCreate plugin that connects agents to BoldDesk through the vendor's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
+BoldCreate plugin that connects agents to BoldDesk through BoldDesk's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server over streamable HTTP.
 
-Create, update, and manage support tickets, activities, approvals, worklogs, Knowledge Base content, and related support operations in BoldDesk.
+Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk.
 
 ## Install
 
@@ -51,18 +51,17 @@ Auth is OAuth 2.0 (automatic registration). The first time the agent calls a too
 
 ## Before you connect
 
-- A BoldDesk admin turns the MCP server on and manages connected OAuth clients in **AI Center, MCP Server**. BoldDesk registers clients dynamically, so there is no client ID or secret to enter here.
-- BoldDesk recommends trying read-only requests first, before using tools that create or change data.
+- BoldDesk registers clients dynamically, so there is no client ID or secret to enter here.
+- 13 of BoldDesk's tools create or change data: tickets, ticket links, messages, activities, approvals, worklogs and Knowledge Base articles. Try read-only requests first.
 - To use an API key instead of OAuth, open the server in BoldCreate Connect, set **Authentication** to **API key**, use the header name `x-api-key`, and enter your BoldDesk API key. The key acts with the permissions of its user. Keep it secret and rotate it regularly.
 
 ## Docs
 
 - BoldDesk MCP Server: https://developer.bolddesk.com/mcp-server/
-- Privacy: https://www.bolddesk.com/legal/privacy-policy
 
 ## Logo
 
-BoldDesk icon from the vendor's developer site (developer.bolddesk.com), trimmed to the visible mark. It is the vendor's own icon and a trademark of its owner. It is not covered by the MIT licence.
+BoldDesk icon, trimmed to the visible mark. It is BoldDesk's own icon and a trademark of its owner. It is not covered by the MIT licence.
 
 ## License
 
