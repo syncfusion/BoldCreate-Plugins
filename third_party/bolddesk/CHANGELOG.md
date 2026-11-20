@@ -2,6 +2,13 @@
 
 All notable changes to this plugin will be documented here.
 
+## 0.7.2 - 2026-11-20
+
+- Shorter description: create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base.
+- README: removed claims that could not be confirmed and added a note on write tools.
+- Recorded a live check of the hosted endpoint on 2026-11-17.
+- Updated the logo.
+
 ## 0.7.1 - 2026-11-05
 
 - First version: BoldDesk remote MCP server over streamable HTTP.
