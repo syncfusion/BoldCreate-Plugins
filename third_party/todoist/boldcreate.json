@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [],
+  "hostedBy": "vendor",
+  "docs": "https://www.todoist.com/help/todoist/todoist-and-ai/connect-todoist-to-an-ai-assistant-xMSzFfHng",
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-15",
+    "source": "live probe of https://ai.todoist.net/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://todoist.com lists a registration endpoint and S256 PKCE"
+  }
+}

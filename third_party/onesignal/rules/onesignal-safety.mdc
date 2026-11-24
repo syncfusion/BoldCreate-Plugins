@@ -1,0 +1,43 @@
+---
+description: Safety rules for using OneSignal APIs, MCP tools, and Cursor plugin workflows.
+alwaysApply: true
+---
+
+# OneSignal Safety Rules
+
+When using OneSignal tools or generating OneSignal API code, treat sends and writes as customer-impacting operations.
+
+## Secrets
+
+- Never ask the user to paste API keys, OAuth tokens, private keys, or other secrets into chat or source files.
+- Never commit `.env` files or real credentials.
+- Redact keys in logs, examples, screenshots, and support text.
+
+## Read Before Write
+
+Prefer read-only checks before writes:
+
+- Use health/config/reference tools before workflow-specific tools.
+- Inspect existing segments, templates, messages, users, or journeys before creating duplicates.
+- Surface app id, audience, channel, and object ids before any mutation.
+
+## Explicit Approval
+
+Require clear user approval before:
+
+- Sending or scheduling push, email, SMS, or in-app messages.
+- Creating, updating, deleting, pausing, or activating segments, templates, journeys, users, subscriptions, aliases, live activities, or exports.
+- Transferring subscriptions or making identity changes.
+- Acting on production apps.
+
+For message sends, the approval summary must include channel, app id, audience, estimated count when available, content, schedule/timezone, and whether this is a test send.
+
+For large audiences or any production blast, ask for an extra confirmation after showing the estimated count.
+
+## Safer Defaults
+
+- Default to read-only investigation when intent is ambiguous.
+- Prefer test users, test segments, and test apps before broad sends.
+- Do not assume "everyone" means every user record; clarify subscribed audience and channel.
+- Do not bypass Cursor MCP approval prompts.
+- If a OneSignal capability is unavailable through MCP, explain the limitation and provide dashboard/API guidance instead of inventing a tool.

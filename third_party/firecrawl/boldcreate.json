@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 1,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [
+    "bearer"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://docs.firecrawl.dev/mcp-server",
+  "upstream": {
+    "repository": "https://github.com/firecrawl/firecrawl-cursor-plugin",
+    "path": "skills",
+    "commit": "81aa63c0f5a7d8b6bb0f3df204156aad608eac78",
+    "author": "Firecrawl",
+    "license": "MIT"
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.firecrawl.dev/v2/mcp-oauth: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://www.firecrawl.dev lists a registration endpoint, client ID metadata documents and S256 PKCE"
+  }
+}

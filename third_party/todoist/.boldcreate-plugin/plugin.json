@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "todoist",
+  "displayName": "Todoist",
+  "version": "0.1.0",
+  "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.todoist.com/help/todoist/todoist-and-ai/connect-todoist-to-an-ai-assistant-xMSzFfHng",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "productivity",
+  "keywords": [
+    "todoist",
+    "tasks",
+    "projects",
+    "to-do",
+    "productivity",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://www.todoist.com/help/todoist/todoist-and-ai/connect-todoist-to-an-ai-assistant-xMSzFfHng",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "todoist",
+        "transport": "streamable-http",
+        "url": "https://ai.todoist.net/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-15",
+    "source": "live probe of https://ai.todoist.net/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://todoist.com lists a registration endpoint and S256 PKCE"
+  }
+}

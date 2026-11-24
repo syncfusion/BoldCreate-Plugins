@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "supabase",
+  "displayName": "Supabase",
+  "version": "0.7.1",
+  "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://supabase.com/docs/guides/getting-started/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "database",
+  "keywords": [
+    "supabase",
+    "postgres",
+    "database",
+    "auth",
+    "storage",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://supabase.com/docs/guides/getting-started/mcp",
+  "upstream": {
+    "repository": "https://github.com/supabase/agent-skills",
+    "path": "skills",
+    "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+    "author": "Supabase",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "A"
+  },
+  "supportedByGateway": true,
+  "variables": {
+    "SUPABASE_READ_ONLY": {
+      "title": "Read-only mode",
+      "description": "Enter \"true\" to run queries as a read-only Postgres user, or \"false\" to allow writes. There is no default, so you must set a value.",
+      "required": true,
+      "secret": false
+    }
+  },
+  "components": {
+    "mcp": [
+      {
+        "name": "supabase",
+        "transport": "streamable-http",
+        "url": "https://mcp.supabase.com/mcp?read_only=${SUPABASE_READ_ONLY}",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "bearer"
+          ]
+        }
+      }
+    ],
+    "skills": [
+      "supabase",
+      "supabase-postgres-best-practices"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-10",
+    "source": "official docs"
+  }
+}

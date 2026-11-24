@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/boldcreate.schema.json",
+  "phase": 2,
+  "wave": "B",
+  "transport": "streamable-http",
+  "auth": "oauth",
+  "alternativeAuth": [
+    "header"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developer.bolddesk.com/mcp-server/",
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-17",
+    "source": "BoldDesk MCP Server docs (developer.bolddesk.com/mcp-server) and a live probe of support.bolddesk.com/mcp: an unauthenticated initialize returned HTTP 401 with a resource_metadata link, and the authorization metadata lists a registration endpoint (dynamic client registration) and S256 PKCE. No client was registered."
+  }
+}

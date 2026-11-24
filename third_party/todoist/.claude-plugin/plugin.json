@@ -1,0 +1,27 @@
+{
+  "name": "todoist",
+  "displayName": "Todoist",
+  "version": "0.1.0",
+  "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://www.todoist.com/help/todoist/todoist-and-ai/connect-todoist-to-an-ai-assistant-xMSzFfHng",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "todoist",
+    "tasks",
+    "projects",
+    "to-do",
+    "productivity",
+    "mcp"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "todoist": {
+      "type": "http",
+      "url": "https://ai.todoist.net/mcp"
+    }
+  }
+}

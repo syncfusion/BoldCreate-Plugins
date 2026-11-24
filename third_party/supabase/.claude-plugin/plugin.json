@@ -1,0 +1,36 @@
+{
+  "name": "supabase",
+  "displayName": "Supabase",
+  "version": "0.7.1",
+  "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://supabase.com/docs/guides/getting-started/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "supabase",
+    "postgres",
+    "database",
+    "auth",
+    "storage",
+    "mcp"
+  ],
+  "icon": "./assets/logo.svg",
+  "userConfig": {
+    "SUPABASE_READ_ONLY": {
+      "type": "string",
+      "title": "Read-only mode",
+      "description": "Enter \"true\" to run queries as a read-only Postgres user, or \"false\" to allow writes. There is no default, so you must set a value.",
+      "required": true,
+      "sensitive": false
+    }
+  },
+  "mcpServers": {
+    "supabase": {
+      "type": "http",
+      "url": "https://mcp.supabase.com/mcp?read_only=${user_config.SUPABASE_READ_ONLY}"
+    }
+  }
+}

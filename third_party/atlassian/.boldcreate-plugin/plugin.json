@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "atlassian",
+  "displayName": "Atlassian (Jira + Confluence)",
+  "version": "0.7.1",
+  "description": "Search and update Jira issues and Confluence pages.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/atlassian/atlassian-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "project-management",
+  "keywords": [
+    "jira",
+    "confluence",
+    "atlassian",
+    "issues",
+    "wiki",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/atlassian/atlassian-mcp-server",
+  "upstream": {
+    "repository": "https://github.com/atlassian/atlassian-mcp-server",
+    "path": "skills",
+    "commit": "352a02b05189e2a958a973867cc6eca365cb8fc3",
+    "author": "Atlassian",
+    "license": "Apache-2.0"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "atlassian",
+        "transport": "streamable-http",
+        "url": "https://mcp.atlassian.com/v2/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "basic-api-token"
+          ]
+        }
+      }
+    ],
+    "skills": [
+      "atlassian-mcp-code-search",
+      "capture-tasks-from-meeting-notes",
+      "jira-sprint-dashboard",
+      "search-company-knowledge",
+      "spec-to-backlog",
+      "triage-issue"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-10",
+    "source": "official docs"
+  }
+}

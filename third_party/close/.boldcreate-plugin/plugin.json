@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "close",
+  "displayName": "Close",
+  "version": "0.1.0",
+  "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.close.com/mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "crm",
+  "keywords": [
+    "close",
+    "crm",
+    "sales",
+    "leads",
+    "pipeline",
+    "opportunities",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://developer.close.com/mcp",
+  "upstream": {
+    "repository": "https://github.com/closeio/agent-plugin",
+    "path": "skills",
+    "commit": "3e102297006a4663e65d5fa9b195569843a5c53f",
+    "author": "Close",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "close",
+        "transport": "streamable-http",
+        "url": "https://mcp.close.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": [
+            "header"
+          ]
+        }
+      }
+    ],
+    "skills": [
+      "account-brief",
+      "close-crm",
+      "follow-up-plan",
+      "pipeline-review"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-15",
+    "source": "live probe of https://mcp.close.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://api.close.com lists a registration endpoint and S256 PKCE"
+  }
+}
