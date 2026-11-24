@@ -1,0 +1,406 @@
+{
+  "name": "boldcreate-plugins",
+  "owner": {
+    "name": "Syncfusion"
+  },
+  "metadata": {
+    "description": "Reviewed AI-agent plugins for BoldCreate Connect: remote MCP servers developers use every day, a toolkit for the whole software delivery lifecycle, Syncfusion component skills, and community skill and agent packs."
+  },
+  "plugins": [
+    {
+      "name": "amplitude",
+      "description": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts.",
+      "source": "third_party/amplitude"
+    },
+    {
+      "name": "android-management",
+      "description": "Manage enterprise Android devices, policies, and apps with the Android Management API.",
+      "source": "third_party/android-management"
+    },
+    {
+      "name": "atlassian",
+      "description": "Search and update Jira issues and Confluence pages.",
+      "source": "third_party/atlassian"
+    },
+    {
+      "name": "aws-knowledge",
+      "description": "Search AWS documentation, API references, and regional availability.",
+      "source": "third_party/aws-knowledge"
+    },
+    {
+      "name": "bolddesk",
+      "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk.",
+      "source": "third_party/bolddesk"
+    },
+    {
+      "name": "clickhouse",
+      "description": "Connect AI assistants to ClickHouse Cloud: list databases and tables, inspect schemas, and run scoped, read-only SELECT queries.",
+      "source": "third_party/clickhouse"
+    },
+    {
+      "name": "close",
+      "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records.",
+      "source": "third_party/close"
+    },
+    {
+      "name": "context7",
+      "description": "Pull up-to-date, version-specific library docs and code examples into the prompt.",
+      "source": "third_party/context7"
+    },
+    {
+      "name": "deepwiki",
+      "description": "Ask questions about any public GitHub repository and read its generated wiki.",
+      "source": "third_party/deepwiki"
+    },
+    {
+      "name": "exa",
+      "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
+      "source": "third_party/exa"
+    },
+    {
+      "name": "figma",
+      "description": "Turn Figma frames into code and read design tokens, components, and variables.",
+      "source": "third_party/figma"
+    },
+    {
+      "name": "firecrawl",
+      "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor.",
+      "source": "third_party/firecrawl"
+    },
+    {
+      "name": "freshbooks",
+      "description": "Check profit, cash, invoices, clients, and more in your FreshBooks account.",
+      "source": "third_party/freshbooks"
+    },
+    {
+      "name": "gitea",
+      "description": "Work with Gitea repositories, issues, pull requests, and releases through your own gitea-mcp server.",
+      "source": "third_party/gitea"
+    },
+    {
+      "name": "github",
+      "description": "Manage repos, issues, pull requests, and Actions.",
+      "source": "third_party/github"
+    },
+    {
+      "name": "gitlab",
+      "description": "Work with GitLab projects, issues, merge requests, pipelines, and code search.",
+      "source": "third_party/gitlab"
+    },
+    {
+      "name": "gmail",
+      "description": "Search, read, and draft Gmail messages and threads.",
+      "source": "third_party/gmail"
+    },
+    {
+      "name": "google-calendar",
+      "description": "List calendars, read events, and check free/busy time.",
+      "source": "third_party/google-calendar"
+    },
+    {
+      "name": "google-chat",
+      "description": "Read Google Chat spaces and messages, and post messages.",
+      "source": "third_party/google-chat"
+    },
+    {
+      "name": "google-cloud-agent-platform",
+      "description": "Generate content, run predictions, and manage models, endpoints, tuning, and evaluation on Vertex AI.",
+      "source": "third_party/google-cloud-agent-platform"
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "description": "Explore datasets and tables and run SQL queries.",
+      "source": "third_party/google-cloud-bigquery"
+    },
+    {
+      "name": "google-cloud-cli",
+      "description": "Run gcloud commands through Google's hosted Cloud CLI server.",
+      "source": "third_party/google-cloud-cli"
+    },
+    {
+      "name": "google-cloud-firestore",
+      "description": "Read and write Firestore documents and collections.",
+      "source": "third_party/google-cloud-firestore"
+    },
+    {
+      "name": "google-cloud-iam",
+      "description": "Review IAM roles, policies, and service accounts.",
+      "source": "third_party/google-cloud-iam"
+    },
+    {
+      "name": "google-cloud-resource-manager",
+      "description": "Browse Google Cloud organizations, folders, and projects.",
+      "source": "third_party/google-cloud-resource-manager"
+    },
+    {
+      "name": "google-cloud-run",
+      "description": "Deploy and manage Cloud Run services and jobs.",
+      "source": "third_party/google-cloud-run"
+    },
+    {
+      "name": "google-cloud-sql",
+      "description": "Manage Cloud SQL for MySQL, PostgreSQL, and SQL Server instances and run queries.",
+      "source": "third_party/google-cloud-sql"
+    },
+    {
+      "name": "google-cloud-storage",
+      "description": "List, read, and manage Cloud Storage buckets and objects.",
+      "source": "third_party/google-cloud-storage"
+    },
+    {
+      "name": "google-compute-engine",
+      "description": "Manage Compute Engine VMs, disks, and networks.",
+      "source": "third_party/google-compute-engine"
+    },
+    {
+      "name": "google-contacts",
+      "description": "Look up contacts and people in your Google Workspace directory.",
+      "source": "third_party/google-contacts"
+    },
+    {
+      "name": "google-design",
+      "description": "Get Google design guidance and assets, such as Material Design, while you build UI.",
+      "source": "third_party/google-design"
+    },
+    {
+      "name": "google-developer-knowledge",
+      "description": "Search official Google developer documentation for Android, Firebase, Google Cloud, and Maps.",
+      "source": "third_party/google-developer-knowledge"
+    },
+    {
+      "name": "google-docs",
+      "description": "Read, create, and edit Google Docs.",
+      "source": "third_party/google-docs"
+    },
+    {
+      "name": "google-drive",
+      "description": "Search, read, and create files in Google Drive.",
+      "source": "third_party/google-drive"
+    },
+    {
+      "name": "google-gemini-cloud-assist",
+      "description": "Ask Gemini Cloud Assist to design, troubleshoot, and optimize Google Cloud resources.",
+      "source": "third_party/google-gemini-cloud-assist"
+    },
+    {
+      "name": "google-kubernetes-engine",
+      "description": "Inspect and manage GKE clusters and workloads.",
+      "source": "third_party/google-kubernetes-engine"
+    },
+    {
+      "name": "google-maps-code-assist",
+      "description": "Get up-to-date Google Maps Platform docs and code samples while you write Maps code.",
+      "source": "third_party/google-maps-code-assist"
+    },
+    {
+      "name": "google-maps-grounding-lite",
+      "description": "Ground agents in Google Maps data: places, routes, and weather.",
+      "source": "third_party/google-maps-grounding-lite"
+    },
+    {
+      "name": "google-sheets",
+      "description": "Read, create, and update Google Sheets spreadsheets.",
+      "source": "third_party/google-sheets"
+    },
+    {
+      "name": "google-slides",
+      "description": "Read, create, and edit Google Slides presentations.",
+      "source": "third_party/google-slides"
+    },
+    {
+      "name": "google-stitch",
+      "description": "Generate UI designs and front-end code with Google Stitch.",
+      "source": "third_party/google-stitch"
+    },
+    {
+      "name": "google-workspace-search",
+      "description": "Search across Gmail, Drive, Calendar, and other Google Workspace content in one place.",
+      "source": "third_party/google-workspace-search"
+    },
+    {
+      "name": "huggingface",
+      "description": "Connect your AI assistant to the Hugging Face Hub: search and explore models, datasets, Spaces, and papers.",
+      "source": "third_party/huggingface"
+    },
+    {
+      "name": "incident-investigator",
+      "description": "Give an on-call engineer an evidence-based first read of an alert: impact, timeline, ranked causes with the evidence for each, and what to check next.",
+      "source": "plugins/incident-investigator"
+    },
+    {
+      "name": "linear",
+      "description": "Find, create, and update Linear issues, projects, and cycles.",
+      "source": "third_party/linear"
+    },
+    {
+      "name": "mdn",
+      "description": "Access MDN's search, documentation, and browser compatibility data (experimental MCP server).",
+      "source": "third_party/mdn"
+    },
+    {
+      "name": "microsoft-learn",
+      "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more.",
+      "source": "third_party/microsoft-learn"
+    },
+    {
+      "name": "mixpanel",
+      "description": "Query events, funnels, flows, and retention in Mixpanel, and manage dashboards, cohorts, experiments, and feature flags.",
+      "source": "third_party/mixpanel"
+    },
+    {
+      "name": "neon",
+      "description": "Manage Neon serverless Postgres projects, branches, queries, and migrations.",
+      "source": "third_party/neon"
+    },
+    {
+      "name": "notion",
+      "description": "Search, read, and update Notion pages and databases.",
+      "source": "third_party/notion"
+    },
+    {
+      "name": "onesignal",
+      "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app.",
+      "source": "third_party/onesignal"
+    },
+    {
+      "name": "posthog",
+      "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards.",
+      "source": "third_party/posthog"
+    },
+    {
+      "name": "pr-fixer",
+      "description": "Fix an existing pull request: answer clear review comments, repair failing CI and resolve simple merge conflicts, and ask when intent is unclear. Never merges.",
+      "source": "plugins/pr-fixer"
+    },
+    {
+      "name": "roboflow",
+      "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
+      "source": "third_party/roboflow"
+    },
+    {
+      "name": "sdlc-toolkit",
+      "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
+      "source": "sdlc-toolkit"
+    },
+    {
+      "name": "sentry",
+      "description": "Investigate Sentry errors, stack traces, and issues for a project.",
+      "source": "third_party/sentry"
+    },
+    {
+      "name": "stripe",
+      "description": "Work with Stripe customers, payments, subscriptions, and search Stripe docs.",
+      "source": "third_party/stripe"
+    },
+    {
+      "name": "supabase",
+      "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data.",
+      "source": "third_party/supabase"
+    },
+    {
+      "name": "syncfusion-angular",
+      "description": "Skills for building Angular apps with Syncfusion Angular UI components: data grid, charts, scheduler, editors, navigation and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/angular"
+    },
+    {
+      "name": "syncfusion-aspnet-core",
+      "description": "Skills for building ASP.NET Core apps with Syncfusion ASP.NET Core UI controls and Tag Helpers: data grid, charts, scheduler, editors and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/aspnet-core"
+    },
+    {
+      "name": "syncfusion-aspnet-mvc",
+      "description": "Skills for building ASP.NET MVC apps with Syncfusion ASP.NET MVC UI controls: data grid, charts, scheduler, editors and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/aspnet-mvc"
+    },
+    {
+      "name": "syncfusion-blazor",
+      "description": "Skills for building Blazor apps with Syncfusion Blazor components: data grid, charts, scheduler, editors, navigation and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/blazor"
+    },
+    {
+      "name": "syncfusion-document-sdk",
+      "description": "Skills for creating, editing and converting PDF, Word, Excel and PowerPoint files with the Syncfusion Document SDK in .NET, JavaScript, Flutter and Java.",
+      "source": "syncfusion/sdk-skills/document-sdk"
+    },
+    {
+      "name": "syncfusion-docx-editor-sdk",
+      "description": "Skills for adding the Syncfusion DOCX Editor (Word processor) to web and desktop apps: opening, editing, formatting and saving Word documents on each supported platform.",
+      "source": "syncfusion/sdk-skills/docx-editor-sdk"
+    },
+    {
+      "name": "syncfusion-flutter",
+      "description": "Skills for building Flutter apps with Syncfusion Flutter widgets: charts, data grid, calendar, gauges, maps and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/flutter"
+    },
+    {
+      "name": "syncfusion-javascript",
+      "description": "Skills for building JavaScript and TypeScript apps with Syncfusion Essential JS 2 controls: data grid, charts, scheduler, editors, navigation and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/javascript"
+    },
+    {
+      "name": "syncfusion-maui",
+      "description": "Skills for building .NET MAUI apps with Syncfusion .NET MAUI controls: data grid, charts, scheduler, inputs, navigation and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/maui"
+    },
+    {
+      "name": "syncfusion-maui-toolkit",
+      "description": "Skills for building .NET MAUI apps with the free, open-source Syncfusion Toolkit for .NET MAUI: charts, buttons, cards, calendar, navigation and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/maui-toolkit"
+    },
+    {
+      "name": "syncfusion-pdf-viewer-sdk",
+      "description": "Skills for adding the Syncfusion PDF Viewer to web, mobile and desktop apps: viewing, annotating, searching, form filling and more, on each supported platform.",
+      "source": "syncfusion/sdk-skills/pdf-viewer-sdk"
+    },
+    {
+      "name": "syncfusion-react",
+      "description": "Skills for building React apps with Syncfusion React UI components: data grid, charts, scheduler, editors, navigation and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/react"
+    },
+    {
+      "name": "syncfusion-spreadsheet-editor-sdk",
+      "description": "Skills for adding the Syncfusion Spreadsheet Editor to web and desktop apps: opening, editing, formulas, formatting and saving Excel files on each supported platform.",
+      "source": "syncfusion/sdk-skills/spreadsheet-editor-sdk"
+    },
+    {
+      "name": "syncfusion-vue",
+      "description": "Skills for building Vue apps with Syncfusion Vue UI components: data grid, charts, scheduler, editors, navigation and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/vue"
+    },
+    {
+      "name": "syncfusion-winforms",
+      "description": "Skills for building Windows Forms desktop apps with Syncfusion WinForms controls: data grid, charts, ribbon, docking, editors and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/winforms"
+    },
+    {
+      "name": "syncfusion-winui",
+      "description": "Skills for building WinUI 3 desktop apps with Syncfusion WinUI controls: data grid, charts, scheduler, editors and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/winui"
+    },
+    {
+      "name": "syncfusion-wpf",
+      "description": "Skills for building WPF desktop apps with Syncfusion WPF controls: data grid, charts, scheduler, docking, ribbon and more, with setup, APIs, theming and examples.",
+      "source": "syncfusion/component-skills/wpf"
+    },
+    {
+      "name": "syncfusion-xamarin-to-maui",
+      "description": "Skills for moving Xamarin.Forms apps to .NET MAUI: project and framework changes, platform-specific code, renderers to handlers, and Syncfusion Xamarin controls to their .NET MAUI equivalents.",
+      "source": "syncfusion/migration-skills/xamarin-to-maui"
+    },
+    {
+      "name": "ticket-assistant",
+      "description": "Check whether a Jira or Linear ticket is ready to build, list the exact questions if not, and write a short implementation brief. Changes the tracker only after you confirm.",
+      "source": "plugins/ticket-assistant"
+    },
+    {
+      "name": "todoist",
+      "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects.",
+      "source": "third_party/todoist"
+    },
+    {
+      "name": "vercel",
+      "description": "Inspect Vercel projects, deployments, and build logs, and search Vercel docs.",
+      "source": "third_party/vercel"
+    }
+  ]
+}
