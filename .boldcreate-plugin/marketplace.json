@@ -107,6 +107,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "azure-devops",
+      "displayName": "Azure DevOps",
+      "version": "0.1.0",
+      "description": "Work with Azure DevOps work items, repositories, pull requests, pipelines, wikis and test plans.",
+      "source": "third_party/azure-devops",
+      "logo": "third_party/azure-devops/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "bolddesk",
       "displayName": "BoldDesk",
       "version": "0.7.1",
