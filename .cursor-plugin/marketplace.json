@@ -28,6 +28,11 @@
       "source": "third_party/aws-knowledge"
     },
     {
+      "name": "azure-devops",
+      "description": "Work with Azure DevOps work items, repositories, pull requests, pipelines, wikis and test plans.",
+      "source": "third_party/azure-devops"
+    },
+    {
       "name": "bolddesk",
       "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk.",
       "source": "third_party/bolddesk"

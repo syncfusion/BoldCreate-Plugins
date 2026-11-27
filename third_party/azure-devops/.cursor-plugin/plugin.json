@@ -1,0 +1,45 @@
+{
+  "name": "azure-devops",
+  "displayName": "Azure DevOps",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Work with Azure DevOps work items, repositories, pull requests, pipelines, wikis and test plans.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "azure devops",
+    "work items",
+    "pull requests",
+    "pipelines",
+    "repos",
+    "mcp"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "developer-tools",
+    "mcp",
+    "http"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "CLIENT_ID": {
+        "type": "string",
+        "title": "Client ID",
+        "description": "The Application (client) ID of the Microsoft Entra app registration that your team creates for this plugin. It is not a secret. See the Setup section of the plugin README.",
+        "x-sensitive": false
+      }
+    },
+    "required": [
+      "CLIENT_ID"
+    ]
+  },
+  "mcpServers": "./mcp.json"
+}

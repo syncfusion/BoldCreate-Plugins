@@ -28,6 +28,11 @@
       "description": "Search AWS documentation, API references, and regional availability."
     },
     {
+      "name": "azure-devops",
+      "source": "./third_party/azure-devops",
+      "description": "Work with Azure DevOps work items, repositories, pull requests, pipelines, wikis and test plans."
+    },
+    {
       "name": "bolddesk",
       "source": "./third_party/bolddesk",
       "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk."
