@@ -6,4 +6,4 @@ All notable changes to this plugin will be documented here.
 
 - First version: Azure DevOps remote MCP server over streamable HTTP.
 - The URL leaves out the organization, as the documentation allows. Name the organization in each request.
-- Auth is Microsoft Entra ID with a public client. Each team registers its own Entra app and enters its client ID when installing, because Entra does not support dynamic client registration.
+- Auth is Microsoft Entra ID (OAuth). The plugin sets no client ID and no client secret, like the plugins whose servers support dynamic client registration. Entra itself does not support dynamic client registration, so sign-in through BoldCreate Connect has not been tested.

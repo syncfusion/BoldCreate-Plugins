@@ -27,19 +27,5 @@
     "mcp",
     "http"
   ],
-  "variables": {
-    "type": "object",
-    "properties": {
-      "CLIENT_ID": {
-        "type": "string",
-        "title": "Client ID",
-        "description": "The Application (client) ID of the Microsoft Entra app registration that your team creates for this plugin. It is not a secret. See the Setup section of the plugin README.",
-        "x-sensitive": false
-      }
-    },
-    "required": [
-      "CLIENT_ID"
-    ]
-  },
   "mcpServers": "./mcp.json"
 }

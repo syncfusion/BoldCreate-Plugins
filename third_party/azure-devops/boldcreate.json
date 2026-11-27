@@ -5,7 +5,6 @@
   "transport": "streamable-http",
   "auth": "oauth",
   "alternativeAuth": [],
-  "publicOAuthClient": true,
   "oauthScopes": [
     "https://mcp.dev.azure.com/.default"
   ],
@@ -13,6 +12,6 @@
   "docs": "https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server",
   "endpointCheck": {
     "lastLiveCheck": "2026-11-27",
-    "source": "official docs and live check (mcp.dev.azure.com): an unauthenticated initialize returned HTTP 401 with a resource_metadata link; the protected-resource metadata names Microsoft Entra ID as the only authorization server and lists the scope https://mcp.dev.azure.com/.default. No client was registered."
+    "source": "official docs and live check (mcp.dev.azure.com): an unauthenticated initialize returned HTTP 401 with a resource_metadata link; the protected-resource metadata names Microsoft Entra ID as the only authorization server and lists the scope https://mcp.dev.azure.com/.default. No client was registered. The URL alone (no client ID) was reported to list tools in Visual Studio Code after a Microsoft login."
   }
 }

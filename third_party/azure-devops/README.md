@@ -17,10 +17,7 @@ Work with Azure DevOps work items, repositories, pull requests, pipelines, wikis
   "mcpServers": {
     "azure-devops": {
       "type": "http",
-      "url": "https://mcp.dev.azure.com/",
-      "auth": {
-        "CLIENT_ID": "${CLIENT_ID}"
-      }
+      "url": "https://mcp.dev.azure.com/"
     }
   }
 }
@@ -30,23 +27,11 @@ The URL has no organization in it. Microsoft's documentation allows this, and th
 
 ## Setup
 
-Set this when you install the plugin. It is not a secret.
+There is nothing to enter. The plugin sets no client ID and no client secret. The first time the agent calls a tool, each member signs in with a Microsoft Entra account in the browser. Tool calls run with that member's Azure DevOps permissions.
 
-| Setting | Required | Secret | What to enter |
-| --- | --- | --- | --- |
-| **Client ID** (`CLIENT_ID`) | Yes | No | The Application (client) ID of the Microsoft Entra app registration that your team creates for this plugin. There is no default. |
+In Visual Studio Code, adding only this URL and signing in with a Microsoft account lists the tools. Microsoft's documentation has no app registration step for Visual Studio Code, Visual Studio, Copilot Studio, Microsoft Foundry or the GitHub Copilot CLI and app. It does not say why. It says Cursor and Claude Code need a custom Microsoft Entra app registration.
 
-Microsoft Entra ID does not support dynamic client registration, so the plugin cannot register itself. Each team registers one app and enters its client ID. There is no client secret.
-
-Steps, based on Microsoft's steps for Cursor. A tenant administrator may need to do some of them.
-
-1. In **Microsoft Entra ID**, then **Enterprise applications**, confirm that the **Azure DevOps MCP** application (ID `2a72489c-aab2-4b65-b93a-a91edccf33b8`) exists. Set **Application type** to **All applications** when you search. If it is missing, see Microsoft's [troubleshooting page](https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server-troubleshooting).
-2. In the Microsoft Entra admin center, go to **App registrations** and create an app registration.
-3. Under **Authentication**, add a redirect URI of the **Mobile and desktop applications** type for BoldCreate Connect, and turn on **Allow public client flows**. Ask your BoldCreate administrator for the redirect URI. Microsoft's `http://localhost:8787/callback` is for Cursor and does not apply here.
-4. Under **API permissions**, choose **Add a permission**, then **APIs my organization uses**, and select **Azure DevOps MCP**. Add the delegated permissions you need (see [Scopes](#scopes)), then grant admin consent.
-5. Copy the **Application (client) ID** and enter it as **Client ID**.
-
-Microsoft's steps use the Mobile and desktop platform with a localhost address. Whether Entra accepts the BoldCreate Connect redirect URI under that platform has not been tested.
+Microsoft Entra ID does not support dynamic client registration. Sign-in through BoldCreate Connect has not been tested, so it is not confirmed that it works without a client ID.
 
 ## Organization
 
@@ -76,7 +61,7 @@ Microsoft's documentation lists 48 tools. Most take an `action` parameter, and t
 
 ## Scopes
 
-The server uses delegated OAuth scopes. The access an agent has is the scopes you grant to the app registration, and never more than the signed-in user can do in Azure DevOps.
+The server uses delegated OAuth scopes. Which ones are granted depends on the client that signs in. With a custom app registration you choose them. This plugin does not use one. Scopes never give more than the signed-in user can do in Azure DevOps.
 
 | Scope family | Access |
 | --- | --- |
@@ -89,11 +74,9 @@ The server uses delegated OAuth scopes. The access an agent has is the scopes yo
 
 Each higher tier includes the lower ones, and any `read` scope also allows the core tools. Scope families for test plans (`testplan.*`) and Enterprise Live Migration (`elm.*`) also exist.
 
-Do not grant `Ado.Mcp.Tools`. It is a legacy scope that allows every tool and overrides the granular scopes.
-
 ## Write access
 
-46 actions are not marked read-only. They include creating and updating work items, creating pull requests, voting on them, queuing pipeline runs, updating wiki pages, and changing iterations, capacity and test plans. To keep an agent read-only, grant only `read` scopes. Microsoft's headers for limiting tools, such as `X-MCP-Toolsets`, are not set by this plugin.
+46 actions are not marked read-only. They include creating and updating work items, creating pull requests, voting on them, queuing pipeline runs, updating wiki pages, and changing iterations, capacity and test plans. Scopes are not chosen here, so the way to keep an agent read-only is to sign in with an account that has only read access in Azure DevOps. Microsoft's headers for limiting tools, such as `X-MCP-Toolsets`, are not set by this plugin.
 
 ## Authentication
 
